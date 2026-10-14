@@ -232,7 +232,10 @@ export function PriceMatrix({
       <table
         style={{
           width: '100%',
-          minWidth: 420,
+          // 300 y no 420: con 420 la columna "por mayor" —el argumento de venta
+          // de la tabla— quedaba fuera de pantalla en un teléfono, detrás del
+          // scroll lateral. Tres columnas entran en 300 px.
+          minWidth: 300,
           borderCollapse: 'collapse',
           fontFamily: avios.fontSans,
           fontSize: 14,
