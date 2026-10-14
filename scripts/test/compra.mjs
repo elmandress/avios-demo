@@ -4,7 +4,7 @@
 // El bug que originó toda la reforma vivía exactamente acá: el mensaje de
 // WhatsApp cobraba $ 7,92 por dos piezas de 100 metros que valían $ 792.
 
-import { crearReporte } from './lib/tester.mjs'
+import { crearReporte, tienePrecio } from './lib/tester.mjs'
 
 export async function pruebaCompra(ctx) {
   const r = crearReporte('Flujo de compra')
@@ -17,22 +17,19 @@ export async function pruebaCompra(ctx) {
   const tarjetas = await ctx.js(`__n('.product-card')`)
   r.check(tarjetas === 20, `la grilla lista los 20 artículos (${tarjetas})`)
 
-  const desde = await ctx.js(`
-    __txt('.product-card', 'Cinta de raso doble faz')?.innerText.includes('$ 11,70')
-  `)
-  r.check(desde, 'la cinta de raso muestra "desde $ 11,70 el metro"')
+  const tarjetaRaso = await ctx.js(`__txt('.product-card', 'Cinta de raso doble faz')?.innerText ?? ''`)
+  r.check(tienePrecio(tarjetaRaso, 13), 'la cinta de raso muestra "desde $ 13 el metro"')
 
   // ── Selección en la ficha ─────────────────────────────────────────────────
   await ctx.irA('/tienda/cinta-raso-doble-faz', { esperarA: 'input[type=number]' })
 
-  const porMenor = await ctx.js(`document.body.innerText.includes('$ 11,70')`)
-  r.check(porMenor, 'la ficha abre en la presentación por menor')
+  r.check(tienePrecio(await ctx.js(`document.body.innerText`), 13), 'la ficha abre en la presentación por menor')
 
   const porMayor = await ctx.js(`
-    document.body.innerText.includes('$ 356,40') &&
-    document.body.innerText.includes('$ 3,56 el metro')
+    document.body.innerText.includes('$ 396') &&
+    document.body.innerText.includes('$ 3,96 el metro')
   `)
-  r.check(porMayor, 'y muestra la pieza cerrada a $ 356,40 ($ 3,56 el metro)')
+  r.check(porMayor, 'y muestra la pieza cerrada a $ 396 ($ 3,96 el metro)')
 
   const ahorro = await ctx.js(`document.body.innerText.includes('Ahorrás 70%')`)
   r.check(ahorro, 'con el ahorro calculado (70%)')
@@ -47,8 +44,8 @@ export async function pruebaCompra(ctx) {
   await ctx.esperarQue(`!!document.querySelector('.upgrade-hint')`)
   const aviso = await ctx.js(`document.querySelector('.upgrade-hint').innerText`)
   r.check(
-    aviso.includes('170,10') && aviso.includes('55 m'),
-    'con 45 m avisa que la pieza sale $ 170,10 menos y trae 55 m más'
+    aviso.includes('189') && aviso.includes('55 m'),
+    'con 45 m avisa que la pieza sale $ 189 menos y trae 55 m más'
   )
   r.nota(aviso.replace(/\n+/g, ' · ').slice(0, 110))
 
@@ -76,7 +73,7 @@ export async function pruebaCompra(ctx) {
   await ctx.irA('/carrito', { esperarA: '[class*=cart], main' })
   await ctx.esperarQue(`document.body.innerText.includes('Tu pedido')`)
   const carrito = await ctx.js(`document.body.innerText`)
-  r.check(carrito.includes('$ 712,80'), 'el carrito cobra $ 712,80 por 2 piezas — no $ 7,92')
+  r.check(carrito.includes('$ 792'), 'el carrito cobra $ 792 por 2 piezas — no $ 7,92')
   r.check(carrito.includes('200 m'), 'y aclara que son 200 m en total')
   r.check(carrito.includes('1 artículo'), 'cuenta 1 artículo, no 2 unidades sueltas')
 
@@ -87,7 +84,7 @@ export async function pruebaCompra(ctx) {
   await ctx.esperarQue(`!!document.querySelector('.msg-preview-body pre')`)
   const texto = await ctx.js(`document.querySelector('.msg-preview-body pre').innerText`)
 
-  r.check(texto.includes('$ 712,80'), 'el mensaje cobra el mismo total que la pantalla')
+  r.check(texto.includes('$ 792'), 'el mensaje cobra el mismo total que la pantalla')
   r.check(texto.includes('200 m'), 'y detalla el contenido total')
   r.check(texto.includes('Pieza cerrada'), 'y nombra la presentación elegida')
   r.check(!texto.includes('localhost'), 'sin direcciones de localhost adentro')

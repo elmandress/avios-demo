@@ -141,3 +141,18 @@ export function crearContexto(cdp, base) {
 
   return ctx
 }
+
+/**
+ * ¿El texto muestra el precio "$ n" con ese número exacto? "$ 13" no cuenta
+ * como "$ 13,50" ni "$ 130". El espacio después del signo puede ser duro (así
+ * lo escribe formatUYU), y se normaliza antes de comparar.
+ */
+export function tienePrecio(texto, n) {
+  const limpio = String(texto ?? '').split(String.fromCharCode(160)).join(' ')
+  const aguja = '$ ' + n
+  for (let i = limpio.indexOf(aguja); i !== -1; i = limpio.indexOf(aguja, i + 1)) {
+    const siguiente = limpio[i + aguja.length]
+    if (siguiente === undefined || !'0123456789,'.includes(siguiente)) return true
+  }
+  return false
+}

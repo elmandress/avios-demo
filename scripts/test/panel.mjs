@@ -1,7 +1,7 @@
 // El panel: que la puerta funcione, que se pueda editar, y —lo que hace que la
 // demo se sienta real— que la tienda refleje la edición al instante.
 
-import { crearReporte } from './lib/tester.mjs'
+import { crearReporte, tienePrecio } from './lib/tester.mjs'
 
 export async function pruebaPanel(ctx) {
   const r = crearReporte('Panel de administración')
@@ -66,16 +66,16 @@ export async function pruebaPanel(ctx) {
   // ── La tienda tiene que reflejarlo ────────────────────────────────────────
   await ctx.irA('/tienda/cinta-raso-doble-faz', { esperarA: 'input[type=number]' })
   r.check(
-    (await ctx.js(`document.body.innerText`)).includes('$ 89,10'),
-    'la ficha muestra el precio editado ($ 99 menos 10% = $ 89,10)'
+    tienePrecio(await ctx.js(`document.body.innerText`), 99),
+    'la ficha muestra el precio editado ($ 99)'
   )
 
   // El "desde" de la grilla es el más barato POR MENOR: al subir el de 4 mm a
-  // $ 99, pasa a mandar el de 7 mm ($ 15 menos 10% = $ 13,50).
+  // $ 99, pasa a mandar el de 7 mm ($ 15).
   await ctx.irA('/tienda/cintas', { esperarA: '.product-card' })
-  const grilla = await ctx.js(`document.body.innerText`)
+  const tarjeta = await ctx.js(`__txt('.product-card', 'Cinta de raso doble faz')?.innerText ?? ''`)
   r.check(
-    grilla.includes('$ 13,50') && !grilla.includes('$ 11,70'),
+    tienePrecio(tarjeta, 15) && !tienePrecio(tarjeta, 13),
     'la grilla recalcula el "desde" con el precio nuevo'
   )
 
@@ -90,7 +90,7 @@ export async function pruebaPanel(ctx) {
   await ctx.js(`localStorage.removeItem('avios.panel.catalogo.v1'); true`)
   await ctx.irA('/tienda/cinta-raso-doble-faz')
   r.check(
-    (await ctx.js(`document.body.innerText`)).includes('$ 11,70'),
+    tienePrecio(await ctx.js(`document.body.innerText`), 13),
     'restaurar devuelve el catálogo original'
   )
 
