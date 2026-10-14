@@ -246,7 +246,7 @@ export function TiendaClient({
 
       {/* Categorías */}
       <nav aria-label="Categorías" style={{ marginBottom: 18 }}>
-        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+        <div className="chip-row">
           <Chip on={activeCategory === 'todo'} onClick={() => router.push('/tienda')}>
             Todo
           </Chip>

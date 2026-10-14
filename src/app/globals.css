@@ -594,6 +594,38 @@ input[type='search']::-webkit-search-cancel-button {
   }
 }
 
+/* Chips de categoría de /tienda. En escritorio, en renglones; en teléfono,
+   una sola fila que se desliza: con siete categorías los chips ocupaban cuatro
+   renglones y empujaban los artículos media pantalla hacia abajo. */
+.chip-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .chip-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+    /* El relleno deja al último chip fuera del desvanecido cuando se llega al
+       final de la fila. */
+    padding-right: 40px;
+    /* Se desvanece a la derecha: deja ver que la fila sigue. */
+    mask-image: linear-gradient(to right, #000 85%, transparent);
+  }
+
+  .chip-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chip-row > * {
+    flex: 0 0 auto;
+  }
+}
+
 .cat-tile-body {
   display: flex;
   flex-direction: column;
