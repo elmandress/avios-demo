@@ -142,7 +142,9 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
       {/* ── Destacados ────────────────────────────────────────────────────── */}
       {featured.length > 0 && (
         <section style={sectionStyle}>
-          <SectionHead title="Lo que más sale" link={{ href: '/tienda', label: 'Ver todo' }} />
+          {/* "Lo que más sale" afirmaba algo sin datos detrás: el orden es el que
+              elige Alejandra en el panel, no el de ventas. */}
+          <SectionHead title="Para arrancar" link={{ href: '/tienda', label: 'Ver todo el catálogo' }} />
           <div className="product-grid">
             {featured.map((card, i) => (
               <ProductCard key={card.slug} card={card} priority={i < 4} />

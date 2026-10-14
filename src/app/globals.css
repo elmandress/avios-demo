@@ -749,8 +749,11 @@ input[type='search']::-webkit-search-cancel-button {
   .wholesale-band-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  /* !important porque la tarjeta trae display: flex en línea, que le gana a
+     cualquier regla de hoja: sin esto la regla nunca se aplicaba y la tercera
+     tarjeta quedaba sola en su renglón. */
   .wholesale-band-grid > :nth-child(3) {
-    display: none;
+    display: none !important;
   }
 }
 
