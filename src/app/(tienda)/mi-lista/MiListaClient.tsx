@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react'
 import { useFavorites } from '@/components/FavoritesProvider'
-import { useIndice } from '@/components/CatalogProvider'
+import { useIndice } from '@/components/useIndice'
 import { ProductCard } from '@/components/ProductCard'
 import { avios, Button, SectionTitle } from '@/components/ui/Primitives'
 

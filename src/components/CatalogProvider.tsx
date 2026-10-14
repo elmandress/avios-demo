@@ -2,19 +2,14 @@
 
 import { createContext, useContext, useEffect, useMemo, useSyncExternalStore } from 'react'
 import type { Catalog, Category, Discount, Product } from '@/lib/catalog/types'
-import { tarjetasDe, type TarjetaProducto } from '@/lib/catalog/tarjeta'
 import {
-  leerIndice,
-  leerIndiceServidor,
-  pedirIndice,
   pedirProductos,
   productoEnCache,
-  suscribirIndice,
   suscribirProductos,
   versionProductos,
   versionProductosServidor,
 } from '@/lib/catalog/cliente'
-import { getServerSnapshot, getSnapshot, subscribe } from '@/lib/admin/store'
+import { getServerSnapshot, getSnapshot, subscribe } from '@/lib/admin/nucleo'
 
 // El catálogo que ve el navegador.
 //
@@ -26,7 +21,7 @@ import { getServerSnapshot, getSnapshot, subscribe } from '@/lib/admin/store'
 // Ahora recibe sólo lo chico y compartido —categorías, descuentos, textos— y lo
 // demás se pide cuando hace falta (lib/catalog/cliente.ts):
 //
-//   useIndice()     tarjetas livianas de todos los artículos
+//   useIndice()     tarjetas livianas de todos los artículos (useIndice.ts)
 //   useProductos()  productos completos, de a uno, para el carrito
 //
 // Las ediciones del panel siguen funcionando igual: el panel guarda en el
@@ -99,24 +94,6 @@ export function useCatalog(): CatalogContextValue {
  */
 export function useOptionalCatalog(): CatalogContextValue | null {
   return useContext(CatalogContext) ?? null
-}
-
-/**
- * Las tarjetas de todo el catálogo, o null mientras no llegaron.
- *
- * `activar` en false no pide nada: el header lo pasa recién cuando se abre el
- * buscador, así quien entra a /contacto no baja el índice.
- */
-export function useIndice(activar = true): TarjetaProducto[] | null {
-  const { overlay } = useCatalog()
-  const estado = useSyncExternalStore(suscribirIndice, leerIndice, leerIndiceServidor)
-
-  useEffect(() => {
-    if (activar && !overlay) pedirIndice()
-  }, [activar, overlay])
-
-  const delPanel = useMemo(() => (overlay ? tarjetasDe(overlay) : null), [overlay])
-  return delPanel ?? estado.tarjetas
 }
 
 /**

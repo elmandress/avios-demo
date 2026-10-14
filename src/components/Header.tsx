@@ -1,17 +1,19 @@
 'use client'
 
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import dynamic from 'next/dynamic'
 import { Enlace } from './Enlace'
 import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation'
-import { formatUYU } from '@/lib/catalog/pricing'
-import { normalizeText } from '@/lib/media'
-import { puntuarCampos } from '@/lib/search/match'
 import { BRAND } from '@/lib/env'
-import { useCatalog, useIndice } from './CatalogProvider'
+import { useCatalog } from './CatalogProvider'
 import { useCart } from './CartProvider'
 import { useFavorites } from './FavoritesProvider'
 import { avios, Icon } from './ui/Primitives'
+
+// Las sugerencias se bajan recién al abrir la lupa: traen el diccionario de
+// búsqueda y el índice del catálogo, que la mayoría de las visitas no usa.
+const ResultadosBusqueda = dynamic(() => import('./ResultadosBusqueda'))
 
 // Header.
 //
@@ -36,13 +38,6 @@ const NAV: NavItem[] = [
   { href: '/nosotros', label: 'La mercería' },
   { href: '/contacto', label: 'Contacto' },
 ]
-
-interface SearchHit {
-  slug: string
-  name: string
-  price: string
-  category: string
-}
 
 export function Header({ promo }: { promo: { enabled: boolean; text: string; link: string } }) {
   // Las categorías del menú salen del catálogo, no de una lista escrita a mano:
@@ -88,34 +83,6 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
       document.removeEventListener('keydown', onKey)
     }
   }, [searchOpen])
-
-  const categoryName = useMemo(
-    () => new Map(categories.map((c) => [c.slug, c.name])),
-    [categories]
-  )
-
-  // El índice se baja recién cuando se abre el buscador: quien entra a
-  // /contacto no tiene por qué bajar el catálogo.
-  const tarjetas = useIndice(searchOpen)
-
-  const hits: SearchHit[] = useMemo(() => {
-    const q = normalizeText(query)
-    if (q.length < 2 || !tarjetas) return []
-    return tarjetas
-      // El ranking sale de lib/search/match, el MISMO módulo que filtra la
-      // grilla de /tienda. Cuando eran dos códigos distintos, la sugerencia
-      // mostraba el producto y al apretar Enter la grilla decía "sin resultados".
-      .map((p) => ({ p, score: puntuarCampos(p.busqueda, query) }))
-      .filter((x) => x.score >= 0)
-      .sort((a, b) => a.score - b.score)
-      .slice(0, 6)
-      .map(({ p }) => ({
-        slug: p.slug,
-        name: p.name,
-        price: formatUYU(p.precio.fromUyu),
-        category: categoryName.get(p.categorySlug) ?? '',
-      }))
-  }, [query, tarjetas, categoryName])
 
   // Renglones y no unidades: un globito con "45" porque alguien pidió 45 metros
   // de una cinta se lee como 45 artículos en el carrito.
@@ -244,7 +211,11 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={(e) => {
-                    if (e.key === 'Enter' && hits[0]) router.push(`/tienda/${hits[0].slug}`)
+                    // Enter lleva al catálogo con TODOS los resultados: es la
+                    // misma dirección que Google conoce (SearchAction del layout).
+                    if (e.key === 'Enter' && query.trim().length >= 2) {
+                      router.push(`/tienda?q=${encodeURIComponent(query.trim())}`)
+                    }
                   }}
                   placeholder="Cinta de raso, hilo encerado, 15 mm…"
                   style={{
@@ -259,60 +230,7 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
                 />
               </label>
 
-              {query.length >= 2 && (
-                <ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0 }}>
-                  {hits.length === 0 ? (
-                    <li
-                      style={{
-                        fontFamily: avios.fontSans,
-                        fontSize: 14,
-                        color: avios.ink500,
-                        padding: '10px 2px',
-                      }}
-                    >
-                      {tarjetas === null
-                        ? 'Buscando…'
-                        : 'Nada con ese nombre. Probá con la categoría o preguntanos por WhatsApp.'}
-                    </li>
-                  ) : (
-                    hits.map((hit) => (
-                      <li key={hit.slug}>
-                        <Enlace
-                          href={`/tienda/${hit.slug}`}
-                          style={{
-                            display: 'flex',
-                            justifyContent: 'space-between',
-                            alignItems: 'baseline',
-                            gap: 12,
-                            padding: '10px 2px',
-                            textDecoration: 'none',
-                            borderTop: `1px solid ${avios.border}`,
-                          }}
-                        >
-                          <span style={{ display: 'flex', flexDirection: 'column', minWidth: 0 }}>
-                            <span style={{ fontFamily: avios.fontSans, fontSize: 15, color: avios.ink900 }}>
-                              {hit.name}
-                            </span>
-                            <span style={{ fontFamily: avios.fontSans, fontSize: 12.5, color: avios.ink500 }}>
-                              {hit.category}
-                            </span>
-                          </span>
-                          <span
-                            style={{
-                              fontFamily: avios.fontSans,
-                              fontSize: 14,
-                              color: avios.ink700,
-                              whiteSpace: 'nowrap',
-                            }}
-                          >
-                            desde {hit.price}
-                          </span>
-                        </Enlace>
-                      </li>
-                    ))
-                  )}
-                </ul>
-              )}
+              <ResultadosBusqueda query={query} />
             </div>
           </div>
         )}
