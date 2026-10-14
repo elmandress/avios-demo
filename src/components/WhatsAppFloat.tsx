@@ -1,8 +1,9 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { usePathname } from 'next/navigation'
 import { track } from '@/lib/analytics'
+import { leerConsulta, leerConsultaServidor, suscribirConsulta } from '@/lib/consulta'
 
 /**
  * Burbuja de WhatsApp fija en la esquina.
@@ -16,6 +17,8 @@ import { track } from '@/lib/analytics'
 export function WhatsAppFloat({ enabled, waUrl }: { enabled: boolean; waUrl: string }) {
   const pathname = usePathname()
   const [visible, setVisible] = useState(true)
+  // En la ficha, el artículo y la variante elegida (ver lib/consulta.ts).
+  const consulta = useSyncExternalStore(suscribirConsulta, leerConsulta, leerConsultaServidor)
   const lastYRef = useRef(0)
 
   // Use a ref for lastY so the scroll handler is stable (registered once, not
@@ -56,7 +59,7 @@ export function WhatsAppFloat({ enabled, waUrl }: { enabled: boolean; waUrl: str
   //
   // El emoji también se fue: no es la voz de mostrador de Avíos, y en el
   // teclado de WhatsApp la primera impresión es el mensaje ya escrito.
-  const message = encodeURIComponent('Hola! Estoy viendo el sitio y tengo una consulta.')
+  const message = encodeURIComponent(consulta ?? 'Hola! Estoy viendo el sitio y tengo una consulta.')
   const href = `${waUrl.replace(/\/$/, '')}?text=${message}`
 
   return (

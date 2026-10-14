@@ -82,12 +82,33 @@ export function Button({
   }
   const mergedStyle = { ...base, ...sizes[size], ...variants[variant], ...style }
 
+  // Externo (wa.me, Instagram): pestaña nueva. Con <Link> se navegaba en la
+  // misma pestaña y el cliente se iba del sitio en medio de la consulta.
+  if (href && !disabled && (href.startsWith('https://') || href.startsWith('http://'))) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+        onClick={onClick as unknown as React.MouseEventHandler<HTMLAnchorElement>}
+        style={{ ...mergedStyle, textDecoration: 'none' }}
+      >
+        {children}
+      </a>
+    )
+  }
+
   if (href && !disabled) {
     return (
       <Enlace
         href={href}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
+        // Sin esto, un Button con href descartaba el onClick y cualquier
+        // medición puesta ahí no registraba nada (lo encontró Dahila, b20f8e5).
+        onClick={onClick as unknown as React.MouseEventHandler<HTMLAnchorElement>}
         style={{ ...mergedStyle, textDecoration: 'none' }}
       >
         {children}

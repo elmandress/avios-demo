@@ -5,6 +5,7 @@ import type { Discount, Product } from '@/lib/catalog/types'
 import { aTarjeta, type TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { registrarProductos } from '@/lib/catalog/cliente'
 import { recordarVisto } from '@/lib/vistos'
+import { fijarConsulta } from '@/lib/consulta'
 import { UNIT_NOUN } from '@/lib/catalog/types'
 import {
   applyDiscount,
@@ -156,6 +157,13 @@ export function ProductDetailsClient({
     setQty(1)
   }
 
+  // La burbuja de WhatsApp abre con este artículo y la variante elegida.
+  const mensajeConsulta = buildEnquiryMessage(product.name, variant?.label ?? '', siteUrl, product.slug)
+  useEffect(() => {
+    fijarConsulta(mensajeConsulta)
+    return () => fijarConsulta(null)
+  }, [mensajeConsulta])
+
   if (!variant || !format) {
     return (
       <div style={{ maxWidth: 720, margin: '0 auto', padding: '64px 24px' }}>
@@ -196,10 +204,7 @@ export function ProductDetailsClient({
     setTimeout(() => setAdded(false), 2000)
   }
 
-  const enquiryUrl = whatsappLink(
-    whatsappUrl,
-    buildEnquiryMessage(product.name, variant.label, siteUrl, product.slug)
-  )
+  const enquiryUrl = whatsappLink(whatsappUrl, mensajeConsulta)
 
   const galleryImages = product.media.map((m) => ({ url: m.url, alt: m.alt || product.name }))
 
@@ -441,9 +446,23 @@ export function ProductDetailsClient({
                   ? 'Este artículo está sin stock por ahora. Escribinos y te avisamos cuando vuelva.'
                   : 'Esta presentación se coordina por WhatsApp: nos falta confirmar la medida de la pieza.'}
               </p>
-              <Button variant="whatsapp" size="lg" full href={enquiryUrl}>
-                <Icon name="whatsapp-logo" weight="fill" size={19} /> Consultar por WhatsApp
-              </Button>
+              <div ref={botonRef}>
+                <Button variant="whatsapp" size="lg" full href={enquiryUrl}>
+                  <Icon name="whatsapp-logo" weight="fill" size={19} /> Consultar por WhatsApp
+                </Button>
+              </div>
+
+              {/* La barra fija también existe sin precio: ofrece la consulta, no
+                  un "Agregar" que no puede funcionar (Dahila, 3fe1e40). */}
+              <div className="barra-compra" data-visible={barraVisible ? 'si' : 'no'} aria-hidden={!barraVisible}>
+                <div className="barra-compra-texto">
+                  <span>{soldOut ? 'Sin stock por ahora' : 'Se coordina por WhatsApp'}</span>
+                  <strong style={{ fontSize: 15 }}>{product.name}</strong>
+                </div>
+                <Button variant="whatsapp" href={enquiryUrl} tabIndex={barraVisible ? 0 : -1}>
+                  Consultar
+                </Button>
+              </div>
             </div>
           )}
 
@@ -482,7 +501,12 @@ export function ProductDetailsClient({
           >
             <Fact icon="storefront">Retirás en San José 851 esq. Andes, o te lo enviamos.</Fact>
             <Fact icon="truck">{shippingEstimate || 'Envíos a todo Uruguay por agencia.'}</Fact>
-            <Fact icon="credit-card">Efectivo o transferencia, coordinado por WhatsApp.</Fact>
+            {/* "¿Cuándo pago?" contestado al lado del botón (Dahila, 3cc8b3a).
+                Antes decía "efectivo o transferencia", que no está confirmado:
+                esto es verdad por cómo funciona el sitio. */}
+            <Fact icon="credit-card">
+              No pagás nada en el sitio: confirmamos el pedido y la forma de pago por WhatsApp.
+            </Fact>
             {product.variants.some((v) => v.formats.some((f) => f.tier === 'mayor')) && (
               <Fact icon="stack">
                 Precio por mayor llevando la pieza cerrada, sin registrarte.
