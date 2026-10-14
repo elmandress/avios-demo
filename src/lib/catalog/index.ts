@@ -171,9 +171,16 @@ async function leerDeSupabase(): Promise<CatalogResult> {
       supabase.from('site_settings').select('key, value'),
     ])
 
-    // Si falla lo que sostiene la tienda, se sirve el catálogo local ENTERO —
-    // nunca un mix a medias, que confundiría más que una caída limpia.
-    if (productsRes.error || categoriesRes.error) return localCatalog('snapshot')
+    // Si falla lo que sostiene la tienda, se LANZA en vez de devolver el
+    // catálogo local acá adentro. Lo que devuelve esta función queda en la
+    // caché, y la caché no vence por tiempo (revalidate: false): una caída de
+    // cinco minutos —el proyecto pausado por inactividad, la cuota agotada—
+    // dejaba el respaldo servido hasta el próximo webhook, que podía tardar
+    // días. Lo que lanza no se cachea, así que la próxima regeneración vuelve a
+    // intentar. Es la misma regla que Dahila aprendió en producción.
+    if (productsRes.error || categoriesRes.error) {
+      throw new Error('catálogo: la consulta principal devolvió error')
+    }
 
     const settings = ((settingsRes.data ?? []) as Array<{ key: string; value: string }>).reduce<
       Record<string, string>
@@ -207,7 +214,7 @@ async function leerDeSupabase(): Promise<CatalogResult> {
     }
   } catch (e) {
     unstable_rethrow(e) // no tragar el bailout dinámico ni notFound de Next
-    return localCatalog('snapshot')
+    throw e // ver arriba: un error no puede quedar guardado en la caché
   }
 }
 
@@ -247,7 +254,14 @@ const getCatalogCacheado = unstable_cache(leerDeSupabase, ['catalogo-avios'], {
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function getCatalog(_supabase?: SupabaseClient): Promise<CatalogResult> {
   if (DEMO_MODE) return localCatalog('demo')
-  return getCatalogCacheado()
+  try {
+    return await getCatalogCacheado()
+  } catch (e) {
+    unstable_rethrow(e)
+    // Se sirve el catálogo local ENTERO —nunca un mix a medias, que confundiría
+    // más que una caída limpia— y la próxima visita vuelve a probar la base.
+    return localCatalog('snapshot')
+  }
 }
 
 /**
