@@ -1,0 +1,1323 @@
+/* Panel — puerta de acceso, formularios y edición.
+ *
+ * Separado de panel.css (que tiene el marco y las tablas de lectura) para que
+ * cada archivo se pueda leer entero de una sentada.
+ */
+
+/* ── Puerta de acceso ────────────────────────────────────────────────────── */
+
+.panel-gate {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+  background: var(--paper-50);
+}
+
+.panel-login {
+  width: min(420px, 100%);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 30px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: var(--shadow-md);
+}
+
+.panel-login-brand {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-500);
+}
+
+.panel-login h1 {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--ink-900);
+  margin: 0 0 4px;
+}
+
+.panel-login label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.panel-login label > span {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink-700);
+}
+
+.panel-login input {
+  width: 100%;
+}
+
+.panel-login-error {
+  margin: 0;
+  font-size: 14px;
+  color: var(--sale);
+}
+
+.panel-login-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 4px;
+  padding: 13px 14px;
+  border-radius: 9px;
+  background: #fff6e6;
+  border: 1px solid #d99b18;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-900);
+}
+
+.panel-login-note svg {
+  flex-shrink: 0;
+  color: #7a5000;
+  margin-top: 1px;
+}
+
+.panel-login-note code {
+  background: rgba(54, 35, 29, 0.09);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 12.5px;
+}
+
+.panel-logout {
+  margin-left: 14px;
+  background: rgba(255, 255, 255, 0.16);
+  border: none;
+  color: #fff;
+  font-size: 12.5px;
+  padding: 3px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.panel-reset {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 22px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-strong);
+  background: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-700);
+  cursor: pointer;
+  text-align: left;
+}
+
+.panel-reset:hover {
+  border-color: var(--sale);
+  color: var(--sale);
+}
+
+/* ── Cabeceras con acción ────────────────────────────────────────────────── */
+
+.panel-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.panel-saved {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  color: var(--saving-700);
+}
+
+/* ── Filtros y búsqueda ──────────────────────────────────────────────────── */
+
+.panel-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.panel-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 240px;
+  min-width: 200px;
+  padding: 0 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  background: #fff;
+}
+
+.panel-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 40px;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--ink-900);
+}
+
+.panel-empty {
+  padding: 40px 0;
+  text-align: center;
+  color: var(--ink-500);
+  font-size: 15px;
+}
+
+/* ── Formularios ─────────────────────────────────────────────────────────── */
+
+.panel-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.panel-field-label {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-700);
+}
+
+.panel-field-label code {
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--ink-500);
+  background: var(--paper-100);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.panel-field-hint {
+  font-size: 12.5px;
+  color: var(--ink-500);
+}
+
+.panel-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.panel-settings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Los controles de casilla (checkbox y radio) quedan afuera: son glifos del
+   sistema, no cajas de texto. Antes la lista sólo excluía checkbox, así que el
+   primer radio del panel salió con width:100%, borde y padding — se veía como
+   un punto gigante centrado y empujaba su etiqueta fuera de la columna. */
+.panel input:not([type="checkbox"]):not([type="radio"]),
+.panel select,
+.panel textarea {
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--ink-900);
+  background: #fff;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 9px 11px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.panel-gate input {
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--ink-900);
+  background: #fff;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.panel textarea {
+  resize: vertical;
+  line-height: 1.55;
+}
+
+.panel input:focus,
+.panel select:focus,
+.panel textarea:focus,
+.panel-gate input:focus {
+  outline: 2px solid var(--brand-100);
+  border-color: var(--brand-500);
+}
+
+.panel-inline-check,
+.panel-tiny-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  color: var(--ink-700);
+  white-space: nowrap;
+}
+
+.panel-tiny-check {
+  font-size: 12.5px;
+}
+
+.panel-inline-check input,
+.panel-tiny-check input {
+  width: auto;
+  accent-color: var(--brand-500);
+}
+
+.panel-inline-editor {
+  background: #fff;
+  border: 1px solid var(--brand-100);
+  border-left: 3px solid var(--brand-500);
+  border-radius: 12px;
+  padding: 22px 22px 24px;
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.panel-inline-editor h2 {
+  margin: 0;
+}
+
+.panel-save-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 20px 0 8px;
+  border-top: 1px solid var(--border);
+  margin-top: 10px;
+}
+
+/* ── Fotos ───────────────────────────────────────────────────────────────── */
+
+.panel-photos {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.panel-photo {
+  position: relative;
+  width: 118px;
+  height: 118px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--paper-100);
+}
+
+.panel-photo button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(54, 35, 29, 0.72);
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.panel-photo-tag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(54, 35, 29, 0.76);
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  padding: 3px 0;
+}
+
+.panel-photo-add {
+  width: 118px;
+  height: 118px;
+  border-radius: 10px;
+  border: 1.5px dashed var(--border-strong);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: var(--ink-500);
+  font-size: 12.5px;
+  text-align: center;
+  padding: 8px;
+}
+
+.panel-photo-add:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+.panel-photo-add input {
+  display: none;
+}
+
+/* ── Variantes y presentaciones ──────────────────────────────────────────── */
+
+.panel-variant-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 18px 12px;
+  margin-bottom: 14px;
+  overflow-x: auto;
+}
+
+.panel-variant-head {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.panel-variant-head .panel-field {
+  flex: 1 1 240px;
+}
+
+.panel-danger-link {
+  background: none;
+  border: none;
+  padding: 8px 0;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--sale);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.panel-format-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.panel-format-table th,
+.panel-format-table td {
+  text-align: left;
+  padding: 7px 9px 7px 0;
+  vertical-align: middle;
+}
+
+.panel-format-table thead th {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  border-bottom: 1px solid var(--ink-100);
+  white-space: nowrap;
+}
+
+.panel-format-table tbody tr + tr td,
+.panel-format-table tbody tr + tr th {
+  border-top: 1px solid var(--ink-100);
+}
+
+.panel-format-table select {
+  width: auto;
+  min-width: 108px;
+}
+
+.panel-content-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.panel-content-cell select {
+  min-width: 88px;
+}
+
+.panel-unit-hint {
+  display: block;
+  font-size: 11.5px;
+  color: var(--ink-500);
+  margin-top: 2px;
+}
+
+.panel-add-format {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px dashed var(--border-strong);
+  background: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-700);
+  cursor: pointer;
+}
+
+.panel-add-format:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+/* ── Acciones de tabla ───────────────────────────────────────────────────── */
+
+.panel-actions {
+  white-space: nowrap;
+}
+
+.panel-actions a,
+.panel-actions button {
+  background: none;
+  border: none;
+  padding: 4px 8px 4px 0;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--brand-600);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.panel-actions button:last-child {
+  color: var(--ink-500);
+}
+
+.panel-actions button:last-child:hover {
+  color: var(--sale);
+}
+
+.panel-order {
+  white-space: nowrap;
+}
+
+.panel-order button {
+  width: 26px;
+  height: 24px;
+  border: 1px solid var(--border-strong);
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--ink-700);
+  display: inline-grid;
+  place-items: center;
+  margin-right: 3px;
+}
+
+.panel-order button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* La flecha de bajar es la de subir, rotada: un solo icono para las dos. */
+.panel-order button:last-child svg {
+  transform: rotate(180deg);
+}
+
+.panel-status-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* ── Accesos rápidos ─────────────────────────────────────────────────────── */
+
+.panel-quick {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+}
+
+.panel-quick a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #fff;
+  text-decoration: none;
+  color: var(--ink-900);
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.panel-quick a:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+.panel-quick svg {
+  color: var(--brand-500);
+}
+
+.panel-note span {
+  flex: 1;
+}
+
+/* La celda de acciones de cada presentación tiene un check y un botón pegados:
+   sin separación se leen como una sola palabra ("activaQuitar"). */
+.panel-format-table .panel-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.panel-format-table .panel-actions button {
+  padding: 4px 0;
+}
+
+/* ── Ajuste de precios ───────────────────────────────────────────────────── */
+
+.price-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.price-percent {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.price-percent input {
+  width: 84px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.price-percent span {
+  font-size: 15px;
+  color: var(--ink-500);
+}
+
+.price-percent button {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 38px;
+  flex-shrink: 0;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink-700);
+  cursor: pointer;
+}
+
+.price-percent button:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+.price-unit-cell {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.price-unit-cell svg {
+  color: var(--ink-300);
+}
+
+/* Aviso de operación exitosa. Verde, como todo lo que salió bien. */
+.panel-ok {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 13px 16px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  border: 1px solid var(--saving-600);
+  background: var(--saving-100);
+  font-size: 14.5px;
+  color: var(--ink-900);
+}
+
+.panel-ok svg {
+  flex-shrink: 0;
+  color: var(--saving-700);
+}
+
+/* Estado vacío con forma de caja, para las secciones que arrancan sin datos. */
+.panel-empty-box {
+  padding: 46px 24px;
+  text-align: center;
+  border: 1px dashed var(--border-strong);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.panel-empty-box svg {
+  color: var(--ink-300);
+}
+
+.panel-empty-box h2 {
+  font-size: 17px;
+  margin: 12px 0 7px;
+}
+
+.panel-empty-box p {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-500);
+  margin: 0;
+}
+
+/* Un solo icono para las dos direcciones: la de bajada es la misma rotada. */
+.price-arrow {
+  display: inline-grid;
+  place-items: center;
+  color: var(--ink-500);
+}
+
+.price-arrow[data-dir='baja'] {
+  transform: rotate(180deg);
+  color: var(--saving-600);
+}
+
+/* El reset completo es más raro y más destructivo que restaurar el catálogo:
+   va más discreto, para que no se toque por accidente. */
+.panel-reset-todo {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--ink-500);
+  border-style: dashed;
+}
+
+.panel-reset-todo:hover {
+  border-style: solid;
+}
+
+/* ── Publicar en Instagram ───────────────────────────────────────────────── */
+/*
+ * Dos columnas: a la izquierda lo que se elige, a la derecha el texto. En
+ * teléfono se apilan, con el texto abajo — que es lo que se lee último y lo que
+ * se copia.
+ */
+
+.pub {
+  display: grid;
+  grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
+  gap: 26px;
+  align-items: start;
+}
+
+.pub-col {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pub-label {
+  display: block;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  margin-bottom: 6px;
+}
+
+.pub-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  background: #fff;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--ink-900);
+}
+
+.pub-formato {
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 14px 14px 12px;
+  margin: 0;
+  /* Un <fieldset> trae min-inline-size: min-content, que ignora el ancho de la
+     columna de grid que lo contiene: el texto de las opciones se desbordaba a
+     la derecha y quedaba tapado por la columna del editor. */
+  min-inline-size: 0;
+}
+
+.pub-formato legend {
+  padding: 0 6px;
+  margin-bottom: 0;
+}
+
+.pub-formato label {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.pub-formato input {
+  margin-top: 3px;
+  accent-color: var(--brand-500);
+  flex: 0 0 auto;
+}
+
+.pub-formato span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.pub-formato strong {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-900);
+}
+
+.pub-formato small {
+  font-size: 12.5px;
+  color: var(--ink-500);
+  line-height: 1.45;
+}
+
+.pub-foto {
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.pub-foto-vacia {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  background: var(--paper-50);
+  border: 1px dashed var(--border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-foto p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-500);
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--brand-600);
+  text-decoration: none;
+}
+
+.pub-link:hover {
+  text-decoration: underline;
+}
+
+.pub-editor-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pub-contador {
+  font-size: 12px;
+  color: var(--ink-500);
+  font-variant-numeric: tabular-nums;
+}
+
+.pub-textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border: 1px solid var(--border-strong);
+  border-radius: 11px;
+  background: #fff;
+  color: var(--ink-900);
+  /* El texto se va a pegar en Instagram, donde los saltos de línea cuentan:
+     se edita en monoespaciada para ver exactamente cómo va a quedar. */
+  font-family: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+  font-size: 13.5px;
+  line-height: 1.65;
+  resize: vertical;
+}
+
+.pub-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.pub-avisos {
+  border: 1px solid var(--gold-500);
+  background: var(--gold-100);
+  border-radius: 11px;
+  padding: 13px 15px;
+}
+
+.pub-avisos strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-900);
+}
+
+.pub-avisos ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.pub-avisos li {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-700);
+  margin-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+  .pub {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ── Respaldo ────────────────────────────────────────────────────────────── */
+
+.resp {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 20px;
+  align-items: start;
+}
+
+.resp-card {
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  padding: 20px 22px 22px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.resp-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  font-size: 19px;
+  color: var(--ink-900);
+}
+
+.resp-card > p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-700);
+}
+
+.resp-cifra {
+  margin: 0;
+  font-size: 13px;
+  color: var(--ink-500);
+  font-variant-numeric: tabular-nums;
+}
+
+.resp-opcion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 14px;
+  border-top: 1px solid var(--ink-100);
+}
+
+.resp-opcion > div {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.resp-opcion strong {
+  display: block;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink-900);
+  margin-bottom: 4px;
+}
+
+.resp-opcion p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-500);
+}
+
+.resp-aviso {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.resp-aviso-ok {
+  background: var(--saving-100);
+  border: 1px solid var(--saving-600);
+  color: var(--saving-700);
+}
+
+.resp-aviso-mal {
+  background: var(--brand-50);
+  border: 1px solid var(--brand-500);
+  color: var(--brand-700);
+}
+
+.resp-aviso span {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+
+.resp-archivo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  background: transparent;
+  color: var(--ink-900);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: all 150ms var(--ease);
+}
+
+.resp-archivo:hover {
+  border-color: var(--ink-900);
+  background: var(--paper-50);
+}
+
+/* El <label> es el control; el input no participa del recorrido de teclado.
+   Con display:none el navegador igual lo abre al activar la etiqueta. */
+.resp-archivo input {
+  display: none;
+}
+
+.resp-card-ancha {
+  margin-top: 20px;
+  grid-column: 1 / -1;
+}
+
+/* Vista previa de la importación: los cuatro números que contestan "¿qué va
+   a pasar?" antes de que pase. */
+.resp-previa {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.resp-previa > div {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 13px 15px;
+  background: var(--paper-50);
+}
+
+.resp-previa b {
+  display: block;
+  font-family: var(--font-display), Georgia, serif;
+  font-variation-settings: 'opsz' 28;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.1;
+  color: var(--ink-900);
+  font-variant-numeric: tabular-nums;
+}
+
+.resp-previa span {
+  font-size: 12.5px;
+  color: var(--ink-500);
+}
+
+.resp-detalle {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-500);
+}
+
+.resp-nada {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.resp-errores {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.resp-errores li {
+  display: flex;
+  gap: 12px;
+  padding: 9px 14px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-700);
+  background: #fff;
+}
+
+.resp-errores li + li {
+  border-top: 1px solid var(--ink-100);
+}
+
+.resp-errores b {
+  flex: 0 0 auto;
+  color: var(--brand-700);
+  font-variant-numeric: tabular-nums;
+}
+
+.resp-errores-mas {
+  color: var(--ink-500);
+  font-style: italic;
+}
+
+/* ── Conexiones ──────────────────────────────────────────────────────────── */
+/*
+ * Lista ordenada por impacto, no por dificultad. El distintivo de "cuánto
+ * mueve" es información, no decoración: es lo que evita que alguien pase una
+ * tarde con Merchant Center y no toque la ficha de Google.
+ */
+
+.cx {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 780px;
+}
+
+.cx-paso {
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  padding: 20px 22px 22px;
+  background: #fff;
+}
+
+/* El filete de la izquierda repite el peso, para que se lea de un vistazo al
+   recorrer la columna sin leer los distintivos. */
+.cx-paso[data-peso='alto'] {
+  border-left: 3px solid var(--brand-500);
+}
+
+.cx-paso[data-peso='medio'] {
+  border-left: 3px solid var(--gold-500);
+}
+
+.cx-paso[data-peso='bajo'] {
+  border-left: 3px solid var(--ink-300);
+}
+
+.cx-cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.cx-cabecera h2 {
+  margin: 0;
+  font-size: 20px;
+  color: var(--ink-900);
+}
+
+.cx-peso {
+  flex: 0 0 auto;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.cx-peso[data-peso='alto'] {
+  background: var(--brand-50);
+  color: var(--brand-700);
+}
+
+.cx-peso[data-peso='medio'] {
+  background: var(--gold-100);
+  color: var(--ink-900);
+}
+
+.cx-peso[data-peso='bajo'] {
+  background: var(--paper-100);
+  color: var(--ink-700);
+}
+
+.cx-que {
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-900);
+}
+
+.cx-porque {
+  margin: 0 0 14px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-500);
+}
+
+.cx-como {
+  margin: 0 0 14px;
+  padding-left: 20px;
+}
+
+.cx-como li {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-700);
+  margin-bottom: 6px;
+}
+
+.cx-copiar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--paper-50);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.cx-copiar > div {
+  min-width: 0;
+  flex: 1 1 240px;
+}
+
+.cx-copiar span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  margin-bottom: 3px;
+}
+
+.cx-copiar code {
+  display: block;
+  font-size: 13px;
+  color: var(--ink-900);
+  word-break: break-all;
+}
+
+.cx-reserva {
+  display: flex;
+  gap: 9px;
+  margin: 0 0 12px;
+  padding: 11px 13px;
+  background: var(--gold-100);
+  border-radius: 9px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ink-700);
+}
+
+.cx-reserva svg {
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+
+.cx-enlace {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.cx-enlace a {
+  color: var(--brand-600);
+  text-decoration: none;
+}
+
+.cx-enlace a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .cx-paso {
+    padding: 16px 16px 18px;
+  }
+}

@@ -1,0 +1,2698 @@
+/* Mercería Avíos — estilos globales.
+ *
+ * Sólo vive acá lo que NO puede resolverse con estilos en línea: variables,
+ * reset, media queries, pseudo-clases (:hover, :focus-visible) y layouts que
+ * cambian de forma según el ancho. Todo lo demás va en el componente, junto al
+ * markup, que es como está escrito el resto del sistema.
+ *
+ * Los tokens repiten los valores de `avios` en Primitives.tsx a propósito: el
+ * CSS no puede importar de TypeScript. Si cambia uno, cambian los dos.
+ */
+
+:root {
+  /* Espejo de los tokens de `avios` en Primitives.tsx — el CSS no puede
+     importar de TypeScript. Si cambia uno, cambian los dos.
+     Los valores salen del logo real (public/favicon.svg). */
+
+  --white: #ffffff;
+  --paper-50: #fefaf1;
+  --paper-100: #f7ede4;
+  --paper-200: #e7d8c8;
+
+  --ink-900: #36231d;
+  --ink-700: #5c463e;
+  --ink-500: #6e5a50;
+  --ink-300: #c7b7ac;
+  --ink-100: #ede3d9;
+
+  --brand-700: #8e1038;
+  --brand-600: #b91744;
+  --brand-500: #ca1a4b;
+  --brand-400: #d72457;
+  --brand-100: #f7d6e0;
+  --brand-50: #fdeff3;
+
+  /* El dorado es ornamento: como texto no llega a AA en ningún fondo. */
+  --gold-600: #b0822c;
+  --gold-500: #c79a3e;
+  --gold-100: #f2e6cc;
+
+  --saving-700: #0b5537;
+  --saving-600: #0f6b47;
+  --saving-100: #d8ede1;
+
+  --sale: #8e1038;
+
+  --border: rgba(54, 35, 29, 0.1);
+  --border-strong: rgba(54, 35, 29, 0.22);
+  --shadow-sm: 0 4px 14px -8px rgba(54, 35, 29, 0.18);
+  --shadow-md: 0 14px 30px -18px rgba(54, 35, 29, 0.26);
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  --header-height: 62px;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  color: var(--ink-900);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), Georgia, serif;
+  /* Fraunces es variable: el eje óptico ajusta el contraste del trazo al
+     tamaño. Sin esto, un título de 44px usa el dibujo pensado para 14px. */
+  font-variation-settings: 'opsz' 36;
+  font-weight: 400;
+}
+
+a {
+  color: var(--brand-600);
+}
+
+/* Filete dorado: el ornamento de la marca, en las cabeceras de sección. */
+.rule-gold {
+  height: 2px;
+  width: 44px;
+  background: var(--gold-500);
+  border-radius: 2px;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+}
+
+/* Foco visible y consistente en todo lo interactivo. Sólo :focus-visible, para
+   que no aparezca el anillo al hacer clic con el mouse. */
+:focus-visible {
+  outline: 2px solid var(--brand-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Los inputs number del stepper de cantidad: sin flechitas nativas, que chocan
+   con los botones de + y −. */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* ── Accesibilidad ───────────────────────────────────────────────────────── */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 12px;
+  z-index: 200;
+  background: var(--ink-900);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: top 160ms var(--ease);
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 11px 22px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.brand-wordmark {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.16em;
+  color: var(--ink-900);
+}
+
+.nav-desktop {
+  display: flex;
+  gap: 26px;
+  flex: 1;
+  align-items: center;
+}
+
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  color: var(--ink-900);
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-900);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 140ms var(--ease);
+}
+
+.icon-button:hover {
+  background: var(--paper-100);
+}
+
+.count-badge {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--brand-500);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+
+.search-panel {
+  border-top: 1px solid var(--border);
+  background: #fff;
+}
+
+.search-panel-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 14px 22px 18px;
+}
+
+.mobile-menu {
+  position: fixed;
+  inset: var(--header-height) 0 0;
+  z-index: 99;
+  background: #fff;
+  overflow-y: auto;
+  padding: 18px 22px 40px;
+}
+
+.mobile-menu nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu-link {
+  padding: 14px 0;
+  font-size: 18px;
+  color: var(--ink-900);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-sub {
+  font-size: 16px;
+  color: var(--ink-700);
+  padding-left: 12px;
+}
+
+.mobile-menu-heading {
+  padding: 22px 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+}
+
+@media (max-width: 860px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-toggle {
+    display: inline-flex;
+  }
+  .brand-link {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header-inner {
+    padding: 10px 14px;
+    gap: 12px;
+  }
+  .brand-wordmark {
+    font-size: 19px;
+  }
+  .header-actions {
+    gap: 0;
+  }
+}
+
+/* ── Grilla de productos ─────────────────────────────────────────────────── */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  row-gap: 34px;
+}
+
+@media (max-width: 1000px) {
+  .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    row-gap: 26px;
+  }
+}
+
+.product-card-img {
+  transition: transform 500ms var(--ease);
+}
+
+.product-card:hover .product-card-img {
+  transform: scale(1.04);
+}
+
+/* En pantallas táctiles no hay hover: el zoom quedaba trabado tras un toque. */
+@media (hover: none) {
+  .product-card:hover .product-card-img {
+    transform: none;
+  }
+}
+
+/* ── Ficha de producto ───────────────────────────────────────────────────── */
+
+.pdp-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+}
+
+.pdp-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+  position: sticky;
+  top: calc(var(--header-height) + 20px);
+}
+
+@media (max-width: 860px) {
+  .pdp-split {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 26px;
+  }
+  .pdp-detail {
+    position: static;
+    gap: 18px;
+  }
+}
+
+/* ── Portada ─────────────────────────────────────────────────────────────── */
+
+.home-hero {
+  background: linear-gradient(180deg, var(--paper-50) 0%, var(--white) 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.home-hero-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 56px 22px 44px;
+}
+
+.home-hero-facts {
+  list-style: none;
+  margin: 40px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.home-hero-facts li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  font-size: 15px;
+  color: var(--ink-900);
+  line-height: 1.4;
+}
+
+.home-hero-facts small {
+  display: block;
+  font-size: 13.5px;
+  color: var(--ink-500);
+  margin-top: 2px;
+  line-height: 1.45;
+}
+
+@media (max-width: 780px) {
+  .home-hero-facts {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .home-hero-inner {
+    padding: 36px 22px 32px;
+  }
+}
+
+/* ── Baldosas de categoría ───────────────────────────────────────────────── */
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+  }
+}
+
+/*
+ * La baldosa es una pieza sola: la foto (cuando hay) va de fondo a sangre y el
+ * texto se apoya sobre un degradado que garantiza contraste sin depender de
+ * cómo sea la foto. Sin foto, el mismo bloque queda sobre papel crema con un
+ * filete dorado — la misma silueta, otra textura.
+ */
+.cat-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  aspect-ratio: 4 / 3;
+  padding: 14px 15px 13px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  isolation: isolate;
+  background: var(--paper-100);
+  border: 1px solid var(--border);
+  transition:
+    transform 180ms var(--ease),
+    box-shadow 180ms var(--ease);
+}
+
+.cat-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+@media (hover: none) {
+  .cat-tile:hover {
+    transform: none;
+  }
+}
+
+.cat-tile-photo {
+  object-fit: cover;
+  z-index: -2;
+  transition: transform 600ms var(--ease);
+}
+
+.cat-tile:hover .cat-tile-photo {
+  transform: scale(1.05);
+}
+
+/* El velo que hace legible el texto sobre cualquier foto. Va como
+   pseudo-elemento y no como otra capa del markup: es presentación pura. */
+.cat-tile[data-photo='si']::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to top,
+    rgba(28, 12, 16, 0.92) 0%,
+    rgba(28, 12, 16, 0.74) 34%,
+    rgba(28, 12, 16, 0.34) 68%,
+    rgba(28, 12, 16, 0.14) 100%
+  );
+}
+
+/* Sin foto: filete dorado arriba, el guiño al cordón del logo. */
+.cat-tile[data-photo='no']::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gold-500);
+}
+
+/* Los nombres de los primeros artículos, en las baldosas sin foto. Van arriba,
+   separados del bloque de título, y en un tono bajo: son contexto, no encabezado. */
+.cat-tile-sample {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--ink-500);
+}
+
+.cat-tile-sample span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cat-tile-sample span::before {
+  content: '· ';
+  color: var(--gold-500);
+}
+
+.cat-tile-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.cat-tile-name {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.cat-tile-meta {
+  font-size: 12.5px;
+  line-height: 1.35;
+}
+
+.cat-tile[data-photo='si'] .cat-tile-name {
+  color: #fff;
+}
+
+.cat-tile[data-photo='si'] .cat-tile-meta {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.cat-tile[data-photo='no'] .cat-tile-name {
+  color: var(--ink-900);
+}
+
+.cat-tile[data-photo='no'] .cat-tile-meta {
+  color: var(--ink-500);
+}
+
+.cat-tile-go {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition:
+    opacity 180ms var(--ease),
+    transform 180ms var(--ease);
+}
+
+.cat-tile[data-photo='si'] .cat-tile-go {
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ink-900);
+}
+
+.cat-tile[data-photo='no'] .cat-tile-go {
+  background: var(--brand-500);
+  color: #fff;
+}
+
+.cat-tile:hover .cat-tile-go,
+.cat-tile:focus-visible .cat-tile-go {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* En táctil no hay hover: la flecha se muestra siempre, más discreta. */
+@media (hover: none) {
+  .cat-tile-go {
+    opacity: 0.85;
+    transform: none;
+  }
+}
+
+/* ── Banda mayorista ─────────────────────────────────────────────────────── */
+
+.wholesale-band {
+  background: var(--brand-700);
+  color: #fff;
+}
+
+/* Filete dorado arriba de la banda: el guiño al cordón del logo. */
+.wholesale-band {
+  border-top: 3px solid var(--gold-500);
+}
+
+.wholesale-band-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 56px 22px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 48px;
+  align-items: center;
+}
+
+/* Las tarjetas de producto están pensadas para fondo claro: tipografía oscura,
+   precio en rojo de oferta, badges de bajo contraste. Sobre el burdeos de la
+   banda quedaban ilegibles. En vez de reescribir cada color en blanco —que
+   arruina el rojo de oferta y el verde de ahorro, que SON el mensaje— se les
+   pone debajo la superficie clara para la que fueron diseñadas. */
+.wholesale-band-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  background: var(--white);
+  padding: 16px;
+  border-radius: 14px;
+}
+
+@media (max-width: 900px) {
+  .wholesale-band-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+    padding: 40px 22px;
+  }
+}
+
+@media (max-width: 560px) {
+  .wholesale-band-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wholesale-band-grid > :nth-child(3) {
+    display: none;
+  }
+}
+
+/* ── Pasos ───────────────────────────────────────────────────────────────── */
+
+.steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px;
+  counter-reset: step;
+}
+
+.steps li h3 {
+  font-size: 18px;
+  margin: 12px 0 7px;
+}
+
+.steps li p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-700);
+  margin: 0;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: var(--brand-500);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (max-width: 780px) {
+  .steps {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+}
+
+/* ── Página de mayorista ─────────────────────────────────────────────────── */
+
+.wholesale-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.wholesale-steps > div {
+  padding: 22px 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.wholesale-steps h3 {
+  font-size: 18px;
+  margin: 12px 0 7px;
+}
+
+.wholesale-steps p {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--ink-700);
+  margin: 0;
+}
+
+.wholesale-step-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: var(--gold-100);
+}
+
+@media (max-width: 780px) {
+  .wholesale-steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.condition-list {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 32px;
+}
+
+.condition-list dt {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  margin-bottom: 5px;
+}
+
+.condition-list dd {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-900);
+}
+
+@media (max-width: 700px) {
+  .condition-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.savings-table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.savings-table th,
+.savings-table td {
+  padding: 12px 14px 12px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.savings-table thead th {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  border-bottom: 1px solid var(--ink-300);
+}
+
+.savings-table tbody tr {
+  border-bottom: 1px solid var(--ink-100);
+}
+
+.savings-table tbody th {
+  font-weight: 600;
+  color: var(--ink-900);
+}
+
+.savings-table tbody th a {
+  color: var(--ink-900);
+  text-decoration: none;
+}
+
+.savings-table tbody th a:hover {
+  color: var(--brand-600);
+  text-decoration: underline;
+}
+
+.savings-table tbody td {
+  color: var(--ink-700);
+}
+
+/* ── Tira de contacto ────────────────────────────────────────────────────── */
+
+.contact-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  flex-wrap: wrap;
+  padding: 28px 26px;
+  background: var(--paper-50);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 640px) {
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ── Pie ─────────────────────────────────────────────────────────────────── */
+
+.site-footer {
+  margin-top: 64px;
+  background: var(--paper-50);
+  border-top: 1px solid var(--border);
+}
+
+.site-footer-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 48px 22px 34px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 34px;
+}
+
+.site-footer h2 {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  margin: 0 0 13px;
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.site-footer a {
+  color: var(--ink-700);
+  text-decoration: none;
+  font-size: 14.5px;
+}
+
+.site-footer a:hover {
+  color: var(--brand-600);
+  text-decoration: underline;
+}
+
+.site-footer-brand p {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--ink-700);
+  margin: 14px 0 16px;
+  max-width: 300px;
+}
+
+.site-footer-social {
+  display: flex;
+  gap: 12px;
+}
+
+.site-footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  color: var(--ink-700);
+}
+
+.site-footer-contact address {
+  font-style: normal;
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.site-footer-contact li {
+  font-size: 14px;
+  color: var(--ink-500);
+}
+
+.site-footer-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.site-footer-legal {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 18px 22px 28px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--ink-500);
+}
+
+.site-footer-legal a {
+  font-size: 13px;
+  color: var(--ink-500);
+}
+
+@media (max-width: 900px) {
+  .site-footer-inner {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .site-footer-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .site-footer-legal {
+    justify-content: flex-start;
+  }
+}
+
+/* ── Tablas que hacen scroll horizontal ──────────────────────────────────── */
+/*
+ * Una tabla de precios que se corta al borde de la pantalla, sin nada que
+ * indique que sigue, se lee como una tabla incompleta. Estas sombras son el
+ * truco clásico de `background-attachment: local`: dos degradados blancos fijos
+ * en los bordes tapan dos sombras que scrollean con el contenido, así que la
+ * sombra sólo se ve del lado donde queda contenido oculto. Cero JavaScript.
+ */
+.scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background-image:
+    linear-gradient(to right, var(--white), var(--white)),
+    linear-gradient(to right, var(--white), var(--white)),
+    linear-gradient(to right, rgba(22, 24, 28, 0.12), rgba(22, 24, 28, 0)),
+    linear-gradient(to left, rgba(22, 24, 28, 0.12), rgba(22, 24, 28, 0));
+  background-position:
+    left center,
+    right center,
+    left center,
+    right center;
+  background-repeat: no-repeat;
+  background-size:
+    22px 100%,
+    22px 100%,
+    12px 100%,
+    12px 100%;
+  background-attachment: local, local, scroll, scroll;
+}
+
+/* ── Esqueletos de carga ─────────────────────────────────────────────────── */
+
+.sk-shimmer {
+  background: linear-gradient(90deg, var(--paper-100) 25%, var(--paper-200) 50%, var(--paper-100) 75%);
+  background-size: 200% 100%;
+  animation: sk 1.3s linear infinite;
+}
+
+@keyframes sk {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* ── Cabecera de sección ─────────────────────────────────────────────────── */
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.section-head a,
+.section-head span {
+  font-size: 14px;
+  color: var(--ink-500);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.section-head a {
+  color: var(--brand-600);
+}
+
+.section-head a:hover {
+  text-decoration: underline;
+}
+
+/* ── El local ────────────────────────────────────────────────────────────── */
+/*
+ * Reemplaza a los tres círculos numerados de "Cómo se compra". Aquel bloque era
+ * el tercer grid de íconos seguido y explicaba algo que la ficha y el carrito ya
+ * dicen mejor en su contexto. Esto, en cambio, es la prueba de que hay un local
+ * atrás — que para una mercería es lo que decide la compra.
+ */
+.shop-strip {
+  background: var(--paper-50);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.shop-strip-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 56px 22px;
+  display: grid;
+  /* Asimétrico a propósito: dos columnas iguales es el reflejo automático que
+     hace que todas las secciones se lean igual. */
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 52px;
+  align-items: center;
+}
+
+.shop-strip-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink-700);
+  margin: 0 0 22px;
+  max-width: 46ch;
+}
+
+.shop-strip-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.shop-strip-facts {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 26px;
+}
+
+.shop-strip-facts dt {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--brand-600);
+  margin-bottom: 5px;
+}
+
+.shop-strip-facts dd {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink-900);
+}
+
+@media (max-width: 860px) {
+  .shop-strip-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+    padding: 40px 22px;
+  }
+}
+
+@media (max-width: 460px) {
+  .shop-strip-facts {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+}
+
+/* ── Aviso de salto a por mayor ──────────────────────────────────────────── */
+/*
+ * Verde, como todo lo que en este sitio significa "plata que te queda". Dos
+ * intensidades: `gana` cuando la pieza ya cuesta menos que lo suelto (una
+ * afirmación) y `cerca` cuando falta poco (una invitación).
+ */
+.upgrade-hint {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px 16px;
+  border-radius: 11px;
+  border: 1px solid var(--saving-100);
+  background: #f4faf6;
+}
+
+.upgrade-hint[data-tone='gana'] {
+  border-color: var(--saving-600);
+  background: var(--saving-100);
+}
+
+.upgrade-hint-icon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--saving-700);
+}
+
+.upgrade-hint-body {
+  min-width: 0;
+}
+
+.upgrade-hint-body > strong:first-child {
+  display: block;
+  font-size: 14.5px;
+  color: var(--saving-700);
+  margin-bottom: 3px;
+}
+
+.upgrade-hint-body p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-900);
+}
+
+.upgrade-hint-body button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: var(--saving-600);
+  color: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.upgrade-hint-body button:hover {
+  background: var(--saving-700);
+}
+
+/* Versión de una línea para el carrito. */
+.upgrade-hint-compact {
+  align-items: flex-start;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 9px 11px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-900);
+}
+
+.upgrade-hint-compact svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--saving-700);
+}
+
+/* ── Búsqueda sin resultados ─────────────────────────────────────────────── */
+/*
+ * Antes esto era un callejón: "no encontramos nada" y un botón para limpiar.
+ * En una mercería, "no está en la vitrina" no significa "no lo tenemos" —
+ * significa "preguntá en el mostrador". Por eso la salida principal es
+ * WhatsApp con el término ya escrito, y abajo hay puertas a las categorías.
+ */
+.empty-search {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 56px 0 40px;
+  text-align: center;
+}
+
+.empty-search h2 {
+  font-size: 22px;
+  color: var(--ink-900);
+  margin: 14px 0 10px;
+  overflow-wrap: anywhere;
+}
+
+.empty-search p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-700);
+  margin: 0 0 24px;
+}
+
+.empty-search-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.empty-search-cats {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+
+.empty-search-cats span {
+  font-size: 13.5px;
+  color: var(--ink-500);
+}
+
+.empty-search-cats button {
+  padding: 7px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-900);
+  cursor: pointer;
+}
+
+.empty-search-cats button:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+/* ── Tira de Instagram ───────────────────────────────────────────────────── */
+/*
+ * Es prueba social, no decoración: el número de seguidores es la razón por la
+ * que alguien que llega desde un reel confía en comprarle a un local que no
+ * conoce. Por eso va en una pieza sola, ancha, y no como un iconito en el pie.
+ */
+.ig-strip {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  /* El degradado de Instagram, atenuado hacia el burdeos de la marca para que
+     no se lea como un banner pegado de otro sitio. */
+  background: linear-gradient(100deg, #8e1038 0%, #c2185b 45%, #e1306c 78%, #f77737 100%);
+  transition: transform 180ms var(--ease);
+}
+
+.ig-strip:hover {
+  transform: translateY(-2px);
+}
+
+@media (hover: none) {
+  .ig-strip:hover {
+    transform: none;
+  }
+}
+
+.ig-strip-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.ig-strip-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.ig-strip-text strong {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ig-strip-text span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.45;
+}
+
+.ig-strip-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #fff;
+  color: #b3195a;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+
+@media (max-width: 620px) {
+  .ig-strip {
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .ig-strip-cta {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ── Landing de la bio de Instagram ──────────────────────────────────────── */
+
+.ig-shell {
+  min-height: 100dvh;
+  background: linear-gradient(180deg, var(--paper-50) 0%, var(--white) 42%);
+}
+
+/*
+ * Grilla de "lo último" en la bio.
+ *
+ * Dos cosas que se rompieron y por qué:
+ *
+ * 1. Con `grid-auto-rows: 1fr` las filas quedaban de altura fija y el cuadro de
+ *    la foto —que es un flex item con aspect-ratio y contenido posicionado en
+ *    absoluto— se aplastaba a cero. La tarjeta sin foto quedaba sin imagen.
+ *    La altura la marca el contenido; lo que hay que igualar es el nombre.
+ * 2. El nombre ocupa una o dos líneas según el producto, y eso desalineaba los
+ *    precios. Se le reservan las dos líneas siempre.
+ */
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 11px;
+}
+
+.ig-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-decoration: none;
+}
+
+/* El cuadro de la foto no cede: es cuadrado y su contenido va en absoluto, así
+   que sin esto no tiene altura propia que defender. */
+.ig-card > span:first-child {
+  flex: 0 0 auto;
+}
+
+/* Dos líneas reservadas para el nombre — los precios quedan alineados entre
+   tarjetas vecinas aunque un nombre sea corto y el otro largo. */
+.ig-card > span:nth-child(2) {
+  min-height: 2.6em;
+}
+
+/* ── Página de error ─────────────────────────────────────────────────────── */
+/*
+ * Sin un error.tsx, un fallo de JavaScript deja la pantalla en blanco. Para una
+ * tienda que vive de Instagram eso es una venta perdida y alguien que no vuelve.
+ * Acá el peor caso sigue teniendo salida: el WhatsApp del local a un toque.
+ */
+.error-page {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 72px 22px 90px;
+  text-align: center;
+}
+
+.error-page-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: var(--brand-50);
+  color: var(--brand-600);
+  margin-bottom: 18px;
+}
+
+.error-page h1 {
+  font-size: clamp(26px, 4.4vw, 34px);
+  color: var(--ink-900);
+  margin: 0 0 12px;
+}
+
+.error-page p {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-700);
+  margin: 0 0 26px;
+}
+
+.error-page-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.error-page-extra {
+  font-size: 14.5px;
+  color: var(--ink-500);
+}
+
+.error-page-digest {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* ── Vista previa del mensaje ────────────────────────────────────────────── */
+/*
+ * El pedido de esta tienda ES un mensaje de texto: hace las veces de factura,
+ * remito y orden de compra. Mandarlo a ciegas es firmar sin leer.
+ */
+.msg-preview {
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.msg-preview-toggle {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--ink-700);
+  cursor: pointer;
+  text-align: left;
+}
+
+.msg-preview-toggle span:first-of-type {
+  flex: 1;
+}
+
+.msg-preview-toggle:hover {
+  background: var(--paper-50);
+}
+
+.msg-preview-caret {
+  display: inline-grid;
+  place-items: center;
+  color: var(--ink-500);
+  transition: transform 180ms var(--ease);
+  transform: rotate(180deg);
+}
+
+.msg-preview-caret[data-abierto='true'] {
+  transform: rotate(0deg);
+}
+
+.msg-preview-body {
+  padding: 0 15px 15px;
+}
+
+/*
+ * Burbuja verde de mensaje enviado: que se entienda de un vistazo qué es esto,
+ * sin necesidad de un rótulo que lo explique.
+ */
+.msg-preview-body pre {
+  margin: 0;
+  padding: 13px 15px;
+  border-radius: 12px 12px 12px 3px;
+  background: #dcf8c6;
+  color: #111b21;
+  font-family: inherit;
+  font-size: 13.5px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  /* Un pedido de dos o tres renglones entra entero; de ahí para arriba
+     scrollea dentro de la burbuja en vez de estirar la página. */
+  max-height: 460px;
+  overflow-y: auto;
+}
+
+.msg-preview-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 11px;
+}
+
+.msg-preview-actions button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  border: 1px solid var(--border-strong);
+  background: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-900);
+  cursor: pointer;
+}
+
+.msg-preview-actions button:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+.msg-preview-actions span {
+  font-size: 12.5px;
+  color: var(--ink-500);
+}
+
+/* ── Lista de precios imprimible ─────────────────────────────────────────── */
+/*
+ * Dos diseños en un archivo: en pantalla es una hoja apoyada sobre el fondo del
+ * sitio; en papel es una hoja A4 y nada más.
+ *
+ * Lo que decide el diseño de impresión es que esta lista se va a fotocopiar y
+ * se va a mandar como PDF por WhatsApp. Por eso NADA depende del color para
+ * entenderse: la fila por mayor se distingue por un filete y una etiqueta con
+ * recuadro, no por un fondo verde que en blanco y negro desaparece.
+ */
+
+.lista {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 26px 20px 64px;
+}
+
+.lista-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lista-tools-group {
+  display: inline-flex;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.lista-tools-group button {
+  appearance: none;
+  border: 0;
+  background: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-700);
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.lista-tools-group button + button {
+  border-left: 1px solid var(--border);
+}
+
+.lista-tools-group button[data-active='true'] {
+  background: var(--brand-500);
+  color: #fff;
+}
+
+.lista-tools-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 13.5px;
+  color: var(--ink-500);
+}
+
+.lista-hint {
+  margin: 0 0 22px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-500);
+  max-width: 66ch;
+}
+
+/* La hoja. En pantalla se ve como papel; al imprimir, es el papel. */
+.hoja {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: var(--shadow-md);
+  padding: 34px 34px 28px;
+}
+
+.hoja-cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--gold-500);
+}
+
+.hoja-marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hoja-marca img {
+  border-radius: 8px;
+  flex: 0 0 auto;
+}
+
+.hoja-marca div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hoja-marca strong {
+  font-family: var(--font-display), Georgia, serif;
+  font-variation-settings: 'opsz' 24;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.15;
+  color: var(--ink-900);
+}
+
+.hoja-marca span {
+  font-size: 12.5px;
+  color: var(--ink-500);
+  letter-spacing: 0.02em;
+}
+
+.hoja-datos {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12.5px;
+  color: var(--ink-700);
+  text-align: right;
+}
+
+.hoja-titulo {
+  margin: 20px 0 8px;
+}
+
+.hoja-titulo h1 {
+  margin: 0;
+  font-size: 27px;
+  font-variation-settings: 'opsz' 28;
+  color: var(--ink-900);
+}
+
+.hoja-titulo p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: var(--ink-500);
+}
+
+.hoja-bloque {
+  margin-top: 26px;
+}
+
+.hoja-bloque h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-variation-settings: 'opsz' 18;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand-600);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 5px;
+}
+
+.hoja-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  /* Los precios se leen en columna: sin cifras tabulares los dígitos bailan. */
+  font-variant-numeric: tabular-nums;
+}
+
+.hoja-tabla th,
+.hoja-tabla td {
+  text-align: left;
+  vertical-align: top;
+  padding: 7px 10px 7px 0;
+  font-size: 13px;
+  line-height: 1.45;
+  border-bottom: 1px solid var(--ink-100);
+}
+
+.hoja-tabla thead th {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  border-bottom: 1px solid var(--border-strong);
+  padding-top: 0;
+}
+
+.hoja-tabla th[scope='row'] {
+  font-weight: 500;
+  color: var(--ink-900);
+  width: 30%;
+  padding-right: 14px;
+}
+
+.hoja-tabla .num {
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 0;
+  /* Dos columnas numéricas alineadas a la derecha y pegadas se leen como un
+     solo número: "$ 11,70$ 11,70 el metro". El aire va a la izquierda, que es
+     el lado libre de una columna alineada a la derecha. */
+  padding-left: 14px;
+}
+
+.hoja-tabla td[data-confirmar] {
+  color: var(--ink-500);
+  font-style: italic;
+}
+
+/* Fila por mayor: se distingue por el filete de la izquierda, que sobrevive a
+   una fotocopia en blanco y negro. El color es refuerzo, no el mensaje. */
+.hoja-tabla tr[data-mayor] th[scope='row'] {
+  border-left: 2px solid var(--saving-600);
+  padding-left: 8px;
+}
+
+.hoja-sku {
+  display: block;
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--ink-500);
+  letter-spacing: 0.04em;
+}
+
+.hoja-tag {
+  display: inline-block;
+  margin-left: 7px;
+  padding: 1px 6px;
+  border: 1px solid var(--saving-600);
+  border-radius: 4px;
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--saving-700);
+  white-space: nowrap;
+}
+
+.hoja-ahorro {
+  display: block;
+  font-size: 11.5px;
+  color: var(--saving-700);
+  font-weight: 500;
+}
+
+.hoja-pie {
+  margin-top: 30px;
+  padding-top: 14px;
+  border-top: 2px solid var(--gold-500);
+}
+
+.hoja-pie p {
+  margin: 0 0 7px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--ink-700);
+  max-width: 78ch;
+}
+
+.hoja-pie-fina {
+  color: var(--ink-500);
+  font-size: 11.5px;
+}
+
+.lista-cierre {
+  margin-top: 34px;
+  padding: 24px;
+  background: var(--paper-50);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.lista-cierre p {
+  margin: 0 0 14px;
+  font-family: var(--font-display), Georgia, serif;
+  font-variation-settings: 'opsz' 24;
+  font-size: 20px;
+  color: var(--ink-900);
+}
+
+.lista-cierre-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-cierre-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--brand-600);
+  text-decoration: none;
+}
+
+.lista-cierre-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .lista {
+    padding: 18px 14px 48px;
+  }
+
+  .hoja {
+    padding: 20px 16px 18px;
+  }
+
+  .hoja-datos {
+    text-align: left;
+  }
+
+  /* En un teléfono la tabla de cinco columnas no entra: se deja scrollear
+     dentro de su caja en vez de romper el ancho de la página. */
+  .hoja-bloque {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .hoja-tabla {
+    min-width: 560px;
+  }
+}
+
+/* ── Impresión ───────────────────────────────────────────────────────────── */
+/*
+ * Todo lo que es del sitio desaparece y queda la hoja. Se prueba imprimiendo a
+ * PDF desde el navegador: si aparece el header, la barra de promo o el botón
+ * flotante de WhatsApp, algo de acá dejó de aplicar.
+ */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    overflow: visible !important;
+  }
+
+  /* El marco del sitio no va al papel. */
+  .site-header,
+  .site-footer,
+  .promo-bar,
+  .cart-drawer,
+  .wa-float,
+  .back-to-top,
+  .skip-link,
+  .no-print {
+    display: none !important;
+  }
+
+  .lista {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hoja {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .hoja-cabecera {
+    border-bottom: 1.5pt solid #000;
+  }
+
+  .hoja-marca strong {
+    font-size: 17pt;
+  }
+
+  .hoja-titulo h1 {
+    font-size: 15pt;
+  }
+
+  .hoja-bloque {
+    overflow: visible;
+    margin-top: 14pt;
+  }
+
+  /* Un artículo partido entre dos hojas se puede leer; un encabezado de
+     categoría solo al pie de una hoja, no. */
+  .hoja-bloque h2 {
+    font-size: 10.5pt;
+    color: #000;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .hoja-tabla {
+    font-size: 9pt;
+    min-width: 0;
+  }
+
+  /* El encabezado de la tabla se repite en cada hoja: sin esto, a partir de la
+     segunda página nadie sabe qué columna es el precio por unidad. */
+  .hoja-tabla thead {
+    display: table-header-group;
+  }
+
+  .hoja-tabla tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .hoja-tabla th,
+  .hoja-tabla td {
+    padding: 3.5pt 7pt 3.5pt 0;
+    border-bottom: 0.4pt solid #bbb;
+    color: #000;
+  }
+
+  .hoja-tabla .num {
+    padding-left: 10pt;
+  }
+
+  /* La etiqueta saltaba de renglón y duplicaba el alto de la mitad de las
+     filas — en papel eso son hojas de más. Achicada, entra en la línea. */
+  .hoja-tag {
+    font-size: 6.5pt;
+    padding: 0 3pt;
+    margin-left: 4pt;
+  }
+
+  .hoja-tabla th[scope='row'] {
+    width: 24%;
+  }
+
+  .hoja-tabla thead th {
+    font-size: 7.5pt;
+    color: #000;
+    border-bottom: 0.8pt solid #000;
+  }
+
+  .hoja-sku,
+  .hoja-pie-fina {
+    color: #444;
+  }
+
+  .hoja-tag,
+  .hoja-ahorro {
+    color: #000;
+  }
+
+  .hoja-tag {
+    border-color: #000;
+  }
+
+  .hoja-tabla tr[data-mayor] th[scope='row'] {
+    border-left: 1.5pt solid #000;
+  }
+
+  .hoja-pie {
+    border-top: 1pt solid #000;
+    break-inside: avoid;
+  }
+
+  .hoja-pie p {
+    font-size: 8.5pt;
+    color: #000;
+  }
+
+  /* Los enlaces impresos no se pueden clickear: se imprimen como texto. */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+/* ── Ver más artículos ───────────────────────────────────────────────────── */
+/*
+ * Paginación por tanda en vez de scroll infinito: el scroll infinito deja el
+ * pie inalcanzable, y ahí están la dirección, el horario y el teléfono.
+ */
+
+.ver-mas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 38px;
+}
+
+.ver-mas span {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--ink-500);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Índice de la lista de precios. Con el catálogo completo son varias hojas. */
+.hoja-indice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--ink-100);
+}
+
+.hoja-indice a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--ink-900);
+  text-decoration: none;
+}
+
+.hoja-indice a:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+.hoja-indice a span {
+  font-size: 11.5px;
+  color: var(--ink-500);
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  /* En papel el índice es tabla de contenidos: sin píldoras ni bordes. */
+  .hoja-indice {
+    gap: 4pt 14pt;
+    margin-top: 10pt;
+    padding-top: 8pt;
+    border-top: 0.4pt solid #bbb;
+  }
+
+  .hoja-indice a {
+    border: 0;
+    padding: 0;
+    font-size: 8.5pt;
+  }
+
+  .hoja-indice a span {
+    color: #444;
+  }
+}
+
+/* ── El mostrador ────────────────────────────────────────────────────────── */
+/*
+ * Pantalla de trabajo, no de exhibición. Se usa en un teléfono, de pie, con un
+ * cliente enfrente. Todo lo que decide el diseño sale de ahí:
+ *
+ *   · el buscador es lo más grande de la pantalla y está siempre arriba;
+ *   · los precios son grandes y en cifras tabulares, para leerlos de un vistazo
+ *     y en voz alta sin equivocarse;
+ *   · los botones son de 44px, que es el mínimo para un pulgar;
+ *   · no hay animaciones: cada milisegundo acá es alguien esperando.
+ */
+
+.most {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 18px 16px 90px;
+  min-height: 100dvh;
+  background: var(--paper-50);
+}
+
+.most-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.most-marca {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.most-marca span {
+  font-family: var(--font-display), Georgia, serif;
+  font-variation-settings: 'opsz' 24;
+  font-size: 19px;
+  color: var(--brand-600);
+  letter-spacing: 0.02em;
+}
+
+.most-marca strong {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+}
+
+.most-top p {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--ink-500);
+  font-variant-numeric: tabular-nums;
+}
+
+/* El buscador: pegajoso arriba, porque después de cada respuesta se vuelve a
+   buscar y bajar a buscarlo cuesta la venta siguiente. */
+.most-buscador {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #fff;
+  border: 2px solid var(--brand-500);
+  border-radius: 13px;
+  box-shadow: var(--shadow-md);
+}
+
+.most-buscador svg {
+  color: var(--brand-600);
+  flex: 0 0 auto;
+}
+
+.most-buscador input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  /* 17px es el mínimo que evita que iOS haga zoom al enfocar un input, y el
+     zoom en esta pantalla desacomoda todo justo cuando hay alguien esperando. */
+  font-size: 19px;
+  color: var(--ink-900);
+}
+
+.most-buscador input::placeholder {
+  color: var(--ink-300);
+  font-size: 16px;
+}
+
+.most-buscador > button {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: var(--paper-100);
+  color: var(--ink-700);
+  cursor: pointer;
+}
+
+.most-conteo {
+  margin: 12px 2px 8px;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+}
+
+/* ── Resultados ─────────────────────────────────────────────────────────── */
+
+.most-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.most-lista > li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+}
+
+/* La fila por mayor se distingue por el filete, no por el fondo: el fondo
+   verde a pantalla completa cansa cuando hay veinte resultados. */
+.most-lista > li[data-mayor] {
+  border-left: 3px solid var(--saving-600);
+}
+
+.most-info {
+  min-width: 0;
+}
+
+.most-info strong {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 600;
+  color: var(--ink-900);
+  line-height: 1.3;
+}
+
+.most-info em {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--ink-700);
+}
+
+.most-pres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 3px;
+  font-size: 12.5px;
+  color: var(--ink-500);
+}
+
+.most-tag {
+  padding: 1px 6px;
+  border: 1px solid var(--saving-600);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--saving-700);
+}
+
+/* El código: monoespaciado porque se lee carácter por carácter contra el
+   catálogo en papel, y en proporcional un 0 y una O se confunden. */
+.most-cod {
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--paper-100);
+  font-family: ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--ink-700);
+}
+
+.most-precio {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.most-precio b {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink-900);
+  line-height: 1.15;
+}
+
+.most-precio span {
+  display: block;
+  font-size: 11.5px;
+  color: var(--ink-500);
+}
+
+.most-precio i {
+  display: block;
+  font-style: normal;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--saving-700);
+}
+
+.most-acciones {
+  display: flex;
+  gap: 6px;
+}
+
+.most-acciones button {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ink-900);
+  cursor: pointer;
+}
+
+.most-acciones button:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+/* ── Estado inicial ─────────────────────────────────────────────────────── */
+
+.most-vacio {
+  margin-top: 26px;
+  padding: 22px 20px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+}
+
+.most-vacio p {
+  margin: 0 0 14px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-500);
+}
+
+.most-ejemplos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.most-ejemplos button {
+  padding: 7px 13px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--paper-50);
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-900);
+  cursor: pointer;
+}
+
+.most-ejemplos button:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-600);
+}
+
+/* ── La lista armada ────────────────────────────────────────────────────── */
+
+.most-armado {
+  margin-top: 26px;
+  background: #fff;
+  border: 1px solid var(--brand-100);
+  border-top: 3px solid var(--brand-500);
+  border-radius: 13px;
+  padding: 16px 16px 14px;
+}
+
+.most-armado header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.most-armado h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 19px;
+  color: var(--ink-900);
+}
+
+.most-armado h2 span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: var(--brand-500);
+  color: #fff;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.most-armado header > div {
+  display: flex;
+  gap: 8px;
+}
+
+.most-copiar-lista,
+.most-vaciar {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border-radius: 9px;
+  font-family: inherit;
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+.most-copiar-lista {
+  border: 0;
+  background: var(--brand-500);
+  color: #fff;
+  font-weight: 500;
+}
+
+.most-copiar-lista:hover {
+  background: var(--brand-700);
+}
+
+.most-vaciar {
+  border: 1px solid var(--border-strong);
+  background: #fff;
+  color: var(--ink-700);
+}
+
+.most-armado ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.most-armado ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-top: 1px solid var(--ink-100);
+  font-size: 14px;
+}
+
+.most-armado ul li span {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--ink-700);
+}
+
+.most-armado ul li b {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-900);
+}
+
+.most-armado ul li button {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 7px;
+  background: var(--paper-100);
+  color: var(--ink-700);
+  cursor: pointer;
+}
+
+.most-armado ul li button:hover {
+  background: var(--brand-50);
+  color: var(--brand-700);
+}
+
+@media (max-width: 560px) {
+  .most {
+    padding: 12px 12px 90px;
+  }
+
+  /* En teléfono el precio pasa abajo del nombre: tres columnas en 360px dejan
+     el nombre en dos letras por línea. */
+  .most-lista > li {
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 8px;
+  }
+
+  .most-precio {
+    text-align: left;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .most-acciones {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+}
+
+/* ── Volver a pedir lo mismo ─────────────────────────────────────────────── */
+/*
+ * Va en el carrito vacío, que es donde alguien entra a armar el pedido del mes.
+ * Lo que la investigación de portales B2B mide de esta función es de lo más
+ * alto de todo: alrededor de un tercio más de pedidos repetidos.
+ */
+
+.repetir {
+  max-width: 460px;
+  margin: 34px auto 0;
+  padding: 20px 22px;
+  background: var(--paper-50);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--brand-500);
+  border-radius: 13px;
+  text-align: left;
+}
+
+.repetir > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 14px;
+}
+
+.repetir strong {
+  font-family: var(--font-display), Georgia, serif;
+  font-variation-settings: 'opsz' 24;
+  font-weight: 400;
+  font-size: 19px;
+  color: var(--ink-900);
+}
+
+.repetir span {
+  font-size: 13.5px;
+  color: var(--ink-500);
+}
+
+.repetir-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.repetir-olvidar {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--ink-500);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.repetir-olvidar:hover {
+  color: var(--brand-600);
+}
+
+.repetir p {
+  margin: 12px 0 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--ink-500);
+}
+
+/* Barra de resultados del mostrador: el conteo y el botón de mandar todo. */
+.most-barra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 12px 2px 8px;
+}
+
+.most-barra .most-conteo {
+  margin: 0;
+}
+
+.most-copiar-todo {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border: 1px solid var(--brand-500);
+  border-radius: 9px;
+  background: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--brand-600);
+  cursor: pointer;
+}
+
+.most-copiar-todo:hover {
+  background: var(--brand-500);
+  color: #fff;
+}

@@ -1,0 +1,467 @@
+/* Panel de demostración.
+ *
+ * Deliberadamente más sobrio y más denso que la tienda: acá se lee información,
+ * no se compra. Fuente sans en todo (nada de la display), tablas apretadas y
+ * una sola columna de acento.
+ */
+
+.panel {
+  min-height: 100vh;
+  background: var(--paper-50);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.panel-demo-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #7a4b00;
+  color: #fff;
+  padding: 10px 22px;
+  font-size: 13.5px;
+  text-align: center;
+}
+
+.panel-demo-bar a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-left: 6px;
+}
+
+.panel-body {
+  display: grid;
+  grid-template-columns: 232px minmax(0, 1fr);
+  align-items: start;
+}
+
+/* El contenido. La regla va ANTES del media query de abajo: con el mismo peso
+   de selector gana la última del archivo, así que declararla después anulaba el
+   padding reducido de mobile. */
+.panel-main {
+  padding: 30px 28px 72px;
+  max-width: 1000px;
+  /* Sin esto, las tablas anchas (min-width: 640px) empujan la columna del grid
+     en vez de hacer scroll dentro de su propio contenedor. */
+  min-width: 0;
+}
+
+/* ── Navegación ──────────────────────────────────────────────────────────── */
+
+.panel-nav {
+  position: sticky;
+  top: 40px;
+  padding: 26px 16px;
+  border-right: 1px solid var(--border);
+  min-height: calc(100vh - 40px);
+}
+
+.panel-nav-brand {
+  display: block;
+  padding: 0 10px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+}
+
+.panel-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.panel-nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14.5px;
+  color: var(--ink-700);
+  text-decoration: none;
+}
+
+.panel-nav a:hover {
+  background: var(--paper-100);
+}
+
+.panel-nav a[data-active='true'] {
+  background: var(--brand-600);
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .panel-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .panel-main {
+    padding: 22px 16px 60px;
+  }
+  .panel-nav {
+    position: static;
+    min-height: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 16px;
+  }
+  .panel-nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* ── Contenido ───────────────────────────────────────────────────────────── */
+
+.panel-header {
+  margin-bottom: 26px;
+}
+
+.panel-header h1 {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink-900);
+  margin: 0 0 6px;
+}
+
+.panel-header p {
+  font-size: 14.5px;
+  color: var(--ink-500);
+  margin: 0;
+}
+
+.panel-back {
+  display: inline-block;
+  font-size: 13.5px;
+  color: var(--ink-500);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.panel-section {
+  margin-bottom: 34px;
+}
+
+.panel-section h2 {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink-900);
+  margin: 0 0 4px;
+}
+
+.panel-where {
+  font-size: 13.5px;
+  color: var(--ink-500);
+  margin: 0 0 14px;
+}
+
+.panel-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  background: var(--brand-50);
+  border: 1px solid var(--brand-100);
+  border-radius: 9px;
+  padding: 13px 15px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-700);
+  margin: 0 0 20px;
+}
+
+.panel-note svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--brand-600);
+}
+
+.panel-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  background: #fff6e6;
+  border: 1px solid #d99b18;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: var(--ink-900);
+}
+
+.panel-alert svg {
+  flex-shrink: 0;
+  color: #7a5000;
+}
+
+.panel-alert ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  line-height: 1.6;
+}
+
+/* ── Métricas ────────────────────────────────────────────────────────────── */
+
+.panel-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.panel-stat {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.panel-stat[data-tone='saving'] {
+  border-color: var(--saving-100);
+  background: #f6fbf8;
+}
+
+.panel-stat-value {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ink-900);
+  line-height: 1.15;
+}
+
+.panel-stat[data-tone='saving'] .panel-stat-value {
+  color: var(--saving-700);
+}
+
+.panel-stat-label {
+  font-size: 13.5px;
+  color: var(--ink-700);
+}
+
+.panel-stat-hint {
+  font-size: 12.5px;
+  color: var(--ink-500);
+}
+
+/* ── Pendientes ──────────────────────────────────────────────────────────── */
+
+.panel-todo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.panel-todo li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+  font-size: 14.5px;
+  color: var(--ink-900);
+}
+
+.panel-todo li svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: #7a5000;
+}
+
+.panel-todo li[data-done='true'] svg {
+  color: var(--saving-600);
+}
+
+.panel-todo li span {
+  flex: 1;
+}
+
+.panel-todo small {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-500);
+}
+
+.panel-todo b {
+  background: #fff6e6;
+  color: #7a4b00;
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 12.5px;
+}
+
+/* ── Tablas ──────────────────────────────────────────────────────────────── */
+
+.panel-table-wrap {
+  overflow-x: auto;
+  /* Mismas sombras de scroll que en la tienda (ver .scroll-x en globals.css). */
+  background-image:
+    linear-gradient(to right, #fff, #fff),
+    linear-gradient(to right, #fff, #fff),
+    linear-gradient(to right, rgba(22, 24, 28, 0.12), rgba(22, 24, 28, 0)),
+    linear-gradient(to left, rgba(22, 24, 28, 0.12), rgba(22, 24, 28, 0));
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-size: 22px 100%, 22px 100%, 12px 100%, 12px 100%;
+  background-attachment: local, local, scroll, scroll;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+}
+
+.panel-table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.panel-table th,
+.panel-table td {
+  text-align: left;
+  padding: 12px 14px;
+  vertical-align: middle;
+}
+
+.panel-table thead th {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  background: var(--paper-50);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.panel-table tbody tr + tr {
+  border-top: 1px solid var(--ink-100);
+}
+
+.panel-table tbody th {
+  font-weight: 600;
+  color: var(--ink-900);
+}
+
+.panel-table tbody td {
+  color: var(--ink-700);
+}
+
+.panel-table a {
+  color: var(--ink-900);
+  text-decoration: none;
+}
+
+.panel-table a:hover {
+  color: var(--brand-600);
+  text-decoration: underline;
+}
+
+.panel-product-cell {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.panel-thumb {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  background: var(--paper-100);
+  border: 1px solid var(--border);
+}
+
+/* El #b07400 anterior daba 3,93:1 sobre blanco — por debajo de AA. Este llega
+   a 7,06:1 sin dejar de leerse como ámbar de advertencia. */
+.panel-review-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7a5000;
+  white-space: nowrap;
+}
+
+/* "sin total", "sin categoría", el nombre de la variante: es información, no
+   relleno, así que va en el gris legible y no en el de bordes. */
+.panel-muted {
+  color: var(--ink-500);
+}
+
+.panel-slug {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 400;
+}
+
+.panel-longtext {
+  max-width: 360px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.panel-variant {
+  margin-bottom: 22px;
+}
+
+.panel-variant h3 {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-900);
+  margin: 0 0 9px;
+}
+
+/* ── Listas de definición ────────────────────────────────────────────────── */
+
+.panel-dl {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.panel-dl dt {
+  padding: 12px 16px 2px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-500);
+}
+
+.panel-dl dt code {
+  margin-left: 8px;
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--ink-500);
+}
+
+.panel-dl dd {
+  margin: 0;
+  padding: 0 16px 12px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-900);
+}
+
+.panel-dl-row + .panel-dl-row {
+  border-top: 1px solid var(--ink-100);
+}

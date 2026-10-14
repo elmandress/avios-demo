@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Todavía no hay dominio propio para Avíos. Cuando se compre, va acá el 301
+# desde el subdominio de Netlify al dominio real — sin eso, Google indexa los
+# dos y se reparte la autoridad entre duplicados:
+#
+# [[redirects]]
+#   from = "https://<sitio>.netlify.app/*"
+#   to = "https://<dominio-de-avios>/*"
+#   status = 301
+#   force = true

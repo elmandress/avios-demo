@@ -1,0 +1,33 @@
+{
+  "name": "merceria-avios",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "audit": "node scripts/audit/run.mjs",
+    "test": "node --import ./scripts/test/lib/alias.mjs scripts/test/busqueda.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/respaldo.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/importar.mjs",
+    "test:e2e": "node scripts/test/run.mjs",
+    "verify": "npm run typecheck && npm run lint && npm run test && npm run build"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.106.2",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.11",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "typescript": "^5"
+  },
+  "description": "Sitio de Mercería Avíos — catálogo por mayor y por menor, checkout por WhatsApp."
+}
