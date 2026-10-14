@@ -146,10 +146,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {/* Juego de favicons generado con RealFaviconGenerator a partir del
             logo real. Son archivos estáticos de /public y no las convenciones
             de archivo de Next, para que exista un /favicon.ico estable que
-            Google y los navegadores puedan cachear. */}
+            Google y los navegadores puedan cachear.
+
+            Sin el favicon.svg: era el logo en PNG metido dentro de un SVG, 31 KB
+            que bajaba cada primera visita, más el .ico, que el navegador pedía
+            igual. Los PNG con paleta reducida pesan 0,5 y 2 KB y se ven igual.
+            /favicon.ico sigue existiendo para quien lo pida directo. */}
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-title" content="Avíos" />
         <link rel="manifest" href="/site.webmanifest" />
