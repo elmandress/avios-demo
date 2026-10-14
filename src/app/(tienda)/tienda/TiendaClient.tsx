@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import Link from 'next/link'
+import { Enlace } from '@/components/Enlace'
 import { useRouter, useSearchParams } from 'next/navigation'
 import type { Category } from '@/lib/catalog/types'
 import { TANDA, type TarjetaProducto } from '@/lib/catalog/tarjeta'
@@ -326,18 +326,18 @@ export function TiendaVista({
           llegar a cada categoría —y desde ahí a cada ficha— sin JavaScript. */}
       <nav aria-label="Categorías" style={{ marginBottom: 18 }}>
         <div className="chip-row">
-          <Link href="/tienda" className="chip" aria-current={activeCategory === 'todo' ? 'page' : undefined}>
+          <Enlace href="/tienda" className="chip" aria-current={activeCategory === 'todo' ? 'page' : undefined}>
             Todo
-          </Link>
+          </Enlace>
           {ordenadas.map((c) => (
-            <Link
+            <Enlace
               key={c.slug}
               href={`/tienda/${c.slug}`}
               className="chip"
               aria-current={activeCategory === c.slug ? 'page' : undefined}
             >
               {c.name}
-            </Link>
+            </Enlace>
           ))}
         </div>
       </nav>
@@ -548,9 +548,9 @@ function SinResultados({
       <div className="empty-search-cats">
         <span>O mirá por categoría:</span>
         {categories.slice(0, 5).map((c) => (
-          <Link key={c.slug} href={`/tienda/${c.slug}`}>
+          <Enlace key={c.slug} href={`/tienda/${c.slug}`}>
             {c.name}
-          </Link>
+          </Enlace>
         ))}
       </div>
     </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import { Enlace } from '@/components/Enlace'
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
 import { formatUYU, referenceFormat, savingsPercent, summarisePrice } from '@/lib/catalog/pricing'
@@ -207,7 +207,7 @@ export default async function MayoristaPage() {
             La diferencia por unidad entre comprar suelto y llevar la pieza cerrada.{' '}
             {/* El mayorista no compra de a un artículo: compara una lista contra
                 otra. Acá es donde efectivamente la pide. */}
-            <Link href="/lista-de-precios">Ver la lista de precios completa</Link>, lista para
+            <Enlace href="/lista-de-precios">Ver la lista de precios completa</Enlace>, lista para
             imprimir.
           </p>
 
@@ -226,7 +226,7 @@ export default async function MayoristaPage() {
                 {rows.map((row) => (
                   <tr key={`${row.product.slug}-${row.variantLabel}`}>
                     <th scope="row">
-                      <Link href={`/tienda/${row.product.slug}`}>{row.product.name}</Link>
+                      <Enlace href={`/tienda/${row.product.slug}`}>{row.product.name}</Enlace>
                       {row.variantLabel && (
                         <span style={{ display: 'block', color: avios.ink500, fontWeight: 400 }}>
                           {row.variantLabel}
@@ -265,7 +265,7 @@ export default async function MayoristaPage() {
               <>
                 {' '}
                 Se muestran los {rows.length} mayores ahorros de {todasLasFilas.length} artículos.{' '}
-                <Link href="/lista-de-precios">Ver la lista completa</Link>.
+                <Enlace href="/lista-de-precios">Ver la lista completa</Enlace>.
               </>
             )}
           </p>

@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import Link from 'next/link'
+import { Enlace } from '../Enlace'
 import { ICON_PATHS, ICON_PATHS_FILL } from './icons'
 
 import { avios } from './tokens'
@@ -84,14 +84,14 @@ export function Button({
 
   if (href && !disabled) {
     return (
-      <Link
+      <Enlace
         href={href}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
         style={{ ...mergedStyle, textDecoration: 'none' }}
       >
         {children}
-      </Link>
+      </Enlace>
     )
   }
 
@@ -167,9 +167,9 @@ export function Breadcrumb({ items }: { items: { label: string; href?: string }[
           <li key={i} style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
             {i > 0 && <span aria-hidden>›</span>}
             {it.href ? (
-              <Link href={it.href} style={{ color: 'inherit', textDecoration: 'none' }}>
+              <Enlace href={it.href} style={{ color: 'inherit', textDecoration: 'none' }}>
                 {it.label}
-              </Link>
+              </Enlace>
             ) : (
               <span style={{ color: avios.ink900 }} aria-current="page">
                 {it.label}

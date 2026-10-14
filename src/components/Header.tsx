@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import Link from 'next/link'
+import { Enlace } from './Enlace'
 import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation'
 import { formatUYU } from '@/lib/catalog/pricing'
@@ -139,9 +139,9 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
           }}
         >
           {promo.link ? (
-            <Link href={promo.link} style={{ color: '#fff', textDecoration: 'underline', textUnderlineOffset: 3 }}>
+            <Enlace href={promo.link} style={{ color: '#fff', textDecoration: 'underline', textUnderlineOffset: 3 }}>
               {promo.text}
-            </Link>
+            </Enlace>
           ) : (
             promo.text
           )}
@@ -159,7 +159,7 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
             <Icon name={menuOpen ? 'x' : 'list'} size={23} />
           </button>
 
-          <Link href="/" className="brand-link" aria-label={`${BRAND.name} — inicio`}>
+          <Enlace href="/" className="brand-link" aria-label={`${BRAND.name} — inicio`}>
             <Image
               src="/favicon.svg"
               alt=""
@@ -169,13 +169,13 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
               style={{ objectFit: 'contain' }}
             />
             <span className="brand-wordmark">{BRAND.shortName.toUpperCase()}</span>
-          </Link>
+          </Enlace>
 
           <nav className="nav-desktop" aria-label="Principal">
             {NAV.map((item) => {
               const active = pathname === item.href || pathname.startsWith(`${item.href}/`)
               return (
-                <Link
+                <Enlace
                   key={item.href}
                   href={item.href}
                   style={{
@@ -190,7 +190,7 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
                   }}
                 >
                   {item.label}
-                </Link>
+                </Enlace>
               )
             })}
           </nav>
@@ -207,16 +207,16 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
 
             {/* Utilidad, no destino de compra: no vale una petición de
                 prefetch en la carga inicial. */}
-            <Link
+            <Enlace
               href="/mi-lista"
-              prefetch={false}
+             
               aria-label="Mi lista"
               className="icon-button"
               style={{ position: 'relative' }}
             >
               <Icon name="bookmark" size={20} />
               {favMounted && favCount > 0 && <span className="count-badge">{favCount}</span>}
-            </Link>
+            </Enlace>
 
             <button
               onClick={openDrawer}
@@ -275,7 +275,7 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
                   ) : (
                     hits.map((hit) => (
                       <li key={hit.slug}>
-                        <Link
+                        <Enlace
                           href={`/tienda/${hit.slug}`}
                           style={{
                             display: 'flex',
@@ -305,7 +305,7 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
                           >
                             desde {hit.price}
                           </span>
-                        </Link>
+                        </Enlace>
                       </li>
                     ))
                   )}
@@ -320,24 +320,24 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
         <div className="mobile-menu">
           <nav aria-label="Menú">
             {NAV.map((item) => (
-              <Link key={item.href} href={item.href} className="mobile-menu-link">
+              <Enlace key={item.href} href={item.href} className="mobile-menu-link">
                 {item.label}
-              </Link>
+              </Enlace>
             ))}
             <span className="mobile-menu-heading">Categorías</span>
             {categories.map((c) => (
-              <Link
+              <Enlace
                 key={c.slug}
                 href={`/tienda/${c.slug}`}
-                prefetch={false}
+               
                 className="mobile-menu-link mobile-menu-sub"
               >
                 {c.name}
-              </Link>
+              </Enlace>
             ))}
-            <Link href="/mi-lista" prefetch={false} className="mobile-menu-link">
+            <Enlace href="/mi-lista" className="mobile-menu-link">
               Mi lista
-            </Link>
+            </Enlace>
           </nav>
         </div>
       )}

@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
+import { Enlace } from './Enlace'
 import { useSyncExternalStore } from 'react'
 import { leerVistos, leerVistosServidor, suscribirVistos } from '@/lib/vistos'
 import { ProductPlaceholder } from './ProductPlaceholder'
@@ -27,7 +27,7 @@ export function VistosRecientes({ excluir }: { excluir?: string }) {
       <ul>
         {lista.map((v) => (
           <li key={v.slug}>
-            <Link href={`/tienda/${v.slug}`} prefetch={false}>
+            <Enlace href={`/tienda/${v.slug}`}>
               <span className="vistos-foto">
                 {v.photo ? (
                   <Image src={v.photo.url} alt="" fill sizes="64px" quality={82} style={{ objectFit: 'cover' }} />
@@ -36,7 +36,7 @@ export function VistosRecientes({ excluir }: { excluir?: string }) {
                 )}
               </span>
               <span className="vistos-nombre">{v.name}</span>
-            </Link>
+            </Enlace>
           </li>
         ))}
       </ul>

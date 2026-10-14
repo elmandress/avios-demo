@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
+import { Enlace } from './Enlace'
 import type { Category } from '@/lib/catalog/types'
 import type { ResumenCategoria } from '@/lib/catalog/tarjeta'
 import { formatUYU } from '@/lib/catalog/pricing'
@@ -37,7 +37,7 @@ export function CategoryTile({
   const { cantidad, desde: from, foto: photo, muestra: sample } = resumen
 
   return (
-    <Link href={`/tienda/${category.slug}`} className="cat-tile" data-photo={photo ? 'si' : 'no'}>
+    <Enlace href={`/tienda/${category.slug}`} className="cat-tile" data-photo={photo ? 'si' : 'no'}>
       {photo && (
         <Image
           src={photo.url}
@@ -79,6 +79,6 @@ export function CategoryTile({
       <span className="cat-tile-go" aria-hidden>
         <Icon name="arrow-right" size={15} />
       </span>
-    </Link>
+    </Enlace>
   )
 }

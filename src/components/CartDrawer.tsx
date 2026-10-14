@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Enlace } from './Enlace'
 import { useCart } from './CartProvider'
 import { ProductPlaceholder } from './ProductPlaceholder'
 import { avios, Badge, Button, Icon } from './ui/Primitives'
@@ -128,7 +128,7 @@ export function CartDrawer() {
                       borderBottom: `1px solid ${avios.border}`,
                     }}
                   >
-                    <Link
+                    <Enlace
                       href={`/tienda/${product.slug}`}
                       onClick={closeDrawer}
                       style={{
@@ -157,10 +157,10 @@ export function CartDrawer() {
                       ) : (
                         <ProductPlaceholder categorySlug={product.categorySlug} />
                       )}
-                    </Link>
+                    </Enlace>
 
                     <div style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 3 }}>
-                      <Link
+                      <Enlace
                         href={`/tienda/${product.slug}`}
                         onClick={closeDrawer}
                         style={{
@@ -172,7 +172,7 @@ export function CartDrawer() {
                         }}
                       >
                         {product.name}
-                      </Link>
+                      </Enlace>
                       <span style={{ fontFamily: avios.fontSans, fontSize: 13, color: avios.ink500 }}>
                         {variant.label ? `${variant.label} · ` : ''}
                         {format.label}

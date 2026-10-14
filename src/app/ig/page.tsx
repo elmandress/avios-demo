@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import { Enlace } from '@/components/Enlace'
 import Image from 'next/image'
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
@@ -105,7 +105,7 @@ export default async function IgPage() {
 
       <nav style={{ display: 'flex', flexDirection: 'column', gap: 9, marginBottom: 30 }}>
         {links.map((l) => (
-          <Link
+          <Enlace
             key={l.href}
             href={l.href}
             style={{
@@ -130,7 +130,7 @@ export default async function IgPage() {
               </span>
             </span>
             <Icon name="caret-right" size={16} color={avios.ink300} />
-          </Link>
+          </Enlace>
         ))}
       </nav>
 
@@ -154,7 +154,7 @@ export default async function IgPage() {
               const price = summarisePrice(p, catalog.discounts)
               const photo = p.media[0]
               return (
-                <Link key={p.id} href={`/tienda/${p.slug}`} className="ig-card">
+                <Enlace key={p.id} href={`/tienda/${p.slug}`} className="ig-card">
                   <span
                     style={{
                       position: 'relative',
@@ -192,7 +192,7 @@ export default async function IgPage() {
                   <span style={{ fontFamily: avios.fontSans, fontSize: 13.5, fontWeight: 600, color: avios.ink700 }}>
                     desde {formatUYU(price.fromUyu)}
                   </span>
-                </Link>
+                </Enlace>
               )
             })}
           </div>

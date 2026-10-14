@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Enlace } from './Enlace'
 import Image from 'next/image'
 import { BRAND, STUDIO_INSTAGRAM, STUDIO_NAME, STUDIO_URL } from '@/lib/env'
 import { useCatalog } from './CatalogProvider'
@@ -9,7 +9,7 @@ import { avios, Icon } from './ui/Primitives'
 // Componente de cliente sólo para leer las categorías del catálogo editable:
 // si se crea una categoría en el panel, aparece también en el pie.
 export function Footer({ settings }: { settings: Record<string, string> }) {
-  // Ojo: todos los enlaces de acá llevan prefetch={false} a propósito. Ver el
+  // Ojo: todos los enlaces de acá llevan a propósito. Ver el
   // comentario de arriba — el pie duplicaba el prefetch de las siete categorías.
   const { categories } = useCatalog()
   const year = new Date().getFullYear()
@@ -20,10 +20,10 @@ export function Footer({ settings }: { settings: Record<string, string> }) {
     <footer className="site-footer">
       <div className="site-footer-inner">
         <div className="site-footer-brand">
-          <Link href="/" className="brand-link" aria-label={`${BRAND.name} — inicio`}>
+          <Enlace href="/" className="brand-link" aria-label={`${BRAND.name} — inicio`}>
             <Image src="/favicon.svg" alt="" width={30} height={30} />
             <span className="brand-wordmark">{BRAND.shortName.toUpperCase()}</span>
-          </Link>
+          </Enlace>
           <p>
             Mercería por mayor y por menor en el centro de Montevideo. Cintas, hilos, cordones, tul
             y herramientas de costura.
@@ -43,11 +43,11 @@ export function Footer({ settings }: { settings: Record<string, string> }) {
           <ul>
             {categories.map((c) => (
               <li key={c.slug}>
-                <Link href={`/tienda/${c.slug}`} prefetch={false}>{c.name}</Link>
+                <Enlace href={`/tienda/${c.slug}`}>{c.name}</Enlace>
               </li>
             ))}
             <li>
-              <Link href="/tienda" prefetch={false}>Ver todo</Link>
+              <Enlace href="/tienda">Ver todo</Enlace>
             </li>
           </ul>
         </nav>
@@ -56,19 +56,19 @@ export function Footer({ settings }: { settings: Record<string, string> }) {
           <h2>Comprar</h2>
           <ul>
             <li>
-              <Link href="/mayorista" prefetch={false}>Venta por mayor</Link>
+              <Enlace href="/mayorista">Venta por mayor</Enlace>
             </li>
             <li>
-              <Link href="/lista-de-precios" prefetch={false}>Lista de precios</Link>
+              <Enlace href="/lista-de-precios">Lista de precios</Enlace>
             </li>
             <li>
-              <Link href="/info" prefetch={false}>Envíos y pagos</Link>
+              <Enlace href="/info">Envíos y pagos</Enlace>
             </li>
             <li>
-              <Link href="/mi-lista" prefetch={false}>Mi lista</Link>
+              <Enlace href="/mi-lista">Mi lista</Enlace>
             </li>
             <li>
-              <Link href="/carrito" prefetch={false}>Tu pedido</Link>
+              <Enlace href="/carrito">Tu pedido</Enlace>
             </li>
           </ul>
         </nav>
@@ -102,11 +102,11 @@ export function Footer({ settings }: { settings: Record<string, string> }) {
           © {year} {BRAND.name}
         </span>
         <span>
-          <Link href="/terminos" prefetch={false}>Términos y privacidad</Link>
+          <Enlace href="/terminos">Términos y privacidad</Enlace>
           <span aria-hidden style={{ margin: '0 8px', color: avios.ink300 }}>
             ·
           </span>
-          <Link href="/contacto" prefetch={false}>Contacto</Link>
+          <Enlace href="/contacto">Contacto</Enlace>
         </span>
         <span>
           Sitio por{' '}

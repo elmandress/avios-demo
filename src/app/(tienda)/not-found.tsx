@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Enlace } from '@/components/Enlace'
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
 import { ProductCard } from '@/components/ProductCard'
@@ -44,7 +44,7 @@ export default async function NotFound() {
       <nav aria-label="Categorías" style={{ marginBottom: 48, textAlign: 'center' }}>
         <div style={{ display: 'flex', gap: 9, flexWrap: 'wrap', justifyContent: 'center' }}>
           {catalog.categories.map((c) => (
-            <Link
+            <Enlace
               key={c.slug}
               href={`/tienda/${c.slug}`}
               style={{
@@ -58,7 +58,7 @@ export default async function NotFound() {
               }}
             >
               {c.name}
-            </Link>
+            </Enlace>
           ))}
         </div>
       </nav>

@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Enlace } from '@/components/Enlace'
 import type { Category } from '@/lib/catalog/types'
 import type { ResumenCategoria, TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { ProductCard } from '@/components/ProductCard'
@@ -288,7 +288,7 @@ function SectionHead({
     <div className="section-head">
       <SectionTitle as="h2">{title}</SectionTitle>
       {link ? (
-        <Link href={link.href}>{link.label} →</Link>
+        <Enlace href={link.href}>{link.label} →</Enlace>
       ) : aside ? (
         <span>{aside}</span>
       ) : null}

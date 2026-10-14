@@ -1,8 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { Enlace } from './Enlace'
 import type { TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { avios, Badge } from './ui/Primitives'
 import { PriceBlock } from './ui/PriceBlock'
@@ -33,26 +32,16 @@ export function ProductCard({
   /** Sólo para las primeras tarjetas visibles: define el LCP de la grilla. */
   priority?: boolean
 }) {
-  const router = useRouter()
   const price = card.precio
   const photo = card.photo
   const soldOut = card.status === 'soldout'
   const href = `/tienda/${card.slug}`
 
-  // Precarga por intención y no por aparecer en pantalla. Con el prefetch por
-  // defecto, una grilla de 24 tarjetas son 24 descargas de fichas que casi
-  // nadie abre, y en Netlify cada request cuesta créditos. Así se baja sólo la
-  // ficha que el dedo o el mouse están por tocar, y la navegación sigue siendo
-  // instantánea.
-  const precargar = () => router.prefetch(href)
-
   return (
-    <Link
+    // Precarga por intención (ver Enlace): una grilla de 24 tarjetas ya no son
+    // 24 descargas de fichas que casi nadie abre.
+    <Enlace
       href={href}
-      prefetch={false}
-      onMouseEnter={precargar}
-      onTouchStart={precargar}
-      onFocus={precargar}
       className="product-card"
       style={{
         textDecoration: 'none',
@@ -150,6 +139,6 @@ export function ProductCard({
           soldOut={soldOut}
         />
       </div>
-    </Link>
+    </Enlace>
   )
 }
