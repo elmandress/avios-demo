@@ -467,6 +467,52 @@ Simplificado a **un número de arranque, uno por bloque de artículos y uno por 
 5. **Un número, dicho tranquilo, sin "sé que es bastante"**. Si hay que bajar, se baja alcance (menos artículos al arranque, o la carga la hace el local), nunca el número.
 6. **La carga se explica en una frase**: *"Cada artículo entra con todos sus anchos o colores, el precio suelto y el de la pieza, y la foto si la tenés. Lo pesado lo hago yo; el precio exacto te lo confirmo cuando vea el PDF."*
 
+### 5.7 ¿Tiene sentido el precio? Comparación con lo que hay en Uruguay (verificado el 14/10/2026)
+
+| Opción | Lo que cobra | Quién carga los productos | Fuente |
+|---|---|---|---|
+| Tiendli (uruguaya) | Gratis hasta 50 productos · Básico $ 495 · Pro $ 995 · Premium $ 1.495 por mes | Ella | [tiendli.com](https://tiendli.com/) (los términos hablan de pesos argentinos con equivalencia: verificar) |
+| Mitienda.uy | Gratis hasta 20 productos · Premium TOP $ 800/mes, ilimitados | Ella | [mitienda.uy](https://www.mitienda.uy/) |
+| Shopify | USD 25–29/mes (~$ 1.000–1.160) + 2% por venta si se cobra con Mercado Pago | Ella | [Shopify](https://www.shopify.com/pricing), [Firox](https://firox.uy/blog/shopify-vs-tiendanube-cual-conviene-en-uruguay) |
+| Tiendanube | **No opera directo en Uruguay** | — | [Firox](https://firox.uy/blog/shopify-vs-tiendanube-cual-conviene-en-uruguay), según la ayuda de Tiendanube |
+| Lombriz Creativa (agencia) | E-commerce "desde $ 30.000" (no dice moneda; parece en pesos), dominio y hosting el 1.er año, después USD 105–180/año; 45–60 días | No lo dice | [Lombriz](https://www.lombrizcreativa.com/diseno-tiendas-online/) |
+| Ideasweb (agencia) | Tienda online **USD 120/mes + IVA** desde el inicio (~$ 4.800 + IVA) | No lo dice | [Ideasweb](https://www.ideasweb.uy/comparar-planes-web) |
+| Waltos Tech (agencia) | A cotizar; **incluye la carga de hasta 200 productos** si se entrega ordenado | Ellos, hasta 200 | [Waltos](https://waltostech.com/servicios-web/tiendas-online/) |
+| A medida (Next.js) | USD 1.200–4.000 · mantenimiento $ 2.000–8.000/mes | Aparte | [Neowyze](https://neowyze.tech/blog/cuanto-cuesta-un-ecommerce-en-uruguay) |
+
+**Veredicto**:
+- **$ 39.900 de arranque con 300 artículos cargados tiene sentido.** Está apenas arriba del "desde $ 30.000" de una agencia que no dice que cargue nada, y por debajo de lo que cobran las tiendas a medida.
+- **$ 1.400 por mes está bien**: es lo de una plataforma de autoservicio (Tiendli Premium $ 1.495) y un tercio de una tienda de agencia por abono (Ideasweb, ~$ 4.800 + IVA).
+- **No lo subiría más** sin antes ver el PDF.
+- ⚠️ **IVA**: las agencias publican "+ IVA". Antes de la propuesta definí con tu contador si SIAR factura con IVA, y decí siempre "IVA incluido" o "+ IVA". Una sorpresa del 22% al final es lo que más rompe la confianza.
+
+### 5.8 Lo que ella tendría que hacer si no te contrata (y cuánto le cuesta)
+
+La comparación justa no es contra otro sitio: es contra **lo que haría igual**.
+
+| Camino | Plata | Lo que no se ve |
+|---|---|---|
+| **Seguir igual** (PDF por WhatsApp y contestar a mano) | $ 0 | El tiempo de contestar (ver tabla de 5.6: con 1 h por día, ~$ 3.200/mes al salario mínimo). Un PDF de ~790 páginas no se puede buscar en un teléfono. Errores de medida cuando hay gente (lo dicen sus reseñas) |
+| **Catálogo de WhatsApp Business** | $ 0 | Tope de 500 productos ([respond.io](https://respond.io/blog/whatsapp-catalog-whatsapp-shopping-catalog)). Se carga a mano desde el teléfono. No calcula el precio por mayor |
+| **Tiendli / Mitienda / Shopify** | $ 800–1.500/mes | **La carga es de ella.** ⚠️ A ~5 min por artículo con sus variantes, 3.000 artículos son ~250 horas: **más de un mes de una persona a tiempo completo** (200 h). Al salario mínimo, ~$ 31.700 sólo en horas, sin contar que esa persona deja de atender |
+| **Agencia** | $ 30.000 o más de arranque, o ~$ 4.800 + IVA/mes | La carga, aparte o con tope (200). Una tienda genérica: sin la cuenta de la pieza, sin la lista para imprimir, sin `/mostrador` |
+| **Tu propuesta** | $ 39.900 + $ 2.000 cada 100 + $ 1.400/mes | Hecha para una mercería, con 300 artículos cargados y una demo que ya funciona con sus productos |
+
+La frase que resume, dicha **después** de que ella contó cuánto tiempo pierde: *"Cualquier opción te cobra algo. La diferencia es quién carga los tres mil artículos: con las plataformas sos vos; acá soy yo."*
+
+### 5.9 Dahila como prueba (la carta más fuerte que tenés)
+
+- **Qué decir (todo HECHO, en `research/` de Dahila)**:
+  - *"Este lo hice para una marca de Montevideo y está andando desde julio."*
+  - Si pregunta por gente: entre agosto y septiembre tuvo **1.180 personas en 28 días** (GA4), casi todas desde el celular, y **Google ya le manda visitas**.
+- **Qué NO decir**:
+  - Ventas: no hay datos (el pago es por WhatsApp; se midieron 4 pedidos enviados por el carrito en 28 días, y no hacen ruido a favor).
+  - "Nunca se cayó": tuvo dos cortes por cuota y por eso la arquitectura de Avíos es distinta. Si lo pregunta, contalo así: *"aprendí y por eso esto está armado distinto"*.
+- **Cómo mostrarlo**: 30 segundos, en el teléfono de ella, **antes** de la demo de Avíos. Abrís [dahila.uy](https://dahila.uy), bajás por la tienda y abrís una ficha. Después: *"Ahora mirá el tuyo."*
+- **La referencia**: pedile antes permiso a la dueña de Dahila para pasarle su contacto a Alejandra. *"Si querés, hablá con ella"* es lo que más baja la desconfianza de un desconocido.
+
+---
+
 ---
 
 ## FASE 6 — Cómo venderlo
@@ -592,6 +638,34 @@ Para mandar **a las 48 h** con la propuesta:
 - **A las 48 h**: la propuesta con las tres opciones en pesos (UYU 22.000 / **30.000** / 44.000 de puesta en marcha) y el piloto arriba de todo.
 - **El día acordado**: llamás vos, no esperás.
 - **Si dice que no**: le preguntás si la podés mostrar como ejemplo **sin sus datos**. Si no, la borrás y se lo confirmás.
+
+### (g) Después de la visita corta: paso a paso
+
+| Cuándo | Qué hacés | Para qué |
+|---|---|---|
+| **Día 0** (visita corta) | Comprás algo, pedís 15 minutos, anotás día y hora. Si te da su WhatsApp, esa noche: *"Hola Alejandra, soy Mati, pasé hoy por el local. Quedamos el [día] a las [hora]. ¡Gracias!"* | Que quede agendado y por escrito |
+| **Día antes** | Ensayás la demo con cronómetro. Panel: "Dejar la demo en cero". Imprimís su lista de precios. Pedís permiso a la dueña de Dahila para usarla de referencia | Que nada falle en su mano |
+| **Reunión** (15–20 min) | Dahila 30 s → preguntas → demo 5 min (ella busca y ella cambia un precio) → preguntas de valor → piloto → próximo paso con fecha. Pedís el PDF y el número bueno | Que ella diga su número (tiempo perdido) antes que vos digas el tuyo |
+| **Mismo día** | WhatsApp de agradecimiento con lo que ella dijo (mensaje en (d)) | Mostrar que escuchaste |
+| **Día +2** | Propuesta: **una página**, en pesos y con IVA aclarado: el piloto arriba, las tres opciones abajo, la del medio marcada, pago por etapas, todo a nombre de ella | Por escrito: ella la puede mirar tranquila y mostrársela a quien decida con ella |
+| **Día +4 o +5** | Llamás vos, el día acordado. Tres salidas: | |
+| | **Sí al piloto** → seña del 50% ($ 3.000), le pedís el PDF y fotos, y arrancás | |
+| | **"Lo pienso"** → *"¿Qué es lo que más te hace dudar?"* y una fecha nueva concreta | |
+| | **No** → *"¿Qué tendría que tener para que te sirva?"* Y le ofrecés borrar la demo | Aprender, y quedar bien |
+| **Semana 1 del piloto** | Cargar los 200 artículos de carnaval, dominio, login real, publicar | |
+| **Semana 2** | 30 min de capacitación. Link en la bio de Instagram. **Respuestas rápidas de WhatsApp Business con los links** (ej.: `/cintas` → link a la categoría): es lo que hace que quien atiende lo use todos los días | Que se use: un sitio que nadie comparte no sirve |
+| **Semana 3** | Medir: visitas, pedidos que llegaron armados por el carrito, cuántos links mandaron, minutos por artículo cargado. Reunión corta con esos números → propuesta del arranque, con el piloto descontado | Cerrar el proyecto completo con datos de ella, no con promesas |
+
+**Las preguntas que hacen entender el valor** (que lo diga ella, no vos). Es la secuencia del método SPIN de Neil Rackham (*SPIN Selling*): situación, problema, consecuencia y beneficio.
+
+| Pregunta | Qué te da |
+|---|---|
+| *"¿Cómo le pasan hoy los precios a alguien que pregunta por WhatsApp?"* | La situación |
+| *"¿Cuántas veces por día pasa? ¿Quién contesta? ¿Llegan de noche o el fin de semana?"* | El problema, y **su número** para la cuenta de 5.6 |
+| *"Cuando suben los precios, ¿cuánto lleva rehacer la lista?"* | Consecuencia: horas |
+| *"¿Alguna vez alguien se llevó metros sueltos cuando le convenía la pieza, o se equivocaron de medida con el local lleno?"* | Consecuencia: plata y reclamos (sin nombrar sus reseñas) |
+| *"¿Qué parte del año es la más fuerte?"* | Urgencia: carnaval |
+| *"Si esto ya estuviera andando en diciembre, ¿qué te cambiaría en el día?"* | El beneficio, **dicho por ella** |
 
 ## Riesgos
 
