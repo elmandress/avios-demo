@@ -44,7 +44,7 @@ export default function CarritoClient({
   siteUrl: string
   shippingEstimate: string
 }) {
-  const { cart, rawState, hasMounted, setQty, remove, replaceCart } = useCart()
+  const { cart, loading, rawState, hasMounted, setQty, remove, replaceCart } = useCart()
   const [delivery, setDelivery] = useState<'retiro' | 'envio' | null>(null)
   const [destination, setDestination] = useState('')
   const [note, setNote] = useState('')
@@ -89,7 +89,9 @@ export default function CarritoClient({
     if (!win) window.location.assign(url)
   }
 
-  if (!hasMounted) {
+  // Mientras bajan los productos del carrito (ver useProductos) también va el
+  // esqueleto: sin precios no hay pedido que mostrar.
+  if (!hasMounted || (loading && rawState.lines.length > 0)) {
     // El carrito vive en localStorage, así que el HTML del servidor no puede
     // conocerlo. Un esqueleto evita mostrar "vacío" un instante y que después
     // aparezcan tres renglones.

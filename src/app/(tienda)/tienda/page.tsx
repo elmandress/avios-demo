@@ -4,7 +4,8 @@ import { createClient } from '@/lib/supabase/public'
 import { summarisePrice } from '@/lib/catalog/pricing'
 import { SITE_URL } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
-import { TiendaClient } from './TiendaClient'
+import { tarjetasDe } from '@/lib/catalog/tarjeta'
+import { TiendaPagina } from './TiendaPagina'
 
 export const revalidate = 3600
 
@@ -68,10 +69,12 @@ export default async function TiendaPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
-      <TiendaClient
+      <TiendaPagina
         activeCategory="todo"
         heading="Catálogo"
         intro="Todo lo que tenemos cargado, con precio por menor y por mayor a la vista. Si buscás algo que no está, escribinos: en el local hay bastante más."
+        categories={catalog.categories}
+        tarjetas={tarjetasDe(catalog)}
       />
     </>
   )

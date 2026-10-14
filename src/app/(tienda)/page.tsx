@@ -1,19 +1,26 @@
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
-import { summarisePrice } from '@/lib/catalog/pricing'
+import { resumirCategoria, tarjetasDe } from '@/lib/catalog/tarjeta'
 import { HomeClient } from './HomeClient'
 
 export const revalidate = 3600
 
 export default async function HomePage() {
   const catalog = await getCatalog(createClient())
-  const active = catalog.products.filter((p) => p.status === 'active')
+  // Tarjetas y no productos: la portada sólo necesita lo que dibuja. Antes le
+  // mandaba al navegador el catálogo entero para contar artículos por categoría.
+  const tarjetas = tarjetasDe(catalog)
+  const activas = tarjetas.filter((t) => t.status === 'active')
 
   // Destacados: el orden manual de la tienda. Los que llevan a la banda
   // mayorista son los que efectivamente tienen presentación por pieza — no una
   // selección a dedo que puede quedar desactualizada al cambiar precios.
-  const featured = [...active].sort((a, b) => a.sortOrder - b.sortOrder).slice(0, 8)
-  const wholesale = active.filter((p) => summarisePrice(p, catalog.discounts).hasWholesale)
+  const featured = activas.slice(0, 8)
+  const wholesale = activas.filter((t) => t.precio.hasWholesale).slice(0, 3)
+  const tiles = catalog.categories
+    .slice()
+    .sort((a, b) => a.sortOrder - b.sortOrder)
+    .map((category) => ({ category, resumen: resumirCategoria(tarjetas, category.slug) }))
 
   const faqItems = [
     {
@@ -55,11 +62,10 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <HomeClient
-        categories={catalog.categories}
-        allProducts={active}
+        tiles={tiles}
+        total={tarjetas.length}
         featured={featured}
         wholesale={wholesale}
-        discounts={catalog.discounts}
         settings={catalog.settings}
       />
     </>

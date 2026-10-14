@@ -2,6 +2,9 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import type { Discount, Product } from '@/lib/catalog/types'
+import { aTarjeta, type TarjetaProducto } from '@/lib/catalog/tarjeta'
+import { registrarProductos } from '@/lib/catalog/cliente'
+import { recordarVisto } from '@/lib/vistos'
 import { UNIT_NOUN } from '@/lib/catalog/types'
 import {
   applyDiscount,
@@ -22,6 +25,7 @@ import { QuantityStepper } from '@/components/QuantityStepper'
 import { UpgradeHint } from '@/components/UpgradeHint'
 import { ProductGallery } from '@/components/ProductGallery'
 import { ProductCard } from '@/components/ProductCard'
+import { VistosRecientes } from '@/components/VistosRecientes'
 import { FavoriteButton } from '@/components/FavoriteButton'
 import { ShareButton } from '@/components/ShareButton'
 import { avios, Badge, Breadcrumb, Button, Icon, SectionTitle } from '@/components/ui/Primitives'
@@ -38,7 +42,8 @@ import { track } from '@/lib/analytics'
 interface Props {
   product: Product
   categoryName: string
-  related: Product[]
+  /** Tarjetas de la misma categoría, ya armadas en el servidor. */
+  related: TarjetaProducto[]
   discounts: Discount[]
   whatsappUrl: string
   siteUrl: string
@@ -54,18 +59,30 @@ export function ProductDetailsClient({
   siteUrl,
   shippingEstimate,
 }: Props) {
-  // Se vuelve a buscar el producto en el catálogo del cliente: si se editó en el
-  // panel, la ficha muestra lo editado. Si no está (producto nuevo todavía sin
-  // página pre-renderizada, o borrado), se usa lo que mandó el servidor.
+  // Si el catálogo se editó en el panel (demo), la ficha muestra lo editado. Si
+  // no, lo que mandó el servidor: la ficha ya no depende de que el navegador
+  // tenga el catálogo entero.
   const catalog = useCatalog()
-  const product = catalog.productBySlug(serverProduct.slug) ?? serverProduct
-  const discounts = catalog.discounts.length > 0 || catalog.edited ? catalog.discounts : serverDiscounts
+  const overlay = catalog.overlay
+  const product = overlay?.products.find((p) => p.slug === serverProduct.slug) ?? serverProduct
+  const discounts = overlay ? overlay.discounts : serverDiscounts
   const categoryName = catalog.categoryBySlug(product.categorySlug)?.name ?? serverCategoryName
-  const related = catalog.edited
-    ? catalog.products
-        .filter((p) => p.categorySlug === product.categorySlug && p.slug !== product.slug && p.status !== 'draft')
-        .slice(0, 4)
-    : serverRelated
+  const related = useMemo(
+    () =>
+      overlay
+        ? overlay.products
+            .filter((p) => p.categorySlug === product.categorySlug && p.slug !== product.slug && p.status !== 'draft')
+            .slice(0, 4)
+            .map((p) => aTarjeta(p, overlay.discounts))
+        : serverRelated,
+    [overlay, product.categorySlug, product.slug, serverRelated]
+  )
+
+  // El carrito recalcula precios contra el producto completo: se lo deja
+  // guardado para que agregar no tenga que volver a pedirlo.
+  useEffect(() => {
+    registrarProductos([serverProduct])
+  }, [serverProduct])
 
   const { add } = useCart()
   const initial = useMemo(() => defaultSelection(product), [product])
@@ -78,6 +95,11 @@ export function ProductDetailsClient({
   useEffect(() => {
     track('product_view', { product: product.slug })
   }, [product.slug])
+
+  // "Viste hace poco": se guarda la tarjeta, no el producto (ver lib/vistos).
+  useEffect(() => {
+    recordarVisto(aTarjeta(product, discounts, categoryName))
+  }, [product, discounts, categoryName])
 
   const discountPercent = resolveDiscountPercent(product, discounts)
   const variant = product.variants.find((v) => v.id === variantId) ?? product.variants[0]
@@ -515,12 +537,14 @@ export function ProductDetailsClient({
             También en {categoryName}
           </SectionTitle>
           <div className="product-grid">
-            {related.map((p) => (
-              <ProductCard key={p.id} product={p} discounts={discounts} />
+            {related.map((card) => (
+              <ProductCard key={card.slug} card={card} />
             ))}
           </div>
         </section>
       )}
+
+      <VistosRecientes excluir={product.slug} />
     </div>
   )
 }

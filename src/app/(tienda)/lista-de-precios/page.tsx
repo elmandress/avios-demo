@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { getCatalog } from '@/lib/catalog'
+import { createClient } from '@/lib/supabase/public'
 import { SITE_URL } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
 import ListaPreciosClient from './ListaPreciosClient'
@@ -25,6 +27,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function ListaPreciosPage() {
-  return <ListaPreciosClient />
+export default async function ListaPreciosPage() {
+  const catalog = await getCatalog(createClient())
+  return <ListaPreciosClient products={catalog.products.filter((p) => p.status !== 'draft')} />
 }

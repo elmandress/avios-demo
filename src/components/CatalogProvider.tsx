@@ -1,60 +1,64 @@
 'use client'
 
-import { createContext, useContext, useMemo, useSyncExternalStore } from 'react'
+import { createContext, useContext, useEffect, useMemo, useSyncExternalStore } from 'react'
 import type { Catalog, Category, Discount, Product } from '@/lib/catalog/types'
+import { tarjetasDe, type TarjetaProducto } from '@/lib/catalog/tarjeta'
 import {
-  getServerSnapshot,
-  getSnapshot,
-  registerBaseCatalog,
-  subscribe,
-} from '@/lib/admin/store'
+  leerIndice,
+  leerIndiceServidor,
+  pedirIndice,
+  pedirProductos,
+  productoEnCache,
+  suscribirIndice,
+  suscribirProductos,
+  versionProductos,
+  versionProductosServidor,
+} from '@/lib/catalog/cliente'
+import { getServerSnapshot, getSnapshot, subscribe } from '@/lib/admin/store'
 
 // El catálogo que ve el navegador.
 //
-// Es lo que hace que la demo se sienta real: si Alejandra cambia un precio en el
-// panel y después abre la tienda, el precio cambió. Sin esto el panel sería una
-// maqueta que no mueve nada.
+// Antes este provider recibía el catálogo ENTERO del layout, y con él viajaban
+// todas las variantes y precios dentro de cada página del sitio. Con 20
+// artículos no se notaba; con miles era el problema principal del proyecto
+// (ver AVIOS-PLAN.md, Fase 2).
 //
-// Cómo funciona: el servidor pre-renderiza con el catálogo del archivo (por eso
-// las páginas siguen siendo estáticas y el HTML que recibe Google está completo)
-// y, ya en el navegador, este provider lo reemplaza por el catálogo editado si
-// existe. `useSyncExternalStore` con `getServerSnapshot` garantiza que la
-// primera pintada coincida con el HTML del servidor y no rompa la hidratación.
+// Ahora recibe sólo lo chico y compartido —categorías, descuentos, textos— y lo
+// demás se pide cuando hace falta (lib/catalog/cliente.ts):
 //
-// Cuando exista la base, este provider se borra: el servidor ya va a servir el
-// catálogo bueno y no hará falta ningún reemplazo en el cliente.
+//   useIndice()     tarjetas livianas de todos los artículos
+//   useProductos()  productos completos, de a uno, para el carrito
+//
+// Las ediciones del panel siguen funcionando igual: el panel guarda en el
+// navegador una copia COMPLETA del catálogo editado (lib/admin/store.ts). Si
+// existe, todo sale de ahí y no se baja nada. Es lo que hace que la demo se
+// sienta real: Alejandra cambia un precio en el panel y la tienda cambia.
 
-interface CatalogContextValue {
-  products: Product[]
+/** Lo que el layout manda en cada página: chico a propósito. */
+export interface CatalogoBase {
   categories: Category[]
   discounts: Discount[]
   settings: Record<string, string>
-  /**
-   * Cuándo se tocó este catálogo por última vez. El panel lo sella en cada
-   * edición (ver `mutate` en admin/store.ts) y de acá sale el "Precios al …"
-   * de la lista imprimible: una lista de precios sin fecha no sirve.
-   */
   generatedAt: string
+}
+
+interface CatalogContextValue extends CatalogoBase {
   /** true si lo que se está viendo tiene ediciones locales del panel. */
   edited: boolean
-  productBySlug: (slug: string) => Product | null
+  /** El catálogo completo editado en el panel (sólo demo), o null. */
+  overlay: Catalog | null
   categoryBySlug: (slug: string) => Category | null
 }
 
 const CatalogContext = createContext<CatalogContextValue | undefined>(undefined)
 
 export function CatalogProvider({
-  serverCatalog,
+  base,
   children,
 }: {
-  serverCatalog: Catalog
+  base: CatalogoBase
   children: React.ReactNode
 }) {
-  // El store sólo guarda las EDICIONES; el catálogo del archivo lo aporta el
-  // servidor. Se registra antes de suscribirse para que cualquier mutación
-  // posterior tenga sobre qué aplicarse.
-  registerBaseCatalog(serverCatalog)
-
   const { editedCatalog, edited, hydrated } = useSyncExternalStore(
     subscribe,
     getSnapshot,
@@ -63,22 +67,22 @@ export function CatalogProvider({
 
   // Antes de hidratar se usa lo que mandó el servidor, para que el primer render
   // del cliente sea idéntico al HTML y React no tire un error de hidratación.
-  const active = hydrated && edited && editedCatalog ? editedCatalog : serverCatalog
+  const overlay = hydrated && edited && editedCatalog ? editedCatalog : null
 
   const value = useMemo<CatalogContextValue>(() => {
-    const bySlug = new Map(active.products.map((p) => [p.slug, p]))
-    const catBySlug = new Map(active.categories.map((c) => [c.slug, c]))
+    const fuente = overlay ?? base
+    const categories = [...fuente.categories].sort((a, b) => a.sortOrder - b.sortOrder)
+    const catBySlug = new Map(categories.map((c) => [c.slug, c]))
     return {
-      products: active.products,
-      categories: [...active.categories].sort((a, b) => a.sortOrder - b.sortOrder),
-      discounts: active.discounts,
-      settings: active.settings,
-      generatedAt: active.generatedAt,
-      edited: hydrated && edited,
-      productBySlug: (slug) => bySlug.get(slug) ?? null,
+      categories,
+      discounts: fuente.discounts,
+      settings: overlay ? overlay.settings : base.settings,
+      generatedAt: overlay ? overlay.generatedAt : base.generatedAt,
+      edited: overlay !== null,
+      overlay,
       categoryBySlug: (slug) => catBySlug.get(slug) ?? null,
     }
-  }, [active, edited, hydrated])
+  }, [overlay, base])
 
   return <CatalogContext.Provider value={value}>{children}</CatalogContext.Provider>
 }
@@ -95,4 +99,58 @@ export function useCatalog(): CatalogContextValue {
  */
 export function useOptionalCatalog(): CatalogContextValue | null {
   return useContext(CatalogContext) ?? null
+}
+
+/**
+ * Las tarjetas de todo el catálogo, o null mientras no llegaron.
+ *
+ * `activar` en false no pide nada: el header lo pasa recién cuando se abre el
+ * buscador, así quien entra a /contacto no baja el índice.
+ */
+export function useIndice(activar = true): TarjetaProducto[] | null {
+  const { overlay } = useCatalog()
+  const estado = useSyncExternalStore(suscribirIndice, leerIndice, leerIndiceServidor)
+
+  useEffect(() => {
+    if (activar && !overlay) pedirIndice()
+  }, [activar, overlay])
+
+  const delPanel = useMemo(() => (overlay ? tarjetasDe(overlay) : null), [overlay])
+  return delPanel ?? estado.tarjetas
+}
+
+/**
+ * Productos completos por slug, para el carrito.
+ *
+ * Devuelve los que ya están, y `pendiente` mientras falte alguno: así quien lo
+ * usa puede esperar en vez de dar por "dado de baja" algo que todavía no llegó.
+ */
+export function useProductos(slugs: readonly string[]): {
+  productos: Product[]
+  pendiente: boolean
+} {
+  const { overlay } = useCatalog()
+  const version = useSyncExternalStore(suscribirProductos, versionProductos, versionProductosServidor)
+  const clave = [...new Set(slugs)].sort().join('|')
+
+  useEffect(() => {
+    if (!overlay && clave) pedirProductos(clave.split('|'))
+  }, [clave, overlay])
+
+  return useMemo(() => {
+    const lista = clave ? clave.split('|') : []
+    if (overlay) {
+      return { productos: overlay.products.filter((p) => lista.includes(p.slug)), pendiente: false }
+    }
+    const productos: Product[] = []
+    let pendiente = false
+    for (const slug of lista) {
+      const p = productoEnCache(slug)
+      if (p === undefined) pendiente = true
+      else if (p) productos.push(p)
+    }
+    return { productos, pendiente }
+    // `version` es la señal de que la caché cambió: sin ella no se recalcula.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [clave, overlay, version])
 }

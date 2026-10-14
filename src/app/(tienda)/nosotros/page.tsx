@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { getCatalog } from '@/lib/catalog'
+import { resumirCategoria, tarjetasDe } from '@/lib/catalog/tarjeta'
 import { createClient } from '@/lib/supabase/public'
 import { BRAND, SITE_URL } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
 export default async function NosotrosPage() {
   const catalog = await getCatalog(createClient())
   const s = catalog.settings
+  const tarjetas = tarjetasDe(catalog)
 
   return (
     <div style={{ maxWidth: 900, margin: '0 auto', padding: '48px 22px 80px' }}>
@@ -71,8 +73,7 @@ export default async function NosotrosPage() {
             <CategoryTile
               key={c.slug}
               category={c}
-              products={catalog.products}
-              discounts={catalog.discounts}
+              resumen={resumirCategoria(tarjetas, c.slug)}
             />
           ))}
         </div>

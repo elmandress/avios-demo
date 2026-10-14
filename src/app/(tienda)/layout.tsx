@@ -16,12 +16,18 @@ import { WhatsAppFloat } from '@/components/WhatsAppFloat'
 // URL— para que el panel quede afuera y tenga el suyo. La home sigue siendo `/`.
 
 export default async function TiendaLayout({ children }: { children: React.ReactNode }) {
-  // Un solo fetch del catálogo para todo el marco: navegación, buscador y
-  // carrito comparten los datos. Antes el layout hacía cuatro queries sueltas a
-  // Supabase que en modo demo devolvían null, así que la barra de promo, el
-  // teléfono y el botón de WhatsApp salían vacíos o con datos de otro cliente.
+  // Un solo fetch del catálogo para todo el marco. Al navegador baja SÓLO lo
+  // chico y compartido: categorías, descuentos y textos. Los productos no: con
+  // miles de artículos, mandarlos en el marco los ponía dentro de cada página
+  // del sitio (ver CatalogProvider y AVIOS-PLAN.md, Fase 2).
   const catalog = await getCatalog(createClient())
   const { settings } = catalog
+  const base = {
+    categories: catalog.categories,
+    discounts: catalog.discounts,
+    settings,
+    generatedAt: catalog.generatedAt,
+  }
 
   const promo = {
     enabled: settings.promo_bar_enabled !== 'false',
@@ -33,7 +39,7 @@ export default async function TiendaLayout({ children }: { children: React.React
     // CatalogProvider va por FUERA de todo: reemplaza el catálogo del servidor
     // por el editado en el panel (si existe), y de ahí leen la navegación, el
     // buscador, la grilla, la ficha y el carrito.
-    <CatalogProvider serverCatalog={catalog}>
+    <CatalogProvider base={base}>
       <CartProvider>
         <FavoritesProvider>
           <a href="#contenido" className="skip-link">

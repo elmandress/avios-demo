@@ -1,6 +1,4 @@
 import type { Metadata } from 'next'
-import { getCatalog } from '@/lib/catalog'
-import { createClient } from '@/lib/supabase/public'
 import { MiListaClient } from './MiListaClient'
 
 export const revalidate = 3600
@@ -13,12 +11,6 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 }
 
-export default async function MiListaPage() {
-  const catalog = await getCatalog(createClient())
-  return (
-    <MiListaClient
-      products={catalog.products.filter((p) => p.status !== 'draft')}
-      discounts={catalog.discounts}
-    />
-  )
+export default function MiListaPage() {
+  return <MiListaClient />
 }

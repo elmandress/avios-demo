@@ -12,7 +12,9 @@ import type { Discount, Product } from '@/lib/catalog/types'
 import { BRAND, SITE_URL } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
 import { botImageUrl } from '@/lib/media'
-import { TiendaClient } from '../TiendaClient'
+import { FICHAS_PRE_GENERADAS } from '@/lib/catalog/escala'
+import { aTarjeta, tarjetasDe } from '@/lib/catalog/tarjeta'
+import { TiendaPagina } from '../TiendaPagina'
 import { ProductDetailsClient } from './ProductDetailsClient'
 
 export const revalidate = 3600
@@ -33,7 +35,14 @@ export async function generateStaticParams() {
   const catalog = await getCatalog(createClient())
   return [
     ...catalog.categories.map((c) => ({ slug: c.slug })),
-    ...catalog.products.filter((p) => p.status !== 'draft').map((p) => ({ slug: p.slug })),
+    // Las primeras fichas en el orden de la tienda; el resto se arma en la
+    // primera visita (ver escala.ts). Con miles de artículos, generarlas todas en
+    // cada deploy sólo alarga el build.
+    ...catalog.products
+      .filter((p) => p.status !== 'draft')
+      .sort((a, b) => a.sortOrder - b.sortOrder)
+      .slice(0, FICHAS_PRE_GENERADAS)
+      .map((p) => ({ slug: p.slug })),
   ]
 }
 
@@ -100,7 +109,13 @@ export default async function TiendaSlugPage({ params }: { params: Promise<{ slu
             __html: JSON.stringify(breadcrumbJsonLd([{ name: category.name, slug }])),
           }}
         />
-        <TiendaClient activeCategory={slug} heading={category.name} intro={category.description} />
+        <TiendaPagina
+          activeCategory={slug}
+          heading={category.name}
+          intro={category.description}
+          categories={catalog.categories}
+          tarjetas={tarjetasDe(catalog).filter((t) => t.categorySlug === slug)}
+        />
       </>
     )
   }
@@ -113,6 +128,7 @@ export default async function TiendaSlugPage({ params }: { params: Promise<{ slu
   const related = productsInCategory(catalog, product.categorySlug)
     .filter((p) => p.slug !== product.slug)
     .slice(0, 4)
+    .map((p) => aTarjeta(p, catalog.discounts, productCategory?.name))
 
   return (
     <>

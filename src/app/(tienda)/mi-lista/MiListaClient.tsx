@@ -1,8 +1,8 @@
 'use client'
 
 import { useMemo } from 'react'
-import type { Discount, Product } from '@/lib/catalog/types'
 import { useFavorites } from '@/components/FavoritesProvider'
+import { useIndice } from '@/components/CatalogProvider'
 import { ProductCard } from '@/components/ProductCard'
 import { avios, Button, SectionTitle } from '@/components/ui/Primitives'
 
@@ -14,23 +14,20 @@ import { avios, Button, SectionTitle } from '@/components/ui/Primitives'
  * deseo, es la lista de compra de un proyecto —o la de reposición de un taller—
  * que se arma en varias sesiones y se pasa al pedido cuando está completa.
  */
-export function MiListaClient({
-  products,
-  discounts,
-}: {
-  products: Product[]
-  discounts: Discount[]
-}) {
+export function MiListaClient() {
   const { slugs, hasMounted } = useFavorites()
+  // Las tarjetas salen del índice liviano: esta página ya no recibe el
+  // catálogo entero para mostrar los cuatro artículos guardados.
+  const tarjetas = useIndice(slugs.length > 0)
 
   const saved = useMemo(() => {
     const order = new Map(slugs.map((s, i) => [s, i]))
-    return products
-      .filter((p) => order.has(p.slug))
+    return (tarjetas ?? [])
+      .filter((t) => order.has(t.slug))
       .sort((a, b) => (order.get(a.slug) ?? 0) - (order.get(b.slug) ?? 0))
-  }, [slugs, products])
+  }, [slugs, tarjetas])
 
-  if (!hasMounted) {
+  if (!hasMounted || (slugs.length > 0 && tarjetas === null)) {
     return (
       <div style={wrap} role="status" aria-live="polite">
         <span className="sr-only">Cargando tu lista…</span>
@@ -83,7 +80,7 @@ export function MiListaClient({
       </p>
       <div className="product-grid">
         {saved.map((p, i) => (
-          <ProductCard key={p.id} product={p} discounts={discounts} priority={i < 4} />
+          <ProductCard key={p.slug} card={p} priority={i < 4} />
         ))}
       </div>
     </div>

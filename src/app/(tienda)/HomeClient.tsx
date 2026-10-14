@@ -1,7 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import type { Category, Discount, Product } from '@/lib/catalog/types'
+import type { Category } from '@/lib/catalog/types'
+import type { ResumenCategoria, TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { ProductCard } from '@/components/ProductCard'
 import { CategoryTile } from '@/components/CategoryTile'
 import { avios, Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/ui/Primitives'
@@ -20,23 +21,16 @@ import { avios, Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/
 // tiene ninguna vía de entrada.
 
 interface Props {
-  categories: Category[]
-  /** El catálogo publicado completo — las baldosas cuentan y precian desde acá. */
-  allProducts: Product[]
-  featured: Product[]
-  wholesale: Product[]
-  discounts: Discount[]
+  /** Las baldosas de categoría, ya resumidas en el servidor. */
+  tiles: Array<{ category: Category; resumen: ResumenCategoria }>
+  /** Cuántos artículos hay publicados. */
+  total: number
+  featured: TarjetaProducto[]
+  wholesale: TarjetaProducto[]
   settings: Record<string, string>
 }
 
-export function HomeClient({
-  categories,
-  allProducts,
-  featured,
-  wholesale,
-  discounts,
-  settings,
-}: Props) {
+export function HomeClient({ tiles, total, featured, wholesale, settings }: Props) {
   return (
     <>
       {/* ── Entrada ───────────────────────────────────────────────────────── */}
@@ -99,11 +93,11 @@ export function HomeClient({
       <section style={sectionStyle}>
         <SectionHead
           title="Qué tenemos"
-          aside={`${allProducts.length} artículos cargados`}
+          aside={`${total} artículos cargados`}
         />
         <div className="category-grid">
-          {categories.map((c) => (
-            <CategoryTile key={c.slug} category={c} products={allProducts} discounts={discounts} />
+          {tiles.map(({ category, resumen }) => (
+            <CategoryTile key={category.slug} category={category} resumen={resumen} />
           ))}
         </div>
       </section>
@@ -137,8 +131,8 @@ export function HomeClient({
 
           {wholesale.length > 0 && (
             <div className="wholesale-band-grid">
-              {wholesale.slice(0, 3).map((p) => (
-                <ProductCard key={p.id} product={p} discounts={discounts} />
+              {wholesale.map((card) => (
+                <ProductCard key={card.slug} card={card} />
               ))}
             </div>
           )}
@@ -150,8 +144,8 @@ export function HomeClient({
         <section style={sectionStyle}>
           <SectionHead title="Lo que más sale" link={{ href: '/tienda', label: 'Ver todo' }} />
           <div className="product-grid">
-            {featured.map((p, i) => (
-              <ProductCard key={p.id} product={p} discounts={discounts} priority={i < 4} />
+            {featured.map((card, i) => (
+              <ProductCard key={card.slug} card={card} priority={i < 4} />
             ))}
           </div>
         </section>

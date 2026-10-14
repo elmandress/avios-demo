@@ -19,7 +19,7 @@ import { useScrollLock } from '@/lib/scroll-lock'
  * metros o dos piezas de cien.
  */
 export function CartDrawer() {
-  const { cart, drawerOpen, closeDrawer } = useCart()
+  const { cart, loading, rawState, drawerOpen, closeDrawer } = useCart()
   const panelRef = useRef<HTMLDivElement>(null)
 
   // Los dos hooks se llaman SIEMPRE (arriba del early return) porque el orden
@@ -92,7 +92,15 @@ export function CartDrawer() {
           </button>
         </div>
 
-        {cart.lines.length === 0 ? (
+        {loading && rawState.lines.length > 0 && cart.lines.length === 0 ? (
+          // Los productos del carrito todavía están bajando: un "no agregaste
+          // nada" de medio segundo asusta más que una espera.
+          <div role="status" style={{ flex: 1, padding: 22 }}>
+            <span className="sr-only">Cargando tu pedido…</span>
+            <div className="sk-shimmer" style={{ height: 72, borderRadius: 10, marginBottom: 14 }} />
+            <div className="sk-shimmer" style={{ height: 72, borderRadius: 10 }} />
+          </div>
+        ) : cart.lines.length === 0 ? (
           <div style={{ flex: 1, display: 'grid', placeItems: 'center', padding: 28, textAlign: 'center' }}>
             <div>
               <p style={{ fontFamily: avios.fontSans, fontSize: 15, color: avios.ink700, marginBottom: 18 }}>

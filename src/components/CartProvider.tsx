@@ -13,7 +13,7 @@ import type { Product, SaleFormat, Variant } from '@/lib/catalog/types'
 import { resolveCart, type ResolvedCart } from '@/lib/cart/resolve'
 import { getServerSnapshot, getSnapshot, setCart, subscribe } from '@/lib/cart/store'
 import { EMPTY_CART, MAX_QTY_PER_LINE, lineKey, type CartLine, type CartState } from '@/lib/cart/types'
-import { useCatalog } from './CatalogProvider'
+import { useCatalog, useProductos } from './CatalogProvider'
 import { track } from '@/lib/analytics'
 import { avios } from './ui/Primitives'
 
@@ -36,6 +36,12 @@ import { avios } from './ui/Primitives'
 
 interface CartContextValue {
   cart: ResolvedCart
+  /**
+   * true mientras falta bajar algún producto del carrito para calcular su
+   * precio. En ese lapso las líneas pendientes no se muestran ni se cuentan como
+   * "dadas de baja": todavía no se sabe.
+   */
+  loading: boolean
   /** El estado guardado, sin resolver contra el catálogo. Para el respaldo del último pedido. */
   rawState: CartState
   /** Reemplaza el carrito entero. La usa "volver a pedir lo mismo". */
@@ -60,10 +66,13 @@ interface CartContextValue {
 const CartContext = createContext<CartContextValue | undefined>(undefined)
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
-  // Productos y descuentos salen del catálogo del cliente y no de props: si el
-  // precio se editó en el panel, el carrito tiene que cobrar el precio nuevo.
-  const { products, discounts } = useCatalog()
+  // Los descuentos salen del catálogo del cliente y los productos se piden de a
+  // uno, sólo los que están en el carrito (ver useProductos): si el precio se
+  // editó en el panel, el carrito tiene que cobrar el precio nuevo, y ya no hace
+  // falta que el navegador tenga el catálogo entero para saberlo.
+  const { discounts } = useCatalog()
   const { state, hydrated } = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+  const { productos: products, pendiente } = useProductos(state.lines.map((l) => l.productSlug))
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
   const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -139,14 +148,18 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   // `resolveCart` es puro y barato (decenas de líneas contra decenas de
   // productos), así que se recalcula con cada cambio en vez de cachearse.
-  const cart = useMemo(
-    () => resolveCart(state.lines, products, discounts),
-    [state.lines, products, discounts]
-  )
+  const cart = useMemo(() => {
+    // Mientras falte algún producto, sólo se resuelven las líneas que ya tienen
+    // sus datos; las otras esperan en vez de contarse como dadas de baja.
+    const listos = new Set(products.map((p) => p.slug))
+    const lines = pendiente ? state.lines.filter((l) => listos.has(l.productSlug)) : state.lines
+    return resolveCart(lines, products, discounts)
+  }, [state.lines, products, discounts, pendiente])
 
   const value = useMemo<CartContextValue>(
     () => ({
       cart,
+      loading: pendiente,
       rawState: state,
       hasMounted: hydrated,
       drawerOpen,
@@ -158,7 +171,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       clear,
       replaceCart,
     }),
-    [cart, state, hydrated, drawerOpen, openDrawer, closeDrawer, add, setQty, remove, clear, replaceCart]
+    [cart, pendiente, state, hydrated, drawerOpen, openDrawer, closeDrawer, add, setQty, remove, clear, replaceCart]
   )
 
   return (

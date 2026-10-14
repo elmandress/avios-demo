@@ -7,6 +7,7 @@ import type { Product } from '@/lib/catalog/types'
 import { BRAND, SITE_URL } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
 import { ProductCard } from '@/components/ProductCard'
+import { aTarjeta } from '@/lib/catalog/tarjeta'
 import { avios } from '@/components/ui/tokens'
 import { Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/ui/Primitives'
 
@@ -279,7 +280,7 @@ export default async function MayoristaPage() {
           </SectionTitle>
           <div className="product-grid">
             {wholesaleProducts.slice(0, 12).map((p) => (
-              <ProductCard key={p.id} product={p} discounts={catalog.discounts} />
+              <ProductCard key={p.id} card={aTarjeta(p, catalog.discounts)} />
             ))}
           </div>
         </section>

@@ -2,8 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import type { Discount, Product } from '@/lib/catalog/types'
-import { summarisePrice } from '@/lib/catalog/pricing'
+import { useRouter } from 'next/navigation'
+import type { TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { avios, Badge } from './ui/Primitives'
 import { PriceBlock } from './ui/PriceBlock'
 import { FavoriteButton } from './FavoriteButton'
@@ -24,42 +24,35 @@ import { BLUR_DATA_URL } from '@/lib/media'
 // 3. Se agregó la señal de mayoreo con el ahorro real calculado. Es la razón por
 //    la que un mayorista entra a la ficha, y antes no existía en la grilla.
 
-/**
- * Cómo se llama en plural el eje por el que varía este producto. Decir
- * "2 medidas" de una cinta reflectiva que viene en gris y en flúor es
- * describirla mal: lo que cambia es el modelo, no la medida.
- */
-function variantNoun(product: Product): string {
-  switch (product.variants.find((v) => v.axis)?.axis) {
-    case 'color':
-      return 'colores'
-    case 'ancho':
-      return 'anchos'
-    case 'medida':
-      return 'medidas'
-    default:
-      return 'versiones'
-  }
-}
-
 export function ProductCard({
-  product,
-  discounts = [],
+  card,
   priority = false,
 }: {
-  product: Product
-  discounts?: readonly Discount[]
+  /** La versión de grilla del producto (ver lib/catalog/tarjeta.ts). */
+  card: TarjetaProducto
   /** Sólo para las primeras tarjetas visibles: define el LCP de la grilla. */
   priority?: boolean
 }) {
-  const price = summarisePrice(product, discounts)
-  const photo = product.media[0]
-  const soldOut = product.status === 'soldout'
-  const variantCount = product.variants.filter((v) => v.label).length
+  const router = useRouter()
+  const price = card.precio
+  const photo = card.photo
+  const soldOut = card.status === 'soldout'
+  const href = `/tienda/${card.slug}`
+
+  // Precarga por intención y no por aparecer en pantalla. Con el prefetch por
+  // defecto, una grilla de 24 tarjetas son 24 descargas de fichas que casi
+  // nadie abre, y en Netlify cada request cuesta créditos. Así se baja sólo la
+  // ficha que el dedo o el mouse están por tocar, y la navegación sigue siendo
+  // instantánea.
+  const precargar = () => router.prefetch(href)
 
   return (
     <Link
-      href={`/tienda/${product.slug}`}
+      href={href}
+      prefetch={false}
+      onMouseEnter={precargar}
+      onTouchStart={precargar}
+      onFocus={precargar}
       className="product-card"
       style={{
         textDecoration: 'none',
@@ -82,7 +75,7 @@ export function ProductCard({
         {photo ? (
           <Image
             src={photo.url}
-            alt={photo.alt || product.name}
+            alt={photo.alt}
             fill
             quality={82}
             placeholder="blur"
@@ -97,7 +90,7 @@ export function ProductCard({
             style={{ objectFit: 'cover' }}
           />
         ) : (
-          <ProductPlaceholder categorySlug={product.categorySlug} label={product.name} />
+          <ProductPlaceholder categorySlug={card.categorySlug} label={card.name} />
         )}
 
         {soldOut && (
@@ -120,13 +113,13 @@ export function ProductCard({
               {/* Etiqueta libre de la dueña ("Nuevo", "Último stock"). Va última
                   porque el descuento y el mayoreo son señales calculadas: si
                   compiten por el espacio, gana el dato duro. */}
-              {product.badge && <Badge tone="white">{product.badge}</Badge>}
+              {card.badge && <Badge tone="white">{card.badge}</Badge>}
             </>
           )}
         </div>
 
         <div style={{ position: 'absolute', top: 8, right: 8 }}>
-          <FavoriteButton slug={product.slug} />
+          <FavoriteButton slug={card.slug} />
         </div>
       </div>
 
@@ -134,7 +127,7 @@ export function ProductCard({
         <span style={{ fontFamily: avios.fontSans, fontSize: 12, color: avios.ink500 }}>
           {/* Espacio duro cuando no hay variantes: mantiene la altura del
               renglón para que los títulos de la grilla queden alineados. */}
-          {variantCount > 1 ? `${variantCount} ${variantNoun(product)}` : ' '}
+          {card.variantes ?? ' '}
         </span>
         <h3
           style={{
@@ -146,14 +139,14 @@ export function ProductCard({
             margin: 0,
           }}
         >
-          {product.name}
+          {card.name}
         </h3>
         <PriceBlock
           list={price.fromListUyu}
           final={price.fromUyu}
           unit={price.fromUnit}
           showUnit={price.fromIsPerUnit}
-          prefix={variantCount > 1 || price.retailRange?.low !== price.retailRange?.high ? 'desde' : undefined}
+          prefix={price.desde ? 'desde' : undefined}
           soldOut={soldOut}
         />
       </div>

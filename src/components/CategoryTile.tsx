@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import type { Category, Discount, Product } from '@/lib/catalog/types'
-import { formatUYU, summarisePrice } from '@/lib/catalog/pricing'
+import type { Category } from '@/lib/catalog/types'
+import type { ResumenCategoria } from '@/lib/catalog/tarjeta'
+import { formatUYU } from '@/lib/catalog/pricing'
 import { BLUR_DATA_URL } from '@/lib/media'
 import { Icon } from './ui/Primitives'
 
@@ -27,31 +28,13 @@ import { Icon } from './ui/Primitives'
 
 export function CategoryTile({
   category,
-  products,
-  discounts,
+  resumen,
 }: {
   category: Category
-  /** Todos los productos: la baldosa deriva de acá su conteo y su "desde". */
-  products: Product[]
-  discounts: readonly Discount[]
+  /** Conteo, "desde", foto y muestra: se calculan en el servidor. */
+  resumen: ResumenCategoria
 }) {
-  const inCategory = products.filter(
-    (p) => p.categorySlug === category.slug && p.status !== 'draft'
-  )
-
-  const prices = inCategory
-    .map((p) => summarisePrice(p, discounts).fromUyu)
-    .filter((n) => n > 0)
-  const from = prices.length > 0 ? Math.min(...prices) : null
-
-  // La primera foto que aparezca en la categoría. Si no hay ninguna, la baldosa
-  // se queda con el papel crema y su tipografía, que también funciona.
-  const photo = inCategory.find((p) => p.media.length > 0)?.media[0] ?? null
-
-  // Sin foto la baldosa quedaba con medio cuadro vacío. En vez de rellenarlo
-  // con una textura decorativa, se listan los primeros artículos: es contenido
-  // de verdad y contesta la pregunta que trae al visitante ("¿tenés pinzas?").
-  const sample = inCategory.slice(0, 3).map((p) => p.name)
+  const { cantidad, desde: from, foto: photo, muestra: sample } = resumen
 
   return (
     <Link href={`/tienda/${category.slug}`} className="cat-tile" data-photo={photo ? 'si' : 'no'}>
@@ -79,9 +62,9 @@ export function CategoryTile({
       <span className="cat-tile-body">
         <span className="cat-tile-name">{category.name}</span>
         <span className="cat-tile-meta">
-          {inCategory.length === 0
+          {cantidad === 0
             ? 'Próximamente'
-            : `${inCategory.length} ${inCategory.length === 1 ? 'artículo' : 'artículos'}`}
+            : `${cantidad} ${cantidad === 1 ? 'artículo' : 'artículos'}`}
           {/* El precio entero en un renglón: "desde $" arriba y "13" abajo no
               se lee como precio. */}
           {from !== null && (

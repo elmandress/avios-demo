@@ -96,8 +96,12 @@ function filaDe(
   }
 }
 
-export default function ListaPreciosClient() {
-  const { products, categories, discounts, settings, generatedAt } = useCatalog()
+export default function ListaPreciosClient({ products: serverProducts }: { products: Product[] }) {
+  // Los productos vienen de esta página y no del marco: la lista es la única
+  // pantalla pública que necesita todas las presentaciones de todo el catálogo.
+  // Si el catálogo se editó en el panel (demo), manda lo editado.
+  const { overlay, categories, discounts, settings, generatedAt } = useCatalog()
+  const products = overlay ? overlay.products : serverProducts
   const [vista, setVista] = useState<Vista>('todo')
 
   const bloques = useMemo(() => {

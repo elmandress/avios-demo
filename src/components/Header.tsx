@@ -4,11 +4,11 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation'
-import { formatUYU, summarisePrice } from '@/lib/catalog/pricing'
+import { formatUYU } from '@/lib/catalog/pricing'
 import { normalizeText } from '@/lib/media'
-import { puntuar } from '@/lib/search/match'
+import { puntuarCampos } from '@/lib/search/match'
 import { BRAND } from '@/lib/env'
-import { useCatalog } from './CatalogProvider'
+import { useCatalog, useIndice } from './CatalogProvider'
 import { useCart } from './CartProvider'
 import { useFavorites } from './FavoritesProvider'
 import { avios, Icon } from './ui/Primitives'
@@ -47,10 +47,10 @@ interface SearchHit {
 export function Header({ promo }: { promo: { enabled: boolean; text: string; link: string } }) {
   // Las categorías del menú salen del catálogo, no de una lista escrita a mano:
   // una categoría nueva creada en el panel aparece sola en la navegación.
-  const { categories, products, discounts } = useCatalog()
+  const { categories } = useCatalog()
   const pathname = usePathname()
   const router = useRouter()
-  const { cart, hasMounted, openDrawer } = useCart()
+  const { cart, loading: cartLoading, rawState, hasMounted, openDrawer } = useCart()
   const { count: favCount, hasMounted: favMounted } = useFavorites()
 
   const [menuOpen, setMenuOpen] = useState(false)
@@ -94,29 +94,34 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
     [categories]
   )
 
+  // El índice se baja recién cuando se abre el buscador: quien entra a
+  // /contacto no tiene por qué bajar el catálogo.
+  const tarjetas = useIndice(searchOpen)
+
   const hits: SearchHit[] = useMemo(() => {
     const q = normalizeText(query)
-    if (q.length < 2) return []
-    return products
-      .filter((p) => p.status !== 'draft')
+    if (q.length < 2 || !tarjetas) return []
+    return tarjetas
       // El ranking sale de lib/search/match, el MISMO módulo que filtra la
       // grilla de /tienda. Cuando eran dos códigos distintos, la sugerencia
       // mostraba el producto y al apretar Enter la grilla decía "sin resultados".
-      .map((p) => ({ p, score: puntuar(p, query, categoryName.get(p.categorySlug)) }))
+      .map((p) => ({ p, score: puntuarCampos(p.busqueda, query) }))
       .filter((x) => x.score >= 0)
       .sort((a, b) => a.score - b.score)
       .slice(0, 6)
       .map(({ p }) => ({
         slug: p.slug,
         name: p.name,
-        price: formatUYU(summarisePrice(p, discounts).fromUyu),
+        price: formatUYU(p.precio.fromUyu),
         category: categoryName.get(p.categorySlug) ?? '',
       }))
-  }, [query, products, categoryName, discounts])
+  }, [query, tarjetas, categoryName])
 
   // Renglones y no unidades: un globito con "45" porque alguien pidió 45 metros
   // de una cinta se lee como 45 artículos en el carrito.
-  const cartCount = hasMounted ? cart.lineCount : 0
+  // Mientras bajan los productos del carrito se cuenta lo guardado, para que el
+  // globito no baje y vuelva a subir.
+  const cartCount = !hasMounted ? 0 : cartLoading ? rawState.lines.length : cart.lineCount
 
   return (
     <>
@@ -263,7 +268,9 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
                         padding: '10px 2px',
                       }}
                     >
-                      Nada con ese nombre. Probá con la categoría o preguntanos por WhatsApp.
+                      {tarjetas === null
+                        ? 'Buscando…'
+                        : 'Nada con ese nombre. Probá con la categoría o preguntanos por WhatsApp.'}
                     </li>
                   ) : (
                     hits.map((hit) => (

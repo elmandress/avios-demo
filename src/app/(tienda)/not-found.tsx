@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
 import { ProductCard } from '@/components/ProductCard'
+import { aTarjeta } from '@/lib/catalog/tarjeta'
 import { avios } from '@/components/ui/tokens'
 import { Button, Eyebrow, SectionTitle } from '@/components/ui/Primitives'
 
@@ -65,7 +66,7 @@ export default async function NotFound() {
       {suggestions.length > 0 && (
         <div className="product-grid">
           {suggestions.map((p) => (
-            <ProductCard key={p.id} product={p} discounts={catalog.discounts} />
+            <ProductCard key={p.id} card={aTarjeta(p, catalog.discounts)} />
           ))}
         </div>
       )}
