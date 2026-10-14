@@ -1,6 +1,6 @@
 # AVIOS-PLAN — auditoría, mejoras, costos, precio y venta
 
-Para Mati (SIAR). Fecha: 13/10/2026. Documento interno: **no se le muestra a
+Para Mati (SIAR). Fecha: 13/10/2026, actualizado el 14/10/2026. Documento interno: **no se le muestra a
 Alejandra**.
 
 Convención de todo el documento:
@@ -13,15 +13,24 @@ Convención de todo el documento:
 
 ## Resumen ejecutivo
 
-- **La demo está bien hecha, pero no escala a miles de productos tal como está.** HECHO: el layout de la tienda le pasa el catálogo **entero** al navegador en **cada página** (lo medí: los 58 precios del catálogo viajan hasta en `/contacto`). Con 20 productos no se nota (~29 KB). Con 3.000 serían ⚠️ ~4,6 MB de datos dentro de cada página, un build de miles de páginas de varios MB cada una y un teléfono procesando todo eso para mostrar 24 tarjetas. **Es el único cambio grande imprescindible** antes de cargar el catálogo real (12–16 h). Está planteado en la Fase 4 y **no lo toqué**: espera tu OK.
-- **Arquitectura recomendada: híbrida.** Supabase como fuente de verdad del panel (escrituras, login, planilla), el sitio público pre-generado en el CDN de Netlify y regenerado sólo cuando cambia algo (webhook), y **las fotos fuera de Supabase**. Es lo que Dahila terminó aprendiendo después de dos cortes por cuota.
-- **Ya apliqué 6 arreglos chicos**, cada uno en su commit (detalle en Fase 4). El más importante para la reunión: **la demo mostraba un 10% de descuento "Lanzamiento" en todo el catálogo que no sale del catálogo de Alejandra**; ella iba a ver sus artículos a precios que nunca puso ($ 11,70 en vez de $ 13). Quedó apagado.
-- **Tráfico esperable** ⚠️: 2.000 / 6.000 / 15.000 sesiones por mes (conservador / medio / optimista), con picos en temporada de carnaval. Calibrado con los datos reales de Dahila (4.114 seguidores → 1.340 sesiones en 28 días).
-- **Costo real tuyo** (con la corrección de la Fase 4 aplicada): **~USD 11/mes (USD ~130/año) en los escenarios conservador y medio, USD 11–36/mes en el optimista**. Sin la corrección, el escenario optimista pasa a Netlify Pro con recargas.
-- **Riesgo operativo que no podés ignorar**: HECHO, en Netlify Free, si el equipo se queda sin créditos **se pausan todos los sitios del equipo** con "Site not available" hasta el próximo ciclo ([Netlify, billing FAQ](https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/)). Si Avíos vive en el mismo equipo que Dahila, un pico de carnaval de Avíos te baja Dahila. **Equipo propio por cliente y plan Personal (USD 9) para cualquier cliente que pague.**
-- **Precio propuesto** (objetivo, para ~1.000 artículos): puesta en marcha USD 1.400 + carga USD 630 + USD 75/mes. Con 3.000 artículos la carga sube a USD 2.030 (total USD 3.430). Piso y techo en la Fase 5. ⚠️ Todo el precio de la carga depende de **si el PDF tiene texto seleccionable o es escaneado**: por eso el piloto.
-- **Cómo venderlo**: demo de 5 minutos centrada en buscar y en la cuenta de la pieza, propuesta por WhatsApp en 48 h, y **un piloto pago de 150–300 artículos de carnaval** antes de comprometer el catálogo entero. El carnaval arranca a fines de enero ([Gobierno de Uruguay](https://www.gub.uy/presidencia/comunicacion/noticias/uruguay-prepara-su-fiesta-carnaval-compartida-miles-vecinos-visitantes); el desfile inaugural 2026 fue el 22/01 según [Montevideo Portal](https://www.montevideo.com.uy/Tiempo-libre/Se-realizo-el-desfile-inaugural-del-Carnaval-conoce-los-ganadores-de-cada-categoria-uc950657)), y Avíos ya publica que es su fuerte. Llegar a diciembre con el piloto andando es el argumento de calendario.
-- **Lo que no sirve del plan original y hay que decirlo**: (1) el dominio .uy por menos de USD 20/año es cierto sólo vía revendedor y sin IVA; .com.uy anda por USD 45 + IVA. (2) Supabase Free no es "gratis para siempre" para vos: el límite de **2 proyectos gratis cuenta en todas tus organizaciones** y Dahila ya usa uno. El tercer cliente ya no entra.
+*Actualizado el 14/10/2026, después de la segunda ronda (mejoras aplicadas).*
+
+- **La demo ya aguanta miles de artículos.** HECHO: antes el navegador recibía el catálogo **entero** en cada página (hasta en `/contacto`). Ahora recibe sólo lo que pinta, y un índice liviano cuando hace falta buscar o filtrar. **Medido armando el sitio con 3.000 artículos: las páginas pesan lo mismo que con 20 (13–23 KB comprimidas) y el build tarda 63 s.**
+- **Más rápida y más liviana.** HECHO, medido en el build de producción con 4G lenta:
+  - primera visita al inicio: de **471 a 273–293 KB**;
+  - páginas siguientes: **45–95 KB**;
+  - LCP de `/tienda`: de **2.988 a 944 ms** (era la única página en rojo);
+  - pedidos por página: de 42–61 a **18–26** (en Netlify cada pedido cuesta créditos).
+  - **La auditoría completa da verde**: accesibilidad, layout móvil, enlaces y velocidad.
+- **Más cerca de Dahila**: barra fija de compra en la ficha, "Viste hace poco", grilla con HTML real, categorías como enlaces rastreables.
+- **El 10% "Lanzamiento" no era real** (no sale del catálogo en papel): quedó apagado. Los precios que se ven son los de Alejandra: $ 13 el metro, pieza de 100 m a $ 396.
+- **Productos**: los 25 renglones del catálogo en papel que hay transcriptos ya estaban cargados (son los 20 artículos). **En la computadora no hay un PDF de Avíos** (los PDF de Descargas son de otros negocios), así que agregar más sin inventar precios no es posible. Con el PDF, la carga va por planilla.
+- **Arquitectura: híbrida.** Supabase para el panel (login, escrituras, planilla), sitio pre-generado en el CDN de Netlify y regenerado sólo cuando algo cambia, **fotos fuera de Supabase**. Es lo que Dahila aprendió con dos cortes por cuota.
+- **Tráfico esperable** ⚠️: 2.000 / 6.000 / 15.000 sesiones por mes, con picos de carnaval. Calibrado con Dahila (4.114 seguidores → 1.340 sesiones en 28 días).
+- **Tu costo real**: **~USD 10/mes (~USD 125/año)** en los tres escenarios (Netlify Personal + dominio). El optimista en pico de carnaval sigue entrando en Personal sin recargas.
+- **Precio, revisado a la baja** (ver Fase 5 y "¿por qué no USD 75?"). Objetivo para ~1.000 artículos: **USD 750 puesta en marcha + USD 400 de carga + USD 35/mes** (UYU 30.000 + 16.000 + 1.400/mes). Piloto de carnaval: **USD 150**, que se descuenta si sigue.
+- **Riesgo que no podés ignorar**: en Netlify Free, si el equipo se queda sin créditos **se pausan todos los sitios del equipo** ([Netlify, billing FAQ](https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/)). Equipo propio por cliente.
+- **Lo que no sirve del plan original**: (1) el .uy por menos de USD 20/año es cierto sólo vía revendedor y sin IVA; .com.uy anda por USD 45 + IVA. (2) Supabase Free tiene **2 proyectos gratis entre todas tus organizaciones** y Dahila usa uno.
 
 ---
 
@@ -123,22 +132,22 @@ HECHO (`research/mediciones/ga-2026-09-21.md`, GA4, 24/08–20/09/2026, 28 días
 
 ## FASE 2 — Auditoría de la demo de Avíos
 
-Medí contra el build de producción (`next build` + `next start`, Edge headless, 390 px, 4G lenta, CPU 4×).
+Medí contra el build de producción (`next build` + `next start`, Edge headless, 390 px, 4G lenta, CPU 4×). La última columna dice cómo quedó después de la segunda ronda.
 
 ### 2.1 Lo que consume de más / no escala a miles de productos
 
-| # | Hallazgo (HECHO) | Por qué importa con miles | Severidad |
+| # | Hallazgo (HECHO) | Por qué importa con miles | Estado |
 |---|---|---|---|
-| 1 | `(tienda)/layout.tsx` pasa el catálogo **entero** a `CatalogProvider` (componente de cliente). Viaja serializado en el HTML **y** en el payload RSC de **cada** ruta. Medido: los 58 precios del catálogo están en `/contacto`, en el HTML y en el RSC. | 20 productos = 29 KB de JSON. Proyección: 1.000 → 1,2 MB; **3.000 → 3,7 MB de JSON, ~4,6 MB dentro del HTML** de cada página, más lo mismo en cada prefetch de enlace. Comprimido: ⚠️ entre 90 y 650 KB por página según cuánto se repitan los textos (los 20 artículos reales dan 216 B gzip por artículo). El teléfono igual tiene que parsear los 4,6 MB. | **Crítica** |
-| 2 | `generateStaticParams` pre-genera **todas** las fichas en el build, y cada una lleva el punto 1 adentro. | 3.000 fichas × ~4,6 MB = ⚠️ ~14 GB de salida de build. No termina, o tarda una eternidad. | **Crítica** |
-| 3 | La grilla, el buscador del header y `/mostrador` filtran **en el navegador** sobre el catálogo completo. | Es la razón por la que el punto 1 existe. Se resuelve con un índice liviano (abajo). | Alta |
-| 4 | `/tienda` se pinta recién cuando baja el JS (`useSearchParams` sin HTML del servidor para la grilla). LCP medido: **2.956 ms** antes y **2.988 ms** después de mis cambios; el objetivo es ≤ 2.500. | Es la página más importante y la única en rojo de la auditoría. | Alta |
+| 1 | `(tienda)/layout.tsx` pasa el catálogo **entero** a `CatalogProvider` (componente de cliente). Viaja serializado en el HTML **y** en el payload RSC de **cada** ruta. Medido: los 58 precios del catálogo están en `/contacto`, en el HTML y en el RSC. | 20 productos = 29 KB de JSON. Proyección: 1.000 → 1,2 MB; **3.000 → 3,7 MB de JSON, ~4,6 MB dentro del HTML** de cada página, más lo mismo en cada prefetch de enlace. Comprimido: ⚠️ entre 90 y 650 KB por página según cuánto se repitan los textos (los 20 artículos reales dan 216 B gzip por artículo). El teléfono igual tiene que parsear los 4,6 MB. | Crítica → **arreglado** (`7354369`, `1799c6d`): con 3.000 artículos, `/contacto` pesa 13 KB comprimido, igual que con 20 |
+| 2 | `generateStaticParams` pre-genera **todas** las fichas en el build, y cada una lleva el punto 1 adentro. | 3.000 fichas × ~4,6 MB = ⚠️ ~14 GB de salida de build. No termina, o tarda una eternidad. | Crítica → **arreglado**: se pre-generan 200 fichas; el resto en la primera visita. Build con 3.000 artículos: 63 s |
+| 3 | La grilla, el buscador del header y `/mostrador` filtran **en el navegador** sobre el catálogo completo. | Es la razón por la que el punto 1 existe. Se resuelve con un índice liviano (abajo). | **Arreglado**: `/indice.json` (634 B por artículo sin comprimir), se baja sólo al buscar o filtrar. `/mostrador` sigue con el catálogo completo: es una herramienta interna |
+| 4 | `/tienda` se pinta recién cuando baja el JS (`useSearchParams` sin HTML del servidor para la grilla). LCP medido: **2.956 ms** antes y **2.988 ms** después de mis cambios; el objetivo es ≤ 2.500. | Es la página más importante y la única en rojo de la auditoría. | **Arreglado** (`1799c6d`, `355afd8`): las primeras 24 tarjetas van en el HTML. LCP **944 ms** |
 | 5 | Si Supabase fallaba, se cacheaba **para siempre** el catálogo de respaldo (20 artículos). | Con Supabase Free, que se pausa tras 1 semana sin actividad, era casi seguro que pasara. | **Crítica → arreglado** (`fcef3a2`) |
 | 6 | Imágenes: AVIF + WebP × 15 anchos = hasta 30 versiones por foto. | El mecanismo exacto del corte de Dahila. | Alta → **arreglado** (`7c66d43`) |
-| 7 | `/lista-de-precios` pinta todo el catálogo en una página. | Con miles de artículos, una página de cientos de KB. Tiene que ir por categoría. | Media |
-| 8 | `sitemap.ts` pone `lastModified: now` a todo. | Google ignora un `lastmod` que siempre cambia. Con miles de URLs conviene que sea real (`updated_at`). | Baja |
-| 9 | 42–61 requests por primera visita. | En Netlify, cada 10.000 requests cuestan 2 créditos: con tráfico, los requests pesan casi tanto como el ancho de banda (ver Fase 3). | Media |
-| 10 | Fuentes: 114 KB en la primera visita (Fraunces + Inter). | ~25% del peso de una primera visita. | Baja |
+| 7 | `/lista-de-precios` pinta todo el catálogo en una página. | Con miles de artículos, una página de cientos de KB. Tiene que ir por categoría. | Pendiente (ítem D) |
+| 8 | `sitemap.ts` pone `lastModified: now` a todo. | Google ignora un `lastmod` que siempre cambia. Con miles de URLs conviene que sea real (`updated_at`). | Pendiente (con Supabase) |
+| 9 | 42–61 requests por primera visita. | En Netlify, cada 10.000 requests cuestan 2 créditos: con tráfico, los requests pesan casi tanto como el ancho de banda (ver Fase 3). | **Arreglado** (`813189f`): precarga por intención. 18–26 pedidos |
+| 10 | Fuentes: 114 KB en la primera visita (Fraunces + Inter). Además, el favicon y el logo eran un SVG de 23–31 KB. | ~30% del peso de una primera visita. | **Arreglado** (`c15823c`, `eb1e2c7`): 18 KB de fuentes, logo de 3 KB |
 
 ### 2.2 Lo que se veía poco profesional (y qué hice)
 
@@ -150,12 +159,17 @@ Medí contra el build de producción (`next build` + `next start`, Edge headless
   - **Tres teléfonos en circulación**: el sitio usa 098 526 943; el flyer, 092 322 260 (comentario en `src/lib/env.ts`); [Guía Comercial](https://guiacomercial.uy/ficha/merceria-avios-montevideo-montevideo/) publica el fijo **2902 8106**.
   - El sitio dice "Efectivo y transferencia"; Guía Comercial dice que el local acepta crédito, débito y pago NFC.
   - Fotos: 12 de 20 artículos con foto; el resto con ilustración de categoría (correcto, pero en la demo se ve "a medio hacer").
-- Detalle de documentación: la skill `avios-storefront` dice que el acento es petróleo `#14505E`; los tokens reales son fucsia (`brand600 #B91744`), que es el de la marca. La skill está desactualizada, el sitio está bien.
+- Segunda ronda:
+  - **"Lo que más sale"** en el inicio afirmaba ventas sin datos (el orden es manual) → "Para arrancar" (`81f1cd4`).
+  - **Tarjeta huérfana** en la banda mayorista del teléfono: la regla para mostrar 2 nunca se aplicaba → arreglado (`81f1cd4`).
+  - **La columna "por mayor" de la lista de precios de la ficha** quedaba escondida tras el scroll lateral en el teléfono → entra completa (`586b6d5`).
+  - Sin **barra fija de compra** ni **"Viste hace poco"** (Dahila sí los tiene) → agregados (`bd916d3`, `1799c6d`).
+- Textos por defecto que **parecen datos de Alejandra y no lo son** (están en `SETTINGS` y se editan en `/panel/textos`): cambios "dentro de los 15 días" (`info_returns`), "trabajamos con modistas, talleres, comparsas y revendedoras" (`/mayorista`), "efectivo y transferencia". **Confirmarlos en la reunión** antes de publicar.
 
 ### 2.3 Lo que ya está bien (y no hay que tocar)
 
 - Modelo producto → variante → presentación, y **un solo módulo de precios** (`pricing.ts`). Es lo mejor del proyecto.
-- Buscador con vocabulario del rubro, filtros (por mayor, precio tope, ocultar agotados, orden), búsqueda en la URL, búsquedas sin resultado registradas, botón "Consultar por WhatsApp" en la ficha y botón flotante. **Lo que pedís en "botón de WhatsApp, buscador y filtros" ya existe**: lo que falta es que escale.
+- Buscador con vocabulario del rubro, filtros (por mayor, precio tope, ocultar agotados, orden), búsqueda en la URL, búsquedas sin resultado registradas, botón "Consultar por WhatsApp" en la ficha y botón flotante. **Lo que pedís en "botón de WhatsApp, buscador y filtros" ya existía**; desde la segunda ronda, además escala a miles de artículos.
 - Panel completo (precios masivos, planilla CSV de ida y vuelta, textos para publicar).
 - Auditoría propia (`npm run audit`): **0 violaciones de accesibilidad en 25 rutas, 0 desbordes a 390 px, 70 enlaces sin romper** (corrido hoy, después de mis cambios).
 
@@ -165,7 +179,7 @@ Medí contra el build de producción (`next build` + `next start`, Edge headless
 |---|---|---|---|
 | **Estático puro** (catálogo en un archivo, se regenera con cada cambio) | Costo cero de base. Nada que se pause. | Cada cambio de precio = un deploy (15 créditos de Netlify cada uno). Alejandra no puede editar sin vos. Miles de artículos en un archivo del repo = edición frágil. | Sirve **sólo para el piloto** |
 | **Supabase consultado en cada visita** | Siempre fresco | El egress crece con el tráfico. Es lo que le pasó a Dahila al principio. | Descartado |
-| **Híbrido** ← recomendado | Supabase es la fuente de verdad del panel (login real, escrituras, planilla). El público se sirve **pre-generado desde el CDN** y se regenera sólo cuando cambia algo (webhook → `revalidateTag`). El navegador recibe **sólo lo que pinta** + un **índice de búsqueda liviano** (⚠️ ~30–100 KB comprimido para 3.000 artículos) que se baja una vez y queda en caché. **Fotos fuera de Supabase.** | Hay que hacer el cambio de la Fase 4 (12–16 h) y configurar el webhook una vez. | **Elegido** |
+| **Híbrido** ← recomendado | Supabase es la fuente de verdad del panel (login real, escrituras, planilla). El público se sirve **pre-generado desde el CDN** y se regenera sólo cuando cambia algo (webhook → `revalidateTag`). El navegador recibe **sólo lo que pinta** + un **índice de búsqueda liviano** que se baja sólo al buscar o filtrar (medido: 52 KB gzip con 3.000 artículos repetidos; ⚠️ con textos reales, todos distintos, calculo 150–300 KB). **Fotos fuera de Supabase.** | Configurar el webhook una vez. La parte grande (que el navegador no reciba todo) **ya está hecha**. | **Elegido** |
 
 - **Dónde van las fotos**:
   - Piloto (≤300 artículos): en `public/` del repo. Las sirve Netlify, cero proveedores nuevos.
@@ -176,22 +190,22 @@ Medí contra el build de producción (`next build` + `next start`, Edge headless
 
 ## FASE 3 — Tráfico y costos
 
-### 3.1 Peso real de una visita (HECHO, medido hoy)
+### 3.1 Peso real de una visita (HECHO, medido)
 
-Build de producción, 390 px, 4G lenta, caché vacía, bajando hasta el final de la página:
+Build de producción, 390 px, 4G lenta, caché vacía, bajando hasta el final de la página. Antes = la demo como la recibí; después = segunda ronda.
 
-| Ruta | Fuentes | Imágenes | JS | CSS | Otros (prefetch RSC) | HTML | **Total** |
-|---|---|---|---|---|---|---|---|
-| `/` | 114 KB | 58 | 211 | 8 | 57 | 23 | **471 KB** |
-| `/tienda` | 114 | 88 | 211 | 8 | 60 | 17 | **498 KB** |
-| `/tienda/cinta-raso-doble-faz` | 114 | 51 | 211 | 8 | 45 | 24 | **451 KB** |
-| `/contacto` | 114 | 23 | 194 | 8 | 36 | 17 | **391 KB** |
+| Ruta | Antes | **Después** | De qué es hoy |
+|---|---|---|---|
+| `/` | 471 KB | **293 KB** | fuentes 18 · imágenes 56 · JS 191 · CSS 8 · HTML 19 |
+| `/tienda` | 498 KB | **363 KB** | imágenes 106 (las 24 primeras tarjetas) · JS 209 |
+| `/tienda/cinta-raso-doble-faz` | 451 KB | **291 KB** | imágenes 44 · JS 201 |
+| `/contacto` | 391 KB | **233 KB** | JS 189 |
+| Página siguiente (con caché) | 77–100 KB | **45–95 KB** | HTML + fotos nuevas |
+| Pedidos por página (auditoría) | 42–61 | **18–26** | |
 
-Navegación siguiente, con caché: **77–100 KB por página**.
-
-- ⚠️ **Sesión tipo** (3,9 páginas, el dato real de Dahila): 470 + 3 × 90 ≈ **0,75 MB** con la arquitectura corregida.
-- ⚠️ **Sin la corrección y con 3.000 artículos**: cada página suma el catálogo en el HTML y en los prefetch → ≈ **5 MB por sesión**.
-- ⚠️ **Bots**: con miles de fichas, Google, Bing, Meta y los crawlers de IA piden decenas de miles de páginas por mes. Calculo 30.000 requests y ~1 GB por mes corregido; **~10 GB** sin corregir (cada ficha arrastraría el catálogo).
+- El JS que queda (~150 de 190 KB) es React y Next en sí: no se puede sacar sin cambiar de tecnología.
+- ⚠️ **Sesión tipo** (3,9 páginas, el dato real de Dahila): 293 + 3 × 70 ≈ **0,5 MB** y ~45 pedidos. Si busca, suma el índice: hoy 2 KB; ⚠️ con 3.000 artículos reales, 150–300 KB una vez por sesión, sólo para quien busca o filtra.
+- ⚠️ **Bots**: con miles de fichas, Google, Bing, Meta y los crawlers de IA piden decenas de miles de páginas por mes. Calculo 30.000 pedidos y ~1 GB por mes (cada ficha pesa ~20 KB comprimida). Con la arquitectura vieja eran ~10 GB.
 
 ### 3.2 Supuesto de conversión seguidores → visitas
 
@@ -213,22 +227,22 @@ Precios HECHO:
 - **Netlify** ([pricing](https://www.netlify.com/pricing/), [docs de créditos](https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/)): Free USD 0 / 300 créditos con tope duro; Personal USD 9 / 1.000 créditos con recarga (500 créditos por USD 5); Pro USD 20 / 3.000. Consumo: **20 créditos por GB**, 2 por cada 10.000 requests, 10 por GB-hora de cómputo, **15 por deploy de producción**. Créditos compartidos por todo el equipo; en Free, al agotarse, **se pausan todos los sitios del equipo** ([billing FAQ](https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/)).
 - **Supabase** ([pricing](https://supabase.com/pricing)): Free USD 0, base de 500 MB, 5 GB de egress + 5 GB de egress cacheado, 1 GB de Storage, se pausa tras 1 semana sin actividad, 2 proyectos gratis. Pro desde USD 25: 250 GB de egress. El egress se cuenta **por organización**, y el límite de 2 proyectos gratis cuenta en **todas** las organizaciones donde sos dueño o admin ([Supabase billing docs](https://supabase.com/docs/guides/platform/billing-on-supabase)).
 
-⚠️ Supuestos del cálculo: 0,75 MB y ~90 requests por sesión (corregido); bots 1 GB + 30.000 requests; 4 deploys de código por mes (los cambios de catálogo NO necesitan deploy: van por webhook); 10–20 créditos de cómputo por las regeneraciones.
+⚠️ Supuestos del cálculo: 0,5 MB y ~45 pedidos por sesión (medido arriba); bots 1 GB + 30.000 pedidos; 4 deploys de código por mes (los cambios de catálogo NO necesitan deploy: van por webhook); 10–20 créditos de cómputo por las regeneraciones.
 
 | | Conservador 2.000 | Medio 6.000 | Optimista 15.000 | Optimista pico 30.000 |
 |---|---|---|---|---|
-| Ancho de banda | 2,5 GB | 5,5 GB | 12,3 GB | 23,5 GB |
-| Créditos por GB | 50 | 110 | 245 | 470 |
-| Créditos por requests | 42 | 114 | 276 | 546 |
+| Ancho de banda | 2,0 GB | 4,0 GB | 8,5 GB | 16 GB |
+| Créditos por GB | 40 | 80 | 170 | 320 |
+| Créditos por pedidos | 24 | 60 | 141 | 276 |
 | Deploys + cómputo | 70 | 75 | 80 | 90 |
-| **Créditos/mes** | **~160** | **~300** | **~600** | **~1.100** |
-| Plan Netlify | Free alcanza (53%) | Free **en el límite** → Personal | Personal | Personal + 1 recarga, o Pro |
-| **Sin corregir la Fase 2 (3.000 artículos)** | ~20 GB → ~510 cr. → Personal | ~40 GB → ~1.000 cr. → Personal al tope | ~85 GB → ~2.050 cr. → **Pro** | ~160 GB → ~3.800 cr. → **Pro + recargas** |
+| **Créditos/mes** | **~135** | **~215** | **~390** | **~690** |
+| Plan Netlify | Free alcanza (45%) | Free alcanza (72%); en pico de carnaval, ~91% | **Personal** | **Personal**, sin recargas |
+| Con la demo como estaba (3.000 artículos) | ~510 cr. | ~1.000 cr. | ~2.050 cr. → Pro | ~3.800 cr. → Pro + recargas |
 
 - **Supabase, egress** ⚠️: una lectura completa de 3.000 artículos ≈ 3,7 MB (calculo sin compresión, para cubrirme). 40 cambios por mes + 4 builds + el panel paginado ≈ **0,2–0,5 GB/mes**, contra 5 GB del plan Free: **margen de 10×, en los tres escenarios**, porque el tráfico no toca la base. Base: ⚠️ ~10 MB, contra 500 MB.
 - **El punto donde Supabase se rompe no es el tráfico, es servirle las fotos.** Si las fotos van a Supabase Storage, ⚠️ ~100 KB de fotos por sesión × 15.000 sesiones = 1,5 GB, más bots, más la re-descarga después de cada deploy: en el optimista te acercás a los 5 GB, que es exactamente la historia de Dahila. Por eso, R2.
 - **Cuándo pasar a pago**:
-  - Netlify → **Personal desde el día uno** si es un cliente que paga (por el tope duro y la pausa de todo el equipo, no por el volumen). Pro recién arriba de ~1.000 créditos sostenidos (⚠️ ~25.000 sesiones/mes).
+  - Netlify → **Personal desde el día uno** si es un cliente que paga (por el tope duro y la pausa de todo el equipo, no por el volumen). Personal alcanza hasta ⚠️ ~45.000 sesiones/mes (≈ 19 créditos cada 1.000 sesiones + ~100 fijos); Pro recién arriba de eso.
   - Supabase → Pro (USD 25) cuando: (a) sumes un tercer cliente con base propia, (b) quieras que no se pause nunca y tener backups, o (c) Avíos sirva fotos desde Storage (no lo recomiendo).
 
 ### 3.4 Tu costo real
@@ -237,12 +251,12 @@ Dominio: HECHO, .uy a USD 9,85–10 + IVA por año vía revendedores locales ([H
 
 | USD | Conservador | Medio | Optimista |
 |---|---|---|---|
-| Netlify | 9 (Personal, recomendado) · 0 si te arriesgás con Free en equipo propio | 9 | 9 + recargas en el pico (⚠️ ~USD 15/año) |
+| Netlify | 9 (Personal, recomendado) · 0 con Free en equipo propio | 9 | 9 (entra en Personal hasta el pico) |
 | Supabase | 0 (Free, en organización propia) | 0 | 0 – 25 (Pro si es el 3.er proyecto o no querés pausas) |
-| Cloudflare R2 | 0 | 0 | 0 |
+| Cloudflare R2 (fotos) | 0 | 0 | 0 |
 | Dominio .uy | 1,25/mes | 1,25 | 1,25 |
-| **Mensual** | **~USD 10** (UYU ~420) | **~USD 10** | **USD 12 – 37** (UYU 470 – 1.470) |
-| **Anual** | **~USD 125** (UYU ~5.000) | **~USD 125** | **USD 140 – 440** (UYU 5.600 – 17.600) |
+| **Mensual** | **~USD 10** (UYU ~410) | **~USD 10** | **USD 10 – 35** (UYU 410 – 1.410) |
+| **Anual** | **~USD 125** (UYU ~5.000) | **~USD 125** | **USD 125 – 425** (UYU 5.000 – 17.000) |
 
 - ⚠️ No incluí impuestos sobre servicios digitales del exterior: no lo verifiqué para tu caso (SIAR). Consultalo con tu contador.
 - **El costo que de verdad pesa es tu tiempo**, no la infraestructura: ⚠️ 2–4 h/mes de soporte. A USD 20/h (ver Fase 5) son USD 40–80/mes, entre 4 y 8 veces la infraestructura.
@@ -260,38 +274,49 @@ Dominio: HECHO, .uy a USD 9,85–10 + IVA por año vía revendedores locales ([H
 
 ## FASE 4 — Mejoras
 
-### 4.1 Ya aplicadas (commits chicos, verificados)
+### 4.1 Aplicadas (commits chicos, verificados)
 
-Verificación: `npm run verify` (typecheck → lint → test → build) en verde y `npm run audit` en verde salvo el LCP de `/tienda`, que ya estaba en rojo antes (2.956 ms → 2.988 ms; lo resuelve el ítem A). Miré en pantalla `/` y `/tienda` a 390 px.
+Verificación al cierre: `npm run verify` (typecheck → lint → 4 pruebas de lógica → build) en verde, **`npm run test:e2e` en verde** (compra, panel, búsqueda, filtros, mi lista, en un navegador real) y **`npm run audit` en verde** (accesibilidad 25 rutas, layout 390 px, 70 enlaces, velocidad). Miré en pantalla inicio, catálogo, ficha (con la barra fija) y mayorista a 390 px.
 
-| Commit | Qué | Horas |
+**Primera ronda**
+
+| Commit | Qué | Horas ⚠️ |
 |---|---|---|
-| `a9f07c1` | Estado original (la carpeta no era un repo git: lo inicialicé para poder separar cada cambio) | — |
+| `a9f07c1` | Estado original (la carpeta no era un repo git) | — |
 | `6acc532` | 10% "Lanzamiento" apagado: no salía del catálogo en papel | 0,2 |
 | `946489a` | Ficha: fuera el "ni mínimo de compra" no confirmado | 0,1 |
-| `fcef3a2` | Un error de Supabase ya no queda guardado en la caché sin vencimiento | 0,5 |
+| `fcef3a2` | Un error de Supabase ya no queda guardado en la caché | 0,5 |
 | `7c66d43` | Imágenes: WebP solo, 6 anchos (de 30 versiones por foto a 6) | 0,3 |
-| `6d0c252` | Inicio: baldosas sin texto encimado + "desde $ 13" sin cortarse | 0,7 |
-| `cf737e9` | Catálogo: chips de categoría en una fila deslizable en el teléfono | 0,5 |
+| `6d0c252` · `cf737e9` | Baldosas sin texto encimado · chips en una fila | 1,2 |
 
-### 4.2 Propuestas, por prioridad — **esperan tu OK** (son cambios grandes)
+**Segunda ronda: escala, peso y terminación**
 
-| Prio | Mejora | Por qué | Esfuerzo ⚠️ |
+| Commit | Qué | Horas ⚠️ |
+|---|---|---|
+| `7354369` | Índice liviano (`/indice.json`), datos por producto (`/datos/<slug>`), 200 fichas pre-generadas, prueba de escala `AVIOS_ESCALA` | 4 |
+| `1799c6d` | **El navegador ya no recibe el catálogo entero**; grilla con HTML real; categorías como enlaces; "Viste hace poco" | 6 |
+| `813189f` | Precarga por intención (`Enlace`): de ~30 pedidos de precarga por página a 0 | 1 |
+| `eb1e2c7` · `c15823c` | Íconos de 31 KB a 0,5 KB · fuentes de 115 a 18 KB · logo de 23 a 3 KB | 1,5 |
+| `6600547` | El código del panel y el diccionario de búsqueda ya no viajan en cada página | 1,5 |
+| `8c94620` · `355afd8` | Índice 20% más liviano · se baja sólo si hace falta (LCP de `/tienda`: 2.988 → 944 ms) | 1,5 |
+| `bd916d3` | Barra fija de compra en la ficha (como Dahila) | 1 |
+| `586b6d5` · `81f1cd4` | Columna "por mayor" visible en el teléfono · sin tarjeta huérfana · fuera "Lo que más sale" | 0,7 |
+| `7c5f286` · `8e1fbaf` · `fc66a1d` | Pruebas: precios reales; el índice dice lo mismo que el catálogo (precio y búsqueda) | 1 |
+| `7209960` | Docs: AGENTS.md y la skill de UI al día | 0,3 |
+
+### 4.2 Lo que falta para producción, por prioridad
+
+| Prio | Qué | Por qué | Horas ⚠️ |
 |---|---|---|---|
-| **A** | **Catálogo liviano en el navegador.** El layout manda sólo categorías + textos. La grilla de `/tienda` y de cada categoría se pinta en el servidor (las primeras 24, con HTML real). El buscador del header, los filtros y `/mostrador` usan un **índice compacto** (`slug, nombre, código, categoría, precio desde, ¿por mayor?, foto chica`) servido como archivo estático con caché larga, que se baja recién al tocar el buscador o entrar a `/tienda`. La ficha recibe sólo su producto. El panel conserva el catálogo completo sólo dentro de `/panel`. | Sin esto no se pueden cargar miles de artículos (2.1 #1–#4). Arregla además el LCP de `/tienda`. | 12–16 h |
-| **B** | Fichas a demanda: pre-generar sólo las ~200 más vistas y el resto en la primera visita (ISR). `lastModified` real en el sitemap. | El build no puede generar 3.000 fichas en cada deploy. | 2–3 h |
-| **C** | Categorías paginadas y rastreables (`/tienda/cintas?pagina=2`, chips como enlaces de verdad). | Google tiene que poder llegar a las 3.000 fichas sin JavaScript. | 3–4 h |
-| **D** | `/lista-de-precios` por categoría (con "imprimir todo" aparte). | Una página con miles de filas no sirve ni para imprimir. | 2 h |
-| **E** | **Login real** (Supabase Auth + `is_admin()` + signups apagados). | `admin/admin` no puede llegar a producción (lo dice `ESPECIFICACION.md`, R-5). Bloqueante. | 6–8 h |
-| **F** | Conectar Supabase: esquema, script de snapshot real, webhook, cron diario (keep-alive), prueba de caída. | Lo que Dahila aprendió, desde el día uno. | 6–8 h |
-| **G** | Fotos: subida redimensionada a WebP (2 tamaños) a R2; `public/` en el piloto. | Fuera de Supabase, sin variantes. | 4–6 h |
-| **H** | Node 20 → 22 en `netlify.toml` y Next 16.2.6 → último parche 16.x. | Node 20 ya no tiene soporte. | 1 h |
-| **I** | Fuentes: menos pesos de Fraunces/Inter o sistema para el cuerpo. | −50 a −70 KB en la primera visita (~12%). | 1–2 h |
-| **J** | Menos prefetch automático en listados largos. | Baja requests y créditos de Netlify. | 1–2 h |
+| **E** | **Login real** (Supabase Auth + `is_admin()` + signups apagados) | `admin/admin` no puede llegar a producción (`ESPECIFICACION.md`, R-5). Bloqueante | 6–8 |
+| **F** | Conectar Supabase: esquema, script de snapshot real (hoy el respaldo es el catálogo de 20), webhook, cron diario de GitHub Actions (que no se pause), prueba de caída | Lo que Dahila aprendió, desde el día uno | 6–8 |
+| **G** | Fotos: subida redimensionada a WebP (2 tamaños) a R2; `public/` en el piloto | Fuera de Supabase, sin variantes | 4–6 |
+| **H** | Node 20 → 22 en `netlify.toml` y Next 16.2.6 → último parche 16.x | Node 20 ya no tiene soporte | 1 |
+| **D** | `/lista-de-precios` por categoría (hoy, todo en una página) | Con miles de filas no sirve ni para imprimir | 2 |
+| — | Deploy, dominio, DNS, 301 desde netlify.app, capacitación | | 3 |
 
-- **Total para producción con miles de artículos**: ⚠️ **38–52 h** (A–J). **Para el piloto alcanzan A, E, H y una parte de F**: ⚠️ ~22–28 h.
-- **No lo apliqué**: cambia la arquitectura de datos de la tienda y del panel. Si me das el OK, lo hago en commits chicos, empezando por A.
-- **Para la reunión, la demo actual sirve tal cual**: con 20 artículos el problema no se ve, y los arreglos visuales ya están.
+- **Total para producción**: ⚠️ **22–28 h**. Para el piloto alcanzan E, H, parte de F y el deploy: ⚠️ ~14–18 h.
+- **`/mostrador` sigue recibiendo el catálogo completo**, a propósito: es una herramienta interna para 1–3 personas. Con miles de artículos conviene que use el índice más un pedido por artículo (⚠️ 3–4 h, después del piloto).
 
 ---
 
@@ -314,61 +339,79 @@ Verificación: `npm run verify` (typecheck → lint → test → build) en verde
 | **Carga de productos por unidad** | **No encontré una referencia confiable.** `VENTA.md` dice "USD 10–15 por artículo": no lo pude verificar, no lo uses. | — |
 | Catálogo de WhatsApp Business | tope de 500 productos | guías de terceros ([respond.io](https://respond.io/blog/whatsapp-catalog-whatsapp-shopping-catalog)); no encontré la doc oficial de Meta |
 
-### 5.2 Cómo armé los números
+### 5.2 ¿Por qué no USD 75 por mes? (lo que propuse antes, y por qué estaba mal)
 
-- ⚠️ **Tu costo hora: USD 20.** Es apenas debajo del piso de la referencia (25–45) porque sos una persona sola sin estructura de agencia. Si tu número es otro, cambian los márgenes, no la estructura.
-- ⚠️ **Puesta en marcha**: 36–46 h de trabajo que falta (Fase 4: A, B, C, D, E, F, H, más deploy, dominio y capacitación) → **costo USD 720–920**. Los márgenes de abajo usan 36 h; si se va a 46 h, el margen del objetivo baja de 49% a 34%. La demo ya hecha no la cuento como costo: está hundida y es tu ventaja.
-- ⚠️ **Carga**: 1,5 min por artículo (con hasta ~10 variantes) **si el PDF tiene texto seleccionable** y se extrae con script + revisión humana → USD 0,50 por artículo. Si el PDF es escaneado (imagen + OCR + revisión): 3–5 min → USD 1–1,70. **Este número es el que tiene que salir del piloto.**
+- Los USD 75 eran **tres cosas pegadas**:
+  - la infraestructura: ⚠️ ~USD 10;
+  - **hasta 50 artículos por mes cargados por vos**;
+  - **2 horas tuyas de soporte**.
+
+  O sea: ella pagaba por adelantado horas que capaz no usa.
+- **Contra qué lo va a comparar:**
+  - Tiendli Básico: UYU 495/mes (~USD 12).
+  - Shopify Basic: USD 25.
+
+  Ninguno incluye a alguien que cargue, pero el número que ella ve es ese. Arrancar con USD 75 te pone a explicar el precio en vez de mostrar el sitio.
+- **Lo correcto:** una cuota base chica que cubra lo que el sitio necesita para seguir andando, y el trabajo extra, cuando lo pida, por hora o por artículo. Si después de tres meses ella pide cambios todas las semanas, se sube de paquete con datos en la mano.
+
+### 5.3 Cómo armé los números
+
+- ⚠️ **Tu costo hora: USD 20** (UYU 800). Apenas debajo del piso de la referencia (USD 25–45) porque sos una persona sola, sin estructura de agencia. Si tu número es otro, cambian los márgenes, no la estructura.
+- **Puesta en marcha**: después de esta ronda, lo que falta para producción son ⚠️ **22–28 h** (Fase 4.2) → **costo USD 440–560**. La demo ya hecha no la cuento como costo: está hundida y es tu ventaja.
+- **Carga** ⚠️: 1–1,5 min por artículo (con hasta ~10 variantes) **si el PDF tiene texto seleccionable** y se extrae con un script más revisión humana → USD 0,33–0,50 por artículo. Si el PDF es escaneado: 3–5 min. **Este número sale del piloto.**
+- **Cuota**: infraestructura ~USD 10 (Fase 3.4) + tu tiempo incluido.
 - Margen = (precio − horas × USD 20 − infraestructura) ÷ precio.
-- Unidad de carga = **artículo** (ej.: "Cinta de raso doble faz" con 7 anchos y 2 presentaciones = 1 artículo). Evita la discusión de "¿una cinta en 7 anchos son 7 productos?".
+- Unidad de carga = **artículo**: "Cinta de raso doble faz" con 7 anchos y 2 presentaciones = 1 artículo.
 
-### 5.3 Los tres paquetes
+### 5.4 Los tres paquetes
 
-#### PISO — "Catálogo"
-
-| | USD | UYU | Tu margen ⚠️ |
+| | **PISO** | **OBJETIVO** ← proponer este | **TECHO** |
 |---|---|---|---|
-| Puesta en marcha | 900 | 36.000 | 20% |
-| Carga | 150 artículos incluidos; resto **USD 0,70** por artículo (UYU 28) | | 29% (PDF con texto) |
-| Mensual | **40** | 1.600 | 48% (infra 11 + 0,5 h) |
-| Ejemplo 1.000 artículos | 900 + 595 = **1.495** + 40/mes | 59.800 + 1.600/mes | |
+| Puesta en marcha | **USD 550** (UYU 22.000) · margen 0–20% | **USD 750** (UYU 30.000) · margen 25–41% | **USD 1.100** (UYU 44.000) · margen 35–45% |
+| Carga | La carga ella por planilla; vos importás, revisás y corregís: **USD 0,20** por artículo (UYU 8) · margen ~15% | La hacés vos desde el PDF: **USD 0,50** por artículo hasta 1.000 (UYU 20); **USD 0,40** desde el 1.001 (UYU 16) · margen 20–33% / 0–17% | Vos + recorte y fondo parejo de las fotos que ya tengan: **USD 0,75** hasta 1.000 (UYU 30); **USD 0,65** después (UYU 26) · margen 24% / 12% |
+| Cuota mensual | **USD 20** (UYU 800) · margen 25% | **USD 35** (UYU 1.400) · margen 29% | **USD 55** (UYU 2.200) · margen 27% |
+| Trabajo incluido en la cuota | Ninguno: arreglos de fallas y nada más | Hasta 45 min/mes de cambios que pida | Hasta 1,5 h/mes |
+| Hora extra | USD 20 (UYU 800) | USD 20 | USD 20 |
+| **Ejemplo: 1.000 artículos** | 550 + 200 = **USD 750** + 20/mes | 750 + 400 = **USD 1.150** + 35/mes (con los 200 del piloto ya cargados) | 1.100 + 600 = **USD 1.700** + 55/mes |
+| **Ejemplo: 3.000 artículos** | 550 + 600 = **USD 1.150** + 20/mes | 750 + 400 + 800 = **USD 1.950** + 35/mes | 1.100 + 600 + 1.300 = **USD 3.000** + 55/mes |
 
-- **Incluye**: sitio público con buscador, filtros, carrito a WhatsApp y lista de precios; panel con login real; carga del catálogo desde el PDF; dominio .uy el primer año; 30 min de capacitación; hosting, base y dominio dentro de la cuota.
-- **No incluye**: cambios cargados por vos (los hace ella en el panel o por planilla; los tuyos se cobran por hora); fotos (se usan las que haya); conexión con Google/Meta; `/mostrador`; ajustes de diseño posteriores.
-- Es el **mínimo**: debajo de esto trabajás por debajo de tu costo hora.
+Antes proponía USD 3.430 + USD 75/mes para el objetivo con 3.000 artículos; ahora es **USD 1.950 + USD 35/mes**.
 
-#### OBJETIVO — "Catálogo + mostrador" ← el que proponés
+**Qué incluye cada uno**
+- **Los tres**:
+  - el sitio público (catálogo, buscador, filtros, ficha con la cuenta de la pieza, carrito a WhatsApp, lista de precios para imprimir);
+  - el panel con login real;
+  - hosting, base de datos y dominio .uy dentro de la cuota;
+  - respaldo en planilla descargable;
+  - las cuentas a nombre de ella.
+- **Objetivo** suma:
+  - `/mostrador` para quien atiende;
+  - el feed para el catálogo de WhatsApp/Instagram y Google;
+  - 1 h de capacitación para ella y quien atiende;
+  - todos los meses, la lista de "lo que buscaron y no encontraron" (sale de `/panel/busquedas`).
+- **Techo** suma:
+  - la edición de fotos;
+  - la ficha de Google del local trabajada;
+  - 2 capacitaciones;
+  - Supabase Pro si hace falta (los USD 25 se trasladan aparte, al costo).
 
-| | USD | UYU | Tu margen ⚠️ |
-|---|---|---|---|
-| Puesta en marcha | **1.400** | 56.000 | 49% |
-| Carga | 300 incluidos · 301–1.000: **USD 0,90** · 1.001–3.000: **USD 0,70** · 3.001+: **USD 0,55** | 36 / 28 / 22 por artículo | 44% / 29% / 9% (a 1,5 min); el último tramo sólo rinde si el script baja a ~1 min (39%) |
-| Mensual | **75** | 3.000 | 32% (infra 11 + 2 h) |
-| Ejemplo 1.000 artículos | 1.400 + 630 = **2.030** + 75/mes | 81.200 + 3.000/mes | 40% del proyecto |
-| Ejemplo 3.000 artículos | 1.400 + 630 + 1.400 = **3.430** + 75/mes | 137.200 + 3.000/mes | 35% del proyecto |
+**Qué NO incluye ninguno**
+- Sesión de fotos nueva.
+- Pago online.
+- Publicidad paga.
+- Atender el WhatsApp.
+- Redactar descripciones largas.
+- Crear contenido para redes (el panel arma el texto, publicar es de ella).
 
-- **Incluye** todo lo del piso, más: `/mostrador` para quien atiende; feed para el catálogo de WhatsApp/Instagram y Google; ficha de Google conectada; hasta **50 altas o cambios de artículos por mes cargados por vos**; soporte por WhatsApp en horario hábil; 1 h de capacitación para ella y quien atiende; respaldo mensual de la planilla.
-- **No incluye**: fotografía; más de 50 cambios por mes (USD 0,90 por artículo extra); pago online; campañas pagas; redacción de descripciones largas.
+### 5.5 Reglas de cobro
 
-#### TECHO — "Llave en mano"
-
-| | USD | UYU | Tu margen ⚠️ |
-|---|---|---|---|
-| Puesta en marcha | **2.000** | 80.000 | 54% (incluye ~10 h extra) |
-| Carga | 500 incluidos · 501–1.000: **USD 1,20** · 1.001–3.000: **USD 0,95** · 3.001+: **USD 0,80** | 48 / 38 / 32 | 44% / 30% / 16% (a 2 min por artículo, con recorte y fondo de fotos existentes) |
-| Mensual | **150** | 6.000 | 29% (infra 36 con Supabase Pro + 3,5 h) |
-| Ejemplo 3.000 artículos | 2.000 + 600 + 1.900 = **4.500** + 150/mes | 180.000 + 6.000/mes | 35% |
-
-- **Incluye** todo lo del objetivo, más: edición de las fotos que ya tienen (recorte y fondo parejo); hasta 150 cambios por mes; Supabase Pro (sin pausas y con backups); informe mensual de "lo que buscaron y no encontraron"; textos para Instagram armados desde el panel cada semana; 2 capacitaciones.
-- **No incluye**: sesión de fotos nueva; pago online; publicidad paga; atención del WhatsApp.
-
-### 5.4 Reglas de cobro
-
-- Puesta en marcha en 3 partes: **40% al empezar, 40% publicado con el catálogo cargado, 20% al mes de uso** (ya está en `VENTA.md` y lo sostengo).
-- Carga: se factura por tramo terminado y contado en el panel. Si el PDF resulta escaneado, los precios de carga se recalculan **antes** de empezar el tramo 2, con el número del piloto.
-- Primer mes de cuota sin cargo. 3 meses de permanencia mínima después.
-- **Si hay que bajar, se baja alcance, nunca el número**: sin `/mostrador` → piso; o una sola categoría primero.
-- ⚠️ Honestidad: un catálogo de 3.000 artículos en el objetivo suma **~USD 3.400**, en el techo de lo que el mercado cobra por una tienda a medida (USD 1.200–4.000). La diferencia que lo justifica es que **la carga está incluida**: en Shopify o Tiendli igual alguien tiene que cargar 3.000 artículos. Si a ella le parece mucho, el camino es que su equipo cargue por planilla y vos cobres sólo importación y control: ⚠️ USD 0,20 por artículo.
+- **Puesta en marcha en 3 partes**: 40% al empezar, 40% publicado con el catálogo cargado, 20% al mes de uso.
+- **Carga**:
+  - se factura por tramo terminado y contado en el panel;
+  - si el PDF resulta escaneado, el precio por artículo se recalcula **antes** del segundo tramo, con el número del piloto.
+- **Cuota**: primer mes sin cargo y 3 meses de permanencia mínima después.
+- **Si hay que bajar, se baja alcance, nunca el número.** Del objetivo al piso se pasa sacando `/mostrador` y la carga hecha por vos.
+- ⚠️ Honestidad: con la carga por artículo a USD 0,40–0,50, **la carga deja poco margen**. Rinde sólo si el script de extracción anda bien: medilo en el piloto antes de comprometer el resto.
 
 ---
 
@@ -439,13 +482,13 @@ Para mandar **a las 48 h** con la propuesta:
 > El [día] te llamo para ver qué te pareció. Cualquier cosa, escribime antes.
 > Mati — SIAR
 
-### (e) El piloto: 100–300 artículos
+### (e) El piloto: hasta 200 artículos
 
-- **Qué**: las categorías de **carnaval** (pedrería, strass, galones, flecos, lentejuelas, según lo que ella tenga) + las cintas que ya están en la demo. ⚠️ 150–300 artículos.
+- **Qué**: las categorías de **carnaval** (pedrería, strass, galones, flecos, lentejuelas, según lo que ella tenga) + las cintas que ya están en la demo. ⚠️ Hasta 200 artículos.
 - **Por qué esas**: es lo que Avíos ya promociona, tiene fecha (el carnaval arranca a fines de enero) y tiene comprador mayorista (comparsas y talleres), que es el que más le sirve el precio por mayor publicado.
 - **Plazo**: 3 semanas. Publicado **antes del 15/12/2026** para agarrar la preparación de trajes.
-- **Precio**: **USD 300 (UYU 12.000)**, que se descuenta al 100% de la puesta en marcha si sigue. Primer mes de cuota gratis.
-  - ⚠️ Tu costo: ~22–28 h de la Fase 4 (que igual tenés que hacer) + 300 × 1,5 min ≈ 7,5 h → **perdés plata en el piloto** si no sigue (USD 300 contra ~USD 600 de horas). Es a propósito: es el precio de sacarle el riesgo. Si no lo aceptás, piloto a USD 500.
+- **Precio**: **USD 150 (UYU 6.000)**, con los 200 artículos cargados y el dominio .uy incluidos. Se descuenta al 100% de la puesta en marcha si sigue. Primer mes de cuota gratis.
+  - ⚠️ Tu costo: ~14–18 h para dejarlo en producción (login real, Supabase, deploy), que igual tenés que hacer, + 200 × 1,2 min ≈ 4 h → unos USD 360–440 de horas. **Si no sigue, perdés unos USD 250.** Es a propósito: es el precio de sacarle el riesgo a ella y de medir tus tiempos reales. Si no lo querés absorber, piloto a USD 300.
 - **Qué se mide** (y se le muestra al final):
   1. Minutos por artículo cargado (**define el precio de la carga**).
   2. % de artículos con algún dato faltante (precio, medida de la pieza).
@@ -474,6 +517,9 @@ Para mandar **a las 48 h** con la propuesta:
 | 11 | Presentarlo a través de tu novia | Si sale mal, mezcla lo personal con lo comercial | Que ella presente y se corra. Propuesta y seguimiento, tuyos |
 | 12 | Tus horas reales | Los márgenes de la Fase 5 asumen USD 20/h y 1,5 min por artículo | Llevá registro de horas del piloto |
 | 13 | Dahila y Avíos con Node 20 | Sin parches de seguridad desde abr/2026 | Ítem H, en los dos |
+| 14 | Textos por defecto que parecen de Alejandra y no lo son | Cambios "dentro de los 15 días", "trabajamos con comparsas y revendedoras", "efectivo y transferencia" | Confirmarlos en la reunión; se editan en `/panel/textos` |
+| 15 | El índice de búsqueda con el catálogo real | ⚠️ 150–300 KB comprimido con 3.000 artículos distintos (medido 52 KB con repetidos) | Se baja sólo al buscar o filtrar; si con datos reales pesa más, partirlo por categoría (⚠️ 3 h) |
+| 16 | La carga deja poco margen a USD 0,40–0,50 por artículo | Si el script de extracción no anda, perdés plata en cada tramo | No comprometer precio por artículo más allá del piloto sin medirlo |
 
 ## Lo que te falta averiguar en la reunión
 
