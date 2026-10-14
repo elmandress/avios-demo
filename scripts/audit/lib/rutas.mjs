@@ -46,6 +46,13 @@ export const RECURSOS = [
   // Si deja de responder, esos dos catálogos se quedan con el último dato bueno
   // y nadie se entera hasta que un precio queda viejo.
   '/catalogo-meta.csv',
+  // Lo que baja el navegador en vez del catálogo entero: si dejan de
+  // responder, el buscador y el carrito se quedan sin datos.
+  '/indice.json',
+  '/datos/cinta-raso-doble-faz',
+  // La tarjeta que se ve al compartir una ficha o una categoría por WhatsApp.
+  '/tienda/cinta-raso-doble-faz/og',
+  '/tienda/cintas/og',
 ]
 
 /** Las que se miden en rendimiento: por dónde entra el tráfico de verdad. */

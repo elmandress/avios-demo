@@ -64,7 +64,14 @@ export async function generateMetadata({
       title,
       description,
       alternates: { canonical: `/tienda/${slug}` },
-      openGraph: { ...OG_BASE, title, description, url: `${SITE_URL}/tienda/${slug}` },
+      openGraph: {
+        ...OG_BASE,
+        title,
+        description,
+        url: `${SITE_URL}/tienda/${slug}`,
+        // La tarjeta con el nombre de la categoría (ver ./og/route.tsx).
+        images: [{ url: `${SITE_URL}/tienda/${slug}/og`, width: 1200, height: 630, alt: title }],
+      },
     }
   }
 
@@ -76,7 +83,6 @@ export async function generateMetadata({
     product.description ??
     `${product.name} en Mercería Avíos. Desde ${formatUYU(price.fromUyu)}. Retiro en San José 851, Montevideo, o envío a todo el país.`
 
-  const image = product.media[0]
   return {
     title: product.name,
     description: description.slice(0, 300),
@@ -87,7 +93,9 @@ export async function generateMetadata({
       title: product.name,
       description: description.slice(0, 200),
       url: `${SITE_URL}/tienda/${slug}`,
-      ...(image ? { images: [{ url: botImageUrl(SITE_URL, image.url), alt: product.name }] } : {}),
+      // La tarjeta para compartir: foto, nombre y precio (ver ./og/route.tsx).
+      // Es lo que ve el cliente cuando quien atiende le pega el link en el chat.
+      images: [{ url: `${SITE_URL}/tienda/${slug}/og`, width: 1200, height: 630, alt: product.name }],
     },
   }
 }
