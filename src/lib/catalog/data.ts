@@ -810,6 +810,10 @@ export const PRODUCTS: Product[] = [
 
 // ─── Descuentos ──────────────────────────────────────────────────────────────
 
+// Apagado por defecto: el 10% no salió del catálogo de Alejandra, y con él
+// prendido la demo le mostraba SUS artículos a precios que ella nunca puso
+// ($ 11,70 en vez de $ 13). Queda cargado para mostrar en /panel/descuentos
+// cómo se prende una promo y cómo cambia todo el sitio al instante.
 export const DISCOUNTS: Discount[] = [
   {
     id: 'disc-lanzamiento',
@@ -817,7 +821,7 @@ export const DISCOUNTS: Discount[] = [
     scope: 'all',
     categorySlug: null,
     percent: 10,
-    active: true,
+    active: false,
     startsAt: null,
     endsAt: null,
   },
