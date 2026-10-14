@@ -151,7 +151,7 @@ const INDICE: Map<string, string[]> = new Map(
  * aparecer como si fuera igual de buena que las otras.
  */
 export function textoDeProducto(product: Product, categoria?: string): string {
-  return normalizeText(
+  const texto = normalizeText(
     [
       product.name,
       product.sku ?? '',
@@ -166,6 +166,12 @@ export function textoDeProducto(product: Product, categoria?: string): string {
       ...product.colors.map((c) => c.name),
     ].join(' ')
   )
+  // Sin palabras repetidas. La coincidencia es palabra por palabra (ver
+  // `coincide`), así que repetir no cambia ningún resultado; y una cinta con
+  // siete anchos repetía siete veces "por metro pieza cerrada · 50 m". Con
+  // miles de artículos, esa repetición era un tercio del índice que baja el
+  // navegador.
+  return [...new Set(texto.split(' ').filter(Boolean))].join(' ')
 }
 
 /**
@@ -291,7 +297,7 @@ export interface CamposBusqueda {
  * sugerencias, y con miles de artículos la descripción entera sería la mitad
  * del peso del índice.
  */
-const LARGO_DESCRIPCION = 160
+const LARGO_DESCRIPCION = 100
 
 export function camposDeBusqueda(product: Product, categoria?: string): CamposBusqueda {
   return {

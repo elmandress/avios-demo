@@ -16,6 +16,7 @@
 // en la demo, también en el navegador a partir del catálogo editado en el panel.
 
 import { camposDeBusqueda, type CamposBusqueda } from '@/lib/search/match'
+import { normalizeText } from '@/lib/media'
 import { summarisePrice, type ProductPriceSummary } from './pricing'
 import type { Catalog, Category, Discount, Product, ProductStatus } from './types'
 
@@ -43,7 +44,13 @@ export interface TarjetaProducto {
     /** Mostrar "desde": hay más de una variante o más de un precio por menor. */
     desde: boolean
   }
-  busqueda: CamposBusqueda
+  /** Textos de búsqueda. Sin el nombre, que se deriva de `name` (ver camposDeTarjeta). */
+  busqueda: Omit<CamposBusqueda, 'nombre'>
+}
+
+/** Los campos de búsqueda completos de una tarjeta, para `puntuarCampos`. */
+export function camposDeTarjeta(card: TarjetaProducto): CamposBusqueda {
+  return { ...card.busqueda, nombre: normalizeText(card.name) }
 }
 
 /**
@@ -92,8 +99,13 @@ export function aTarjeta(
       discountPercent: p.discountPercent,
       desde: cantidad > 1 || p.retailRange?.low !== p.retailRange?.high,
     },
-    busqueda: camposDeBusqueda(product, categoria),
+    // El nombre normalizado no viaja: se calcula en el navegador desde `name`.
+    busqueda: sinNombre(camposDeBusqueda(product, categoria)),
   }
+}
+
+function sinNombre(campos: CamposBusqueda): Omit<CamposBusqueda, 'nombre'> {
+  return { variantes: campos.variantes, descripcion: campos.descripcion, todo: campos.todo }
 }
 
 /** Las tarjetas publicables de un catálogo, en el orden manual de la tienda. */

@@ -4,6 +4,7 @@ import { useMemo } from 'react'
 import { formatUYU } from '@/lib/catalog/pricing'
 import { normalizeText } from '@/lib/media'
 import { puntuarCampos } from '@/lib/search/match'
+import { camposDeTarjeta } from '@/lib/catalog/tarjeta'
 import { useCatalog } from './CatalogProvider'
 import { useIndice } from './useIndice'
 import { Enlace } from './Enlace'
@@ -31,7 +32,7 @@ export default function ResultadosBusqueda({ query }: { query: string }) {
       // El ranking sale de lib/search/match, el MISMO módulo que filtra la
       // grilla de /tienda. Cuando eran dos códigos distintos, la sugerencia
       // mostraba el producto y al apretar Enter la grilla decía "sin resultados".
-      .map((p) => ({ p, score: puntuarCampos(p.busqueda, query) }))
+      .map((p) => ({ p, score: puntuarCampos(camposDeTarjeta(p), query) }))
       .filter((x) => x.score >= 0)
       .sort((a, b) => a.score - b.score)
       .slice(0, 6)
