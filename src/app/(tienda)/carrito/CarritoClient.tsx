@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useCart } from '@/components/CartProvider'
@@ -70,8 +70,34 @@ export default function CarritoClient({
   // separarse con el tiempo — que es exactamente el bug que originó la reforma.
   const message = buildOrderMessage(cart, { siteUrl, delivery, destination, note })
 
+  // Traba contra el doble toque. Es un ref y no estado: el estado de React
+  // llega un render tarde, y en Dahila un doble toque alcanzaba a mandar dos
+  // pedidos antes de que la traba existiera (fd8252f).
+  const enviando = useRef(false)
+  // Después de enviar se ofrece "abrir de nuevo" y "copiar el pedido": si
+  // WhatsApp no se abrió (bloqueo de ventanas, WhatsApp Web sin sesión), el
+  // cliente no se queda con un botón que aparentemente no hizo nada.
+  const [enviado, setEnviado] = useState(false)
+  const [copiado, setCopiado] = useState(false)
+  const pedidoUrl = whatsappLink(whatsappUrl, message)
+
+  const copiarPedido = async () => {
+    try {
+      await navigator.clipboard.writeText(message)
+      setCopiado(true)
+      setTimeout(() => setCopiado(false), 2500)
+    } catch {
+      // Sin permiso de portapapeles: queda la vista previa para copiar a mano.
+    }
+  }
+
   const handleCheckout = () => {
-    const url = whatsappLink(whatsappUrl, message)
+    if (enviando.current) return
+    enviando.current = true
+    setTimeout(() => {
+      enviando.current = false
+    }, 1200)
+    const url = pedidoUrl
     // Las dos cifras dicen cosas distintas y las dos importan: cuántos
     // artículos distintos lleva el pedido y cuántas unidades en total.
     track('order_sent', {
@@ -85,8 +111,14 @@ export default function CarritoClient({
     // vacío pero el pedido queda para repetirlo el mes que viene.
     guardarUltimoPedido(rawState)
 
-    const win = window.open(url, '_blank', 'noopener,noreferrer')
-    if (!win) window.location.assign(url)
+    // SIN 'noopener' en las opciones: con él, window.open devuelve SIEMPRE
+    // null, el "plan B" de abajo se ejecutaba siempre y se abrían dos WhatsApp
+    // mientras el cliente se iba del sitio (mismo bug que tuvo Dahila). Se corta
+    // el vínculo a mano, que es lo que hacía noopener.
+    const win = window.open(url, '_blank')
+    if (win) win.opener = null
+    else window.location.assign(url)
+    setEnviado(true)
   }
 
   // Mientras bajan los productos del carrito (ver useProductos) también va el
@@ -461,6 +493,20 @@ export default function CarritoClient({
         <Button variant="whatsapp" size="lg" full onClick={handleCheckout}>
           <Icon name="whatsapp-logo" weight="fill" size={20} /> Enviar el pedido por WhatsApp
         </Button>
+
+        {enviado && (
+          <div className="pedido-enviado" role="status">
+            <strong>¿No se abrió WhatsApp?</strong>
+            <div>
+              <a href={pedidoUrl} target="_blank" rel="noopener noreferrer">
+                Abrir de nuevo
+              </a>
+              <button type="button" onClick={copiarPedido}>
+                {copiado ? '✓ Pedido copiado' : 'Copiar mi pedido'}
+              </button>
+            </div>
+          </div>
+        )}
 
         <p
           style={{
