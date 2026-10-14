@@ -9,7 +9,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "audit": "node scripts/audit/run.mjs",
-    "test": "node --import ./scripts/test/lib/alias.mjs scripts/test/busqueda.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/respaldo.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/importar.mjs",
+    "test": "node --import ./scripts/test/lib/alias.mjs scripts/test/busqueda.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/respaldo.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/importar.mjs && node --import ./scripts/test/lib/alias.mjs scripts/test/tarjeta.mjs",
     "test:e2e": "node scripts/test/run.mjs",
     "verify": "npm run typecheck && npm run lint && npm run test && npm run build"
   },
