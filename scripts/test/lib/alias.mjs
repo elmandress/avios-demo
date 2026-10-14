@@ -32,6 +32,16 @@ register(
    const RAIZ = ${JSON.stringify(pathToFileURL(RAIZ).href)};
    const EXT = ['', '.ts', '.tsx', '/index.ts', '/index.tsx'];
    export async function resolve(especificador, contexto, siguiente) {
+     const relativo = especificador.startsWith('./') || especificador.startsWith('../');
+     const conExtension = especificador.split('/').pop().includes('.');
+     const desdeTs = !!contexto.parentURL && (contexto.parentURL.endsWith('.ts') || contexto.parentURL.endsWith('.tsx'));
+     if (relativo && desdeTs && !conExtension) {
+       const base = new URL(especificador, contexto.parentURL).href;
+       for (const ext of EXT.slice(1)) {
+         const url = base + ext;
+         if (existsSync(fileURLToPath(url))) return siguiente(url, contexto);
+       }
+     }
      if (!especificador.startsWith('@/')) return siguiente(especificador, contexto);
      const base = new URL('src/' + especificador.slice(2), RAIZ + '/').href;
      for (const ext of EXT) {
