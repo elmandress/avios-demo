@@ -518,7 +518,7 @@ Para mandar **a las 48 h** con la propuesta:
 2. **El pedido de tu novia**, en sus palabras, algo así: *"Mati, mi novio, hace sitios para comercios y armó algo con tu catálogo para mostrártelo. ¿Le das 15 minutos un día de esta semana?"*. Si dice que no, no se insiste.
 3. **La demo tiene que andar sin el wifi del local**: subila a una dirección privada de Netlify (sin indexar) o llevala en la notebook con datos del celular. Ensayá los 5 minutos tres veces con cronómetro.
 4. **Imprimí la lista de precios** (`/lista-de-precios` → Imprimir) en una hoja. Es lo único que se lleva en la mano y es lo que ella ya usa.
-5. Panel limpio: entrá a `/panel/respaldo` → "Restaurar la demo" antes de salir.
+5. Panel limpio: en el panel, "Dejar la demo en cero" antes de salir (borra ediciones, pedido y lista guardados).
 
 **En la reunión** (guion completo en (a))
 - **Abrís** con el permiso: *"No está publicado en ningún lado. Te lo muestro, y si no te sirve, queda acá."*
