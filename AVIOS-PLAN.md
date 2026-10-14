@@ -667,6 +667,43 @@ Para mandar **a las 48 h** con la propuesta:
 | *"¿Qué parte del año es la más fuerte?"* | Urgencia: carnaval |
 | *"Si esto ya estuviera andando en diciembre, ¿qué te cambiaría en el día?"* | El beneficio, **dicho por ella** |
 
+### (h) El discurso: la historia del PDF y Dahila como prueba
+
+**La regla**: contar **lo que le pasó a una clienta**, no "una debilidad que encontramos". Lo primero es una anécdota; lo segundo es una crítica a su negocio dicha por un desconocido. Las guías de venta a comercios coinciden en dos cosas:
+- presentarlo como el recorrido del cliente ("intenté X, pasó Y"), con un antes, un momento de quiebre y un después ([Marketapeel](https://www.marketapeel.com/post/how-small-business-teams-can-craft-better-pitches-and-marketing-that-win));
+- **preguntar si a ellos les pasa**, en vez de afirmarlo ([Resquared](https://www.re2.ai/post/sales-pitches-for-small-business-owners)).
+
+Son guías prácticas, no investigación.
+
+⚠️ **Antes de contarla, confirmá con tu novia los detalles reales**: qué buscaba, cómo pidió el catálogo y qué pasó. Se cuenta sólo lo que pasó, sin agrandarlo.
+
+**Versión larga (1 minuto), para abrir la reunión**
+> *"Te cuento cómo arrancó esto. Hace unas semanas mi novia vino al local, y después les escribió para pedirles el catálogo. Le mandaron el PDF, que está buenísimo porque tienen de todo, pero en el celular no había forma de encontrar [lo que buscaba]: son cientos de páginas. Y me quedé pensando: el catálogo ya lo tienen, lo que falta es poder buscarlo. Así que agarré la primera página, la de las cintas y los hilos, y armé cómo se vería. ¿A ustedes les pasa que la gente pide el catálogo y después igual pregunta precio por precio?"*
+
+Por qué está armada así:
+- **Elogio verdadero primero** ("tienen de todo"): el problema es de formato, no de ellos.
+- **"Lo que falta es poder buscarlo"**: el problema dicho en una frase, sin culpa.
+- **"Agarré la primera página"**: honesto sobre el alcance de la demo.
+- **Termina en una pregunta**, y desde ahí habla ella.
+
+**Versión corta (2 frases), para la visita de permiso**
+> *"Mi novia les pidió el catálogo hace unas semanas y me quedé pensando cómo sería poder buscarlo desde el celular. Armé un ejemplo con sus productos: ¿tenés 15 minutos algún día de esta semana para mostrártelo?"*
+
+**Dahila: por qué funciona y cómo decirlo**
+- La prueba social pesa más con **incertidumbre** (ella no te conoce) y con **gente parecida** (otro comercio de Montevideo, chico, con dueña, que vende por Instagram y WhatsApp) (Cialdini, *Influence*; resumen en [ASU W. P. Carey](https://blogs.wpcarey.asu.edu/20070103-gentle-science-persuasion-part-three-social-proof)).
+- Funciona si **se puede comprobar**: ella lo abre en su teléfono y, si quiere, habla con la dueña.
+- **La frase**: *"Te muestro otro que hice, así ves que no es un invento. Es de Dahila, una marca de Montevideo que vende tejidos por Instagram y WhatsApp, como ustedes. Anda desde julio y lo usan más de mil personas por mes. Si querés, te paso el contacto de la dueña y le preguntás cómo le fue."* (Pedile permiso a la dueña antes.)
+
+**"Yo te ayudo", sin sonar a salvador**
+
+| No | Sí |
+|---|---|
+| "Vimos una debilidad en su catálogo" | "Mi novia pidió el catálogo y no encontraba lo que buscaba" |
+| "Están perdiendo ventas" | "¿Les pasa que después igual preguntan precio por precio?" |
+| "Te vengo a ayudar / a solucionar" | "Lo pesado, cargar los artículos y mantenerlo, lo hago yo" |
+| "Necesitás un sitio" | "El catálogo ya lo tienen; lo que falta es que se pueda buscar" |
+| "Es una oportunidad única" | (nada: el piloto y la fecha de carnaval ya dicen eso) |
+
 ## Riesgos
 
 | # | Riesgo | Impacto | Qué hacer |
