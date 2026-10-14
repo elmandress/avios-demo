@@ -410,7 +410,7 @@ export function ProductDetailsClient({
             <Fact icon="credit-card">Efectivo o transferencia, coordinado por WhatsApp.</Fact>
             {product.variants.some((v) => v.formats.some((f) => f.tier === 'mayor')) && (
               <Fact icon="stack">
-                Precio por mayor llevando la pieza cerrada. Sin registro ni mínimo de compra.
+                Precio por mayor llevando la pieza cerrada, sin registrarte.
               </Fact>
             )}
           </ul>
