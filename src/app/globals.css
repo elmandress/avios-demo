@@ -572,6 +572,28 @@ input[type='search']::-webkit-search-cancel-button {
   color: var(--gold-500);
 }
 
+/* En teléfono la baldosa mide unos 170 × 128 px: la lista de tres artículos,
+   en posición absoluta arriba, se pisaba con el nombre de la categoría abajo
+   ("Alfiletero pulser…" encima de "Herramientas de costura"). Ahí la muestra
+   pasa al flujo, con un solo artículo, y la baldosa crece si lo necesita en
+   vez de encimar texto. */
+@media (max-width: 560px) {
+  .cat-tile[data-photo='no'] {
+    aspect-ratio: auto;
+    min-height: 128px;
+  }
+
+  .cat-tile-sample {
+    position: static;
+    margin-bottom: auto;
+    padding-right: 26px;
+  }
+
+  .cat-tile-sample span:nth-child(n + 2) {
+    display: none;
+  }
+}
+
 .cat-tile-body {
   display: flex;
   flex-direction: column;

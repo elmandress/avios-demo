@@ -82,7 +82,14 @@ export function CategoryTile({
           {inCategory.length === 0
             ? 'Próximamente'
             : `${inCategory.length} ${inCategory.length === 1 ? 'artículo' : 'artículos'}`}
-          {from !== null && ` · desde ${formatUYU(from)}`}
+          {/* El precio entero en un renglón: "desde $" arriba y "13" abajo no
+              se lee como precio. */}
+          {from !== null && (
+            <>
+              {' · '}
+              <span style={{ whiteSpace: 'nowrap' }}>desde {formatUYU(from)}</span>
+            </>
+          )}
         </span>
       </span>
 
