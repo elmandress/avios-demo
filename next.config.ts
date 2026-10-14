@@ -74,12 +74,20 @@ const nextConfig: NextConfig = {
     // Next 16 exige declarar los niveles de calidad que usa la prop `quality`.
     // 82 tarjetas · 90 ficha · 100 lightbox.
     qualities: [82, 90, 100],
-    formats: ['image/avif', 'image/webp'],
-    // Los anchos a los que realmente renderizamos, para que el optimizador no
-    // genere variantes que nadie va a pedir. Las fotos del catálogo son
-    // cuadradas y chicas: no hace falta llegar a 1920.
-    deviceSizes: [375, 420, 640, 750, 828, 1080, 1200],
-    imageSizes: [44, 62, 88, 110, 160, 210, 256, 384],
+    // Un solo formato y pocos anchos. Cada formato y cada ancho es una versión
+    // más de cada foto, y cada versión que el optimizador no tiene en caché lo
+    // obliga a bajar el ORIGINAL de donde esté guardado. Netlify vacía ese
+    // caché en cada deploy, así que la cuenta se paga de nuevo en cada
+    // publicación. Es exactamente lo que agotó los 5 GB gratis de Supabase en
+    // Dahila (20/09/2026): con 2 formatos y 15 anchos eran hasta 30 versiones
+    // por foto; así son 6. Con miles de artículos, esa diferencia es la cuenta.
+    // WebP solo: medido en Dahila, Netlify servía WebP aunque se pidiera AVIF.
+    formats: ['image/webp'],
+    // 420/640 tarjetas (2 por fila en teléfono), 828 galería a pantalla
+    // completa, 1200 lightbox y bots (botImageUrl usa 640 y 1200: no sacarlos).
+    deviceSizes: [420, 640, 828, 1200],
+    // Miniaturas del carrito, el panel y la galería (44–120 px en pantalla).
+    imageSizes: [96, 256],
     remotePatterns: [
       {
         protocol: 'https',
