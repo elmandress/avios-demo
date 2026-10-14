@@ -52,12 +52,15 @@ puede importar de TS; si cambia una, cambian las dos).
 
 - Superficies: `white`, `paper50`, `paper100`, `paper200`.
 - Tinta: `ink900` #16181C, `ink700`, `ink500`, `ink300`, `ink100`.
-- Acento petróleo: `brand600` #14505E. Botones, links, foco, estado activo.
+- Acento fucsia de la marca: `brand500` #CA1A4B (botones) y `brand600` #B91744
+  (links, foco, estado activo). Sale del logo real.
 - **Verde `saving600`/`saving700`: SÓLO ahorro por mayor.** Es el código de color
   del sitio: si ves verde, estás viendo plata que te queda. No usarlo de adorno.
 - Rojo `sale` #B3282F: descuentos y alertas.
-- Fuentes por `next/font`: Fraunces (display) + Inter (sans). Nunca `@import` de
-  Google Fonts en CSS.
+- Fuentes: Fraunces por `next/font`, en UN solo peso (400), para los títulos;
+  el texto corrido usa la fuente del sistema (`--font-sans` en globals.css).
+  Pasar de 115 KB a 18 KB de fuentes fue la mayor baja de peso del sitio: no
+  agregar pesos ni familias sin medir. Nunca `@import` de Google Fonts en CSS.
 - Reusar `Button`, `Chip`, `Badge`, `Eyebrow`, `SectionTitle`, `Icon`, `Field`,
   `TextInput` de Primitives en vez de rearmarlos.
 - Los estilos van en línea, junto al markup. En `globals.css` va sólo lo que no
@@ -91,6 +94,18 @@ puede importar de TS; si cambia una, cambian las dos).
 - Un producto sin foto usa `<ProductPlaceholder categorySlug>`, que dibuja la
   ilustración de su categoría. **Nunca la foto de otro producto**, y nunca una
   foto de stock que finja ser del local.
+
+## Escala: el navegador NO recibe el catálogo entero
+
+- El layout manda sólo categorías, descuentos y textos (`CatalogProvider`).
+- Grilla, buscador y "mi lista": tarjetas livianas (`lib/catalog/tarjeta.ts`)
+  desde `/indice.json`, que se baja sólo cuando hace falta (`useIndice`).
+- Carrito: productos completos de a uno desde `/datos/<slug>` (`useProductos`).
+- Una página nueva que necesite productos los recibe por props desde su
+  `page.tsx` (servidor), nunca del marco.
+- Enlaces: `<Enlace>` (precarga por intención), no `<Link>` a secas: cada
+  precarga son 5–7 pedidos y en Netlify cada pedido cuesta créditos.
+- Para medir con miles de artículos: `AVIOS_ESCALA=3000 npm run build`.
 
 ## Reglas de UX del rubro
 

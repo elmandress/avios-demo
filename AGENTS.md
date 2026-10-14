@@ -28,7 +28,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 # El problema real
 
 Avíos **ya tiene** su catálogo: un libro de papel en el mostrador y un PDF de
-unas 720 páginas que mandan por WhatsApp cuando alguien lo pide. El problema no
+unas 720–790 páginas que mandan por WhatsApp cuando alguien lo pide. El problema no
 es que les falte un catálogo — es que el que tienen **no se puede consultar**.
 
 De ahí sale la arquitectura, y conviene tenerlo presente antes de agregar nada:
@@ -48,6 +48,10 @@ El catálogo de Avíos son **cientos de artículos**. Los ~20 que están en
 
 Eso decide cosas y conviene tenerlo presente antes de escribir nada:
 
+- **El navegador nunca recibe el catálogo entero.** El marco manda categorías,
+  descuentos y textos; la grilla y el buscador usan `/indice.json` (tarjetas
+  livianas, se baja sólo si hace falta); el carrito pide `/datos/<slug>`.
+  Medido con 3.000 artículos: las páginas pesan lo mismo que con 20.
 - **Nada renderiza la lista completa de una.** `/tienda` pinta de a 24 con
   "ver más"; `/mayorista` muestra los 12 mayores ahorros y manda el resto a
   `/lista-de-precios`. Una grilla de cientos de tarjetas con sus imágenes es un
@@ -87,7 +91,11 @@ Eso decide cosas y conviene tenerlo presente antes de escribir nada:
 | Tipos del dominio | `src/lib/catalog/types.ts` |
 | Catálogo editable del panel | `src/lib/admin/store.ts` |
 | Puerta del panel (demo) | `src/lib/admin/auth.ts` |
-| Catálogo que ve el navegador | `src/components/CatalogProvider.tsx` |
+| Catálogo que ve el navegador (sólo categorías, descuentos, textos) | `src/components/CatalogProvider.tsx` |
+| Tarjeta liviana de producto (grilla, buscador) | `src/lib/catalog/tarjeta.ts` |
+| Índice y productos que baja el navegador | `src/app/indice.json/`, `src/app/datos/[slug]/`, `src/lib/catalog/cliente.ts` |
+| Prueba de escala (3.000 artículos) | `src/lib/catalog/escala.ts` (`AVIOS_ESCALA`) |
+| Enlaces con precarga por intención | `src/components/Enlace.tsx` |
 | Transcripción del catálogo en papel | `database/catalogo-papel.json` |
 | Toda la matemática de precios | `src/lib/catalog/pricing.ts` |
 | Búsqueda: sinónimos del rubro y coincidencia | `src/lib/search/match.ts` |
