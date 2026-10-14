@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import { avios, Icon } from './ui/Primitives'
@@ -24,6 +24,10 @@ export function ProductGallery({
 }) {
   const [active, setActive] = useState(0)
   const [lightbox, setLightbox] = useState(false)
+  // Deslizar con el dedo (patrón de Dahila). Un deslizamiento cambia de foto y
+  // NO abre el zoom; un toque quieto sí.
+  const toque = useRef<{ x: number; y: number } | null>(null)
+  const deslizo = useRef(false)
 
   const go = useCallback(
     (dir: number) => {
@@ -72,7 +76,31 @@ export function ProductGallery({
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 11 }}>
       <button
-        onClick={() => setLightbox(true)}
+        onClick={() => {
+          if (deslizo.current) {
+            deslizo.current = false
+            return
+          }
+          setLightbox(true)
+        }}
+        onTouchStart={(e) => {
+          const t = e.touches[0]
+          toque.current = { x: t.clientX, y: t.clientY }
+          deslizo.current = false
+        }}
+        onTouchEnd={(e) => {
+          const inicio = toque.current
+          toque.current = null
+          if (!inicio || images.length < 2) return
+          const t = e.changedTouches[0]
+          const dx = t.clientX - inicio.x
+          // Horizontal y con intención: si el dedo fue más para abajo que para
+          // el costado, era scroll de la página.
+          if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(t.clientY - inicio.y)) {
+            deslizo.current = true
+            go(dx < 0 ? 1 : -1)
+          }
+        }}
         aria-label={`Ampliar la foto de ${productName}`}
         style={{
           position: 'relative',
@@ -119,16 +147,17 @@ export function ProductGallery({
         >
           <Icon name="magnifying-glass-plus" size={16} />
         </span>
+        {images.length > 1 && (
+          <span className="galeria-contador" aria-hidden>
+            {active + 1} / {images.length}
+          </span>
+        )}
       </button>
 
       {images.length > 1 && (
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: `repeat(${Math.min(images.length, 5)}, minmax(0, 1fr))`,
-            gap: 9,
-          }}
-        >
+        // Miniaturas de tamaño fijo: en una grilla de fracciones, con dos fotos
+        // cada miniatura ocupaba media pantalla y empujaba el precio para abajo.
+        <div style={{ display: 'flex', gap: 9, flexWrap: 'wrap' }}>
           {images.map((img, i) => (
             <button
               key={img.url + i}
@@ -137,7 +166,9 @@ export function ProductGallery({
               aria-current={i === active}
               style={{
                 position: 'relative',
-                aspectRatio: '1/1',
+                width: 68,
+                height: 68,
+                flex: '0 0 auto',
                 borderRadius: 8,
                 overflow: 'hidden',
                 background: avios.paper50,
@@ -152,7 +183,7 @@ export function ProductGallery({
                 alt=""
                 fill
                 quality={82}
-                sizes="(max-width: 760px) 22vw, 110px"
+                sizes="68px"
                 style={{ objectFit: 'cover', opacity: i === active ? 1 : 0.82 }}
               />
             </button>
