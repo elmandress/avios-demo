@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import { getCatalog, findCategory, findProduct, productsInCategory } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
 import {
@@ -122,7 +122,10 @@ export default async function TiendaSlugPage({ params }: { params: Promise<{ slu
 
   // ─── Producto ──────────────────────────────────────────────────────────────
   const product = findProduct(catalog, slug)
-  if (!product || product.status === 'draft') notFound()
+  if (!product || product.status === 'draft') {
+    rescatarSlug(catalog, slug)
+    notFound()
+  }
 
   const productCategory = findCategory(catalog, product.categorySlug)
   const related = productsInCategory(catalog, product.categorySlug)
@@ -251,4 +254,34 @@ function productJsonLd(product: Product, discounts: readonly Discount[]) {
       },
     },
   }
+}
+
+/**
+ * Rescate de links con basura pegada (patrón de Dahila, b20f8e5).
+ *
+ * Un link copiado de Instagram o de WhatsApp llega a veces con un emoji, un
+ * espacio o un signo al final: /tienda/cinta-gross%20✨. Eso daba 404 y perdía
+ * la visita. Si al limpiarlo queda un artículo o una categoría que existe, se
+ * redirige ahí; si no, sigue siendo un 404 de verdad.
+ *
+ * Las mayúsculas NO se tocan a propósito: Dahila encontró que, en un disco que
+ * no distingue mayúsculas, las dos rutas comparten el archivo de caché y la
+ * redirección terminaba pisando la ficha real.
+ */
+function rescatarSlug(catalog: Awaited<ReturnType<typeof getCatalog>>, slug: string): void {
+  let crudo = slug
+  try {
+    crudo = decodeURIComponent(slug)
+  } catch {
+    // Un % suelto: se usa tal cual.
+  }
+  const limpio = crudo
+    .replace(/[^a-z0-9-]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+  if (!limpio || limpio === slug) return
+  const existe =
+    findCategory(catalog, limpio) ??
+    catalog.products.find((p) => p.slug === limpio && p.status !== 'draft')
+  if (existe) permanentRedirect(`/tienda/${limpio}`)
 }
