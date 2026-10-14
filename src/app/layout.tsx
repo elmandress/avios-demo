@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Fraunces, Inter } from 'next/font/google'
+import { Fraunces } from 'next/font/google'
 import { BRAND, SITE_URL, SUPABASE_STORAGE_ORIGIN } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
 import { AnalyticsScript } from '@/components/AnalyticsScript'
@@ -20,19 +20,20 @@ export const viewport: Viewport = {
   colorScheme: 'light',
 }
 
+// Fuentes: lo que más pesaba de la primera visita (114 KB, una cuarta parte).
+//
+// - Fraunces, la de los títulos, se usa en un solo peso (400). Bajaba la
+//   variable entera con el eje óptico: 67 KB. En un solo peso es una fracción,
+//   y la marca se sigue viendo igual en cada título.
+// - El texto corrido usa la fuente del sistema (San Francisco en iPhone,
+//   Roboto en Android, Segoe en Windows): cero bytes, se lee perfecto a
+//   cualquier tamaño, y es la que el teléfono ya muestra en todo lo demás.
+//   Inter pesaba 48 KB para verse casi igual. Ver --font-sans en globals.css.
 const fraunces = Fraunces({
   subsets: ['latin'],
   variable: '--font-display',
   display: 'swap',
-  // Sólo el eje óptico: el CSS únicamente setea "opsz". SOFT y WONK no se usan
-  // y cada eje agranda el woff2 que baja cada visitante.
-  axes: ['opsz'],
-})
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-sans',
-  display: 'swap',
+  weight: '400',
 })
 
 export const metadata: Metadata = {
@@ -133,7 +134,7 @@ const websiteJsonLd = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es-UY" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang="es-UY" className={fraunces.variable}>
       <head>
         <script
           type="application/ld+json"

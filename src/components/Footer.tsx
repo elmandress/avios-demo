@@ -21,7 +21,7 @@ export function Footer({ settings }: { settings: Record<string, string> }) {
       <div className="site-footer-inner">
         <div className="site-footer-brand">
           <Enlace href="/" className="brand-link" aria-label={`${BRAND.name} — inicio`}>
-            <Image src="/favicon.svg" alt="" width={30} height={30} />
+            <Image src="/logo.png" unoptimized alt="" width={30} height={30} />
             <span className="brand-wordmark">{BRAND.shortName.toUpperCase()}</span>
           </Enlace>
           <p>

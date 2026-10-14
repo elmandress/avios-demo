@@ -12,7 +12,10 @@
 :root {
   /* Espejo de los tokens de `avios` en Primitives.tsx — el CSS no puede
      importar de TypeScript. Si cambia uno, cambian los dos.
-     Los valores salen del logo real (public/favicon.svg). */
+     Los valores salen del logo real (public/logo.png). */
+
+  /* Texto corrido: la fuente del sistema (ver layout.tsx). */
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
   --white: #ffffff;
   --paper-50: #fefaf1;
@@ -78,9 +81,6 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display), Georgia, serif;
-  /* Fraunces es variable: el eje óptico ajusta el contraste del trazo al
-     tamaño. Sin esto, un título de 44px usa el dibujo pensado para 14px. */
-  font-variation-settings: 'opsz' 36;
   font-weight: 400;
 }
 
@@ -1767,7 +1767,6 @@ input[type='search']::-webkit-search-cancel-button {
 
 .hoja-marca strong {
   font-family: var(--font-display), Georgia, serif;
-  font-variation-settings: 'opsz' 24;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.15;
@@ -1796,7 +1795,6 @@ input[type='search']::-webkit-search-cancel-button {
 .hoja-titulo h1 {
   margin: 0;
   font-size: 27px;
-  font-variation-settings: 'opsz' 28;
   color: var(--ink-900);
 }
 
@@ -1813,7 +1811,6 @@ input[type='search']::-webkit-search-cancel-button {
 .hoja-bloque h2 {
   margin: 0 0 8px;
   font-size: 16px;
-  font-variation-settings: 'opsz' 18;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--brand-600);
@@ -1937,7 +1934,6 @@ input[type='search']::-webkit-search-cancel-button {
 .lista-cierre p {
   margin: 0 0 14px;
   font-family: var(--font-display), Georgia, serif;
-  font-variation-settings: 'opsz' 24;
   font-size: 20px;
   color: var(--ink-900);
 }
@@ -2249,7 +2245,6 @@ input[type='search']::-webkit-search-cancel-button {
 
 .most-marca span {
   font-family: var(--font-display), Georgia, serif;
-  font-variation-settings: 'opsz' 24;
   font-size: 19px;
   color: var(--brand-600);
   letter-spacing: 0.02em;
@@ -2677,7 +2672,6 @@ input[type='search']::-webkit-search-cancel-button {
 
 .repetir strong {
   font-family: var(--font-display), Georgia, serif;
-  font-variation-settings: 'opsz' 24;
   font-weight: 400;
   font-size: 19px;
   color: var(--ink-900);

@@ -18,7 +18,7 @@
 // los reexporta para que los imports existentes sigan funcionando.
 
 //
-// La paleta NO se inventó: sale del logo real de Avíos (public/favicon.svg —
+// La paleta NO se inventó: sale del logo real de Avíos (public/logo.png —
 // el botón fucsia con "Avíos" en cordón dorado sobre crema), muestreando sus
 // píxeles. Los valores son los que efectivamente están en el archivo.
 //

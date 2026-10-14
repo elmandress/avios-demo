@@ -161,7 +161,9 @@ export function Header({ promo }: { promo: { enabled: boolean; text: string; lin
 
           <Enlace href="/" className="brand-link" aria-label={`${BRAND.name} — inicio`}>
             <Image
-              src="/favicon.svg"
+              src="/logo.png"
+              // PNG de 3 KB servido tal cual (antes, un SVG de 23 KB).
+              unoptimized
               alt=""
               width={32}
               height={32}

@@ -1082,7 +1082,6 @@
 .resp-previa b {
   display: block;
   font-family: var(--font-display), Georgia, serif;
-  font-variation-settings: 'opsz' 28;
   font-weight: 400;
   font-size: 27px;
   line-height: 1.1;

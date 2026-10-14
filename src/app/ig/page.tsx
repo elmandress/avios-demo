@@ -54,7 +54,8 @@ export default async function IgPage() {
     <div style={{ maxWidth: 460, margin: '0 auto', padding: '32px 18px 60px' }}>
       <header style={{ textAlign: 'center', marginBottom: 26 }}>
         <Image
-          src="/favicon.svg"
+          src="/logo.png"
+          unoptimized
           alt=""
           width={56}
           height={56}
