@@ -28,7 +28,8 @@ Convención de todo el documento:
 - **Arquitectura: híbrida.** Supabase para el panel (login, escrituras, planilla), sitio pre-generado en el CDN de Netlify y regenerado sólo cuando algo cambia, **fotos fuera de Supabase**. Es lo que Dahila aprendió con dos cortes por cuota.
 - **Tráfico esperable** ⚠️: 2.000 / 6.000 / 15.000 sesiones por mes, con picos de carnaval. Calibrado con Dahila (4.114 seguidores → 1.340 sesiones en 28 días).
 - **Tu costo real**: **~USD 10/mes (~USD 125/año)** en los tres escenarios (Netlify Personal + dominio). El optimista en pico de carnaval sigue entrando en Personal sin recargas.
-- **Precio, revisado a la baja** (ver Fase 5 y "¿por qué no USD 75?"). Objetivo para ~1.000 artículos: **USD 750 puesta en marcha + USD 400 de carga + USD 35/mes** (UYU 30.000 + 16.000 + 1.400/mes). Piloto de carnaval: **USD 150**, que se descuenta si sigue.
+- **Precio final recomendado** (ver Fase 5.6): **arranque $ 39.900 (~USD 1.000) con los primeros 300 artículos cargados**, **$ 2.000 cada 100 artículos más**, **$ 1.400 por mes**. Piloto de carnaval: **$ 6.000**, que se descuenta si sigue.
+- **Netlify y Supabase no son obligatorios de pagar** (Fase 3.6): con el tráfico esperable alcanzan los planes gratis, con dos cuidados (equipo y organización propios, y una tarea diaria para que Supabase no se pause).
 - **Riesgo que no podés ignorar**: en Netlify Free, si el equipo se queda sin créditos **se pausan todos los sitios del equipo** ([Netlify, billing FAQ](https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/)). Equipo propio por cliente.
 - **Lo que no sirve del plan original**: (1) el .uy por menos de USD 20/año es cierto sólo vía revendedor y sin IVA; .com.uy anda por USD 45 + IVA. (2) Supabase Free tiene **2 proyectos gratis entre todas tus organizaciones** y Dahila usa uno.
 
@@ -261,6 +262,21 @@ Dominio: HECHO, .uy a USD 9,85–10 + IVA por año vía revendedores locales ([H
 - ⚠️ No incluí impuestos sobre servicios digitales del exterior: no lo verifiqué para tu caso (SIAR). Consultalo con tu contador.
 - **El costo que de verdad pesa es tu tiempo**, no la infraestructura: ⚠️ 2–4 h/mes de soporte. A USD 20/h (ver Fase 5) son USD 40–80/mes, entre 4 y 8 veces la infraestructura.
 
+### 3.6 ¿Hay que pagar Netlify y Supabase? No, si se arma bien
+
+- **Netlify: no hace falta.**
+  - Free (300 créditos) alcanza en el escenario conservador (45%) y en el medio (72%, ~91% en pico de carnaval).
+  - El riesgo es uno solo: si se agotan, **se pausan todos los sitios de ese equipo** hasta el ciclo siguiente.
+  - Cuidado: Avíos en un equipo **donde no viva nada más**, y pasar a Personal (USD 9) si un mes supera ~70%.
+  - ⚠️ No verificado: si una misma persona puede tener dos equipos gratis con 300 créditos cada uno ([Netlify](https://www.netlify.com/changelog/netlify-pricing-update-introducing-credit-based-plans/) dice que el Free tiene "1 Team Owner"). Lo más simple es una cuenta a nombre de Avíos.
+- **Supabase: no hace falta.**
+  - Free: base de 500 MB y 5 GB de egress; Avíos usaría ⚠️ <0,5 GB, porque el tráfico no toca la base.
+  - Se pausa a la semana sin actividad: una tarea diaria gratis de GitHub Actions lo evita (como en Dahila).
+  - Hay 2 proyectos gratis entre todas las organizaciones donde seas dueño o admin: crear el proyecto en una organización **de ella**.
+  - Respaldos: la [documentación](https://supabase.com/docs/guides/platform/backups.md) dice que los proyectos Free tienen copia diaria, sin decir cuántos días guarda, y recomienda exportar por tu cuenta. Planilla del panel cada semana y `db dump` cada mes.
+- **El piloto puede ir sin Supabase**: catálogo en archivo, y cada cambio lo publicás vos. Cada publicación son 15 créditos, así que entran ⚠️ ~8–10 por mes junto con el tráfico. Supabase entra cuando ella edite sola.
+- **Costo mínimo real: sólo el dominio** (~USD 15/año). Igual conviene cobrar la cuota: no paga la infraestructura, paga que vos respondas si algo se cae.
+
 ### 3.5 Lo que encontré en internet sobre Avíos y su mercado
 
 - HECHO: [Guía Comercial](https://guiacomercial.uy/ficha/merceria-avios-montevideo-montevideo/) (actualizada el 29/07/2026): **3,7/5 con 65 reseñas de Google Maps**; elogian la variedad y la atención; las quejas son por **entregar el artículo equivocado** (agujas de otro tipo, anillos de otra medida) cuando el local está lleno. Horario lun–vie 9–18:30, sáb 9–13:30. Fijo 2902 8106. Acepta tarjetas y NFC en el local.
@@ -413,6 +429,44 @@ Antes proponía USD 3.430 + USD 75/mes para el objetivo con 3.000 artículos; ah
 - **Si hay que bajar, se baja alcance, nunca el número.** Del objetivo al piso se pasa sacando `/mostrador` y la carga hecha por vos.
 - ⚠️ Honestidad: con la carga por artículo a USD 0,40–0,50, **la carga deja poco margen**. Rinde sólo si el script de extracción anda bien: medilo en el piloto antes de comprometer el resto.
 
+### 5.6 Versión final: el precio que le presentaría (y cómo decirlo)
+
+Simplificado a **un número de arranque, uno por bloque de artículos y uno por mes**, en pesos:
+
+| Qué | Pesos | ≈ USD | Tu margen ⚠️ |
+|---|---|---|---|
+| **Arranque**: sitio publicado, panel con login, dominio el primer año, **300 artículos cargados**, 1 h de capacitación | **$ 39.900** (o 3 × $ 13.300) | ~1.000 | 32–44% (22–28 h + 6 h de carga) |
+| **Cada 100 artículos más**, cargados por vos desde el PDF | **$ 2.000** | ~50 | 20–33% |
+| Alternativa: los carga alguien del local en la planilla; vos revisás e importás | $ 800 cada 100 | ~20 | ~15% |
+| **Cuota mensual**: sitio, base, dominio, respaldos, arreglos, 45 min/mes de cambios | **$ 1.400** | ~35 | 29% |
+| **Piloto** (200 artículos de carnaval) | **$ 6.000**, se descuenta del arranque | ~150 | negativo, a propósito |
+
+- Con 1.000 artículos: $ 39.900 + 7 × $ 2.000 = **$ 53.900** (~USD 1.350) y $ 1.400/mes.
+- Con 3.000: **$ 93.900** (~USD 2.350) y $ 1.400/mes.
+- **Mercado**: USD 900–4.000+ por una tienda online ([Nibiru](https://nibiru.com.uy/cuanto-cuesta-una-pagina-web-en-uruguay-en-2026-precios-reales-y-que-incluyen)); USD 1.200–4.000 una hecha a medida ([Neowyze](https://neowyze.tech/blog/cuanto-cuesta-un-ecommerce-en-uruguay)), y ninguna de las dos incluye la carga. ~USD 1.000 con 300 artículos cargados queda **en el piso del mercado sin parecer barato**.
+
+**Cómo decirlo para que suene a lo que vale**
+
+1. **El precio se dice después de que ella dijo su número.** La pregunta es *"¿cuánto tiempo por día se les va contestando precios?"*. Con su respuesta, la cuenta se hace sola. Una hora de salario mínimo son ~$ 127 ($ 25.383 desde julio/2026 ÷ 200 h, [datosuruguay](https://datosuruguay.com/sueldo-minimo)); un vendedor de comercio cobra más.
+
+   | Tiempo por día contestando precios | Cuesta por mes (25 días, al salario mínimo) |
+   |---|---|
+   | 30 min | ~$ 1.600 |
+   | 1 h | ~$ 3.200 |
+   | 2 h | ~$ 6.300 |
+
+   Frase: *"La cuota es $ 1.400 por mes: menos de lo que hoy se va en contestar lo mismo."* **Sin inventar ventas**: sólo su tiempo.
+2. **En pesos y por día**: $ 1.400 por mes son **menos de $ 50 por día**. El arranque, en 3 cuotas.
+3. **Comparar con lo que haría igual**: *"Tiendli o Shopify te cobran la cuota, pero la carga de tus artículos es tuya. Acá los primeros 300 ya van cargados."*
+4. **Cosas concretas que dan confianza**, no adjetivos:
+   - el sitio ya está hecho con sus productos;
+   - [dahila.uy](https://dahila.uy) anda hace meses (un caso real tuyo);
+   - todo queda a nombre de ella y se descarga en planilla;
+   - pago por etapas;
+   - piloto chico antes del resto.
+5. **Un número, dicho tranquilo, sin "sé que es bastante"**. Si hay que bajar, se baja alcance (menos artículos al arranque, o la carga la hace el local), nunca el número.
+6. **La carga se explica en una frase**: *"Cada artículo entra con todos sus anchos o colores, el precio suelto y el de la pieza, y la foto si la tenés. Lo pesado lo hago yo; el precio exacto te lo confirmo cuando vea el PDF."*
+
 ---
 
 ## FASE 6 — Cómo venderlo
@@ -506,7 +560,7 @@ Para mandar **a las 48 h** con la propuesta:
 
 | Técnica | Qué dice la evidencia | Cómo se aplica acá |
 |---|---|---|
-| Presentación por alguien de confianza | Los contactos que llegan recomendados se convierten varias veces más que los en frío, y cierran más rápido. Lo dicen todas las fuentes, aunque las cifras exactas varían y vienen de proveedores ([Boomerang](https://getboomerang.ai/post/warmbound-converts-better-than-cold), [Draftboard](https://www.draftboard.com/blog/cold-calling-vs-warm-intros-which-is-more-effective-for-b2b-sales)) | Tu novia **pide permiso** para presentarte, no te lleva de sorpresa. Después se corre: la venta es tuya |
+| Presentación por alguien de confianza | Los contactos que llegan recomendados se convierten varias veces más que los en frío, y cierran más rápido. Lo dicen todas las fuentes, aunque las cifras exactas varían y vienen de proveedores ([Boomerang](https://getboomerang.ai/post/warmbound-converts-better-than-cold), [Draftboard](https://www.draftboard.com/blog/cold-calling-vs-warm-intros-which-is-more-effective-for-b2b-sales)) | **Tu novia fue una sola vez: no alcanza para presentarte.** Vas vos, en persona, y **pedís permiso primero**. Ella puede acompañarte como clienta, nada más |
 | Demo hecha antes de cobrar (*spec work*) | Su ventaja: se juzga el resultado antes de pagar. Su riesgo: el dueño puede sentir que se hizo algo suyo sin consultarle ([discusión de freelancers](https://yomotherboard.com/question/is-spec-work-a-trap-for-new-freelancers/)) | Decí de entrada: "no está publicado en ningún lado; si no te sirve, lo borro". Es "la primera página de tu catálogo", no "tu sitio terminado" |
 | Preguntar más que mostrar | En 519.000 llamadas de venta, las exitosas tienen 11–14 preguntas **repartidas a lo largo de la charla**, no amontonadas al principio, y más ida y vuelta ([Gong](https://www.gong.io/blog/deal-closing-discovery-call)) | 3–4 preguntas antes de la demo, 4–6 durante (después de cada pantalla, "¿esto te pasa?"), 3–4 al final |
 | Que ella lo haga (efecto IKEA) | La gente valora más lo que armó ella misma, **siempre que la tarea termine bien** ([Norton, Mochon y Ariely, 2012](https://dash.harvard.edu/handle/1/12136084)) | Que ELLA busque "15 mm" en su teléfono y ELLA suba un precio en el panel. Probalo antes: si falla en su mano, el efecto se da vuelta |
@@ -515,7 +569,12 @@ Para mandar **a las 48 h** con la propuesta:
 
 **Antes (esta semana)**
 1. **Cuándo**: ⚠️ antes de noviembre. De diciembre a febrero es carnaval, su temporada fuerte, y no va a tener cabeza. Un día de semana a media tarde, nunca un sábado de mañana.
-2. **El pedido de tu novia**, en sus palabras, algo así: *"Mati, mi novio, hace sitios para comercios y armó algo con tu catálogo para mostrártelo. ¿Le das 15 minutos un día de esta semana?"*. Si dice que no, no se insiste.
+2. **Pedir permiso en dos pasos, en persona.**
+   - Paso 1, dos minutos en el local, comprando algo de verdad: *"Hola, soy Mati, hago sitios para comercios. Armé un ejemplo de cómo se vería tu catálogo para consultar desde el celular. ¿Tenés 15 minutos tranquila algún día de esta semana para que te lo muestre?"*
+   - Paso 2, volvés el día y la hora que ella diga.
+   - Si no está la dueña, le dejás el mensaje a quien atiende y pedís su WhatsApp.
+   - Plan B por WhatsApp al local: el mismo texto más **una sola captura** de su ficha de la cinta de raso, como prueba de que existe, no como venta.
+   - Si dice que no, no se insiste.
 3. **La demo tiene que andar sin el wifi del local**: subila a una dirección privada de Netlify (sin indexar) o llevala en la notebook con datos del celular. Ensayá los 5 minutos tres veces con cronómetro.
 4. **Imprimí la lista de precios** (`/lista-de-precios` → Imprimir) en una hoja. Es lo único que se lleva en la mano y es lo que ella ya usa.
 5. Panel limpio: en el panel, "Dejar la demo en cero" antes de salir (borra ediciones, pedido y lista guardados).
