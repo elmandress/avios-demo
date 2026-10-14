@@ -500,6 +500,40 @@ Para mandar **a las 48 h** con la propuesta:
 
 ---
 
+### (f) Cómo llegar a Alejandra — plan de acercamiento
+
+**Las técnicas que usa, y de dónde salen**
+
+| Técnica | Qué dice la evidencia | Cómo se aplica acá |
+|---|---|---|
+| Presentación por alguien de confianza | Los contactos que llegan recomendados se convierten varias veces más que los en frío, y cierran más rápido. Lo dicen todas las fuentes, aunque las cifras exactas varían y vienen de proveedores ([Boomerang](https://getboomerang.ai/post/warmbound-converts-better-than-cold), [Draftboard](https://www.draftboard.com/blog/cold-calling-vs-warm-intros-which-is-more-effective-for-b2b-sales)) | Tu novia **pide permiso** para presentarte, no te lleva de sorpresa. Después se corre: la venta es tuya |
+| Demo hecha antes de cobrar (*spec work*) | Su ventaja: se juzga el resultado antes de pagar. Su riesgo: el dueño puede sentir que se hizo algo suyo sin consultarle ([discusión de freelancers](https://yomotherboard.com/question/is-spec-work-a-trap-for-new-freelancers/)) | Decí de entrada: "no está publicado en ningún lado; si no te sirve, lo borro". Es "la primera página de tu catálogo", no "tu sitio terminado" |
+| Preguntar más que mostrar | En 519.000 llamadas de venta, las exitosas tienen 11–14 preguntas **repartidas a lo largo de la charla**, no amontonadas al principio, y más ida y vuelta ([Gong](https://www.gong.io/blog/deal-closing-discovery-call)) | 3–4 preguntas antes de la demo, 4–6 durante (después de cada pantalla, "¿esto te pasa?"), 3–4 al final |
+| Que ella lo haga (efecto IKEA) | La gente valora más lo que armó ella misma, **siempre que la tarea termine bien** ([Norton, Mochon y Ariely, 2012](https://dash.harvard.edu/handle/1/12136084)) | Que ELLA busque "15 mm" en su teléfono y ELLA suba un precio en el panel. Probalo antes: si falla en su mano, el efecto se da vuelta |
+| Tres opciones, con la del medio como la propuesta | Entre tres opciones, la gente tiende a elegir la del medio; el ancla sirve sólo si es un precio creíble ([UBC Sauder](https://org-www.sauder.ubc.ca/fr/node/3953), [Sugden y otros](https://research-portal.uea.ac.uk/en/publications/not-all-anchors-are-created-equal/)) | En la propuesta escrita: piso, objetivo y techo. En la reunión, sólo el piloto |
+| Trato uruguayo | Conservador, de relación, sin afirmaciones exageradas ([Biz Latin Hub](https://www.bizlatinhub.com/es/uruguay-etiqueta-empresarial/)) | Nada de "vas a vender el doble". Sí: "vas a contestar menos veces lo mismo" |
+
+**Antes (esta semana)**
+1. **Cuándo**: ⚠️ antes de noviembre. De diciembre a febrero es carnaval, su temporada fuerte, y no va a tener cabeza. Un día de semana a media tarde, nunca un sábado de mañana.
+2. **El pedido de tu novia**, en sus palabras, algo así: *"Mati, mi novio, hace sitios para comercios y armó algo con tu catálogo para mostrártelo. ¿Le das 15 minutos un día de esta semana?"*. Si dice que no, no se insiste.
+3. **La demo tiene que andar sin el wifi del local**: subila a una dirección privada de Netlify (sin indexar) o llevala en la notebook con datos del celular. Ensayá los 5 minutos tres veces con cronómetro.
+4. **Imprimí la lista de precios** (`/lista-de-precios` → Imprimir) en una hoja. Es lo único que se lleva en la mano y es lo que ella ya usa.
+5. Panel limpio: entrá a `/panel/respaldo` → "Restaurar la demo" antes de salir.
+
+**En la reunión** (guion completo en (a))
+- **Abrís** con el permiso: *"No está publicado en ningún lado. Te lo muestro, y si no te sirve, queda acá."*
+- **Preguntás antes de mostrar**: cuántas consultas de precio por día, quién las contesta, cómo mandan hoy el catálogo.
+- **Mostrás 5 minutos.** Ella busca en su teléfono y ella cambia un precio.
+- **Proponés el piloto**, no el proyecto: *"Arrancamos con lo de carnaval, unos 200 artículos, publicado antes de diciembre. Son $ 6.000 y, si seguimos, se descuentan."*
+- **Cerrás con fecha**: *"Te mando la propuesta el jueves. ¿Me pasás el PDF del catálogo y el número bueno para pedidos?"*
+- **No decís**: el precio del proyecto completo (va por escrito), nada técnico, nada de lo que "arreglaste".
+
+**Después**
+- **El mismo día**: el WhatsApp de agradecimiento de (d).
+- **A las 48 h**: la propuesta con las tres opciones en pesos (UYU 22.000 / **30.000** / 44.000 de puesta en marcha) y el piloto arriba de todo.
+- **El día acordado**: llamás vos, no esperás.
+- **Si dice que no**: le preguntás si la podés mostrar como ejemplo **sin sus datos**. Si no, la borrás y se lo confirmás.
+
 ## Riesgos
 
 | # | Riesgo | Impacto | Qué hacer |
