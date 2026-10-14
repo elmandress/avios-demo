@@ -20,6 +20,7 @@ import { unstable_cache } from 'next/cache'
 import { unstable_rethrow } from 'next/navigation'
 import { DEMO_CATALOG } from './data'
 import { assertCatalogIntegrity } from './integrity'
+import { escalar } from './escala'
 import type { Catalog, CatalogSource, Category, Product } from './types'
 
 export * from './types'
@@ -40,8 +41,11 @@ export interface CatalogResult extends Catalog {
   source: CatalogSource
 }
 
+// Prueba de escala (ver escala.ts): sólo en el servidor y sólo en modo demo.
+const CATALOGO_LOCAL = escalar(DEMO_CATALOG, Number(process.env.AVIOS_ESCALA ?? 0))
+
 function localCatalog(source: CatalogSource): CatalogResult {
-  return { ...DEMO_CATALOG, source }
+  return { ...CATALOGO_LOCAL, source }
 }
 
 /** Filas de Supabase → dominio. Solo se usa en modo `live`. */

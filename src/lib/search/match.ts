@@ -263,12 +263,51 @@ function contiene(texto: string, termino: string): boolean {
  * el visitante escribió tal cual.
  */
 export function puntuar(product: Product, consulta: string, categoria?: string): number {
+  return puntuarCampos(camposDeBusqueda(product, categoria), consulta)
+}
+
+/**
+ * Los textos de un producto que usa la búsqueda, ya normalizados.
+ *
+ * Existen para que la búsqueda funcione igual sobre el índice liviano que baja
+ * el navegador (`lib/catalog/tarjeta.ts`) que sobre el producto completo: el
+ * índice guarda estos cuatro campos y no las variantes con sus precios. Si cada
+ * lado armara su propio texto, volvería el bug de "la sugerencia lo muestra y la
+ * grilla dice que no hay nada".
+ */
+export interface CamposBusqueda {
+  /** Nombre del producto. */
+  nombre: string
+  /** Etiquetas de las variantes ("4 mm (Nro 0)", "Negro"…). */
+  variantes: string
+  /** Principio de la descripción: sólo ordena, nunca filtra (ver arriba). */
+  descripcion: string
+  /** `textoDeProducto`: contra esto se filtra. */
+  todo: string
+}
+
+/**
+ * Cuánto de la descripción entra al índice. Sólo sirve para ordenar
+ * sugerencias, y con miles de artículos la descripción entera sería la mitad
+ * del peso del índice.
+ */
+const LARGO_DESCRIPCION = 160
+
+export function camposDeBusqueda(product: Product, categoria?: string): CamposBusqueda {
+  return {
+    nombre: normalizeText(product.name),
+    variantes: normalizeText(product.variants.map((v) => v.label).join(' ')),
+    descripcion: normalizeText(product.description ?? '').slice(0, LARGO_DESCRIPCION),
+    todo: textoDeProducto(product, categoria),
+  }
+}
+
+/** `puntuar` sobre campos ya calculados. */
+export function puntuarCampos(campos: CamposBusqueda, consulta: string): number {
   const q = normalizeText(consulta)
   if (q.length < 2) return -1
 
-  const name = normalizeText(product.name)
-  const variantes = normalizeText(product.variants.map((v) => v.label).join(' '))
-  const desc = normalizeText(product.description ?? '')
+  const { nombre: name, variantes, descripcion: desc } = campos
 
   if (name.startsWith(q)) return 0
   if (name.includes(q)) return 1 + name.indexOf(q) / 100
@@ -277,7 +316,7 @@ export function puntuar(product: Product, consulta: string, categoria?: string):
 
   // No coincide literal: se prueba palabra por palabra, con sinónimos.
   const tokens = expandirConsulta(consulta)
-  if (tokens.length > 0 && coincide(textoDeProducto(product, categoria), tokens)) return 200
+  if (tokens.length > 0 && coincide(campos.todo, tokens)) return 200
 
   return -1
 }
