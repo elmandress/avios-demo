@@ -17,7 +17,9 @@ export function AnalyticsScript() {
       src="/stats/script.js"
       data-website-id={ANALYTICS_WEBSITE_ID}
       data-host-url="/stats"
-      strategy="afterInteractive"
+      // Después de que la página terminó de cargar, para no competir con la
+      // foto principal (Dahila, d8282e8).
+      strategy="lazyOnload"
     />
   )
 }

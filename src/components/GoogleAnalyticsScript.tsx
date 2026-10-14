@@ -15,7 +15,10 @@ export function GoogleAnalyticsScript() {
     <>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        strategy="afterInteractive"
+        // Después de que la página terminó de cargar: gtag.js son ~100 KB que
+        // no tienen que competir con la foto principal (Dahila, d8282e8). El
+        // init de abajo sí va antes, así los eventos quedan en la cola.
+        strategy="lazyOnload"
       />
       <Script id="ga4-init" strategy="afterInteractive">
         {`window.dataLayer = window.dataLayer || [];
