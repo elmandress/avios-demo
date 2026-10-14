@@ -66,11 +66,11 @@ export const metadata: Metadata = {
     title: 'Mercería Avíos — por mayor y por menor',
     description: 'Cintas, hilos, cordones y herramientas de costura. San José 851, Montevideo.',
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Mercería Avíos — por mayor y por menor',
-    description: 'Cintas, hilos, cordones y herramientas de costura. San José 851, Montevideo.',
-  },
+  // Sólo el tipo de tarjeta. Con título, descripción e imagen fijos acá (y un
+  // twitter-image.tsx en la raíz), TODAS las páginas —fichas incluidas— se
+  // anunciaban en X con el título y la foto de la portada. Sin ellos, X usa el
+  // og:title y el og:image de cada página. Mismo arreglo que Dahila.
+  twitter: { card: 'summary_large_image' },
   robots: {
     index: true,
     follow: true,
