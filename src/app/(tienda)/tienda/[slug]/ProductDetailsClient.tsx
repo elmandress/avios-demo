@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Discount, Product } from '@/lib/catalog/types'
 import { aTarjeta, type TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { registrarProductos } from '@/lib/catalog/cliente'
@@ -91,6 +91,44 @@ export function ProductDetailsClient({
   const [formatId, setFormatId] = useState(initial?.formatId ?? '')
   const [qty, setQty] = useState(1)
   const [added, setAdded] = useState(false)
+
+  // Barra fija de compra en el teléfono (patrón de Dahila). Aparece cuando el
+  // botón "Agregar al pedido" quedó ARRIBA, fuera de pantalla: quien bajó a
+  // leer la lista de precios o la descripción no tiene que volver a subir. Si
+  // el botón todavía está abajo (no llegó), no aparece: ahí estorbaría.
+  const botonRef = useRef<HTMLDivElement>(null)
+  const [barraVisible, setBarraVisible] = useState(false)
+  useEffect(() => {
+    const el = botonRef.current
+    if (!el) return
+    // Con el scroll y no con IntersectionObserver: el observador sólo avisa
+    // cuando el botón cruza el borde de la pantalla, y un salto de scroll (un
+    // ancla, "volver arriba", un swipe largo) lo pasa de abajo a arriba sin
+    // cruzarlo. 80 px es el header fijo: detrás de él, el botón no se ve.
+    let cuadro = 0
+    const medir = () => {
+      cuadro = 0
+      setBarraVisible(el.getBoundingClientRect().bottom < 80)
+    }
+    const alScroll = () => {
+      if (!cuadro) cuadro = requestAnimationFrame(medir)
+    }
+    window.addEventListener('scroll', alScroll, { passive: true })
+    return () => {
+      window.removeEventListener('scroll', alScroll)
+      if (cuadro) cancelAnimationFrame(cuadro)
+    }
+  }, [])
+  // El botón flotante de WhatsApp se corre para arriba mientras la barra está a
+  // la vista (ver .wa-float en globals.css): si no, tapa "Agregar".
+  useEffect(() => {
+    const html = document.documentElement
+    if (barraVisible) html.dataset.barraCompra = ''
+    else delete html.dataset.barraCompra
+    return () => {
+      delete html.dataset.barraCompra
+    }
+  }, [barraVisible])
 
   useEffect(() => {
     track('product_view', { product: product.slug })
@@ -375,9 +413,24 @@ export function ProductDetailsClient({
                 />
               )}
 
-              <Button variant="primary" size="lg" full onClick={handleAdd}>
-                {added ? '✓ Agregado al pedido' : 'Agregar al pedido'}
-              </Button>
+              <div ref={botonRef}>
+                <Button variant="primary" size="lg" full onClick={handleAdd}>
+                  {added ? '✓ Agregado al pedido' : 'Agregar al pedido'}
+                </Button>
+              </div>
+
+              <div className="barra-compra" data-visible={barraVisible ? 'si' : 'no'} aria-hidden={!barraVisible}>
+                <div className="barra-compra-texto">
+                  <span>
+                    {qty} {unitNounForQty}
+                    {variant.label ? ` · ${variant.label}` : ''}
+                  </span>
+                  <strong>{formatUYU(lineTotal ?? 0)}</strong>
+                </div>
+                <Button variant="primary" onClick={handleAdd} tabIndex={barraVisible ? 0 : -1}>
+                  {added ? '✓ Agregado' : 'Agregar'}
+                </Button>
+              </div>
             </>
           )}
 
@@ -545,6 +598,11 @@ export function ProductDetailsClient({
       )}
 
       <VistosRecientes excluir={product.slug} />
+
+      {/* Lugar para la barra fija de compra, para que no tape el pie. Siempre
+          presente en teléfono: si apareciera junto con la barra, movería la
+          página al hacer scroll. */}
+      <div className="barra-compra-espacio" aria-hidden />
     </div>
   )
 }
