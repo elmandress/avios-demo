@@ -83,17 +83,12 @@ export function TiendaClient({
   const { categories, settings } = useCatalog()
   const router = useRouter()
 
-  // El índice completo llega aparte. Mientras tanto se trabaja con lo que vino
-  // pre-renderizado, que es exactamente lo que ya se está viendo.
-  const indice = useIndice(true)
-  const products = useMemo(
-    () =>
-      indice
-        ? indice.filter((c) => activeCategory === 'todo' || c.categorySlug === activeCategory)
-        : iniciales,
-    [indice, iniciales, activeCategory]
-  )
-  const cantidadTotal = indice ? products.length : total
+  // El índice completo (todo el catálogo) se baja SÓLO si hace falta: para
+  // buscar, filtrar, ordenar o ver más de lo que vino pre-renderizado. Si la
+  // categoría entra entera en las primeras tarjetas, nunca. Con miles de
+  // artículos, quien mira una categoría no tiene por qué bajar las demás.
+  const completo = total <= iniciales.length
+  const [pedirIndice, setPedirIndice] = useState(false)
 
   // La búsqueda vive en la URL, no sólo en el estado.
   //
@@ -110,6 +105,22 @@ export function TiendaClient({
   const [maxPrice, setMaxPrice] = useState(0)
   const [sort, setSort] = useState<SortKey>('destacados')
   const [filtersOpen, setFiltersOpen] = useState(false)
+
+  const filtrando =
+    search.trim() !== '' || onlyWholesale || hideOutOfStock || maxPrice > 0 || sort !== 'destacados'
+  const indice = useIndice(!completo && (pedirIndice || filtrando))
+  // Mientras no llega, se trabaja con lo que vino pre-renderizado, que es
+  // exactamente lo que ya se está viendo.
+  const products = useMemo(
+    () =>
+      indice
+        ? indice.filter((c) => activeCategory === 'todo' || c.categorySlug === activeCategory)
+        : iniciales,
+    [indice, iniciales, activeCategory]
+  )
+  // ¿Se está trabajando sobre la categoría ENTERA? (índice, o categoría chica)
+  const listo = indice !== null || completo
+  const cantidadTotal = indice ? products.length : total
 
   // Techo del control de precio: el "desde" más caro de la categoría,
   // redondeado hacia arriba. Derivarlo evita un tope fijo que deje productos
@@ -185,7 +196,7 @@ export function TiendaClient({
   // Registrar la búsqueda que no encontró nada, para que la dueña vea qué le
   // están pidiendo. Sólo con el índice completo: sin él, "no está entre las
   // primeras 24" no quiere decir "no lo tenemos".
-  const noResults = indice !== null && visible.length === 0 && search.trim().length >= 3
+  const noResults = listo && visible.length === 0 && search.trim().length >= 3
   useEffect(() => {
     if (!noResults) return
     const t = setTimeout(() => recordMissedSearch(search), 1200)
@@ -199,8 +210,6 @@ export function TiendaClient({
     setMaxPrice(0)
   }
 
-  const filtrando = search.trim() !== '' || activeFilterCount > 0
-
   return (
     <TiendaVista
       heading={heading}
@@ -210,15 +219,19 @@ export function TiendaClient({
       tarjetas={mostrados}
       // Hasta que llega el índice, buscar o filtrar sobre las primeras 24 sería
       // mentir con el conteo: se espera.
-      esperando={indice === null && filtrando}
+      esperando={!listo && filtrando}
       conteo={
-        visible.length === cantidadTotal || !indice
+        visible.length === cantidadTotal || !listo
           ? `${cantidadTotal} artículos`
           : `${visible.length} de ${cantidadTotal} artículos`
       }
-      hayMas={indice ? visible.length > mostrados.length : total > iniciales.length}
-      mostrando={`${mostrados.length} de ${indice ? visible.length : total}`}
-      onVerMas={indice ? () => setTope((n) => n + TANDA) : undefined}
+      hayMas={listo ? visible.length > mostrados.length : total > iniciales.length}
+      mostrando={`${mostrados.length} de ${listo ? visible.length : total}`}
+      cargandoMas={!listo && pedirIndice}
+      onVerMas={() => {
+        setPedirIndice(true)
+        setTope((n) => n + TANDA)
+      }}
       busqueda={{
         valor: search,
         onCambio: setSearch,
@@ -249,7 +262,7 @@ export function TiendaClient({
         ),
       }}
       vacio={
-        indice !== null && visible.length === 0 ? (
+        listo && visible.length === 0 ? (
           <SinResultados
             search={search}
             categories={categories}
@@ -286,6 +299,7 @@ export function TiendaVista({
   hayMas,
   mostrando,
   onVerMas,
+  cargandoMas = false,
   esperando = false,
   busqueda,
   filtros,
@@ -300,6 +314,8 @@ export function TiendaVista({
   hayMas: boolean
   mostrando: string
   onVerMas?: () => void
+  /** "Ver más" ya se tocó y el índice todavía está bajando. */
+  cargandoMas?: boolean
   esperando?: boolean
   busqueda?: { valor: string; onCambio: (v: string) => void }
   filtros?: {
@@ -424,8 +440,8 @@ export function TiendaVista({
           */}
           {hayMas && (
             <div className="ver-mas">
-              <Button variant="secondary" size="lg" onClick={onVerMas} disabled={!onVerMas}>
-                {onVerMas ? 'Ver más artículos' : 'Cargando…'}
+              <Button variant="secondary" size="lg" onClick={onVerMas} disabled={!onVerMas || cargandoMas}>
+                {cargandoMas ? 'Cargando…' : 'Ver más artículos'}
               </Button>
               <span>{mostrando}</span>
             </div>
