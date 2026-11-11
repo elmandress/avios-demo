@@ -34,3 +34,12 @@ Mobbin, Screenlane y Curated Design devolvieron 403 del proxy; quedan como refer
 La portada deja de repetir las 22 categorías en una segunda grilla: la entrada por familias concentra la navegación y acorta el recorrido hacia el argumento mayorista y el contacto. Instagram pasa de un banner de degradado a una tarjeta integrada a la marca, con el usuario legible en teléfono. Se incorpora una entrada breve del panel de filtros que respeta reducción de movimiento.
 También se corrigió un texto residual de la portada que decía que faltaba cargar el catálogo. El contacto final lleva directamente al WhatsApp configurado, evitando un paso intermedio por Contacto. La búsqueda espera una pausa de 300 ms antes de actualizar la URL para mantener la escritura fluida y evitar una navegación por cada tecla.
 La auditoría detectó una vista previa masiva del panel con casi 2.000 renglones simultáneos. Se pagina de a 50 con anterior/siguiente; el conteo y el botón indican el alcance total y la función de aplicación conserva el conjunto completo de cambios. Hay una prueba de navegador para el tamaño de cada página y el avance.
+
+## Validación final
+- `npm run verify`: aprobado (TypeScript, ESLint, cuatro suites de lógica y build).
+- `npm run test:e2e -- --url=http://localhost:3004`: las cuatro suites completas aprobadas; 43 comprobaciones de catálogo, pedido, panel y navegación.
+- `npm run audit -- --url=http://localhost:3004 --puerto=9224`: aprobado sobre el build de producción. 247 HTML sin tokens vacíos; 27 rutas sin violaciones WCAG ni desborde a 390 px; 675 destinos internos sin enlaces rotos. Las cinco rutas de rendimiento cumplen LCP ≤ 2.500 ms y CLS ≤ 0,1 con 4G lenta, CPU 4× y caché vacía.
+- JSON generado, pricing.ts, package.json y lockfile permanecen idénticos a la base. Los cambios de precios de las pruebas ocurren en un navegador aislado y se restaura el catálogo al finalizar.
+
+## Límites y siguiente paso
+Queda completar la revisión visual de Mobbin/alternativas y las entrevistas cuando sus dominios estén accesibles. No se añadieron datos históricos sin fuente. Para materiales y colores se necesita completar los datos faltantes antes de ofrecer facetas generales. Conviene recorrer con Alejandra los galones de nombre genérico que quedan en «Otros galones», confirmar sus términos y medir búsquedas sin resultado durante la prueba del sitio. La demo conserva el acceso de demostración y el almacenamiento local que ya explica el panel.
