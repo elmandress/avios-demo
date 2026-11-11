@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Discount, Product } from '@/lib/catalog/types'
 import { aTarjeta, type TarjetaProducto } from '@/lib/catalog/tarjeta'
@@ -91,6 +92,7 @@ export function ProductDetailsClient({
   const [variantId, setVariantId] = useState(initial?.variantId ?? '')
   const [formatId, setFormatId] = useState(initial?.formatId ?? '')
   const [qty, setQty] = useState(1)
+  const [variantQuery, setVariantQuery] = useState('')
   const [added, setAdded] = useState(false)
   // La foto del modelo o color elegido (ver `mediaIndex` en types.ts).
   const [galleryFocus, setGalleryFocus] = useState<{ index: number; tick: number } | undefined>(undefined)
@@ -374,6 +376,11 @@ export function ProductDetailsClient({
               >
                 {axisLabel(product)}
               </legend>
+              {selectableVariants.length > 12 && <label>Buscá un modelo o color
+                <input className="variant-search" value={variantQuery} onChange={e => setVariantQuery(e.target.value)} placeholder="Ej.: 17, negro…" type="search" />
+              </label>}
+              <p style={{ margin: '0 0 12px', fontSize: 14 }}><strong>Elegiste: {variant.label}</strong></p>
+              {variantQuery && !selectableVariants.some(v => v.label.toLocaleLowerCase().includes(variantQuery.toLocaleLowerCase())) && <p>No hay modelos con ese nombre. Probá otro número o borrá la búsqueda.</p>}
               <div
                 style={{
                   display: 'flex',
@@ -386,7 +393,7 @@ export function ProductDetailsClient({
                     : null),
                 }}
               >
-                {selectableVariants.map((v) => {
+                {selectableVariants.filter(v => v.label.toLocaleLowerCase().includes(variantQuery.toLocaleLowerCase())).map((v) => {
                   const on = v.id === variant.id
                   return (
                     <button
@@ -429,6 +436,7 @@ export function ProductDetailsClient({
                           }}
                         />
                       )}
+                      {selectableVariants.length > 12 && typeof v.mediaIndex === 'number' && product.media[v.mediaIndex] && <Image className="variant-thumb" src={product.media[v.mediaIndex].url} alt="" width={52} height={52} sizes="52px" quality={82} />}
                       {v.label}
                     </button>
                   )

@@ -1,5 +1,6 @@
 'use client'
 
+import { CatalogoFamilias } from '@/components/CatalogoFamilias'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import { Enlace } from '@/components/Enlace'
@@ -114,6 +115,7 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
         </div>
       </section>
 
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: '16px 22px' }}><SectionTitle>¿Qué estás buscando?</SectionTitle><CatalogoFamilias categories={tiles.map(t => t.category)} /><p>Elegí el artículo y la presentación, armá tu pedido y mandalo por WhatsApp. Confirmamos stock y pago por chat.</p></section>
       {/* ── Productos ─────────────────────────────────────────────────────── */}
       {featured.length > 0 && (
         <section className="home-products" style={sectionStyle}>

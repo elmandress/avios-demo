@@ -172,7 +172,7 @@ export function ProductGallery({
       {images.length > 1 && (
         // Miniaturas de tamaño fijo: en una grilla de fracciones, con dos fotos
         // cada miniatura ocupaba media pantalla y empujaba el precio para abajo.
-        <div style={{ display: 'flex', gap: 9, flexWrap: 'wrap' }}>
+        <div aria-label="Fotos del artículo; deslizá para ver más" style={{ display: 'flex', gap: 9, overflowX: 'auto', paddingBottom: 6 }}>
           {images.map((img, i) => (
             <button
               key={img.url + i}

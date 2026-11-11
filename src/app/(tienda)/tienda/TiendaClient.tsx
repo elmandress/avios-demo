@@ -4,8 +4,10 @@ import { useEffect, useMemo, useState } from 'react'
 import { Enlace } from '@/components/Enlace'
 import { useRouter, useSearchParams } from 'next/navigation'
 import type { Category } from '@/lib/catalog/types'
-import { TANDA, type TarjetaProducto } from '@/lib/catalog/tarjeta'
-import { coincide, expandirConsulta } from '@/lib/search/match'
+import { PanelCatalogo } from '@/components/PanelCatalogo'
+import { CatalogoFamilias } from '@/components/CatalogoFamilias'
+import { camposDeTarjeta, TANDA, type TarjetaProducto } from '@/lib/catalog/tarjeta'
+import { puntuarCampos, coincide, expandirConsulta } from '@/lib/search/match'
 import { useCatalog } from '@/components/CatalogProvider'
 import { useIndice } from '@/components/useIndice'
 import { recordMissedSearch } from '@/lib/search/log'
@@ -36,13 +38,14 @@ import { avios, Badge, Button, Icon, SectionTitle } from '@/components/ui/Primit
 //   TiendaClient   el estado: búsqueda, filtros, orden, "ver más". Trabaja sobre
 //                  el índice liviano (/indice.json), no sobre el catálogo entero.
 
-type SortKey = 'destacados' | 'precio-asc' | 'precio-desc' | 'nombre'
+type SortKey = 'destacados' | 'precio-asc' | 'precio-desc' | 'nombre' | 'ahorro'
 
 const SORT_LABELS: Record<SortKey, string> = {
-  destacados: 'Orden de la tienda',
+  destacados: 'Relevancia',
   'precio-asc': 'Precio: de menor a mayor',
   'precio-desc': 'Precio: de mayor a menor',
   nombre: 'Nombre (A–Z)',
+  ahorro: 'Más ahorro por mayor',
 }
 
 interface Filters {
@@ -61,221 +64,91 @@ function matches(card: TarjetaProducto, f: Filters): boolean {
   }
   if (f.onlyWholesale && !card.precio.hasWholesale) return false
   if (f.hideOutOfStock && card.status === 'soldout') return false
-  if (f.maxPrice > 0 && card.precio.fromUyu > f.maxPrice) return false
+  if (f.maxPrice > 0 && (card.precio.fromUyu <= 0 || card.precio.fromUyu > f.maxPrice)) return false
   return true
 }
 
-export function TiendaClient({
-  activeCategory = 'todo',
-  heading,
-  intro,
-  iniciales,
-  total,
-}: {
-  activeCategory?: string
-  heading: string
-  intro?: string | null
-  /** Las primeras tarjetas de esta categoría, pre-renderizadas en el servidor. */
-  iniciales: TarjetaProducto[]
-  /** Cuántos artículos tiene la categoría en total. */
-  total: number
+export function TiendaClient({ heading, intro, activeCategory = 'todo', iniciales, total }: {
+  heading: string; intro?: string | null; activeCategory?: string; iniciales: TarjetaProducto[]; total: number
 }) {
   const { categories, settings } = useCatalog()
   const router = useRouter()
-
-  // El índice completo (todo el catálogo) se baja SÓLO si hace falta: para
-  // buscar, filtrar, ordenar o ver más de lo que vino pre-renderizado. Si la
-  // categoría entra entera en las primeras tarjetas, nunca. Con miles de
-  // artículos, quien mira una categoría no tiene por qué bajar las demás.
-  const completo = total <= iniciales.length
+  const params = useSearchParams()
   const [pedirIndice, setPedirIndice] = useState(false)
-
-  // La búsqueda vive en la URL, no sólo en el estado.
-  //
-  // Tres razones, y la primera es que el sitio ya lo prometía: el JSON-LD del
-  // layout declara un SearchAction apuntando a /tienda?q={término}, así que
-  // Google puede mandar tráfico a esa dirección. Las otras dos son de uso
-  // diario: una búsqueda se puede COMPARTIR (el link que quien atiende le pega
-  // al cliente en el chat lleva el resultado, no la tienda entera), y el botón
-  // de volver del navegador deshace la búsqueda en vez de sacarte del sitio.
-  const searchParams = useSearchParams()
-  const [search, setSearch] = useState(() => searchParams.get('q') ?? '')
-  const [onlyWholesale, setOnlyWholesale] = useState(false)
-  const [hideOutOfStock, setHideOutOfStock] = useState(false)
-  const [maxPrice, setMaxPrice] = useState(0)
-  const [sort, setSort] = useState<SortKey>('destacados')
   const [filtersOpen, setFiltersOpen] = useState(false)
-
-  const filtrando =
-    search.trim() !== '' || onlyWholesale || hideOutOfStock || maxPrice > 0 || sort !== 'destacados'
-  const indice = useIndice(!completo && (pedirIndice || filtrando))
-  // Mientras no llega, se trabaja con lo que vino pre-renderizado, que es
-  // exactamente lo que ya se está viendo.
-  const products = useMemo(
-    () =>
-      indice
-        ? indice.filter((c) => activeCategory === 'todo' || c.categorySlug === activeCategory)
-        : iniciales,
-    [indice, iniciales, activeCategory]
-  )
-  // ¿Se está trabajando sobre la categoría ENTERA? (índice, o categoría chica)
-  const listo = indice !== null || completo
-  const cantidadTotal = indice ? products.length : total
-
-  // Techo del control de precio: el "desde" más caro de la categoría,
-  // redondeado hacia arriba. Derivarlo evita un tope fijo que deje productos
-  // fuera de rango el día que entre un artículo más caro.
-  const priceCeiling = useMemo(() => {
-    const highest = Math.max(0, ...products.map((p) => p.precio.fromUyu))
-    return Math.ceil(highest / 100) * 100
-  }, [products])
-
-  // Al cambiar de categoría, los filtros locales se reinician: mantener "sólo
-  // por mayor" al saltar de Cintas a Herramientas devolvía cero resultados sin
-  // explicar por qué. En el render, no en un efecto (patrón de React para
-  // ajustar estado cuando cambia una prop).
-  const [lastCategory, setLastCategory] = useState(activeCategory)
-  if (lastCategory !== activeCategory) {
-    setLastCategory(activeCategory)
-    setSearch('')
-    setOnlyWholesale(false)
-    setHideOutOfStock(false)
-    setMaxPrice(0)
+  const search = params.get('q') ?? ''
+  const sort = (Object.hasOwn(SORT_LABELS, params.get('orden') ?? '') ? params.get('orden') : 'destacados') as SortKey
+  const keys = ['tipo', 'eje', 'presentacion', 'mayor', 'disponible', 'hasta']
+  const filtrando = keys.some(k => params.has(k)) || !!search || sort !== 'destacados'
+  const completo = total <= iniciales.length
+  const indice = useIndice(!completo && (pedirIndice || filtrando || filtersOpen || activeCategory === 'galones-flecos-y-borlas'))
+  const products = useMemo(() => indice ? indice.filter(c => activeCategory === 'todo' || c.categorySlug === activeCategory) : iniciales, [indice, activeCategory, iniciales])
+  const listo = completo || indice !== null
+  const update = (key: string, value: string) => {
+    const next = new URLSearchParams(params.toString())
+    if (value) next.set(key, value); else next.delete(key)
+    router.replace(`?${next.toString()}`, { scroll: false })
   }
-
-  const filters: Filters = { search, onlyWholesale, hideOutOfStock, maxPrice }
-
-  const visible = useMemo(() => {
-    const list = products.filter((p) => matches(p, filters))
-    switch (sort) {
-      case 'precio-asc':
-        return [...list].sort((a, b) => a.precio.fromUyu - b.precio.fromUyu)
-      case 'precio-desc':
-        return [...list].sort((a, b) => b.precio.fromUyu - a.precio.fromUyu)
-      case 'nombre':
-        return [...list].sort((a, b) => a.name.localeCompare(b.name, 'es'))
-      default:
-        return [...list].sort((a, b) => a.sortOrder - b.sortOrder)
+  const aceptar = (p: TarjetaProducto, omitir = '') => {
+    if (!matches(p, { search, onlyWholesale: omitir !== 'mayor' && params.has('mayor'), hideOutOfStock: omitir !== 'disponible' && params.has('disponible'), maxPrice: omitir === 'hasta' ? 0 : Number(params.get('hasta')) || 0 })) return false
+    return (['tipo', 'eje', 'presentacion'] as const).every(k => {
+      const values = params.getAll(k)
+      const actual = k === 'tipo' ? [p.facetas?.tipo] : p.facetas?.[k] ?? []
+      return k === omitir || !values.length || values.some(v => actual.includes(v))
+    })
+  }
+  const visible = products.filter(p => aceptar(p)).sort((a,b) => {
+    if (sort.startsWith('precio')) {
+      if (!a.precio.fromUyu) return 1
+      if (!b.precio.fromUyu) return -1
+      return (a.precio.fromUyu - b.precio.fromUyu) * (sort === 'precio-desc' ? -1 : 1)
     }
-    // `filters` se reconstruye en cada render; las dependencias reales son sus
-    // campos, que sí son primitivos y estables.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [products, search, onlyWholesale, hideOutOfStock, maxPrice, sort])
-
-  // Cuántas tarjetas se pintan. Al cambiar los filtros se vuelve al principio:
-  // quedarse en "mostrando 96" después de una búsqueda que devuelve 3
-  // resultados no significa nada. En el render y no en un efecto: es el patrón
-  // de React para ajustar estado cuando cambia otro.
+    if (sort === 'nombre') return a.name.localeCompare(b.name, 'es')
+    if (sort === 'ahorro') return (b.precio.bestSavingsPercent ?? 0) - (a.precio.bestSavingsPercent ?? 0)
+    if (search) return puntuarCampos(camposDeTarjeta(a), search) - puntuarCampos(camposDeTarjeta(b), search)
+    return a.sortOrder - b.sortOrder
+  })
   const [tope, setTope] = useState(TANDA)
-  const claveFiltros = `${search}|${onlyWholesale}|${hideOutOfStock}|${maxPrice}|${sort}`
-  const [ultimaClave, setUltimaClave] = useState(claveFiltros)
-  if (ultimaClave !== claveFiltros) {
-    setUltimaClave(claveFiltros)
-    setTope(TANDA)
+  const clave = params.toString() + activeCategory
+  const [anterior, setAnterior] = useState(clave)
+  if (anterior !== clave) { setAnterior(clave); setTope(TANDA) }
+  const noResults = listo && !visible.length && search.trim().length >= 3
+  useEffect(() => { if (!noResults) return; const t = setTimeout(() => recordMissedSearch(search), 1200); return () => clearTimeout(t) }, [noResults, search])
+  const limpiar = () => router.replace(window.location.pathname, { scroll: false })
+  const toggle = (key: string, value: string) => {
+    const next = new URLSearchParams(params.toString())
+    const values = next.getAll(key)
+    next.delete(key)
+    for (const v of values.includes(value) ? values.filter(v => v !== value) : [...values, value]) next.append(key, v)
+    router.replace(`?${next}`, { scroll: false })
   }
-
-  const mostrados = useMemo(() => visible.slice(0, tope), [visible, tope])
-  const wholesaleCount = useMemo(() => products.filter((p) => p.precio.hasWholesale).length, [products])
-  const activeFilterCount = [onlyWholesale, hideOutOfStock, maxPrice > 0].filter(Boolean).length
-
-  // La URL sigue a lo que se escribe, con retardo. `replace` y no `push`: con
-  // push, cada tecla dejaría una entrada en el historial.
-  useEffect(() => {
-    const t = setTimeout(() => {
-      const actual = searchParams.get('q') ?? ''
-      if (actual === search) return
-      const params = new URLSearchParams(searchParams.toString())
-      if (search.trim()) params.set('q', search.trim())
-      else params.delete('q')
-      const qs = params.toString()
-      router.replace(qs ? `?${qs}` : window.location.pathname, { scroll: false })
-    }, 400)
-    return () => clearTimeout(t)
-  }, [search, searchParams, router])
-
-  // Registrar la búsqueda que no encontró nada, para que la dueña vea qué le
-  // están pidiendo. Sólo con el índice completo: sin él, "no está entre las
-  // primeras 24" no quiere decir "no lo tenemos".
-  const noResults = listo && visible.length === 0 && search.trim().length >= 3
-  useEffect(() => {
-    if (!noResults) return
-    const t = setTimeout(() => recordMissedSearch(search), 1200)
-    return () => clearTimeout(t)
-  }, [noResults, search])
-
-  const limpiar = () => {
-    setSearch('')
-    setOnlyWholesale(false)
-    setHideOutOfStock(false)
-    setMaxPrice(0)
-  }
-
-  return (
-    <TiendaVista
-      heading={heading}
-      intro={intro}
-      activeCategory={activeCategory}
-      categories={categories}
-      tarjetas={mostrados}
-      // Hasta que llega el índice, buscar o filtrar sobre las primeras 24 sería
-      // mentir con el conteo: se espera.
-      esperando={!listo && filtrando}
-      conteo={
-        visible.length === cantidadTotal || !listo
-          ? `${cantidadTotal} artículos`
-          : `${visible.length} de ${cantidadTotal} artículos`
-      }
-      hayMas={listo ? visible.length > mostrados.length : total > iniciales.length}
-      mostrando={`${mostrados.length} de ${listo ? visible.length : total}`}
-      cargandoMas={!listo && pedirIndice}
-      onVerMas={() => {
-        setPedirIndice(true)
-        setTope((n) => n + TANDA)
-      }}
-      busqueda={{
-        valor: search,
-        onCambio: setSearch,
-      }}
-      filtros={{
-        abiertos: filtersOpen,
-        onAbrir: () => setFiltersOpen((v) => !v),
-        activos: activeFilterCount,
-        orden: sort,
-        onOrden: setSort,
-        panel: (
-          <PanelFiltros
-            onlyWholesale={onlyWholesale}
-            setOnlyWholesale={setOnlyWholesale}
-            wholesaleCount={wholesaleCount}
-            hideOutOfStock={hideOutOfStock}
-            setHideOutOfStock={setHideOutOfStock}
-            maxPrice={maxPrice}
-            setMaxPrice={setMaxPrice}
-            priceCeiling={priceCeiling}
-            activeFilterCount={activeFilterCount}
-            limpiar={() => {
-              setOnlyWholesale(false)
-              setHideOutOfStock(false)
-              setMaxPrice(0)
-            }}
-          />
-        ),
-      }}
-      vacio={
-        listo && visible.length === 0 ? (
-          <SinResultados
-            search={search}
-            categories={categories}
-            askUrl={whatsappLink(
-              settings.contact_whatsapp_url || BRAND.whatsappUrl,
-              `¡Hola! ¿Tenés ${search.trim()}? No lo encontré en el sitio.`
-            )}
-            limpiar={limpiar}
-          />
-        ) : null
-      }
-    />
-  )
+  const activos = keys.flatMap(k => params.getAll(k).map(v => ({ k, v })))
+  return <TiendaVista heading={heading} intro={intro} activeCategory={activeCategory} categories={categories}
+    tarjetas={visible.slice(0,tope)} esperando={!listo && filtrando}
+    conteo={listo ? `${visible.length} artículos` : `${total} artículos`}
+    hayMas={listo ? visible.length > tope : total > iniciales.length}
+    mostrando={`${Math.min(tope, visible.length)} de ${listo ? visible.length : total}`}
+    cargandoMas={!listo && pedirIndice} onVerMas={() => { setPedirIndice(true); setTope(n => n + TANDA) }}
+    busqueda={{ valor: search, onCambio: v => update('q',v) }}
+    filtros={{ abiertos: filtersOpen, onAbrir: () => setFiltersOpen(v => !v), activos: activos.length,
+      orden: sort, onOrden: v => update('orden',v),
+      chips: <><div className="subcategorias" aria-label="Tipos de pasamanería">{listo && activeCategory === 'galones-flecos-y-borlas' && [...new Set(products.map(p => p.facetas.tipo))].filter(Boolean).map(tipo => <button key={tipo} className="chip" aria-pressed={params.getAll('tipo').includes(tipo)} onClick={() => toggle('tipo',tipo)}>{tipo} · {products.filter(p => p.facetas.tipo === tipo).length}</button>)}</div><div className="filtros-activos">{activos.map(({k,v}) => <button className="chip" key={k+v} onClick={() => ['tipo','eje','presentacion'].includes(k) ? toggle(k,v) : update(k,'')}>{k === 'mayor' ? 'Por mayor' : k === 'disponible' ? 'Disponibles' : k === 'hasta' ? `Hasta $ ${v}` : v} ×</button>)}{activos.length > 0 && <Button variant="ghost" onClick={limpiar}>Limpiar todo</Button>}</div></>,
+      panel: <PanelCatalogo cerrar={() => setFiltersOpen(false)}><div className="facetas-panel" id="panel-filtros">
+        <div className="facetas-cabecera"><h2>Encontrá lo que necesitás</h2><Button variant="secondary" onClick={() => setFiltersOpen(false)}>Cerrar filtros</Button></div>
+        {!listo ? <p role="status">Cargando filtros del catálogo…</p> : <>
+        {(['tipo','eje','presentacion'] as const).map(k => {
+          const opciones = [...new Set(products.flatMap(p => k === 'tipo' ? p.facetas?.tipo ? [p.facetas.tipo] : [] : p.facetas?.[k] ?? []))].sort()
+          return opciones.length > 1 ? <fieldset key={k}><legend>{k === 'tipo' ? 'Tipo de artículo' : k === 'eje' ? 'Elegí por' : 'Cómo se vende'}</legend>{opciones.map(v => {
+            const count = products.filter(p => aceptar(p,k) && (k === 'tipo' ? p.facetas.tipo === v : (p.facetas[k] as string[]).includes(v))).length
+            return <label key={v}><input type="checkbox" checked={params.getAll(k).includes(v)} onChange={() => toggle(k,v)} />{v}<span>{count}</span></label>
+          })}</fieldset> : null
+        })}
+        <fieldset><legend>Compra y disponibilidad</legend>{[['mayor','Con precio por mayor'],['disponible','Sólo disponibles']].map(([k,label]) => <label key={k}><input type="checkbox" checked={params.has(k)} onChange={e => update(k,e.target.checked ? '1' : '')}/>{label}<span>{products.filter(p => aceptar(p,k) && (k === 'mayor' ? p.precio.hasWholesale : p.status !== 'soldout')).length}</span></label>)}</fieldset>
+        <label>Precio desde, hasta ($ UYU)<input type="number" min="1" value={params.get('hasta') ?? ''} onChange={e => update('hasta',e.target.value)} placeholder="Sin tope" /></label>
+        <Button onClick={() => setFiltersOpen(false)}>Ver {visible.length} artículos</Button>
+        </>}
+      </div></PanelCatalogo> }}
+    vacio={listo && !visible.length ? <SinResultados search={search} categories={categories} askUrl={whatsappLink(settings.contact_whatsapp_url || BRAND.whatsappUrl, `¡Hola! ¿Tenés ${search.trim()}? No lo encontré en el sitio.`)} limpiar={limpiar}/> : null}/>
 }
 
 // ─── La vista ────────────────────────────────────────────────────────────────
@@ -324,11 +197,12 @@ export function TiendaVista({
     activos: number
     orden: SortKey
     onOrden: (k: SortKey) => void
+    chips?: React.ReactNode
     panel: React.ReactNode
   }
   vacio?: React.ReactNode
 }) {
-  const ordenadas = [...categories].sort((a, b) => a.sortOrder - b.sortOrder)
+
 
   return (
     <div style={{ maxWidth: 1200, margin: '0 auto', padding: '28px 22px 80px' }}>
@@ -341,23 +215,8 @@ export function TiendaVista({
 
       {/* Categorías: enlaces de verdad, no botones. Google tiene que poder
           llegar a cada categoría —y desde ahí a cada ficha— sin JavaScript. */}
-      <nav aria-label="Categorías" style={{ marginBottom: 18 }}>
-        <div className="chip-row">
-          <Enlace href="/tienda" className="chip" aria-current={activeCategory === 'todo' ? 'page' : undefined}>
-            Todo
-          </Enlace>
-          {ordenadas.map((c) => (
-            <Enlace
-              key={c.slug}
-              href={`/tienda/${c.slug}`}
-              className="chip"
-              aria-current={activeCategory === c.slug ? 'page' : undefined}
-            >
-              {c.name}
-            </Enlace>
-          ))}
-        </div>
-      </nav>
+      <p className="catalogo-migas"><Enlace href="/">Inicio</Enlace> / <Enlace href="/tienda">Catálogo</Enlace>{activeCategory !== 'todo' && ` / ${heading}`}</p>
+      {activeCategory === 'todo' ? <CatalogoFamilias categories={categories} /> : <details className="cambiar-rubro"><summary>Cambiar de rubro</summary><CatalogoFamilias categories={categories} activeCategory={activeCategory} /></details>}
 
       {/* Barra de búsqueda y filtros */}
       <div className="tienda-barra">
@@ -419,6 +278,7 @@ export function TiendaVista({
         </label>
       </div>
 
+      {filtros?.chips}
       {filtros?.abiertos && filtros.panel}
 
       <p aria-live="polite" className="tienda-conteo">
@@ -428,7 +288,7 @@ export function TiendaVista({
       {vacio ?? (
         <>
           <div className="product-grid" aria-busy={esperando || undefined}>
-            {tarjetas.map((card, i) => (
+            {(esperando ? [] : tarjetas).map((card, i) => (
               <ProductCard key={card.slug} card={card} priority={i < 4} />
             ))}
           </div>
@@ -455,80 +315,6 @@ export function TiendaVista({
 }
 
 // ─── Piezas ──────────────────────────────────────────────────────────────────
-
-function PanelFiltros({
-  onlyWholesale,
-  setOnlyWholesale,
-  wholesaleCount,
-  hideOutOfStock,
-  setHideOutOfStock,
-  maxPrice,
-  setMaxPrice,
-  priceCeiling,
-  activeFilterCount,
-  limpiar,
-}: {
-  onlyWholesale: boolean
-  setOnlyWholesale: (v: boolean) => void
-  wholesaleCount: number
-  hideOutOfStock: boolean
-  setHideOutOfStock: (v: boolean) => void
-  maxPrice: number
-  setMaxPrice: (v: number) => void
-  priceCeiling: number
-  activeFilterCount: number
-  limpiar: () => void
-}) {
-  return (
-    <div id="panel-filtros" className="tienda-filtros">
-      <label style={{ display: 'flex', alignItems: 'center', gap: 9, cursor: 'pointer' }}>
-        <input
-          type="checkbox"
-          checked={onlyWholesale}
-          onChange={(e) => setOnlyWholesale(e.target.checked)}
-          style={{ width: 18, height: 18, accentColor: avios.saving600 }}
-        />
-        <span style={{ fontFamily: avios.fontSans, fontSize: 14.5, color: avios.ink900 }}>
-          Sólo con precio por mayor <span style={{ color: avios.ink500 }}>({wholesaleCount})</span>
-        </span>
-      </label>
-
-      <label style={{ display: 'flex', alignItems: 'center', gap: 9, cursor: 'pointer' }}>
-        <input
-          type="checkbox"
-          checked={hideOutOfStock}
-          onChange={(e) => setHideOutOfStock(e.target.checked)}
-          style={{ width: 18, height: 18, accentColor: avios.brand600 }}
-        />
-        <span style={{ fontFamily: avios.fontSans, fontSize: 14.5, color: avios.ink900 }}>
-          Sólo disponibles
-        </span>
-      </label>
-
-      <label style={{ display: 'flex', flexDirection: 'column', gap: 5, minWidth: 220 }}>
-        <span style={{ fontFamily: avios.fontSans, fontSize: 13.5, color: avios.ink700 }}>
-          Precio desde, hasta{' '}
-          <strong>{maxPrice > 0 ? `$ ${maxPrice.toLocaleString('es-UY')}` : 'sin tope'}</strong>
-        </span>
-        <input
-          type="range"
-          min={0}
-          max={priceCeiling}
-          step={50}
-          value={maxPrice}
-          onChange={(e) => setMaxPrice(Number(e.target.value))}
-          style={{ accentColor: avios.brand600 }}
-        />
-      </label>
-
-      {activeFilterCount > 0 && (
-        <Button variant="ghost" size="sm" onClick={limpiar}>
-          Limpiar filtros
-        </Button>
-      )}
-    </div>
-  )
-}
 
 function SinResultados({
   search,

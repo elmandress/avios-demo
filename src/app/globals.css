@@ -3099,3 +3099,39 @@ input[type='search']::-webkit-search-cancel-button {
   font-size: 12.5px;
   font-variant-numeric: tabular-nums;
 }
+
+/* Navegación del catálogo: familias visibles y facetas del índice liviano. */
+.catalogo-migas { font: 13px var(--font-sans); margin: 16px 0; }
+.catalogo-migas a { color: inherit; }
+.catalogo-familias { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; margin: 20px 0 24px; }
+.catalogo-familias details { border: 1px solid var(--border, #ded8d2); border-radius: 10px; background: var(--paper-50,#faf8f5); }
+.catalogo-familias summary { padding: 14px; min-height: 48px; cursor: pointer; font-size: 14px; font-weight: 600; }
+.catalogo-familias details > div { padding: 0 14px 12px; display: grid; }
+.catalogo-familias a { padding: 10px 0; color: inherit; font-size: 14px; }
+.catalogo-familias a[aria-current] { font-weight: 700; text-decoration-thickness: 2px; }
+.facetas-panel { border: 1px solid #ded8d2; border-radius: 14px; padding: 22px; background: #faf8f5; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; margin: 18px 0; }
+.facetas-cabecera { grid-column: 1/-1; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.facetas-cabecera h2 { font-size:20px; margin:0; }
+.facetas-panel fieldset { border: 0; padding: 0; min-width:0; }
+.facetas-panel legend { font-weight:700; margin-bottom:10px; }
+.facetas-panel label { display:flex; gap:10px; align-items:center; min-height:44px; font-size:14px; }
+.facetas-panel label span { margin-left:auto; color:#625b56; }
+.facetas-panel input[type=checkbox] { width:18px; height:18px; accent-color:#b91744; }
+.facetas-panel input[type=number] { width:110px; min-height:44px; border:1px solid #8b817a; border-radius:6px; padding:8px; }
+.filtros-activos { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+.variant-search { width:100%; padding:12px; min-height:44px; border:1px solid #8b817a; border-radius:8px; margin-bottom:12px; }
+.variant-thumb { width:52px; height:52px; object-fit:contain; border-radius:4px; }
+@media(max-width:700px) {
+ .catalogo-familias { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .catalogo-familias summary { font-size:13px; padding:12px; }
+ .facetas-panel { display:block; position:fixed; inset:0 0 0 12px; z-index:120; margin:0; overflow-y:auto; border-radius:16px 0 0 16px; box-shadow:-12px 0 0 0 #0007; padding:20px 18px 100px; }
+ .facetas-panel fieldset { margin:24px 0; }
+ .facetas-cabecera { position:sticky; top:-20px; background:#faf8f5; padding:16px 0; }
+}
+.catalogo-dialog { max-width:1000px; width:calc(100% - 32px); max-height:90dvh; padding:0; border:0; border-radius:14px; color:inherit; }
+.catalogo-dialog::backdrop { background:#0007; }
+.catalogo-dialog .facetas-panel { margin:0; }
+@media(max-width:700px) { .catalogo-dialog { width:calc(100% - 12px); max-height:100dvh; height:100dvh; margin:0 0 0 auto; border-radius:16px 0 0 16px; } .catalogo-dialog .facetas-panel { position:static; min-height:100%; box-shadow:none; } }
+.subcategorias { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0; }
+.subcategorias button[aria-pressed=true] { background:#35251f; color:white; }
+.cambiar-rubro > summary { cursor:pointer; padding:12px 0; min-height:44px; font-weight:600; }
