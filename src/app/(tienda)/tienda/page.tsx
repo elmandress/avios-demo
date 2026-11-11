@@ -10,7 +10,7 @@ import { TiendaPagina } from './TiendaPagina'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Catálogo — cintas, hilos, cordones y herramientas',
+  title: 'Catálogo — cintas, galones, puntillas, hilos y herramientas',
   description:
     'Catálogo completo de Mercería Avíos: cintas de raso y gross, hilos, cordones, tul y herramientas de costura. Precio por menor y por mayor a la vista. Envíos a todo Uruguay.',
   alternates: { canonical: '/tienda' },
@@ -72,7 +72,7 @@ export default async function TiendaPage() {
       <TiendaPagina
         activeCategory="todo"
         heading="Catálogo"
-        intro="Todo lo que tenemos cargado, con precio por menor y por mayor a la vista. Si buscás algo que no está, escribinos: en el local hay bastante más."
+        intro="Todo lo que tenemos cargado, con precio por menor y por mayor a la vista. Si buscás algo que no está, escribinos: al local siempre entra mercadería nueva."
         categories={catalog.categories}
         tarjetas={tarjetasDe(catalog)}
       />

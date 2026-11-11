@@ -1,0 +1,2426 @@
+{
+  "batch": 18,
+  "products": [
+    {
+      "name": "Galón flores N3",
+      "pdf_text": "GALON FLORES COD N3 CRUDO Y ROSA $ 539 el metro",
+      "pages": [
+        627
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "N3",
+      "material": null,
+      "badge": null,
+      "description": "Galón de flores en relieve con una piedrita en el centro, unidas en tira. Viene en crudo y en rosa y se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Crudo",
+          "hex": "#f4f1ea",
+          "image": "x4375",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f2b8c8",
+          "image": "x4378",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4375",
+          "page": 627,
+          "version": "limpia",
+          "alt": "Galón de flores color crudo con perlita en el centro, sobre una panera de mimbre"
+        },
+        {
+          "id": "x4377",
+          "page": 627,
+          "version": "limpia",
+          "alt": "Rollos de galón de flores en rosa y en crudo con piedrita en el centro"
+        },
+        {
+          "id": "x4378",
+          "page": 627,
+          "version": "limpia",
+          "alt": "Galón de flores rosa con piedrita en el centro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 13,5 cm CHE2026",
+      "pdf_text": "GALON 13,5 cm ancho COD CHE2026 $ 790 el metro",
+      "pages": [
+        628
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "CHE2026",
+      "material": null,
+      "badge": null,
+      "description": "Galón calado de 13,5 cm de ancho con flores y hojas; en las fotos se ve en blanco y en negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 790,
+              "unit_price": 790,
+              "printed": 790
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4385",
+          "page": 628,
+          "version": "limpia",
+          "alt": "Galón calado de flores en negro y en blanco, con los rollos atrás"
+        },
+        {
+          "id": "x4383",
+          "page": 628,
+          "version": "limpia",
+          "alt": "Galón calado de flores blanco de 13,5 cm de ancho"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón bordado 12,5 cm TC-084",
+      "pdf_text": "HERMOSO GALON BORDADO 12,5 cm ANCHO COD TC-084 $ 1190 el metro",
+      "pages": [
+        629
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "TC-084",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado de 12,5 cm de ancho con flores y hojas de lentejuelas tornasoladas y perlitas; en las fotos se ve en crudo y en negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 1190,
+              "unit_price": 1190,
+              "printed": 1190
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4390",
+          "page": 629,
+          "version": "limpia",
+          "alt": "Galón bordado con flores de lentejuelas tornasoladas, uno crudo y uno negro"
+        },
+        {
+          "id": "x4392",
+          "page": 629,
+          "version": "limpia",
+          "alt": "Dos tiras de galón bordado con lentejuelas tornasoladas, cruda y negra"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón blanco bordado 6,5 cm 1061",
+      "pdf_text": "GALON BLANCO 6,5 cm ancho BORDADO COD 1061 $ 790 el metro",
+      "pages": [
+        630
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "1061",
+      "material": null,
+      "badge": null,
+      "description": "Galón blanco bordado de 6,5 cm de ancho, con cordón en relieve, lentejuelas y canutillos sobre tul. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4397",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 790,
+              "unit_price": 790,
+              "printed": 790
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4397",
+          "page": 630,
+          "version": "limpia",
+          "alt": "Galón blanco bordado con lentejuelas y canutillos, borde ondeado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón con flores B4478",
+      "pdf_text": "GALON BLANCO Y NEGRO CON FLORES COD B4478 $ 490 el metro",
+      "pages": [
+        631
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B4478",
+      "material": null,
+      "badge": null,
+      "description": "Galón de hojas caladas con flores de tela en relieve y una perla en el centro. Viene en blanco y en negro y se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f5f5f5",
+          "image": "x4405",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1a",
+          "image": "x4403",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4403",
+          "page": 631,
+          "version": "limpia",
+          "alt": "Galón de hojas caladas con flores en relieve, en negro y en blanco"
+        },
+        {
+          "id": "x4405",
+          "page": 631,
+          "version": "limpia",
+          "alt": "Galón blanco de hojas caladas con flores y perla en el centro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón bordado 7 cm F0069",
+      "pdf_text": "GALON BLANCO Y CRUDO 7 cm ancho BORDADO COD F0069 $ 790 el metro",
+      "pages": [
+        632
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "F0069",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado de 7 cm de ancho con flores y hojas, lentejuelas y perlitas sobre tul. Viene en blanco y en crudo y se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f7f7f7",
+          "image": "x4412",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 790,
+              "unit_price": 790,
+              "printed": 790
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#f1ead9",
+          "image": "x4410",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 790,
+              "unit_price": 790,
+              "printed": 790
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4412",
+          "page": 632,
+          "version": "limpia",
+          "alt": "Galón blanco bordado con flores, hojas y lentejuelas"
+        },
+        {
+          "id": "x4410",
+          "page": 632,
+          "version": "limpia",
+          "alt": "Rollos de galón bordado con flores, uno blanco y uno crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-24",
+      "pdf_text": "GALON PEGAR COD G 144-24 $ 490 el metro",
+      "pages": [
+        633
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-24",
+      "material": null,
+      "badge": null,
+      "description": "Galón para pegar con canutillos dorados en espiga y una hilera de strass tornasolado al medio, en carretel. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4417",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4417",
+          "page": 633,
+          "version": "limpia",
+          "alt": "Carretel de galón para pegar dorado en espiga con hilera de strass tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón malla falso strass 10 cm",
+      "pdf_text": "GALON MALLA FALSO STRASS DOS TAMAÑOS PLATEADO 10 CM DE ANCHO $ 490 el metro 10 cm $ 89 PIEZA X 10 YRDS / GALON MALLA FALSO STRASS EN COLORES 10 CM DE ANCHO $ 490 el metro 10 cm $ 89 PIEZA X 10 METROS",
+      "pages": [
+        634,
+        635,
+        636,
+        637,
+        638
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de malla de falso strass de 10 cm de ancho, en plateado y en colores (negro, violeta, verde, marrón, fucsia; en una foto también se ve dorado, rojo, celeste y lila). Se vende por metro o en cortes de 10 cm.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plateado",
+          "hex": "#c8c8c8",
+          "image": "x4422",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x4433",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        },
+        {
+          "label": "Violeta",
+          "hex": "#7d55b5",
+          "image": "x4438",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#2f7f5c",
+          "image": "x4440",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        },
+        {
+          "label": "Marrón",
+          "hex": "#6e4a3c",
+          "image": "x4444",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#c21d5c",
+          "image": "x4446",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4422",
+          "page": 634,
+          "version": "limpia",
+          "alt": "Rollo de malla de falso strass plateada con detalle ampliado de las piedras"
+        },
+        {
+          "id": "x4424",
+          "page": 634,
+          "version": "limpia",
+          "alt": "Dos rollos de malla de falso strass plateada, uno de piedra más grande y otro más fina"
+        },
+        {
+          "id": "x4428",
+          "page": 635,
+          "version": "limpia",
+          "alt": "Rollos de malla de falso strass en dorado, rojo, celeste y lila"
+        },
+        {
+          "id": "x4433",
+          "page": 636,
+          "version": "limpia",
+          "alt": "Malla de falso strass negra con piedras plateadas"
+        },
+        {
+          "id": "x4438",
+          "page": 637,
+          "version": "limpia",
+          "alt": "Rollo de malla de falso strass violeta"
+        },
+        {
+          "id": "x4440",
+          "page": 637,
+          "version": "limpia",
+          "alt": "Rollo de malla de falso strass verde"
+        },
+        {
+          "id": "x4444",
+          "page": 638,
+          "version": "limpia",
+          "alt": "Rollo de malla de falso strass marrón"
+        },
+        {
+          "id": "x4446",
+          "page": 638,
+          "version": "limpia",
+          "alt": "Rollo de malla de falso strass fucsia"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 metros (en la página del plateado dice pieza x 10 yardas)",
+      "needs_review": [
+        "'10 cm $ 89' se interpretó como el precio de un corte de 10 cm de largo (el metro sale $ 490)",
+        "Plateado: dice 'dos tamaños' sin aclarar cuáles ni si cambia el precio (en la foto se ven dos tamaños de piedra)",
+        "La pieza figura como 10 yardas en p. 634 y como 10 metros en p. 635-638; no trae precio de pieza",
+        "Nombres de color puestos a partir de las fotos (salvo Plateado)",
+        "La foto de p. 635 muestra dorado, rojo, celeste y lila juntos: no se armaron como variantes"
+      ]
+    },
+    {
+      "name": "Galón malla 10 cm",
+      "pdf_text": "GALON MALLA 10 CM ANCHO $ 490 el metro 10 cm $ 89 PIEZA X 10 METROS",
+      "pages": [
+        639
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de malla de 10 cm de ancho en dos diseños: plateado con cuadrados facetados tipo espejo y dorado con medallones redondos de piedra facetada. Se vende por metro o en cortes de 10 cm.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Cuadrados plateados",
+          "hex": null,
+          "image": "x4452",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        },
+        {
+          "label": "Medallones dorados",
+          "hex": null,
+          "image": "x4450",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            },
+            {
+              "tier": "menor",
+              "label": "Corte de 10 cm",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4452",
+          "page": 639,
+          "version": "limpia",
+          "alt": "Rollo de malla plateada con cuadrados facetados tipo espejo"
+        },
+        {
+          "id": "x4450",
+          "page": 639,
+          "version": "limpia",
+          "alt": "Malla dorada de medallones redondos con piedra facetada"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 metros",
+      "needs_review": [
+        "'10 cm $ 89' se interpretó como el precio de un corte de 10 cm de largo (el metro sale $ 490)",
+        "El PDF no nombra los dos diseños: los nombres de modelo se pusieron a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Galón dorado y plateado 704-067",
+      "pdf_text": "GALON D Y P 704-067 $ 130 el metro",
+      "pages": [
+        640
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "704-067",
+      "material": null,
+      "badge": null,
+      "description": "Galón metalizado con borde en picos, en dorado y en plateado; en la foto se ven dos tonos de dorado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4457",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4457",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4457",
+          "page": 640,
+          "version": "limpia",
+          "alt": "Tres piezas de galón metalizado con borde en picos: dorado oscuro, plateado y dorado claro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'D Y P' se interpretó como dorado y plateado (es lo que se ve en la foto)"
+      ]
+    },
+    {
+      "name": "Galón fleco dorado y plateado 0512-008",
+      "pdf_text": "GALON FLECO D Y P COD 0512-008 $ 148 el metro",
+      "pages": [
+        641
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0512-008",
+      "material": null,
+      "badge": null,
+      "description": "Galón metalizado con fleco de borlitas, en dorado y en plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4463",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4463",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4463",
+          "page": 641,
+          "version": "limpia",
+          "alt": "Dos piezas de galón con fleco de borlitas, una dorada y una plateada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'D Y P' se interpretó como dorado y plateado (es lo que se ve en la foto)"
+      ]
+    },
+    {
+      "name": "Galón dorado y plateado 704-066",
+      "pdf_text": "GALON D Y P 704-066 $ 108 el metro",
+      "pages": [
+        642
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "704-066",
+      "material": null,
+      "badge": null,
+      "description": "Galón metalizado calado con ondas en forma de gota, en dorado y en plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4469",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4469",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4469",
+          "page": 642,
+          "version": "limpia",
+          "alt": "Dos piezas de galón metalizado calado con ondas, una dorada y una plateada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'D Y P' se interpretó como dorado y plateado (es lo que se ve en la foto)"
+      ]
+    },
+    {
+      "name": "Galón fleco dorado y plateado 0512-009",
+      "pdf_text": "GALON FLECO D Y P COD 0512-009 $ 138 el metro",
+      "pages": [
+        643
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0512-009",
+      "material": null,
+      "badge": null,
+      "description": "Galón metalizado con cabeza en onda y fleco largo, en dorado y en plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4474",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4474",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4474",
+          "page": 643,
+          "version": "limpia",
+          "alt": "Dos tiras de galón con fleco largo metalizado, una dorada y una plateada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'D Y P' se interpretó como dorado y plateado (es lo que se ve en la foto)"
+      ]
+    },
+    {
+      "name": "Galón mini pompón 622",
+      "pdf_text": "GALON MINI POMPON COD. 622 $ 98 EL METRO / GALON MINI POMPON COD. 622 $ 69 EL METRO",
+      "pages": [
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "622",
+      "material": null,
+      "badge": null,
+      "description": "Galón de mini pompones en tira, en carretel. Viene en colores lisos y en multicolor flúo; se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Multicolor",
+          "hex": null,
+          "image": "x4479",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#f2b632",
+          "image": "x4484",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f7f7f7",
+          "image": "x4486",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#a9d6f2",
+          "image": "x4487",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#f3e9c6",
+          "image": "x4492",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#1560d4",
+          "image": "x4494",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#e6129a",
+          "image": "x4495",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Violeta",
+          "hex": "#9a4fe0",
+          "image": "x4500",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#e8232d",
+          "image": "x4502",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f9a3c4",
+          "image": "x4503",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Verde esmeralda",
+          "hex": "#17b07c",
+          "image": "x4511",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Turquesa",
+          "hex": "#1aa3e0",
+          "image": "x4510",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Verde benetton",
+          "hex": "#1fa94a",
+          "image": "x4512",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#f7bd94",
+          "image": "x4508",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4479",
+          "page": 644,
+          "version": "limpia",
+          "alt": "Galón mini pompón multicolor en tonos flúo"
+        },
+        {
+          "id": "x4484",
+          "page": 645,
+          "version": "limpia",
+          "alt": "Galón mini pompón amarillo"
+        },
+        {
+          "id": "x4486",
+          "page": 645,
+          "version": "limpia",
+          "alt": "Galón mini pompón blanco"
+        },
+        {
+          "id": "x4487",
+          "page": 645,
+          "version": "limpia",
+          "alt": "Galón mini pompón celeste"
+        },
+        {
+          "id": "x4492",
+          "page": 646,
+          "version": "limpia",
+          "alt": "Galón mini pompón crudo"
+        },
+        {
+          "id": "x4494",
+          "page": 646,
+          "version": "limpia",
+          "alt": "Galón mini pompón azul Francia"
+        },
+        {
+          "id": "x4495",
+          "page": 646,
+          "version": "limpia",
+          "alt": "Galón mini pompón fucsia"
+        },
+        {
+          "id": "x4500",
+          "page": 647,
+          "version": "limpia",
+          "alt": "Galón mini pompón violeta"
+        },
+        {
+          "id": "x4502",
+          "page": 647,
+          "version": "limpia",
+          "alt": "Galón mini pompón rojo"
+        },
+        {
+          "id": "x4503",
+          "page": 647,
+          "version": "limpia",
+          "alt": "Galón mini pompón rosa"
+        },
+        {
+          "id": "x4511",
+          "page": 648,
+          "version": "limpia",
+          "alt": "Galón mini pompón verde esmeralda"
+        },
+        {
+          "id": "x4510",
+          "page": 648,
+          "version": "limpia",
+          "alt": "Galón mini pompón turquesa"
+        },
+        {
+          "id": "x4512",
+          "page": 648,
+          "version": "limpia",
+          "alt": "Galón mini pompón verde benetton"
+        },
+        {
+          "id": "x4508",
+          "page": 648,
+          "version": "limpia",
+          "alt": "Galón mini pompón salmón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Mismo código 622 con dos precios: $ 98 en p. 644 (foto del multicolor flúo) y $ 69 en los colores lisos; se tomó $ 98 como el precio del multicolor",
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Galón pompón medio 621",
+      "pdf_text": "GALON POMPON COD. 621 $ 118 EL METRO / GALON POMPON MEDIO COD. 621 $ 97 EL METRO",
+      "pages": [
+        649,
+        650,
+        651,
+        652
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "621",
+      "material": null,
+      "badge": null,
+      "description": "Galón de pompones medianos en tira. Viene en colores lisos y en multicolor flúo; se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Multicolor",
+          "hex": null,
+          "image": "x4517",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        },
+        {
+          "label": "Azul marino",
+          "hex": "#22386b",
+          "image": "x4522",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Turquesa",
+          "hex": "#1596c4",
+          "image": "x4524",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f7f7f7",
+          "image": "x4528",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#f5b78c",
+          "image": "x4525",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Lila",
+          "hex": "#8f74d6",
+          "image": "x4526",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c81e3c",
+          "image": "x4529",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x4530",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Rosa bebé",
+          "hex": "#f6cdd3",
+          "image": "x4531",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Frambuesa",
+          "hex": "#ee2350",
+          "image": "x4532",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Gris",
+          "hex": "#a9a69f",
+          "image": "x4536",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Rosa chicle",
+          "hex": "#f0557f",
+          "image": "x4538",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Verde inglés",
+          "hex": "#1c8a4c",
+          "image": "x4541",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Mostaza",
+          "hex": "#e0a51f",
+          "image": "x4539",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#f4511e",
+          "image": "x4545",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#f3e6c4",
+          "image": "x4547",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Marrón claro",
+          "hex": "#b9804f",
+          "image": "x4548",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Verde manzana",
+          "hex": "#8fdb5c",
+          "image": "x4551",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        },
+        {
+          "label": "Verde benetton",
+          "hex": "#22bf4e",
+          "image": "x4550",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4517",
+          "page": 649,
+          "version": "limpia",
+          "alt": "Galón pompón medio multicolor en tonos flúo"
+        },
+        {
+          "id": "x4522",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio azul marino"
+        },
+        {
+          "id": "x4524",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio turquesa"
+        },
+        {
+          "id": "x4528",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio blanco"
+        },
+        {
+          "id": "x4525",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio salmón"
+        },
+        {
+          "id": "x4526",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio lila"
+        },
+        {
+          "id": "x4529",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio rojo"
+        },
+        {
+          "id": "x4530",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio negro"
+        },
+        {
+          "id": "x4531",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio rosa bebé"
+        },
+        {
+          "id": "x4532",
+          "page": 650,
+          "version": "limpia",
+          "alt": "Galón pompón medio frambuesa"
+        },
+        {
+          "id": "x4536",
+          "page": 651,
+          "version": "limpia",
+          "alt": "Galón pompón medio gris"
+        },
+        {
+          "id": "x4538",
+          "page": 651,
+          "version": "limpia",
+          "alt": "Galón pompón medio rosa chicle"
+        },
+        {
+          "id": "x4541",
+          "page": 651,
+          "version": "limpia",
+          "alt": "Galón pompón medio verde inglés"
+        },
+        {
+          "id": "x4539",
+          "page": 651,
+          "version": "limpia",
+          "alt": "Galón pompón medio mostaza"
+        },
+        {
+          "id": "x4545",
+          "page": 652,
+          "version": "limpia",
+          "alt": "Galón pompón medio naranja"
+        },
+        {
+          "id": "x4547",
+          "page": 652,
+          "version": "limpia",
+          "alt": "Galón pompón medio crudo"
+        },
+        {
+          "id": "x4548",
+          "page": 652,
+          "version": "limpia",
+          "alt": "Galón pompón medio marrón claro"
+        },
+        {
+          "id": "x4551",
+          "page": 652,
+          "version": "limpia",
+          "alt": "Galón pompón medio verde manzana"
+        },
+        {
+          "id": "x4550",
+          "page": 652,
+          "version": "limpia",
+          "alt": "Galón pompón medio verde benetton"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Mismo código 621 con dos precios: $ 118 en p. 649 ('Galón pompón', foto del multicolor flúo) y $ 97 en 'Galón pompón medio' (colores lisos); se tomó $ 118 como el precio del multicolor",
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Galón pompón 620",
+      "pdf_text": "GALON POMPON MULTICOLOR COD. 620 $130 EL METRO / GALON POMPON COD. 620 $ 108 EL METRO",
+      "pages": [
+        653,
+        654,
+        655
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "620",
+      "material": null,
+      "badge": null,
+      "description": "Galón de pompones grandes en tira. Viene en colores lisos y en multicolor flúo, que tiene otro precio; se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Multicolor",
+          "hex": null,
+          "image": "x4555",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "Rojo carmín",
+          "hex": "#c8203c",
+          "image": "x4561",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#f3e8c2",
+          "image": "x4567",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#1b56d0",
+          "image": "x4564",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#f4c2a6",
+          "image": "x4563",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#b5d8f0",
+          "image": "x4568",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#4fc47c",
+          "image": "x4565",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Rosa chicle",
+          "hex": "#f0709f",
+          "image": "x4569",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f7f7f7",
+          "image": "x4570",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f9a8c6",
+          "image": "x4574",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#e3262c",
+          "image": "x4576",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4555",
+          "page": 653,
+          "version": "limpia",
+          "alt": "Galón pompón multicolor en tonos flúo"
+        },
+        {
+          "id": "x4561",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón rojo carmín"
+        },
+        {
+          "id": "x4567",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón crudo"
+        },
+        {
+          "id": "x4564",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón azul Francia"
+        },
+        {
+          "id": "x4563",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón salmón"
+        },
+        {
+          "id": "x4568",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón celeste"
+        },
+        {
+          "id": "x4565",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón verde"
+        },
+        {
+          "id": "x4569",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón rosa chicle"
+        },
+        {
+          "id": "x4570",
+          "page": 654,
+          "version": "limpia",
+          "alt": "Galón pompón blanco"
+        },
+        {
+          "id": "x4574",
+          "page": 655,
+          "version": "limpia",
+          "alt": "Galón pompón rosa"
+        },
+        {
+          "id": "x4576",
+          "page": 655,
+          "version": "limpia",
+          "alt": "Galón pompón rojo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "Hay dos fotos de rojo (p. 654 y p. 655) y dos de rosa: se dejaron como colores distintos, pero podrían ser el mismo con otra luz"
+      ]
+    },
+    {
+      "name": "Vivo dorado y plateado 1,10 cm",
+      "pdf_text": "VIVO DORADO Y PLATEADO 1,10 CM ANCHO $ 86 el metro",
+      "pages": [
+        656
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Vivo de 1,10 cm de ancho, cinta blanca con el cordón del borde metalizado, en dorado y en plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4581",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4581",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4581",
+          "page": 656,
+          "version": "limpia",
+          "alt": "Dos piezas de vivo blanco con borde metalizado, uno plateado y uno dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón dorado y plateado G 904",
+      "pdf_text": "G 904 $ 68 el metro DORADO Y PLATAEADO",
+      "pages": [
+        657
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 904",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino metalizado con ondas tipo hojita a los dos lados, en dorado y en plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4590",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4587",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4587",
+          "page": 657,
+          "version": "limpia",
+          "alt": "Dos tiras de galón fino con ondas, una plateada y una dorada"
+        },
+        {
+          "id": "x4590",
+          "page": 657,
+          "version": "limpia",
+          "alt": "Pieza de galón fino dorado con ondas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 280",
+      "pdf_text": "G 280 D Y PLAT $ 68 el metro / G 280 $ 68 el metro",
+      "pages": [
+        658,
+        662
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 280",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino con ojalitos (picot) a los dos lados. Viene en dorado y en plateado, y en otra página se ve en blanco. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4597",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4594",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f0",
+          "image": "x4619",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4594",
+          "page": 658,
+          "version": "limpia",
+          "alt": "Galón fino con ojalitos en dorado y en plateado, con las piezas atrás"
+        },
+        {
+          "id": "x4597",
+          "page": 658,
+          "version": "limpia",
+          "alt": "Pieza de galón fino dorado con ojalitos"
+        },
+        {
+          "id": "x4619",
+          "page": 662,
+          "version": "limpia",
+          "alt": "Pieza de galón fino blanco con ojalitos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'D Y PLAT' se interpretó como dorado y plateado (es lo que se ve en la foto)",
+        "El G 280 aparece dos veces al mismo precio: en p. 658 (dorado y plateado) y en p. 662 con una foto en blanco; se juntaron en un producto y el color Blanco se nombró a partir de la foto"
+      ]
+    },
+    {
+      "name": "Galón fino dorado y plateado G 848",
+      "pdf_text": "GALON FINO DORADO Y PLATEADO COD G 848 $ 68 el metro",
+      "pages": [
+        659
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 848",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino metalizado en forma de onda, en dorado y en plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4603",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c0c0c0",
+          "image": "x4603",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4603",
+          "page": 659,
+          "version": "limpia",
+          "alt": "Dos tiras de galón fino en onda, una plateada y una dorada"
+        },
+        {
+          "id": "x4601",
+          "page": 659,
+          "version": "limpia",
+          "alt": "Galón fino en onda dorado y plateado, cruzados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón brillo A 504",
+      "pdf_text": "GALON BRILLO COD A 504 PIEZA X 10 YRDS $ 490 el metro",
+      "pages": [
+        660
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "A 504",
+      "material": null,
+      "badge": null,
+      "description": "Galón ancho bordado en tono dorado claro, con rombos de cordón y lentejuelas. Se vende por metro; la pieza trae 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4608",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4608",
+          "page": 660,
+          "version": "limpia",
+          "alt": "Pieza de galón bordado dorado claro con rombos y lentejuelas"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón perla A 500",
+      "pdf_text": "GALON PERLA BLANCO Y NEGRO A 500 PIEZA X 10 YRDS $ 302 el metro",
+      "pages": [
+        661
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "A 500",
+      "material": null,
+      "badge": null,
+      "description": "Galón con dos hileras de perlas sobre cinta tejida. Viene en blanco y en negro; se vende por metro y la pieza trae 10 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f1e8",
+          "image": "x4613",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 302,
+              "unit_price": 302,
+              "printed": 302
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#232323",
+          "image": "x4615",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 302,
+              "unit_price": 302,
+              "printed": 302
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4613",
+          "page": 661,
+          "version": "limpia",
+          "alt": "Pieza de galón blanco con dos hileras de perlas"
+        },
+        {
+          "id": "x4615",
+          "page": 661,
+          "version": "limpia",
+          "alt": "Pieza de galón negro con dos hileras de perlas"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 472",
+      "pdf_text": "G 472 BLANCO Y NEGRO $ 83 el metro",
+      "pages": [
+        662
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 472",
+      "material": null,
+      "badge": null,
+      "description": "Galón trenzado con borde de ondas. Viene en blanco y en negro (en la foto se ve el negro) y se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f5f5f5",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x4621",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4621",
+          "page": 662,
+          "version": "limpia",
+          "alt": "Pieza de galón trenzado negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

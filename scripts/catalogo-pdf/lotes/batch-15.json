@@ -1,0 +1,2417 @@
+{
+ "batch": 15,
+ "products": [
+  {
+   "name": "Cinta con puntilla de algodón A 295",
+   "pdf_text": "CINTA CON PUNTILLA AGODON COD A 295 $ 168 (1, 2, 3, 4, 5)",
+   "pages": [
+    514
+   ],
+   "category": "cintas",
+   "sku": "A 295",
+   "material": "algodón",
+   "badge": null,
+   "description": "Cinta rústica color natural con puntilla de algodón blanca o cruda aplicada, en cinco modelos numerados que cambian el ancho y la ubicación de la puntilla.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3623",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 168,
+       "unit_price": 168,
+       "printed": 168
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3623",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 168,
+       "unit_price": 168,
+       "printed": 168
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3623",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 168,
+       "unit_price": 168,
+       "printed": 168
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3623",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 168,
+       "unit_price": 168,
+       "printed": 168
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3623",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 168,
+       "unit_price": 168,
+       "printed": 168
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3623",
+     "page": 514,
+     "version": "etiquetada",
+     "alt": "Cinco cintas rústicas con puntilla de algodón, numeradas del 1 al 5"
+    },
+    {
+     "id": "x3621",
+     "page": 514,
+     "version": "limpia",
+     "alt": "Rollos de cinta rústica natural con puntilla blanca y cruda"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro",
+    "Material: el PDF dice 'puntilla algodón'; se anotó algodón por la puntilla, la base de la cinta no se aclara"
+   ]
+  },
+  {
+   "name": "Cinta con puntilla de nylon A 296",
+   "pdf_text": "CINTA CON PUNTILLA NYLON COD A 296 $ 148 (1, 2, 3, 4, 5)",
+   "pages": [
+    515
+   ],
+   "category": "cintas",
+   "sku": "A 296",
+   "material": "nylon",
+   "badge": null,
+   "description": "Cinta rústica color natural con puntilla de nylon blanca aplicada, en cinco modelos numerados con distintos dibujos de puntilla.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3628",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 148,
+       "unit_price": 148,
+       "printed": 148
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3628",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 148,
+       "unit_price": 148,
+       "printed": 148
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3628",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 148,
+       "unit_price": 148,
+       "printed": 148
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3628",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 148,
+       "unit_price": 148,
+       "printed": 148
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3628",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 148,
+       "unit_price": 148,
+       "printed": 148
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3628",
+     "page": 515,
+     "version": "etiquetada",
+     "alt": "Cinco rollos de cinta rústica con puntilla de nylon blanca, numerados del 1 al 5"
+    },
+    {
+     "id": "x3630",
+     "page": 515,
+     "version": "limpia",
+     "alt": "Rollos de cinta rústica natural con puntilla de nylon blanca apilados"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro",
+    "Material: el PDF dice 'puntilla nylon'; se anotó nylon por la puntilla, la base de la cinta no se aclara"
+   ]
+  },
+  {
+   "name": "Cinta 0713-49 6,4 cm",
+   "pdf_text": "CINTA COD 0713-49 ANCHO 6,4 CM $ 138 el metro PIEZA X 10 YRDS (1 a 8)",
+   "pages": [
+    516,
+    517
+   ],
+   "category": "cintas",
+   "sku": "0713-49",
+   "material": null,
+   "badge": null,
+   "description": "Cinta ancha de 6,4 cm en tonos natural y beige, en ocho diseños numerados: rayas, lunares, cuadrillé, zigzag y lisa. Se vende por metro; la pieza trae 10 yardas.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3642",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3644",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3645",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3646",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3647",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 6",
+     "hex": null,
+     "image": "x3648",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 7",
+     "hex": null,
+     "image": "x3649",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    },
+    {
+     "label": "N 8",
+     "hex": null,
+     "image": "x3650",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 138,
+       "unit_price": 138,
+       "printed": 138
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3635",
+     "page": 516,
+     "version": "limpia",
+     "alt": "Ocho rollos de cinta ancha en tonos natural y beige con rayas, lunares, cuadrillé y zigzag"
+    },
+    {
+     "id": "x3637",
+     "page": 516,
+     "version": "limpia",
+     "alt": "Rollos de cinta ancha natural y beige con rayas, lunares, cuadrillé y zigzag"
+    },
+    {
+     "id": "x3642",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 1: rayas finas natural y blanco"
+    },
+    {
+     "id": "x3644",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 2: fondo natural con lunares blancos"
+    },
+    {
+     "id": "x3645",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 3: cuadrillé natural y blanco"
+    },
+    {
+     "id": "x3646",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 4: zigzag beige rosado y blanco"
+    },
+    {
+     "id": "x3647",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 5: rayas anchas beige rosado y blanco"
+    },
+    {
+     "id": "x3648",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 6: lisa color natural"
+    },
+    {
+     "id": "x3649",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 7: cuadrillé beige rosado y blanco"
+    },
+    {
+     "id": "x3650",
+     "page": 517,
+     "version": "etiquetada",
+     "alt": "Rollo de cinta de 6,4 cm modelo N 8: fondo beige rosado con lunares blancos"
+    }
+   ],
+   "wholesale_note": "Pieza x 10 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta lunares 0713-47 2,5 cm",
+   "pdf_text": "CINTA LUNARES 2, 5 CM COD 0713-47 $ 78 el metro PIEZA X 10 METROS",
+   "pages": [
+    518
+   ],
+   "category": "cintas",
+   "sku": "0713-47",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 2,5 cm con lunares blancos chiquitos y borde de puntillita, en colores pastel: verde agua, celeste, lila y rosa. Se vende por metro; la pieza trae 10 metros.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 78,
+       "unit_price": 78,
+       "printed": 78
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3657",
+     "page": 518,
+     "version": "limpia",
+     "alt": "Rollos de cinta con lunares blancos en verde agua, lila, rosa y celeste"
+    },
+    {
+     "id": "x3655",
+     "page": 518,
+     "version": "limpia",
+     "alt": "Rollos de cinta con lunares en tonos pastel, vista de cerca"
+    }
+   ],
+   "wholesale_note": "Pieza x 10 metros",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta lunares 0713-48 4 cm",
+   "pdf_text": "CINTA LUNARES 4 CM COD 0713-48 $ 108 el metro PIEZA X 10 METROS",
+   "pages": [
+    519
+   ],
+   "category": "cintas",
+   "sku": "0713-48",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 4 cm con lunares blancos chiquitos y borde de puntillita, en variedad de colores: gris, rosa, salmón, lila, beige y verde agua. Se vende por metro; la pieza trae 10 metros.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3662",
+     "page": 519,
+     "version": "limpia",
+     "alt": "Cintas de 4 cm con lunares blancos en beige, gris, rosa, salmón, lila y verde agua"
+    },
+    {
+     "id": "x3664",
+     "page": 519,
+     "version": "limpia",
+     "alt": "Rollos de cinta con lunares en gris, rosa, beige, salmón y verde agua"
+    }
+   ],
+   "wholesale_note": "Pieza x 10 metros",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta a cuadrillé 0716-001 1 cm",
+   "pdf_text": "CINTA A CUADRILLE 1CM ANCHO PIEZA X 50 YRDS COD 0716-001 $ 40 el metro",
+   "pages": [
+    520
+   ],
+   "category": "cintas",
+   "sku": "0716-001",
+   "material": null,
+   "badge": null,
+   "description": "Cinta a cuadrillé de 1 cm de ancho en variedad de colores: rojo, fucsia, amarillo, verde, azul, naranja, lila, celeste, rosa, marrón y negro. Se vende por metro; la pieza trae 50 yardas.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 40,
+       "unit_price": 40,
+       "printed": 40
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3672",
+     "page": 520,
+     "version": "limpia",
+     "alt": "Rollos de cinta a cuadrillé en fucsia, amarillo, negro, lila, marrón y rojo"
+    },
+    {
+     "id": "x3671",
+     "page": 520,
+     "version": "limpia",
+     "alt": "Cintas a cuadrillé en azul, verde, naranja, amarillo y celeste"
+    },
+    {
+     "id": "x3669",
+     "page": 520,
+     "version": "limpia",
+     "alt": "Rollos de cinta a cuadrillé en verde, rojo, celeste y rosa"
+    }
+   ],
+   "wholesale_note": "Pieza x 50 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta rústica",
+   "pdf_text": "CINTA RUSTICA 2CM $ 58 el metro PIEZA 25 YRDS / CINTA RUSTICA 1,5 CM $ 53 el metro PIEZA 25 YRDS",
+   "pages": [
+    521,
+    522,
+    523
+   ],
+   "category": "cintas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Cinta rústica color crudo con dibujos estampados, en dos anchos. En 2 cm: bicicletas, pajaritos, flores verdes y motivos de cocina; en 1,5 cm: perros salchicha, bailarinas, jaulas, mariposas, búhos, estrellas y rayas. Se vende por metro; la pieza trae 25 yardas.",
+   "variant_axis": "ancho",
+   "variants": [
+    {
+     "label": "1,5 cm",
+     "hex": null,
+     "image": "x3685",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 53,
+       "unit_price": 53,
+       "printed": 53
+      }
+     ]
+    },
+    {
+     "label": "2 cm",
+     "hex": null,
+     "image": "x3677",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3677",
+     "page": 521,
+     "version": "limpia",
+     "alt": "Cuatro rollos de cinta rústica de 2 cm: motivos de cocina, bicicletas, pajaritos y flores verdes"
+    },
+    {
+     "id": "x3685",
+     "page": 522,
+     "version": "limpia",
+     "alt": "Rollos de cinta rústica de 1,5 cm con mariposas, bailarinas, jaulas, búhos rojos y perros salchicha"
+    },
+    {
+     "id": "x3683",
+     "page": 522,
+     "version": "limpia",
+     "alt": "Cintas rústicas de 1,5 cm con perros salchicha, jaulas, mariposas y bailarinas"
+    },
+    {
+     "id": "x3687",
+     "page": 522,
+     "version": "limpia",
+     "alt": "Rollos de cinta rústica con estrellas, rayas, torre Eiffel y cuadriculado"
+    },
+    {
+     "id": "x3691",
+     "page": 523,
+     "version": "limpia",
+     "alt": "Rollo de cinta rústica con perros salchicha de buzo rojo y azul"
+    },
+    {
+     "id": "x3694",
+     "page": 523,
+     "version": "limpia",
+     "alt": "Rollo de cinta rústica con bailarinas negras"
+    },
+    {
+     "id": "x3696",
+     "page": 523,
+     "version": "limpia",
+     "alt": "Rollo de cinta rústica con jaulas, flores y nubes"
+    },
+    {
+     "id": "x3693",
+     "page": 523,
+     "version": "limpia",
+     "alt": "Rollo de cinta rústica con mariposas y letras marrones"
+    },
+    {
+     "id": "x3695",
+     "page": 523,
+     "version": "limpia",
+     "alt": "Rollo de cinta rústica con búhos rojos"
+    }
+   ],
+   "wholesale_note": "Pieza 25 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta 0717-22 4 cm",
+   "pdf_text": "CINTA 4 CM ANCHO PIEZA X 25 YRDS COD 0717-22 $ 168 el metro",
+   "pages": [
+    524
+   ],
+   "category": "cintas",
+   "sku": "0717-22",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 4 cm de ancho con rosas y flores estampadas en tonos rosa y durazno sobre fondo claro. Se vende por metro; la pieza trae 25 yardas.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 168,
+       "unit_price": 168,
+       "printed": 168
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3700",
+     "page": 524,
+     "version": "limpia",
+     "alt": "Rollo de cinta de 4 cm con rosas rosadas y hojas verdes"
+    },
+    {
+     "id": "x3702",
+     "page": 524,
+     "version": "limpia",
+     "alt": "Rollo de cinta de 4 cm con rosas y arabescos en rosa y durazno"
+    }
+   ],
+   "wholesale_note": "Pieza x 25 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta 413090 3,5 cm",
+   "pdf_text": "CINTA 3,5 ANCHO COD 413090 $ 108",
+   "pages": [
+    525
+   ],
+   "category": "cintas",
+   "sku": "413090",
+   "material": null,
+   "badge": null,
+   "description": "Cinta rústica color natural con franja central de color estampada con flores blancas; en la foto se ve en fucsia, celeste, rojo y negro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3706",
+     "page": 525,
+     "version": "limpia",
+     "alt": "Rollos de cinta rústica con franja estampada en fucsia, celeste, rojo y negro"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro",
+    "El PDF dice 'CINTA 3,5 ANCHO' sin unidad: se asumió 3,5 cm"
+   ]
+  },
+  {
+   "name": "Cinta raso pespunte reversible A 023",
+   "pdf_text": "HERMOSA CINTA RASO PESPUNTE REVERSIBLE COD A 023 $ 58 el metro",
+   "pages": [
+    526
+   ],
+   "category": "cintas",
+   "sku": "A 023",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de raso angosta reversible con pespunte en el borde, en variedad de colores: naranja, marrón, negro, lila, azul marino, verde y turquesa. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3711",
+     "page": 526,
+     "version": "limpia",
+     "alt": "Rollos de cinta de raso con pespunte en naranja, marrón, negro, lila, azul y verde"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "El mismo código A 023 aparece también en la cinta escocesa de esta página: confirmar cuál es el correcto"
+   ]
+  },
+  {
+   "name": "Cinta escocesa A 023",
+   "pdf_text": "CINTA ESCOCESA COLORES NEGRO ROJO Y GRIS COD A 023 $ 86 el metro",
+   "pages": [
+    526
+   ],
+   "category": "cintas",
+   "sku": "A 023",
+   "material": null,
+   "badge": null,
+   "description": "Cinta escocesa a cuadros grandes con blanco, de trama rústica. El PDF la ofrece en negro, rojo y gris. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Negro",
+     "hex": "#1d1d1f",
+     "image": "x3713",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    },
+    {
+     "label": "Rojo",
+     "hex": "#b0222f",
+     "image": "x3713",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    },
+    {
+     "label": "Gris",
+     "hex": "#8c8c8c",
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3713",
+     "page": 526,
+     "version": "limpia",
+     "alt": "Rollos de cinta escocesa a cuadros en negro y blanco, rojo y blanco y marrón y beige"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "El mismo código A 023 aparece también en la cinta raso pespunte de esta página: confirmar cuál es el correcto",
+    "El texto dice negro, rojo y gris, pero en la foto la tercera cinta se ve marrón/beige, no gris"
+   ]
+  },
+  {
+   "name": "Raso con lunares A 385 1,5 cm",
+   "pdf_text": "RASO CON LUNARES 1,5 CM COD A 385 $ 48 el metro BLANCA Y NEGRO",
+   "pages": [
+    527
+   ],
+   "category": "cintas",
+   "sku": "A 385",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de raso con lunares de 1,5 cm de ancho, en blanca con lunares negros y negra con lunares blancos. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Blanca",
+     "hex": "#f3f3f1",
+     "image": "x3717",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    },
+    {
+     "label": "Negra",
+     "hex": "#17171a",
+     "image": "x3717",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3717",
+     "page": 527,
+     "version": "limpia",
+     "alt": "Rollos de cinta de raso con lunares: blanca con lunares negros y negra con lunares blancos y dorados"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "La foto es compartida por los dos anchos (A 385 y A 386) y muestra además una negra con lunares dorados que el texto no nombra"
+   ]
+  },
+  {
+   "name": "Raso con lunares A 386 2,5 cm",
+   "pdf_text": "RASO CON LUNARES 2,5 CM COD A 386 $ 58 el metro BLANCA , NEGRO",
+   "pages": [
+    527
+   ],
+   "category": "cintas",
+   "sku": "A 386",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de raso con lunares de 2,5 cm de ancho, en blanca con lunares negros y negra con lunares blancos. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Blanca",
+     "hex": "#f3f3f1",
+     "image": "x3717",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "Negra",
+     "hex": "#17171a",
+     "image": "x3717",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3717",
+     "page": 527,
+     "version": "limpia",
+     "alt": "Rollos de cinta de raso con lunares: blanca con lunares negros y negra con lunares blancos y dorados"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "La foto es compartida por los dos anchos (A 385 y A 386) y muestra además una negra con lunares dorados que el texto no nombra"
+   ]
+  },
+  {
+   "name": "Cinta A 038 1,5 cm varios colores",
+   "pdf_text": "CINTA VARIOS COLORES 1,5 CM COD A 038 $ 54 el metro",
+   "pages": [
+    528
+   ],
+   "category": "cintas",
+   "sku": "A 038",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 1,5 cm con dibujo de flores tipo encaje, en varios colores: en la foto se ven beige, bordó, azul marino, gris claro y negro. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 54,
+       "unit_price": 54,
+       "printed": 54
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3727",
+     "page": 528,
+     "version": "limpia",
+     "alt": "Rollos de cinta tipo encaje en beige, bordó, azul marino, gris claro y negro"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta A 039 2,5 cm",
+   "pdf_text": "CINTA 2,5 CM NEGRA , BLANCA Y CRUDO COD A 039 $ 86 el metro",
+   "pages": [
+    528
+   ],
+   "category": "cintas",
+   "sku": "A 039",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 2,5 cm con dibujo de flores tipo encaje, en negra, blanca y crudo. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Negra",
+     "hex": "#1a1a1c",
+     "image": "x3722",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    },
+    {
+     "label": "Blanca",
+     "hex": "#f1f1ee",
+     "image": "x3722",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    },
+    {
+     "label": "Crudo",
+     "hex": "#e8dfc6",
+     "image": "x3722",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3722",
+     "page": 528,
+     "version": "limpia",
+     "alt": "Rollos de cinta tipo encaje de 2,5 cm en negro, blanco y crudo"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta jeans dos tonos A 034",
+   "pdf_text": "CINTA JEANS DOS TONOS CODIGO A 034 $ 68 el metro",
+   "pages": [
+    529
+   ],
+   "category": "cintas",
+   "sku": "A 034",
+   "material": null,
+   "badge": null,
+   "description": "Cinta angosta tipo jean con florcitas blancas estampadas, en dos tonos: azul oscuro y celeste. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 68,
+       "unit_price": 68,
+       "printed": 68
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3731",
+     "page": 529,
+     "version": "limpia",
+     "alt": "Dos rollos de cinta tipo jean con florcitas blancas, en azul oscuro y celeste"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Organza A 027 1,5 cm",
+   "pdf_text": "ORGANZA EXCELENTE CALIDAD 1,5 CM COD A 027 $ 38 el metro Varios COLORES",
+   "pages": [
+    530
+   ],
+   "category": "cintas",
+   "sku": "A 027",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de organza de 1,5 cm con borde tejido, en varios colores: en las fotos se ven rojo, rosa, bordó, fucsia, azul marino y negro. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 38,
+       "unit_price": 38,
+       "printed": 38
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3737",
+     "page": 530,
+     "version": "limpia",
+     "alt": "Rollos de cinta de organza en rojo, rosa, bordó y negro"
+    },
+    {
+     "id": "x3740",
+     "page": 530,
+     "version": "limpia",
+     "alt": "Rollos de cinta de organza en fucsia, azul marino y bordó"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Fotos asignadas por cercanía al texto: no se distingue con certeza cuáles muestran la de 1,5 cm (A 027) y cuáles la de 2,5 cm (A 028)"
+   ]
+  },
+  {
+   "name": "Organza A 028 2,5 cm",
+   "pdf_text": "2,5 CM ANCHO COD A 028 $ 48 el metro",
+   "pages": [
+    530
+   ],
+   "category": "cintas",
+   "sku": "A 028",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de organza de 2,5 cm de ancho con borde tejido; en la foto se ve en rosa claro y bordó. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3741",
+     "page": 530,
+     "version": "limpia",
+     "alt": "Rollos de cinta de organza en rosa claro y bordó"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "El título sólo dice '2,5 CM ANCHO COD A 028': se asumió que es la misma organza del A 027 en otro ancho",
+    "Foto asignada por cercanía al texto; el precio '$ 48 el metro' queda tapado por la foto en la página"
+   ]
+  },
+  {
+   "name": "Cinta Baby Shower A 387",
+   "pdf_text": "BABY SHOWER COD A 387 $ 64 el metro",
+   "pages": [
+    531
+   ],
+   "category": "cintas",
+   "sku": "A 387",
+   "material": null,
+   "badge": null,
+   "description": "Cinta con la leyenda Baby Shower y puntilla a los dos lados, en celeste y rosa. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 64,
+       "unit_price": 64,
+       "printed": 64
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3745",
+     "page": 531,
+     "version": "limpia",
+     "alt": "Rollos de cinta Baby Shower con puntilla, en celeste y rosa"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "El título dice sólo 'BABY SHOWER': por la foto es una cinta con puntilla"
+   ]
+  },
+  {
+   "name": "Cinta corazón autoadhesiva 1,5 cm",
+   "pdf_text": "CINTA CORAZON AUTOADHESIVA 1,5 CM COD # 5 $ 78 el metro",
+   "pages": [
+    532
+   ],
+   "category": "cintas",
+   "sku": "# 5",
+   "material": null,
+   "badge": null,
+   "description": "Cinta autoadhesiva de 1,5 cm, blanca con corazones estampados en rosa, naranja y amarillo. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 78,
+       "unit_price": 78,
+       "printed": 78
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3751",
+     "page": 532,
+     "version": "limpia",
+     "alt": "Rollo de cinta blanca con corazones rosas, naranjas y amarillos"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Código impreso como 'COD # 5': confirmar si es el código del artículo"
+   ]
+  },
+  {
+   "name": "Cinta gross floreada 213100 1,5 cm",
+   "pdf_text": "CINTA GROSS FLOREADA 1,5 CM COD 213100 $ 48 el metro",
+   "pages": [
+    533
+   ],
+   "category": "cintas",
+   "sku": "213100",
+   "material": null,
+   "badge": null,
+   "description": "Cinta gross de 1,5 cm estampada con flores y mariposas, en verde, rosa, fucsia, violeta y naranja. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3757",
+     "page": 533,
+     "version": "limpia",
+     "alt": "Rollos de cinta gross floreada en verde, rosa, fucsia, violeta y naranja"
+    },
+    {
+     "id": "x3759",
+     "page": 533,
+     "version": "limpia",
+     "alt": "Cinco cintas gross floreadas en fucsia, violeta, rosa, naranja y verde"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta con lentejuela 313047 2,5 cm",
+   "pdf_text": "CINTA CON LENTEJUELA 2,5 CM COD 313047 $ 86 el metro",
+   "pages": [
+    534
+   ],
+   "category": "cintas",
+   "sku": "313047",
+   "material": null,
+   "badge": null,
+   "description": "Cinta transparente de 2,5 cm con lentejuelas aplicadas y borde de color, en varios colores: celeste, rojo, rosa, naranja, lila y crudo. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3763",
+     "page": 534,
+     "version": "limpia",
+     "alt": "Rollos de cinta con lentejuelas en celeste, rojo, rosa, naranja, lila y crudo"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Organza con borde 313025",
+   "pdf_text": "ORGANZA CON BORDE COD 313025 $ 65 el metro",
+   "pages": [
+    535
+   ],
+   "category": "cintas",
+   "sku": "313025",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de organza blanca con bordes estampados con corazones, flores y espirales en lila, rosa y celeste. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 65,
+       "unit_price": 65,
+       "printed": 65
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3770",
+     "page": 535,
+     "version": "limpia",
+     "alt": "Rollos de cinta de organza blanca con bordes estampados en lila, rosa y celeste"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta roja 313133",
+   "pdf_text": "CINTA ROJA COD 313133 $ 86 el metro",
+   "pages": [
+    536
+   ],
+   "category": "cintas",
+   "sku": "313133",
+   "material": null,
+   "badge": null,
+   "description": "Cinta roja con dibujo de flores en relieve y brillo. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3775",
+     "page": 536,
+     "version": "limpia",
+     "alt": "Rollo de cinta roja con flores en relieve"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta lunares 313075",
+   "pdf_text": "CINTA LUNARES COD 313075 $ 75 el metro",
+   "pages": [
+    536
+   ],
+   "category": "cintas",
+   "sku": "313075",
+   "material": null,
+   "badge": null,
+   "description": "Cinta blanca con rayas finas de colores y lunares en naranja, verde, rosa y marrón, con borde de puntillita blanca. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 75,
+       "unit_price": 75,
+       "printed": 75
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3777",
+     "page": 536,
+     "version": "limpia",
+     "alt": "Rollo de cinta blanca con rayas y lunares de colores y borde de puntilla"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta rosa, blanca y celeste 213006",
+   "pdf_text": "CINTA ROSA , BLANCA , CELESTE COD 213006 $ 53 el metro",
+   "pages": [
+    537
+   ],
+   "category": "cintas",
+   "sku": "213006",
+   "material": null,
+   "badge": null,
+   "description": "Cinta calada de aros entrelazados con brillo satinado, en rosa, blanca y celeste. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Rosa",
+     "hex": "#f2b3cd",
+     "image": "x3781",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 53,
+       "unit_price": 53,
+       "printed": 53
+      }
+     ]
+    },
+    {
+     "label": "Blanca",
+     "hex": "#f2f2f0",
+     "image": "x3781",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 53,
+       "unit_price": 53,
+       "printed": 53
+      }
+     ]
+    },
+    {
+     "label": "Celeste",
+     "hex": "#a8c8ee",
+     "image": "x3781",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 53,
+       "unit_price": 53,
+       "printed": 53
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3781",
+     "page": 537,
+     "version": "limpia",
+     "alt": "Tres rollos de cinta calada de aros en rosa, blanco y celeste"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta animal print con volado 313062",
+   "pdf_text": "CINTA ANIMAL PRINT CON VOLADO COD 313062 $ 59 el metro",
+   "pages": [
+    537
+   ],
+   "category": "cintas",
+   "sku": "313062",
+   "material": null,
+   "badge": null,
+   "description": "Cinta animal print con volado blanco en los bordes, en cuatro combinaciones: marrón, fucsia, violeta y turquesa. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 59,
+       "unit_price": 59,
+       "printed": 59
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3783",
+     "page": 537,
+     "version": "limpia",
+     "alt": "Rollos de cinta animal print con volado blanco en marrón, fucsia, violeta y turquesa"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta animal print reversible 213034",
+   "pdf_text": "CINTA ANIMAL PRINT REVERSIBLE COD 213034 $ 68 el metro",
+   "pages": [
+    538
+   ],
+   "category": "cintas",
+   "sku": "213034",
+   "material": null,
+   "badge": null,
+   "description": "Cinta animal print reversible, con manchas negras combinadas con fucsia, celeste o violeta. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 68,
+       "unit_price": 68,
+       "printed": 68
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3787",
+     "page": 538,
+     "version": "limpia",
+     "alt": "Tres rollos de cinta animal print en fucsia, celeste y violeta"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Cinta con lúrex 313094 2,5 cm",
+   "pdf_text": "CINTA CON LUREX TRES COLORES 2,5 CM COD 313094 $ 86 el metro",
+   "pages": [
+    539
+   ],
+   "category": "cintas",
+   "sku": "313094",
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 2,5 cm con hilos de lúrex y borde de puntillita, en tres colores: crema con dorado, blanca con plateado y negra con plateado. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 86,
+       "unit_price": 86,
+       "printed": 86
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3792",
+     "page": 539,
+     "version": "limpia",
+     "alt": "Rollos de cinta con lúrex en crema con dorado, blanco con plateado y negro con plateado"
+    },
+    {
+     "id": "x3794",
+     "page": 539,
+     "version": "limpia",
+     "alt": "Cintas con lúrex en crema, blanco y negro, con una tira blanca extendida"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Galón violeta bordado N4",
+   "pdf_text": "GALON VIOLETA BORDADO COD N4 $ 690 el metro",
+   "pages": [
+    540
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": "N4",
+   "material": null,
+   "badge": null,
+   "description": "Galón bordado violeta con flores y hojas, con lentejuelas y canutillos al tono. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 690,
+       "unit_price": 690,
+       "printed": 690
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3798",
+     "page": 540,
+     "version": "limpia",
+     "alt": "Galón violeta bordado con flores, lentejuelas y canutillos"
+    },
+    {
+     "id": "x3800",
+     "page": 540,
+     "version": "limpia",
+     "alt": "Rollo de galón violeta bordado con flores"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Galón bordado 1602-162 7 cm",
+   "pdf_text": "GALON BORDADO 7 cm ancho BLANCO Y NEGRO COD 1602-162 $ 790 el metro",
+   "pages": [
+    541
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": "1602-162",
+   "material": null,
+   "badge": null,
+   "description": "Galón bordado de 7 cm de ancho con flores y hojas, con lentejuelas y perlitas, en blanco y en negro. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Blanco",
+     "hex": "#f2f0ea",
+     "image": "x3807",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 790,
+       "unit_price": 790,
+       "printed": 790
+      }
+     ]
+    },
+    {
+     "label": "Negro",
+     "hex": "#1b1b1f",
+     "image": "x3808",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 790,
+       "unit_price": 790,
+       "printed": 790
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3805",
+     "page": 541,
+     "version": "limpia",
+     "alt": "Galón bordado con flores en negro y en blanco"
+    },
+    {
+     "id": "x3807",
+     "page": 541,
+     "version": "limpia",
+     "alt": "Galón bordado blanco con flores, lentejuelas y perlitas"
+    },
+    {
+     "id": "x3808",
+     "page": 541,
+     "version": "limpia",
+     "alt": "Galón bordado negro con flores y lentejuelas"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Galón bordado TC-080",
+   "pdf_text": "GALON BORDADO VARIEDAD DE COLORES COD TC-080 $ 890 el metro",
+   "pages": [
+    542,
+    543,
+    544,
+    545,
+    546
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": "TC-080",
+   "material": null,
+   "badge": null,
+   "description": "Galón bordado sobre tul con lentejuelas y canutillos, en variedad de colores: rojo, plateado, azul Francia, bordó, verde oscuro, dorado, negro y rosa viejo; también se ve un diseño de festón en dorado, plateado y azul marino. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Rojo",
+     "hex": "#d1242b",
+     "image": "x3815",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Plateado",
+     "hex": "#b9bcc4",
+     "image": "x3813",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Azul Francia",
+     "hex": "#1f5fd0",
+     "image": "x3816",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Bordó",
+     "hex": "#7a1626",
+     "image": "x3821",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Verde oscuro",
+     "hex": "#2f4f47",
+     "image": "x3823",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Dorado",
+     "hex": "#c9b27a",
+     "image": "x3828",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Negro",
+     "hex": "#1b1b1f",
+     "image": "x3830",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Rosa viejo",
+     "hex": "#c98d73",
+     "image": "x3831",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Dorado (diseño festón)",
+     "hex": "#c9a45c",
+     "image": "x3846",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Plateado (diseño festón)",
+     "hex": "#c5c9cf",
+     "image": "x3845",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    },
+    {
+     "label": "Azul marino (diseño festón)",
+     "hex": "#1f2c4a",
+     "image": "x3847",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3815",
+     "page": 542,
+     "version": "limpia",
+     "alt": "Galón bordado rojo con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3813",
+     "page": 542,
+     "version": "limpia",
+     "alt": "Galón bordado plateado con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3816",
+     "page": 542,
+     "version": "limpia",
+     "alt": "Galón bordado azul Francia con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3821",
+     "page": 543,
+     "version": "limpia",
+     "alt": "Galón bordado bordó con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3823",
+     "page": 543,
+     "version": "limpia",
+     "alt": "Galón bordado verde oscuro con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3828",
+     "page": 544,
+     "version": "limpia",
+     "alt": "Galón bordado dorado claro con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3830",
+     "page": 544,
+     "version": "limpia",
+     "alt": "Galón bordado negro con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3831",
+     "page": 544,
+     "version": "limpia",
+     "alt": "Galón bordado rosa viejo cobrizo con volutas de lentejuelas y canutillos sobre tul"
+    },
+    {
+     "id": "x3838",
+     "page": 545,
+     "version": "limpia",
+     "alt": "Galón bordado negro con volutas de lentejuelas sobre tul negro"
+    },
+    {
+     "id": "x3836",
+     "page": 545,
+     "version": "limpia",
+     "alt": "Tira de galón bordado negro con lentejuelas sobre tul negro"
+    },
+    {
+     "id": "x3843",
+     "page": 546,
+     "version": "limpia",
+     "alt": "Tres galones bordados con diseño de festón en dorado, plateado y azul marino"
+    },
+    {
+     "id": "x3846",
+     "page": 546,
+     "version": "limpia",
+     "alt": "Galón bordado dorado con diseño de festón y lentejuelas"
+    },
+    {
+     "id": "x3845",
+     "page": 546,
+     "version": "limpia",
+     "alt": "Galón bordado plateado con diseño de festón y lentejuelas"
+    },
+    {
+     "id": "x3847",
+     "page": 546,
+     "version": "limpia",
+     "alt": "Galón bordado azul marino con diseño de festón y lentejuelas"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Nombres de color puestos a partir de las fotos",
+    "La página 546 muestra un diseño distinto (festón) con el mismo código TC-080 y el mismo precio: confirmar si es el mismo artículo o lleva otro código"
+   ]
+  },
+  {
+   "name": "Galón bordado TC-082 14 cm",
+   "pdf_text": "GALON BORDADO 14 cm ancho BLANCO Y NEGRO COD TC-082 $ 1190 el metro",
+   "pages": [
+    547
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": "TC-082",
+   "material": null,
+   "badge": null,
+   "description": "Galón bordado de 14 cm de ancho con flores y hojas sobre tul, con lentejuelas, mostacillas y strass, en blanco y en negro. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Blanco",
+     "hex": "#f4f3ef",
+     "image": "x3855",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 1190,
+       "unit_price": 1190,
+       "printed": 1190
+      }
+     ]
+    },
+    {
+     "label": "Negro",
+     "hex": "#1a1a1e",
+     "image": "x3854",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 1190,
+       "unit_price": 1190,
+       "printed": 1190
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3852",
+     "page": 547,
+     "version": "limpia",
+     "alt": "Galón bordado ancho con flores y hojas en blanco y en negro"
+    },
+    {
+     "id": "x3855",
+     "page": 547,
+     "version": "limpia",
+     "alt": "Galón bordado blanco con flores, hojas y lentejuelas"
+    },
+    {
+     "id": "x3854",
+     "page": 547,
+     "version": "limpia",
+     "alt": "Galón bordado negro con flores, hojas y lentejuelas"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Galón bordado canutillo TC-085",
+   "pdf_text": "GALON BORDADO CANUTILLO COD TC-085$ 890 el metro",
+   "pages": [
+    548
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": "TC-085",
+   "material": null,
+   "badge": null,
+   "description": "Galón bordado con canutillos dorados y negros en forma de ondas, sobre tul negro. Se vende por metro.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 890,
+       "unit_price": 890,
+       "printed": 890
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3860",
+     "page": 548,
+     "version": "limpia",
+     "alt": "Galón de canutillos dorados y negros en ondas sobre tul negro"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": []
+  },
+  {
+   "name": "Galón bordado canutillo TC-086",
+   "pdf_text": "GALON BORDADO CANUTILLO COD TC-086 $ 790 el metro",
+   "pages": [
+    549
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": "TC-086",
+   "material": null,
+   "badge": null,
+   "description": "Galón bordado con canutillos formando círculos, sobre tul negro. En las fotos se ve en negro tornasolado y en dorado con negro. Se vende por metro.",
+   "variant_axis": "color",
+   "variants": [
+    {
+     "label": "Negro tornasolado",
+     "hex": "#2b2b3c",
+     "image": "x3866",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 790,
+       "unit_price": 790,
+       "printed": 790
+      }
+     ]
+    },
+    {
+     "label": "Dorado y negro",
+     "hex": "#b8963e",
+     "image": "x3868",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 790,
+       "unit_price": 790,
+       "printed": 790
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3868",
+     "page": 549,
+     "version": "limpia",
+     "alt": "Galón de canutillos dorados y negros en círculos sobre tul negro"
+    },
+    {
+     "id": "x3866",
+     "page": 549,
+     "version": "limpia",
+     "alt": "Galón de canutillos negros tornasolados en círculos sobre tul negro"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Nombres de color puestos a partir de las fotos"
+   ]
+  }
+ ],
+ "no_price_products": [],
+ "skipped_pages": [],
+ "skipped_images": [
+  {
+   "page": 528,
+   "id": "x3726",
+   "reason": "flecha dibujada que señala la foto del A 038 (decorativa)"
+  },
+  {
+   "page": 528,
+   "id": "x3724",
+   "reason": "flecha dibujada que señala la foto del A 039 (decorativa)"
+  },
+  {
+   "page": 529,
+   "id": "x3733",
+   "reason": "foto sin título ni precio: muestra una cinta a cuadrillé violeta y blanca que no corresponde a 'Cinta jeans'; consultar a qué producto pertenece"
+  },
+  {
+   "page": 531,
+   "id": "x3747",
+   "reason": "dibujo decorativo 'Baby Shower' (clip-art)"
+  },
+  {
+   "page": 532,
+   "id": "x3753",
+   "reason": "dibujo decorativo de globos con forma de corazón (clip-art)"
+  },
+  {
+   "page": 534,
+   "id": "x3766",
+   "reason": "flecha fucsia decorativa"
+  }
+ ],
+ "unused_prices": []
+}

@@ -1,0 +1,3040 @@
+{
+  "batch": 4,
+  "products": [
+    {
+      "name": "Aguja doble",
+      "pdf_text": "AGUJAS DOBLE $ 158 NUMERO 75 Y 90 2 MM -3 MM -4MM",
+      "pages": [
+        110
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja doble para máquina de coser, con taco azul. Viene en número 75 y 90, con separación entre agujas de 2, 3 y 4 mm.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 158,
+              "unit_price": 158,
+              "printed": 158
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x820",
+          "page": 110,
+          "version": "limpia",
+          "alt": "Tres agujas dobles con taco azul, de 2, 3 y 4 mm de separación"
+        },
+        {
+          "id": "x822",
+          "page": 110,
+          "version": "limpia",
+          "alt": "Agujas dobles para máquina con taco azul"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No se armaron variantes: el PDF lista números (75 y 90) y separaciones (2, 3 y 4 mm) sin aclarar qué combinaciones hay"
+      ]
+    },
+    {
+      "name": "Aguja Singer para máquina familiar punta dorada",
+      "pdf_text": "AGUJA SINGER PARA MAQUINA FAMILIAR PUNTA DORADA CADA UNA $ 35 PAQUETE X 10 $ 251",
+      "pages": [
+        111
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja Singer de punta dorada para máquina de coser familiar. Se vende suelta o en paquete de 10.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            },
+            {
+              "tier": "mayor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 251,
+              "unit_price": 25.1,
+              "printed": 251
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x827",
+          "page": 111,
+          "version": "limpia",
+          "alt": "Blíster de agujas Singer para máquina familiar"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja Singer 1915 para máquina industrial cabo grueso",
+      "pdf_text": "AGUJA SINGER 1915 PARA MAQUINA INDUSTRIAL CABO GRUESO CADA UNA $ 32 PAQUETE X 10 $241",
+      "pages": [
+        111
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja Singer de cabo grueso para máquina industrial. Se vende suelta o en paquete de 10.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 32,
+              "unit_price": 32,
+              "printed": 32
+            },
+            {
+              "tier": "mayor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 241,
+              "unit_price": 24.1,
+              "printed": 241
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x829",
+          "page": 111,
+          "version": "limpia",
+          "alt": "Blíster rojo de agujas Singer para máquina industrial"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título dice 'Singer 1915' pero el envase de la foto dice 1955: confirmar el modelo"
+      ]
+    },
+    {
+      "name": "Aguja Singer para overlock",
+      "pdf_text": "AGUJA SINGER PARA OVERLOCK CADA UNA $ 44 PAQUETE X 10 $ 35",
+      "pages": [
+        111
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja Singer para máquina overlock. Se vende suelta; también hay paquete de 10 (consultar precio).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x830",
+          "page": 111,
+          "version": "limpia",
+          "alt": "Blíster rojo de agujas Singer para overlock"
+        }
+      ],
+      "wholesale_note": "Paquete x 10 (precio a confirmar)",
+      "needs_review": [
+        "El PDF dice 'PAQUETE X 10 $ 35', menos que una sola aguja ($ 44): el texto llega justo al borde de la página y el precio parece cortado. No se cargó el paquete; confirmar el precio real"
+      ]
+    },
+    {
+      "name": "Agujas para máquina",
+      "pdf_text": "AGUJAS PARA MAQUINA PAQUETE X 10 $ 182 N 70-80-90-100-110",
+      "pages": [
+        112
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Agujas para máquina de coser en paquete de 10, en cajita azul. Números 70, 80, 90, 100 y 110.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 70",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 182,
+              "unit_price": 18.2,
+              "printed": 182
+            }
+          ]
+        },
+        {
+          "label": "N 80",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 182,
+              "unit_price": 18.2,
+              "printed": 182
+            }
+          ]
+        },
+        {
+          "label": "N 90",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 182,
+              "unit_price": 18.2,
+              "printed": 182
+            }
+          ]
+        },
+        {
+          "label": "N 100",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 182,
+              "unit_price": 18.2,
+              "printed": 182
+            }
+          ]
+        },
+        {
+          "label": "N 110",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 182,
+              "unit_price": 18.2,
+              "printed": 182
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x836",
+          "page": 112,
+          "version": "limpia",
+          "alt": "Cajitas azules de agujas para máquina apiladas"
+        },
+        {
+          "id": "x834",
+          "page": 112,
+          "version": "limpia",
+          "alt": "Cajita azul de agujas para máquina con agujas sueltas al lado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título tiene un hueco entre 'AGUJAS PARA' y 'MAQUINA' (puede faltar una palabra, p. ej. el tipo de máquina); en la página siguiente las mismas fotos se usan para las de máquina industrial cabo fino"
+      ]
+    },
+    {
+      "name": "Agujas para máquina industrial cabo fino",
+      "pdf_text": "OFERTA !!! AGUJAS PARAMAQUINA INDUSTRIAL CABO FINO PAQUETE X 10 ANTES $ 241 AHORA $ 195 Numeros -80-90-100-110",
+      "pages": [
+        113
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": "Oferta",
+      "description": "Agujas de cabo fino para máquina industrial en paquete de 10, en oferta. Números 80, 90, 100 y 110.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 80",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 195,
+              "unit_price": 19.5,
+              "printed": 195
+            }
+          ]
+        },
+        {
+          "label": "N 90",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 195,
+              "unit_price": 19.5,
+              "printed": 195
+            }
+          ]
+        },
+        {
+          "label": "N 100",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 195,
+              "unit_price": 19.5,
+              "printed": 195
+            }
+          ]
+        },
+        {
+          "label": "N 110",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 195,
+              "unit_price": 19.5,
+              "printed": 195
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x836",
+          "page": 113,
+          "version": "limpia",
+          "alt": "Cajitas azules de agujas para máquina industrial apiladas"
+        },
+        {
+          "id": "x834",
+          "page": 113,
+          "version": "limpia",
+          "alt": "Cajita azul de agujas para máquina industrial con agujas sueltas al lado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cortador rotatorio de tela 45 mm",
+      "pdf_text": "CORTADOR DE TELA $ 989 CUCHILLA DE REPUESTO $ 198 Cortador rotatorio de tela, herramientas de artesanía de cuero, engranaje de 45mm, hojas onduladas, accesorios de costura",
+      "pages": [
+        114
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cortador rotatorio para tela y cuero con cuchilla circular de 45 mm, mango azul y traba amarilla.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 989,
+              "unit_price": 989,
+              "printed": 989
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x847",
+          "page": 114,
+          "version": "limpia",
+          "alt": "Cortador rotatorio azul con la cuchilla circular desmontada"
+        },
+        {
+          "id": "x844",
+          "page": 114,
+          "version": "limpia",
+          "alt": "Cortador rotatorio azul de 45 mm en su blíster"
+        },
+        {
+          "id": "x846",
+          "page": 114,
+          "version": "limpia",
+          "alt": "Cortador rotatorio azul junto a cuchillas circulares de repuesto"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cuchilla de repuesto para cortador rotatorio",
+      "pdf_text": "CORTADOR DE TELA $ 989 CUCHILLA DE REPUESTO $ 198 Cortador rotatorio de tela, herramientas de artesanía de cuero, engranaje de 45mm, hojas onduladas, accesorios de costura",
+      "pages": [
+        114
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cuchilla circular de repuesto para el cortador rotatorio de tela de 45 mm.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x846",
+          "page": 114,
+          "version": "limpia",
+          "alt": "Cuchillas circulares de repuesto lisas y onduladas junto al cortador rotatorio"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si la cuchilla de repuesto es lisa u ondulada, ni si el precio es por una sola cuchilla (se asumió unidad)"
+      ]
+    },
+    {
+      "name": "Sacabocados",
+      "pdf_text": "SACA BOCADOS $ 1180",
+      "pages": [
+        115
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pinza sacabocados de cabezal giratorio con mango negro y naranja. Según la foto perfora de 2 a 4,5 mm.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1180,
+              "unit_price": 1180,
+              "printed": 1180
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x854",
+          "page": 115,
+          "version": "limpia",
+          "alt": "Pinza sacabocados perforando un cinturón de cuero, con accesorios"
+        },
+        {
+          "id": "x855",
+          "page": 115,
+          "version": "limpia",
+          "alt": "Pinza sacabocados negra y naranja con estuche de repuestos"
+        },
+        {
+          "id": "x852",
+          "page": 115,
+          "version": "limpia",
+          "alt": "Sacabocados perforando un cinturón con la escala de medidas de agujero"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Reglas metálicas y de acrílico",
+      "pdf_text": "REGLAS METALICAS 60 CM $ 358 1 METRO $ 598 ACRILICO DE 1 METRO $ 898",
+      "pages": [
+        116
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": "metal / acrílico",
+      "badge": null,
+      "description": "Reglas de costura: metálicas de 60 cm y de 1 metro, y de acrílico de 1 metro.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Metálica · 60 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 358,
+              "unit_price": 358,
+              "printed": 358
+            }
+          ]
+        },
+        {
+          "label": "Metálica · 1 m",
+          "hex": null,
+          "image": "x860",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 598,
+              "unit_price": 598,
+              "printed": 598
+            }
+          ]
+        },
+        {
+          "label": "Acrílico · 1 m",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 898,
+              "unit_price": 898,
+              "printed": 898
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x862",
+          "page": 116,
+          "version": "limpia",
+          "alt": "Regla metálica junto a una regla blanca con tabla de medidas"
+        },
+        {
+          "id": "x860",
+          "page": 116,
+          "version": "limpia",
+          "alt": "Extremo de una regla metálica de un metro"
+        },
+        {
+          "id": "x863",
+          "page": 116,
+          "version": "limpia",
+          "alt": "Regla metálica y regla blanca vistas en perspectiva"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las fotos no dejan claro cuál es la regla de acrílico (se ve una regla blanca con tabla de medidas junto a la metálica)"
+      ]
+    },
+    {
+      "name": "Pedal más motor para máquina de coser",
+      "pdf_text": "PEDAL MAS MOTOR $ 1598",
+      "pages": [
+        117
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Kit de motor con pedal para máquina de coser. En la foto viene en caja, con correa y soporte.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1598,
+              "unit_price": 1598,
+              "printed": 1598
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x871",
+          "page": 117,
+          "version": "limpia",
+          "alt": "Motor para máquina de coser con pedal, correa y caja"
+        },
+        {
+          "id": "x870",
+          "page": 117,
+          "version": "limpia",
+          "alt": "Pedal negro con cable delante de la caja del motor"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Pedal para máquina de coser familiar",
+      "pdf_text": "PEDAL PARA MAQUINA COSER FAMILIAR $ 748",
+      "pages": [
+        117
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pedal con cable para máquina de coser familiar, de color negro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 748,
+              "unit_price": 748,
+              "printed": 748
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x867",
+          "page": 117,
+          "version": "limpia",
+          "alt": "Pedal negro con cable y enchufe para máquina de coser familiar"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Kit multifuncional de pies para máquina x 32 piezas",
+      "pdf_text": "KIT MULTIFUNCIONAL VARIEDAD DE PIE PARA MAQUINAS X 32 PIEZAS $ 1798",
+      "pages": [
+        118
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Kit multifuncional con variedad de pies (prensatelas) para máquina de coser, 32 piezas en caja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1798,
+              "unit_price": 1798,
+              "printed": 1798
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x875",
+          "page": 118,
+          "version": "limpia",
+          "alt": "Caja del kit multifuncional con los 32 pies para máquina de coser"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Pie de máquina para cierre invisible",
+      "pdf_text": "PIE DE MAQUINA PARA CIERRE INVISIBLE $ 120",
+      "pages": [
+        119
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pie de máquina de coser para pegar cierre invisible, plateado.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 120,
+              "unit_price": 120,
+              "printed": 120
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x883",
+          "page": 119,
+          "version": "limpia",
+          "alt": "Pie de máquina plateado para cierre invisible"
+        },
+        {
+          "id": "x881",
+          "page": 119,
+          "version": "limpia",
+          "alt": "Pie para cierre invisible y detalle del pie cosiendo un cierre"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Set de aplicadores de bies x 4",
+      "pdf_text": "Accesorios de costura, fabricantes de cintas al bies, 6mm/12mm/18mm/25mm, tela de empalme, cinta al bies, herramientas de encuadernación, costura de retazos, SET X 4 $ 698",
+      "pages": [
+        120
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Set de 4 aplicadores para hacer cinta al bies, en 6, 12, 18 y 25 mm. Uno de cada color: verde, amarillo, rojo y azul.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Set",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 698,
+              "unit_price": 698,
+              "printed": 698
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x890",
+          "page": 120,
+          "version": "limpia",
+          "alt": "Cuatro aplicadores de bies azul, rojo, amarillo y verde, y su uso con plancha"
+        },
+        {
+          "id": "x891",
+          "page": 120,
+          "version": "limpia",
+          "alt": "Cuatro aplicadores de bies con sus medidas de 6, 12, 18 y 25 mm"
+        },
+        {
+          "id": "x888",
+          "page": 120,
+          "version": "limpia",
+          "alt": "Set de cuatro aplicadores de bies en su blíster"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijerín rojo",
+      "pdf_text": "TIJERIN ROJO $ 158 C-U",
+      "pages": [
+        121
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijerín cortahilos de mango plástico rojo. Precio por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 158,
+              "unit_price": 158,
+              "printed": 158
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x898",
+          "page": 121,
+          "version": "limpia",
+          "alt": "Tijerín cortahilos rojo"
+        },
+        {
+          "id": "x896",
+          "page": 121,
+          "version": "limpia",
+          "alt": "Tijerín rojo con detalles de las hojas y el mango"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera infantil animalitos TC-127",
+      "pdf_text": "TIJERA INFANTIL ANIMALITOS COD TC-127 COLORIDAS NENA Y VARON $ 138",
+      "pages": [
+        122
+      ],
+      "category": "tijeras-y-corte",
+      "sku": "TC-127",
+      "material": null,
+      "badge": null,
+      "description": "Tijera infantil de punta redonda con blíster de animalitos. Coloridas, para nena y varón (en la foto: rosa, celeste y verde).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x903",
+          "page": 122,
+          "version": "limpia",
+          "alt": "Tijeras infantiles verde, rosa y celeste con blíster de animalitos"
+        },
+        {
+          "id": "x905",
+          "page": 122,
+          "version": "limpia",
+          "alt": "Tijeras infantiles celeste, rosa y verde, detalle del mango"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera infantil TC-126",
+      "pdf_text": "TIJERA INFANTIL COD TC-126 COLORIDAS NENA Y VARON $ 138",
+      "pages": [
+        123
+      ],
+      "category": "tijeras-y-corte",
+      "sku": "TC-126",
+      "material": null,
+      "badge": null,
+      "description": "Tijera infantil con mango traslúcido de dos colores y funda para la hoja. Coloridas, para nena y varón.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x912",
+          "page": 123,
+          "version": "limpia",
+          "alt": "Tijera infantil con mango rosa y transparente"
+        },
+        {
+          "id": "x913",
+          "page": 123,
+          "version": "limpia",
+          "alt": "Tijera infantil con mango azul y verde agua"
+        },
+        {
+          "id": "x914",
+          "page": 123,
+          "version": "limpia",
+          "alt": "Tijera infantil con mango fucsia y azul"
+        },
+        {
+          "id": "x910",
+          "page": 123,
+          "version": "limpia",
+          "alt": "Tres tijeras infantiles en su blíster"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "En la página una foto tapa parte del precio (se ve '$ 1'); el texto del PDF dice $ 138"
+      ]
+    },
+    {
+      "name": "Tijerín",
+      "pdf_text": "TIJERIN $ 98",
+      "pages": [
+        124
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijerín cortahilos de metal en variedad de colores (azul, rojo, negro, verde, naranja, turquesa).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x918",
+          "page": 124,
+          "version": "limpia",
+          "alt": "Tijerines cortahilos azul, rojo y negro"
+        },
+        {
+          "id": "x920",
+          "page": 124,
+          "version": "limpia",
+          "alt": "Tijerines cortahilos de varios colores en sus bolsitas"
+        },
+        {
+          "id": "x921",
+          "page": 124,
+          "version": "limpia",
+          "alt": "Tijerines cortahilos verdes, naranjas y turquesas embolsados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera plegable",
+      "pdf_text": "TIJERA PLEGABLE $ 145",
+      "pages": [
+        125
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijera plegable de metal, de bolsillo. Viene en blíster.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x925",
+          "page": 125,
+          "version": "limpia",
+          "alt": "Tijera plegable de metal abierta y cerrada en su blíster"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera sastre profesional en metal",
+      "pdf_text": "TIJERA SASTRE PROFESIONAL EN METAL N 8 LARGO TOTAL 22 CM $ 1153 N 9 LARGO TOTAL 23 CM $ 1419 N 10 LARGO TOTAL 25,5 CM $ 1639 N 11 LARGO TOTAL 28,5 CM $ 1859 N 12 LARGO TOTAL 30,5 CM $ 2079",
+      "pages": [
+        126,
+        127
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Tijera de sastre profesional toda de metal, negra, en cinco tamaños del N 8 (22 cm de largo total) al N 12 (30,5 cm). Viene en caja.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 8 · 22 cm",
+          "hex": null,
+          "image": "x930",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1153,
+              "unit_price": 1153,
+              "printed": 1153
+            }
+          ]
+        },
+        {
+          "label": "N 9 · 23 cm",
+          "hex": null,
+          "image": "x930",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1419,
+              "unit_price": 1419,
+              "printed": 1419
+            }
+          ]
+        },
+        {
+          "label": "N 10 · 25,5 cm",
+          "hex": null,
+          "image": "x930",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1639,
+              "unit_price": 1639,
+              "printed": 1639
+            }
+          ]
+        },
+        {
+          "label": "N 11 · 28,5 cm",
+          "hex": null,
+          "image": "x930",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1859,
+              "unit_price": 1859,
+              "printed": 1859
+            }
+          ]
+        },
+        {
+          "label": "N 12 · 30,5 cm",
+          "hex": null,
+          "image": "x930",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 2079,
+              "unit_price": 2079,
+              "printed": 2079
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x930",
+          "page": 126,
+          "version": "limpia",
+          "alt": "Cinco tijeras de sastre negras de distintos tamaños"
+        },
+        {
+          "id": "x941",
+          "page": 127,
+          "version": "limpia",
+          "alt": "Tijera de sastre negra en su caja"
+        },
+        {
+          "id": "x939",
+          "page": 127,
+          "version": "limpia",
+          "alt": "Tijera de sastre negra apoyada sobre su caja"
+        },
+        {
+          "id": "x940",
+          "page": 127,
+          "version": "limpia",
+          "alt": "Tijera de sastre negra dentro de la caja abierta"
+        },
+        {
+          "id": "x938",
+          "page": 127,
+          "version": "limpia",
+          "alt": "Tijera de sastre negra sobre la caja"
+        },
+        {
+          "id": "x936",
+          "page": 127,
+          "version": "limpia",
+          "alt": "Tijera de sastre negra en caja negra con letras doradas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera peluquero TC-128",
+      "pdf_text": "TIJERA PELUQUERO COD TC-128 $ 558",
+      "pages": [
+        128
+      ],
+      "category": "tijeras-y-corte",
+      "sku": "TC-128",
+      "material": null,
+      "badge": null,
+      "description": "Tijera de peluquero plateada, con apoyo para el dedo. Viene en blíster.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 558,
+              "unit_price": 558,
+              "printed": 558
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x945",
+          "page": 128,
+          "version": "limpia",
+          "alt": "Tijera de peluquero plateada abierta"
+        },
+        {
+          "id": "x947",
+          "page": 128,
+          "version": "limpia",
+          "alt": "Tijera de peluquero en su blíster verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera TC-305",
+      "pdf_text": "TIJERA COD TC-305 NUMERO 5 $ 448 NUMERO 6 $ 478 NUMERO 7 $ 558 NUMERO 8 $ 598",
+      "pages": [
+        129
+      ],
+      "category": "tijeras-y-corte",
+      "sku": "TC-305",
+      "material": null,
+      "badge": null,
+      "description": "Tijera toda plateada en cuatro tamaños, del número 5 al 8. Viene en blíster.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x952",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 448,
+              "unit_price": 448,
+              "printed": 448
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x952",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 478,
+              "unit_price": 478,
+              "printed": 478
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x952",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 558,
+              "unit_price": 558,
+              "printed": 558
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x952",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 598,
+              "unit_price": 598,
+              "printed": 598
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x952",
+          "page": 129,
+          "version": "limpia",
+          "alt": "Cuatro tijeras plateadas de distintos tamaños en blíster verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera TC-300",
+      "pdf_text": "TIJERA COD TC-300 NUMERO 6 $ 548 NUMERO 7 $ 598 NUMERO 8 $ 648",
+      "pages": [
+        130
+      ],
+      "category": "tijeras-y-corte",
+      "sku": "TC-300",
+      "material": null,
+      "badge": null,
+      "description": "Tijera toda plateada en tres tamaños, número 6, 7 y 8. Viene en blíster.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x958",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 548,
+              "unit_price": 548,
+              "printed": 548
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x958",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 598,
+              "unit_price": 598,
+              "printed": 598
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x958",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 648,
+              "unit_price": 648,
+              "printed": 648
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x958",
+          "page": 130,
+          "version": "limpia",
+          "alt": "Tres tijeras plateadas de distintos tamaños en blíster verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijeras medianas y grandes",
+      "pdf_text": "TIJERAS GRANDES $ 328 TIJERAS MEDIANAS $ 242",
+      "pages": [
+        131
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijeras con mango plástico de dos colores, en tamaño mediano y grande. Mangos surtidos (rojo, azul, amarillo, negro).",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Medianas",
+          "hex": null,
+          "image": "x967",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 242,
+              "unit_price": 242,
+              "printed": 242
+            }
+          ]
+        },
+        {
+          "label": "Grandes",
+          "hex": null,
+          "image": "x966",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 328,
+              "unit_price": 328,
+              "printed": 328
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x967",
+          "page": 131,
+          "version": "limpia",
+          "alt": "Cuatro tijeras con mangos de colores en blíster celeste"
+        },
+        {
+          "id": "x966",
+          "page": 131,
+          "version": "limpia",
+          "alt": "Tijera grande con mango rojo y negro en su blíster"
+        },
+        {
+          "id": "x964",
+          "page": 131,
+          "version": "limpia",
+          "alt": "Cuatro tijeras con mangos negro, rojo, amarillo y azul en blíster"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Qué foto corresponde a medianas y cuál a grandes se asignó por cercanía al texto; la foto de arriba a la izquierda (x964) no se sabe de qué tamaño es"
+      ]
+    },
+    {
+      "name": "Tijera victoriana 11,5 cm",
+      "pdf_text": "TIJERA VICTORIANA (11,5 CMS.) $462",
+      "pages": [
+        132
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijera de bordar estilo victoriano, de 11,5 cm, con mango labrado. En la foto: cobre, plateada, bronce y dorada.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 462,
+              "unit_price": 462,
+              "printed": 462
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x971",
+          "page": 132,
+          "version": "limpia",
+          "alt": "Cuatro tijeras victorianas con mango labrado en cobre, plateado, bronce y dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera cigüeña",
+      "pdf_text": "TIJERA CIGÜEÑA $308",
+      "pages": [
+        133
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijera de bordar con forma de cigüeña, plateada. Viene en blíster.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 308,
+              "unit_price": 308,
+              "printed": 308
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x976",
+          "page": 133,
+          "version": "limpia",
+          "alt": "Tijera cigüeña plateada en su blíster"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Tijera pico",
+      "pdf_text": "TIJERA PICO $ 979",
+      "pages": [
+        134
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tijera de picos (zigzag) con mango rojo y azul. Viene en caja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 979,
+              "unit_price": 979,
+              "printed": 979
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x981",
+          "page": 134,
+          "version": "limpia",
+          "alt": "Tijera de picos con mango rojo y azul sobre su caja"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Copas",
+      "pdf_text": "COPAS TALLES S – M – L - G CON PUSH - BLANCA , NEGRA , BEIGE SIN PUSH – BLANCA , NEGRA , BEIGE TRIANGULARES – BLANCA , BEIGE $ 229",
+      "pages": [
+        135
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Copas para corpiño y traje de baño en talles S, M, L y G. Con push y sin push en blanca, negra y beige; triangulares en blanca y beige.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Con push",
+          "hex": null,
+          "image": "x988",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 229,
+              "unit_price": 229,
+              "printed": 229
+            }
+          ]
+        },
+        {
+          "label": "Sin push",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 229,
+              "unit_price": 229,
+              "printed": 229
+            }
+          ]
+        },
+        {
+          "label": "Triangulares",
+          "hex": null,
+          "image": "x989",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 229,
+              "unit_price": 229,
+              "printed": 229
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanca",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Negra",
+          "hex": "#111111"
+        },
+        {
+          "name": "Beige",
+          "hex": "#e3c9a8"
+        }
+      ],
+      "images": [
+        {
+          "id": "x986",
+          "page": 135,
+          "version": "limpia",
+          "alt": "Par de copas negras"
+        },
+        {
+          "id": "x988",
+          "page": 135,
+          "version": "limpia",
+          "alt": "Par de copas blancas con relleno push"
+        },
+        {
+          "id": "x989",
+          "page": 135,
+          "version": "limpia",
+          "alt": "Par de copas triangulares beige"
+        },
+        {
+          "id": "x990",
+          "page": 135,
+          "version": "limpia",
+          "alt": "Copas negra, beige y blanca apiladas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par",
+        "Las fotos se asignaron a 'con push' y 'triangulares' a ojo; no se identificó cuál muestra la copa sin push",
+        "Las triangulares vienen sólo en blanca y beige (sin negra)"
+      ]
+    },
+    {
+      "name": "Extensor de soutien (aros en la foto)",
+      "pdf_text": "EXTENSOR SOUTIENS CHICO y GRANDE $ 37",
+      "pages": [
+        136
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "El PDF lo titula extensor de soutien, chico y grande, al mismo precio. Las fotos muestran aros (varillas curvas) para soutien, blancos y transparentes.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Chico",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 37,
+              "unit_price": 37,
+              "printed": 37
+            }
+          ]
+        },
+        {
+          "label": "Grande",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 37,
+              "unit_price": 37,
+              "printed": 37
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x995",
+          "page": 136,
+          "version": "limpia",
+          "alt": "Par de aros curvos para soutien"
+        },
+        {
+          "id": "x997",
+          "page": 136,
+          "version": "limpia",
+          "alt": "Manojos de aros curvos para soutien blancos y transparentes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título dice 'EXTENSOR SOUTIENS' pero las fotos muestran aros de soutien (varillas curvas): confirmar qué artículo es y corregir el nombre",
+        "No aclara si el precio es por par"
+      ]
+    },
+    {
+      "name": "Cinta crin",
+      "pdf_text": "CINTA CRIN BLANCA , NEGRA ,BEIGE 2 CM $ 20 2,5 CM $ 25 3 CM $ 35 5 CM $ 40 CONSULTAR STOCK DE MAS COLORES",
+      "pages": [
+        137
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta crin (malla rígida para ruedos y tocados) en blanca, negra y beige, en cuatro anchos. Consultar stock de más colores.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 25,
+              "unit_price": 25,
+              "printed": 25
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        },
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 40,
+              "unit_price": 40,
+              "printed": 40
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanca",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Negra",
+          "hex": "#111111"
+        },
+        {
+          "name": "Beige",
+          "hex": "#d9b98c"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1001",
+          "page": 137,
+          "version": "limpia",
+          "alt": "Rollo de cinta crin blanca"
+        },
+        {
+          "id": "x1003",
+          "page": 137,
+          "version": "limpia",
+          "alt": "Rollo de cinta crin negra"
+        },
+        {
+          "id": "x1004",
+          "page": 137,
+          "version": "limpia",
+          "alt": "Rollo de cinta crin beige"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Extensor elástico de soutien 3 ganchos 28033-1",
+      "pdf_text": "Extensor elástico de 3 ganchos y 3 filas, longitud ajustable COD 28033-1 $ 98",
+      "pages": [
+        138
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": "28033-1",
+      "material": null,
+      "badge": null,
+      "description": "Extensor elástico para soutien de 3 ganchos y 3 filas, de largo ajustable. En la foto: blanco, negro y beige.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1011",
+          "page": 138,
+          "version": "limpia",
+          "alt": "Extensores elásticos de soutien blancos, negros y beige de 3 y 2 ganchos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Extensor elástico de soutien 2 ganchos 28033-2",
+      "pdf_text": "Extensor elástico de 2 ganchos y 2 filas, longitud ajustable COD 28033-2 $ 78",
+      "pages": [
+        138
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": "28033-2",
+      "material": null,
+      "badge": null,
+      "description": "Extensor elástico para soutien de 2 ganchos y 2 filas, de largo ajustable. En la foto: negro, beige y blanco.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1009",
+          "page": 138,
+          "version": "limpia",
+          "alt": "Tres extensores elásticos de soutien negro, beige y blanco"
+        },
+        {
+          "id": "x1011",
+          "page": 138,
+          "version": "limpia",
+          "alt": "Extensores elásticos de soutien blancos, negros y beige de 3 y 2 ganchos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las fotos muestran extensores de 3 filas de ojalillos aunque el texto dice '2 filas'; la asignación de foto a cada código se hizo por cercanía al texto"
+      ]
+    },
+    {
+      "name": "Aro, pasador y gancho",
+      "pdf_text": "ARO , PASADOR GANCHO 1CM $ 8 1,5cm $ 10 1,8 CM $ 12",
+      "pages": [
+        139
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aros, pasadores y ganchos para breteles de lencería, en tres medidas. En la foto se ven plateados y dorados.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "1,8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1016",
+          "page": 139,
+          "version": "limpia",
+          "alt": "Aros, pasadores y ganchos de lencería plateados y dorados de varios tamaños"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Un solo precio por medida para las tres piezas (aro, pasador o gancho): se asumió que el precio es por unidad de cualquiera de las tres"
+      ]
+    },
+    {
+      "name": "Extensor de soutien con ganchos",
+      "pdf_text": "EXTENSOR SOUTIENS CHICO $ 53 GRANDE $ 53",
+      "pages": [
+        139
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Extensor de soutien con ganchos, en tamaño chico y grande al mismo precio. En la foto: negro, blanco y beige.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Chico",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 53,
+              "unit_price": 53,
+              "printed": 53
+            }
+          ]
+        },
+        {
+          "label": "Grande",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 53,
+              "unit_price": 53,
+              "printed": 53
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1018",
+          "page": 139,
+          "version": "limpia",
+          "alt": "Tres extensores de soutien negro, beige y blanco"
+        },
+        {
+          "id": "x1019",
+          "page": 139,
+          "version": "limpia",
+          "alt": "Extensores de soutien negro, blanco y beige de dos ganchos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Chinches en cajita x 50",
+      "pdf_text": "Chinches cajitas x 50 unidades $ 68",
+      "pages": [
+        140
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Chinches en cajita de 50 unidades. En las fotos hay plateadas y de cabeza de colores.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "De colores",
+          "hex": null,
+          "image": "x1024",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Cajita x 50",
+              "unit": "u",
+              "content_qty": 50,
+              "price": 68,
+              "unit_price": 1.36,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Plateadas",
+          "hex": null,
+          "image": "x1026",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Cajita x 50",
+              "unit": "u",
+              "content_qty": 50,
+              "price": 68,
+              "unit_price": 1.36,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1024",
+          "page": 140,
+          "version": "limpia",
+          "alt": "Chinches con cabeza de colores"
+        },
+        {
+          "id": "x1026",
+          "page": 140,
+          "version": "limpia",
+          "alt": "Chinches plateadas"
+        },
+        {
+          "id": "x1028",
+          "page": 140,
+          "version": "limpia",
+          "alt": "Cajitas de chinches de colores"
+        },
+        {
+          "id": "x1027",
+          "page": 140,
+          "version": "limpia",
+          "alt": "Cajitas de chinches plateadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Variantes 'de colores' y 'plateadas' puestas a partir de las fotos; el texto sólo dice 'chinches cajitas x 50 unidades'"
+      ]
+    },
+    {
+      "name": "Base broche N 1",
+      "pdf_text": "BASE BROCHE N 1 Medida 5,5 cm $ 9 7,5 cm $ 12 10 cm $ 20",
+      "pages": [
+        141
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Base de broche N 1 (tipo hebilla francesa para el cabello), plateada, en tres medidas.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "5,5 cm",
+          "hex": null,
+          "image": "x1036",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            }
+          ]
+        },
+        {
+          "label": "7,5 cm",
+          "hex": null,
+          "image": "x1036",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "10 cm",
+          "hex": null,
+          "image": "x1036",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1036",
+          "page": 141,
+          "version": "limpia",
+          "alt": "Tres bases de broche plateadas de 5,5, 7,5 y 10 cm"
+        },
+        {
+          "id": "x1033",
+          "page": 141,
+          "version": "limpia",
+          "alt": "Bases de broche plateadas tipo hebilla francesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Base broche N 2",
+      "pdf_text": "BASE BROCHE N 2 Medida 1,5 cm $ 4 2 cm $ 6 2,5 cm $ 7 3 cm $ 8 3,5 cm $ 10",
+      "pages": [
+        141
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Base de broche N 2 (base de prendedor con alfiler y traba), plateada, en cinco medidas.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": "x1038",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 4,
+              "unit_price": 4,
+              "printed": 4
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x1038",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 6,
+              "unit_price": 6,
+              "printed": 6
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x1038",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": "x1038",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": "x1038",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1038",
+          "page": 141,
+          "version": "limpia",
+          "alt": "Cinco bases de prendedor plateadas de 1,5 a 3,5 cm"
+        },
+        {
+          "id": "x1035",
+          "page": 141,
+          "version": "limpia",
+          "alt": "Bases de prendedor plateadas con alfiler"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Base broche pico N 3",
+      "pdf_text": "BASE BROCHE pico N 3 Medida 3 cm $ 5 3,5 cm $ 7 6 cm $ 9",
+      "pages": [
+        142
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Base de broche pico N 3 (pinza pico de pato con dientes), plateada, en tres medidas.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": "x1046",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": "x1046",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        },
+        {
+          "label": "6 cm",
+          "hex": null,
+          "image": "x1046",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1046",
+          "page": 142,
+          "version": "limpia",
+          "alt": "Tres bases de broche pico plateadas de 3, 3,5 y 6 cm"
+        },
+        {
+          "id": "x1042",
+          "page": 142,
+          "version": "limpia",
+          "alt": "Bases de broche pico plateadas con dientes"
+        },
+        {
+          "id": "x1044",
+          "page": 142,
+          "version": "limpia",
+          "alt": "Detalles de la base de broche pico desde varios ángulos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Mosquetón más aro",
+      "pdf_text": "Mosquetón mas aro plata oro y peltre Medidas 10 mm $ 11 12 mm $ 12 14 mm $ 19 21 mm $ 32",
+      "pages": [
+        143
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Mosquetón de bijouterie con su arito, en plata, oro y peltre. Cuatro medidas, de 10 a 21 mm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "10 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 11,
+              "unit_price": 11,
+              "printed": 11
+            }
+          ]
+        },
+        {
+          "label": "12 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "14 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 19,
+              "unit_price": 19,
+              "printed": 19
+            }
+          ]
+        },
+        {
+          "label": "21 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 32,
+              "unit_price": 32,
+              "printed": 32
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plata",
+          "hex": "#c0c0c0"
+        },
+        {
+          "name": "Oro",
+          "hex": "#d4af37"
+        },
+        {
+          "name": "Peltre",
+          "hex": "#8a8d8f"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1052",
+          "page": 143,
+          "version": "limpia",
+          "alt": "Mosquetones plateados y dorados con arito"
+        },
+        {
+          "id": "x1050",
+          "page": 143,
+          "version": "limpia",
+          "alt": "Mosquetones dorados y plateados con sus aritos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se asumió que el precio es por un mosquetón con su aro (unidad)"
+      ]
+    },
+    {
+      "name": "Mosquetón plástico para llavero",
+      "pdf_text": "Mosquetón plástico para llavero $ 15",
+      "pages": [
+        144
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": "plástico",
+      "badge": null,
+      "description": "Mosquetón de plástico para llavero, en colores rojo, fucsia, azul, verde, celeste y blanco.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Rojo",
+          "hex": "#e0261c",
+          "image": "x1059",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#e81e8c",
+          "image": "x1060",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Azul",
+          "hex": "#1c2fa8",
+          "image": "x1061",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#2fb53a",
+          "image": "x1062",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#3fb4e0",
+          "image": "x1063",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#ffffff",
+          "image": "x1064",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1057",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos para llavero en varios colores"
+        },
+        {
+          "id": "x1059",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos rojos"
+        },
+        {
+          "id": "x1060",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos fucsia"
+        },
+        {
+          "id": "x1061",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos azules"
+        },
+        {
+          "id": "x1062",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos verdes"
+        },
+        {
+          "id": "x1063",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos celestes"
+        },
+        {
+          "id": "x1064",
+          "page": 144,
+          "version": "limpia",
+          "alt": "Mosquetones plásticos blancos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Ganchos de lencería",
+      "pdf_text": "GANCHOS LENCERIA COD 28033-10 1CM $ 24 COD 28033-11 1,5 CM $ 26 BLANCO NEGRO Y TRASPARENTE",
+      "pages": [
+        145
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ganchos de cierre para lencería y bikini, de dos piezas, en 1 cm y 1,5 cm. Vienen en blanco, negro y transparente.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1 cm (COD 28033-10)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm (COD 28033-11)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Negro",
+          "hex": "#111111"
+        },
+        {
+          "name": "Transparente",
+          "hex": "#e8eef0"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1071",
+          "page": 145,
+          "version": "limpia",
+          "alt": "Ganchos de lencería negro, transparente y blanco"
+        },
+        {
+          "id": "x1069",
+          "page": 145,
+          "version": "limpia",
+          "alt": "Ganchos de lencería blancos, negros y transparentes en dos tamaños"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Dos códigos (28033-10 y 28033-11) cargados como variantes de un mismo producto; no aclara si el precio es por unidad o por juego (se puso unidad)"
+      ]
+    },
+    {
+      "name": "Gancho de lencería transparente 1,8 cm",
+      "pdf_text": "Gancho lencería 1,8 cm trasparente $ 10",
+      "pages": [
+        146
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Gancho de lencería transparente de 1,8 cm, para breteles.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1076",
+          "page": 146,
+          "version": "limpia",
+          "alt": "Ganchos de lencería transparentes sobre una mesa de madera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Broche para lencería de metal",
+      "pdf_text": "BROCHE PARA LENCERIA METAL 1 CM $ 46 2 CM $ 90",
+      "pages": [
+        147
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Broche de cierre para lencería y bikini, de metal plateado, en 1 cm y 2 cm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 46,
+              "unit_price": 46,
+              "printed": 46
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 90,
+              "unit_price": 90,
+              "printed": 90
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1084",
+          "page": 147,
+          "version": "limpia",
+          "alt": "Tres broches de metal plateado para lencería"
+        },
+        {
+          "id": "x1082",
+          "page": 147,
+          "version": "limpia",
+          "alt": "Broche de metal plateado para lencería, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": [
+    {
+      "page": 113,
+      "value": 241,
+      "reason": "precio 'antes' de una oferta"
+    },
+    {
+      "page": 111,
+      "value": 35,
+      "reason": "'PAQUETE X 10 $ 35' de la aguja Singer para overlock: precio cortado o errado (menor que la unidad, $ 44); el mismo número sí se usa como precio unitario de la aguja para máquina familiar"
+    }
+  ]
+}

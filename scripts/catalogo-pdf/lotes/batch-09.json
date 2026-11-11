@@ -1,0 +1,2631 @@
+{
+  "batch": 9,
+  "products": [
+    {
+      "name": "Hilo tipo Moulinex",
+      "pdf_text": "HILO TIPO MOULINEX $ 39 CADA UNO",
+      "pages": [
+        296,
+        297
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Madejas de hilo de bordar tipo mouliné, en variedad de colores y también en blanco, negro y rojo. Se vende por madeja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2109",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2109",
+          "page": 296,
+          "version": "limpia",
+          "alt": "Madejas de hilo de bordar en abanico, en muchos colores"
+        },
+        {
+          "id": "x2107",
+          "page": 296,
+          "version": "limpia",
+          "alt": "Cajas de madejas de hilo de bordar en colores surtidos"
+        },
+        {
+          "id": "x2116",
+          "page": 297,
+          "version": "limpia",
+          "alt": "Madejas de hilo de bordar blancas, negras y rojas"
+        },
+        {
+          "id": "x2114",
+          "page": 297,
+          "version": "limpia",
+          "alt": "Paquetes de madejas de hilo de bordar blanco y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'Cada uno' se interpretó como cada madeja suelta (una foto muestra cajas de 100 madejas)"
+      ]
+    },
+    {
+      "name": "Hilo de bordar multicolor y liso x 24",
+      "pdf_text": "HILO BORDAR MULTICOLOR Y LISO X 24 $ 528",
+      "pages": [
+        298
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Paquete de 24 madejas de hilo de bordar, en versión de colores lisos o multicolor (matizado).",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Liso",
+          "hex": null,
+          "image": "x2120",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 24",
+              "unit": "u",
+              "content_qty": 24,
+              "price": 528,
+              "unit_price": 22.0,
+              "printed": 528
+            }
+          ]
+        },
+        {
+          "label": "Multicolor",
+          "hex": null,
+          "image": "x2122",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 24",
+              "unit": "u",
+              "content_qty": 24,
+              "price": 528,
+              "unit_price": 22.0,
+              "printed": 528
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2120",
+          "page": 298,
+          "version": "limpia",
+          "alt": "Paquetes de 24 madejas de hilo de bordar en colores lisos"
+        },
+        {
+          "id": "x2122",
+          "page": 298,
+          "version": "limpia",
+          "alt": "Paquetes de 24 madejas de hilo de bordar multicolor matizado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'X 24 $ 528' se interpretó como el paquete de 24 madejas a $ 528"
+      ]
+    },
+    {
+      "name": "Hilo ovillo chico",
+      "pdf_text": "HILO OVILLO CHICO COLORES LISOS Y MATIZADO $ 70 C/U",
+      "pages": [
+        299
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ovillo chico de hilo, en colores lisos o matizado. Se vende por ovillo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Colores lisos",
+          "hex": null,
+          "image": "x2127",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 70,
+              "unit_price": 70,
+              "printed": 70
+            }
+          ]
+        },
+        {
+          "label": "Matizado",
+          "hex": null,
+          "image": "x2130",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 70,
+              "unit_price": 70,
+              "printed": 70
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2127",
+          "page": 299,
+          "version": "limpia",
+          "alt": "Caja con ovillos chicos de hilo en colores lisos"
+        },
+        {
+          "id": "x2130",
+          "page": 299,
+          "version": "limpia",
+          "alt": "Caja con ovillos chicos de hilo matizado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Hilo ovillo grande",
+      "pdf_text": "HILO OVILLO GRANDE BLANCO NEGRO Y MATIZADO $ 131 / HILO OVILLO GRANDE colores surtidos $ 131 cada uno",
+      "pages": [
+        300,
+        301
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ovillo grande de hilo, en blanco, negro, matizado y colores lisos surtidos. Se vende por ovillo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": null,
+          "image": "x2134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 131,
+              "unit_price": 131,
+              "printed": 131
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": null,
+          "image": "x2134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 131,
+              "unit_price": 131,
+              "printed": 131
+            }
+          ]
+        },
+        {
+          "label": "Matizado",
+          "hex": null,
+          "image": "x2136",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 131,
+              "unit_price": 131,
+              "printed": 131
+            }
+          ]
+        },
+        {
+          "label": "Colores surtidos",
+          "hex": null,
+          "image": "x2140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 131,
+              "unit_price": 131,
+              "printed": 131
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2140",
+          "page": 301,
+          "version": "limpia",
+          "alt": "Caja con ovillos grandes de hilo en colores surtidos"
+        },
+        {
+          "id": "x2142",
+          "page": 301,
+          "version": "limpia",
+          "alt": "Ovillos grandes de hilo en amarillo, rosa, azul, violeta y verde"
+        },
+        {
+          "id": "x2136",
+          "page": 300,
+          "version": "limpia",
+          "alt": "Ovillos grandes de hilo matizado en varios colores"
+        },
+        {
+          "id": "x2134",
+          "page": 300,
+          "version": "limpia",
+          "alt": "Caja con ovillos grandes de hilo blanco y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Lana manualidad con lúrex",
+      "pdf_text": "LANA MANUALIDAD CON LUREX VARIOS COLORES $ 49 C-U",
+      "pages": [
+        302
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ovillito de lana para manualidades con brillo de lúrex, en varios colores. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2149",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 49,
+              "unit_price": 49,
+              "printed": 49
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2149",
+          "page": 302,
+          "version": "limpia",
+          "alt": "Ovillitos de lana con lúrex en varios colores"
+        },
+        {
+          "id": "x2147",
+          "page": 302,
+          "version": "limpia",
+          "alt": "Ovillitos de lana con lúrex con su faja, en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Lana manualidad",
+      "pdf_text": "LANA MANUALIDAD VARIOS COLORES $ 39 C-U",
+      "pages": [
+        303
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ovillito de lana para manualidades, en varios colores. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2156",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2156",
+          "page": 303,
+          "version": "limpia",
+          "alt": "Ovillitos de lana para manualidades en varios colores"
+        },
+        {
+          "id": "x2154",
+          "page": 303,
+          "version": "limpia",
+          "alt": "Paquetes y ovillitos sueltos de lana para manualidades en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Botón velcro autoadhesivo",
+      "pdf_text": "BOTON VELCRO AUTOADHESIVO BLANCO Y NEGRO 5 X $ 55",
+      "pages": [
+        304
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Botones redondos de velcro autoadhesivo, en blanco y negro. Se venden de a 5.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2160",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 5",
+              "unit": "u",
+              "content_qty": 5,
+              "price": 55,
+              "unit_price": 11.0,
+              "printed": 55
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2163",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 5",
+              "unit": "u",
+              "content_qty": 5,
+              "price": 55,
+              "unit_price": 11.0,
+              "printed": 55
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2160",
+          "page": 304,
+          "version": "limpia",
+          "alt": "Planchas de botones de velcro autoadhesivo negros y blancos"
+        },
+        {
+          "id": "x2163",
+          "page": 304,
+          "version": "limpia",
+          "alt": "Botones de velcro autoadhesivo negros y blancos, en rollo y en plancha"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'5 X $ 55' se interpretó como 5 botones por $ 55; confirmar qué trae cada uno (par abrojo o pieza suelta)"
+      ]
+    },
+    {
+      "name": "Velcro",
+      "pdf_text": "VELCRO 2 CM $ 48 / VELCRO 5 CM $ 91 / VELCRO 10 CM ANCHO BLANCO Y NEGRO EL METROS $ 119",
+      "pages": [
+        305,
+        306
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Velcro en blanco y negro, en 2, 5 y 10 cm de ancho. Se corta por metro.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 91,
+              "unit_price": 91,
+              "printed": 91
+            }
+          ]
+        },
+        {
+          "label": "10 cm",
+          "hex": null,
+          "image": "x2178",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanco",
+          "hex": "#f4f4f4"
+        },
+        {
+          "name": "Negro",
+          "hex": "#1b1b1b"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2172",
+          "page": 305,
+          "version": "limpia",
+          "alt": "Tiras de velcro negro"
+        },
+        {
+          "id": "x2171",
+          "page": 305,
+          "version": "limpia",
+          "alt": "Tiras de velcro blanco"
+        },
+        {
+          "id": "x2167",
+          "page": 305,
+          "version": "limpia",
+          "alt": "Velcro blanco entreabierto"
+        },
+        {
+          "id": "x2178",
+          "page": 306,
+          "version": "limpia",
+          "alt": "Rollo de velcro blanco ancho"
+        },
+        {
+          "id": "x2176",
+          "page": 306,
+          "version": "limpia",
+          "alt": "Tira de velcro negro ancho entreabierta"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se juntaron en un producto el velcro de 2 y 5 cm (p. 305) y el de 10 cm (p. 306)",
+        "Unidad de venta de 2 y 5 cm: se asumió por metro (el de 10 cm sí dice 'el metro')",
+        "'Blanco y negro' lo dice sólo la página del de 10 cm; en 2 y 5 cm sale de las fotos"
+      ]
+    },
+    {
+      "name": "Velcro autoadhesivo 2 cm",
+      "pdf_text": "VELCRO AUTOADHESIVO 2 CM $ 73",
+      "pages": [
+        305
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Velcro autoadhesivo de 2 cm de ancho; en las fotos se ve en blanco y negro. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2169",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 73,
+              "unit_price": 73,
+              "printed": 73
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2169",
+          "page": 305,
+          "version": "limpia",
+          "alt": "Velcro negro autoadhesivo con el papel protector blanco"
+        },
+        {
+          "id": "x2170",
+          "page": 305,
+          "version": "limpia",
+          "alt": "Rollos de velcro autoadhesivo blanco y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "Fotos asignadas por lo que se ve (velcro con papel protector); la página no las rotula"
+      ]
+    },
+    {
+      "name": "Velcro 5 cm verde militar",
+      "pdf_text": "VELCRO 5 CM VERDE MILITAR $ 108",
+      "pages": [
+        307
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Velcro de 5 cm de ancho en verde militar. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2185",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Verde militar",
+          "hex": "#5c6b3a"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2185",
+          "page": 307,
+          "version": "limpia",
+          "alt": "Dos rollos de velcro verde militar, gancho y pelo"
+        },
+        {
+          "id": "x2183",
+          "page": 307,
+          "version": "limpia",
+          "alt": "Rollo de velcro verde militar"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Velcro 2 cm de color",
+      "pdf_text": "VELCRO 2 CM COLOR $ 61 EL METRO / COLORES CRUDO , NARANJA, CELESTE , BORDO , AMARILLO FLUOR , MARINO ,ROJO , GRIS CLARO , TOSTADO , ,FRANCIA ,BEIGE , BEIGE OSCURO , VERDE MILITAR , ROSADO , GRIS",
+      "pages": [
+        308
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Velcro de 2 cm de ancho en quince colores, del crudo y el beige al francia, bordó y amarillo flúor. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Crudo",
+          "hex": "#efe6d0",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#f07a1a",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#2aa7e0",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Bordó",
+          "hex": "#7a1f2b",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Amarillo flúor",
+          "hex": "#e6f02a",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Marino",
+          "hex": "#1f2a56",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#d8232a",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Gris claro",
+          "hex": "#c4c4c4",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Tostado",
+          "hex": "#a5672f",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Francia",
+          "hex": "#1f4fc4",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Beige",
+          "hex": "#d9c08f",
+          "image": "x2194",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Beige oscuro",
+          "hex": "#b89b6a",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Verde militar",
+          "hex": "#5c6b34",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Rosado",
+          "hex": "#f4b6c6",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        },
+        {
+          "label": "Gris",
+          "hex": "#7d7d7d",
+          "image": "x2192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 61,
+              "unit_price": 61,
+              "printed": 61
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2192",
+          "page": 308,
+          "version": "limpia",
+          "alt": "Rollos de velcro en muchos colores"
+        },
+        {
+          "id": "x2190",
+          "page": 308,
+          "version": "limpia",
+          "alt": "Rollos de velcro blanco, negro, rojo, verde y azul"
+        },
+        {
+          "id": "x2194",
+          "page": 308,
+          "version": "limpia",
+          "alt": "Dos tiras de velcro beige"
+        },
+        {
+          "id": "x2193",
+          "page": 308,
+          "version": "limpia",
+          "alt": "Tira de velcro beige entreabierta"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las fotos son genéricas: la correspondencia entre cada color y la foto es aproximada",
+        "Los tonos de crudo, bordó, amarillo flúor, marino, gris claro y beige oscuro se pusieron por el nombre (no se ven en las fotos)"
+      ]
+    },
+    {
+      "name": "Sesgo elastizado (elástico partido)",
+      "pdf_text": "SESGO ELASTIZADO !! ELASTICO PARTIDO !! $ 35 EL METRO",
+      "pages": [
+        309
+      ],
+      "category": "elasticos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sesgo elastizado, también llamado elástico partido, en variedad de colores. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2198",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2198",
+          "page": 309,
+          "version": "limpia",
+          "alt": "Rollos de sesgo elastizado azul, fucsia, negro y petróleo"
+        },
+        {
+          "id": "x2200",
+          "page": 309,
+          "version": "limpia",
+          "alt": "Estantería con rollos de sesgo elastizado en muchos colores"
+        },
+        {
+          "id": "x2202",
+          "page": 309,
+          "version": "limpia",
+          "alt": "Rollos de sesgo elastizado apilados en varios colores"
+        },
+        {
+          "id": "x2201",
+          "page": 309,
+          "version": "limpia",
+          "alt": "Tiras de sesgo elastizado dobladas en amarillo, verde, rosa y lila"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón flor multicolor P 10601",
+      "pdf_text": "GALON FLOR MULTICOLOR P 10601 $ 136",
+      "pages": [
+        310
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "P 10601",
+      "material": null,
+      "badge": null,
+      "description": "Galón de flores bordadas multicolor: naranja, rosa, verde, celeste, violeta y beige. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2207",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2207",
+          "page": 310,
+          "version": "limpia",
+          "alt": "Galón de flores bordadas en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Galón margarita",
+      "pdf_text": "GALON MARGARITA 1.5 CMS $ 68 EL METR / ROSA / NARANJA / AMARILLO / GALON MARGARITA 2 CMS. $ 78 EL METRO 2.5 CMS. $ 89 EL METRO / 2 CMS / 2,5 CMS.",
+      "pages": [
+        311,
+        312
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de margaritas blancas en tres anchos. El de 1,5 cm viene con centro rosa, naranja o amarillo; los de 2 y 2,5 cm se ven con centro amarillo. Se corta por metro.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "1,5 cm · Rosa",
+          "hex": null,
+          "image": "x2213",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm · Naranja",
+          "hex": null,
+          "image": "x2215",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm · Amarillo",
+          "hex": null,
+          "image": "x2216",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x2221",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x2223",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 89,
+              "unit_price": 89,
+              "printed": 89
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2221",
+          "page": 312,
+          "version": "etiquetada",
+          "alt": "Galón de margaritas blancas con centro amarillo, 2 cm"
+        },
+        {
+          "id": "x2223",
+          "page": 312,
+          "version": "etiquetada",
+          "alt": "Galón de margaritas blancas con centro amarillo, 2,5 cm"
+        },
+        {
+          "id": "x2213",
+          "page": 311,
+          "version": "etiquetada",
+          "alt": "Galón de margaritas blancas con centro rosa"
+        },
+        {
+          "id": "x2215",
+          "page": 311,
+          "version": "etiquetada",
+          "alt": "Galón de margaritas blancas con centro naranja"
+        },
+        {
+          "id": "x2216",
+          "page": 311,
+          "version": "etiquetada",
+          "alt": "Galón de margaritas blancas con centro amarillo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Los colores rosa, naranja y amarillo figuran sólo en el de 1,5 cm; confirmar si 2 y 2,5 cm vienen sólo con centro amarillo"
+      ]
+    },
+    {
+      "name": "Galón girasol 3,5 cm",
+      "pdf_text": "GALON GIRASOL 3,5 CMS. $ 98 EL METRO",
+      "pages": [
+        313
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de girasoles de 3,5 cm, pétalos blancos con centro amarillo. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2230",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2230",
+          "page": 313,
+          "version": "limpia",
+          "alt": "Galón de girasoles blancos con centro amarillo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón flor 5 cm",
+      "pdf_text": "GALON FLOR 5 CMS. $ 118 EL METRO",
+      "pages": [
+        313
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de flores grandes de 5 cm, pétalos blancos con centro amarillo. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2228",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2228",
+          "page": 313,
+          "version": "limpia",
+          "alt": "Galón de flores blancas grandes con centro amarillo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón hoja",
+      "pdf_text": "GALON HOJA $ 98 EL METRO / DORADO, PLATEADO y VERDE",
+      "pages": [
+        314
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de hojitas en rama, en dorado, plateado y verde. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#d9c9a0",
+          "image": "x2235",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#dfe5ec",
+          "image": "x2235",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#86b24c",
+          "image": "x2237",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2235",
+          "page": 314,
+          "version": "limpia",
+          "alt": "Galón de hojas dorado, plateado y verde con sus rollos"
+        },
+        {
+          "id": "x2237",
+          "page": 314,
+          "version": "limpia",
+          "alt": "Galón de hojas verde con su rollo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cinta organza",
+      "pdf_text": "CINTA ORGANZA 1 CM. $ 22 EL METRO / CINTA ORGANZA 1,5 CMS. $ 29 EL METRO / CINTA ORGANZA 2,5 CMS. $ 36 EL METRO",
+      "pages": [
+        315,
+        316,
+        317
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta de organza en tres anchos y variedad de colores: negro, blanco, dorado, gris, amarillo, rojo, azul, verde, rosa, celeste y violeta, entre otros. Se corta por metro.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": "x2242",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": "x2248",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x2248",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 36,
+              "unit_price": 36,
+              "printed": 36
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2248",
+          "page": 316,
+          "version": "limpia",
+          "alt": "Rollos de cinta de organza ancha en varios colores"
+        },
+        {
+          "id": "x2242",
+          "page": 315,
+          "version": "limpia",
+          "alt": "Rollos de cinta de organza de 1 cm en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las páginas de 1,5 y 2,5 cm usan la misma foto"
+      ]
+    },
+    {
+      "name": "Galón rústico de algodón T 200",
+      "pdf_text": "GALON RUSTICO ALGODÓN COD. T 200 N1 $ 108 EL METRO / GALON RUSTICO ALGODÓN COD. T 200 N2 $ 108 EL METRO / GALON RUSTICO ALGODÓN COD. T 200 N3 $ 108 EL METRO",
+      "pages": [
+        318,
+        319
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "T 200",
+      "material": "algodón",
+      "badge": null,
+      "description": "Galón rústico de algodón con trenza al centro, en tres modelos: N 1 crudo con marrón, N 2 crudo con coral y N 3 todo crudo. Se corta por metro.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x2259",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x2266",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x2264",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2259",
+          "page": 318,
+          "version": "limpia",
+          "alt": "Galón rústico trenzado crudo con bordes marrones"
+        },
+        {
+          "id": "x2266",
+          "page": 319,
+          "version": "limpia",
+          "alt": "Galón rústico trenzado crudo con bordes coral"
+        },
+        {
+          "id": "x2264",
+          "page": 319,
+          "version": "limpia",
+          "alt": "Galón rústico trenzado todo crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "N1, N2 y N3 del código T 200 se tomaron como modelos de un mismo galón"
+      ]
+    },
+    {
+      "name": "Puntilla elastizada 7721 · 3 cm",
+      "pdf_text": "COD: 7721 PUNTILLA ELASTIZADA BLANCO NEGRO Y CRUDO 3 cm 50 YRDS $ 98 el metro",
+      "pages": [
+        320
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "7721",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla elastizada de 3 cm de ancho, con ondas en abanico, en blanco, negro y crudo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2270",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2270",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#efe7d2",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2270",
+          "page": 320,
+          "version": "limpia",
+          "alt": "Puntilla elastizada con ondas en abanico, negra y blanca"
+        }
+      ],
+      "wholesale_note": "Pieza x 50 yardas",
+      "needs_review": [
+        "'50 YRDS' se interpretó como el largo de la pieza cerrada (no trae precio por pieza)"
+      ]
+    },
+    {
+      "name": "Puntilla elastizada 8859 · 2 cm",
+      "pdf_text": "COD: 8859 PUNTILLA ELASTIZADA BLANCO NEGRO Y CRUDO 2 cm 50 YRDS $ 68 el metro",
+      "pages": [
+        321
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "8859",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla elastizada de 2 cm de ancho, con borde de onditas, en blanco, negro y crudo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2279",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2278",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#efe7d2",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2276",
+          "page": 321,
+          "version": "limpia",
+          "alt": "Puntilla elastizada angosta blanca y negra"
+        },
+        {
+          "id": "x2278",
+          "page": 321,
+          "version": "limpia",
+          "alt": "Puntilla elastizada angosta negra"
+        },
+        {
+          "id": "x2279",
+          "page": 321,
+          "version": "limpia",
+          "alt": "Puntilla elastizada angosta blanca"
+        }
+      ],
+      "wholesale_note": "Pieza x 50 yardas",
+      "needs_review": [
+        "'50 YRDS' se interpretó como el largo de la pieza cerrada (no trae precio por pieza)"
+      ]
+    },
+    {
+      "name": "Puntilla elastizada 8856 · 2,5 cm",
+      "pdf_text": "COD: 8856 PUNTILLA ELASTIZADA BLANCO NEGRO Y CRUDO 2,5 cm 50 YRDS $ 78 el metro",
+      "pages": [
+        322
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "8856",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla elastizada de 2,5 cm de ancho, con guarda ondulada, en blanco, negro y crudo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2286",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2287",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#efe7d2",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2284",
+          "page": 322,
+          "version": "limpia",
+          "alt": "Puntilla elastizada blanca y negra con guarda ondulada"
+        },
+        {
+          "id": "x2287",
+          "page": 322,
+          "version": "limpia",
+          "alt": "Puntilla elastizada negra con guarda ondulada"
+        },
+        {
+          "id": "x2286",
+          "page": 322,
+          "version": "limpia",
+          "alt": "Puntilla elastizada blanca con guarda ondulada"
+        }
+      ],
+      "wholesale_note": "Pieza x 50 yardas",
+      "needs_review": [
+        "'50 YRDS' se interpretó como el largo de la pieza cerrada (no trae precio por pieza)"
+      ]
+    },
+    {
+      "name": "Puntilla elastizada 6638 · 1,5 cm",
+      "pdf_text": "PUNTILLA ELASTIZADA cód. 6638 BLANCO NEGRO Y CRUDO 1,5 cm 50 YRDS $ 58 el metro",
+      "pages": [
+        323
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "6638",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla elastizada de 1,5 cm de ancho, con ondas en punta, en blanco, negro y crudo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2292",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2292",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#efe7d2",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2292",
+          "page": 323,
+          "version": "limpia",
+          "alt": "Puntilla elastizada angosta con ondas, blanca y negra"
+        }
+      ],
+      "wholesale_note": "Pieza x 50 yardas",
+      "needs_review": [
+        "'50 YRDS' se interpretó como el largo de la pieza cerrada (no trae precio por pieza)"
+      ]
+    },
+    {
+      "name": "Puntilla elastizada 19CR205 · 10 cm",
+      "pdf_text": "PUNTILLA ELASTIZADA 19CR205 10 CM ANCHO , $ 190 el metro",
+      "pages": [
+        324
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR205",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla elastizada de 10 cm de ancho con diseño floral; en las fotos se ve en blanco, negro y rojo. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2300",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 190,
+              "unit_price": 190,
+              "printed": 190
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2300",
+          "page": 324,
+          "version": "limpia",
+          "alt": "Puntilla elastizada ancha floral en blanco, negro y rojo"
+        },
+        {
+          "id": "x2298",
+          "page": 324,
+          "version": "limpia",
+          "alt": "Puntilla elastizada ancha floral blanca y oscura"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla elastizada 18 cm",
+      "pdf_text": "PUNTILLA ELASTIZADA 18 CM ANCHO BLANCA NEGRA PIEZA X 30 YRDS $ 250 el metro / PUNTILLA ELASTIZADA 18 CM ANCHO CRUDO , ROJO , ROSA VIEJO PIEZA X 30 YRDS $ 250 el metro",
+      "pages": [
+        325,
+        326
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Puntilla elastizada de 18 cm de ancho con diseño de abanicos, en blanco, negro, crudo, rojo y rosa viejo. Se corta por metro; la pieza trae 30 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2304",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2304",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#f1ecd6",
+          "image": "x2312",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#e0261c",
+          "image": "x2310",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        },
+        {
+          "label": "Rosa viejo",
+          "hex": "#e3cfc6",
+          "image": "x2310",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2304",
+          "page": 325,
+          "version": "limpia",
+          "alt": "Rollos de puntilla elastizada ancha blanca y negra"
+        },
+        {
+          "id": "x2310",
+          "page": 326,
+          "version": "limpia",
+          "alt": "Puntilla elastizada ancha roja y rosa viejo"
+        },
+        {
+          "id": "x2312",
+          "page": 326,
+          "version": "limpia",
+          "alt": "Rollo de puntilla elastizada ancha color crudo"
+        }
+      ],
+      "wholesale_note": "Pieza x 30 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Elástico ELAS 14",
+      "pdf_text": "ELAS 14 BLANCO, CRUDO, ROSA Y NEGRO $ 35 el metro",
+      "pages": [
+        327
+      ],
+      "category": "elasticos",
+      "sku": "ELAS 14",
+      "material": null,
+      "badge": null,
+      "description": "Elástico de lencería con volado de un lado, en blanco, crudo, rosa y negro. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2317",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#ece4c4",
+          "image": "x2317",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f0c9c9",
+          "image": "x2320",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2320",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2317",
+          "page": 327,
+          "version": "limpia",
+          "alt": "Rollos de elástico con volado en crudo y blanco"
+        },
+        {
+          "id": "x2320",
+          "page": 327,
+          "version": "limpia",
+          "alt": "Elástico con volado en rosa y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Elástico ELAS 07",
+      "pdf_text": "ELAS 07 BLANCO , NEGRO , Y ROJO $ 44 el metro / ELAS 07 $ 44",
+      "pages": [
+        328,
+        329
+      ],
+      "category": "elasticos",
+      "sku": "ELAS 07",
+      "material": null,
+      "badge": null,
+      "description": "Elástico con volado de organza a los dos lados, en blanco, negro y rojo; también se ve en naranja, celeste y verde agua. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f4",
+          "image": "x2324",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x2327",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#d8261f",
+          "image": "x2326",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#f2a25e",
+          "image": "x2331",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#4aa9de",
+          "image": "x2333",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        },
+        {
+          "label": "Verde agua",
+          "hex": "#63c5b3",
+          "image": "x2333",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 44,
+              "unit_price": 44,
+              "printed": 44
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2324",
+          "page": 328,
+          "version": "limpia",
+          "alt": "Elástico con volado de organza blanco"
+        },
+        {
+          "id": "x2327",
+          "page": 328,
+          "version": "limpia",
+          "alt": "Elástico con volado de organza negro"
+        },
+        {
+          "id": "x2326",
+          "page": 328,
+          "version": "limpia",
+          "alt": "Elástico con volado de organza rojo y blanco"
+        },
+        {
+          "id": "x2331",
+          "page": 329,
+          "version": "limpia",
+          "alt": "Elástico con volado de organza naranja"
+        },
+        {
+          "id": "x2333",
+          "page": 329,
+          "version": "limpia",
+          "alt": "Elástico con volado de organza celeste y verde agua"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Naranja, celeste y verde agua: nombres de color puestos a partir de las fotos de la p. 329 (el PDF sólo nombra blanco, negro y rojo)"
+      ]
+    },
+    {
+      "name": "Elástico ELAS 16",
+      "pdf_text": "ELAS 16 CRUDO $ 35 el metro",
+      "pages": [
+        330
+      ],
+      "category": "elasticos",
+      "sku": "ELAS 16",
+      "material": null,
+      "badge": null,
+      "description": "Elástico de lencería con centro calado tipo red, en color crudo. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2337",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Crudo",
+          "hex": "#efe9d6"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2337",
+          "page": 330,
+          "version": "limpia",
+          "alt": "Rollo de elástico calado color crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Elástico ELAS 9",
+      "pdf_text": "ELAS 9 $ 35 el metro",
+      "pages": [
+        331
+      ],
+      "category": "elasticos",
+      "sku": "ELAS 9",
+      "material": null,
+      "badge": null,
+      "description": "Elástico de lencería angosto con borde de piquito; en las fotos se ve en turquesa, fucsia y verde manzana. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2342",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2342",
+          "page": 331,
+          "version": "limpia",
+          "alt": "Rollos de elástico angosto turquesa, fucsia y verde manzana"
+        },
+        {
+          "id": "x2344",
+          "page": 331,
+          "version": "limpia",
+          "alt": "Elástico angosto turquesa, fucsia y verde manzana con sus rollos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Elástico ELAS 05",
+      "pdf_text": "ELAS 05 $ 35 el metro",
+      "pages": [
+        332
+      ],
+      "category": "elasticos",
+      "sku": "ELAS 05",
+      "material": null,
+      "badge": null,
+      "description": "Elástico de lencería con borde de piquito; en las fotos se ve en tonos piel, rosa pálido y amarillo claro. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2348",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2348",
+          "page": 332,
+          "version": "limpia",
+          "alt": "Rollos de elástico con piquito en tonos piel"
+        },
+        {
+          "id": "x2350",
+          "page": 332,
+          "version": "limpia",
+          "alt": "Elástico con piquito en beige, amarillo claro y rosa pálido"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Elástico ELAS 6",
+      "pdf_text": "ELAS 6 $ 35 el metro",
+      "pages": [
+        333
+      ],
+      "category": "elasticos",
+      "sku": "ELAS 6",
+      "material": null,
+      "badge": null,
+      "description": "Elástico blanco con borde de puntilla de color: amarillo, verde, rosa, celeste y naranja según las fotos. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2354",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2354",
+          "page": 333,
+          "version": "limpia",
+          "alt": "Rollos de elástico blanco con puntilla de color amarillo, verde, rosa, celeste y naranja"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Elástico lencería",
+      "pdf_text": "ELASTICO LENCERIA BLANCO , NEGRO , CRUDO Y BEIGE 1 CM $ 15 PIEZA X 50 MT $ 35 el metro / 1,8 CM $ 22 PIEZA X 25 MT $ 48 el metro",
+      "pages": [
+        334
+      ],
+      "category": "elasticos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Elástico de lencería liso con brillo, en 1 y 1,8 cm de ancho, en blanco, negro, crudo y beige. Se corta por metro o se lleva la pieza cerrada a mejor precio.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 750,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "1,8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 25 m",
+              "unit": "m",
+              "content_qty": 25,
+              "price": 550,
+              "unit_price": 22,
+              "printed": 22
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanco",
+          "hex": "#f4f4f4"
+        },
+        {
+          "name": "Negro",
+          "hex": "#1b1b1b"
+        },
+        {
+          "name": "Crudo",
+          "hex": "#f1ead0"
+        },
+        {
+          "name": "Beige",
+          "hex": "#e8c9a0"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2361",
+          "page": 334,
+          "version": "limpia",
+          "alt": "Rollos de elástico de lencería beige, crudo y negro con tiras blancas"
+        },
+        {
+          "id": "x2359",
+          "page": 334,
+          "version": "limpia",
+          "alt": "Elástico de lencería beige, crudo, blanco y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se interpretó $ 35 / $ 48 como precio por metro suelto y $ 15 / $ 22 como precio por metro llevando la pieza cerrada (50 m / 25 m); confirmar"
+      ]
+    },
+    {
+      "name": "Elástico lencería ELAS N 1",
+      "pdf_text": "ELAS N 1 LENCERIA $ 35 el metro",
+      "pages": [
+        335
+      ],
+      "category": "elasticos",
+      "sku": "ELAS N 1",
+      "material": null,
+      "badge": null,
+      "description": "Elástico de lencería angosto en variedad de colores: celeste, azul, rosa, lila, verde, amarillo, fucsia y violeta, entre otros. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x2366",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2366",
+          "page": 335,
+          "version": "limpia",
+          "alt": "Rollos de elástico de lencería angosto en muchos colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [
+    {
+      "page": 299,
+      "id": "x2129",
+      "reason": "foto repetida: miniatura de la caja de ovillos matizados (x2130)"
+    },
+    {
+      "page": 317,
+      "id": "x2248",
+      "reason": "foto repetida: es la misma de la p. 316, ya asignada a Cinta organza"
+    }
+  ],
+  "unused_prices": []
+}

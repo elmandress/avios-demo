@@ -1,0 +1,2612 @@
+{
+  "batch": 3,
+  "products": [
+    {
+      "name": "Cono de hilo poliéster 40-2",
+      "pdf_text": "CONO POLIESTER 40-2 2000 YRDS 60 COLORES DIFERENTES $75 / CONO POLIESTER 40-2 5000 YRDS 60 COLORES DIFERENTES $ 119",
+      "pages": [
+        73,
+        74
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": "poliéster",
+      "badge": null,
+      "description": "Cono de hilo de poliéster 40-2 para coser, en conos de 2000 o de 5000 yardas. Hay 60 colores diferentes.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2000 yd",
+          "hex": null,
+          "image": "x553",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Cono · 2000 yd",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        },
+        {
+          "label": "5000 yd",
+          "hex": null,
+          "image": "x558",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Cono · 5000 yd",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x558",
+          "page": 74,
+          "version": "limpia",
+          "alt": "Conos de hilo poliéster de 5000 yardas en tres filas de colores"
+        },
+        {
+          "id": "x553",
+          "page": 73,
+          "version": "limpia",
+          "alt": "Conos de hilo poliéster de 2000 yardas en tres filas de colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cono de hilo Streech Forthil 70-2 · 3000 m",
+      "pdf_text": "CONO STREECH FORTHIL 70 -2 3000 METROS VARIEDADA DE COLORES $ 117",
+      "pages": [
+        75
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cono de hilo de coser Streech Forthil 70-2 de 3000 metros. Viene en variedad de colores.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Cono · 3000 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 117,
+              "unit_price": 117,
+              "printed": 117
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x563",
+          "page": 75,
+          "version": "limpia",
+          "alt": "Conos de hilo Streech Forthil colgados en variedad de colores"
+        },
+        {
+          "id": "x565",
+          "page": 75,
+          "version": "limpia",
+          "alt": "Dos conos Forthil Streech 70/2 de 3000 metros, blanco y negro, en su envase"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Caja con porta bobina e hilos poliéster 40-2",
+      "pdf_text": "CAJA CON PORTA BOBINA Y HILOS POLYESTER 40-2 X 25 $ 398 / CAJA CON PORTA BOBINA Y HILOS POLYESTER 40-2 X 36 $ 558",
+      "pages": [
+        76
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": "poliéster",
+      "badge": null,
+      "description": "Caja plástica porta bobinas que ya viene con las bobinas cargadas de hilo poliéster 40-2 en colores surtidos. Hay de 25 y de 36 bobinas.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Caja x 25",
+          "hex": null,
+          "image": "x569",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Caja",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 398,
+              "unit_price": 398,
+              "printed": 398
+            }
+          ]
+        },
+        {
+          "label": "Caja x 36",
+          "hex": null,
+          "image": "x571",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Caja",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 558,
+              "unit_price": 558,
+              "printed": 558
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x571",
+          "page": 76,
+          "version": "limpia",
+          "alt": "Caja transparente con 36 bobinas de hilo de colores y otra de 25 arriba"
+        },
+        {
+          "id": "x569",
+          "page": 76,
+          "version": "limpia",
+          "alt": "Caja transparente abierta con 25 bobinas de hilo de colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco lúrex elastizado 10 cm",
+      "pdf_text": "FLECO LUREX ELASTIZADO 10 CMS. $ 248 el metro",
+      "pages": [
+        77
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco de lúrex elastizado de 10 cm, con terminación en bucles. En las fotos se ve en dorado y en plateado; se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a13a",
+          "image": "x577",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 248,
+              "unit_price": 248,
+              "printed": 248
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c9cccd",
+          "image": "x578",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 248,
+              "unit_price": 248,
+              "printed": 248
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x577",
+          "page": 77,
+          "version": "limpia",
+          "alt": "Fleco de lúrex dorado con bucles"
+        },
+        {
+          "id": "x578",
+          "page": 77,
+          "version": "limpia",
+          "alt": "Fleco de lúrex plateado con bucles"
+        },
+        {
+          "id": "x575",
+          "page": 77,
+          "version": "limpia",
+          "alt": "Tira de fleco de lúrex dorado claro sobre madera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "Hay dos fotos doradas (una más clara que la otra): confirmar si son dos tonos distintos de dorado"
+      ]
+    },
+    {
+      "name": "Fleco de seda 10 cm",
+      "pdf_text": "FLECO SEDA 10 CMS. $ 187 el metro",
+      "pages": [
+        78,
+        79
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco de seda de 10 cm de largo. En las fotos se ve en dorado, blanco, negro y rojo; se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#b88a4a",
+          "image": "x583",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 187,
+              "unit_price": 187,
+              "printed": 187
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#ece8de",
+          "image": "x585",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 187,
+              "unit_price": 187,
+              "printed": 187
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c20",
+          "image": "x590",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 187,
+              "unit_price": 187,
+              "printed": 187
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c8102e",
+          "image": "x592",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 187,
+              "unit_price": 187,
+              "printed": 187
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x592",
+          "page": 79,
+          "version": "limpia",
+          "alt": "Fleco de seda rojo"
+        },
+        {
+          "id": "x590",
+          "page": 79,
+          "version": "limpia",
+          "alt": "Fleco de seda negro"
+        },
+        {
+          "id": "x583",
+          "page": 78,
+          "version": "limpia",
+          "alt": "Fleco de seda dorado"
+        },
+        {
+          "id": "x585",
+          "page": 78,
+          "version": "limpia",
+          "alt": "Fleco de seda blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos (el claro puede ser blanco o crudo)"
+      ]
+    },
+    {
+      "name": "Fleco animal print 10 cm",
+      "pdf_text": "FLECO ANIMAL PRINT 10 CMS. $ 248 el metro",
+      "pages": [
+        80
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco de 10 cm con estampado animal print en tonos beige, marrón y negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 248,
+              "unit_price": 248,
+              "printed": 248
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x597",
+          "page": 80,
+          "version": "limpia",
+          "alt": "Fleco animal print en tonos beige, marrón y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco de seda 20 cm",
+      "pdf_text": "FLECO SEDA 20 CMS. $ 317 el metro · ROJO, BORDO, SALMON, VERDE, ROSA VIEJO, BLANCO, NEGRO, AZUL FRANCIA, TURQUESA, VIOLETA, LILA, AZUL MARINO, PLATEADO, DORADO, ROSADO, CRUDO, AMARILLO FLUO, ROSA FLUO",
+      "pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco de seda de 20 cm de largo, con buena caída, en 18 colores lisos incluidos flúo, dorado y plateado. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Rojo",
+          "hex": "#e2362f",
+          "image": "x603",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Bordó",
+          "hex": "#a3153d",
+          "image": "x605",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#ee8a4c",
+          "image": "x606",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#1f6a52",
+          "image": "x607",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Rosa viejo",
+          "hex": "#d7a097",
+          "image": "x608",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f4f4f2",
+          "image": "x612",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1a",
+          "image": "x614",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#1428c4",
+          "image": "x619",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Turquesa",
+          "hex": "#1fa5d4",
+          "image": "x621",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Violeta",
+          "hex": "#6b34c8",
+          "image": "x626",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Lila",
+          "hex": "#c79ae0",
+          "image": "x628",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Azul marino",
+          "hex": "#1f2b5e",
+          "image": "x630",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#e2c488",
+          "image": "x634",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#a8a9a5",
+          "image": "x636",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Rosado",
+          "hex": "#f08aa5",
+          "image": "x643",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#efe1c3",
+          "image": "x641",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Amarillo flúo",
+          "hex": "#c6f000",
+          "image": "x650",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        },
+        {
+          "label": "Rosa flúo",
+          "hex": "#ff3a6a",
+          "image": "x648",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 317,
+              "unit_price": 317,
+              "printed": 317
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x603",
+          "page": 81,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color rojo"
+        },
+        {
+          "id": "x605",
+          "page": 81,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color bordó"
+        },
+        {
+          "id": "x606",
+          "page": 81,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color salmón"
+        },
+        {
+          "id": "x607",
+          "page": 81,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color verde"
+        },
+        {
+          "id": "x608",
+          "page": 81,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color rosa viejo"
+        },
+        {
+          "id": "x612",
+          "page": 82,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color blanco"
+        },
+        {
+          "id": "x614",
+          "page": 82,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color negro"
+        },
+        {
+          "id": "x619",
+          "page": 83,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color azul Francia"
+        },
+        {
+          "id": "x621",
+          "page": 83,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color turquesa"
+        },
+        {
+          "id": "x626",
+          "page": 84,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color violeta"
+        },
+        {
+          "id": "x628",
+          "page": 84,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color lila"
+        },
+        {
+          "id": "x630",
+          "page": 84,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color azul marino"
+        },
+        {
+          "id": "x634",
+          "page": 85,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color dorado"
+        },
+        {
+          "id": "x636",
+          "page": 85,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color plateado"
+        },
+        {
+          "id": "x643",
+          "page": 86,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color rosado"
+        },
+        {
+          "id": "x641",
+          "page": 86,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color crudo"
+        },
+        {
+          "id": "x650",
+          "page": 87,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color amarillo flúo"
+        },
+        {
+          "id": "x648",
+          "page": 87,
+          "version": "etiquetada",
+          "alt": "Fleco de seda de 20 cm color rosa flúo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco 5 cm cód. 719",
+      "pdf_text": "FLECO 5 CMS. COD 719 $ 108",
+      "pages": [
+        88
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "719",
+      "material": null,
+      "badge": null,
+      "description": "Fleco de 5 cm con terminación en bucles. En las fotos se ve en rojo, verde, amarillo y marrón.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Rojo",
+          "hex": "#d3221c",
+          "image": "x659",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#6f8f55",
+          "image": "x655",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#e8a81c",
+          "image": "x657",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Marrón",
+          "hex": "#5a3a2c",
+          "image": "x658",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x659",
+          "page": 88,
+          "version": "limpia",
+          "alt": "Fleco de bucles rojo de 5 cm"
+        },
+        {
+          "id": "x655",
+          "page": 88,
+          "version": "limpia",
+          "alt": "Fleco de bucles verde de 5 cm"
+        },
+        {
+          "id": "x657",
+          "page": 88,
+          "version": "limpia",
+          "alt": "Fleco de bucles amarillo de 5 cm"
+        },
+        {
+          "id": "x658",
+          "page": 88,
+          "version": "limpia",
+          "alt": "Fleco de bucles marrón de 5 cm"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Fleco de seda 20 cm combinado",
+      "pdf_text": "FLECO SEDA 20 CMS. COMBINADO $ 348 el metro",
+      "pages": [
+        89
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco de seda de 20 cm en dos colores degradé. En las fotos: blanco con negro, blanco con verde claro, amarillo flúo con naranja y fucsia con blanco. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 348,
+              "unit_price": 348,
+              "printed": 348
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x666",
+          "page": 89,
+          "version": "limpia",
+          "alt": "Flecos combinados amarillo flúo con naranja y fucsia con blanco"
+        },
+        {
+          "id": "x664",
+          "page": 89,
+          "version": "limpia",
+          "alt": "Flecos combinados blanco con negro y blanco con verde claro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco lúrex 20 cm",
+      "pdf_text": "FLECO LUREX 20 CMS ANCHO $ 198 el metro",
+      "pages": [
+        90,
+        91
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco de lúrex brillante de 20 cm, tipo lluvia metalizada. En las fotos se ve en verde, verde agua, fucsia, rosa, plateado, plateado holográfico, blanco tornasolado y rojo; se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Verde",
+          "hex": "#5aa83a",
+          "image": "x678",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Verde agua",
+          "hex": "#2fa392",
+          "image": "x680",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#c2185b",
+          "image": "x681",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#c2566f",
+          "image": "x682",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#9a9c9e",
+          "image": "x683",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Plateado holográfico",
+          "hex": "#b4b8ba",
+          "image": "x684",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Blanco tornasolado",
+          "hex": "#e6e6ea",
+          "image": "x685",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#d2202a",
+          "image": "x686",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x678",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color verde"
+        },
+        {
+          "id": "x680",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color verde agua"
+        },
+        {
+          "id": "x681",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color fucsia"
+        },
+        {
+          "id": "x682",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color rosa"
+        },
+        {
+          "id": "x683",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color plateado"
+        },
+        {
+          "id": "x684",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color plateado holográfico"
+        },
+        {
+          "id": "x685",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color blanco tornasolado"
+        },
+        {
+          "id": "x686",
+          "page": 91,
+          "version": "limpia",
+          "alt": "Fleco de lúrex de 20 cm color rojo"
+        },
+        {
+          "id": "x670",
+          "page": 90,
+          "version": "limpia",
+          "alt": "Flecos de lúrex fucsia y rosa"
+        },
+        {
+          "id": "x673",
+          "page": 90,
+          "version": "limpia",
+          "alt": "Flecos de lúrex plateado holográfico y plateado"
+        },
+        {
+          "id": "x672",
+          "page": 90,
+          "version": "limpia",
+          "alt": "Flecos de lúrex rojo y blanco tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Rodilleras",
+      "pdf_text": "RODILLERAS $ 108 · MARRON, CELESTE MEDIO, FRANCIA, VERDE INGLES, VERDE ITALIA, VERDE MILITAR, CHOCOLATE, GRIS OSCURO, ROJO, BORDO, CREMA, NEGRO, MARINO, CELESTE, TOSTADO",
+      "pages": [
+        92,
+        93
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Rodilleras ovaladas para reforzar o remendar pantalones, en 15 colores. Según el envase son parches termoadhesivos.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Marrón",
+          "hex": "#3a2a26",
+          "image": "x690",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Celeste medio",
+          "hex": "#3f78b0",
+          "image": "x692",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Francia",
+          "hex": "#24349a",
+          "image": "x693",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Verde inglés",
+          "hex": "#2c4a3c",
+          "image": "x694",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Verde Italia",
+          "hex": "#2f8f4a",
+          "image": "x695",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Verde militar",
+          "hex": "#4a4a3a",
+          "image": "x696",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Chocolate",
+          "hex": "#5a4234",
+          "image": "x697",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Gris oscuro",
+          "hex": "#3a3f42",
+          "image": "x702",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c8222a",
+          "image": "x704",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Bordó",
+          "hex": "#8a2228",
+          "image": "x705",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Crema",
+          "hex": "#e6d3a6",
+          "image": "x706",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#2b2a26",
+          "image": "x707",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Marino",
+          "hex": "#2a2f45",
+          "image": "x708",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#a9cfd8",
+          "image": "x709",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Tostado",
+          "hex": "#8a744e",
+          "image": "x710",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x690",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color marrón en su envase"
+        },
+        {
+          "id": "x692",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color celeste medio en su envase"
+        },
+        {
+          "id": "x693",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color azul Francia en su envase"
+        },
+        {
+          "id": "x694",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color verde inglés en su envase"
+        },
+        {
+          "id": "x695",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color verde Italia en su envase"
+        },
+        {
+          "id": "x696",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color verde militar en su envase"
+        },
+        {
+          "id": "x697",
+          "page": 92,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color chocolate en su envase"
+        },
+        {
+          "id": "x702",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color gris oscuro en su envase"
+        },
+        {
+          "id": "x704",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color rojo en su envase"
+        },
+        {
+          "id": "x705",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color bordó en su envase"
+        },
+        {
+          "id": "x706",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color crema en su envase"
+        },
+        {
+          "id": "x707",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color negro en su envase"
+        },
+        {
+          "id": "x708",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color marino en su envase"
+        },
+        {
+          "id": "x709",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color celeste en su envase"
+        },
+        {
+          "id": "x710",
+          "page": 93,
+          "version": "limpia",
+          "alt": "Rodillera ovalada color tostado en su envase"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par"
+      ]
+    },
+    {
+      "name": "Tiento 3 mm",
+      "pdf_text": "TIENTO 3MM. $ 48 el metro por mayor 20 % menos · NEGRO, BEIGE, TOSTADO, VERDE SECO, ROSA VIEJO",
+      "pages": [
+        94,
+        95
+      ],
+      "category": "cordones-y-tientos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tiento plano de 3 mm en carretel, en negro, beige, tostado, verde seco y rosa viejo. Se vende por metro, con 20 % menos por mayor.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Negro",
+          "hex": "#2a2a2c",
+          "image": "x717",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 38.4,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 48"
+            }
+          ]
+        },
+        {
+          "label": "Beige",
+          "hex": "#cfc8b4",
+          "image": "x715",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 38.4,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 48"
+            }
+          ]
+        },
+        {
+          "label": "Tostado",
+          "hex": "#c79a7c",
+          "image": "x715",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 38.4,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 48"
+            }
+          ]
+        },
+        {
+          "label": "Verde seco",
+          "hex": "#8a8440",
+          "image": "x722",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 38.4,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 48"
+            }
+          ]
+        },
+        {
+          "label": "Rosa viejo",
+          "hex": "#e89aa4",
+          "image": "x722",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 38.4,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 48"
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x715",
+          "page": 94,
+          "version": "etiquetada",
+          "alt": "Carreteles de tiento beige y tostado"
+        },
+        {
+          "id": "x717",
+          "page": 94,
+          "version": "etiquetada",
+          "alt": "Carretel de tiento negro"
+        },
+        {
+          "id": "x722",
+          "page": 95,
+          "version": "limpia",
+          "alt": "Carreteles de tiento verde seco y rosa viejo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Por mayor 20 % menos: el PDF no dice cantidad mínima ni metraje del carretel; se calculó $ 38,40 el metro"
+      ]
+    },
+    {
+      "name": "Hilo de papel cód. 1007 · 100 yd",
+      "pdf_text": "HILO PAPEL COD. 1007 100 YRDS. $ 438",
+      "pages": [
+        96
+      ],
+      "category": "hilos-y-lanas",
+      "sku": "1007",
+      "material": "papel",
+      "badge": null,
+      "description": "Rollo de hilo de papel retorcido color kraft, de 100 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 100 yd",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 438,
+              "unit_price": 438,
+              "printed": 438
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x728",
+          "page": 96,
+          "version": "limpia",
+          "alt": "Rollo de hilo de papel retorcido color kraft"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Rafia natural 50 g cód. 1009",
+      "pdf_text": "RAFIA NATURAL 50 GRS. COD. 1009 $ 242",
+      "pages": [
+        97
+      ],
+      "category": "hilos-y-lanas",
+      "sku": "1009",
+      "material": "rafia natural",
+      "badge": null,
+      "description": "Rafia natural en atado de 50 gramos, color crudo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Atado · 50 g",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 242,
+              "unit_price": 242,
+              "printed": 242
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x736",
+          "page": 97,
+          "version": "limpia",
+          "alt": "Atados de rafia natural color crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Hilo cód. 1006 · 100 m",
+      "pdf_text": "HILO COD. 1006 100 METROS $ 145",
+      "pages": [
+        97
+      ],
+      "category": "hilos-y-lanas",
+      "sku": "1006",
+      "material": null,
+      "badge": null,
+      "description": "Ovillo de hilo rústico color natural, de 100 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ovillo · 100 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x733",
+          "page": 97,
+          "version": "limpia",
+          "alt": "Ovillo de hilo rústico color natural"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF sólo dice 'HILO COD. 1006': no aclara qué tipo de hilo es (en la foto es un ovillo rústico tipo yute)"
+      ]
+    },
+    {
+      "name": "Hilo sisal",
+      "pdf_text": "HILO SISAL $ 405",
+      "pages": [
+        98
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": "sisal",
+      "badge": null,
+      "description": "Rollo de hilo sisal retorcido, color natural.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 405,
+              "unit_price": 405,
+              "printed": 405
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x742",
+          "page": 98,
+          "version": "limpia",
+          "alt": "Rollos de hilo sisal parados"
+        },
+        {
+          "id": "x740",
+          "page": 98,
+          "version": "limpia",
+          "alt": "Rollo de hilo sisal visto de frente"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se tomó $ 405 como precio del rollo; el PDF no indica metraje ni peso"
+      ]
+    },
+    {
+      "name": "Hilo para souvenirs dorado y plateado",
+      "pdf_text": "HILO SOUVENIRS DORADO Y PLATEADO ROLLO 110 YRDS. $ 550 EL METRO $ 9",
+      "pages": [
+        99
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hilo metalizado para souvenirs, en dorado y en plateado. Se vende por metro o el rollo de 110 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#b8891c",
+          "image": "x747",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            },
+            {
+              "tier": "mayor",
+              "label": "Rollo · 110 yd",
+              "unit": "yd",
+              "content_qty": 110,
+              "price": 550,
+              "unit_price": 5,
+              "printed": 550
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#b9bcc0",
+          "image": "x747",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            },
+            {
+              "tier": "mayor",
+              "label": "Rollo · 110 yd",
+              "unit": "yd",
+              "content_qty": 110,
+              "price": 550,
+              "unit_price": 5,
+              "printed": 550
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x747",
+          "page": 99,
+          "version": "limpia",
+          "alt": "Carreteles de hilo metalizado dorado y plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Hilo para macramé",
+      "pdf_text": "HILO PARA MACRAME · 2 MM x 100 METROS $ 319 / 3 MM x 100 METROS $ 429 / 4 MM x 80 METROS $ 539 / 5 MM x 60 METROS $ 539 / 6 MM x 50 METROS $ 539",
+      "pages": [
+        100,
+        101,
+        102
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hilo retorcido color crudo para macramé, en rollos de 2 a 6 mm de grosor. El largo del rollo cambia según el grosor.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 mm",
+          "hex": null,
+          "image": "x758",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 100 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 319,
+              "unit_price": 319,
+              "printed": 319
+            }
+          ]
+        },
+        {
+          "label": "3 mm",
+          "hex": null,
+          "image": "x761",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 100 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "4 mm",
+          "hex": null,
+          "image": "x760",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 80 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "5 mm",
+          "hex": null,
+          "image": "x766",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 60 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": "x768",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 50 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x752",
+          "page": 100,
+          "version": "limpia",
+          "alt": "Rollos de hilo para macramé color crudo en distintos grosores"
+        },
+        {
+          "id": "x758",
+          "page": 101,
+          "version": "limpia",
+          "alt": "Rollo de hilo para macramé de 2 mm"
+        },
+        {
+          "id": "x761",
+          "page": 101,
+          "version": "limpia",
+          "alt": "Rollo de hilo para macramé de 3 mm"
+        },
+        {
+          "id": "x760",
+          "page": 101,
+          "version": "limpia",
+          "alt": "Rollo de hilo para macramé de 4 mm"
+        },
+        {
+          "id": "x766",
+          "page": 102,
+          "version": "limpia",
+          "alt": "Rollo de hilo para macramé de 5 mm"
+        },
+        {
+          "id": "x768",
+          "page": 102,
+          "version": "limpia",
+          "alt": "Rollo de hilo para macramé de 6 mm"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Silicona líquida",
+      "pdf_text": "SILICONA LIQUIDA 30 ML $ 64 / 50 ML $ 108 / 100 ML $ 132 / 150 ML $ 185 / 250 ML $ 290",
+      "pages": [
+        103
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Silicona líquida en frasco con pico aplicador, en cinco tamaños de 30 a 250 ml.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "30 ml",
+          "hex": null,
+          "image": "x773",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        },
+        {
+          "label": "50 ml",
+          "hex": null,
+          "image": "x773",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "100 ml",
+          "hex": null,
+          "image": "x773",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        },
+        {
+          "label": "150 ml",
+          "hex": null,
+          "image": "x773",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 185,
+              "unit_price": 185,
+              "printed": 185
+            }
+          ]
+        },
+        {
+          "label": "250 ml",
+          "hex": null,
+          "image": "x773",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 290,
+              "unit_price": 290,
+              "printed": 290
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x773",
+          "page": 103,
+          "version": "limpia",
+          "alt": "Cinco frascos de silicona líquida de distintos tamaños"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Pistola para silicona estampada 20 W para barra fina",
+      "pdf_text": "PISTOLA PARA SILICONA 20 W ESTAMPADA PARA BARRA FINA $ 398",
+      "pages": [
+        104
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pistola para silicona de 20 W para barra fina, con diseño estampado de manchas de colores.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 398,
+              "unit_price": 398,
+              "printed": 398
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x780",
+          "page": 104,
+          "version": "limpia",
+          "alt": "Pistola para silicona estampada con manchas de colores y barras"
+        },
+        {
+          "id": "x778",
+          "page": 104,
+          "version": "limpia",
+          "alt": "Pistola para silicona estampada con su cable y envases"
+        },
+        {
+          "id": "x781",
+          "page": 104,
+          "version": "limpia",
+          "alt": "Pistola para silicona estampada chica con cable y dos barras"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Pistola para silicona con botón de encendido y apagado",
+      "pdf_text": "PISTOLA PARA SILICONA 11 MM PREMIUN 100 W $ 989 / 11 MM 60 W $ 490 / 7 MM 20 W $ 350 BOTON DE ENCENDIDO Y APAGADO",
+      "pages": [
+        105
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pistola para silicona azul con botón de encendido y apagado. Viene para barra de 11 mm (Premium de 100 W o de 60 W) y para barra de 7 mm (20 W).",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "11 mm Premium · 100 W",
+          "hex": null,
+          "image": "x788",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 989,
+              "unit_price": 989,
+              "printed": 989
+            }
+          ]
+        },
+        {
+          "label": "11 mm · 60 W",
+          "hex": null,
+          "image": "x788",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "7 mm · 20 W",
+          "hex": null,
+          "image": "x788",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 350,
+              "unit_price": 350,
+              "printed": 350
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x788",
+          "page": 105,
+          "version": "limpia",
+          "alt": "Tres pistolas para silicona azules en blíster, de distintos tamaños"
+        },
+        {
+          "id": "x786",
+          "page": 105,
+          "version": "limpia",
+          "alt": "Pistola para silicona azul con gatillo naranja y botón rojo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Barra de silicona transparente",
+      "pdf_text": "BARRA SILICONA TRASPARENTE FINAS $ 16 GRUESA $ 20",
+      "pages": [
+        106
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Barras de silicona transparente para pistola, en fina y en gruesa. Se venden por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Fina",
+          "hex": null,
+          "image": "x793",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "Gruesa",
+          "hex": null,
+          "image": "x793",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x793",
+          "page": 106,
+          "version": "limpia",
+          "alt": "Manos sosteniendo barras de silicona transparente"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Barra de silicona con glitter",
+      "pdf_text": "BARRA SILICONA GLITTER FINAS $ 16 GRUESAS $ 20",
+      "pages": [
+        107
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Barras de silicona con glitter en colores surtidos (rojo, azul, verde, dorado, plateado, rosa), en fina y en gruesa. Se venden por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Fina",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "Gruesa",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x799",
+          "page": 107,
+          "version": "limpia",
+          "alt": "Barras de silicona con glitter en colores surtidos"
+        },
+        {
+          "id": "x801",
+          "page": 107,
+          "version": "limpia",
+          "alt": "Barras de silicona con glitter de varios colores sobre una mesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Barra de silicona en colores",
+      "pdf_text": "BARRA SILICONA EN COLORES FINAS $ 16 GRUESA $ 20",
+      "pages": [
+        108
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Barras de silicona de colores lisos surtidos, en fina y en gruesa. Se venden por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Fina",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "Gruesa",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x808",
+          "page": 108,
+          "version": "limpia",
+          "alt": "Barras de silicona de colores surtidos sobre un plato"
+        },
+        {
+          "id": "x806",
+          "page": 108,
+          "version": "limpia",
+          "alt": "Barras de silicona de colores en abanico"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "TNT 1,40 m de ancho",
+      "pdf_text": "TNT 1,40 DE ANCHO POR METRO $ 33 X PIEZA DE 50 METROS 30 % DESCUENTO VARIEDAD DE COLORES",
+      "pages": [
+        109
+      ],
+      "category": "telas-y-entretelas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "TNT de 1,40 de ancho, en variedad de colores. Se vende por metro, y llevando la pieza de 50 metros tiene 30 % de descuento.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 33,
+              "unit_price": 33,
+              "printed": 33
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 1155,
+              "unit_price": 23.1,
+              "printed": null,
+              "derived_from": "30 % menos sobre $ 33"
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x813",
+          "page": 109,
+          "version": "limpia",
+          "alt": "Rollos de TNT parados en variedad de colores"
+        },
+        {
+          "id": "x815",
+          "page": 109,
+          "version": "limpia",
+          "alt": "Rollo de TNT amarillo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Pieza de 50 metros con 30 % de descuento: precio calculado ($ 23,10 el metro, $ 1.155 la pieza)"
+      ]
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

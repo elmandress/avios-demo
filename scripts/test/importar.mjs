@@ -63,10 +63,10 @@ const vacio = { ...DEMO_CATALOG, products: [] }
 const r = previsualizarImportacion(csv, vacio)
 
 check(r.ok, r.ok ? 'la planilla se acepta entera' : `RECHAZADA: ${r.errores[0]?.motivo}`)
-check(
-  r.nuevos.length === DEMO_CATALOG.products.length,
-  `entran los ${DEMO_CATALOG.products.length} artículos (entraron ${r.nuevos.length})`
-)
+// La planilla es una fila por PRECIO: los artículos "a consultar", que el
+// catálogo trae sin precio, no tienen fila y por eso no vuelven por acá.
+const conPrecio = DEMO_CATALOG.products.filter((p) => p.variants.some((v) => v.formats.length > 0)).length
+check(r.nuevos.length === conPrecio, `entran los ${conPrecio} artículos con precio (entraron ${r.nuevos.length})`)
 
 const preciosOriginal = DEMO_CATALOG.products.reduce(
   (n, p) => n + p.variants.reduce((m, v) => m + v.formats.length, 0),
@@ -114,7 +114,7 @@ console.log('\nNo borra lo que la planilla no menciona\n')
 
 const parcial = [
   'Categoría,Artículo,Código,Variante,Presentación,Unidad,Contenido,Precio,Precio por unidad,Por mayor,Estado',
-  'Cintas,Cinta de raso doble faz,,4 mm (Nro 0),Por metro,m,1,15,15,no,publicado',
+  'Cintas,Cinta raso doble faz,,4 mm (Nro 0),Por metro,m,1,15,15,no,publicado',
 ].join('\n')
 const p = previsualizarImportacion(parcial, DEMO_CATALOG)
 check(p.ok, 'acepta una planilla con un solo artículo')
@@ -124,7 +124,7 @@ check(
   `deja intactos los otros ${DEMO_CATALOG.products.length - 1} artículos (dejó ${p.intactos})`
 )
 if (p.catalogo) {
-  const raso = p.catalogo.products.find((x) => x.name === 'Cinta de raso doble faz')
+  const raso = p.catalogo.products.find((x) => x.name === 'Cinta raso doble faz')
   check(raso?.media.length > 0, 'conserva las fotos, que la planilla no trae')
   check(raso?.variants[0].formats[0].priceUyu === 15, 'aplica el precio nuevo')
 }

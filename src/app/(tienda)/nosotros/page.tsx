@@ -78,8 +78,8 @@ export default async function NosotrosPage() {
           ))}
         </div>
         <p style={{ ...paragraph, fontSize: 14.5, color: avios.ink500, marginTop: 16 }}>
-          El sitio muestra una parte del catálogo: en el local hay bastante más. Si buscás algo que
-          no está publicado, preguntanos.
+          El sitio tiene el catálogo completo, pero en el local siempre entra mercadería nueva. Si
+          buscás algo que no está publicado, preguntanos.
         </p>
       </section>
 

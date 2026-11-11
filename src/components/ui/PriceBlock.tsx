@@ -46,6 +46,15 @@ export function PriceBlock({
     )
   }
 
+  // Sin precio en el catálogo ("consultar precios"): no se muestra $ 0.
+  if (final <= 0) {
+    return (
+      <span style={{ fontFamily: avios.fontSans, fontSize: s.final, fontWeight: 500, color: avios.ink700 }}>
+        Consultar precio
+      </span>
+    )
+  }
+
   const discounted = final < list && list > 0
   const unitText = showUnit && unit && unit !== 'u' ? `${UNIT_NOUN[unit].article} ${UNIT_NOUN[unit].singular}` : ''
 

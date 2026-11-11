@@ -1,0 +1,3961 @@
+{
+  "batch": 2,
+  "products": [
+    {
+      "name": "Cinta pampa",
+      "pdf_text": "CINTA PAMPA 1,2 CMS. $ 64 (N 1, N 2, N 3, N 4) / CINTA PAMPA 1,8 CMS. $ 75 (N 5, N 6, N 7, N 8) / CINTA PAMPA 3,2 CMS. $ 91 (N 9, N 10, N 11, N 12)",
+      "pages": [
+        38,
+        39
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta pampa con guarda criolla tejida, en tres anchos (1,2 cm, 1,8 cm y 3,2 cm) y doce diseños numerados. Se corta por metro.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1 · 1,2 cm",
+          "hex": null,
+          "image": "x272",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        },
+        {
+          "label": "N 2 · 1,2 cm",
+          "hex": null,
+          "image": "x269",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        },
+        {
+          "label": "N 3 · 1,2 cm",
+          "hex": null,
+          "image": "x271",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        },
+        {
+          "label": "N 4 · 1,2 cm",
+          "hex": null,
+          "image": "x273",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        },
+        {
+          "label": "N 5 · 1,8 cm",
+          "hex": null,
+          "image": "x277",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        },
+        {
+          "label": "N 6 · 1,8 cm",
+          "hex": null,
+          "image": "x277",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        },
+        {
+          "label": "N 7 · 1,8 cm",
+          "hex": null,
+          "image": "x277",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        },
+        {
+          "label": "N 8 · 1,8 cm",
+          "hex": null,
+          "image": "x277",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        },
+        {
+          "label": "N 9 · 3,2 cm",
+          "hex": null,
+          "image": "x280",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 91,
+              "unit_price": 91,
+              "printed": 91
+            }
+          ]
+        },
+        {
+          "label": "N 10 · 3,2 cm",
+          "hex": null,
+          "image": "x280",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 91,
+              "unit_price": 91,
+              "printed": 91
+            }
+          ]
+        },
+        {
+          "label": "N 11 · 3,2 cm",
+          "hex": null,
+          "image": "x280",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 91,
+              "unit_price": 91,
+              "printed": 91
+            }
+          ]
+        },
+        {
+          "label": "N 12 · 3,2 cm",
+          "hex": null,
+          "image": "x280",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 91,
+              "unit_price": 91,
+              "printed": 91
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x277",
+          "page": 39,
+          "version": "etiquetada",
+          "alt": "Cuatro rollos de cinta pampa de 1,8 cm apilados, modelos N 5 a N 8"
+        },
+        {
+          "id": "x280",
+          "page": 39,
+          "version": "etiquetada",
+          "alt": "Cuatro rollos de cinta pampa de 3,2 cm apilados, modelos N 9 a N 12"
+        },
+        {
+          "id": "x272",
+          "page": 38,
+          "version": "etiquetada",
+          "alt": "Rollos de cinta pampa negra con guarda beige de cruces y rombos, modelo N 1"
+        },
+        {
+          "id": "x269",
+          "page": 38,
+          "version": "etiquetada",
+          "alt": "Rollos de cinta pampa negra con guarda en rojo y blanco, modelo N 2"
+        },
+        {
+          "id": "x271",
+          "page": 38,
+          "version": "etiquetada",
+          "alt": "Rollos de cinta pampa azul oscuro con rombos dorados, modelo N 3"
+        },
+        {
+          "id": "x273",
+          "page": 38,
+          "version": "etiquetada",
+          "alt": "Rollos de cinta pampa negra con rombos en crudo, modelo N 4"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Cinta de nylon para bolso",
+      "pdf_text": "CINTA NYLON PARA BOLSO 21 MM $ 22 EL METRO X 20 METROS $ 11 / 25 MM $ 24 EL METRO X 20 METROS $ 12,10 / 30 MM $ 26 EL METRO X 20 METROS $ 15,40 / 35 MM $ 29 EL METRO X 20 METROS $ 16,50 / 50 MM $ 51 EL METRO X 20 METROS $ 28,60",
+      "pages": [
+        40
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": "nylon",
+      "badge": null,
+      "description": "Cinta de nylon para bolsos y mochilas, en cinco anchos de 21 a 50 mm. Se vende por metro o por pieza de 20 metros a precio más bajo; en las fotos se ve en negro y en azul marino.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "21 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 20 m",
+              "unit": "m",
+              "content_qty": 20,
+              "price": 220,
+              "unit_price": 11,
+              "printed": 11
+            }
+          ]
+        },
+        {
+          "label": "25 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 20 m",
+              "unit": "m",
+              "content_qty": 20,
+              "price": 242.0,
+              "unit_price": 12.1,
+              "printed": 12.1
+            }
+          ]
+        },
+        {
+          "label": "30 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 20 m",
+              "unit": "m",
+              "content_qty": 20,
+              "price": 308.0,
+              "unit_price": 15.4,
+              "printed": 15.4
+            }
+          ]
+        },
+        {
+          "label": "35 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 20 m",
+              "unit": "m",
+              "content_qty": 20,
+              "price": 330.0,
+              "unit_price": 16.5,
+              "printed": 16.5
+            }
+          ]
+        },
+        {
+          "label": "50 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 51,
+              "unit_price": 51,
+              "printed": 51
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 20 m",
+              "unit": "m",
+              "content_qty": 20,
+              "price": 572.0,
+              "unit_price": 28.6,
+              "printed": 28.6
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x284",
+          "page": 40,
+          "version": "limpia",
+          "alt": "Rollo de cinta de nylon negra para bolso"
+        },
+        {
+          "id": "x286",
+          "page": 40,
+          "version": "limpia",
+          "alt": "Cinta de nylon azul marino para bolso, detalle del tejido"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'X 20 METROS $ 11': se interpretó como precio por metro llevando la pieza de 20 metros",
+        "El PDF no nombra los colores disponibles (en las fotos: negro y azul marino)"
+      ]
+    },
+    {
+      "name": "Cinta de algodón para bolso color crudo",
+      "pdf_text": "CINTA ALGODON PARA BOLSO EN COLOR CRUDO 2,5 CM $ 42 EL METRO X 50 METROS $30,80 / 3 CM $ 50 EL METRO X 50 METROS $ 37,40 / 3,5 CM $ 64 EL METRO X 50 METROS $ 50,60 / 4 CM $ 75 EL METRO X 50 METROS $ 59,4",
+      "pages": [
+        41
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": "algodón",
+      "badge": null,
+      "description": "Cinta de algodón color crudo para bolsos y mochilas, en cuatro anchos de 2,5 a 4 cm. Se vende por metro o por pieza de 50 metros a precio más bajo.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 42,
+              "unit_price": 42,
+              "printed": 42
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 1540.0,
+              "unit_price": 30.8,
+              "printed": 30.8
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 50,
+              "unit_price": 50,
+              "printed": 50
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 1870.0,
+              "unit_price": 37.4,
+              "printed": 37.4
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 2530.0,
+              "unit_price": 50.6,
+              "printed": 50.6
+            }
+          ]
+        },
+        {
+          "label": "4 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 2970.0,
+              "unit_price": 59.4,
+              "printed": 59.4
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Crudo",
+          "hex": "#e9e1cf"
+        }
+      ],
+      "images": [
+        {
+          "id": "x291",
+          "page": 41,
+          "version": "limpia",
+          "alt": "Rollo de cinta de algodón cruda para bolso, con la punta desenrollada"
+        },
+        {
+          "id": "x293",
+          "page": 41,
+          "version": "limpia",
+          "alt": "Rollos de cinta de algodón cruda en distintos anchos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'X 50 METROS $ 30,80': se interpretó como precio por metro llevando la pieza de 50 metros"
+      ]
+    },
+    {
+      "name": "Cinta hilera de algodón",
+      "pdf_text": "CINTA HILERA ALGODÓN BLANCA 1 CM $ 22 / NEGRA Y CRUDA 1 CM $ 22 / CINTA 1,5 CM BLANCA $ 26 / NEGRO Y CRUDO $ 26 / CINTA 2 CM BLANCA $ 32 / CRUDO y NEGRO $ 32 / PIEZA x 50 METROS 20 % menos // CINTA HILERA ALGODON 1 CMS. $ 22 / 1,5 CMS. $ 26 / AZUL MARINO, TOSTADO, VERDE AGUA, ROSA BB, VERDE OSCURO, GRIS, ROJO / PIEZA x 50 METROS 20 % menos",
+      "pages": [
+        42,
+        43
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": "algodón",
+      "badge": null,
+      "description": "Cinta hilera de algodón con tejido espigado. Blanca, negra y cruda en 1, 1,5 y 2 cm; en colores (azul marino, tostado, verde agua, rosa bebé, verde oscuro, gris y rojo) en 1 y 1,5 cm. Por metro, o la pieza de 50 metros con 20 % menos.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 880.0,
+              "unit_price": 17.6,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 22"
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 1040.0,
+              "unit_price": 20.8,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 26"
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 32,
+              "unit_price": 32,
+              "printed": 32
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 50 m",
+              "unit": "m",
+              "content_qty": 50,
+              "price": 1280.0,
+              "unit_price": 25.6,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 32"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanco",
+          "hex": "#f4f4f1"
+        },
+        {
+          "name": "Negro",
+          "hex": "#1c1c1c"
+        },
+        {
+          "name": "Crudo",
+          "hex": "#e3d8bd"
+        },
+        {
+          "name": "Azul marino",
+          "hex": "#22304f"
+        },
+        {
+          "name": "Tostado",
+          "hex": "#d8b680"
+        },
+        {
+          "name": "Verde agua",
+          "hex": "#a3dcc1"
+        },
+        {
+          "name": "Rosa bebé",
+          "hex": "#f1c8cd"
+        },
+        {
+          "name": "Verde oscuro",
+          "hex": "#1f5a3c"
+        },
+        {
+          "name": "Gris",
+          "hex": "#b4b2ac"
+        },
+        {
+          "name": "Rojo",
+          "hex": "#b3182b"
+        }
+      ],
+      "images": [
+        {
+          "id": "x304",
+          "page": 43,
+          "version": "limpia",
+          "alt": "Rollos de cinta hilera de algodón en azul marino, tostado, verde agua, rosa, verde oscuro, gris y rojo"
+        },
+        {
+          "id": "x298",
+          "page": 42,
+          "version": "limpia",
+          "alt": "Rollos de cinta hilera de algodón blanca, negra y cruda apilados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "El ancho de 2 cm figura sólo en blanco, negro y crudo; los colores de la p. 43 figuran sólo en 1 y 1,5 cm",
+        "Precio de la pieza de 50 metros calculado con el 20 % menos (no está impreso)",
+        "'ROSA BB' se escribió como Rosa bebé"
+      ]
+    },
+    {
+      "name": "Cinta mochila a rayas 3,8 cm",
+      "pdf_text": "CINTA MOCHILA ALGODÓN CRUDO CON BORDO 3,8 CM $ 152 / CINTA MOCHILA MARRON/ CELESTE 3,8 CM $ 130",
+      "pages": [
+        44
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta para correa de mochila o bolso de 3,8 cm de ancho, a rayas: una de algodón en crudo con bordó y bordes negros, y otra en marrón con celeste y blanco. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Crudo con bordó",
+          "hex": "#b3173f",
+          "image": "x310",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 152,
+              "unit_price": 152,
+              "printed": 152
+            }
+          ]
+        },
+        {
+          "label": "Marrón y celeste",
+          "hex": "#b8733a",
+          "image": "x312",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x310",
+          "page": 44,
+          "version": "limpia",
+          "alt": "Cinta mochila a rayas crudo, bordó y negro, en rollo y armada con mosquetón"
+        },
+        {
+          "id": "x312",
+          "page": 44,
+          "version": "limpia",
+          "alt": "Cinta mochila a rayas marrón, celeste y blanco, en rollo y armada con mosquetón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "El PDF dice 'algodón' sólo para la crudo con bordó; la marrón/celeste no aclara material",
+        "Se juntaron los dos títulos de la página como variantes de color de un mismo producto"
+      ]
+    },
+    {
+      "name": "Cinta mochila de algodón espiga 3,8 cm",
+      "pdf_text": "CINTA MOCHILA ALGODÓN ESPIGA 3,8 CM $ 152 / VERDE / NEGRO / GRIS SUAVE",
+      "pages": [
+        45
+      ],
+      "category": "cintas",
+      "sku": null,
+      "material": "algodón",
+      "badge": null,
+      "description": "Cinta de algodón para correa de mochila o bolso, de 3,8 cm, con tejido en espiga bicolor. Viene en verde, negro y gris suave, y se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Verde",
+          "hex": "#8fd8c4",
+          "image": "x319",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 152,
+              "unit_price": 152,
+              "printed": 152
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1e1e1e",
+          "image": "x319",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 152,
+              "unit_price": 152,
+              "printed": 152
+            }
+          ]
+        },
+        {
+          "label": "Gris suave",
+          "hex": "#d6d3c8",
+          "image": "x319",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 152,
+              "unit_price": 152,
+              "printed": 152
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x319",
+          "page": 45,
+          "version": "limpia",
+          "alt": "Tres cintas mochila espiga: gris suave, negra y verde"
+        },
+        {
+          "id": "x317",
+          "page": 45,
+          "version": "limpia",
+          "alt": "Rollos de cinta mochila espiga verde y gris suave, con una tira armada con mosquetón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Aro con mosquetón",
+      "pdf_text": "ARO CON MOSQUETON $ 30 / Consulte por mayor",
+      "pages": [
+        46
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Argolla de llavero con mosquetón giratorio, plateada. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x324",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 30,
+              "unit_price": 30,
+              "printed": 30
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x324",
+          "page": 46,
+          "version": "limpia",
+          "alt": "Aro de llavero plateado con mosquetón giratorio"
+        }
+      ],
+      "wholesale_note": "Consulte por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Mosquetón",
+      "pdf_text": "MOSQUETON MINI 1CM PLATA-ORO VIEJO $ 15 / MOSQUETON 1,2 CMS. $ 20 / 2 CMS. PLATA - ORO VIEJO $ 32 / MOSQUETON PLATA 2,5 CMS. $ 40 / MOSQUETON PLATA Y ORO VIEJO 3,90 CM $ 46 / Consulte por mayor",
+      "pages": [
+        47,
+        48,
+        49
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Mosquetones giratorios para carteras, bolsos y llaveros, en cinco medidas de 1 a 3,9 cm. Según el PDF: 1 cm, 2 cm y 3,9 cm en plata y oro viejo; 2,5 cm en plata; el de 1,2 cm se ve plateado en la foto.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1 cm (mini)",
+          "hex": null,
+          "image": "x330",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "1,2 cm",
+          "hex": null,
+          "image": "x337",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x339",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 32,
+              "unit_price": 32,
+              "printed": 32
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x346",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 40,
+              "unit_price": 40,
+              "printed": 40
+            }
+          ]
+        },
+        {
+          "label": "3,9 cm",
+          "hex": null,
+          "image": "x344",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 46,
+              "unit_price": 46,
+              "printed": 46
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plata",
+          "hex": "#c9c9c9"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8f7f4f"
+        }
+      ],
+      "images": [
+        {
+          "id": "x339",
+          "page": 48,
+          "version": "limpia",
+          "alt": "Dos mosquetones de 2 cm, uno plateado y otro oro viejo"
+        },
+        {
+          "id": "x330",
+          "page": 47,
+          "version": "limpia",
+          "alt": "Dos mosquetones mini de 1 cm, uno plateado y otro oro viejo"
+        },
+        {
+          "id": "x337",
+          "page": 48,
+          "version": "limpia",
+          "alt": "Mosquetón plateado de 1,2 cm"
+        },
+        {
+          "id": "x346",
+          "page": 49,
+          "version": "limpia",
+          "alt": "Mosquetón plateado de 2,5 cm"
+        },
+        {
+          "id": "x344",
+          "page": 49,
+          "version": "limpia",
+          "alt": "Dos mosquetones de 3,9 cm con pasador chato, uno plateado y otro oro viejo"
+        }
+      ],
+      "wholesale_note": "Consulte por mayor",
+      "needs_review": [
+        "Se juntaron los títulos 'MOSQUETON' de las p. 47 a 49 en un producto con una variante por medida",
+        "Colores por medida: 1 cm, 2 cm y 3,9 cm en plata y oro viejo; 2,5 cm sólo plata; 1,2 cm no aclara color",
+        "El de 3,9 cm es de otro formato (pasador chato, sin gatillo)"
+      ]
+    },
+    {
+      "name": "Mosquetón dorado",
+      "pdf_text": "MOSQUETON DORADO $ 16 / Consulte por mayor",
+      "pages": [
+        47
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Mosquetón giratorio dorado, de cuerpo recto. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x332",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x332",
+          "page": 47,
+          "version": "limpia",
+          "alt": "Mosquetón dorado de cuerpo recto con argolla giratoria"
+        }
+      ],
+      "wholesale_note": "Consulte por mayor",
+      "needs_review": [
+        "El PDF no indica la medida de este mosquetón"
+      ]
+    },
+    {
+      "name": "Elástico blanco",
+      "pdf_text": "ELASTICOS BLANCOS 3 MM $ 14 el metro x pieza de 200 metro $ 5,39 / 6 MM $ 17el metro x pieza de 100 metro $ 6,60 / 8 MM $ 20 el metro x pieza de 100 metro $ 7,70 / 10 MM $ 22 el metro x pieza de 100 metro $ 6,50 / 15 MM $ 22 el metro x pieza de 40 metro $ 6,50 / 20 MM $ 25 el metro x pieza de 40 metro $ 6,50 / 25 MM $ 29 el metro x pieza de 40 metro $ 7,25 / 30 MM $ 33 el metro x pieza de 40 metro $ 8,60 / 35 MM $ 35 el metro x pieza de 40 metro $10,20 / 40 MM $ 37 el metro x pieza de 40 metro $ 12 / 45 MM $ 40 el metro x pieza de 40 metro $ 13 / 50 MM $ 45 el metro x pieza de 40 metro $ 14 / 100 MM $ 77 el metro x pieza de 40 metro $ 42",
+      "pages": [
+        50
+      ],
+      "category": "elasticos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Elástico blanco en trece anchos, de 3 a 100 mm. Se vende por metro o por pieza cerrada (200, 100 o 40 metros según el ancho) a precio por mayor.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "3 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 14,
+              "unit_price": 14,
+              "printed": 14
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 200 m",
+              "unit": "m",
+              "content_qty": 200,
+              "price": 1078.0,
+              "unit_price": 5.39,
+              "printed": 5.39
+            }
+          ]
+        },
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 17,
+              "unit_price": 17,
+              "printed": 17
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 100 m",
+              "unit": "m",
+              "content_qty": 100,
+              "price": 660.0,
+              "unit_price": 6.6,
+              "printed": 6.6
+            }
+          ]
+        },
+        {
+          "label": "8 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 100 m",
+              "unit": "m",
+              "content_qty": 100,
+              "price": 770.0,
+              "unit_price": 7.7,
+              "printed": 7.7
+            }
+          ]
+        },
+        {
+          "label": "10 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 100 m",
+              "unit": "m",
+              "content_qty": 100,
+              "price": 650.0,
+              "unit_price": 6.5,
+              "printed": 6.5
+            }
+          ]
+        },
+        {
+          "label": "15 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 260.0,
+              "unit_price": 6.5,
+              "printed": 6.5
+            }
+          ]
+        },
+        {
+          "label": "20 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 25,
+              "unit_price": 25,
+              "printed": 25
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 260.0,
+              "unit_price": 6.5,
+              "printed": 6.5
+            }
+          ]
+        },
+        {
+          "label": "25 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 290.0,
+              "unit_price": 7.25,
+              "printed": 7.25
+            }
+          ]
+        },
+        {
+          "label": "30 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 33,
+              "unit_price": 33,
+              "printed": 33
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 344.0,
+              "unit_price": 8.6,
+              "printed": 8.6
+            }
+          ]
+        },
+        {
+          "label": "35 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 408.0,
+              "unit_price": 10.2,
+              "printed": 10.2
+            }
+          ]
+        },
+        {
+          "label": "40 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 37,
+              "unit_price": 37,
+              "printed": 37
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 480,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "45 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 40,
+              "unit_price": 40,
+              "printed": 40
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 520,
+              "unit_price": 13,
+              "printed": 13
+            }
+          ]
+        },
+        {
+          "label": "50 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 45,
+              "unit_price": 45,
+              "printed": 45
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 560,
+              "unit_price": 14,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "100 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 77,
+              "unit_price": 77,
+              "printed": 77
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 1680,
+              "unit_price": 42,
+              "printed": 42
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanco",
+          "hex": "#f5f5f5"
+        }
+      ],
+      "images": [
+        {
+          "id": "x354",
+          "page": 50,
+          "version": "limpia",
+          "alt": "Tres rollos de elástico blanco ancho apilados"
+        },
+        {
+          "id": "x351",
+          "page": 50,
+          "version": "limpia",
+          "alt": "Rollos de elástico blanco de distintos anchos"
+        },
+        {
+          "id": "x355",
+          "page": 50,
+          "version": "limpia",
+          "alt": "Carretel de elástico blanco fino"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio por pieza: 10 mm, 15 mm y 20 mm figuran los tres a $ 6,50 el metro (el de 8 mm a $ 7,70): confirmar",
+        "10 mm y 15 mm figuran al mismo precio por metro ($ 22)"
+      ]
+    },
+    {
+      "name": "Elástico negro",
+      "pdf_text": "ELASTICOS NEGROS 3 MM $ 17 el metro x pieza de 200 metro $ 5,94 / 6 MM $ 18el metro x pieza de 100 metro $ 7,70 / 8 MM $ 23 el metro x pieza de 100 metro $ 8,80 / 10 MM $ 23 el metro x pieza de 100 metro $ 9,90 / 15 MM $ 25 el metro x pieza de 40 metro $ 8,80 / 20 MM $ 28 el metro x pieza de 40 metro $ 9,35 / 25 MM $ 33 el metro x pieza de 40 metro $ 11,50 / 30 MM $ 35 el metro x pieza de 40 metro $ 13 / 35 MM $ 37 el metro x pieza de 40 metro $ 14,80 / 40 MM $ 40 el metro x pieza de 40 metro $ 16,50 / 45 MM $ 46 el metro x pieza de 40 metro $ 19,25 / 60 MM $ 59 el metro x pieza de 40 metro $ 24,80 / 100 MM $ 83 el metro x pieza de 40 metro $ 48,40",
+      "pages": [
+        51
+      ],
+      "category": "elasticos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Elástico negro en trece anchos, de 3 a 100 mm. Se vende por metro o por pieza cerrada (200, 100 o 40 metros según el ancho) a precio por mayor.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "3 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 17,
+              "unit_price": 17,
+              "printed": 17
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 200 m",
+              "unit": "m",
+              "content_qty": 200,
+              "price": 1188.0,
+              "unit_price": 5.94,
+              "printed": 5.94
+            }
+          ]
+        },
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 100 m",
+              "unit": "m",
+              "content_qty": 100,
+              "price": 770.0,
+              "unit_price": 7.7,
+              "printed": 7.7
+            }
+          ]
+        },
+        {
+          "label": "8 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 23,
+              "unit_price": 23,
+              "printed": 23
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 100 m",
+              "unit": "m",
+              "content_qty": 100,
+              "price": 880.0,
+              "unit_price": 8.8,
+              "printed": 8.8
+            }
+          ]
+        },
+        {
+          "label": "10 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 23,
+              "unit_price": 23,
+              "printed": 23
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 100 m",
+              "unit": "m",
+              "content_qty": 100,
+              "price": 990.0,
+              "unit_price": 9.9,
+              "printed": 9.9
+            }
+          ]
+        },
+        {
+          "label": "15 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 25,
+              "unit_price": 25,
+              "printed": 25
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 352.0,
+              "unit_price": 8.8,
+              "printed": 8.8
+            }
+          ]
+        },
+        {
+          "label": "20 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 28,
+              "unit_price": 28,
+              "printed": 28
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 374.0,
+              "unit_price": 9.35,
+              "printed": 9.35
+            }
+          ]
+        },
+        {
+          "label": "25 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 33,
+              "unit_price": 33,
+              "printed": 33
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 460.0,
+              "unit_price": 11.5,
+              "printed": 11.5
+            }
+          ]
+        },
+        {
+          "label": "30 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 520,
+              "unit_price": 13,
+              "printed": 13
+            }
+          ]
+        },
+        {
+          "label": "35 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 37,
+              "unit_price": 37,
+              "printed": 37
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 592.0,
+              "unit_price": 14.8,
+              "printed": 14.8
+            }
+          ]
+        },
+        {
+          "label": "40 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 40,
+              "unit_price": 40,
+              "printed": 40
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 660.0,
+              "unit_price": 16.5,
+              "printed": 16.5
+            }
+          ]
+        },
+        {
+          "label": "45 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 46,
+              "unit_price": 46,
+              "printed": 46
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 770.0,
+              "unit_price": 19.25,
+              "printed": 19.25
+            }
+          ]
+        },
+        {
+          "label": "60 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 59,
+              "unit_price": 59,
+              "printed": 59
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 992.0,
+              "unit_price": 24.8,
+              "printed": 24.8
+            }
+          ]
+        },
+        {
+          "label": "100 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 40 m",
+              "unit": "m",
+              "content_qty": 40,
+              "price": 1936.0,
+              "unit_price": 48.4,
+              "printed": 48.4
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Negro",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "images": [
+        {
+          "id": "x359",
+          "page": 51,
+          "version": "limpia",
+          "alt": "Cuatro rollos de elástico negro ancho apilados"
+        },
+        {
+          "id": "x361",
+          "page": 51,
+          "version": "limpia",
+          "alt": "Rollo de elástico negro con la punta desenrollada"
+        },
+        {
+          "id": "x362",
+          "page": 51,
+          "version": "limpia",
+          "alt": "Carretel de elástico negro fino"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "En negro la lista salta de 45 mm a 60 mm (en blanco hay 50 mm y no 60 mm): confirmar que no sea un error",
+        "8 mm y 10 mm figuran al mismo precio por metro ($ 23)"
+      ]
+    },
+    {
+      "name": "Anilina para algodón en frío o caliente",
+      "pdf_text": "ANILINA PARA ALGODÓN EN FRIO O CALIENTE $ 153",
+      "pages": [
+        52
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Anilina en sobre para teñir algodón, en frío o en caliente. En las fotos se ven los sobres (marca Colibrí según el envase) y la carta de colores; consultá por el color que buscás.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 153,
+              "unit_price": 153,
+              "printed": 153
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x368",
+          "page": 52,
+          "version": "limpia",
+          "alt": "Sobres de anilina y carta de colores disponibles"
+        },
+        {
+          "id": "x369",
+          "page": 52,
+          "version": "limpia",
+          "alt": "Sobre de anilina naranja"
+        },
+        {
+          "id": "x370",
+          "page": 52,
+          "version": "limpia",
+          "alt": "Sobre de anilina color negro azabache"
+        },
+        {
+          "id": "x366",
+          "page": 52,
+          "version": "limpia",
+          "alt": "Carta de colores de la anilina"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Los nombres de los colores sólo se leen dentro de las fotos (carta de colores): no se cargaron como variantes"
+      ]
+    },
+    {
+      "name": "Pintura para tela Colibrí",
+      "pdf_text": "PINTURA PARA TELA COLIBRI COLORES COMUNES $ 119 / PLATA $ 130 / DORADO $ 152",
+      "pages": [
+        53
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pintura Colibrí en pote para dibujar y estampar sobre tela. Los colores comunes tienen un precio; plata y dorado, otro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Colores comunes",
+          "hex": null,
+          "image": "x378",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        },
+        {
+          "label": "Plata",
+          "hex": "#b9b9b9",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#c9a24a",
+          "image": "x377",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 152,
+              "unit_price": 152,
+              "printed": 152
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x378",
+          "page": 53,
+          "version": "limpia",
+          "alt": "Potes de pintura para tela en varios colores apilados en pirámide"
+        },
+        {
+          "id": "x375",
+          "page": 53,
+          "version": "limpia",
+          "alt": "Pote de pintura para tela azul"
+        },
+        {
+          "id": "x377",
+          "page": 53,
+          "version": "limpia",
+          "alt": "Pote de pintura para tela dorada"
+        },
+        {
+          "id": "x379",
+          "page": 53,
+          "version": "limpia",
+          "alt": "Exhibidor con potes de pintura para tela en el local"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'Colores comunes' agrupa todos los colores que no son plata ni dorado; el PDF no los nombra"
+      ]
+    },
+    {
+      "name": "Ventosa con gancho",
+      "pdf_text": "VENTOSA CON GANCHO 25 MM $ 18 / 30 MM $ 20",
+      "pages": [
+        54
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ventosa transparente con gancho para colgar, en dos medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "25 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            }
+          ]
+        },
+        {
+          "label": "30 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x387",
+          "page": 54,
+          "version": "limpia",
+          "alt": "Ventosa transparente con gancho"
+        },
+        {
+          "id": "x385",
+          "page": 54,
+          "version": "limpia",
+          "alt": "Cuatro ventosas transparentes con gancho"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Bobina de hilo poliéster 40-2 de 500 metros",
+      "pdf_text": "BOBINA DE 500 METROS POLYESTER 40-2 42 COLORES DIFERENTES $ 43 C-U CAJA X 12",
+      "pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": "poliéster",
+      "badge": null,
+      "description": "Bobina de hilo de coser de poliéster 40-2, de 500 metros, en 42 colores. Se vende por unidad; viene en caja de 12 del mismo color.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f3f3f1",
+          "image": "x392",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x394",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Rosa viejo",
+          "hex": "#c9938a",
+          "image": "x407",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Amarillo pastel",
+          "hex": "#efd98f",
+          "image": "x406",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Azul marino",
+          "hex": "#1f2a4f",
+          "image": "x399",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Turquesa claro",
+          "hex": "#7fcfcf",
+          "image": "x401",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Lila",
+          "hex": "#b8a6d8",
+          "image": "x402",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Verde oliva",
+          "hex": "#5e6a3b",
+          "image": "x403",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Azul medio",
+          "hex": "#2f7dbf",
+          "image": "x404",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Verde petróleo",
+          "hex": "#1f4a4c",
+          "image": "x405",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#e6862c",
+          "image": "x411",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Lavanda",
+          "hex": "#8f9ed8",
+          "image": "x413",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Rojo anaranjado",
+          "hex": "#de452b",
+          "image": "x414",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#28358a",
+          "image": "x415",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f3a2ac",
+          "image": "x416",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Verde agua",
+          "hex": "#8fd8a9",
+          "image": "x417",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Verde manzana",
+          "hex": "#9ede4b",
+          "image": "x418",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Rosa bebé",
+          "hex": "#f2c7d3",
+          "image": "x419",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Azul rey",
+          "hex": "#2e56a8",
+          "image": "x423",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#f4c51a",
+          "image": "x425",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c8262c",
+          "image": "x426",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Amarillo oro",
+          "hex": "#efb32a",
+          "image": "x427",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Marrón",
+          "hex": "#8a5a34",
+          "image": "x428",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Celeste",
+          "hex": "#a9cee7",
+          "image": "x429",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Beige",
+          "hex": "#dbc39b",
+          "image": "x430",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Durazno",
+          "hex": "#e9b99a",
+          "image": "x431",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Gris oscuro",
+          "hex": "#4b4b50",
+          "image": "x435",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Violeta",
+          "hex": "#6b40a0",
+          "image": "x437",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Arena",
+          "hex": "#e2d1af",
+          "image": "x438",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Bordó",
+          "hex": "#a1272f",
+          "image": "x439",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Ciruela",
+          "hex": "#6e2249",
+          "image": "x440",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Tostado claro",
+          "hex": "#d8b67b",
+          "image": "x441",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Marrón oscuro",
+          "hex": "#4b3329",
+          "image": "x442",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Verde musgo",
+          "hex": "#8a993b",
+          "image": "x443",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#e7dec4",
+          "image": "x447",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Ladrillo",
+          "hex": "#c75b1f",
+          "image": "x449",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Gris",
+          "hex": "#7b7b7e",
+          "image": "x450",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#d5347b",
+          "image": "x451",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Mostaza",
+          "hex": "#c89a3b",
+          "image": "x452",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#3f994b",
+          "image": "x453",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Marfil",
+          "hex": "#eee5c5",
+          "image": "x454",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        },
+        {
+          "label": "Gris claro",
+          "hex": "#a9a9ab",
+          "image": "x455",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 43,
+              "unit_price": 43,
+              "printed": 43
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x392",
+          "page": 55,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color blanco con dos bobinas sueltas"
+        },
+        {
+          "id": "x394",
+          "page": 55,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color negro con dos bobinas sueltas"
+        },
+        {
+          "id": "x407",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color rosa viejo con dos bobinas sueltas (etiqueta 471 en la foto)"
+        },
+        {
+          "id": "x406",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color amarillo pastel con dos bobinas sueltas (etiqueta 132 en la foto)"
+        },
+        {
+          "id": "x399",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color azul marino con dos bobinas sueltas (etiqueta 320 en la foto)"
+        },
+        {
+          "id": "x401",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color turquesa claro con dos bobinas sueltas (etiqueta 526 en la foto)"
+        },
+        {
+          "id": "x402",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color lila con dos bobinas sueltas (etiqueta 194 en la foto)"
+        },
+        {
+          "id": "x403",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color verde oliva con dos bobinas sueltas (etiqueta 420 en la foto)"
+        },
+        {
+          "id": "x404",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color azul medio con dos bobinas sueltas (etiqueta 263 en la foto)"
+        },
+        {
+          "id": "x405",
+          "page": 56,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color verde petróleo con dos bobinas sueltas (etiqueta 220 en la foto)"
+        },
+        {
+          "id": "x411",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color naranja con dos bobinas sueltas (etiqueta 145 en la foto)"
+        },
+        {
+          "id": "x413",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color lavanda con dos bobinas sueltas (etiqueta 331 en la foto)"
+        },
+        {
+          "id": "x414",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color rojo anaranjado con dos bobinas sueltas (etiqueta 114 en la foto)"
+        },
+        {
+          "id": "x415",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color azul francia con dos bobinas sueltas (etiqueta 293 en la foto)"
+        },
+        {
+          "id": "x416",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color rosa con dos bobinas sueltas (etiqueta 154 en la foto)"
+        },
+        {
+          "id": "x417",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color verde agua con dos bobinas sueltas (etiqueta 229 en la foto)"
+        },
+        {
+          "id": "x418",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color verde manzana con dos bobinas sueltas (etiqueta 202 en la foto)"
+        },
+        {
+          "id": "x419",
+          "page": 57,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color rosa bebé con dos bobinas sueltas (etiqueta 151 en la foto)"
+        },
+        {
+          "id": "x423",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color azul rey con dos bobinas sueltas (etiqueta 547 en la foto)"
+        },
+        {
+          "id": "x425",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color amarillo con dos bobinas sueltas (etiqueta 385 en la foto)"
+        },
+        {
+          "id": "x426",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color rojo con dos bobinas sueltas (etiqueta 112 en la foto)"
+        },
+        {
+          "id": "x427",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color amarillo oro con dos bobinas sueltas (etiqueta 139 en la foto)"
+        },
+        {
+          "id": "x428",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color marrón con dos bobinas sueltas (etiqueta 488 en la foto)"
+        },
+        {
+          "id": "x429",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color celeste con dos bobinas sueltas (etiqueta 252 en la foto)"
+        },
+        {
+          "id": "x430",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color beige con dos bobinas sueltas (etiqueta 599 en la foto)"
+        },
+        {
+          "id": "x431",
+          "page": 58,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color durazno con dos bobinas sueltas (etiqueta 460 en la foto)"
+        },
+        {
+          "id": "x435",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color gris oscuro con dos bobinas sueltas (etiqueta 339 en la foto)"
+        },
+        {
+          "id": "x437",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color violeta con dos bobinas sueltas (etiqueta 200 en la foto)"
+        },
+        {
+          "id": "x438",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color arena con dos bobinas sueltas (etiqueta 456 en la foto)"
+        },
+        {
+          "id": "x439",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color bordó con dos bobinas sueltas (etiqueta 122 en la foto)"
+        },
+        {
+          "id": "x440",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color ciruela con dos bobinas sueltas (etiqueta 173 en la foto)"
+        },
+        {
+          "id": "x441",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color tostado claro con dos bobinas sueltas (etiqueta 426 en la foto)"
+        },
+        {
+          "id": "x442",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color marrón oscuro con dos bobinas sueltas (etiqueta 522 en la foto)"
+        },
+        {
+          "id": "x443",
+          "page": 59,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color verde musgo con dos bobinas sueltas (etiqueta 418 en la foto)"
+        },
+        {
+          "id": "x447",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color crudo con dos bobinas sueltas (etiqueta 501 en la foto)"
+        },
+        {
+          "id": "x449",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color ladrillo con dos bobinas sueltas (etiqueta 148 en la foto)"
+        },
+        {
+          "id": "x450",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color gris con dos bobinas sueltas (etiqueta 342 en la foto)"
+        },
+        {
+          "id": "x451",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color fucsia con dos bobinas sueltas (etiqueta 167 en la foto)"
+        },
+        {
+          "id": "x452",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color mostaza con dos bobinas sueltas (etiqueta 441 en la foto)"
+        },
+        {
+          "id": "x453",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color verde con dos bobinas sueltas (etiqueta 211 en la foto)"
+        },
+        {
+          "id": "x454",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color marfil con dos bobinas sueltas (etiqueta 126 en la foto)"
+        },
+        {
+          "id": "x455",
+          "page": 60,
+          "version": "limpia",
+          "alt": "Caja de bobinas de hilo de 500 m color gris claro con dos bobinas sueltas (etiqueta 366 en la foto)"
+        }
+      ],
+      "wholesale_note": "Caja x 12",
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos (salvo Blanco y Negro, que están rotulados en la foto)",
+        "Cada foto trae pegado un número de color (471, 132, 320…) que sólo se lee en la foto, no en el texto del PDF: no se usó como etiqueta de variante; quedó anotado en el alt de cada foto por si se quiere mostrar",
+        "Las páginas 56 a 60 no tienen texto: se tomaron como los colores de la bobina de la p. 55 (2 + 40 fotos = 42 colores)"
+      ]
+    },
+    {
+      "name": "Kit de bordado",
+      "pdf_text": "KIT BORDADO $ 498 / N 1, N 2, N 3, N 4, N 5, N 6, N 7, N 8, N 9",
+      "pages": [
+        61,
+        62
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Kit para bordar con bastidor, tela con el dibujo impreso, hilos, aguja e instructivo, en nueve diseños numerados (flores, cactus, pájaro, paisajes). Viene en sobre de cartón.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x461",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x459",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x464",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x469",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x471",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x472",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x473",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x474",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": "x475",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 498,
+              "unit_price": 498,
+              "printed": 498
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x462",
+          "page": 61,
+          "version": "limpia",
+          "alt": "Contenido del kit de bordado: aguja, hilos, tela con dibujo e instructivo"
+        },
+        {
+          "id": "x461",
+          "page": 61,
+          "version": "limpia",
+          "alt": "Bastidor bordado con una mujer de espaldas y una planta colgante, modelo N 1"
+        },
+        {
+          "id": "x459",
+          "page": 61,
+          "version": "limpia",
+          "alt": "Bastidor bordado con un ramo de rosas en tonos rosa, modelo N 2"
+        },
+        {
+          "id": "x464",
+          "page": 61,
+          "version": "etiquetada",
+          "alt": "Bastidor bordado con flores amarillas y hojas verdes, modelo N 3"
+        },
+        {
+          "id": "x469",
+          "page": 62,
+          "version": "limpia",
+          "alt": "Bastidor bordado con varas de flores rojas, modelo N 4"
+        },
+        {
+          "id": "x471",
+          "page": 62,
+          "version": "limpia",
+          "alt": "Bastidor bordado con cactus, modelo N 5"
+        },
+        {
+          "id": "x472",
+          "page": 62,
+          "version": "limpia",
+          "alt": "Bastidor bordado con un pájaro sobre una rama, modelo N 6"
+        },
+        {
+          "id": "x473",
+          "page": 62,
+          "version": "etiquetada",
+          "alt": "Bastidor bordado con una bicicleta, un árbol y una ventana celeste, modelo N 7"
+        },
+        {
+          "id": "x474",
+          "page": 62,
+          "version": "limpia",
+          "alt": "Bastidor bordado con glicinas violetas, una ventana y un gato, modelo N 8"
+        },
+        {
+          "id": "x475",
+          "page": 62,
+          "version": "limpia",
+          "alt": "Bastidor bordado con un arco de flores y un portón celeste, modelo N 9"
+        },
+        {
+          "id": "x463",
+          "page": 61,
+          "version": "limpia",
+          "alt": "Sobre de cartón del kit de bordado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El contenido del kit (bastidor, tela, hilos, aguja, instructivo) se describe a partir de las fotos; el PDF sólo dice 'KIT BORDADO'"
+      ]
+    },
+    {
+      "name": "Set para bordar y crear tu propio alfiletero",
+      "pdf_text": "Set para bordar y crear tu propio alfiletero COD 40320-1 $ 558",
+      "pages": [
+        63
+      ],
+      "category": "tejido-y-bordado",
+      "sku": "40320-1",
+      "material": null,
+      "badge": null,
+      "description": "Set para bordar y armar tu propio alfiletero con base redonda. En las fotos se ven varios diseños (hojas verdes, frutillas, flores naranjas) y la cajita en la que viene.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Set",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 558,
+              "unit_price": 558,
+              "printed": 558
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x482",
+          "page": 63,
+          "version": "limpia",
+          "alt": "Tres alfileteros bordados con base redonda: hojas verdes, frutillas y flores naranjas"
+        },
+        {
+          "id": "x480",
+          "page": 63,
+          "version": "limpia",
+          "alt": "Cajas del set de alfiletero para bordar en cuatro diseños"
+        },
+        {
+          "id": "x484",
+          "page": 63,
+          "version": "limpia",
+          "alt": "Tres alfileteros bordados vistos de cerca"
+        },
+        {
+          "id": "x483",
+          "page": 63,
+          "version": "limpia",
+          "alt": "Alfiletero bordado con flores naranjas en primer plano"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Hay varios diseños en las fotos pero un solo código y precio: el PDF no aclara si el diseño se elige"
+      ]
+    },
+    {
+      "name": "Costurero organizador",
+      "pdf_text": "COSTURERO ORGANIZADOR espacioso con reparticiones simple$ 1890 / doble $ 1990 / Regalo perfecto: es el mejor regalo para el día de la madre, aniversario, cumpleaños, Acción de Gracias, Navidad y San Valentín. Por ejemplo, dale a tu amiga-o, esposa, madre, hija, etc.",
+      "pages": [
+        64
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Costurero organizador tipo canasta, forrado en tela estampada, con manija, bandeja con reparticiones y alfiletero en la tapa. Viene en versión simple y doble; buena opción para regalo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Simple",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1890,
+              "unit_price": 1890,
+              "printed": 1890
+            }
+          ]
+        },
+        {
+          "label": "Doble",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1990,
+              "unit_price": 1990,
+              "printed": 1990
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x489",
+          "page": 64,
+          "version": "limpia",
+          "alt": "Costurero canasta con manija y tela estampada de máquinas de coser"
+        },
+        {
+          "id": "x491",
+          "page": 64,
+          "version": "limpia",
+          "alt": "Costurero abierto con bandeja plástica de reparticiones y alfiletero en la tapa"
+        },
+        {
+          "id": "x492",
+          "page": 64,
+          "version": "limpia",
+          "alt": "Tres costureros canasta con distintos estampados"
+        },
+        {
+          "id": "x493",
+          "page": 64,
+          "version": "limpia",
+          "alt": "Costurero canasta con estampado de tijeras e hilos"
+        },
+        {
+          "id": "x494",
+          "page": 64,
+          "version": "limpia",
+          "alt": "Costurero canasta con estampado de florcitas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "En las fotos no se distingue cuál es el costurero simple y cuál el doble"
+      ]
+    },
+    {
+      "name": "Set de costura completo con estuche",
+      "pdf_text": "SET DE COSTURA COMPLETO CON ESTUCHE $ 990",
+      "pages": [
+        65
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Set de costura completo en estuche negro con cierre: hilos de muchos colores, tijeras, agujas, alfileres, centímetro y accesorios, según se ve en la foto.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Set",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x501",
+          "page": 65,
+          "version": "limpia",
+          "alt": "Estuche de costura abierto con hilos de colores, tijeras y accesorios"
+        },
+        {
+          "id": "x499",
+          "page": 65,
+          "version": "limpia",
+          "alt": "Set de costura en estuche negro abierto"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Kit de costura portátil",
+      "pdf_text": "KIT DE COSTURA PORTATIL , IDEAL PARA VIAJE Y ESTUCHES EN DIFERENTES COLORES $ 490",
+      "pages": [
+        66
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Kit de costura portátil en estuche chico con cierre, ideal para viaje: trae hilos, agujas, tijerita y accesorios. Estuches en diferentes colores.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Kit",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x508",
+          "page": 66,
+          "version": "limpia",
+          "alt": "Estuches de costura portátiles en varios colores, uno abierto con hilos y agujas"
+        },
+        {
+          "id": "x506",
+          "page": 66,
+          "version": "limpia",
+          "alt": "Kit de costura portátil verde agua abierto junto a estuches blanco, rosa y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Lentejuela por metro",
+      "pdf_text": "LENTEJUELA 3MM PLATA Y ORO POR METRO $ 26 ROLLO X 100 / LENTEJUELA 4 MM PLATA , ORO ,ROJO , NEGRA , BLANCA POR METRO $ 26 ROLLO X 100 / LENTEJUELA 6 MM VARIOS COLORES POR METRO $ 26 ROLLO X 100",
+      "pages": [
+        67,
+        68
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Lentejuela en tira, se vende por metro. La de 3 mm viene en plata y oro; la de 4 mm en plata, oro, rojo, negro y blanco; la de 6 mm en varios colores (lisos, flúo y tornasolados).",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "3 mm",
+          "hex": null,
+          "image": "x513",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        },
+        {
+          "label": "4 mm",
+          "hex": null,
+          "image": "x515",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        },
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": "x521",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plata",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Oro",
+          "hex": "#c9a227"
+        },
+        {
+          "name": "Rojo",
+          "hex": "#a3161f"
+        },
+        {
+          "name": "Negro",
+          "hex": "#141414"
+        },
+        {
+          "name": "Blanco",
+          "hex": "#f1f1ee"
+        }
+      ],
+      "images": [
+        {
+          "id": "x521",
+          "page": 68,
+          "version": "limpia",
+          "alt": "Rollos de lentejuela de 6 mm en muchos colores"
+        },
+        {
+          "id": "x515",
+          "page": 67,
+          "version": "limpia",
+          "alt": "Rollos de lentejuela de 4 mm en blanco, oro, rojo, plata y negro"
+        },
+        {
+          "id": "x513",
+          "page": 67,
+          "version": "limpia",
+          "alt": "Rollos de lentejuela de 3 mm en plata y oro"
+        }
+      ],
+      "wholesale_note": "Rollo x 100",
+      "needs_review": [
+        "'ROLLO X 100' no aclara si son metros o yardas ni el precio del rollo",
+        "Se juntaron los títulos de 3 mm, 4 mm y 6 mm en un producto con variantes por medida",
+        "Colores por medida: 3 mm plata y oro; 4 mm plata, oro, rojo, negro y blanco; 6 mm 'varios colores' sin nombrar"
+      ]
+    },
+    {
+      "name": "Lentejuela con glitter 6 mm",
+      "pdf_text": "LENTEJUELA CON GLITTER 6 MM POR METRO $ 26 ROLLO X 100",
+      "pages": [
+        69
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Lentejuela de 6 mm con glitter, en tira; se vende por metro. En las fotos se ve en dorado, rosa, blanco, negro y rojo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x525",
+          "page": 69,
+          "version": "limpia",
+          "alt": "Seis rollos de lentejuela con glitter en dorado, rosa, blanco, negro, rojo y oro claro"
+        },
+        {
+          "id": "x527",
+          "page": 69,
+          "version": "limpia",
+          "alt": "Rollos de lentejuela con glitter vistos de cerca"
+        }
+      ],
+      "wholesale_note": "Rollo x 100",
+      "needs_review": [
+        "'ROLLO X 100' no aclara si son metros o yardas ni el precio del rollo",
+        "El PDF no nombra los colores (se describen a partir de las fotos)"
+      ]
+    },
+    {
+      "name": "Lentejuela multicolor 6 mm",
+      "pdf_text": "LENTEJUELA 6MM MULTICOLOR POR METRO $ 26 / N 1 / N 2 // LENTEJUELA 6 MM MULTICOLOR POR METRO $ 26 / N 3 / N 4",
+      "pages": [
+        70,
+        71
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Lentejuela de 6 mm multicolor, en tira; se vende por metro. Cuatro modelos: arcoíris pastel, arcoíris intenso, blanca con manchas de colores y cebrada en blanco y negro.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x532",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x534",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x539",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x541",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x532",
+          "page": 70,
+          "version": "etiquetada",
+          "alt": "Rollo de lentejuela arcoíris en tonos pastel, modelo N 1"
+        },
+        {
+          "id": "x534",
+          "page": 70,
+          "version": "limpia",
+          "alt": "Rollo de lentejuela arcoíris en colores intensos, modelo N 2"
+        },
+        {
+          "id": "x539",
+          "page": 71,
+          "version": "limpia",
+          "alt": "Rollo de lentejuela blanca con manchas de colores, modelo N 3"
+        },
+        {
+          "id": "x541",
+          "page": 71,
+          "version": "limpia",
+          "alt": "Rollo de lentejuela cebrada en blanco y negro, modelo N 4"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Apliques en strass termoadhesivos",
+      "pdf_text": "APLIQUES EN STRASS SE PEGAN CON CALOR / N1 $ 18 / N2 AL 8 $ 48 CADA UNO / N 9 $ 78 / N 10 $ 118",
+      "pages": [
+        72
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Apliques de strass que se pegan con calor, en diez modelos numerados: redondos, gotas, flor y un motivo calado grande, con piedras en azul, rojo, ámbar y cristal. Se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": "x546",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x546",
+          "page": 72,
+          "version": "etiquetada",
+          "alt": "Diez apliques de strass termoadhesivos numerados del N 1 al N 10 sobre fondo celeste"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [
+    {
+      "page": 53,
+      "id": "x381",
+      "reason": "dibujo decorativo de un colibrí"
+    },
+    {
+      "page": 68,
+      "id": "x519",
+      "reason": "foto repetida: la misma toma que x521 en chico"
+    },
+    {
+      "page": 72,
+      "id": "x548",
+      "reason": "foto repetida: la misma toma que x546, sin los números de modelo"
+    }
+  ],
+  "unused_prices": []
+}

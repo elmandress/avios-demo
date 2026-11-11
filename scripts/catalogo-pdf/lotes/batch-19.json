@@ -1,0 +1,2275 @@
+{
+  "batch": 19,
+  "products": [
+    {
+      "name": "Galón G 90",
+      "pdf_text": "G 90 $ 70 metro",
+      "pages": [
+        663
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 90",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto de ondas caladas; en la foto se ve en celeste con blanco, negro y turquesa. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4627",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 70,
+              "unit_price": 70,
+              "printed": 70
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4627",
+          "page": 663,
+          "version": "limpia",
+          "alt": "Galón G 90 de ondas en celeste con blanco, negro y turquesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 445",
+      "pdf_text": "G 445 $ 108 el metro",
+      "pages": [
+        663
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 445",
+      "material": null,
+      "badge": null,
+      "description": "Galón negro con trenzado en hilo dorado y borde de ondas. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4625",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4625",
+          "page": 663,
+          "version": "limpia",
+          "alt": "Galón G 445 negro con trenzado dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 569",
+      "pdf_text": "G 569 $ CRUDO , TOSTADO $ 118 el metro",
+      "pages": [
+        664
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 569",
+      "material": null,
+      "badge": null,
+      "description": "Galón de pasamanería con dibujo de ondas y brillo, en crudo y tostado. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Crudo",
+          "hex": "#e9dfc8",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        },
+        {
+          "label": "Tostado",
+          "hex": "#b8924f",
+          "image": "x4633",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4633",
+          "page": 664,
+          "version": "limpia",
+          "alt": "Galón G 569 de pasamanería en tono tostado dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título trae un '$' suelto antes de CRUDO; se tomó $ 118 para los dos colores",
+        "La única foto parece el tostado; el crudo no se ve (hex genérico)"
+      ]
+    },
+    {
+      "name": "Galón G 62",
+      "pdf_text": "G 62 GALON $ 119 el metro",
+      "pages": [
+        664
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 62",
+      "material": null,
+      "badge": null,
+      "description": "Galón de pasamanería marrón con dibujo de espirales y ondas. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4631",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4631",
+          "page": 664,
+          "version": "limpia",
+          "alt": "Galón G 62 marrón con espirales"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón imitación cadena G 370",
+      "pdf_text": "G 370 IMITACION CADENA $ 108 el metro",
+      "pages": [
+        665
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 370",
+      "material": null,
+      "badge": null,
+      "description": "Galón negro de borde ondeado con una cadena dorada de imitación al centro. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4637",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4637",
+          "page": 665,
+          "version": "limpia",
+          "alt": "Galón negro con imitación de cadena dorada"
+        },
+        {
+          "id": "x4640",
+          "page": 665,
+          "version": "limpia",
+          "alt": "Detalle del galón negro con cadena dorada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 186",
+      "pdf_text": "G 186 $ 143 el metro",
+      "pages": [
+        665
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 186",
+      "material": null,
+      "badge": null,
+      "description": "Galón blanco ancho con dibujo de ondas en relieve. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4641",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 143,
+              "unit_price": 143,
+              "printed": 143
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4641",
+          "page": 665,
+          "version": "limpia",
+          "alt": "Galón G 186 blanco con ondas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 259",
+      "pdf_text": "G 259 $ 119 el metro",
+      "pages": [
+        666
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 259",
+      "material": null,
+      "badge": null,
+      "description": "Galón blanco angosto con zigzag de raso al centro; en la segunda foto se ve una versión con brillo. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4645",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4645",
+          "page": 666,
+          "version": "limpia",
+          "alt": "Galón G 259 blanco con zigzag de raso"
+        },
+        {
+          "id": "x4647",
+          "page": 666,
+          "version": "limpia",
+          "alt": "Galón blanco con brillo tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La foto de la derecha (galón blanco con brillo) no tiene rótulo propio: se asumió que es el mismo G 259"
+      ]
+    },
+    {
+      "name": "Galón G 170",
+      "pdf_text": "G 170 $ 119 el metro",
+      "pages": [
+        667,
+        668
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 170",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto trenzado tipo espiga. En las fotos se ve en blanco, negro, negro con dorado, blanco con dorado, verde con blanco y negro con brillo plateado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4654",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4654",
+          "page": 667,
+          "version": "limpia",
+          "alt": "Galón G 170 en negro y en blanco"
+        },
+        {
+          "id": "x4651",
+          "page": 667,
+          "version": "limpia",
+          "alt": "Galón G 170 en blanco, negro con dorado y blanco con dorado"
+        },
+        {
+          "id": "x4653",
+          "page": 667,
+          "version": "limpia",
+          "alt": "Galón G 170 en blanco, verde con blanco y negro con brillo"
+        },
+        {
+          "id": "x4658",
+          "page": 668,
+          "version": "limpia",
+          "alt": "Galón G 170 en blanco y negro"
+        },
+        {
+          "id": "x4660",
+          "page": 668,
+          "version": "limpia",
+          "alt": "Galón G 170 blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón trenzado G 148",
+      "pdf_text": "G 148 $ 119 el metro GALON TRENZADO VARIOS COLORES",
+      "pages": [
+        669
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 148",
+      "material": null,
+      "badge": null,
+      "description": "Galón calado con cinta cruzada al centro, en varios colores; en la foto se ve en salmón, marrón, verde y blanco. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4664",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4664",
+          "page": 669,
+          "version": "limpia",
+          "alt": "Galón trenzado G 148 en salmón, marrón, verde y blanco"
+        },
+        {
+          "id": "x4666",
+          "page": 669,
+          "version": "limpia",
+          "alt": "Detalle del galón trenzado G 148 en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón lentejuela G 1122",
+      "pdf_text": "GALON LENTEJUELA VARIOS COLORES COD G 1122 $ 167 el metro",
+      "pages": [
+        670
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 1122",
+      "material": null,
+      "badge": null,
+      "description": "Galón con lentejuelas e hilo plateado, en varios colores; en la foto se ve en durazno, lila, rosa y celeste. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4670",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 167,
+              "unit_price": 167,
+              "printed": 167
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4670",
+          "page": 670,
+          "version": "limpia",
+          "alt": "Galón de lentejuelas G 1122 en durazno, lila, rosa y celeste"
+        },
+        {
+          "id": "x4672",
+          "page": 670,
+          "version": "limpia",
+          "alt": "Galón de lentejuelas G 1122 en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón piedras G 1105",
+      "pdf_text": "GALON PIEDRAS VARIOS COLORES COD G 1105 $ 204 el metro",
+      "pages": [
+        671
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 1105",
+      "material": null,
+      "badge": null,
+      "description": "Galón con piedras y hilo metalizado, viene en varios colores; en la foto se ve en plateado con negro. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4678",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 204,
+              "unit_price": 204,
+              "printed": 204
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4678",
+          "page": 671,
+          "version": "limpia",
+          "alt": "Galón de piedras G 1105 plateado con negro"
+        },
+        {
+          "id": "x4676",
+          "page": 671,
+          "version": "limpia",
+          "alt": "Pieza de galón de piedras G 1105 plateado con negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 571",
+      "pdf_text": "G 571 TOSTADO Y NEGRO $ 107 el metro",
+      "pages": [
+        672
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 571",
+      "material": null,
+      "badge": null,
+      "description": "Galón calado con cruces al centro y borde trenzado, en tostado y negro. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Tostado",
+          "hex": "#b08d4a",
+          "image": "x4682",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 107,
+              "unit_price": 107,
+              "printed": 107
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x4682",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 107,
+              "unit_price": 107,
+              "printed": 107
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4682",
+          "page": 672,
+          "version": "limpia",
+          "alt": "Galón G 571 en tostado y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 339",
+      "pdf_text": "G 339 $ 119 el metro",
+      "pages": [
+        672
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 339",
+      "material": null,
+      "badge": null,
+      "description": "Galón oscuro con arabescos y hilo de brillo plateado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4684",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4684",
+          "page": 672,
+          "version": "limpia",
+          "alt": "Galón G 339 oscuro con arabescos y brillo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón trenzado G 1003",
+      "pdf_text": "GALON TRENZADO COD G 1003 $ 119 el metro",
+      "pages": [
+        673
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 1003",
+      "material": null,
+      "badge": null,
+      "description": "Galón trenzado metalizado en dorado con plateado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4688",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4688",
+          "page": 673,
+          "version": "limpia",
+          "alt": "Galón trenzado G 1003 dorado con plateado"
+        },
+        {
+          "id": "x4690",
+          "page": 673,
+          "version": "limpia",
+          "alt": "Detalle del galón trenzado G 1003 dorado con plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 130",
+      "pdf_text": "G 130 $ 70 el metro",
+      "pages": [
+        674
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 130",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto amarillo con borde dorado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4694",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 70,
+              "unit_price": 70,
+              "printed": 70
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4694",
+          "page": 674,
+          "version": "limpia",
+          "alt": "Galón G 130 amarillo con borde dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón fino lentejuela G 9",
+      "pdf_text": "GALON FINO LENTEJUELA COD G 9 $ 70 el metro",
+      "pages": [
+        675
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 9",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino con lentejuelas; en la foto se ve en azul Francia. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4699",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 70,
+              "unit_price": 70,
+              "printed": 70
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4699",
+          "page": 675,
+          "version": "limpia",
+          "alt": "Galón fino de lentejuelas G 9 azul"
+        },
+        {
+          "id": "x4701",
+          "page": 675,
+          "version": "limpia",
+          "alt": "Pieza de galón fino de lentejuelas G 9 azul"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón lentejuela flor G 119",
+      "pdf_text": "GALON LENTEJUELA FLOR COD G 119 $ 107 el metro",
+      "pages": [
+        676
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 119",
+      "material": null,
+      "badge": null,
+      "description": "Galón ondeado con lentejuelas en forma de flor y borde plateado; en la foto se ve en verde, marrón y naranja con dorado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4705",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 107,
+              "unit_price": 107,
+              "printed": 107
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4705",
+          "page": 676,
+          "version": "limpia",
+          "alt": "Galón lentejuela flor G 119 en verde, marrón y naranja"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 3 cm G7",
+      "pdf_text": "GALON 3 CM DORADO , PLATEADO Y BLANCO COD G7 $ 204 el metro",
+      "pages": [
+        677
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G7",
+      "material": null,
+      "badge": null,
+      "description": "Galón de 3 cm cubierto de lentejuelas, en dorado, plateado y blanco. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x4710",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 204,
+              "unit_price": 204,
+              "printed": 204
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#b4b8bb",
+          "image": "x4710",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 204,
+              "unit_price": 204,
+              "printed": 204
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f2f0ea",
+          "image": "x4710",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 204,
+              "unit_price": 204,
+              "printed": 204
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4710",
+          "page": 677,
+          "version": "limpia",
+          "alt": "Galón de lentejuelas de 3 cm en blanco, plateado y dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco blanco G 802",
+      "pdf_text": "G 802 FLECO BLANCO $ 98 el metro",
+      "pages": [
+        678
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 802",
+      "material": null,
+      "badge": null,
+      "description": "Fleco blanco de hilo brillante. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4715",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4715",
+          "page": 678,
+          "version": "limpia",
+          "alt": "Fleco blanco G 802"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco lúrex G 1208",
+      "pdf_text": "G 1208 FLECO LUREX $ 98 el metro",
+      "pages": [
+        678
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 1208",
+      "material": null,
+      "badge": null,
+      "description": "Fleco de lúrex; en la foto se ve en plateado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4717",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4717",
+          "page": 678,
+          "version": "limpia",
+          "alt": "Fleco de lúrex plateado G 1208"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fleco seda 5 cm COD 719",
+      "pdf_text": "FLECO SEDA 5 CM COLORES MARRON , VERDE Y AMARILLO COD 719 $ 130 el metro",
+      "pages": [
+        679
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "719",
+      "material": "seda",
+      "badge": null,
+      "description": "Fleco de seda de 5 cm con terminación en rulo, en marrón, verde y amarillo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Marrón",
+          "hex": "#5b4636",
+          "image": "x4723",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#7f9a5a",
+          "image": "x4723",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#f2c21b",
+          "image": "x4723",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4723",
+          "page": 679,
+          "version": "limpia",
+          "alt": "Fleco de seda de 5 cm en marrón, verde y amarillo"
+        },
+        {
+          "id": "x4721",
+          "page": 679,
+          "version": "limpia",
+          "alt": "Detalle del fleco de seda en verde, marrón y amarillo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 11",
+      "pdf_text": "GALON COD G 11 VARIOS COLORES $ 107 el metro",
+      "pages": [
+        680
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 11",
+      "material": null,
+      "badge": null,
+      "description": "Galón ondeado con lentejuelas tornasoladas, en varios colores; en la foto se ve en lila, celeste y rosa. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4729",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 107,
+              "unit_price": 107,
+              "printed": 107
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4729",
+          "page": 680,
+          "version": "limpia",
+          "alt": "Galón de lentejuelas G 11 en celeste, lila y rosa"
+        },
+        {
+          "id": "x4727",
+          "page": 680,
+          "version": "limpia",
+          "alt": "Galón de lentejuelas G 11 en lila, celeste y rosa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 5680",
+      "pdf_text": "GALON BLANCO MARRON Y NEGRO COD G 5680 $ 95 el metro",
+      "pages": [
+        681
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 5680",
+      "material": null,
+      "badge": null,
+      "description": "Galón calado con dibujo de flores, en blanco, marrón y negro; en la foto también se ve un tono crudo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#ecebe6",
+          "image": "x4733",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 95,
+              "unit_price": 95,
+              "printed": 95
+            }
+          ]
+        },
+        {
+          "label": "Marrón",
+          "hex": "#8a6a45",
+          "image": "x4733",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 95,
+              "unit_price": 95,
+              "printed": 95
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1a",
+          "image": "x4733",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 95,
+              "unit_price": 95,
+              "printed": 95
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4733",
+          "page": 681,
+          "version": "limpia",
+          "alt": "Galón G 5680 de flores en negro, blanco, marrón y crudo"
+        },
+        {
+          "id": "x4735",
+          "page": 681,
+          "version": "limpia",
+          "alt": "Galón G 5680 en negro, blanco, marrón y crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La foto muestra cuatro colores (negro, blanco, marrón y un crudo/beige) pero el texto nombra sólo tres"
+      ]
+    },
+    {
+      "name": "Galón 2 cm G 282",
+      "pdf_text": "GALON DORADO Y PLATEADO 2 CM COD G 282 $ 119 el metro",
+      "pages": [
+        682
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 282",
+      "material": null,
+      "badge": null,
+      "description": "Galón de 2 cm con lentejuelas e hilo metalizado, en dorado y plateado. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c8a020",
+          "image": "x4739",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#b9bcc0",
+          "image": "x4739",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4739",
+          "page": 682,
+          "version": "limpia",
+          "alt": "Galón de lentejuelas de 2 cm en plateado y dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 348",
+      "pdf_text": "GALON COD G 348 PLA Y NEGRO $ 119 el metro",
+      "pages": [
+        683
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 348",
+      "material": null,
+      "badge": null,
+      "description": "Galón con brillo y calado al centro, en plateado y negro. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plateado",
+          "hex": "#c0c3c6",
+          "image": "x4744",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#151515",
+          "image": "x4744",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4744",
+          "page": 683,
+          "version": "limpia",
+          "alt": "Galón G 348 en negro y plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'PLA' se interpretó como plateado"
+      ]
+    },
+    {
+      "name": "Galón G 879",
+      "pdf_text": "GALON COD G 879 $ 107 el metro",
+      "pages": [
+        683
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 879",
+      "material": null,
+      "badge": null,
+      "description": "Galón calado con lentejuelas; en la foto se ve en negro y en blanco. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4746",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 107,
+              "unit_price": 107,
+              "printed": 107
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4746",
+          "page": 683,
+          "version": "limpia",
+          "alt": "Galón G 879 con lentejuelas en negro y blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 289",
+      "pdf_text": "GALON COD G 289 $ 88 el metro",
+      "pages": [
+        684
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 289",
+      "material": null,
+      "badge": null,
+      "description": "Galón metalizado angosto con dibujo de ochos; en la foto se ve en dorado y plateado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4750",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 88,
+              "unit_price": 88,
+              "printed": 88
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4750",
+          "page": 684,
+          "version": "limpia",
+          "alt": "Galón G 289 metalizado en dorado y plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 638",
+      "pdf_text": "G 638 $ 218 EL METRO",
+      "pages": [
+        684
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 638",
+      "material": null,
+      "badge": null,
+      "description": "Galón de pasamanería amarillo con medias lunas en marrón y verde. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4752",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4752",
+          "page": 684,
+          "version": "limpia",
+          "alt": "Galón G 638 amarillo con detalles marrones y verdes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón trenzado G 292",
+      "pdf_text": "GALON TRENZADO G 292 $ 98 EL METRO",
+      "pages": [
+        685
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 292",
+      "material": null,
+      "badge": null,
+      "description": "Galón trenzado metalizado; en las fotos se ve en plateado, plateado con negro y dorado con negro. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4758",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4758",
+          "page": 685,
+          "version": "limpia",
+          "alt": "Galón trenzado G 292 plateado"
+        },
+        {
+          "id": "x4756",
+          "page": 685,
+          "version": "limpia",
+          "alt": "Galón trenzado G 292 en plateado con negro y dorado con negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 281",
+      "pdf_text": "G 281 $ 108 EL METRO PLAT Y DOR",
+      "pages": [
+        686
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 281",
+      "material": null,
+      "badge": null,
+      "description": "Galón metalizado con dibujo de ochos, en plateado y dorado. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plateado",
+          "hex": "#b0b3b3",
+          "image": "x4764",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#d0a11c",
+          "image": "x4762",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4762",
+          "page": 686,
+          "version": "limpia",
+          "alt": "Galón G 281 dorado"
+        },
+        {
+          "id": "x4764",
+          "page": 686,
+          "version": "limpia",
+          "alt": "Galón G 281 plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'PLAT Y DOR' se interpretó como plateado y dorado"
+      ]
+    },
+    {
+      "name": "Galón G 134",
+      "pdf_text": "G 134 $ 351 EL METRO",
+      "pages": [
+        687
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 134",
+      "material": null,
+      "badge": null,
+      "description": "Galón de puntilla con florcitas de tela y una perla al centro; en la foto se ve en color crudo. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4768",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 351,
+              "unit_price": 351,
+              "printed": 351
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4768",
+          "page": 687,
+          "version": "limpia",
+          "alt": "Galón G 134 crudo con flores de tela y perlas"
+        },
+        {
+          "id": "x4770",
+          "page": 687,
+          "version": "limpia",
+          "alt": "Tira de galón G 134 crudo con flores y perlas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón flor en perlas G 136",
+      "pdf_text": "G 136 FLOR EN PERLAS $ 302 EL METRO",
+      "pages": [
+        688
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 136",
+      "material": null,
+      "badge": null,
+      "description": "Galón de guipur con flores aplicadas y perla al centro; en la foto se ve en negro y verde. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4774",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 302,
+              "unit_price": 302,
+              "printed": 302
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4774",
+          "page": 688,
+          "version": "limpia",
+          "alt": "Galón G 136 de flores con perlas en negro y verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón fino G 171",
+      "pdf_text": "GALON FINO COD G 171 $ 58 EL METRO",
+      "pages": [
+        689
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 171",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino trenzado; en las fotos se ve en marrón y celeste. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4781",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4781",
+          "page": 689,
+          "version": "limpia",
+          "alt": "Galón fino G 171 en marrón y celeste"
+        },
+        {
+          "id": "x4779",
+          "page": 689,
+          "version": "limpia",
+          "alt": "Piezas de galón fino G 171 en marrón y celeste"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 1",
+      "pdf_text": "G 1 $ 390 EL METRO",
+      "pages": [
+        690
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 1",
+      "material": null,
+      "badge": null,
+      "description": "Galón ancho negro bordado con dibujo de cachemir. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4786",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4786",
+          "page": 690,
+          "version": "limpia",
+          "alt": "Galón G 1 negro con dibujo de cachemir"
+        },
+        {
+          "id": "x4788",
+          "page": 690,
+          "version": "limpia",
+          "alt": "Rollo de galón G 1 negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 141",
+      "pdf_text": "G 141 $ 351 EL METRO",
+      "pages": [
+        691
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 141",
+      "material": null,
+      "badge": null,
+      "description": "Galón negro bordado de borde ondeado con ojalillos dorados. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4792",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 351,
+              "unit_price": 351,
+              "printed": 351
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4792",
+          "page": 691,
+          "version": "limpia",
+          "alt": "Galón G 141 negro con ojalillos dorados"
+        },
+        {
+          "id": "x4794",
+          "page": 691,
+          "version": "limpia",
+          "alt": "Pieza de galón G 141 negro con ojalillos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 139",
+      "pdf_text": "G 139 $ 429 EL METRO",
+      "pages": [
+        692
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 139",
+      "material": null,
+      "badge": null,
+      "description": "Galón de guipur con ojalillos al centro; en la foto se ve en blanco con ojalillos dorados. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4798",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4798",
+          "page": 692,
+          "version": "limpia",
+          "alt": "Galón G 139 blanco con ojalillos dorados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 140",
+      "pdf_text": "G 140 $ 490 EL METRO",
+      "pages": [
+        692
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 140",
+      "material": null,
+      "badge": null,
+      "description": "Galón de guipur con ojalillos; en la foto se ve en negro y en blanco. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4800",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4800",
+          "page": 692,
+          "version": "limpia",
+          "alt": "Galón G 140 con ojalillos en negro y blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Strass de coser",
+      "pdf_text": "Strass de coser Dorado y plateado Varios tamaños / L12 $ 3 y 1,50 por mayor / L 16 $ 4 y $ 2 por mayor / L18 $ 4 y $ 2 por mayor / L20 $ 5 y $ 2 por mayor",
+      "pages": [
+        693
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Strass de coser con engarce, en dorado y plateado y en cuatro tamaños (L12, L16, L18 y L20). Tiene precio por unidad y por mayor.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "L12",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 3,
+              "unit_price": 3,
+              "printed": 3
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "u",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 1.5,
+              "printed": 1.5
+            }
+          ]
+        },
+        {
+          "label": "L16",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 4,
+              "unit_price": 4,
+              "printed": 4
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "u",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 2,
+              "printed": 2
+            }
+          ]
+        },
+        {
+          "label": "L18",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 4,
+              "unit_price": 4,
+              "printed": 4
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "u",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 2,
+              "printed": 2
+            }
+          ]
+        },
+        {
+          "label": "L20",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "u",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 2,
+              "printed": 2
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Dorado",
+          "hex": "#c9992b"
+        },
+        {
+          "name": "Plateado",
+          "hex": "#c3c5c7"
+        }
+      ],
+      "images": [
+        {
+          "id": "x4806",
+          "page": 693,
+          "version": "limpia",
+          "alt": "Strass de coser con engarce dorado y plateado"
+        },
+        {
+          "id": "x4804",
+          "page": 693,
+          "version": "limpia",
+          "alt": "Strass de coser con engarce plateado"
+        },
+        {
+          "id": "x4808",
+          "page": 693,
+          "version": "limpia",
+          "alt": "Montoncitos de strass de coser dorado y plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se asumió que el precio es por unidad (cada strass)",
+        "Cantidad mínima por mayor",
+        "En L12 el precio por mayor está escrito '1,50' sin el signo $",
+        "Las fotos no permiten distinguir qué tamaño muestra cada una"
+      ]
+    },
+    {
+      "name": "Galón corazón G 128",
+      "pdf_text": "GALON G 128 CORAZOB DORADO Y PLATA $ 98 EL METRO",
+      "pages": [
+        694
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 128",
+      "material": null,
+      "badge": null,
+      "description": "Galón de corazones con piedra facetada unidos por eslabones, en dorado y plata. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c2a85a",
+          "image": "x4814",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Plata",
+          "hex": "#b5b8bd",
+          "image": "x4812",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4812",
+          "page": 694,
+          "version": "limpia",
+          "alt": "Galón de corazones G 128 en plata y dorado"
+        },
+        {
+          "id": "x4814",
+          "page": 694,
+          "version": "limpia",
+          "alt": "Galón de corazones G 128 dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice 'CORAZOB': se leyó como corazón"
+      ]
+    },
+    {
+      "name": "Galón calaveras G 2014-01",
+      "pdf_text": "GALON CALAVERAS COD G 2014-01 $ 268 EL METRO",
+      "pages": [
+        695
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 2014-01",
+      "material": null,
+      "badge": null,
+      "description": "Galón de calaveras metalizadas en tira; en la foto se ve en plateado y dorado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4818",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 268,
+              "unit_price": 268,
+              "printed": 268
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4818",
+          "page": 695,
+          "version": "limpia",
+          "alt": "Tiras de galón de calaveras plateadas y doradas"
+        },
+        {
+          "id": "x4820",
+          "page": 695,
+          "version": "limpia",
+          "alt": "Detalle del galón de calaveras metalizadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón púa G 204-03",
+      "pdf_text": "GALON PUA COD G 204-03 $ 268 EL METRO",
+      "pages": [
+        696
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 204-03",
+      "material": null,
+      "badge": null,
+      "description": "Galón de púas metalizadas en tira; en las fotos se ve en gris oscuro, plateado y dorado. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4825",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 268,
+              "unit_price": 268,
+              "printed": 268
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4825",
+          "page": 696,
+          "version": "limpia",
+          "alt": "Galón de púas en gris oscuro y plateado"
+        },
+        {
+          "id": "x4827",
+          "page": 696,
+          "version": "limpia",
+          "alt": "Galón de púas dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón terciopelo tipo tacha G 05",
+      "pdf_text": "GALON TERCIOPELO TIPO TACHA COD G 05 $ 268 EL METRO",
+      "pages": [
+        697
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 05",
+      "material": "terciopelo",
+      "badge": null,
+      "description": "Galón de botones redondos de terciopelo tipo tacha; en la foto se ve en blanco. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4831",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 268,
+              "unit_price": 268,
+              "printed": 268
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4831",
+          "page": 697,
+          "version": "limpia",
+          "alt": "Galón de terciopelo tipo tacha blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón flores y strass",
+      "pdf_text": "HERMOSO GALON FLORES Y STRASS $ 539 EL METRO",
+      "pages": [
+        698
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón de flores bordadas con un strass al centro de cada flor; en la foto se ve en negro, turquesa y marrón. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4836",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4836",
+          "page": 698,
+          "version": "limpia",
+          "alt": "Galón de flores con strass en negro, turquesa y marrón"
+        },
+        {
+          "id": "x4838",
+          "page": 698,
+          "version": "limpia",
+          "alt": "Tiras de galón de flores con strass en negro, turquesa y marrón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

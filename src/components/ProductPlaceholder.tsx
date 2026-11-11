@@ -73,16 +73,6 @@ const TELA: Art = (c) => (
   </g>
 )
 
-const CALZADO: Art = (c) => (
-  <g stroke={c} strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round">
-    {/* Plantilla */}
-    <path d="M62 20c14 0 20 12 20 26 0 16-6 22-6 38 0 12-6 18-14 18s-14-6-14-18c0-16-6-22-6-38 0-14 6-26 20-26z" />
-    <path d="M50 60h24" strokeWidth="1.6" opacity="0.45" />
-    <path d="M53 78h18" strokeWidth="1.6" opacity="0.45" />
-    <path d="M56 94h12" strokeWidth="1.6" opacity="0.45" />
-  </g>
-)
-
 const VESTIMENTA: Art = (c) => (
   <g stroke={c} strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round">
     {/* Moño */}
@@ -105,12 +95,20 @@ const BOTON: Art = (c) => (
 
 const BY_CATEGORY: Record<string, Art> = {
   cintas: CINTA,
-  hilos: HILO,
-  cordones: CORDON,
+  'galones-flecos-y-borlas': CINTA,
+  'puntillas-y-encajes': CINTA,
+  elasticos: CINTA,
+  sesgos: CINTA,
+  'hilos-y-lanas': HILO,
+  'cordones-y-tientos': CORDON,
+  'agujas-y-alfileres': HILO,
+  'tijeras-y-corte': HERRAMIENTA,
   'herramientas-de-costura': HERRAMIENTA,
-  'telas-y-tul': TELA,
-  'calzado-y-accesorios': CALZADO,
+  'maquina-de-coser': HERRAMIENTA,
+  'tejido-y-bordado': HILO,
+  'telas-y-entretelas': TELA,
   'accesorios-de-vestimenta': VESTIMENTA,
+  'lenceria-y-corseteria': VESTIMENTA,
 }
 
 export function ProductPlaceholder({

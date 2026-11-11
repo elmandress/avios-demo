@@ -1,0 +1,2848 @@
+{
+  "batch": 6,
+  "products": [
+    {
+      "name": "Hilo elástico",
+      "pdf_text": "HILO ELASTICO $ 39",
+      "pages": [
+        185
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hilo elástico en carretel, en variedad de colores: lila, mostaza, celeste, gris, negro, crudo, blanco, rojo y azul. Precio por carretel.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1360",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1360",
+          "page": 185,
+          "version": "limpia",
+          "alt": "Diez carreteles de hilo elástico en distintos colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja para fieltro TC-165",
+      "pdf_text": "AGUJA PARA REALIZAR FIELTRO COD TC-165 $ 268 EL PAQUETE",
+      "pages": [
+        186
+      ],
+      "category": "tejido-y-bordado",
+      "sku": "TC-165",
+      "material": null,
+      "badge": null,
+      "description": "Agujas para realizar fieltro (afieltrar), con la punta dentada y el cabo doblado. Se venden por paquete, en cajita plástica.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1366",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 268,
+              "unit_price": 268,
+              "printed": 268
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1366",
+          "page": 186,
+          "version": "limpia",
+          "alt": "Cajita plástica con agujas para fieltro y dos agujas sueltas al lado"
+        },
+        {
+          "id": "x1368",
+          "page": 186,
+          "version": "limpia",
+          "alt": "Dos agujas para fieltro con el cabo doblado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice '$ 268 el paquete' pero no cuántas agujas trae el paquete"
+      ]
+    },
+    {
+      "name": "Gancho para dar vuelta sesgos 40414-6",
+      "pdf_text": "El gancho de acero inoxidable es más cómodo de usar, el extremo del gancho de cierre atrapa la tela para tirar a través de tubos de sesgo, ahorrando tiempo y energía en trabajos de costura de bricolaje Hay 2 ganchos de acero inoxidable para coser en este paquete, que vienen con 2 tamaños diferentes, cantidad suficiente para satisfacer tus diferentes demandas o compartir con un amigo. CODIGO 40414-6 $ 150",
+      "pages": [
+        187
+      ],
+      "category": "herramientas-de-costura",
+      "sku": "40414-6",
+      "material": "acero inoxidable",
+      "badge": null,
+      "description": "Ganchos de acero inoxidable para dar vuelta tubos de sesgo: el gancho con cierre atrapa la tela y la pasa por adentro. El paquete trae 2 ganchos de distinto tamaño.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1372",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Set",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 150,
+              "unit_price": 150,
+              "printed": 150
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1375",
+          "page": 187,
+          "version": "limpia",
+          "alt": "Dos ganchos largos de acero con argolla sobre una mesa de costura"
+        },
+        {
+          "id": "x1372",
+          "page": 187,
+          "version": "limpia",
+          "alt": "Paquete con dos ganchos de acero para dar vuelta sesgos"
+        },
+        {
+          "id": "x1374",
+          "page": 187,
+          "version": "limpia",
+          "alt": "Detalle de la argolla y del gancho con cierre"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La página no tiene título: el nombre se armó a partir del texto descriptivo del PDF"
+      ]
+    },
+    {
+      "name": "Aguja colchonera",
+      "pdf_text": "AGUJA COLCHONERO $ 108",
+      "pages": [
+        188
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Agujas colchoneras largas, presentadas en blíster (de 4 agujas según el envase).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1380",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1380",
+          "page": 188,
+          "version": "limpia",
+          "alt": "Tres blísteres azules con agujas colchoneras largas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por blíster (4 agujas según el envase) o por aguja; se cargó como unidad"
+      ]
+    },
+    {
+      "name": "Aguja para enhebrar mostacillas TC-153",
+      "pdf_text": "AGUJA PARA ENHEBRAR MOSTACILLAS CODIGO TC-153 $ 12 UNID",
+      "pages": [
+        189
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": "TC-153",
+      "material": null,
+      "badge": null,
+      "description": "Aguja larga y muy fina para enhebrar mostacillas. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1385",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1385",
+          "page": 189,
+          "version": "limpia",
+          "alt": "Manojo de agujas largas y finas para enhebrar mostacillas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja de lana de metal · paquete x 25",
+      "pdf_text": "AGUJA LANA METAL 5 CM $ 163 / 6 CM $ 163 / 6,5 CM$ 163 PAQUETE X 25 UNIDADES",
+      "pages": [
+        190
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Agujas de metal para lana, en tres largos. Se venden en paquete de 25 unidades.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 25",
+              "unit": "u",
+              "content_qty": 25,
+              "price": 163,
+              "unit_price": 6.52,
+              "printed": 163
+            }
+          ]
+        },
+        {
+          "label": "6 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 25",
+              "unit": "u",
+              "content_qty": 25,
+              "price": 163,
+              "unit_price": 6.52,
+              "printed": 163
+            }
+          ]
+        },
+        {
+          "label": "6,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 25",
+              "unit": "u",
+              "content_qty": 25,
+              "price": 163,
+              "unit_price": 6.52,
+              "printed": 163
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1392",
+          "page": 190,
+          "version": "limpia",
+          "alt": "Agujas de metal para lana sueltas y en bolsita sobre una mesa de madera"
+        },
+        {
+          "id": "x1390",
+          "page": 190,
+          "version": "limpia",
+          "alt": "Agujas de metal para lana sueltas sobre fondo blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja baja visión punta dorada",
+      "pdf_text": "AGUJA BAJA VISION PUNTA DORADA $ 108",
+      "pages": [
+        191
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Agujas para baja visión, de enhebrado fácil, con la punta dorada. Vienen en sobre (12 agujas surtidas según el envase).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1396",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1396",
+          "page": 191,
+          "version": "limpia",
+          "alt": "Cuatro sobres de agujas de enhebrado fácil con la punta dorada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por sobre (12 agujas surtidas según el envase) o por aguja; se cargó como unidad"
+      ]
+    },
+    {
+      "name": "Aguja de lana de metal en blíster",
+      "pdf_text": "AGUJA LANA METAL $ 108",
+      "pages": [
+        192
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Agujas de metal para lana presentadas en blíster (6 unidades de 5, 6 y 7 cm según el envase).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1403",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1403",
+          "page": 192,
+          "version": "limpia",
+          "alt": "Tres blísteres de agujas de metal para lana"
+        },
+        {
+          "id": "x1401",
+          "page": 192,
+          "version": "limpia",
+          "alt": "Blíster de agujas de metal para lana"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por blíster (6 agujas según el envase) o por aguja; se cargó como unidad"
+      ]
+    },
+    {
+      "name": "Aguja de tejer",
+      "pdf_text": "AGUJA TEJER N 2-2,5- $ 81 / 3- 3,5 $ 86 / 4 $ 90 / 4,5 $ 138 / 5-5,5 $ 142 / 6 $ 145 / 7 $ 152 / 8 $163 / 9 $ 174 / 10 $ 185 / 11 $ 211 / 12 $ 264",
+      "pages": [
+        193
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Agujas de tejer rectas, grises con tope blanco, del número 2 al 12. Vienen en su funda plástica.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 81,
+              "unit_price": 81,
+              "printed": 81
+            }
+          ]
+        },
+        {
+          "label": "N 2,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 81,
+              "unit_price": 81,
+              "printed": 81
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        },
+        {
+          "label": "N 3,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 90,
+              "unit_price": 90,
+              "printed": 90
+            }
+          ]
+        },
+        {
+          "label": "N 4,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 142,
+              "unit_price": 142,
+              "printed": 142
+            }
+          ]
+        },
+        {
+          "label": "N 5,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 142,
+              "unit_price": 142,
+              "printed": 142
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 152,
+              "unit_price": 152,
+              "printed": 152
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 163,
+              "unit_price": 163,
+              "printed": 163
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 174,
+              "unit_price": 174,
+              "printed": 174
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 185,
+              "unit_price": 185,
+              "printed": 185
+            }
+          ]
+        },
+        {
+          "label": "N 11",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 211,
+              "unit_price": 211,
+              "printed": 211
+            }
+          ]
+        },
+        {
+          "label": "N 12",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 264,
+              "unit_price": 264,
+              "printed": 264
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1407",
+          "page": 193,
+          "version": "limpia",
+          "alt": "Agujas de tejer grises con tope blanco en fundas plásticas azules"
+        },
+        {
+          "id": "x1409",
+          "page": 193,
+          "version": "limpia",
+          "alt": "Par de agujas de tejer finas cruzadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par",
+        "'N 2-2,5 $ 81', '3-3,5 $ 86' y '5-5,5 $ 142' se abrieron en una variante por número, con el mismo precio"
+      ]
+    },
+    {
+      "name": "Alfiler cabeza plana de colores TC-154",
+      "pdf_text": "ALFILER CABEZA PLANA DE COLORES CODIGO TC-154 $ 98",
+      "pages": [
+        194
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": "TC-154",
+      "material": null,
+      "badge": null,
+      "description": "Alfileres de cabeza plana con forma de moñito, en colores pastel surtidos. Vienen en cajita plástica.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1416",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1415",
+          "page": 194,
+          "version": "limpia",
+          "alt": "Alfileres de cabeza plana con forma de moñito en colores pastel"
+        },
+        {
+          "id": "x1416",
+          "page": 194,
+          "version": "limpia",
+          "alt": "Dos cajitas plásticas con alfileres de cabeza plana de colores"
+        },
+        {
+          "id": "x1413",
+          "page": 194,
+          "version": "limpia",
+          "alt": "Cajita plástica y alfileres de cabeza plana de colores pastel"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El precio se tomó por cajita (así se ve en la foto); el PDF no dice cuántos alfileres trae"
+      ]
+    },
+    {
+      "name": "Alfiler de color x 100",
+      "pdf_text": "ALFILER COLOR X 100 UNIDADES $ 132",
+      "pages": [
+        195
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfileres con cabeza perlada de colores surtidos. Caja de 100 unidades.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1421",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 100",
+              "unit": "u",
+              "content_qty": 100,
+              "price": 132,
+              "unit_price": 1.32,
+              "printed": 132
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1421",
+          "page": 195,
+          "version": "limpia",
+          "alt": "Caja plástica con alfileres de cabeza perlada de colores"
+        },
+        {
+          "id": "x1423",
+          "page": 195,
+          "version": "limpia",
+          "alt": "Cajita abierta con alfileres de cabeza de colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Alfiler en rueda",
+      "pdf_text": "ALFILER RUEDA COLOR O BLANCA $ 54",
+      "pages": [
+        195
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfileres de cabeza perlada presentados en rueda, con cabezas de colores surtidos o todas blancas. Precio por rueda.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "De colores",
+          "hex": null,
+          "image": "x1424",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 54,
+              "unit_price": 54,
+              "printed": 54
+            }
+          ]
+        },
+        {
+          "label": "Blanca",
+          "hex": null,
+          "image": "x1425",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 54,
+              "unit_price": 54,
+              "printed": 54
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1424",
+          "page": 195,
+          "version": "limpia",
+          "alt": "Ruedas de alfileres con cabeza perlada de colores"
+        },
+        {
+          "id": "x1425",
+          "page": 195,
+          "version": "limpia",
+          "alt": "Rueda de alfileres con cabeza perlada blanca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Alfiler calidad superior x 200",
+      "pdf_text": "ALFILER X 200 UNIDADES $ 132 CALIDAD SUPERIOR",
+      "pages": [
+        196
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfileres de modista de calidad superior, en cajita redonda azul. Trae 200 unidades.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1431",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 200",
+              "unit": "u",
+              "content_qty": 200,
+              "price": 132,
+              "unit_price": 0.66,
+              "printed": 132
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1431",
+          "page": 196,
+          "version": "limpia",
+          "alt": "Tres cajitas redondas azules de alfileres de modista"
+        },
+        {
+          "id": "x1432",
+          "page": 196,
+          "version": "limpia",
+          "alt": "Cajitas redondas azules de alfileres de modista"
+        },
+        {
+          "id": "x1429",
+          "page": 196,
+          "version": "limpia",
+          "alt": "Cuatro alfileres de acero de cabeza chata"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Broche de gancho forrado",
+      "pdf_text": "BROCHE DE GANCHO FORRADOS $ 24",
+      "pages": [
+        197
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broche de gancho forrado en hilo, gancho y presilla. En la foto, en blanco.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1436",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1436",
+          "page": 197,
+          "version": "limpia",
+          "alt": "Broches de gancho forrados en hilo blanco"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par (gancho y presilla)"
+      ]
+    },
+    {
+      "name": "Agujas Regal",
+      "pdf_text": "AGUJAS REGAL $ 98",
+      "pages": [
+        197
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Agujas de mano Regal, en sobre.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1438",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1438",
+          "page": 197,
+          "version": "limpia",
+          "alt": "Sobre de agujas de mano Regal con etiqueta verde"
+        },
+        {
+          "id": "x1439",
+          "page": 197,
+          "version": "limpia",
+          "alt": "Varios sobres de agujas Regal"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El precio se tomó por sobre; el PDF no dice cuántas agujas trae ni de qué número"
+      ]
+    },
+    {
+      "name": "Broche de gancho peletero",
+      "pdf_text": "BROCHE DE GANCHO PELETERO PLATA Y NEGRO $ 20 CADA PAR",
+      "pages": [
+        198
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broche de gancho peletero, grande, en plata o negro. Se vende por par (gancho y presilla).",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plata",
+          "hex": "#c9c7bd",
+          "image": "x1445",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x1445",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1445",
+          "page": 198,
+          "version": "limpia",
+          "alt": "Broches de gancho peleteros en negro y en plata"
+        },
+        {
+          "id": "x1443",
+          "page": 198,
+          "version": "limpia",
+          "alt": "Dos pares de broches de gancho peleteros, negro y plata"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Bobinas de colores x 25",
+      "pdf_text": "BOBINAS DE COLORES X 25 $ 385",
+      "pages": [
+        199
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Caja con 25 bobinas plásticas transparentes de colores: verde, negro, azul, naranja y rosa.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1450",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Caja x 25",
+              "unit": "u",
+              "content_qty": 25,
+              "price": 385,
+              "unit_price": 15.4,
+              "printed": 385
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1450",
+          "page": 199,
+          "version": "limpia",
+          "alt": "Caja organizadora con bobinas plásticas de colores"
+        },
+        {
+          "id": "x1452",
+          "page": 199,
+          "version": "limpia",
+          "alt": "Cajas con bobinas plásticas de colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Porta bobina",
+      "pdf_text": "PORTA BOBINA $ 306",
+      "pages": [
+        200
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Porta bobina metálico para máquina de coser.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1458",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 306,
+              "unit_price": 306,
+              "printed": 306
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1456",
+          "page": 200,
+          "version": "limpia",
+          "alt": "Porta bobina metálico con traba"
+        },
+        {
+          "id": "x1458",
+          "page": 200,
+          "version": "limpia",
+          "alt": "Porta bobina metálico visto de costado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las dos fotos muestran porta bobinas de modelos distintos y el PDF da un solo precio: confirmar cuál se vende"
+      ]
+    },
+    {
+      "name": "Bobina alta para máquina familiar",
+      "pdf_text": "BOBINA METAL ALTA PARA MAQUINA FAMILIAR $ 15 BOBINA PLASTICA ALTA PARA MAQUINA FAMILIAR $ 20",
+      "pages": [
+        200
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Bobina alta para máquina de coser familiar, de metal o de plástico transparente.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Metal",
+          "hex": null,
+          "image": "x1459",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Plástica",
+          "hex": null,
+          "image": "x1460",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1459",
+          "page": 200,
+          "version": "limpia",
+          "alt": "Bobina alta de metal con perforaciones"
+        },
+        {
+          "id": "x1460",
+          "page": 200,
+          "version": "limpia",
+          "alt": "Bobina alta de plástico transparente"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Bobina baja para máquina industrial",
+      "pdf_text": "BOBINA METAL $ 40 PLASTICA $ 20 BAJA PARA MAQUINA INDUSTRIAL",
+      "pages": [
+        201
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Bobina baja para máquina de coser industrial, de metal o de plástico transparente.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Metal",
+          "hex": null,
+          "image": "x1464",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 40,
+              "unit_price": 40,
+              "printed": 40
+            }
+          ]
+        },
+        {
+          "label": "Plástica",
+          "hex": null,
+          "image": "x1466",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1464",
+          "page": 201,
+          "version": "limpia",
+          "alt": "Tres bobinas de metal sobre su caja roja"
+        },
+        {
+          "id": "x1466",
+          "page": 201,
+          "version": "limpia",
+          "alt": "Dos bobinas bajas de plástico transparente"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aceite para máquina 100 ml",
+      "pdf_text": "ACEITE MAQUINA 1OO ML $ 145",
+      "pages": [
+        202
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aceite lubricante para máquina de coser, en frasco naranja con pico rojo de 100 ml.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1470",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1472",
+          "page": 202,
+          "version": "limpia",
+          "alt": "Frasco naranja de aceite para máquina de coser con pico rojo"
+        },
+        {
+          "id": "x1470",
+          "page": 202,
+          "version": "limpia",
+          "alt": "Frascos naranjas de aceite lubricante con pico rojo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF escribe '1OO ML' con letras O; se interpretó como 100 ml"
+      ]
+    },
+    {
+      "name": "Correa para máquina",
+      "pdf_text": "CORREA PARA MAQUINA $ 75",
+      "pages": [
+        203
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Correa dentada para máquina de coser. En la foto, de color naranja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1476",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1476",
+          "page": 203,
+          "version": "limpia",
+          "alt": "Tres correas dentadas naranjas para máquina de coser"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Abre ojal",
+      "pdf_text": "ABRE OJAL CHICO $ 54 / ABRE OJAL GRANDE $ 76",
+      "pages": [
+        204
+      ],
+      "category": "tijeras-y-corte",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Abre ojal (descosedor) con mango plástico, en dos tamaños y colores surtidos.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Chico",
+          "hex": null,
+          "image": "x1484",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 54,
+              "unit_price": 54,
+              "printed": 54
+            }
+          ]
+        },
+        {
+          "label": "Grande",
+          "hex": null,
+          "image": "x1484",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 76,
+              "unit_price": 76,
+              "printed": 76
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1482",
+          "page": 204,
+          "version": "limpia",
+          "alt": "Cuatro abre ojales con mango amarillo, rojo, verde y azul"
+        },
+        {
+          "id": "x1484",
+          "page": 204,
+          "version": "limpia",
+          "alt": "Dos abre ojales grandes, azul y amarillo, y dos chicos, rojo y verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Centímetro alemán",
+      "pdf_text": "CENTIMETRO ALEMAN BUENO $ 163",
+      "pages": [
+        205
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Centímetro alemán de buena calidad, blanco de un lado y amarillo del otro, con punteras metálicas. Viene en su caja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1488",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 163,
+              "unit_price": 163,
+              "printed": 163
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1488",
+          "page": 205,
+          "version": "limpia",
+          "alt": "Centímetro de costura blanco y amarillo con puntera metálica"
+        },
+        {
+          "id": "x1491",
+          "page": 205,
+          "version": "limpia",
+          "alt": "Caja del centímetro alemán"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Centímetro de costura",
+      "pdf_text": "CENTIMETRO $ 54",
+      "pages": [
+        206
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Centímetro de costura flexible. En variedad de colores: amarillo, rosa, azul, verde.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1495",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 54,
+              "unit_price": 54,
+              "printed": 54
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1495",
+          "page": 206,
+          "version": "limpia",
+          "alt": "Centímetro de costura amarillo enrollado"
+        },
+        {
+          "id": "x1497",
+          "page": 206,
+          "version": "limpia",
+          "alt": "Caja con centímetros de costura de varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cinta araña rollo x 100 metros",
+      "pdf_text": "CINTA ARAÑA ROLLO X 100 METROS 2 CM $ 208 / 2,5 CM $ 218",
+      "pages": [
+        207
+      ],
+      "category": "telas-y-entretelas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta araña termoadhesiva blanca en rollo de 100 metros, en dos anchos.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x1501",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 100 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 208,
+              "unit_price": 208,
+              "printed": 208
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x1501",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 100 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1501",
+          "page": 207,
+          "version": "limpia",
+          "alt": "Dos rollos blancos de cinta araña"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja esmirna",
+      "pdf_text": "AGUJA ESMIRNA $ 154",
+      "pages": [
+        208
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja para esmirna con mango plástico fucsia y verde flúo y gancho metálico con lengüeta.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1511",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 154,
+              "unit_price": 154,
+              "printed": 154
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1511",
+          "page": 208,
+          "version": "limpia",
+          "alt": "Agujas para esmirna con mango fucsia y verde flúo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja de crochet de metal",
+      "pdf_text": "AGUJA CROCHET METAL $ 52",
+      "pages": [
+        208
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Aguja de crochet de metal, fina, de las clásicas plateadas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1510",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 52,
+              "unit_price": 52,
+              "printed": 52
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1510",
+          "page": 208,
+          "version": "limpia",
+          "alt": "Hilera de agujas de crochet de metal"
+        },
+        {
+          "id": "x1507",
+          "page": 208,
+          "version": "limpia",
+          "alt": "Detalle de la punta de tres agujas de crochet de metal"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja de crochet plástica N 2,5 a N 5",
+      "pdf_text": "AGUJAS CROCHET PLASTICAS NUMERO 2,5 HASTA N 5 $ 108",
+      "pages": [
+        209
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": "plástico",
+      "badge": null,
+      "description": "Agujas de crochet con mango plástico de colores, del número 2,5 al 5. Todas al mismo precio.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1517",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1517",
+          "page": 209,
+          "version": "limpia",
+          "alt": "Seis agujas de crochet con mango plástico de colores"
+        },
+        {
+          "id": "x1518",
+          "page": 209,
+          "version": "limpia",
+          "alt": "Doce agujas de crochet con mango plástico de colores en fila"
+        },
+        {
+          "id": "x1515",
+          "page": 209,
+          "version": "limpia",
+          "alt": "Detalle de las puntas de agujas de crochet de colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'Número 2,5 hasta N 5': el PDF no lista los números intermedios, por eso quedó una sola variante con el rango"
+      ]
+    },
+    {
+      "name": "Aguja de crochet de colores N 2 a N 12",
+      "pdf_text": "AGUJA CROCHET NUMERO 2 HASTA N 8 $ 108 / N 9 , 10 , 12 $ 132",
+      "pages": [
+        210
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Agujas de crochet de colores metalizados, del número 2 al 12. Del 2 al 8 a un precio; 9, 10 y 12 a otro.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 2 a N 8",
+          "hex": null,
+          "image": "x1524",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        },
+        {
+          "label": "N 12",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1524",
+          "page": 210,
+          "version": "limpia",
+          "alt": "Agujas de crochet de colores metalizados en abanico"
+        },
+        {
+          "id": "x1522",
+          "page": 210,
+          "version": "limpia",
+          "alt": "Puntas de agujas de crochet gruesas de colores metalizados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'Número 2 hasta N 8': el PDF no lista los números intermedios, por eso quedó como un rango en una sola variante"
+      ]
+    },
+    {
+      "name": "Aguja de crochet blíster x 12 surtidas",
+      "pdf_text": "AGUJA CROCHET BLISTER X 12 SURTIDAS $ 908",
+      "pages": [
+        211
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Blíster con 12 agujas de crochet surtidas, de colores metalizados.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1528",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 12 surtidas",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 908,
+              "unit_price": 908,
+              "printed": 908
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1528",
+          "page": 211,
+          "version": "limpia",
+          "alt": "Dos blísteres con doce agujas de crochet de colores cada uno"
+        },
+        {
+          "id": "x1530",
+          "page": 211,
+          "version": "limpia",
+          "alt": "Agujas de crochet de colores metalizados de distintos grosores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se cargó como un set (12 agujas de distintos números a $ 908), sin precio por unidad"
+      ]
+    },
+    {
+      "name": "Separador de punto",
+      "pdf_text": "SEPARADOR DE PUNTO 6 CM $ 42 / 9 CM $ 48 / 12 CM $ 64 / 15 CM $ 86 / 20 CM $ 97",
+      "pages": [
+        212
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Separador de punto con forma de alfiler de gancho largo, en cinco medidas y colores surtidos.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "6 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 42,
+              "unit_price": 42,
+              "printed": 42
+            }
+          ]
+        },
+        {
+          "label": "9 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "12 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        },
+        {
+          "label": "15 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        },
+        {
+          "label": "20 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 97,
+              "unit_price": 97,
+              "printed": 97
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1539",
+          "page": 212,
+          "version": "limpia",
+          "alt": "Separadores de punto en rosa, celeste y dorado"
+        },
+        {
+          "id": "x1538",
+          "page": 212,
+          "version": "limpia",
+          "alt": "Cuatro separadores de punto de distintas medidas y colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja para lana plástica",
+      "pdf_text": "AGUJA PARA LANA PLASTICAS 7 CM $ 28 / 9 CM $ 31",
+      "pages": [
+        212
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": "plástico",
+      "badge": null,
+      "description": "Agujas plásticas para lana, de ojo grande, en dos largos y colores surtidos.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "7 cm",
+          "hex": null,
+          "image": "x1540",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 28,
+              "unit_price": 28,
+              "printed": 28
+            }
+          ]
+        },
+        {
+          "label": "9 cm",
+          "hex": null,
+          "image": "x1540",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 31,
+              "unit_price": 31,
+              "printed": 31
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1540",
+          "page": 212,
+          "version": "limpia",
+          "alt": "Agujas plásticas para lana de colores, de 7 cm y de 9 cm"
+        },
+        {
+          "id": "x1535",
+          "page": 212,
+          "version": "limpia",
+          "alt": "Agujas plásticas para lana en verde, rojo, amarillo y rosa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por aguja o por paquete; se cargó por unidad"
+      ]
+    },
+    {
+      "name": "Alfiler plástico marcador de punto",
+      "pdf_text": "ALFILER PLASTICO MARCADOR PUNTO $ 7",
+      "pages": [
+        213
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": "plástico",
+      "badge": null,
+      "description": "Marcador de punto de plástico con forma de alfiler de gancho, en colores surtidos. Precio por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1544",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1544",
+          "page": 213,
+          "version": "limpia",
+          "alt": "Marcadores de punto de plástico de colores enganchados entre sí"
+        },
+        {
+          "id": "x1546",
+          "page": 213,
+          "version": "limpia",
+          "alt": "Marcadores de punto de plástico de colores sueltos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Enhebrador calidad buena",
+      "pdf_text": "ENHEBRADOR CALIDAD BUENA $ 58",
+      "pages": [
+        214
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Enhebrador de agujas de buena calidad, con mango negro en forma de gota y alambre fino.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1550",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1550",
+          "page": 214,
+          "version": "limpia",
+          "alt": "Tres enhebradores con mango negro en forma de gota"
+        },
+        {
+          "id": "x1552",
+          "page": 214,
+          "version": "limpia",
+          "alt": "Enhebrador de mango negro junto a una aguja enhebrada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Enhebrador",
+      "pdf_text": "ENHEBRADOR $ 8",
+      "pages": [
+        215
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Enhebrador de agujas común, de chapita plateada con alambre fino. Precio por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1559",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1559",
+          "page": 215,
+          "version": "limpia",
+          "alt": "Montón de enhebradores de chapita plateada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Ruleta de marcar",
+      "pdf_text": "RULETA DE MARCAR $ 98",
+      "pages": [
+        215
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ruleta de marcar con rueda dentada de metal y mango de madera.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1557",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1557",
+          "page": 215,
+          "version": "limpia",
+          "alt": "Ruleta de marcar con rueda dentada y mango de madera"
+        },
+        {
+          "id": "x1560",
+          "page": 215,
+          "version": "limpia",
+          "alt": "Ruletas de marcar con mango de madera sobre su caja"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Dedal anillo regulable",
+      "pdf_text": "DEDAL ANILLO REGULABLE $ 58",
+      "pages": [
+        216
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Dedal tipo anillo, regulable, de metal con puntitos. En la foto se ve en tonos bronce, cobre y plateado.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1567",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1567",
+          "page": 216,
+          "version": "limpia",
+          "alt": "Tres dedales anillo regulables en bronce, cobre y plateado"
+        },
+        {
+          "id": "x1564",
+          "page": 216,
+          "version": "limpia",
+          "alt": "Dedales anillo regulables color bronce"
+        },
+        {
+          "id": "x1566",
+          "page": 216,
+          "version": "limpia",
+          "alt": "Dedal anillo regulable color bronce con detalle de la superficie"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Pinza para enhebrar overlock",
+      "pdf_text": "Pinza para enhebrar overlocK $ 132",
+      "pages": [
+        217
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pinza larga de punta curva para enhebrar la overlock.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1575",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1574",
+          "page": 217,
+          "version": "limpia",
+          "alt": "Pinzas metálicas de punta curva en fundas azules"
+        },
+        {
+          "id": "x1575",
+          "page": 217,
+          "version": "limpia",
+          "alt": "Punta curva de una pinza para enhebrar"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Dedal",
+      "pdf_text": "DEDAL $ 38",
+      "pages": [
+        217
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Dedal clásico plateado, cerrado.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1572",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 38,
+              "unit_price": 38,
+              "printed": 38
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1572",
+          "page": 217,
+          "version": "limpia",
+          "alt": "Dedal plateado clásico"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Canasta de agujas fucsia",
+      "pdf_text": "CANASTA FUCSIA $ 108",
+      "pages": [
+        218
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Surtido de agujas en cartón fucsia: agujas de mano y agujas de reparación (21 agujas según el envase).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1579",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1579",
+          "page": 218,
+          "version": "limpia",
+          "alt": "Cartón fucsia con surtido de agujas de mano y de reparación"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice sólo 'Canasta fucsia'; por la foto es un surtido de agujas en cartón (se agregó 'de agujas' al nombre)"
+      ]
+    },
+    {
+      "name": "Canasta de agujas variedad de medidas",
+      "pdf_text": "CANASTA VARIEDAD MEDIDAS $ 108",
+      "pages": [
+        218
+      ],
+      "category": "agujas-y-alfileres",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Surtido de agujas de distintas medidas en cartón: rectas y curvas, para tapicería, lona, cuero y colchón (según el envase).",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1581",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1581",
+          "page": 218,
+          "version": "limpia",
+          "alt": "Cartón gris con surtido de agujas rectas y curvas de varias medidas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice sólo 'Canasta variedad medidas'; por la foto es un surtido de agujas en cartón (se agregó 'de agujas' al nombre)"
+      ]
+    },
+    {
+      "name": "Broche de presión plateado y negro en blíster",
+      "pdf_text": "BROCHE DE PRESION BLISTER 8 MM Y 1 CM PLATEADO Y NEGRO $ 24 X6 / 1,2 CM PLATEADO Y NEGRO $ 28 X 5 / 1,3 CM PLATEADO Y NEGRO $ 34 X 5 / 1,5 CM PLATEADO Y NEGRO $36 X5",
+      "pages": [
+        219
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broches de presión para coser, en blíster, en plateado o negro y en cinco medidas.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "8 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 24,
+              "unit_price": 4.0,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 24,
+              "unit_price": 4.0,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "1,2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 5",
+              "unit": "u",
+              "content_qty": 5,
+              "price": 28,
+              "unit_price": 5.6,
+              "printed": 28
+            }
+          ]
+        },
+        {
+          "label": "1,3 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 5",
+              "unit": "u",
+              "content_qty": 5,
+              "price": 34,
+              "unit_price": 6.8,
+              "printed": 34
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 5",
+              "unit": "u",
+              "content_qty": 5,
+              "price": 36,
+              "unit_price": 7.2,
+              "printed": 36
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c6c8"
+        },
+        {
+          "name": "Negro",
+          "hex": "#1c1c1c"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1587",
+          "page": 219,
+          "version": "limpia",
+          "alt": "Cartones de broches de presión plateados de varias medidas"
+        },
+        {
+          "id": "x1585",
+          "page": 219,
+          "version": "limpia",
+          "alt": "Cartones de broches de presión negros de varias medidas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'$ 24 X6' / '$ 28 X 5' se interpretó como blíster de 6 (o 5) broches a ese precio; en la foto los cartones traen más broches: confirmar qué significa 'X6' / 'X5'"
+      ]
+    },
+    {
+      "name": "Broche de presión blanco y transparente · blíster x 24",
+      "pdf_text": "BROCHE DE PRESION EN BLISTER X 24 BLANCO Y TRANSPARENTE $ 108",
+      "pages": [
+        220
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broches de presión para coser, en blanco o transparente. Blíster de 24 broches.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f7f7f5",
+          "image": "x1593",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 24",
+              "unit": "u",
+              "content_qty": 24,
+              "price": 108,
+              "unit_price": 4.5,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "Transparente",
+          "hex": "#dfe9ea",
+          "image": "x1591",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Blíster x 24",
+              "unit": "u",
+              "content_qty": 24,
+              "price": 108,
+              "unit_price": 4.5,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1593",
+          "page": 220,
+          "version": "limpia",
+          "alt": "Dos cartones de broches de presión, uno transparente y uno blanco"
+        },
+        {
+          "id": "x1591",
+          "page": 220,
+          "version": "limpia",
+          "alt": "Dos cartones de broches de presión transparentes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Broche de gancho por metro en cinta de algodón",
+      "pdf_text": "BROCHE GANCHO POR METRO EN CINTA ALGODÓN $ 348 EL METRO",
+      "pages": [
+        221
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": "algodón",
+      "badge": null,
+      "description": "Broches de gancho ya aplicados sobre cinta de algodón, para cortar por metro. En la foto, en negro y en blanco.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x1597",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 348,
+              "unit_price": 348,
+              "printed": 348
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1597",
+          "page": 221,
+          "version": "limpia",
+          "alt": "Cinta de algodón negra y blanca con broches de gancho aplicados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Broche de gancho N 0 a N 4",
+      "pdf_text": "BROCHE DE GANCHO N 0 Y 1 $ 83 / BROCHE GANCHO N 2 Y N3 $ 83 / BROCHE DE GANCHO N 4 $ 119",
+      "pages": [
+        222
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broches de gancho (macho y hembra) en cartón, números 0 al 4, en plateado, dorado o negro según la foto. El cartón trae 24 según el envase.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 0",
+          "hex": null,
+          "image": "x1605",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        },
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x1605",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x1603",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x1603",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x1606",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1606",
+          "page": 222,
+          "version": "limpia",
+          "alt": "Cartones de broches de gancho plateados y negros, tamaño 4"
+        },
+        {
+          "id": "x1605",
+          "page": 222,
+          "version": "limpia",
+          "alt": "Cartones de broches de gancho plateados y negros, tamaño 0"
+        },
+        {
+          "id": "x1603",
+          "page": 222,
+          "version": "limpia",
+          "alt": "Cartones de broches de gancho dorados y plateados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El precio se tomó por cartón (24 según el envase); el PDF no lo aclara",
+        "La foto que acompaña a 'N 2 y N 3' muestra un cartón que dice 'Size 1'; la de 'N 0 y 1' muestra 'Size 0'"
+      ]
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

@@ -1,0 +1,3505 @@
+{
+  "batch": 5,
+  "products": [
+    {
+      "name": "Aro llavero",
+      "pdf_text": "ARO LLAVERO DORADO y PLATEADO 2,0 CM $ 7 / 2,5 CM $ 9",
+      "pages": [
+        148
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aro llavero partido, en dorado y plateado, en dos medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Dorado",
+          "hex": "#c8a951"
+        },
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1089",
+          "page": 148,
+          "version": "limpia",
+          "alt": "Cuatro aros llavero dorados y plateados sobre madera"
+        },
+        {
+          "id": "x1091",
+          "page": 148,
+          "version": "limpia",
+          "alt": "Aro llavero plateado"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Broche jardinero",
+      "pdf_text": "BROCHE JARDINERO PLATEADO y ORO VIEJO $ 30",
+      "pages": [
+        148
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broche de jardinero de alambre con pasador, en plateado y oro viejo.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plateado",
+          "hex": "#c4c4c4",
+          "image": "x1094",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 30,
+              "unit_price": 30,
+              "printed": 30
+            }
+          ]
+        },
+        {
+          "label": "Oro viejo",
+          "hex": "#8c7435",
+          "image": "x1093",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 30,
+              "unit_price": 30,
+              "printed": 30
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1094",
+          "page": 148,
+          "version": "limpia",
+          "alt": "Dos broches de jardinero plateados"
+        },
+        {
+          "id": "x1093",
+          "page": 148,
+          "version": "limpia",
+          "alt": "Dos broches de jardinero oro viejo"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "No aclara si el precio es por unidad o por par (cada foto muestra dos broches)"
+      ]
+    },
+    {
+      "name": "Aro con cadena para llavero",
+      "pdf_text": "ARO CON CADENA 2 CMS. $ 12 (1 2 3 4) / ARO CON CADENA 2,30 CMS $ 14 (5 6) / ARO CON CADENA 2,5 CM $ 16 (7 8 9 10)",
+      "pages": [
+        149,
+        150
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aro llavero con cadenita, en diez modelos numerados y tres medidas de aro: plateados, oro viejo, negro, dorado y cobre. Se vende por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1 · 2 cm",
+          "hex": null,
+          "image": "x1100",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "N 2 · 2 cm",
+          "hex": null,
+          "image": "x1100",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "N 3 · 2 cm",
+          "hex": null,
+          "image": "x1100",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "N 4 · 2 cm",
+          "hex": null,
+          "image": "x1100",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "N 5 · 2,3 cm",
+          "hex": null,
+          "image": "x1098",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 14,
+              "unit_price": 14,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "N 6 · 2,3 cm",
+          "hex": null,
+          "image": "x1098",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 14,
+              "unit_price": 14,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "N 7 · 2,5 cm",
+          "hex": null,
+          "image": "x1105",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "N 8 · 2,5 cm",
+          "hex": null,
+          "image": "x1105",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "N 9 · 2,5 cm",
+          "hex": null,
+          "image": "x1105",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "N 10 · 2,5 cm",
+          "hex": null,
+          "image": "x1105",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1100",
+          "page": 149,
+          "version": "etiquetada",
+          "alt": "Aros con cadena de 2 cm, modelos 1 a 4: tres plateados y uno oro viejo"
+        },
+        {
+          "id": "x1098",
+          "page": 149,
+          "version": "etiquetada",
+          "alt": "Aros con cadena de 2,3 cm, modelos 5 y 6: plateado y negro"
+        },
+        {
+          "id": "x1105",
+          "page": 150,
+          "version": "etiquetada",
+          "alt": "Aros con cadena de 2,5 cm, modelos 7 a 10: oro viejo, níquel, dorado y cobre"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Aro llavero con malla 2 cm",
+      "pdf_text": "ARO LLAVERO CON MALLA. 2CMS. $ 18",
+      "pages": [
+        151
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aro llavero plateado de 2 cm con colgante de malla y mosquetoncito en la punta. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1111",
+          "page": 151,
+          "version": "limpia",
+          "alt": "Aro llavero plateado con colgante de malla"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Aro llavero eslabón 3 cm",
+      "pdf_text": "ARO LLAVERO ESLABON 3 CMS $ 20",
+      "pages": [
+        151
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aro llavero plateado de 3 cm con terminal y cadenita de eslabones. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1113",
+          "page": 151,
+          "version": "limpia",
+          "alt": "Aro llavero plateado con cadena de eslabones"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Broche imantado 1,8 cm",
+      "pdf_text": "BROCHE IMANTANDO (PLATA Y ORO VIEJO). 1,8 CMS. $ 26",
+      "pages": [
+        152
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broche imantado de 1,8 cm para carteras y bolsos, con sus dos partes y arandelas. Viene en plata y oro viejo.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plata",
+          "hex": "#c9c9c9",
+          "image": "x1120",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        },
+        {
+          "label": "Oro viejo",
+          "hex": "#9a8546",
+          "image": "x1118",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 26,
+              "unit_price": 26,
+              "printed": 26
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1120",
+          "page": 152,
+          "version": "limpia",
+          "alt": "Broche imantado plateado desarmado sobre madera"
+        },
+        {
+          "id": "x1118",
+          "page": 152,
+          "version": "limpia",
+          "alt": "Broche imantado oro viejo desarmado sobre madera"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Medio aro de metal",
+      "pdf_text": "MEDIO ARO METAL PLATEADO y ORO VIEJO 2,0 CMS. $ 10 / 2,5 CMS. $ 10 / 3,0 CMS. $ 17 / 3,5 CMS. $ 18 / 4,0 CMS. $ 24",
+      "pages": [
+        153
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Medio aro de metal en plateado y oro viejo, en cinco medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 17,
+              "unit_price": 17,
+              "printed": 17
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            }
+          ]
+        },
+        {
+          "label": "4 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8c7435"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1125",
+          "page": 153,
+          "version": "limpia",
+          "alt": "Medios aros de metal plateados y oro viejo en varias medidas"
+        },
+        {
+          "id": "x1127",
+          "page": 153,
+          "version": "limpia",
+          "alt": "Dos medios aros de metal plateados"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Hebilla de metal",
+      "pdf_text": "HEBILLA METAL PLATEADA y ORO VIEJO 2,0 CMS. $ 15,40 / 2,5 CMS. $ 17,60 / 3,0 CMS. $ 19,80 / 3,5 CMS. $ 22 / 4,0 CMS. $ 24,20",
+      "pages": [
+        153
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Hebilla de metal con pasador, en plateado y oro viejo, en cinco medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x1128",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15.4,
+              "unit_price": 15.4,
+              "printed": 15.4
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x1128",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 17.6,
+              "unit_price": 17.6,
+              "printed": 17.6
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": "x1128",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 19.8,
+              "unit_price": 19.8,
+              "printed": 19.8
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": "x1128",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            }
+          ]
+        },
+        {
+          "label": "4 cm",
+          "hex": null,
+          "image": "x1128",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24.2,
+              "unit_price": 24.2,
+              "printed": 24.2
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8c7435"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1128",
+          "page": 153,
+          "version": "limpia",
+          "alt": "Hebillas de metal plateadas y oro viejo de menor a mayor"
+        },
+        {
+          "id": "x1129",
+          "page": 153,
+          "version": "limpia",
+          "alt": "Hebillas de metal plateadas sueltas"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Pasador de metal",
+      "pdf_text": "PASADOR METAL PLATEADO Y ORO VIEJO 2,0 CMS. $ 11 / 2,5 CMS. $ 12 / 3,0 CMS. $ 13 / 3,5 CMS. $ 18 / 4,0 CMS. $ 24 / 5,0 CMS. $ 30",
+      "pages": [
+        154
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Pasador regulador de metal en plateado y oro viejo, en seis medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x1134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 11,
+              "unit_price": 11,
+              "printed": 11
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x1134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": "x1134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 13,
+              "unit_price": 13,
+              "printed": 13
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": "x1134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            }
+          ]
+        },
+        {
+          "label": "4 cm",
+          "hex": null,
+          "image": "x1134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": "x1134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 30,
+              "unit_price": 30,
+              "printed": 30
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8c7435"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1134",
+          "page": 154,
+          "version": "limpia",
+          "alt": "Pasadores de metal plateados y oro viejo de menor a mayor"
+        },
+        {
+          "id": "x1136",
+          "page": 154,
+          "version": "limpia",
+          "alt": "Dos pasadores de metal oro viejo"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Aros finos",
+      "pdf_text": "AROS FINOS PLATEADOS Y DORADOS Y ORO VIEJO 1,5 CM $ 6,50 / 2,0 CM $ 7,60 / 2,5 CM $ 11,60 / 3,0 CM $ 13,10 D y P / 3,5 CM $ 15,30 D y P / 4,0 CM $ 20,35 D y P",
+      "pages": [
+        155
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aro fino cerrado en plateado, dorado y oro viejo, en seis medidas. Las de 3, 3,5 y 4 cm figuran como \"D y P\". Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": "x1140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 6.5,
+              "unit_price": 6.5,
+              "printed": 6.5
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x1140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7.6,
+              "unit_price": 7.6,
+              "printed": 7.6
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x1140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 11.6,
+              "unit_price": 11.6,
+              "printed": 11.6
+            }
+          ]
+        },
+        {
+          "label": "3 cm · D y P",
+          "hex": null,
+          "image": "x1140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 13.1,
+              "unit_price": 13.1,
+              "printed": 13.1
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm · D y P",
+          "hex": null,
+          "image": "x1140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15.3,
+              "unit_price": 15.3,
+              "printed": 15.3
+            }
+          ]
+        },
+        {
+          "label": "4 cm · D y P",
+          "hex": null,
+          "image": "x1140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20.35,
+              "unit_price": 20.35,
+              "printed": 20.35
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Dorado",
+          "hex": "#c8a951"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8c7435"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1140",
+          "page": 155,
+          "version": "limpia",
+          "alt": "Aros finos plateados y oro viejo de menor a mayor sobre madera"
+        },
+        {
+          "id": "x1144",
+          "page": 155,
+          "version": "limpia",
+          "alt": "Aros de metal dorados, plateados y negros de varios tamaños"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "'D y P' en 3,0 / 3,5 / 4,0 cm: parece querer decir que esas medidas vienen sólo en dorado y plateado",
+        "La foto x1144 (aros surtidos) no tiene rótulo: se asignó a los aros finos por cercanía"
+      ]
+    },
+    {
+      "name": "Aros gruesos",
+      "pdf_text": "AROS GRUESOS PLATEADOS Y ORO VIEJO 2,0 CM $ 3,19 / 2,5 CM $ 4,62 / 3,0 CM $ 5,94 / 3,5 CM $ 7,15 / 4,0 CM $ 9,13 / 4,5 CM $10,67 / $",
+      "pages": [
+        155
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aro grueso cerrado en plateado y oro viejo, en seis medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 3.19,
+              "unit_price": 3.19,
+              "printed": 3.19
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 4.62,
+              "unit_price": 4.62,
+              "printed": 4.62
+            }
+          ]
+        },
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5.94,
+              "unit_price": 5.94,
+              "printed": 5.94
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7.15,
+              "unit_price": 7.15,
+              "printed": 7.15
+            }
+          ]
+        },
+        {
+          "label": "4 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 9.13,
+              "unit_price": 9.13,
+              "printed": 9.13
+            }
+          ]
+        },
+        {
+          "label": "4,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10.67,
+              "unit_price": 10.67,
+              "printed": 10.67
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8c7435"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1143",
+          "page": 155,
+          "version": "limpia",
+          "alt": "Aros gruesos oro viejo y plateados sobre madera"
+        },
+        {
+          "id": "x1142",
+          "page": 155,
+          "version": "limpia",
+          "alt": "Aros gruesos oro viejo y plateados en tres tamaños"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "La lista sigue con un renglón cortado al pie de la página (sólo se ve '$'): puede faltar una medida",
+        "Los aros gruesos figuran más baratos que los finos de la misma medida: confirmar precios"
+      ]
+    },
+    {
+      "name": "Pinza tirador",
+      "pdf_text": "PINZA TIRADOR 2,0 CMS. $ 29 / 2,5 CMS. $ 32",
+      "pages": [
+        156
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pinza para tirador de punta redondeada con pasador de alambre, plateada, en dos medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 32,
+              "unit_price": 32,
+              "printed": 32
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1151",
+          "page": 156,
+          "version": "limpia",
+          "alt": "Diez pinzas de tirador plateadas"
+        },
+        {
+          "id": "x1150",
+          "page": 156,
+          "version": "limpia",
+          "alt": "Pinzas de tirador plateadas abiertas y cerradas"
+        },
+        {
+          "id": "x1148",
+          "page": 156,
+          "version": "limpia",
+          "alt": "Pinzas de tirador y pinzas cocodrilo plateadas sobre madera"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Pinza cocodrilo",
+      "pdf_text": "PINZA COCODRILO 2,0 CMS. $ 24,20 / 2,5 CMS. $ 26,40",
+      "pages": [
+        156
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pinza cocodrilo rectangular con dientes, plateada, en dos medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24.2,
+              "unit_price": 24.2,
+              "printed": 24.2
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 26.4,
+              "unit_price": 26.4,
+              "printed": 26.4
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1148",
+          "page": 156,
+          "version": "limpia",
+          "alt": "Pinzas cocodrilo rectangulares (abajo) y pinzas de tirador (arriba) sobre madera"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "La única foto (x1148) muestra juntas pinzas de tirador y cocodrilo: se tomó que las rectangulares con dientes son las cocodrilo"
+      ]
+    },
+    {
+      "name": "Pasador escalera",
+      "pdf_text": "PASADOR ESCALERA 1,5 CMS. $ 10 / 2,0 CMS. $ 10 / 2,5 CMS. $ 11 / 3,2 CMS. $ 12 / 3,8 CMS. $ 13 / 5 0 CMS $ 30",
+      "pages": [
+        157
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pasador escalera negro para regular correas de mochilas y bolsos, en seis medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 11,
+              "unit_price": 11,
+              "printed": 11
+            }
+          ]
+        },
+        {
+          "label": "3,2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        },
+        {
+          "label": "3,8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 13,
+              "unit_price": 13,
+              "printed": 13
+            }
+          ]
+        },
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 30,
+              "unit_price": 30,
+              "printed": 30
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1159",
+          "page": 157,
+          "version": "limpia",
+          "alt": "Pasadores escalera negros"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "El último renglón queda cortado al pie de la página; en el texto se lee '5 0 CMS $ 30' y se tomó como 5,0 cm a $ 30: confirmar"
+      ]
+    },
+    {
+      "name": "Pasador plástico",
+      "pdf_text": "PASADOR PLASTICO 1,5 CMS. $ 7 / 2,0 CMS. $ 7 / 2,5 CMS. $ 8 / 3,2 CMS. $ 8 / 3,8 CMS. $ 10 / 5,0 CMS. $ 14",
+      "pages": [
+        157
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": "plástico",
+      "badge": null,
+      "description": "Pasador plástico negro de tres barras para regular correas, en seis medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        },
+        {
+          "label": "3,2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        },
+        {
+          "label": "3,8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 14,
+              "unit_price": 14,
+              "printed": 14
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1156",
+          "page": 157,
+          "version": "limpia",
+          "alt": "Pasador plástico negro de tres barras"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Broche clack",
+      "pdf_text": "CLACK 1,00 CM $3,19 / 1,50 CM $3,30 / 2,00 CM $4,40 / 2,50 CM $6,05 / 3,80 CM $12,10",
+      "pages": [
+        157
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broche clack negro de enganche rápido para correas de mochilas, riñoneras y bolsos, en cinco medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 3.19,
+              "unit_price": 3.19,
+              "printed": 3.19
+            }
+          ]
+        },
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 3.3,
+              "unit_price": 3.3,
+              "printed": 3.3
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 4.4,
+              "unit_price": 4.4,
+              "printed": 4.4
+            }
+          ]
+        },
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 6.05,
+              "unit_price": 6.05,
+              "printed": 6.05
+            }
+          ]
+        },
+        {
+          "label": "3,8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12.1,
+              "unit_price": 12.1,
+              "printed": 12.1
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1158",
+          "page": 157,
+          "version": "limpia",
+          "alt": "Broche clack negro cerrado"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Aro de madera",
+      "pdf_text": "ARO MADERA 3 CMS. $ 29 / 5 CMS. $ 35",
+      "pages": [
+        158
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": "madera",
+      "badge": null,
+      "description": "Aro de madera natural, sin pintar, en dos medidas. Se vende por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "3 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            }
+          ]
+        },
+        {
+          "label": "5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1166",
+          "page": 158,
+          "version": "limpia",
+          "alt": "Aros de madera natural de dos tamaños sobre madera gris"
+        },
+        {
+          "id": "x1164",
+          "page": 158,
+          "version": "limpia",
+          "alt": "Dos aros de madera natural"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Ojalillo 4 cm interno",
+      "pdf_text": "OJALILLO 4CM INTERNO $ 48",
+      "pages": [
+        159
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ojalillo grande plateado brillante de dos piezas, de 4 cm de diámetro interno. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1171",
+          "page": 159,
+          "version": "limpia",
+          "alt": "Ojalillo plateado de dos piezas, desarmado"
+        },
+        {
+          "id": "x1173",
+          "page": 159,
+          "version": "limpia",
+          "alt": "Ojalillo plateado armado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Categoría: por el tamaño parece ojalillo de cortina; podría ir en Cortinería"
+      ]
+    },
+    {
+      "name": "Cinta ruflet para fruncir cortinas",
+      "pdf_text": "CINTA RUFLET PARA FRUNCIR CORTINAS 2 HILOS $ 15 / 3 HILOS $ 19 / 4 HILOS $ 24 / 6 HILOS $ 29 / POR MAYOR 20% MENOS",
+      "pages": [
+        160
+      ],
+      "category": "cortineria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta ruflet blanca para fruncir cortinas, de 2, 3, 4 o 6 hilos. Por mayor, 20 % menos.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2 hilos",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 12.0,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 15"
+            }
+          ]
+        },
+        {
+          "label": "3 hilos",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 19,
+              "unit_price": 19,
+              "printed": 19
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 15.2,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 19"
+            }
+          ]
+        },
+        {
+          "label": "4 hilos",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 19.2,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 24"
+            }
+          ]
+        },
+        {
+          "label": "6 hilos",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "m",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 23.2,
+              "printed": null,
+              "derived_from": "20 % menos sobre $ 29"
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1177",
+          "page": 160,
+          "version": "limpia",
+          "alt": "Rollos de cinta ruflet blanca de distintos anchos apilados"
+        },
+        {
+          "id": "x1179",
+          "page": 160,
+          "version": "limpia",
+          "alt": "Cortina blanca fruncida con cinta ruflet colgada de un barral"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "Por mayor 20 % menos: no dice a partir de qué cantidad ni el metraje de la pieza"
+      ]
+    },
+    {
+      "name": "Cinta ruflet americana",
+      "pdf_text": "CINTA RUFLET AMERICANA DISTINTOS DISEÑOS 1 $ 119 / 2 $ 130 / 3 $ 108",
+      "pages": [
+        161
+      ],
+      "category": "cortineria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta ruflet americana blanca en tres diseños de fruncido numerados, cada uno con su precio.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x1187",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 119,
+              "unit_price": 119,
+              "printed": 119
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x1184",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x1186",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1187",
+          "page": 161,
+          "version": "etiquetada",
+          "alt": "Cinta ruflet americana blanca modelo 1, con tablas"
+        },
+        {
+          "id": "x1184",
+          "page": 161,
+          "version": "etiquetada",
+          "alt": "Cinta ruflet americana blanca modelo 2, con pliegues en abanico"
+        },
+        {
+          "id": "x1186",
+          "page": 161,
+          "version": "etiquetada",
+          "alt": "Cinta ruflet americana blanca modelo 3, con fruncido parejo"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Entretela para cortina 10 cm",
+      "pdf_text": "ENTRETELA CORTINA ANCHO 10 CMS. $ 42 EL METRO",
+      "pages": [
+        162
+      ],
+      "category": "cortineria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Entretela blanca para cabezal de cortina, de 10 cm de ancho. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 42,
+              "unit_price": 42,
+              "printed": 42
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1195",
+          "page": 162,
+          "version": "limpia",
+          "alt": "Rollo de entretela blanca para cortina"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Cinta ojal",
+      "pdf_text": "CINTA OJAL $ 130 EL METRO",
+      "pages": [
+        162
+      ],
+      "category": "cortineria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cinta blanca para cortina con los ojalillos plateados ya colocados. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1192",
+          "page": 162,
+          "version": "limpia",
+          "alt": "Rollo de cinta ojal blanca con ojalillos plateados y aros sueltos"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": []
+    },
+    {
+      "name": "Gancho de cortina",
+      "pdf_text": "GANCHO CORTINA GRANDE PLATEADO Y ORO VIEJO $ 5 C/U POR MAYOR $ 3,5 / GANCHO CORTINA ORO VIEJO CHICO $ 9 C/U POR MAYOR $ 6",
+      "pages": [
+        163
+      ],
+      "category": "cortineria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Gancho de alambre para colgar cortinas. El grande viene en plateado y oro viejo; el chico, sólo en oro viejo. Precio por unidad y por mayor.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Grande (plateado y oro viejo)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "u",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 3.5,
+              "printed": 3.5
+            }
+          ]
+        },
+        {
+          "label": "Chico (oro viejo)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            },
+            {
+              "tier": "mayor",
+              "label": "Por mayor",
+              "unit": "u",
+              "content_qty": null,
+              "price": null,
+              "unit_price": 6,
+              "printed": 6
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#c4c4c4"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#8c7435"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1201",
+          "page": 163,
+          "version": "limpia",
+          "alt": "Ganchos de cortina plateados y oro viejo, sueltos y en bolsas"
+        },
+        {
+          "id": "x1199",
+          "page": 163,
+          "version": "limpia",
+          "alt": "Gancho de cortina plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Cantidad mínima por mayor",
+        "El gancho chico figura más caro ($ 9) que el grande ($ 5): confirmar",
+        "En las fotos no se distingue cuál es el chico y cuál el grande"
+      ]
+    },
+    {
+      "name": "Sujeta cortina imantado",
+      "pdf_text": "SUJETA CORTINA IMANTADO $ 495 el juego",
+      "pages": [
+        164
+      ],
+      "category": "cortineria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sujeta cortina de cordón con cierre imantado en las puntas, forradas en hilo. En las fotos se ve en marrón, gris y beige. Se vende por juego.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Juego",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 495,
+              "unit_price": 495,
+              "printed": 495
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1209",
+          "page": 164,
+          "version": "limpia",
+          "alt": "Sujeta cortinas imantados en marrón, gris y beige"
+        },
+        {
+          "id": "x1206",
+          "page": 164,
+          "version": "limpia",
+          "alt": "Sujeta cortina imantado beige"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja circular",
+      "pdf_text": "AGUJA CIRCULAR 2 / 2,5 / 3 / 3,5 /4 / 4,5 / 5 / 5,5 /6 $ 136 · 6,5 / 7 $ 154 · 8 / 9 $ 198 · 10 $ 242",
+      "pages": [
+        165
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja circular de tejer con cable, en sobre individual (de acero inoxidable según el envase). Del 2 al 10; el precio cambia según la medida.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "2,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "3",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "3,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "4",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "4,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "5,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "6",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 136,
+              "unit_price": 136,
+              "printed": 136
+            }
+          ]
+        },
+        {
+          "label": "6,5",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 154,
+              "unit_price": 154,
+              "printed": 154
+            }
+          ]
+        },
+        {
+          "label": "7",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 154,
+              "unit_price": 154,
+              "printed": 154
+            }
+          ]
+        },
+        {
+          "label": "8",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "9",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "10",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 242,
+              "unit_price": 242,
+              "printed": 242
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1213",
+          "page": 165,
+          "version": "limpia",
+          "alt": "Agujas circulares de tejer en sus sobres, de distintas medidas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las medidas figuran sin unidad (2, 2,5 … 10): se entiende que son milímetros"
+      ]
+    },
+    {
+      "name": "Borla B 8004",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA B 8004 / BORLA B8004 COLOR ROJO",
+      "pages": [
+        166,
+        167
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8004",
+      "material": null,
+      "badge": null,
+      "description": "Borla de hilo de seda con lazo para colgar. En las fotos se ve en dorado, negro, blanco, rojo, grises, beiges, verde agua, naranja y azul.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Rojo",
+          "hex": "#e3211c"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1219",
+          "page": 166,
+          "version": "limpia",
+          "alt": "Manojos de borlas B 8004 doradas, negras y blancas"
+        },
+        {
+          "id": "x1229",
+          "page": 167,
+          "version": "limpia",
+          "alt": "Manojo de borlas B 8004 rojas"
+        },
+        {
+          "id": "x1224",
+          "page": 166,
+          "version": "limpia",
+          "alt": "Borlas con lazo en blanco, dorado y negro"
+        },
+        {
+          "id": "x1221",
+          "page": 166,
+          "version": "limpia",
+          "alt": "Borlas con lazo en gris, crema y beige"
+        },
+        {
+          "id": "x1222",
+          "page": 166,
+          "version": "limpia",
+          "alt": "Borlas con lazo en verde agua, naranja y azul"
+        },
+        {
+          "id": "x1223",
+          "page": 166,
+          "version": "limpia",
+          "alt": "Borlas con lazo en beige y crema"
+        }
+      ],
+      "wholesale_note": "Consultar precios por mayor",
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta",
+        "En la p. 166 sólo la foto grande lleva el rótulo B 8004; se asumió que las otras cuatro fotos de la página son el mismo modelo en otros colores"
+      ]
+    },
+    {
+      "name": "Borla B 8001",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / B 8001",
+      "pages": [
+        168,
+        169,
+        170
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8001",
+      "material": null,
+      "badge": null,
+      "description": "Borla chica de hilo con argollita metálica para colgar, en muchísimos colores: crudos, pasteles, flúo, bordó, negro y multicolor.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1254",
+          "page": 170,
+          "version": "limpia",
+          "alt": "Veinticinco borlas B 8001 con argollita en todos los colores"
+        },
+        {
+          "id": "x1239",
+          "page": 168,
+          "version": "limpia",
+          "alt": "Borlas con argollita en verde agua, turquesa y fucsia"
+        },
+        {
+          "id": "x1237",
+          "page": 168,
+          "version": "limpia",
+          "alt": "Borlas con argollita en gris oscuro, gris claro y bordó"
+        },
+        {
+          "id": "x1235",
+          "page": 168,
+          "version": "limpia",
+          "alt": "Borlas con argollita en camel, celeste grisáceo y crema"
+        },
+        {
+          "id": "x1238",
+          "page": 168,
+          "version": "limpia",
+          "alt": "Borlas con argollita en rosa, verde seco y lila"
+        },
+        {
+          "id": "x1246",
+          "page": 169,
+          "version": "limpia",
+          "alt": "Borlas con argollita en salmón, beige y verde agua"
+        },
+        {
+          "id": "x1245",
+          "page": 169,
+          "version": "limpia",
+          "alt": "Borlas con argollita en azul marino y rosa"
+        },
+        {
+          "id": "x1247",
+          "page": 169,
+          "version": "limpia",
+          "alt": "Borlas con argollita en blanco y negro"
+        },
+        {
+          "id": "x1248",
+          "page": 169,
+          "version": "limpia",
+          "alt": "Borlas con argollita en gris y coral flúo"
+        },
+        {
+          "id": "x1243",
+          "page": 169,
+          "version": "limpia",
+          "alt": "Borla con argollita multicolor"
+        },
+        {
+          "id": "x1252",
+          "page": 170,
+          "version": "limpia",
+          "alt": "Borlas con argollita en verde manzana, magenta y crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta"
+      ]
+    },
+    {
+      "name": "Borla B 8007",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLAS B 8007",
+      "pages": [
+        171
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8007",
+      "material": null,
+      "badge": null,
+      "description": "Borla larga de hilo de seda con cabeza trenzada y lazo de cordón. En las fotos: azul, verde, fucsia, crudo, beige, gris y naranja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1261",
+          "page": 171,
+          "version": "limpia",
+          "alt": "Borlas B 8007 en crudo, beige, gris y naranja"
+        },
+        {
+          "id": "x1259",
+          "page": 171,
+          "version": "limpia",
+          "alt": "Borlas con cabeza trenzada en azul, verde y fucsia"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta"
+      ]
+    },
+    {
+      "name": "Borla B 8008",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA B8008",
+      "pages": [
+        172
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8008",
+      "material": null,
+      "badge": null,
+      "description": "Borla de hilo de seda con ojalito en la cabeza. En las fotos: terracota, lila, fucsia, violeta, rosa, rojo, azul marino, turquesa, azul, verde agua, verde, gris y amarillo claro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1268",
+          "page": 172,
+          "version": "limpia",
+          "alt": "Borlas de seda en azul marino, turquesa, azul, verde agua y verde"
+        },
+        {
+          "id": "x1269",
+          "page": 172,
+          "version": "limpia",
+          "alt": "Borlas de seda en violeta, rosa y rojo"
+        },
+        {
+          "id": "x1266",
+          "page": 172,
+          "version": "limpia",
+          "alt": "Borlas de seda en terracota, lila y fucsia"
+        },
+        {
+          "id": "x1270",
+          "page": 172,
+          "version": "limpia",
+          "alt": "Borlas de seda en gris topo y amarillo claro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta"
+      ]
+    },
+    {
+      "name": "Borla B 8002 con argolla",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / B 8002",
+      "pages": [
+        173
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8002",
+      "material": null,
+      "badge": null,
+      "description": "Borlitas en abanico montadas en argolla o triángulo dorado. En la foto: turquesa, gris perla, verde agua, negro, crudo, fucsia y azul.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1277",
+          "page": 173,
+          "version": "limpia",
+          "alt": "Borlitas en abanico con argolla y triángulo dorado en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta",
+        "El código B 8002 aparece en dos artículos distintos (p. 173: borlitas en abanico con argolla; p. 176: borlas largas con lazo): confirmar códigos"
+      ]
+    },
+    {
+      "name": "Borla llavero",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA LLAVERO",
+      "pages": [
+        173
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Borla de cordón con nudo trenzado en la cabeza y lazo para llavero. En la foto, negra (más grande) y roja.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1275",
+          "page": 173,
+          "version": "limpia",
+          "alt": "Borlas llavero con nudo, una negra y una roja"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta",
+        "No trae código"
+      ]
+    },
+    {
+      "name": "Borla B 8006",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA B 8006 Nro. 7 y 8",
+      "pages": [
+        174
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8006",
+      "material": null,
+      "badge": null,
+      "description": "Borla larga bicolor con lazo de cordón negro, en dos números: una combina negro con blanco y la otra negro con crudo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x1282",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x1282",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1282",
+          "page": 174,
+          "version": "limpia",
+          "alt": "Dos borlas bicolores: negro con blanco y negro con crudo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta",
+        "No se indica cuál de las dos borlas de la foto es la Nro. 7 y cuál la Nro. 8"
+      ]
+    },
+    {
+      "name": "Borla B 8003",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA B 8003",
+      "pages": [
+        174
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8003",
+      "material": null,
+      "badge": null,
+      "description": "Borla de hilo grueso con cabeza blanca. En la foto: gris, amarillo y rojo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1285",
+          "page": 174,
+          "version": "limpia",
+          "alt": "Borlas de hilo grueso con cabeza blanca en gris, amarillo y rojo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta"
+      ]
+    },
+    {
+      "name": "Borla B 8005",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA B8005",
+      "pages": [
+        175
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8005",
+      "material": null,
+      "badge": null,
+      "description": "Borla de tiritas tipo gamuza con capuchón plateado y argollita. En las fotos: rosa, coral, fucsia, bordó, violeta, celeste, azul, negro, crudo, beige, camel y marrón claro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1291",
+          "page": 175,
+          "version": "limpia",
+          "alt": "Borlas de gamuza con capuchón plateado en crudo, beige, camel y marrón claro"
+        },
+        {
+          "id": "x1289",
+          "page": 175,
+          "version": "limpia",
+          "alt": "Borlas de gamuza con capuchón plateado en rosa, coral, fucsia y bordó"
+        },
+        {
+          "id": "x1292",
+          "page": 175,
+          "version": "limpia",
+          "alt": "Borlas de gamuza con capuchón plateado en violeta, celeste, azul y negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta"
+      ]
+    },
+    {
+      "name": "Borla B 8002 larga",
+      "pdf_text": "BORLAS DESDE $ 20 CONSULTAR MODELOS / BORLA B 8002",
+      "pages": [
+        176
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "B 8002",
+      "material": null,
+      "badge": null,
+      "description": "Borlas largas de hilo de seda: dos con lazo turquesa y cabeza fucsia (azul y cruda) y una escalonada en crudo y turquesas con argollita.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad (desde)",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1296",
+          "page": 176,
+          "version": "limpia",
+          "alt": "Tres borlas largas: azul con lazo turquesa, escalonada en turquesas y cruda con lazo turquesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Precio 'desde': cada modelo se consulta",
+        "El código B 8002 aparece en dos artículos distintos (p. 173: borlitas en abanico con argolla; p. 176: borlas largas con lazo): confirmar códigos"
+      ]
+    },
+    {
+      "name": "Bolígrafo borrable",
+      "pdf_text": "BOLIGRAFOS BORRABLE CON AGUA $ 132 / BOLIGRAFOS BORRABLE CON CALOR $ 132",
+      "pages": [
+        177,
+        178
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Bolígrafo para marcar tela que después se borra: uno sale con agua (punta de fibra, capuchón celeste, rosa o violeta) y el otro con calor. Se vende por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Con agua",
+          "hex": null,
+          "image": "x1301",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        },
+        {
+          "label": "Con calor",
+          "hex": null,
+          "image": "x1313",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1303",
+          "page": 177,
+          "version": "limpia",
+          "alt": "Doce bolígrafos borrables con agua con capuchón celeste, rosa y violeta"
+        },
+        {
+          "id": "x1301",
+          "page": 177,
+          "version": "limpia",
+          "alt": "Bolígrafo borrable con agua de capuchón celeste y detalle de la punta"
+        },
+        {
+          "id": "x1304",
+          "page": 177,
+          "version": "limpia",
+          "alt": "Mano marcando una tela con bolígrafo borrable con agua"
+        },
+        {
+          "id": "x1313",
+          "page": 178,
+          "version": "limpia",
+          "alt": "Bolígrafos borrables con calor sobre fondo verde"
+        },
+        {
+          "id": "x1314",
+          "page": 178,
+          "version": "limpia",
+          "alt": "Bolígrafo borrable con calor con su capuchón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cepillo de limpieza para máquina de coser",
+      "pdf_text": "Cepillo de limpieza multifunción para máquina de coser, herramienta para manualidades, 1 unidad $ 98",
+      "pages": [
+        178
+      ],
+      "category": "maquina-de-coser",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cepillo de limpieza multifunción para máquina de coser: pincel de cerdas blancas en una punta y escobilla en la otra. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1309",
+          "page": 178,
+          "version": "limpia",
+          "alt": "Dos cepillos de limpieza para máquina de coser sobre una tela"
+        },
+        {
+          "id": "x1311",
+          "page": 178,
+          "version": "limpia",
+          "alt": "Dos cepillos de limpieza con pincel blanco y mango de alambre retorcido"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Lápiz marcador",
+      "pdf_text": "LAPIZ $ 132 CADA UNO CAJA X 12 SURTIDOS",
+      "pages": [
+        179
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Lápiz graso para marcar, de los que se pelan tirando del hilo (China Marker según el envase). Colores surtidos: blanco, negro, rojo, amarillo, azul y verde. Precio por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 132,
+              "unit_price": 132,
+              "printed": 132
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1318",
+          "page": 179,
+          "version": "limpia",
+          "alt": "Lápices marcadores blanco, negro, rojo, amarillo y azul junto a su caja"
+        },
+        {
+          "id": "x1320",
+          "page": 179,
+          "version": "limpia",
+          "alt": "Cajas de lápices marcadores de colores surtidos"
+        }
+      ],
+      "wholesale_note": "Caja x 12 surtidos",
+      "needs_review": [
+        "El PDF sólo dice 'LÁPIZ': el tipo de lápiz se completó mirando la foto"
+      ]
+    },
+    {
+      "name": "Tiza sastre borrable con calor",
+      "pdf_text": "TIZA SASTRE BORRABLE CON CALOR $ 42",
+      "pages": [
+        180
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tiza de sastre cuadrada que se borra con calor. En las fotos: rosa, blanca, amarilla y celeste.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 42,
+              "unit_price": 42,
+              "printed": 42
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1326",
+          "page": 180,
+          "version": "limpia",
+          "alt": "Pila de tizas de sastre cuadradas en rosa, blanco, amarillo y celeste"
+        },
+        {
+          "id": "x1324",
+          "page": 180,
+          "version": "limpia",
+          "alt": "Caja abierta de tizas de sastre cuadradas de cuatro colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por tiza o por caja (se tomó por unidad)"
+      ]
+    },
+    {
+      "name": "Tiza sastre",
+      "pdf_text": "TIZA SASTE $ 42",
+      "pages": [
+        181
+      ],
+      "category": "herramientas-de-costura",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tiza de sastre triangular clásica. En las fotos: roja, azul, blanca y amarilla.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 42,
+              "unit_price": 42,
+              "printed": 42
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1333",
+          "page": 181,
+          "version": "limpia",
+          "alt": "Tizas de sastre triangulares roja, celeste, blanca y amarilla junto a su caja"
+        },
+        {
+          "id": "x1331",
+          "page": 181,
+          "version": "limpia",
+          "alt": "Cuatro tizas de sastre triangulares delante de la caja"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por tiza o por caja (se tomó por unidad)"
+      ]
+    },
+    {
+      "name": "Herramienta para fieltro con 7 agujas",
+      "pdf_text": "Herramientas artesanales Herramienta de fieltro de aguja de fábrica con 7 agujas Kit de inicio de fieltro de lana de puntada para bricolaje COD TC-164 $ 399",
+      "pages": [
+        182
+      ],
+      "category": "tejido-y-bordado",
+      "sku": "TC-164",
+      "material": null,
+      "badge": null,
+      "description": "Herramienta para fieltro de aguja con mango y 7 agujas, para trabajar lana en fieltro agujado.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 399,
+              "unit_price": 399,
+              "printed": 399
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1340",
+          "page": 182,
+          "version": "limpia",
+          "alt": "Herramienta para fieltro celeste y azul con protector transparente y detalle de las agujas"
+        },
+        {
+          "id": "x1338",
+          "page": 182,
+          "version": "limpia",
+          "alt": "Mano sosteniendo la herramienta para fieltro con las agujas a la vista"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aguja de trenzar ocho",
+      "pdf_text": "AGUJA DE TRENZAR OCHO PLASTICA $ 98 / METAL $ 218",
+      "pages": [
+        183
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": "plástico o metal",
+      "badge": null,
+      "description": "Aguja auxiliar curva para tejer ochos y trenzas, en plástico o en metal de colores.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Plástica",
+          "hex": null,
+          "image": "x1347",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "Metal",
+          "hex": null,
+          "image": "x1349",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1347",
+          "page": 183,
+          "version": "limpia",
+          "alt": "Agujas de trenzar plásticas verde, blanca y rosa, sueltas y en su sobre"
+        },
+        {
+          "id": "x1349",
+          "page": 183,
+          "version": "limpia",
+          "alt": "Tres agujas de trenzar de metal en violeta, azul y rojo"
+        },
+        {
+          "id": "x1345",
+          "page": 183,
+          "version": "limpia",
+          "alt": "Tres agujas de trenzar en rojo, verde y celeste"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por aguja o por el juego de 3 que muestran las fotos (se tomó por unidad)",
+        "La foto chica x1345 no tiene rótulo: no se sabe si es la plástica o la de metal"
+      ]
+    },
+    {
+      "name": "Aguja punto ruso mágica",
+      "pdf_text": "AGUJA PUNTO RUSO MAGICA $ 548",
+      "pages": [
+        184
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aguja mágica para bordar punto ruso, con mango, agujas de recambio y enhebradores, en blíster.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 548,
+              "unit_price": 548,
+              "printed": 548
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1353",
+          "page": 184,
+          "version": "limpia",
+          "alt": "Aguja de punto ruso con agujas de recambio y bordados de muestra"
+        },
+        {
+          "id": "x1355",
+          "page": 184,
+          "version": "limpia",
+          "alt": "Aguja de punto ruso en su blíster, frente y dorso"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

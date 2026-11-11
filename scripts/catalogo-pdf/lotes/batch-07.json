@@ -1,0 +1,2337 @@
+{
+  "batch": 7,
+  "products": [
+    {
+      "name": "Moña escolar 1,25 m",
+      "pdf_text": "Moña escolar 1,25 mts $ 94",
+      "pages": [
+        223
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Moña escolar azul marino de 1,25 m de largo, con las puntas cortadas en zigzag. Viene en bolsita individual.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 94,
+              "unit_price": 94,
+              "printed": 94
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1610",
+          "page": 223,
+          "version": "limpia",
+          "alt": "Moña escolar azul marino armada"
+        },
+        {
+          "id": "x1612",
+          "page": 223,
+          "version": "limpia",
+          "alt": "Moña escolar azul marino en su bolsita"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Alfiler de gancho 000",
+      "pdf_text": "ALFILER OOO DORADA PLATA Y NEGRO $ 14 LA DOCENA",
+      "pages": [
+        224
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfiler de gancho chiquito, en dorado, plateado y negro. Se vende por docena.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#d4af37",
+          "image": "x1620",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 14,
+              "unit_price": 1.1667,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c4c6c8",
+          "image": "x1622",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 14,
+              "unit_price": 1.1667,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1f2125",
+          "image": "x1621",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 14,
+              "unit_price": 1.1667,
+              "printed": 14
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1620",
+          "page": 224,
+          "version": "limpia",
+          "alt": "Alfileres de gancho chicos dorados"
+        },
+        {
+          "id": "x1622",
+          "page": 224,
+          "version": "limpia",
+          "alt": "Alfileres de gancho chicos plateados"
+        },
+        {
+          "id": "x1621",
+          "page": 224,
+          "version": "limpia",
+          "alt": "Alfileres de gancho chicos negros, plateados y dorados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice 'ALFILER OOO': se interpretó como alfiler de gancho tamaño 000 (triple cero) por lo que muestra la foto"
+      ]
+    },
+    {
+      "name": "Alfiler perita",
+      "pdf_text": "ALFILER PERITA DORADA , PLATA Y ORO VIEJO $ 14 LA DOCENA",
+      "pages": [
+        224
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfiler de gancho con forma de perita, en dorado, plateado y oro viejo. Se vende por docena.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#d9b36a",
+          "image": "x1617",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 14,
+              "unit_price": 1.1667,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c9cbcd",
+          "image": "x1619",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 14,
+              "unit_price": 1.1667,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "Oro viejo",
+          "hex": "#8a7445",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 14,
+              "unit_price": 1.1667,
+              "printed": 14
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1623",
+          "page": 224,
+          "version": "limpia",
+          "alt": "Tres alfileres perita: plateado, oscuro y dorado"
+        },
+        {
+          "id": "x1617",
+          "page": 224,
+          "version": "limpia",
+          "alt": "Alfileres perita dorados"
+        },
+        {
+          "id": "x1619",
+          "page": 224,
+          "version": "limpia",
+          "alt": "Alfileres perita plateados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No hay foto clara del color oro viejo (la foto de tres alfileres muestra uno plateado, uno oscuro y uno dorado)"
+      ]
+    },
+    {
+      "name": "Alfiler de gancho grande plateado",
+      "pdf_text": "ALFILER 6 CMS. $ 40 / ALFILER 8 CMS. $ 53 / ALFILER 10 CMS. $ 64 · PLATEADO",
+      "pages": [
+        225
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfiler de gancho grande plateado, en tres largos: 6, 8 y 10 cm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "6 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 40,
+              "unit_price": 40,
+              "printed": 40
+            }
+          ]
+        },
+        {
+          "label": "8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 53,
+              "unit_price": 53,
+              "printed": 53
+            }
+          ]
+        },
+        {
+          "label": "10 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 64,
+              "unit_price": 64,
+              "printed": 64
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Plateado",
+          "hex": "#b8babc"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1629",
+          "page": 225,
+          "version": "limpia",
+          "alt": "Alfiler de gancho grande plateado abierto"
+        },
+        {
+          "id": "x1627",
+          "page": 225,
+          "version": "limpia",
+          "alt": "Dos alfileres de gancho grandes plateados sobre madera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice sólo 'ALFILER 6/8/10 CMS.': se nombró alfiler de gancho grande por la foto",
+        "No aclara si el precio es por unidad o por docena (los demás alfileres de gancho van por docena); se asumió por unidad"
+      ]
+    },
+    {
+      "name": "Broche a presión BP1 / BP2",
+      "pdf_text": "BROCHE A PRESION BP1 $ 24 BP2 $ 24 · DORADO PLATEADO NEGRO ORO VIEJO",
+      "pages": [
+        226
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Broche a presión de coser, modelos BP1 y BP2, en dorado, plateado, negro y oro viejo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "BP1",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "BP2",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Dorado",
+          "hex": "#c9b458"
+        },
+        {
+          "name": "Plateado",
+          "hex": "#b5b5a8"
+        },
+        {
+          "name": "Negro",
+          "hex": "#1d1f1e"
+        },
+        {
+          "name": "Oro viejo",
+          "hex": "#6b5a35"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1635",
+          "page": 226,
+          "version": "limpia",
+          "alt": "Broches a presión de coser negros, dorados y oro viejo sobre cinta de arpillera"
+        },
+        {
+          "id": "x1633",
+          "page": 226,
+          "version": "limpia",
+          "alt": "Broches a presión de coser en dorado, plateado, negro y oro viejo sobre cinta de arpillera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No se distingue en las fotos cuál es el BP1 y cuál el BP2 (ni en qué se diferencian)",
+        "No aclara la unidad de venta de $ 24 (unidad, juego o docena); se asumió por unidad"
+      ]
+    },
+    {
+      "name": "Alfiler de gancho surtido calidad superior",
+      "pdf_text": "ALFILER GANCHO SURTIDA CALIDAD SUPERIOR $ 26 LA DOCENA",
+      "pages": [
+        227
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfileres de gancho plateados en medidas surtidas, calidad superior, enganchados en manojo. Se vende por docena.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 26,
+              "unit_price": 2.1667,
+              "printed": 26
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1640",
+          "page": 227,
+          "version": "limpia",
+          "alt": "Manojos de alfileres de gancho plateados surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Alfiler de gancho plateado",
+      "pdf_text": "ALFILER GANCHO PLATEADAS N0 $ 22 / N 1 $ 24 / N 2 $ 29 / N 3 $ 31 / N 4 $ 33 LA DOCENA",
+      "pages": [
+        228
+      ],
+      "category": "broches-herrajes-y-velcro",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alfiler de gancho plateado en cinco tamaños, del N 0 al N 4. Se vende por docena, enganchados en manojo.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 0",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 22,
+              "unit_price": 1.8333,
+              "printed": 22
+            }
+          ]
+        },
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 24,
+              "unit_price": 2.0,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 29,
+              "unit_price": 2.4167,
+              "printed": 29
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 31,
+              "unit_price": 2.5833,
+              "printed": 31
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Docena",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 33,
+              "unit_price": 2.75,
+              "printed": 33
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1647",
+          "page": 228,
+          "version": "limpia",
+          "alt": "Manojo de alfileres de gancho plateados"
+        },
+        {
+          "id": "x1645",
+          "page": 228,
+          "version": "limpia",
+          "alt": "Caja y manojos de alfileres de gancho plateados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Pasacinta",
+      "pdf_text": "PASA CINTA N1 $ 55 / N2 $2 55 / N3 $ 55 · CONSULTE POR MAYOR",
+      "pages": [
+        229
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pasacinta bordado blanco con ojales para pasar cinta, en tres modelos. Se corta por metro.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 55,
+              "unit_price": 55,
+              "printed": 55
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 55,
+              "unit_price": 55,
+              "printed": 55
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 55,
+              "unit_price": 55,
+              "printed": 55
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1653",
+          "page": 229,
+          "version": "limpia",
+          "alt": "Dos pasacintas bordados blancos, uno ancho de doble hilera y uno angosto con flores"
+        },
+        {
+          "id": "x1651",
+          "page": 229,
+          "version": "limpia",
+          "alt": "Pasacinta bordado blanco con ojales ovalados, suelto y estirado"
+        }
+      ],
+      "wholesale_note": "Consulte por mayor",
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "Las fotos no tienen número: no se puede saber cuál es el N 1, el N 2 y el N 3",
+        "El N 2 figura como '$2 55' (error de tipeo); se tomó $ 55 como los otros dos"
+      ]
+    },
+    {
+      "name": "Festón",
+      "pdf_text": "FESTON N1 $ 55 el metro / N2 $ 55 el metro / N3 $ 55 el metro / N4 $ 78 / N8 $ 108 / N9 $ 108 / N 10 $ 78 / N12 $ 78 / N13 $ 108 · CONSULTE POR MAYOR",
+      "pages": [
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Festón bordado y calado en blanco y crudo, con borde ondeado, en nueve modelos numerados de distintos anchos. Se corta por metro.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x1658",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 55,
+              "unit_price": 55,
+              "printed": 55
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x1658",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 55,
+              "unit_price": 55,
+              "printed": 55
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x1660",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 55,
+              "unit_price": 55,
+              "printed": 55
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x1665",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x1671",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": "x1673",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": "x1678",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "N 12",
+          "hex": null,
+          "image": "x1687",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "N 13",
+          "hex": null,
+          "image": "x1684",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1658",
+          "page": 230,
+          "version": "etiquetada",
+          "alt": "Festones bordados blancos angostos, modelos 1 y 2"
+        },
+        {
+          "id": "x1660",
+          "page": 230,
+          "version": "etiquetada",
+          "alt": "Festón bordado blanco con ojalitos, modelo 3"
+        },
+        {
+          "id": "x1665",
+          "page": 231,
+          "version": "etiquetada",
+          "alt": "Festón bordado crudo con calados redondos, modelo 4"
+        },
+        {
+          "id": "x1671",
+          "page": 232,
+          "version": "etiquetada",
+          "alt": "Festón bordado crudo con abanicos calados, modelo 8"
+        },
+        {
+          "id": "x1673",
+          "page": 232,
+          "version": "etiquetada",
+          "alt": "Festón bordado blanco con flores, modelo 9"
+        },
+        {
+          "id": "x1678",
+          "page": 233,
+          "version": "etiquetada",
+          "alt": "Festón bordado blanco con calados y borde ondeado, modelo 10"
+        },
+        {
+          "id": "x1687",
+          "page": 234,
+          "version": "etiquetada",
+          "alt": "Festón bordado blanco con flores caladas, modelo 12"
+        },
+        {
+          "id": "x1684",
+          "page": 234,
+          "version": "etiquetada",
+          "alt": "Festón bordado blanco ancho con ramitos calados, modelo 13"
+        }
+      ],
+      "wholesale_note": "Consulte por mayor",
+      "needs_review": [
+        "Del N 4 al N 13 el PDF no dice 'el metro': se asumió por metro igual que N 1 a N 3",
+        "La numeración salta (no figuran N 5, 6, 7 ni 11)"
+      ]
+    },
+    {
+      "name": "Bastidor de bambú",
+      "pdf_text": "BASTIDOR BAMBOO 8 CM $ 199 / 12 CM $ 241 / 15 CM $ 265 / 20 CM $ 314 / 25 CM $ 329 / 27 CM $ 362",
+      "pages": [
+        235
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": "bambú",
+      "badge": null,
+      "description": "Bastidor redondo de bambú para bordar, con tornillo de ajuste metálico. Viene en seis medidas, de 8 a 27 cm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "8 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 199,
+              "unit_price": 199,
+              "printed": 199
+            }
+          ]
+        },
+        {
+          "label": "12 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 241,
+              "unit_price": 241,
+              "printed": 241
+            }
+          ]
+        },
+        {
+          "label": "15 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 265,
+              "unit_price": 265,
+              "printed": 265
+            }
+          ]
+        },
+        {
+          "label": "20 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 314,
+              "unit_price": 314,
+              "printed": 314
+            }
+          ]
+        },
+        {
+          "label": "25 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 329,
+              "unit_price": 329,
+              "printed": 329
+            }
+          ]
+        },
+        {
+          "label": "27 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 362,
+              "unit_price": 362,
+              "printed": 362
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1691",
+          "page": 235,
+          "version": "limpia",
+          "alt": "Pila de bastidores redondos de bambú"
+        },
+        {
+          "id": "x1693",
+          "page": 235,
+          "version": "limpia",
+          "alt": "Bastidores de bambú de varias medidas, uno dentro de otro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Bastidor de plástico",
+      "pdf_text": "BASTIDOR PLASTICO 12 cm $ 156 / 15 cm $ 180 / 19 CM $ 217 / 23 CM $ 241 / 27 cm $ 277",
+      "pages": [
+        235
+      ],
+      "category": "tejido-y-bordado",
+      "sku": null,
+      "material": "plástico",
+      "badge": null,
+      "description": "Bastidor redondo de plástico para bordar, en colores, con tornillo de ajuste. Viene en cinco medidas, de 12 a 27 cm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "12 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 156,
+              "unit_price": 156,
+              "printed": 156
+            }
+          ]
+        },
+        {
+          "label": "15 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 180,
+              "unit_price": 180,
+              "printed": 180
+            }
+          ]
+        },
+        {
+          "label": "19 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 217,
+              "unit_price": 217,
+              "printed": 217
+            }
+          ]
+        },
+        {
+          "label": "23 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 241,
+              "unit_price": 241,
+              "printed": 241
+            }
+          ]
+        },
+        {
+          "label": "27 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 277,
+              "unit_price": 277,
+              "printed": 277
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1694",
+          "page": 235,
+          "version": "limpia",
+          "alt": "Bastidores de plástico de colores en varias medidas, uno dentro de otro"
+        },
+        {
+          "id": "x1695",
+          "page": 235,
+          "version": "limpia",
+          "alt": "Bastidores de plástico rosa, celeste, naranja y violeta"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Brillantina",
+      "pdf_text": "BRILLANTINA VARIOS COLORES $ 53",
+      "pages": [
+        236
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Brillantina en potecitos con tapa, en varios colores: violeta, azul, dorado, plateado, verde, rojo, negro, blanco y cobre, entre otros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 53,
+              "unit_price": 53,
+              "printed": 53
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1699",
+          "page": 236,
+          "version": "limpia",
+          "alt": "Doce potes de brillantina de distintos colores"
+        },
+        {
+          "id": "x1701",
+          "page": 236,
+          "version": "limpia",
+          "alt": "Paquete de potes de brillantina de colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si $ 53 es por pote o por el paquete que se ve en la segunda foto; se asumió por pote"
+      ]
+    },
+    {
+      "name": "Hilo tubino 100 m poliéster",
+      "pdf_text": "HILO TUBINOS 100 METROS POLYESTER $ 22 CADA UNO C/U $ 170 BLISTER X 10",
+      "pages": [
+        237
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": "poliéster",
+      "badge": null,
+      "description": "Tubino de hilo de coser de poliéster de 100 metros, en variedad de colores. Se vende suelto o en blíster de 10.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            },
+            {
+              "tier": "mayor",
+              "label": "Blíster x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 170,
+              "unit_price": 17.0,
+              "printed": 170
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1709",
+          "page": 237,
+          "version": "limpia",
+          "alt": "Tubinos de hilo de coser de varios colores"
+        },
+        {
+          "id": "x1708",
+          "page": 237,
+          "version": "limpia",
+          "alt": "Tubinos de hilo negros y blancos"
+        },
+        {
+          "id": "x1706",
+          "page": 237,
+          "version": "limpia",
+          "alt": "Blísteres de tubinos de hilo de colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice 'C/U $ 170 BLISTER X 10': se interpretó $ 170 cada blíster de 10 tubinos"
+      ]
+    },
+    {
+      "name": "Campanita",
+      "pdf_text": "CASCABELES · CAMPANAS CHICA 1 CM $ 5,39 / CAMPANAS GRANDE 2,5 CM $ 12",
+      "pages": [
+        238
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Campanitas metalizadas de colores surtidos (fucsia, violeta, verde, rojo, celeste, dorado y plateado), en dos tamaños: chica de 1 cm y grande de 2,5 cm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Chica · 1 cm",
+          "hex": null,
+          "image": "x1713",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5.39,
+              "unit_price": 5.39,
+              "printed": 5.39
+            }
+          ]
+        },
+        {
+          "label": "Grande · 2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1713",
+          "page": 238,
+          "version": "limpia",
+          "alt": "Campanitas metalizadas de colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Hay una sola foto de campanas: se asignó a la chica (está justo arriba de su texto); la grande queda sin foto identificable"
+      ]
+    },
+    {
+      "name": "Cascabel",
+      "pdf_text": "CASCABELES · CASCABEL N 2 1,2 CM $ 15 / CASCABEL N 3 1,5 CM $ 8 / CASCABEL N 4 2,5 CM $ 16 / CASCABEL N 5 1 CM $ 6 PELTRE Y PLATA / CASCABEL N 6 5 MM $ 5 / CASCABEL N 9 8 MM $ 5 / CASCABEL N 10 8 MM $ 5 / CASCABEL N 8 2 CM $ 14DORADO / CASCABEL N 11 1,2 CM $ 7 / CASCABEL N 12 2,5 CM $ 15 DORADO",
+      "pages": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cascabeles en diez modelos numerados, de 5 mm a 2,5 cm: metalizados de colores, dorados, plateados y peltre según el modelo. Precio por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 2 · 1,2 cm",
+          "hex": null,
+          "image": "x1715",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "N 3 · 1,5 cm",
+          "hex": null,
+          "image": "x1719",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        },
+        {
+          "label": "N 4 · 2,5 cm",
+          "hex": null,
+          "image": "x1721",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 16,
+              "unit_price": 16,
+              "printed": 16
+            }
+          ]
+        },
+        {
+          "label": "N 5 · 1 cm · peltre y plata",
+          "hex": null,
+          "image": "x1725",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 6,
+              "unit_price": 6,
+              "printed": 6
+            }
+          ]
+        },
+        {
+          "label": "N 6 · 5 mm",
+          "hex": null,
+          "image": "x1727",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            }
+          ]
+        },
+        {
+          "label": "N 8 · 2 cm · dorado",
+          "hex": null,
+          "image": "x1738",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 14,
+              "unit_price": 14,
+              "printed": 14
+            }
+          ]
+        },
+        {
+          "label": "N 9 · 8 mm",
+          "hex": null,
+          "image": "x1733",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            }
+          ]
+        },
+        {
+          "label": "N 10 · 8 mm",
+          "hex": null,
+          "image": "x1731",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            }
+          ]
+        },
+        {
+          "label": "N 11 · 1,2 cm",
+          "hex": null,
+          "image": "x1743",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 7,
+              "unit_price": 7,
+              "printed": 7
+            }
+          ]
+        },
+        {
+          "label": "N 12 · 2,5 cm · dorado",
+          "hex": null,
+          "image": "x1745",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1715",
+          "page": 238,
+          "version": "limpia",
+          "alt": "Cascabeles metalizados de colores surtidos, modelo N 2"
+        },
+        {
+          "id": "x1719",
+          "page": 239,
+          "version": "limpia",
+          "alt": "Cascabeles chatos metalizados de colores, modelo N 3"
+        },
+        {
+          "id": "x1721",
+          "page": 239,
+          "version": "limpia",
+          "alt": "Cascabeles chatos dorados grandes, modelo N 4"
+        },
+        {
+          "id": "x1725",
+          "page": 240,
+          "version": "limpia",
+          "alt": "Cascabeles chicos en peltre y plata, modelo N 5"
+        },
+        {
+          "id": "x1727",
+          "page": 240,
+          "version": "limpia",
+          "alt": "Cascabeles plateados muy chiquitos, modelo N 6"
+        },
+        {
+          "id": "x1738",
+          "page": 242,
+          "version": "limpia",
+          "alt": "Cascabeles dorados de 2 cm, modelo N 8"
+        },
+        {
+          "id": "x1733",
+          "page": 241,
+          "version": "limpia",
+          "alt": "Cascabeles chiquitos en peltre, dorado y plateado, modelo N 9"
+        },
+        {
+          "id": "x1731",
+          "page": 241,
+          "version": "limpia",
+          "alt": "Cascabeles chiquitos plateados, modelo N 10"
+        },
+        {
+          "id": "x1743",
+          "page": 243,
+          "version": "limpia",
+          "alt": "Cascabeles dorados y plateados, modelo N 11"
+        },
+        {
+          "id": "x1745",
+          "page": 243,
+          "version": "limpia",
+          "alt": "Cascabeles dorados grandes, modelo N 12"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El N 2 (1,2 cm) figura a $ 15, más caro que el N 3 (1,5 cm, $ 8) y casi igual al N 4 (2,5 cm, $ 16): confirmar ese precio",
+        "La numeración salta (no figuran N 1 ni N 7)"
+      ]
+    },
+    {
+      "name": "Cuenta octogonal de color 1,8 cm",
+      "pdf_text": "CUENTA OCTOGONAL COLOR 1,8 CMS. CONSULTAR PRECIO $ 29",
+      "pages": [
+        246
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cuenta facetada de 1,8 cm en colores surtidos (rosa, celeste, bordó, mostaza, verde, naranja, blanco) con dibujo animal print dorado.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1762",
+          "page": 246,
+          "version": "limpia",
+          "alt": "Cuentas facetadas de colores con animal print dorado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice 'CONSULTAR PRECIO $ 29': se tomó $ 29 por unidad, confirmar si el precio sigue vigente"
+      ]
+    },
+    {
+      "name": "Terminal de madera diseño osito",
+      "pdf_text": "TERMINALES DE MADERA DISEÑO OSITO NENA Y VARON $ 48 CADA UNO",
+      "pages": [
+        247
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": "madera",
+      "badge": null,
+      "description": "Terminal de madera con forma de carita de osito, pintado en blanco con orejas y hocico rosa (nena) o celeste (varón). Tiene orificio pasante.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Nena",
+          "hex": null,
+          "image": "x1768",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        },
+        {
+          "label": "Varón",
+          "hex": null,
+          "image": "x1768",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 48,
+              "unit_price": 48,
+              "printed": 48
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1768",
+          "page": 247,
+          "version": "limpia",
+          "alt": "Terminales de madera con carita de osito en rosa y en celeste"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cairel esfera",
+      "pdf_text": "CAIREL ESFERA 20MM $68 / 30 MM $ 98 / 40 MM $ 168 / 50 MM $ 298",
+      "pages": [
+        248
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cairel con forma de esfera facetada transparente, como los que se ven colgando en cortinas de cuentas. Viene en cuatro medidas, de 20 a 50 mm.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "20 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "30 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "40 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 168,
+              "unit_price": 168,
+              "printed": 168
+            }
+          ]
+        },
+        {
+          "label": "50 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1773",
+          "page": 248,
+          "version": "limpia",
+          "alt": "Cairel esfera facetada transparente"
+        },
+        {
+          "id": "x1775",
+          "page": 248,
+          "version": "limpia",
+          "alt": "Caireles esfera colgando de tiras de cristales"
+        },
+        {
+          "id": "x1776",
+          "page": 248,
+          "version": "limpia",
+          "alt": "Cortina de cuentas terminada en caireles esfera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cairel en tira",
+      "pdf_text": "CAIREL TIRA 1 METRO $ 350",
+      "pages": [
+        249
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tira de caireles octogonales transparentes unidos con argollas, como las de las cortinas de la foto. Precio por tira de 1 metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Tira · 1 m",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 350,
+              "unit_price": 350,
+              "printed": 350
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1781",
+          "page": 249,
+          "version": "limpia",
+          "alt": "Tira de caireles octogonales transparentes unidos con argollas"
+        },
+        {
+          "id": "x1783",
+          "page": 249,
+          "version": "limpia",
+          "alt": "Cortina de tiras de caireles colgando"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si se corta por metro o si viene en tiras armadas de 1 metro"
+      ]
+    },
+    {
+      "name": "Cairel 12 a 18 mm",
+      "pdf_text": "CAIREL 12 MM $ 18 / 14 MM $ 20 / 16 MM $ 22 / 18 MM $ 24",
+      "pages": [
+        250
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cairel octogonal transparente facetado con dos agujeritos, en cuatro medidas de 12 a 18 mm. Precio por unidad.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "12 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 18,
+              "unit_price": 18,
+              "printed": 18
+            }
+          ]
+        },
+        {
+          "label": "14 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 20,
+              "unit_price": 20,
+              "printed": 20
+            }
+          ]
+        },
+        {
+          "label": "16 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 22,
+              "unit_price": 22,
+              "printed": 22
+            }
+          ]
+        },
+        {
+          "label": "18 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1788",
+          "page": 250,
+          "version": "limpia",
+          "alt": "Caireles octogonales transparentes con dos agujeros"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Cairel largo",
+      "pdf_text": "CAIREL LARGO $ 63,8",
+      "pages": [
+        250
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cairel largo transparente facetado, tipo gota alargada en punta, con agujerito para colgar.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 63.8,
+              "unit_price": 63.8,
+              "printed": 63.8
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1790",
+          "page": 250,
+          "version": "limpia",
+          "alt": "Caireles largos transparentes en punta"
+        },
+        {
+          "id": "x1791",
+          "page": 250,
+          "version": "limpia",
+          "alt": "Caireles largos transparentes, vista general"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón moneda metal dorado",
+      "pdf_text": "GALON MONEDA METAL DORADO $ 238",
+      "pages": [
+        251
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Galón dorado con moneditas de metal colgantes. Se corta por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 238,
+              "unit_price": 238,
+              "printed": 238
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1795",
+          "page": 251,
+          "version": "limpia",
+          "alt": "Galón dorado con monedas de metal colgantes sobre madera"
+        },
+        {
+          "id": "x1797",
+          "page": 251,
+          "version": "limpia",
+          "alt": "Rollo de galón dorado con monedas de metal"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Strass por metro",
+      "pdf_text": "STRASS $ 258 EL METRO / STRASS $ $ 260 EL METRO / $ 278 EL METRO",
+      "pages": [
+        252,
+        253
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cadena de strass engarzado, en rollo, que se corta por metro. Según la leyenda de las fotos: SS12 en dorado, plateado y tornasol; SS14 en dorado y plateado; SS16 en plateado.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "SS12 · dorado y plateado",
+          "hex": null,
+          "image": "x1804",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 258,
+              "unit_price": 258,
+              "printed": 258
+            }
+          ]
+        },
+        {
+          "label": "SS12 · tornasol",
+          "hex": null,
+          "image": "x1802",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 258,
+              "unit_price": 258,
+              "printed": 258
+            }
+          ]
+        },
+        {
+          "label": "SS14 · dorado y plateado",
+          "hex": null,
+          "image": "x1808",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 260,
+              "unit_price": 260,
+              "printed": 260
+            }
+          ]
+        },
+        {
+          "label": "SS16 · plateado",
+          "hex": null,
+          "image": "x1810",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 278,
+              "unit_price": 278,
+              "printed": 278
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1804",
+          "page": 252,
+          "version": "limpia",
+          "alt": "Rollos de cadena de strass SS12 con base plateada y dorada"
+        },
+        {
+          "id": "x1802",
+          "page": 252,
+          "version": "limpia",
+          "alt": "Rollo de cadena de strass SS12 tornasol"
+        },
+        {
+          "id": "x1808",
+          "page": 253,
+          "version": "limpia",
+          "alt": "Rollos de cadena de strass SS14 con base plateada y dorada"
+        },
+        {
+          "id": "x1810",
+          "page": 253,
+          "version": "limpia",
+          "alt": "Rollo de cadena de strass SS16 plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las medidas (SS12, SS14, SS16) y los colores (dorado, plateado, tornasol) no están en el texto del PDF: se leyeron de la leyenda que viene dentro de cada foto",
+        "En la página 252 hay un solo precio ($ 258) para las dos fotos de SS12; se aplicó a ambas",
+        "En la página 253 se asignó $ 260 al SS14 y $ 278 al SS16 por cercanía con cada foto"
+      ]
+    },
+    {
+      "name": "Ondulines negros",
+      "pdf_text": "ONDULINES NEGROS $ 58",
+      "pages": [
+        254
+      ],
+      "category": "accesorios-para-el-cabello",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ondulines negros para el cabello, presentados en cartón abanico.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1816",
+          "page": 254,
+          "version": "limpia",
+          "alt": "Cartón abanico con ondulines negros"
+        },
+        {
+          "id": "x1814",
+          "page": 254,
+          "version": "limpia",
+          "alt": "Cartón abanico con ondulines negros, vista en ángulo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara la presentación: se asumió $ 58 el cartón de ondulines que se ve en la foto"
+      ]
+    },
+    {
+      "name": "Tiara",
+      "pdf_text": "TIARA X 12 BLANCA Y NEGRA 2 cm ancho BRILLOSAS $ 50 / TIARAS BLANCAS FINAS O.8 CM $ 39 / TIARAS COLORES SURTIDOS OPOCAS 2 CM ANCHO $ 50",
+      "pages": [
+        255,
+        256
+      ],
+      "category": "accesorios-para-el-cabello",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tiara lisa para el cabello: brillosa de 2 cm de ancho en blanco y negro (paquete x 12), blanca fina de 0,8 cm y opaca de 2 cm en colores surtidos (azul, violeta, rojo, fucsia, negro).",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Brillosa 2 cm · blanca y negra",
+          "hex": null,
+          "image": "x1821",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 12",
+              "unit": "u",
+              "content_qty": 12,
+              "price": 50,
+              "unit_price": 4.1667,
+              "printed": 50
+            }
+          ]
+        },
+        {
+          "label": "Fina 0,8 cm · blanca",
+          "hex": null,
+          "image": "x1828",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Opaca 2 cm · colores surtidos",
+          "hex": null,
+          "image": "x1830",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 50,
+              "unit_price": 50,
+              "printed": 50
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanca",
+          "hex": "#f3f3ee"
+        },
+        {
+          "name": "Negra",
+          "hex": "#1b1b1b"
+        }
+      ],
+      "images": [
+        {
+          "id": "x1821",
+          "page": 255,
+          "version": "limpia",
+          "alt": "Tiaras brillosas blancas y negras de 2 cm de ancho"
+        },
+        {
+          "id": "x1824",
+          "page": 255,
+          "version": "limpia",
+          "alt": "Tiara negra con dientes"
+        },
+        {
+          "id": "x1828",
+          "page": 256,
+          "version": "limpia",
+          "alt": "Tiaras blancas finas"
+        },
+        {
+          "id": "x1830",
+          "page": 256,
+          "version": "limpia",
+          "alt": "Tiaras opacas de colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'TIARA X 12 ... $ 50': se interpretó $ 50 el paquete de 12 tiaras brillosas; confirmar",
+        "Las tiaras finas ($ 39) y las opacas de colores ($ 50) no dicen 'x 12': se cargaron por unidad; confirmar si también son por paquete de 12",
+        "El PDF dice 'OPOCAS': se leyó 'opacas'"
+      ]
+    },
+    {
+      "name": "Colita para el cabello paquete x 6",
+      "pdf_text": "COLITA CABELLO PTE X6 $ 52",
+      "pages": [
+        257
+      ],
+      "category": "accesorios-para-el-cabello",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Colitas elásticas para el cabello en paquete de 6: en blanco y negro o en colores pastel surtidos.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 52,
+              "unit_price": 8.6667,
+              "printed": 52
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1834",
+          "page": 257,
+          "version": "limpia",
+          "alt": "Paquetes de colitas para el cabello en colores pastel"
+        },
+        {
+          "id": "x1836",
+          "page": 257,
+          "version": "limpia",
+          "alt": "Paquetes de colitas para el cabello blancas y negras"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [
+    {
+      "name": "Cuenta de madera",
+      "pages": [
+        244
+      ],
+      "category": "manualidades",
+      "description": "Cuenta redonda de madera natural, en varios tamaños, con orificio de 4 a 5 mm. Precios y tamaños a consultar.",
+      "pdf_text": "CUENTA MADERA CONSULTAR PRECIOS Y TAMAÑOS · ORIFICIO DE 4 A 5 MM",
+      "images": [
+        {
+          "id": "x1749",
+          "page": 244,
+          "version": "limpia",
+          "alt": "Bolsa de cuentas de madera natural y seis cuentas en fila de menor a mayor"
+        },
+        {
+          "id": "x1751",
+          "page": 244,
+          "version": "limpia",
+          "alt": "Seis cuentas de madera natural en fila, de menor a mayor"
+        }
+      ]
+    },
+    {
+      "name": "Cuenta de madera con letras natural",
+      "pages": [
+        245
+      ],
+      "category": "manualidades",
+      "description": "Cuenta de madera natural en forma de cubo con letras negras, para armar nombres. Precios y tamaños a consultar.",
+      "pdf_text": "CUENTAS MADERA LETRAS NATURAL CONSULTAR PRECIOS Y TAMAÑOS",
+      "images": [
+        {
+          "id": "x1757",
+          "page": 245,
+          "version": "limpia",
+          "alt": "Cuentas cubo de madera natural con letras negras"
+        },
+        {
+          "id": "x1755",
+          "page": 245,
+          "version": "limpia",
+          "alt": "Cuentas de madera con letras formando palabras"
+        }
+      ]
+    }
+  ],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": [
+    {
+      "page": 229,
+      "value": 2,
+      "reason": "error de tipeo: 'N2 $2 55' (el precio es $ 55)"
+    }
+  ]
+}

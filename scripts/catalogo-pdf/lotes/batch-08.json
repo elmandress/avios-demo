@@ -1,0 +1,2244 @@
+{
+  "batch": 8,
+  "products": [
+    {
+      "name": "Tocado para cabello",
+      "pdf_text": "TOCADO CABELLO N 1 $ 98 / N 2 $ 429 / N 3 $ 429 / TOCADO CABELLO $ 429 (N 4 a N 13) / TOCADO CABELLO $ 539 (N 14 a N 31)",
+      "pages": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271
+      ],
+      "category": "accesorios-para-el-cabello",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tocados para el cabello con perlas, cristales y flores sobre alambre plateado o dorado, en 31 modelos numerados: horquilla (N 1), peinetas (N 2 a N 13) y ramas largas que en la foto vienen en su cartón con ondulines (N 14 a N 31). Se venden por unidad y el precio cambia según el modelo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x1843",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x1847",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x1849",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x1853",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x1855",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x1859",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x1861",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x1865",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": "x1867",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": "x1871",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 11",
+          "hex": null,
+          "image": "x1876",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 12",
+          "hex": null,
+          "image": "x1878",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 13",
+          "hex": null,
+          "image": "x1882",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 14",
+          "hex": null,
+          "image": "x1887",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 15",
+          "hex": null,
+          "image": "x1889",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 16",
+          "hex": null,
+          "image": "x1890",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 17",
+          "hex": null,
+          "image": "x1895",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 18",
+          "hex": null,
+          "image": "x1897",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 19",
+          "hex": null,
+          "image": "x1898",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 20",
+          "hex": null,
+          "image": "x1903",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 21",
+          "hex": null,
+          "image": "x1905",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 22",
+          "hex": null,
+          "image": "x1909",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 23",
+          "hex": null,
+          "image": "x1911",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 24",
+          "hex": null,
+          "image": "x1912",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 25",
+          "hex": null,
+          "image": "x1916",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 26",
+          "hex": null,
+          "image": "x1916",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 27",
+          "hex": null,
+          "image": "x1918",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 28",
+          "hex": null,
+          "image": "x1919",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 29",
+          "hex": null,
+          "image": "x1925",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 30",
+          "hex": null,
+          "image": "x1923",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "N 31",
+          "hex": null,
+          "image": "x1926",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1843",
+          "page": 258,
+          "version": "limpia",
+          "alt": "Horquilla tocado con tres flores blancas y perlas, modelo N 1"
+        },
+        {
+          "id": "x1840",
+          "page": 258,
+          "version": "limpia",
+          "alt": "Horquilla tocado con flores blancas y perlas sobre una mesa de madera, modelo N 1"
+        },
+        {
+          "id": "x1847",
+          "page": 259,
+          "version": "etiquetada",
+          "alt": "Peineta tocado con ramitas plateadas, perlas blancas y flores, modelo N 2"
+        },
+        {
+          "id": "x1849",
+          "page": 259,
+          "version": "limpia",
+          "alt": "Tocado en rama plateada con perlas y cristales transparentes, en su cartón con un ondulín, modelo N 3"
+        },
+        {
+          "id": "x1853",
+          "page": 260,
+          "version": "etiquetada",
+          "alt": "Peineta tocado con racimos de perlas blancas y cristales, modelo N 4"
+        },
+        {
+          "id": "x1855",
+          "page": 260,
+          "version": "limpia",
+          "alt": "Peineta tocado con perlas alargadas y redondas, modelo N 5"
+        },
+        {
+          "id": "x1859",
+          "page": 261,
+          "version": "limpia",
+          "alt": "Peineta tocado cargada de perlas blancas de varios tamaños, modelo N 6"
+        },
+        {
+          "id": "x1861",
+          "page": 261,
+          "version": "etiquetada",
+          "alt": "Peineta tocado con ramitas de perlas blancas chicas, modelo N 7"
+        },
+        {
+          "id": "x1865",
+          "page": 262,
+          "version": "limpia",
+          "alt": "Peineta dorada con flores blancas y ramitas de perlas, modelo N 8"
+        },
+        {
+          "id": "x1867",
+          "page": 262,
+          "version": "limpia",
+          "alt": "Peineta con dos flores blancas, perlas y cristales, modelo N 9"
+        },
+        {
+          "id": "x1871",
+          "page": 263,
+          "version": "limpia",
+          "alt": "Peineta con flor nacarada grande y ramitas de perlas, modelo N 10"
+        },
+        {
+          "id": "x1876",
+          "page": 264,
+          "version": "limpia",
+          "alt": "Peineta dorada con ramitas doradas y perlas blancas, modelo N 11"
+        },
+        {
+          "id": "x1878",
+          "page": 264,
+          "version": "limpia",
+          "alt": "Peineta dorada con perlas blancas y cristales, modelo N 12"
+        },
+        {
+          "id": "x1882",
+          "page": 265,
+          "version": "limpia",
+          "alt": "Peineta dorada con flores blancas, cristales y perlas, modelo N 13"
+        },
+        {
+          "id": "x1887",
+          "page": 266,
+          "version": "etiquetada",
+          "alt": "Tocado largo en rama con flores de perlas blancas, en su cartón con ondulines, modelo N 14"
+        },
+        {
+          "id": "x1889",
+          "page": 266,
+          "version": "etiquetada",
+          "alt": "Tocado largo en rama con flores transparentes y perlas, modelo N 15"
+        },
+        {
+          "id": "x1890",
+          "page": 266,
+          "version": "etiquetada",
+          "alt": "Tocado largo en rama con florcitas y perlas blancas, modelo N 16"
+        },
+        {
+          "id": "x1895",
+          "page": 267,
+          "version": "etiquetada",
+          "alt": "Tocado largo con flores blancas y perlas sobre alambre dorado, modelo N 17"
+        },
+        {
+          "id": "x1897",
+          "page": 267,
+          "version": "etiquetada",
+          "alt": "Tocado largo en rama con florcitas chicas y perlas, modelo N 18"
+        },
+        {
+          "id": "x1898",
+          "page": 267,
+          "version": "etiquetada",
+          "alt": "Tocado largo con flores blancas en estrella, strass y perlas, modelo N 19"
+        },
+        {
+          "id": "x1903",
+          "page": 268,
+          "version": "limpia",
+          "alt": "Tocado largo en rama plateada con cristales transparentes, sobre cartón azul, modelo N 20"
+        },
+        {
+          "id": "x1905",
+          "page": 268,
+          "version": "limpia",
+          "alt": "Tocado largo en rama plateada con cristales transparentes, modelo N 21"
+        },
+        {
+          "id": "x1909",
+          "page": 269,
+          "version": "limpia",
+          "alt": "Tocado largo en rama fina con cristales transparentes, modelo N 22"
+        },
+        {
+          "id": "x1911",
+          "page": 269,
+          "version": "limpia",
+          "alt": "Tocado largo en rama con cuentas blancas, modelo N 23"
+        },
+        {
+          "id": "x1912",
+          "page": 269,
+          "version": "limpia",
+          "alt": "Tocado largo en rama plateada con cristales, modelo N 24"
+        },
+        {
+          "id": "x1916",
+          "page": 270,
+          "version": "etiquetada",
+          "alt": "Dos tocados largos: N 25 con perlas blancas y N 26 con flores blancas sobre alambre dorado"
+        },
+        {
+          "id": "x1918",
+          "page": 270,
+          "version": "etiquetada",
+          "alt": "Tocado largo en rama con perlas alargadas y cristales, modelo N 27"
+        },
+        {
+          "id": "x1919",
+          "page": 270,
+          "version": "etiquetada",
+          "alt": "Tocado largo en rama con perlas y cristales, modelo N 28"
+        },
+        {
+          "id": "x1925",
+          "page": 271,
+          "version": "limpia",
+          "alt": "Tocado largo con flores de colores (blanca, roja, verde, lila, celeste y rosa) y perlas, modelo N 29"
+        },
+        {
+          "id": "x1923",
+          "page": 271,
+          "version": "limpia",
+          "alt": "Tocado largo en rama plateada con perlas y cristales, modelo N 30"
+        },
+        {
+          "id": "x1926",
+          "page": 271,
+          "version": "limpia",
+          "alt": "Tocado largo con flores blancas y perlas sobre alambre dorado, modelo N 31"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se armó un solo producto porque el título es siempre 'TOCADO CABELLO' y la numeración sigue de corrido, pero hay tres precios: N 1 $ 98 (horquilla), N 2 a N 13 $ 429 (peinetas) y N 14 a N 31 $ 539 (ramas largas). Confirmar si conviene separarlo en tres productos.",
+        "P. 270: N 25 y N 26 están en una misma foto (x1916)."
+      ]
+    },
+    {
+      "name": "Ondulín para peinado con strass y perlas",
+      "pdf_text": "ONDULIN PARA PEINADO CON STRASS Y PERLAS $ 50",
+      "pages": [
+        272,
+        273
+      ],
+      "category": "accesorios-para-el-cabello",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ondulines para peinado, plateados o dorados, con remate de strass o perla: en las fotos se ven flores, estrellas, bolas de strass, cristales y perlas. Modelos surtidos sin numerar.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 50,
+              "unit_price": 50,
+              "printed": 50
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1943",
+          "page": 273,
+          "version": "limpia",
+          "alt": "Cinco ondulines plateados con strass: estrella, flores, bola y cristal"
+        },
+        {
+          "id": "x1931",
+          "page": 272,
+          "version": "limpia",
+          "alt": "Dos ondulines plateados con flor y perla"
+        },
+        {
+          "id": "x1933",
+          "page": 272,
+          "version": "limpia",
+          "alt": "Dos ondulines dorados: uno con flor de strass de colores y otro con perla"
+        },
+        {
+          "id": "x1934",
+          "page": 272,
+          "version": "limpia",
+          "alt": "Ondulín dorado con flor de strass transparente"
+        },
+        {
+          "id": "x1935",
+          "page": 272,
+          "version": "limpia",
+          "alt": "Dos ondulines plateados con strass"
+        },
+        {
+          "id": "x1944",
+          "page": 273,
+          "version": "limpia",
+          "alt": "Ondulines plateados con bola de strass y flor de strass"
+        },
+        {
+          "id": "x1936",
+          "page": 272,
+          "version": "limpia",
+          "alt": "Ondulines con strass y perla colocados en el cabello"
+        },
+        {
+          "id": "x1945",
+          "page": 273,
+          "version": "limpia",
+          "alt": "Ondulines con strass colocados en un peinado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si los $ 50 son por unidad o por par (en varias fotos se ven de a dos); se puso por unidad.",
+        "Las fotos muestran varios modelos sin número ni nombre: no se armaron variantes."
+      ]
+    },
+    {
+      "name": "Stickers adhesivos chicos",
+      "pdf_text": "STICKERS ADHESIVO $ 58 C-U",
+      "pages": [
+        274
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sobrecitos de stickers adhesivos con piedritas brillantes de colores; en la foto se ve el cartón exhibidor con doce sobres de diseños y colores distintos (según el envase, para uñas y rostro). Precio por cada sobrecito.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 58,
+              "unit_price": 58,
+              "printed": 58
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1953",
+          "page": 274,
+          "version": "limpia",
+          "alt": "Cartón exhibidor con doce sobrecitos de stickers de piedritas de colores"
+        },
+        {
+          "id": "x1952",
+          "page": 274,
+          "version": "limpia",
+          "alt": "Detalle del cartón con sobrecitos de stickers de piedritas"
+        },
+        {
+          "id": "x1950",
+          "page": 274,
+          "version": "limpia",
+          "alt": "Sobrecitos de stickers de piedritas vistos de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF sólo dice 'STICKERS ADHESIVO'; se agregó 'chicos' al nombre para distinguirlos de los stickers numerados de $ 149.",
+        "Se interpretó '$ 58 C-U' como precio de cada sobrecito, no del cartón completo de doce."
+      ]
+    },
+    {
+      "name": "Ojitos adhesivos",
+      "pdf_text": "OJITOS ADHESIVO $ 149",
+      "pages": [
+        275
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ojitos adhesivos de colores, con pestañas, párpados y anteojos de distintos diseños, presentados en planchas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x1958",
+          "page": 275,
+          "version": "limpia",
+          "alt": "Planchas de ojitos adhesivos de colores con pestañas y anteojos"
+        },
+        {
+          "id": "x1960",
+          "page": 275,
+          "version": "limpia",
+          "alt": "Ojitos adhesivos de colores sobre una mano y sobre la mesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se asumió que los $ 149 son por plancha; el PDF no aclara cuántos ojitos trae."
+      ]
+    },
+    {
+      "name": "Stickers adhesivos",
+      "pdf_text": "STICKERS ADHESIVO MAS TATUAJE $ 149 (N 1 a N 8) / STICKERS ADHESIVO $ 149 (N 9 a N 36) / STICKERS AUTOADHESIVOS · STICKERS ADHESIVO $ 149 (N 37 a N 55) / STICKERS AUTOADHESIVOS $ 160 (N 56 y N 57)",
+      "pages": [
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Stickers adhesivos de strass, perlas y gemas en 57 modelos numerados: sobres para rostro con medio antifaz de strass más tatuaje (N 1 a N 8), planchas de estrellas y piedritas, antifaces mariposa, gemas para ojos y frente, y blísteres y planchas de strass y medias perlas. En las fotos, N 54, N 55 y N 57 se ven en más de un color. Se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1 · con tatuaje",
+          "hex": null,
+          "image": "x1965",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 2 · con tatuaje",
+          "hex": null,
+          "image": "x1967",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 3 · con tatuaje",
+          "hex": null,
+          "image": "x1969",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 4 · con tatuaje",
+          "hex": null,
+          "image": "x1968",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 5 · con tatuaje",
+          "hex": null,
+          "image": "x1974",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 6 · con tatuaje",
+          "hex": null,
+          "image": "x1978",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 7 · con tatuaje",
+          "hex": null,
+          "image": "x1976",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 8 · con tatuaje",
+          "hex": null,
+          "image": "x1977",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": "x1983",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": "x1985",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 11",
+          "hex": null,
+          "image": "x1986",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 12",
+          "hex": null,
+          "image": "x1987",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 13",
+          "hex": null,
+          "image": "x1991",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 14",
+          "hex": null,
+          "image": "x1993",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 15",
+          "hex": null,
+          "image": "x1994",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 16",
+          "hex": null,
+          "image": "x1995",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 17",
+          "hex": null,
+          "image": "x1999",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 18",
+          "hex": null,
+          "image": "x2004",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 19",
+          "hex": null,
+          "image": "x2002",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 20",
+          "hex": null,
+          "image": "x2001",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 21",
+          "hex": null,
+          "image": "x2003",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 22",
+          "hex": null,
+          "image": "x2008",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 23",
+          "hex": null,
+          "image": "x2011",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 24",
+          "hex": null,
+          "image": "x2010",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 25",
+          "hex": null,
+          "image": "x2012",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 26",
+          "hex": null,
+          "image": "x2016",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 27",
+          "hex": null,
+          "image": "x2019",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 28",
+          "hex": null,
+          "image": "x2021",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 29",
+          "hex": null,
+          "image": "x2018",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 30",
+          "hex": null,
+          "image": "x2020",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 31",
+          "hex": null,
+          "image": "x2025",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 32",
+          "hex": null,
+          "image": "x2027",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 33",
+          "hex": null,
+          "image": "x2029",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 34",
+          "hex": null,
+          "image": "x2028",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 35",
+          "hex": null,
+          "image": "x2030",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 36",
+          "hex": null,
+          "image": "x2031",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 37",
+          "hex": null,
+          "image": "x2035",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 38",
+          "hex": null,
+          "image": "x2043",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 39",
+          "hex": null,
+          "image": "x2040",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 40",
+          "hex": null,
+          "image": "x2047",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 41",
+          "hex": null,
+          "image": "x2049",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 42",
+          "hex": null,
+          "image": "x2050",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 43",
+          "hex": null,
+          "image": "x2054",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 44",
+          "hex": null,
+          "image": "x2056",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 45",
+          "hex": null,
+          "image": "x2060",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 46",
+          "hex": null,
+          "image": "x2065",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 47",
+          "hex": null,
+          "image": "x2067",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 48",
+          "hex": null,
+          "image": "x2068",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 49",
+          "hex": null,
+          "image": "x2072",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 50",
+          "hex": null,
+          "image": "x2074",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 51",
+          "hex": null,
+          "image": "x2078",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 52",
+          "hex": null,
+          "image": "x2085",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 53",
+          "hex": null,
+          "image": "x2083",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 54",
+          "hex": null,
+          "image": "x2089",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 55",
+          "hex": null,
+          "image": "x2095",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        },
+        {
+          "label": "N 56",
+          "hex": null,
+          "image": "x2103",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 160,
+              "unit_price": 160,
+              "printed": 160
+            }
+          ]
+        },
+        {
+          "label": "N 57",
+          "hex": null,
+          "image": "x2101",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 160,
+              "unit_price": 160,
+              "printed": 160
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2002",
+          "page": 280,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo multicolor, modelo N 19"
+        },
+        {
+          "id": "x1965",
+          "page": 276,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: ala de strass azul y plateado más tatuaje de flores azules, modelo N 1"
+        },
+        {
+          "id": "x1967",
+          "page": 276,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: ala de mariposa de strass azul más tatuaje de pluma azul, modelo N 2"
+        },
+        {
+          "id": "x1969",
+          "page": 276,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: ala de perlas y strass dorado más tatuaje de flores blancas con hojas, modelo N 3"
+        },
+        {
+          "id": "x1968",
+          "page": 276,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: tatuaje de ala de mariposa azul y fucsia más ala de strass tornasol, modelo N 4"
+        },
+        {
+          "id": "x1974",
+          "page": 277,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: ala de strass plateado más tatuaje de flores azules, modelo N 5"
+        },
+        {
+          "id": "x1978",
+          "page": 277,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: tatuaje de pavo real azul más ala de strass azul y plateado, modelo N 6"
+        },
+        {
+          "id": "x1976",
+          "page": 277,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: tatuaje de guacamayo rojo más ala de strass plateado, modelo N 7"
+        },
+        {
+          "id": "x1977",
+          "page": 277,
+          "version": "limpia",
+          "alt": "Sobre de stickers para rostro: tatuaje de flores naranjas más ala de strass celeste y dorado, modelo N 8"
+        },
+        {
+          "id": "x1983",
+          "page": 278,
+          "version": "limpia",
+          "alt": "Plancha de stickers con medias perlas y estrellas rosas y plateadas, modelo N 9"
+        },
+        {
+          "id": "x1985",
+          "page": 278,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas rojas, azules, amarillas y celestes, modelo N 10"
+        },
+        {
+          "id": "x1986",
+          "page": 278,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas violetas y lilas, modelo N 11"
+        },
+        {
+          "id": "x1987",
+          "page": 278,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas rosas, verdes y amarillas en tonos pastel, modelo N 12"
+        },
+        {
+          "id": "x1991",
+          "page": 279,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas plateadas, modelo N 13"
+        },
+        {
+          "id": "x1993",
+          "page": 279,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas celestes y azules, modelo N 14"
+        },
+        {
+          "id": "x1994",
+          "page": 279,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas rojas y rosas, modelo N 15"
+        },
+        {
+          "id": "x1995",
+          "page": 279,
+          "version": "limpia",
+          "alt": "Plancha de stickers con estrellas y piedritas rosas, lilas y turquesa, modelo N 16"
+        },
+        {
+          "id": "x1999",
+          "page": 280,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo plateado y dorado, modelo N 17"
+        },
+        {
+          "id": "x2004",
+          "page": 280,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo plateado, modelo N 18"
+        },
+        {
+          "id": "x2001",
+          "page": 280,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo rojo y plateado, modelo N 20"
+        },
+        {
+          "id": "x2003",
+          "page": 280,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo celeste, azul y plateado, modelo N 21"
+        },
+        {
+          "id": "x2008",
+          "page": 281,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo rosa y tornasol, modelo N 22"
+        },
+        {
+          "id": "x2011",
+          "page": 281,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo turquesa y plateado, modelo N 23"
+        },
+        {
+          "id": "x2010",
+          "page": 281,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo violeta y plateado, modelo N 24"
+        },
+        {
+          "id": "x2012",
+          "page": 281,
+          "version": "limpia",
+          "alt": "Antifaz mariposa de strass adhesivo plateado con piedritas de colores pastel, modelo N 25"
+        },
+        {
+          "id": "x2016",
+          "page": 282,
+          "version": "limpia",
+          "alt": "Plancha de stickers de strass para ojos con tiras tipo pestañas y stickers de uñas, modelo N 26"
+        },
+        {
+          "id": "x2019",
+          "page": 282,
+          "version": "limpia",
+          "alt": "Plancha de stickers de strass para ojos con tiras tipo pestañas y stickers de uñas, modelo N 27"
+        },
+        {
+          "id": "x2021",
+          "page": 282,
+          "version": "limpia",
+          "alt": "Plancha de stickers de strass para ojos con tiras tipo pestañas y stickers de uñas, modelo N 28"
+        },
+        {
+          "id": "x2018",
+          "page": 282,
+          "version": "limpia",
+          "alt": "Plancha de stickers de strass para ojos con tiras tipo pestañas y stickers de uñas, modelo N 29"
+        },
+        {
+          "id": "x2020",
+          "page": 282,
+          "version": "limpia",
+          "alt": "Plancha de stickers de strass con estrellas para ojos, tiras tipo pestañas y stickers de uñas, modelo N 30"
+        },
+        {
+          "id": "x2025",
+          "page": 283,
+          "version": "limpia",
+          "alt": "Sobre de gemas adhesivas multicolor para frente y ojos, modelo N 31"
+        },
+        {
+          "id": "x2027",
+          "page": 283,
+          "version": "limpia",
+          "alt": "Sobre de gemas adhesivas fucsia y rosa para frente y ojos, modelo N 32"
+        },
+        {
+          "id": "x2029",
+          "page": 283,
+          "version": "limpia",
+          "alt": "Sobre de gemas adhesivas rojas y plateadas para frente y ojos, modelo N 33"
+        },
+        {
+          "id": "x2028",
+          "page": 283,
+          "version": "limpia",
+          "alt": "Sobre de gemas adhesivas fucsia y plateadas para frente y ojos, modelo N 34"
+        },
+        {
+          "id": "x2030",
+          "page": 283,
+          "version": "limpia",
+          "alt": "Sobre de gemas adhesivas rosa claro y plateadas para frente y ojos, modelo N 35"
+        },
+        {
+          "id": "x2031",
+          "page": 283,
+          "version": "limpia",
+          "alt": "Sobre de gemas adhesivas violetas y plateadas para ojos, modelo N 36"
+        },
+        {
+          "id": "x2035",
+          "page": 284,
+          "version": "limpia",
+          "alt": "Blíster de stickers autoadhesivos de strass transparentes redondos en tamaños graduados, modelo N 37"
+        },
+        {
+          "id": "x2043",
+          "page": 285,
+          "version": "limpia",
+          "alt": "Blíster de stickers de medias perlas blancas en tamaños graduados, modelo N 38"
+        },
+        {
+          "id": "x2040",
+          "page": 285,
+          "version": "limpia",
+          "alt": "Blíster de stickers de medias perlas blancas chicas, modelo N 39"
+        },
+        {
+          "id": "x2042",
+          "page": 285,
+          "version": "limpia",
+          "alt": "Detalle de dos blísteres de stickers de medias perlas blancas, modelos N 38 y N 39"
+        },
+        {
+          "id": "x2047",
+          "page": 286,
+          "version": "etiquetada",
+          "alt": "Blíster de stickers con estrellas negras y strass tornasol, modelo N 40"
+        },
+        {
+          "id": "x2049",
+          "page": 286,
+          "version": "etiquetada",
+          "alt": "Blíster de stickers con medias perlas y gotas tornasol, modelo N 41"
+        },
+        {
+          "id": "x2050",
+          "page": 286,
+          "version": "etiquetada",
+          "alt": "Blíster de stickers con florcitas rosas y tiras de strass tornasol, modelo N 42"
+        },
+        {
+          "id": "x2054",
+          "page": 287,
+          "version": "limpia",
+          "alt": "Blíster de stickers con corazones, lunas y estrellas de colores, modelo N 43"
+        },
+        {
+          "id": "x2056",
+          "page": 287,
+          "version": "limpia",
+          "alt": "Blíster de stickers con flores y corazones rosas y tiras de strass, modelo N 44"
+        },
+        {
+          "id": "x2060",
+          "page": 288,
+          "version": "limpia",
+          "alt": "Blíster de stickers de strass tornasol redondos y en corazón, modelo N 45"
+        },
+        {
+          "id": "x2065",
+          "page": 289,
+          "version": "limpia",
+          "alt": "Blíster de stickers de gotas transparentes en tamaños graduados, modelo N 46"
+        },
+        {
+          "id": "x2067",
+          "page": 289,
+          "version": "etiquetada",
+          "alt": "Blíster de stickers de strass tornasol con estrellas y lunas, modelo N 47"
+        },
+        {
+          "id": "x2068",
+          "page": 289,
+          "version": "etiquetada",
+          "alt": "Blíster de stickers con tiras de perlas, estrellas y rombos de colores, modelo N 48"
+        },
+        {
+          "id": "x2072",
+          "page": 290,
+          "version": "limpia",
+          "alt": "Blíster de stickers con medias perlas de colores pastel y strass, modelo N 49"
+        },
+        {
+          "id": "x2074",
+          "page": 290,
+          "version": "limpia",
+          "alt": "Blíster de stickers con medias perlas blancas y corazones turquesa, modelo N 50"
+        },
+        {
+          "id": "x2078",
+          "page": 291,
+          "version": "limpia",
+          "alt": "Blíster de stickers de strass tornasol redondos y en corazón de varios tamaños, modelo N 51"
+        },
+        {
+          "id": "x2085",
+          "page": 292,
+          "version": "etiquetada",
+          "alt": "Plancha larga de stickers en tiras de flores plateadas y medias perlas, modelo N 52"
+        },
+        {
+          "id": "x2083",
+          "page": 292,
+          "version": "etiquetada",
+          "alt": "Plancha larga de stickers en tiras zigzag de strass plateado, modelo N 53"
+        },
+        {
+          "id": "x2089",
+          "page": 293,
+          "version": "limpia",
+          "alt": "Tres planchas de stickers de strass chiquitos en tornasol, rosa y celeste, modelo N 54"
+        },
+        {
+          "id": "x2091",
+          "page": 293,
+          "version": "limpia",
+          "alt": "Detalle de las planchas de stickers de strass chiquitos en tornasol, rosa y celeste, modelo N 54"
+        },
+        {
+          "id": "x2095",
+          "page": 294,
+          "version": "limpia",
+          "alt": "Tres planchas de stickers de medias perlas en turquesa, rosa claro y fucsia, modelo N 55"
+        },
+        {
+          "id": "x2097",
+          "page": 294,
+          "version": "limpia",
+          "alt": "Detalle de las planchas de stickers de medias perlas fucsia, turquesa y rosa, modelo N 55"
+        },
+        {
+          "id": "x2103",
+          "page": 295,
+          "version": "etiquetada",
+          "alt": "Plancha de stickers de strass transparentes, modelo N 56"
+        },
+        {
+          "id": "x2101",
+          "page": 295,
+          "version": "limpia",
+          "alt": "Dos planchas largas de stickers de strass chiquitos, una transparente y otra multicolor, modelo N 57"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Se armó un solo producto con 'STICKERS ADHESIVO MAS TATUAJE' (N 1 a N 8), 'STICKERS ADHESIVO' y 'STICKERS AUTOADHESIVOS' porque la numeración sigue de corrido de N 1 a N 57. Confirmar si los que traen tatuaje van como producto aparte.",
+        "P. 295: N 56 y N 57 figuran a $ 160; todos los demás a $ 149. Confirmar que no sea un error.",
+        "N 54, N 55 y N 57 se muestran en varios colores dentro de la misma foto: no se armaron variantes de color.",
+        "P. 285: N 38 se asignó a la foto de las perlas grandes (x2043) y N 39 a la de perlas chicas (x2040) por cercanía de la etiqueta; la tercera foto (x2042) muestra los dos juntos."
+      ]
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [
+    {
+      "page": 273,
+      "id": "x1941",
+      "reason": "foto repetida: casi idéntica a x1943 (los mismos cinco ondulines en la mano)"
+    }
+  ],
+  "unused_prices": []
+}

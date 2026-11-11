@@ -92,6 +92,8 @@ export function ProductDetailsClient({
   const [formatId, setFormatId] = useState(initial?.formatId ?? '')
   const [qty, setQty] = useState(1)
   const [added, setAdded] = useState(false)
+  // La foto del modelo o color elegido (ver `mediaIndex` en types.ts).
+  const [galleryFocus, setGalleryFocus] = useState<{ index: number; tick: number } | undefined>(undefined)
 
   // Barra fija de compra en el teléfono (patrón de Dahila). Aparece cuando el
   // botón "Agregar al pedido" quedó ARRIBA, fuera de pantalla: quien bajó a
@@ -152,6 +154,10 @@ export function ProductDetailsClient({
     const next = product.variants.find((v) => v.id === nextId)
     if (!next) return
     setVariantId(nextId)
+    if (typeof next.mediaIndex === 'number') {
+      const index = next.mediaIndex
+      setGalleryFocus((prev) => ({ index, tick: (prev?.tick ?? 0) + 1 }))
+    }
     const sameTier = next.formats.find((f) => f.tier === format?.tier && f.available)
     setFormatId((sameTier ?? next.formats.find((f) => f.available) ?? next.formats[0])?.id ?? '')
     setQty(1)
@@ -164,16 +170,69 @@ export function ProductDetailsClient({
     return () => fijarConsulta(null)
   }, [mensajeConsulta])
 
+  const enquiryUrl = whatsappLink(whatsappUrl, mensajeConsulta)
+  const galleryImages = product.media.map((m) => ({ url: m.url, alt: m.alt || product.name }))
+
+  // Artículo "a consultar": el catálogo lo trae sin precio. Se muestra entero
+  // —fotos, descripción, código— y el botón es la consulta, no un carrito.
   if (!variant || !format) {
     return (
-      <div style={{ maxWidth: 720, margin: '0 auto', padding: '64px 24px' }}>
-        <SectionTitle as="h1">{product.name}</SectionTitle>
-        <p style={{ fontFamily: avios.fontSans, color: avios.ink700 }}>
-          Este artículo no tiene precio publicado todavía. Escribinos y te lo pasamos.
-        </p>
-        <Button variant="whatsapp" href={whatsappUrl}>
-          <Icon name="whatsapp-logo" weight="fill" size={18} /> Consultar por WhatsApp
-        </Button>
+      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '28px 22px 0' }}>
+        <Breadcrumb
+          items={[
+            { label: 'Inicio', href: '/' },
+            { label: 'Tienda', href: '/tienda' },
+            { label: categoryName, href: `/tienda/${product.categorySlug}` },
+            { label: product.name },
+          ]}
+        />
+        <div className="pdp-split">
+          <div>
+            <ProductGallery images={galleryImages} productName={product.name} categorySlug={product.categorySlug} />
+          </div>
+          <div className="pdp-detail">
+            <div>
+              <span
+                style={{
+                  fontFamily: avios.fontSans,
+                  fontSize: 12,
+                  fontWeight: 600,
+                  letterSpacing: '0.1em',
+                  textTransform: 'uppercase',
+                  color: avios.brand600,
+                }}
+              >
+                {categoryName}
+              </span>
+              <SectionTitle as="h1">{product.name}</SectionTitle>
+              <p style={{ fontFamily: avios.fontSans, fontSize: 20, fontWeight: 600, color: avios.ink900, margin: 0 }}>
+                Consultar precio
+              </p>
+            </div>
+            <p style={{ fontFamily: avios.fontSans, fontSize: 14, color: avios.ink700, margin: 0 }}>
+              Este artículo no tiene precio publicado en el catálogo. Escribinos y te pasamos precio, medidas y
+              modelos disponibles.
+            </p>
+            <Button variant="whatsapp" size="lg" full href={enquiryUrl}>
+              <Icon name="whatsapp-logo" weight="fill" size={19} /> Consultar por WhatsApp
+            </Button>
+            {product.description && (
+              <p
+                style={{
+                  fontFamily: avios.fontSans,
+                  fontSize: 15,
+                  lineHeight: 1.7,
+                  color: avios.ink700,
+                  margin: 0,
+                  paddingTop: 16,
+                  borderTop: `1px solid ${avios.border}`,
+                }}
+              >
+                {product.description}
+              </p>
+            )}
+          </div>
+        </div>
       </div>
     )
   }
@@ -204,10 +263,6 @@ export function ProductDetailsClient({
     setTimeout(() => setAdded(false), 2000)
   }
 
-  const enquiryUrl = whatsappLink(whatsappUrl, mensajeConsulta)
-
-  const galleryImages = product.media.map((m) => ({ url: m.url, alt: m.alt || product.name }))
-
   return (
     <div style={{ maxWidth: 1200, margin: '0 auto', padding: '28px 22px 0' }}>
       <Breadcrumb
@@ -225,6 +280,7 @@ export function ProductDetailsClient({
             images={galleryImages}
             productName={product.name}
             categorySlug={product.categorySlug}
+            focus={galleryFocus}
           />
         </div>
 
@@ -318,7 +374,18 @@ export function ProductDetailsClient({
               >
                 {axisLabel(product)}
               </legend>
-              <div style={{ display: 'flex', gap: 7, flexWrap: 'wrap' }}>
+              <div
+                style={{
+                  display: 'flex',
+                  gap: 7,
+                  flexWrap: 'wrap',
+                  // Un marroquí trae 91 modelos: la lista entera empujaba el
+                  // precio y el botón varias pantallas para abajo.
+                  ...(selectableVariants.length > 24
+                    ? { maxHeight: 232, overflowY: 'auto' as const, padding: 2, margin: -2 }
+                    : null),
+                }}
+              >
                 {selectableVariants.map((v) => {
                   const on = v.id === variant.id
                   return (
@@ -347,6 +414,21 @@ export function ProductDetailsClient({
                         transition: `all 140ms ${avios.ease}`,
                       }}
                     >
+                      {v.hex && (
+                        <span
+                          aria-hidden
+                          style={{
+                            display: 'inline-block',
+                            width: 13,
+                            height: 13,
+                            borderRadius: 999,
+                            background: v.hex,
+                            boxShadow: `inset 0 0 0 1px ${on ? 'rgba(255,255,255,0.55)' : avios.borderStrong}`,
+                            marginRight: 7,
+                            verticalAlign: '-1px',
+                          }}
+                        />
+                      )}
                       {v.label}
                     </button>
                   )
@@ -512,6 +594,7 @@ export function ProductDetailsClient({
                 Precio por mayor llevando la pieza cerrada, sin registrarte.
               </Fact>
             )}
+            {product.wholesaleNote && <Fact icon="stack">{product.wholesaleNote}</Fact>}
           </ul>
 
           {product.description && (

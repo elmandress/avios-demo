@@ -1,0 +1,5076 @@
+{
+ "batch": 14,
+ "products": [
+  {
+   "name": "Galones hindúes bordados",
+   "pdf_text": "Galones hindúes bordados $ 350 EL METRO (N 1 a N 21)",
+   "pages": [
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486
+   ],
+   "category": "galones-flecos-y-borlas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Galones hindúes bordados con hilo metalizado y lentejuelas, en 21 diseños numerados: dorados, crudos y de colores con flores. Se venden por metro, todos al mismo precio.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3378",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3380",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3381",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3386",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3388",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 6",
+     "hex": null,
+     "image": "x3389",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 7",
+     "hex": null,
+     "image": "x3394",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 8",
+     "hex": null,
+     "image": "x3396",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 9",
+     "hex": null,
+     "image": "x3397",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 10",
+     "hex": null,
+     "image": "x3402",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 11",
+     "hex": null,
+     "image": "x3404",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 12",
+     "hex": null,
+     "image": "x3405",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 13",
+     "hex": null,
+     "image": "x3410",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 14",
+     "hex": null,
+     "image": "x3412",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 15",
+     "hex": null,
+     "image": "x3413",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 16",
+     "hex": null,
+     "image": "x3418",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 17",
+     "hex": null,
+     "image": "x3420",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 18",
+     "hex": null,
+     "image": "x3421",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 19",
+     "hex": null,
+     "image": "x3426",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 20",
+     "hex": null,
+     "image": "x3428",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    },
+    {
+     "label": "N 21",
+     "hex": null,
+     "image": "x3429",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 350,
+       "unit_price": 350,
+       "printed": 350
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3378",
+     "page": 480,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 1: tul marfil bordado en dorado y blanco con lentejuelas"
+    },
+    {
+     "id": "x3380",
+     "page": 480,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 2: dorado calado con óvalos de centro blanco"
+    },
+    {
+     "id": "x3381",
+     "page": 480,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 3: tul con ramas y flores bordadas en dorado y lentejuelas"
+    },
+    {
+     "id": "x3386",
+     "page": 481,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 4: crudo con rombos y lentejuelas doradas"
+    },
+    {
+     "id": "x3388",
+     "page": 481,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 5: crudo con volutas y lentejuelas doradas"
+    },
+    {
+     "id": "x3389",
+     "page": 481,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 6: blanco y plateado con círculos bordados y lentejuelas"
+    },
+    {
+     "id": "x3394",
+     "page": 482,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 7: rosado con ramas bordadas en dorado y lentejuelas"
+    },
+    {
+     "id": "x3396",
+     "page": 482,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 8: dorado con espirales sobre fondo beige"
+    },
+    {
+     "id": "x3397",
+     "page": 482,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 9: tul dorado con cachemires de lentejuelas"
+    },
+    {
+     "id": "x3402",
+     "page": 483,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 10: dorado con piedras tornasoladas en forma de hoja"
+    },
+    {
+     "id": "x3404",
+     "page": 483,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 11: tul con flores y hojas blancas, lentejuelas cobrizas y borde dorado"
+    },
+    {
+     "id": "x3405",
+     "page": 483,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 12: crudo calado con círculos y borde ondeado"
+    },
+    {
+     "id": "x3410",
+     "page": 484,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 13: tul dorado con cachemires verde claro y lentejuelas"
+    },
+    {
+     "id": "x3412",
+     "page": 484,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 14: negro con zigzag dorado y lentejuelas"
+    },
+    {
+     "id": "x3413",
+     "page": 484,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 15: verde petróleo con flores verdes y lentejuelas doradas"
+    },
+    {
+     "id": "x3418",
+     "page": 485,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 16: rojo coral con flores rojas y hojas verdes sobre tul"
+    },
+    {
+     "id": "x3420",
+     "page": 485,
+     "version": "etiquetada",
+     "alt": "Galón hindú bordado N 17: rosa viejo con flores blancas y naranjas sobre tul"
+    },
+    {
+     "id": "x3421",
+     "page": 485,
+     "version": "etiquetada",
+     "alt": "Galón hindú bordado N 18: festón de escamas de lentejuelas en rosa, verde agua y dorado, con borde crudo"
+    },
+    {
+     "id": "x3426",
+     "page": 486,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 19: tul verde agua con flores verde agua y hojas marrones"
+    },
+    {
+     "id": "x3428",
+     "page": 486,
+     "version": "etiquetada",
+     "alt": "Galón hindú bordado N 20: tul con flores rojas y hojas verdes, borde dorado"
+    },
+    {
+     "id": "x3429",
+     "page": 486,
+     "version": "limpia",
+     "alt": "Galón hindú bordado N 21: azul francia con flores azules y rosadas sobre fondo dorado"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "p. 480: el rótulo 'N 2' está entre la foto del medio y la de la derecha; se asignó a la foto del medio (N 1 izquierda, N 3 derecha)"
+   ]
+  },
+  {
+   "name": "Cinta bandera Uruguay 2,5 cm",
+   "pdf_text": "CINTA BANDERA URUGUAY 2,5 CM $ 88 el metro PIEZA X 25 YRDS",
+   "pages": [
+    487
+   ],
+   "category": "cintas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Cinta de 2,5 cm con la bandera uruguaya: franjas azules y blancas y el sol amarillo repetido a lo largo. Se vende por metro; la pieza trae 25 yardas.",
+   "variant_axis": null,
+   "variants": [
+    {
+     "label": "",
+     "hex": null,
+     "image": "x3434",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 88,
+       "unit_price": 88,
+       "printed": 88
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3434",
+     "page": 487,
+     "version": "limpia",
+     "alt": "Rollo de cinta con la bandera de Uruguay, franjas azules y blancas con sol amarillo"
+    },
+    {
+     "id": "x3436",
+     "page": 487,
+     "version": "limpia",
+     "alt": "Tira extendida de cinta bandera Uruguay con soles amarillos"
+    }
+   ],
+   "wholesale_note": "Pieza x 25 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta patria",
+   "pdf_text": "CINTA PATRIA 1 CM $ 14 y 9,60 por mayor / 1,5 CM $ 20 y 11 por mayor / 2 CM $ 24 y 17,60 por mayor / 2,5 CM $ 26 y 21 por mayor / 4 CM $ 64 y 51 por mayor / 10 CM $145 y 109 por mayor / PIEZA X 25 YRDS",
+   "pages": [
+    488
+   ],
+   "category": "cintas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Cinta patria a rayas azules y blancas, en seis anchos de 1 a 10 cm. Se vende por metro, con precio por mayor; la pieza trae 25 yardas.",
+   "variant_axis": "ancho",
+   "variants": [
+    {
+     "label": "1 cm",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 14,
+       "unit_price": 14,
+       "printed": 14
+      },
+      {
+       "tier": "mayor",
+       "label": "Por mayor",
+       "unit": "m",
+       "content_qty": null,
+       "price": null,
+       "unit_price": 9.6,
+       "printed": 9.6
+      }
+     ]
+    },
+    {
+     "label": "1,5 cm",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 20,
+       "unit_price": 20,
+       "printed": 20
+      },
+      {
+       "tier": "mayor",
+       "label": "Por mayor",
+       "unit": "m",
+       "content_qty": null,
+       "price": null,
+       "unit_price": 11,
+       "printed": 11
+      }
+     ]
+    },
+    {
+     "label": "2 cm",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 24,
+       "unit_price": 24,
+       "printed": 24
+      },
+      {
+       "tier": "mayor",
+       "label": "Por mayor",
+       "unit": "m",
+       "content_qty": null,
+       "price": null,
+       "unit_price": 17.6,
+       "printed": 17.6
+      }
+     ]
+    },
+    {
+     "label": "2,5 cm",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 26,
+       "unit_price": 26,
+       "printed": 26
+      },
+      {
+       "tier": "mayor",
+       "label": "Por mayor",
+       "unit": "m",
+       "content_qty": null,
+       "price": null,
+       "unit_price": 21,
+       "printed": 21
+      }
+     ]
+    },
+    {
+     "label": "4 cm",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 64,
+       "unit_price": 64,
+       "printed": 64
+      },
+      {
+       "tier": "mayor",
+       "label": "Por mayor",
+       "unit": "m",
+       "content_qty": null,
+       "price": null,
+       "unit_price": 51,
+       "printed": 51
+      }
+     ]
+    },
+    {
+     "label": "10 cm",
+     "hex": null,
+     "image": null,
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 145,
+       "unit_price": 145,
+       "printed": 145
+      },
+      {
+       "tier": "mayor",
+       "label": "Por mayor",
+       "unit": "m",
+       "content_qty": null,
+       "price": null,
+       "unit_price": 109,
+       "printed": 109
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3441",
+     "page": 488,
+     "version": "limpia",
+     "alt": "Cinco rollos de cinta patria azul y blanca en distintos anchos"
+    },
+    {
+     "id": "x3443",
+     "page": 488,
+     "version": "limpia",
+     "alt": "Rollos de cinta patria azul y blanca apilados"
+    }
+   ],
+   "wholesale_note": "Pieza x 25 yardas",
+   "needs_review": [
+    "Precio por mayor: el PDF no aclara la cantidad mínima (se entiende que es llevando la pieza de 25 yardas)",
+    "La foto muestra cinco rollos y el listado trae seis anchos: no se pudo asignar foto por ancho"
+   ]
+  },
+  {
+   "name": "Cinta diversidad",
+   "pdf_text": "CINTA DIVERSIDAD 1 CM $ 26 el metro / 1,5 CM $ 37 el metro / 2 CM $ 48 el metro / 2,5 CM $ 59 el metro / 4 CM $ 75 el metro / PIEZA X 25 YRDS",
+   "pages": [
+    489
+   ],
+   "category": "cintas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Cinta con los colores del arcoíris de la diversidad, en cinco anchos de 1 a 4 cm. Se vende por metro; la pieza trae 25 yardas.",
+   "variant_axis": "ancho",
+   "variants": [
+    {
+     "label": "1 cm",
+     "hex": null,
+     "image": "x3448",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 26,
+       "unit_price": 26,
+       "printed": 26
+      }
+     ]
+    },
+    {
+     "label": "1,5 cm",
+     "hex": null,
+     "image": "x3448",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 37,
+       "unit_price": 37,
+       "printed": 37
+      }
+     ]
+    },
+    {
+     "label": "2 cm",
+     "hex": null,
+     "image": "x3448",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    },
+    {
+     "label": "2,5 cm",
+     "hex": null,
+     "image": "x3448",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 59,
+       "unit_price": 59,
+       "printed": 59
+      }
+     ]
+    },
+    {
+     "label": "4 cm",
+     "hex": null,
+     "image": "x3448",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 75,
+       "unit_price": 75,
+       "printed": 75
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3448",
+     "page": 489,
+     "version": "limpia",
+     "alt": "Cinco rollos de cinta arcoíris de la diversidad en distintos anchos"
+    },
+    {
+     "id": "x3450",
+     "page": 489,
+     "version": "limpia",
+     "alt": "Rollo de cinta arcoíris de la diversidad"
+    }
+   ],
+   "wholesale_note": "Pieza x 25 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta Peñarol",
+   "pdf_text": "CINTA PEÑAROL 1 CM $ 26 el metro / 1,5 CM $ 37 el metro / 2 CM $ 48 el metro / 2,5 CM $ 59 el metro / 4 CM $ 75 el metro / PIEZAS X 25 YRDS",
+   "pages": [
+    490
+   ],
+   "category": "cintas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Cinta a rayas amarillas y negras, los colores de Peñarol, en cinco anchos de 1 a 4 cm. Se vende por metro; la pieza trae 25 yardas.",
+   "variant_axis": "ancho",
+   "variants": [
+    {
+     "label": "1 cm",
+     "hex": null,
+     "image": "x3456",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 26,
+       "unit_price": 26,
+       "printed": 26
+      }
+     ]
+    },
+    {
+     "label": "1,5 cm",
+     "hex": null,
+     "image": "x3456",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 37,
+       "unit_price": 37,
+       "printed": 37
+      }
+     ]
+    },
+    {
+     "label": "2 cm",
+     "hex": null,
+     "image": "x3456",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    },
+    {
+     "label": "2,5 cm",
+     "hex": null,
+     "image": "x3456",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 59,
+       "unit_price": 59,
+       "printed": 59
+      }
+     ]
+    },
+    {
+     "label": "4 cm",
+     "hex": null,
+     "image": "x3456",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 75,
+       "unit_price": 75,
+       "printed": 75
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3456",
+     "page": 490,
+     "version": "limpia",
+     "alt": "Cinco rollos de cinta a rayas amarillas y negras en distintos anchos"
+    },
+    {
+     "id": "x3458",
+     "page": 490,
+     "version": "limpia",
+     "alt": "Rollo de cinta a rayas amarillas y negras"
+    }
+   ],
+   "wholesale_note": "Pieza x 25 yardas",
+   "needs_review": []
+  },
+  {
+   "name": "Cinta multiuso roja, blanca y azul",
+   "pdf_text": "CINTA Y MULTIUSO 1 CM $ 26 el metro / 1,5 CM $ 37 el metro / 2 CM $ 48 el metro / 2,5 CM $ 59 el metro / 4 CM $ 75 el metro / PIEZAS X 25 YRDS",
+   "pages": [
+    491
+   ],
+   "category": "cintas",
+   "sku": null,
+   "material": null,
+   "badge": null,
+   "description": "Cinta multiuso de tres franjas: roja, blanca y azul, en cinco anchos de 1 a 4 cm. Se vende por metro; la pieza trae 25 yardas.",
+   "variant_axis": "ancho",
+   "variants": [
+    {
+     "label": "1 cm",
+     "hex": null,
+     "image": "x3462",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 26,
+       "unit_price": 26,
+       "printed": 26
+      }
+     ]
+    },
+    {
+     "label": "1,5 cm",
+     "hex": null,
+     "image": "x3462",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 37,
+       "unit_price": 37,
+       "printed": 37
+      }
+     ]
+    },
+    {
+     "label": "2 cm",
+     "hex": null,
+     "image": "x3462",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 48,
+       "unit_price": 48,
+       "printed": 48
+      }
+     ]
+    },
+    {
+     "label": "2,5 cm",
+     "hex": null,
+     "image": "x3462",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 59,
+       "unit_price": 59,
+       "printed": 59
+      }
+     ]
+    },
+    {
+     "label": "4 cm",
+     "hex": null,
+     "image": "x3462",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 75,
+       "unit_price": 75,
+       "printed": 75
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3462",
+     "page": 491,
+     "version": "limpia",
+     "alt": "Cinco rollos de cinta de franjas roja, blanca y azul en distintos anchos"
+    },
+    {
+     "id": "x3464",
+     "page": 491,
+     "version": "limpia",
+     "alt": "Rollos de cinta de franjas roja, blanca y azul"
+    }
+   ],
+   "wholesale_note": "Pieza x 25 yardas",
+   "needs_review": [
+    "El título del PDF dice 'CINTA Y MULTIUSO' (parece faltar una palabra antes de la 'Y'). El nombre se armó con los colores que se ven en la foto (rojo, blanco y azul): confirmar cómo se llama"
+   ]
+  },
+  {
+   "name": "Marroquí M0 1 cm",
+   "pdf_text": "MARROQUI M0 1CM $ 58",
+   "pages": [
+    492,
+    493
+   ],
+   "category": "cintas",
+   "sku": "M0",
+   "material": null,
+   "badge": null,
+   "description": "Cinta marroquí de 1 cm con guardas tejidas (grecas, flores, rombos y ondas) en colores e hilo metalizado. Viene en 23 diseños numerados; se elige por número de modelo.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3468",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3468",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3470",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3470",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3471",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 6",
+     "hex": null,
+     "image": "x3471",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 7",
+     "hex": null,
+     "image": "x3475",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 8",
+     "hex": null,
+     "image": "x3475",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 9",
+     "hex": null,
+     "image": "x3475",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 10",
+     "hex": null,
+     "image": "x3475",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 11",
+     "hex": null,
+     "image": "x3477",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 12",
+     "hex": null,
+     "image": "x3477",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 13",
+     "hex": null,
+     "image": "x3477",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 14",
+     "hex": null,
+     "image": "x3477",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 15",
+     "hex": null,
+     "image": "x3478",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 16",
+     "hex": null,
+     "image": "x3478",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 17",
+     "hex": null,
+     "image": "x3478",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 18",
+     "hex": null,
+     "image": "x3478",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 19",
+     "hex": null,
+     "image": "x3479",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 20",
+     "hex": null,
+     "image": "x3479",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 21",
+     "hex": null,
+     "image": "x3479",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 22",
+     "hex": null,
+     "image": "x3479",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    },
+    {
+     "label": "N 23",
+     "hex": null,
+     "image": "x3479",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 58,
+       "unit_price": 58,
+       "printed": 58
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3468",
+     "page": 492,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 1 a 2: negra con flores rojas, y negra y plateada con óvalos de colores"
+    },
+    {
+     "id": "x3470",
+     "page": 492,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 3 a 4: greca dorada sobre blanco y rombos blancos sobre rojo y negro"
+    },
+    {
+     "id": "x3471",
+     "page": 492,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 5 a 6: negra con flores celestes y borde dorado, y blanca con ondas multicolor"
+    },
+    {
+     "id": "x3475",
+     "page": 493,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 7 a 10: grecas doradas y plateadas sobre fondo negro, rojo y azul"
+    },
+    {
+     "id": "x3477",
+     "page": 493,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 11 a 14: volutas doradas y plateadas sobre negro, flores de colores sobre blanco y flores rojas sobre negro"
+    },
+    {
+     "id": "x3478",
+     "page": 493,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 15 a 18: rombos fucsia, rombos bordó, flores fucsia sobre rosa y flores celestes sobre crudo"
+    },
+    {
+     "id": "x3479",
+     "page": 493,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M0 de 1 cm, modelos 19 a 23: ondas y cachemires plateados y dorados sobre negro"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro, como el resto de las cintas"
+   ]
+  },
+  {
+   "name": "Marroquí M1 2 cm",
+   "pdf_text": "MARROQUI M1 2 CM $ 108",
+   "pages": [
+    494,
+    495,
+    496,
+    497,
+    498
+   ],
+   "category": "cintas",
+   "sku": "M1",
+   "material": null,
+   "badge": null,
+   "description": "Cinta marroquí de 2 cm con guardas tejidas (flores, rombos, grecas y ondas) en colores e hilo metalizado. Viene en 56 diseños numerados; se elige por número de modelo.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3484",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3486",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3486",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3486",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3486",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 6",
+     "hex": null,
+     "image": "x3486",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 7",
+     "hex": null,
+     "image": "x3487",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 8",
+     "hex": null,
+     "image": "x3487",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 9",
+     "hex": null,
+     "image": "x3487",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 10",
+     "hex": null,
+     "image": "x3491",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 11",
+     "hex": null,
+     "image": "x3491",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 12",
+     "hex": null,
+     "image": "x3491",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 13",
+     "hex": null,
+     "image": "x3491",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 14",
+     "hex": null,
+     "image": "x3493",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 15",
+     "hex": null,
+     "image": "x3493",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 16",
+     "hex": null,
+     "image": "x3493",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 17",
+     "hex": null,
+     "image": "x3494",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 18",
+     "hex": null,
+     "image": "x3494",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 19",
+     "hex": null,
+     "image": "x3494",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 20",
+     "hex": null,
+     "image": "x3494",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 21",
+     "hex": null,
+     "image": "x3494",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 22",
+     "hex": null,
+     "image": "x3498",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 23",
+     "hex": null,
+     "image": "x3498",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 24",
+     "hex": null,
+     "image": "x3498",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 25",
+     "hex": null,
+     "image": "x3498",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 26",
+     "hex": null,
+     "image": "x3500",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 27",
+     "hex": null,
+     "image": "x3500",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 28",
+     "hex": null,
+     "image": "x3500",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 29",
+     "hex": null,
+     "image": "x3501",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 30",
+     "hex": null,
+     "image": "x3501",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 31",
+     "hex": null,
+     "image": "x3501",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 32",
+     "hex": null,
+     "image": "x3501",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 33",
+     "hex": null,
+     "image": "x3501",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 34",
+     "hex": null,
+     "image": "x3505",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 35",
+     "hex": null,
+     "image": "x3505",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 36",
+     "hex": null,
+     "image": "x3505",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 37",
+     "hex": null,
+     "image": "x3507",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 38",
+     "hex": null,
+     "image": "x3507",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 39",
+     "hex": null,
+     "image": "x3507",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 40",
+     "hex": null,
+     "image": "x3507",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 41",
+     "hex": null,
+     "image": "x3507",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 42",
+     "hex": null,
+     "image": "x3508",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 43",
+     "hex": null,
+     "image": "x3508",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 44",
+     "hex": null,
+     "image": "x3508",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 45",
+     "hex": null,
+     "image": "x3508",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 46",
+     "hex": null,
+     "image": "x3512",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 47",
+     "hex": null,
+     "image": "x3512",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 48",
+     "hex": null,
+     "image": "x3512",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 49",
+     "hex": null,
+     "image": "x3514",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 50",
+     "hex": null,
+     "image": "x3514",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 51",
+     "hex": null,
+     "image": "x3514",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 52",
+     "hex": null,
+     "image": "x3514",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 53",
+     "hex": null,
+     "image": "x3515",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 54",
+     "hex": null,
+     "image": "x3515",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 55",
+     "hex": null,
+     "image": "x3515",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    },
+    {
+     "label": "N 56",
+     "hex": null,
+     "image": "x3515",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 108,
+       "unit_price": 108,
+       "printed": 108
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3484",
+     "page": 494,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelo 1: guarda de cuadrados en dorado y rojo sobre negro"
+    },
+    {
+     "id": "x3486",
+     "page": 494,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 2 a 6: diseños geométricos y de flores en verde, violeta, fucsia, blanco y negro"
+    },
+    {
+     "id": "x3487",
+     "page": 494,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 7 a 9: negras con flores blancas, verdes y violetas"
+    },
+    {
+     "id": "x3491",
+     "page": 495,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 10 a 13: negra con flores, blanca con onda turquesa, negra con espirales rojos y verde con onda fucsia y dorada"
+    },
+    {
+     "id": "x3493",
+     "page": 495,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 14 a 16: rombos plateados y dorados, flores fucsia sobre negro y crudo con dorado"
+    },
+    {
+     "id": "x3494",
+     "page": 495,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 17 a 21: flores amarillas y azules sobre negro, abanicos rosados sobre plateado, rombos y espirales plateados sobre negro"
+    },
+    {
+     "id": "x3498",
+     "page": 496,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 22 a 25: rombos en verde y en azul, flores fucsia y turquesa sobre blanco y espirales plateados sobre azul"
+    },
+    {
+     "id": "x3500",
+     "page": 496,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 26 a 28: flores sobre blanco y plateado y flores sobre turquesa"
+    },
+    {
+     "id": "x3501",
+     "page": 496,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 29 a 33: zigzag naranja y celeste, rombos, triángulos en blanco y negro, cachemires rojos y turquesa y flores de colores"
+    },
+    {
+     "id": "x3505",
+     "page": 497,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 34 a 36: flores de colores sobre amarillo, azul y fucsia con dorado"
+    },
+    {
+     "id": "x3507",
+     "page": 497,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 37 a 41: onda sobre negro, rombos de colores, volutas amarillas sobre verde y guardas en rojo y azul"
+    },
+    {
+     "id": "x3508",
+     "page": 497,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 42 a 45: guardas doradas sobre fucsia, violeta, verde y turquesa"
+    },
+    {
+     "id": "x3512",
+     "page": 498,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 46 a 48: rombos fucsia, cachemires sobre rojo y dorado, y flores plateadas sobre negro"
+    },
+    {
+     "id": "x3514",
+     "page": 498,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 49 a 52: ondas con flores en azul y en turquesa, volutas doradas sobre rojo y zigzag turquesa y rojo"
+    },
+    {
+     "id": "x3515",
+     "page": 498,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M1 de 2 cm, modelos 53 a 56: guardas rayadas multicolor con motivos en rojo, azul, verde flúo y blanco"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro, como el resto de las cintas"
+   ]
+  },
+  {
+   "name": "Marroquí M2 2,5 cm",
+   "pdf_text": "MARROQUI M2 2,5 CM $ 130",
+   "pages": [
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507
+   ],
+   "category": "cintas",
+   "sku": "M2",
+   "material": null,
+   "badge": null,
+   "description": "Cinta marroquí de 2,5 cm con guardas tejidas (flores, grecas, rombos y zigzag) en colores e hilo metalizado. Viene en 91 diseños numerados; se elige por número de modelo.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3519",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3519",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3521",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3521",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3521",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 6",
+     "hex": null,
+     "image": "x3522",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 7",
+     "hex": null,
+     "image": "x3522",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 8",
+     "hex": null,
+     "image": "x3526",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 9",
+     "hex": null,
+     "image": "x3526",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 10",
+     "hex": null,
+     "image": "x3526",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 11",
+     "hex": null,
+     "image": "x3528",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 12",
+     "hex": null,
+     "image": "x3528",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 13",
+     "hex": null,
+     "image": "x3528",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 14",
+     "hex": null,
+     "image": "x3529",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 15",
+     "hex": null,
+     "image": "x3529",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 16",
+     "hex": null,
+     "image": "x3529",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 17",
+     "hex": null,
+     "image": "x3533",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 18",
+     "hex": null,
+     "image": "x3533",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 19",
+     "hex": null,
+     "image": "x3533",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 20",
+     "hex": null,
+     "image": "x3535",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 21",
+     "hex": null,
+     "image": "x3535",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 22",
+     "hex": null,
+     "image": "x3535",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 23",
+     "hex": null,
+     "image": "x3535",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 24",
+     "hex": null,
+     "image": "x3536",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 25",
+     "hex": null,
+     "image": "x3536",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 26",
+     "hex": null,
+     "image": "x3536",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 27",
+     "hex": null,
+     "image": "x3540",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 28",
+     "hex": null,
+     "image": "x3540",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 29",
+     "hex": null,
+     "image": "x3540",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 30",
+     "hex": null,
+     "image": "x3542",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 31",
+     "hex": null,
+     "image": "x3542",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 32",
+     "hex": null,
+     "image": "x3542",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 33",
+     "hex": null,
+     "image": "x3542",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 34",
+     "hex": null,
+     "image": "x3542",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 35",
+     "hex": null,
+     "image": "x3543",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 36",
+     "hex": null,
+     "image": "x3543",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 37",
+     "hex": null,
+     "image": "x3543",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 38",
+     "hex": null,
+     "image": "x3543",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 39",
+     "hex": null,
+     "image": "x3547",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 40",
+     "hex": null,
+     "image": "x3547",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 41",
+     "hex": null,
+     "image": "x3547",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 42",
+     "hex": null,
+     "image": "x3547",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 43",
+     "hex": null,
+     "image": "x3549",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 44",
+     "hex": null,
+     "image": "x3549",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 45",
+     "hex": null,
+     "image": "x3549",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 46",
+     "hex": null,
+     "image": "x3549",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 47",
+     "hex": null,
+     "image": "x3550",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 48",
+     "hex": null,
+     "image": "x3550",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 49",
+     "hex": null,
+     "image": "x3550",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 50",
+     "hex": null,
+     "image": "x3554",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 51",
+     "hex": null,
+     "image": "x3554",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 52",
+     "hex": null,
+     "image": "x3554",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 53",
+     "hex": null,
+     "image": "x3556",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 54",
+     "hex": null,
+     "image": "x3556",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 55",
+     "hex": null,
+     "image": "x3556",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 56",
+     "hex": null,
+     "image": "x3557",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 57",
+     "hex": null,
+     "image": "x3557",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 58",
+     "hex": null,
+     "image": "x3557",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 59",
+     "hex": null,
+     "image": "x3561",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 60",
+     "hex": null,
+     "image": "x3561",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 61",
+     "hex": null,
+     "image": "x3561",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 62",
+     "hex": null,
+     "image": "x3561",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 63",
+     "hex": null,
+     "image": "x3563",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 64",
+     "hex": null,
+     "image": "x3563",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 65",
+     "hex": null,
+     "image": "x3563",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 66",
+     "hex": null,
+     "image": "x3563",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 67",
+     "hex": null,
+     "image": "x3564",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 68",
+     "hex": null,
+     "image": "x3564",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 69",
+     "hex": null,
+     "image": "x3564",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 70",
+     "hex": null,
+     "image": "x3564",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 71",
+     "hex": null,
+     "image": "x3568",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 72",
+     "hex": null,
+     "image": "x3568",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 73",
+     "hex": null,
+     "image": "x3568",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 74",
+     "hex": null,
+     "image": "x3568",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 75",
+     "hex": null,
+     "image": "x3570",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 76",
+     "hex": null,
+     "image": "x3570",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 77",
+     "hex": null,
+     "image": "x3570",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 78",
+     "hex": null,
+     "image": "x3570",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 79",
+     "hex": null,
+     "image": "x3571",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 80",
+     "hex": null,
+     "image": "x3571",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 81",
+     "hex": null,
+     "image": "x3571",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 82",
+     "hex": null,
+     "image": "x3571",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 83",
+     "hex": null,
+     "image": "x3575",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 84",
+     "hex": null,
+     "image": "x3575",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 85",
+     "hex": null,
+     "image": "x3575",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 86",
+     "hex": null,
+     "image": "x3575",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 87",
+     "hex": null,
+     "image": "x3577",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 88",
+     "hex": null,
+     "image": "x3577",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 89",
+     "hex": null,
+     "image": "x3577",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 90",
+     "hex": null,
+     "image": "x3577",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    },
+    {
+     "label": "N 91",
+     "hex": null,
+     "image": "x3577",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 130,
+       "unit_price": 130,
+       "printed": 130
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3519",
+     "page": 499,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 1 a 2: rombos en negro, violeta y naranja, y triángulos en verde, fucsia y violeta"
+    },
+    {
+     "id": "x3521",
+     "page": 499,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 3 a 5: flores blancas y turquesa sobre negro, flores rojas y verdes sobre negro y flores de colores sobre azul"
+    },
+    {
+     "id": "x3522",
+     "page": 499,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 6 a 7: greca blanca sobre negro y greca dorada sobre negro"
+    },
+    {
+     "id": "x3526",
+     "page": 500,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 8 a 10: rombos dorados sobre negro, triángulos multicolor y flores lilas sobre negro"
+    },
+    {
+     "id": "x3528",
+     "page": 500,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 11 a 13: rombos bordó y dorado, flores de colores sobre verde y greca blanca sobre fucsia"
+    },
+    {
+     "id": "x3529",
+     "page": 500,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 14 a 16: flores rojas y verdes, flores celestes y violetas, y flores rojas y negras, sobre blanco"
+    },
+    {
+     "id": "x3533",
+     "page": 501,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 17 a 19: guardas con grecas y óvalos en azul y en fucsia, y flores violetas con zigzag dorado"
+    },
+    {
+     "id": "x3535",
+     "page": 501,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 20 a 23: grecas en dorado sobre bordó, blanco sobre negro, blanco y dorado claro"
+    },
+    {
+     "id": "x3536",
+     "page": 501,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 24 a 26: flores fucsia, rojas y verdes con zigzag dorado"
+    },
+    {
+     "id": "x3540",
+     "page": 502,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 27 a 29: flores rojas y verdes sobre negro, flores rojas sobre blanco y abanicos dorados sobre negro y rojo"
+    },
+    {
+     "id": "x3542",
+     "page": 502,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 30 a 34: hojas en fucsia, azul, verde, amarillo y rojo sobre negro y blanco"
+    },
+    {
+     "id": "x3543",
+     "page": 502,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 35 a 38: volutas doradas sobre rojo, greca dorada sobre turquesa y cachemires sobre celeste y sobre marrón"
+    },
+    {
+     "id": "x3547",
+     "page": 503,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 39 a 42: rombos dorados sobre azul, flores amarillas sobre negro, flores blancas con verde y flores lilas y rosadas sobre crudo"
+    },
+    {
+     "id": "x3549",
+     "page": 503,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 43 a 46: crudo con dorado, turquesa sobre negro, dorado sobre negro y rombos multicolor"
+    },
+    {
+     "id": "x3550",
+     "page": 503,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 47 a 49: cachemires sobre azul, flores fucsia sobre negro y flores rosadas y celestes sobre plateado"
+    },
+    {
+     "id": "x3554",
+     "page": 504,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 50 a 52: ramos en verde, rojo y violeta sobre blanco"
+    },
+    {
+     "id": "x3556",
+     "page": 504,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 53 a 55: margaritas sobre azul, arabescos azules sobre naranja y rayas diagonales multicolor"
+    },
+    {
+     "id": "x3557",
+     "page": 504,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 56 a 58: hojas beige sobre marrón, flores violetas sobre negro y flores fucsia con dorado sobre negro"
+    },
+    {
+     "id": "x3561",
+     "page": 505,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 59 a 62: ramas de flores rosadas sobre blanco, arabescos naranjas sobre azul y hojas verdes con flores violetas sobre gris y sobre terracota"
+    },
+    {
+     "id": "x3563",
+     "page": 505,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 63 a 66: ondas diagonales multicolor con hilo dorado"
+    },
+    {
+     "id": "x3564",
+     "page": 505,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 67 a 70: flores violetas sobre negro, guarda azul y verde, cuadrados de colores y flores blancas sobre negro"
+    },
+    {
+     "id": "x3568",
+     "page": 506,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 71 a 74: flores de colores sobre marrón, azul, blanco y verde"
+    },
+    {
+     "id": "x3570",
+     "page": 506,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 75 a 78: flores de colores sobre turquesa, rojo, verde oscuro y verde claro"
+    },
+    {
+     "id": "x3571",
+     "page": 506,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 79 a 82: flores sobre azul, flores amarillas sobre azul y negro y arabescos de colores sobre negro"
+    },
+    {
+     "id": "x3575",
+     "page": 507,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 83 a 86: flores sobre negro y sobre verde petróleo, y ramitas con flores azules y violetas sobre blanco"
+    },
+    {
+     "id": "x3577",
+     "page": 507,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M2 de 2,5 cm, modelos 87 a 91: zigzag en azul, turquesa, negro, rojo y verde con dorado"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro, como el resto de las cintas"
+   ]
+  },
+  {
+   "name": "Marroquí M3 5 cm",
+   "pdf_text": "MARROQUI M3 5 CM $ 180",
+   "pages": [
+    508,
+    509,
+    510,
+    511,
+    512,
+    513
+   ],
+   "category": "cintas",
+   "sku": "M3",
+   "material": null,
+   "badge": null,
+   "description": "Cinta marroquí de 5 cm con guardas tejidas (flores grandes, estrellas, rombos y grecas) en colores e hilo metalizado. Viene en 49 diseños numerados; se elige por número de modelo.",
+   "variant_axis": "modelo",
+   "variants": [
+    {
+     "label": "N 1",
+     "hex": null,
+     "image": "x3581",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 2",
+     "hex": null,
+     "image": "x3581",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 3",
+     "hex": null,
+     "image": "x3583",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 4",
+     "hex": null,
+     "image": "x3583",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 5",
+     "hex": null,
+     "image": "x3583",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 6",
+     "hex": null,
+     "image": "x3584",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 7",
+     "hex": null,
+     "image": "x3584",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 8",
+     "hex": null,
+     "image": "x3584",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 9",
+     "hex": null,
+     "image": "x3588",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 10",
+     "hex": null,
+     "image": "x3588",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 11",
+     "hex": null,
+     "image": "x3588",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 12",
+     "hex": null,
+     "image": "x3590",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 13",
+     "hex": null,
+     "image": "x3590",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 14",
+     "hex": null,
+     "image": "x3590",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 15",
+     "hex": null,
+     "image": "x3591",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 16",
+     "hex": null,
+     "image": "x3591",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 17",
+     "hex": null,
+     "image": "x3591",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 18",
+     "hex": null,
+     "image": "x3595",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 19",
+     "hex": null,
+     "image": "x3595",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 20",
+     "hex": null,
+     "image": "x3595",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 21",
+     "hex": null,
+     "image": "x3595",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 22",
+     "hex": null,
+     "image": "x3597",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 23",
+     "hex": null,
+     "image": "x3597",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 24",
+     "hex": null,
+     "image": "x3597",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 25",
+     "hex": null,
+     "image": "x3598",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 26",
+     "hex": null,
+     "image": "x3598",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 27",
+     "hex": null,
+     "image": "x3598",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 28",
+     "hex": null,
+     "image": "x3602",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 29",
+     "hex": null,
+     "image": "x3602",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 30",
+     "hex": null,
+     "image": "x3602",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 31",
+     "hex": null,
+     "image": "x3604",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 32",
+     "hex": null,
+     "image": "x3604",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 33",
+     "hex": null,
+     "image": "x3604",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 34",
+     "hex": null,
+     "image": "x3590",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 35",
+     "hex": null,
+     "image": "x3590",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 36",
+     "hex": null,
+     "image": "x3590",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 37",
+     "hex": null,
+     "image": "x3608",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 38",
+     "hex": null,
+     "image": "x3608",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 39",
+     "hex": null,
+     "image": "x3608",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 40",
+     "hex": null,
+     "image": "x3610",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 41",
+     "hex": null,
+     "image": "x3610",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 42",
+     "hex": null,
+     "image": "x3611",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 43",
+     "hex": null,
+     "image": "x3611",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 44",
+     "hex": null,
+     "image": "x3615",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 45",
+     "hex": null,
+     "image": "x3615",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 46",
+     "hex": null,
+     "image": "x3615",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 47",
+     "hex": null,
+     "image": "x3617",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 48",
+     "hex": null,
+     "image": "x3617",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    },
+    {
+     "label": "N 49",
+     "hex": null,
+     "image": "x3617",
+     "formats": [
+      {
+       "tier": "menor",
+       "label": "Por metro",
+       "unit": "m",
+       "content_qty": 1,
+       "price": 180,
+       "unit_price": 180,
+       "printed": 180
+      }
+     ]
+    }
+   ],
+   "colors": [],
+   "images": [
+    {
+     "id": "x3581",
+     "page": 508,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 1 a 2: rosas fucsia sobre negro y rombos fucsia y blancos con dorado sobre negro"
+    },
+    {
+     "id": "x3583",
+     "page": 508,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 3 a 5: aves y flores multicolor sobre negro, flores fucsia sobre negro y flores sobre rosa"
+    },
+    {
+     "id": "x3584",
+     "page": 508,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 6 a 8: volutas plateadas sobre negro, greca bordó y dorada y zigzag multicolor"
+    },
+    {
+     "id": "x3588",
+     "page": 509,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 9 a 11: flores sobre azul, medallones fucsia sobre negro y greca en naranja, celeste y fucsia"
+    },
+    {
+     "id": "x3590",
+     "page": 509,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 12 a 14: estrellas geométricas en amarillo, celeste y violeta"
+    },
+    {
+     "id": "x3591",
+     "page": 509,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 15 a 17: negras con flores verdes, flores fucsia y ondas rojas con blanco"
+    },
+    {
+     "id": "x3595",
+     "page": 510,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 18 a 21: rosas grandes sobre verde, turquesa, blanco y celeste"
+    },
+    {
+     "id": "x3597",
+     "page": 510,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 22 a 24: greca dorada sobre blanco, flores amarillas sobre crudo y flores azules sobre marrón"
+    },
+    {
+     "id": "x3598",
+     "page": 510,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 25 a 27: rombos verdes, estrella en verde y rosa, y rombos fucsia, con dorado sobre negro"
+    },
+    {
+     "id": "x3602",
+     "page": 511,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 28 a 30: arabescos sobre amarillo, volutas plateadas sobre verde y azul y flores de colores sobre plateado"
+    },
+    {
+     "id": "x3604",
+     "page": 511,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 31 a 33: rombos fucsia, violeta y verde con volutas plateadas"
+    },
+    {
+     "id": "x3608",
+     "page": 512,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 37 a 39: estrellas geométricas en azul, turquesa y rojo"
+    },
+    {
+     "id": "x3610",
+     "page": 512,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 40 a 41: ondas en fucsia y en verde con blanco sobre negro"
+    },
+    {
+     "id": "x3611",
+     "page": 512,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 42 a 43: flores grandes amarillas y fucsia sobre azul y sobre negro, con dorado"
+    },
+    {
+     "id": "x3615",
+     "page": 513,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 44 a 46: negras con flores rojas, ondas violetas y flores azules, con blanco"
+    },
+    {
+     "id": "x3617",
+     "page": 513,
+     "version": "etiquetada",
+     "alt": "Cintas marroquí M3 de 5 cm, modelos 47 a 49: volutas plateadas sobre negro, rombos dorados sobre negro y zigzag en rojo, azul y blanco"
+    }
+   ],
+   "wholesale_note": null,
+   "needs_review": [
+    "Unidad de venta: se asumió por metro, como el resto de las cintas",
+    "p. 511: los modelos 34 a 36 usan la misma foto que los modelos 12 a 14 de la p. 509 (foto x3590): confirmar si son los mismos diseños numerados dos veces o si falta la foto correcta"
+   ]
+  }
+ ],
+ "no_price_products": [],
+ "skipped_pages": [],
+ "skipped_images": [
+  {
+   "page": 489,
+   "id": "x3451",
+   "reason": "ícono decorativo: lazo arcoíris (no es foto del artículo)"
+  },
+  {
+   "page": 511,
+   "id": "x3590",
+   "reason": "foto repetida: es la misma de la p. 509 (allá rotulada 12 a 14, acá 34 a 36)"
+  }
+ ],
+ "unused_prices": []
+}

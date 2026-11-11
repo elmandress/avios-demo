@@ -14,8 +14,9 @@
 //    en el mostrador.
 //
 // ⚠️ REGLA DEL DICCIONARIO: cada sinónimo apunta a algo que Avíos EFECTIVAMENTE
-// vende. No se mapea "cierre" ni "cremallera" a nada, aunque sea la búsqueda
-// más obvia de una mercería, porque acá no hay cierres. Falsear ese match hace
+// vende (está en su catálogo PDF). No se mapea "cierre" ni "cremallera" a nada,
+// aunque sea la búsqueda más obvia de una mercería, porque el catálogo no trae
+// cierres ni botones. Falsear ese match hace
 // que la clienta cruce la ciudad para nada — y además tapa el dato: hoy esa
 // búsqueda queda registrada en /panel para que Alejandra decida si la trae.
 //
@@ -34,40 +35,61 @@ import type { Product } from '@/lib/catalog/types'
  * compara. Los valores no hace falta: se normalizan al construir el índice.
  */
 const SINONIMOS: Record<string, string[]> = {
-  // Cinta de raso doble faz
+  // Cintas
   saten: ['raso'],
   satin: ['raso'],
-  seda: ['raso'],
   lazo: ['raso', 'cinta'],
   lazos: ['raso', 'cinta'],
-  mono: ['raso', 'cinta', 'moño'],
-  monos: ['raso', 'cinta', 'moño'],
-  monito: ['raso', 'cinta', 'moño'],
   regalo: ['raso', 'cinta'],
-  souvenir: ['raso', 'cinta'],
-  souvenirs: ['raso', 'cinta'],
-
-  // Cinta gross
   grosgrain: ['gross'],
   grossgrain: ['gross'],
   petersham: ['gross'],
   acanalada: ['gross'],
+  gaucha: ['pampa'],
+  criolla: ['pampa'],
+  guarda: ['pampa', 'marroqui'],
+  jacquard: ['marroqui'],
+  bandera: ['patria', 'bandera'],
+  reflectivo: ['reflectiva'],
+  reflectante: ['reflectiva'],
+  visibilidad: ['reflectiva'],
+  chaleco: ['reflectiva'],
+  correa: ['mochila', 'bolso', 'correa'],
+  asa: ['mochila', 'bolso'],
+  asas: ['mochila', 'bolso'],
 
-  // Hilo encerado / hilo chino
-  encerado: ['encerado'],
-  macrame: ['encerado', 'chino'],
-  pulsera: ['encerado', 'chino', 'alfiletero'],
-  pulseras: ['encerado', 'chino'],
-  bijou: ['encerado', 'chino'],
-  bijouterie: ['encerado', 'chino'],
-  abalorio: ['encerado', 'chino'],
-  abalorios: ['encerado', 'chino'],
+  // Galones, flecos, puntillas
+  pasamaneria: ['galon', 'fleco', 'borla'],
+  encaje: ['puntilla'],
+  encajes: ['puntilla'],
+  guipur: ['puntilla'],
+  broderie: ['puntilla'],
+  volado: ['puntilla', 'volado'],
+  madrono: ['pompon'],
+  madronos: ['pompon'],
+  flecos: ['fleco'],
+  carnaval: ['fleco', 'lentejuela', 'pluma', 'boa'],
+  murga: ['fleco', 'lentejuela', 'pluma', 'boa'],
 
-  // Cordones
-  piolin: ['cordon'],
-  piola: ['cordon'],
-  pasador: ['cordon', 'calzado'],
-  pasadores: ['cordon', 'calzado'],
+  // Elásticos y sesgos
+  goma: ['elastico'],
+  gomita: ['elastico'],
+  elastica: ['elastico'],
+  bies: ['sesgo'],
+  ribete: ['sesgo', 'vivo'],
+
+  // Hilos y cordones
+  macrame: ['macrame', 'encerado', 'chino'],
+  bijou: ['encerado', 'chino', 'tanza', 'mostacilla'],
+  bijouterie: ['encerado', 'chino', 'tanza', 'mostacilla'],
+  abalorio: ['mostacilla', 'perla', 'cristal'],
+  abalorios: ['mostacilla', 'perla', 'cristal'],
+  mouline: ['moulinex'],
+  piolin: ['cordon', 'sisal'],
+  piola: ['cordon', 'sisal'],
+  soga: ['cordon'],
+  cuerda: ['cordon'],
+  pasadores: ['cordon', 'calzado', 'pasador'],
   agujeta: ['cordon', 'calzado'],
   agujetas: ['cordon', 'calzado'],
   zapato: ['calzado'],
@@ -75,53 +97,91 @@ const SINONIMOS: Record<string, string[]> = {
   zapatilla: ['calzado'],
   zapatillas: ['calzado'],
   championes: ['calzado'],
-  lurex: ['lurex'],
+  rata: ['raton'],
 
-  // Herramientas
+  // Broches, herrajes, velcro
+  abrojo: ['velcro'],
+  abrojos: ['velcro'],
+  argolla: ['aro'],
+  argollas: ['aro'],
+  imperdible: ['alfiler gancho', 'alfiler de gancho'],
+  imperdibles: ['alfiler gancho', 'alfiler de gancho'],
+  snap: ['presion'],
+  remache: ['tacha'],
+  remaches: ['tacha'],
+  llavero: ['llavero', 'mosqueton'],
+
+  // Lencería
+  corpino: ['soutien', 'copas', 'bretel'],
+  sosten: ['soutien', 'copas', 'bretel'],
+  brasier: ['soutien', 'copas', 'bretel'],
+  tape: ['bob tape'],
+  boobtape: ['bob tape'],
+  boob: ['bob tape'],
+  escote: ['bob tape', 'bretel'],
+  busto: ['bob tape', 'copas'],
+
+  // Agujas, tijeras, herramientas
+  ganchillo: ['crochet'],
+  tricot: ['tejer'],
+  palillo: ['tejer', 'palillo'],
+  descosedor: ['abre ojal'],
   clip: ['pinza'],
   clips: ['pinza'],
-  prendedor: ['pinza'],
   acerico: ['alfiletero'],
-  imantado: ['alfiletero'],
-  regla: ['reglas', 'molderia'],
-  reglas: ['reglas', 'molderia'],
-  molde: ['molderia', 'reglas'],
-  moldes: ['molderia', 'reglas'],
-  patronaje: ['molderia', 'reglas'],
-  escuadra: ['reglas', 'molderia'],
-  curva: ['reglas', 'molderia'],
+  metrica: ['centimetro'],
+  cinta_metrica: ['centimetro'],
+  molderia: ['reglas'],
+  molde: ['reglas'],
+  moldes: ['reglas'],
+  patronaje: ['reglas'],
+  escuadra: ['reglas'],
+  cutter: ['cortador'],
+  canilla: ['bobina'],
+  canillas: ['bobina'],
+  prensatela: ['pie de maquina', 'pie para'],
+  prensatelas: ['pie de maquina', 'pies para'],
 
-  // Telas y tul
+  // Telas
   tull: ['tul'],
-  glitter: ['glitter', 'tul'],
-  brillo: ['glitter'],
   ilusion: ['tul'],
+  friselina: ['tnt', 'entretela'],
+  pellon: ['entretela'],
+  pano: ['fieltro'],
+  panolenci: ['fieltro'],
 
-  // Seguridad
-  reflectivo: ['reflectiva'],
-  reflectante: ['reflectiva'],
-  reflectiva: ['reflectiva'],
-  fluo: ['reflectiva'],
-  fluor: ['reflectiva'],
-  visibilidad: ['reflectiva'],
-  seguridad: ['reflectiva'],
-  chaleco: ['reflectiva'],
+  // Brillos
+  brillos: ['strass', 'cristal', 'lentejuela'],
+  piedras: ['strass', 'cristal', 'piedras'],
+  canutillos: ['canutillo', 'mostacilla'],
+  chaquira: ['mostacilla'],
+  chaquiras: ['mostacilla'],
+  parche: ['rodillera', 'aplique', 'escudo'],
+  parches: ['rodillera', 'aplique', 'escudo'],
+  termoadhesivo: ['strass', 'rodillera', 'plancha'],
 
-  // Accesorios de vestimenta
-  humita: ['moño', 'formal'],
-  corbatin: ['moño', 'formal'],
-  corbata: ['moño', 'formal'],
-  tirador: ['tirador'],
-  tiradores: ['tirador'],
+  // Manualidades
+  pegamento: ['silicona'],
+  cola: ['silicona', 'colita'],
+  icopor: ['telgopor'],
+  espumaplast: ['telgopor'],
+  limpiapipas: ['chenil'],
+  ojos: ['ojitos'],
+  purpurina: ['brillantina'],
+  glitter: ['glitter', 'brillantina'],
+  tinte: ['anilina'],
+  tintura: ['anilina'],
+
+  // Cabello y vestimenta
+  vincha: ['tiara'],
+  vinchas: ['tiara'],
+  diadema: ['tiara'],
+  peineta: ['tocado'],
+  humita: ['moño'],
+  corbatin: ['moño'],
   suspensores: ['tirador'],
-  bretel: ['tirador'],
-  breteles: ['tirador'],
-  tape: ['adhesivo', 'boob'],
-  boobtape: ['adhesivo', 'boob'],
-  escote: ['adhesivo', 'boob'],
-  corpino: ['adhesivo', 'boob'],
-  plantilla: ['plantilla'],
-  plantillas: ['plantilla'],
+  odalisca: ['arabe', 'caderin'],
+  novia: ['novia', 'tocado', 'perla'],
 }
 
 /** El diccionario ya normalizado, construido una sola vez. */
@@ -230,9 +290,15 @@ export function expandirConsulta(consulta: string): string[][] {
     .filter((p) => p.length > 0 && !CONECTORES.has(p))
 
   return palabras.map((p) => {
-    const extras = INDICE.get(p) ?? []
+    // El plural también busca el singular: "plantillas" tiene que encontrar
+    // "Plantilla multitalles" y "flores", "Flor N 4". La coincidencia es por
+    // subcadena, así que el singular cubre los dos; al revés no.
+    const singulares: string[] = []
+    if (p.length > 4 && p.endsWith('es')) singulares.push(p.slice(0, -2))
+    if (p.length > 3 && p.endsWith('s')) singulares.push(p.slice(0, -1))
+    const extras = [p, ...singulares].flatMap((forma) => INDICE.get(forma) ?? [])
     // La palabra tal cual siempre entra: el diccionario suma, nunca reemplaza.
-    return [p, ...extras]
+    return [...new Set([p, ...singulares, ...extras])]
   })
 }
 

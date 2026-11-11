@@ -85,6 +85,14 @@ export interface Variant {
   available: boolean
   /** Ordenadas: primero `menor`, después `mayor`. */
   formats: SaleFormat[]
+  /**
+   * Qué foto de `media` muestra ESTA variante. En el catálogo de Avíos los
+   * modelos numerados y los colores vienen rotulados sobre las fotos ("N 17",
+   * "Bordó"): al elegir la variante, la galería salta a su foto.
+   */
+  mediaIndex?: number
+  /** Tono aproximado de la variante cuando el eje es el color. Sólo para el punto de color. */
+  hex?: string
 }
 
 export interface Category {
@@ -138,6 +146,18 @@ export interface Product {
    * si fueran un dato cerrado.
    */
   needsReview: string[]
+  /**
+   * Lo que el catálogo dice del precio por mayor cuando NO alcanza para armar
+   * una presentación con precio ("Consulte por mayor", "Pieza x 25 yardas").
+   */
+  wholesaleNote?: string | null
+  /**
+   * El catálogo lo trae sin precio ("consultar precios"). No se le inventa uno:
+   * se publica con la foto y un botón para consultarlo por WhatsApp.
+   */
+  priceOnRequest?: boolean
+  /** Páginas del PDF de las que salió. Para auditar contra el original. */
+  sourcePages?: number[]
 }
 
 /** Regla de descuento por lote (toda la tienda o una categoría). */

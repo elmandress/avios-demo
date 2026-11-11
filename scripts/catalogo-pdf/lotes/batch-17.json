@@ -1,0 +1,2890 @@
+{
+  "batch": 17,
+  "products": [
+    {
+      "name": "Galón G 573",
+      "pdf_text": "GALON G 573 $ 83 el metro",
+      "pages": [
+        586
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 573",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto trenzado en color crudo con brillo, de bordes ondulados. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4106",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 83,
+              "unit_price": 83,
+              "printed": 83
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4106",
+          "page": 586,
+          "version": "limpia",
+          "alt": "Galón trenzado color crudo enrollado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 19CR212",
+      "pdf_text": "GALON 19CR212 $ 108",
+      "pages": [
+        587
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "19CR212",
+      "material": null,
+      "badge": null,
+      "description": "Galón calado blanco tipo guipur con doble hilera de florcitas. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4111",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4111",
+          "page": 587,
+          "version": "limpia",
+          "alt": "Galón calado blanco con florcitas, tipo guipur"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: el PDF no dice 'el metro'; se asumió por metro como el resto de los galones"
+      ]
+    },
+    {
+      "name": "Galón G 205",
+      "pdf_text": "G 205 $ 68 el metro",
+      "pages": [
+        588
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 205",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto calado blanco tipo escalerita. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4118",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4118",
+          "page": 588,
+          "version": "limpia",
+          "alt": "Galón calado blanco tipo escalerita enrollado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La página no trae título, sólo el código: se lo tomó como galón por las páginas vecinas"
+      ]
+    },
+    {
+      "name": "Galón 18C041",
+      "pdf_text": "18C041 $ 218 el metro",
+      "pages": [
+        588
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "18C041",
+      "material": null,
+      "badge": null,
+      "description": "Galón ancho calado blanco tipo guipur con flores y hojas entre dos bordes rectos. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4116",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4116",
+          "page": 588,
+          "version": "limpia",
+          "alt": "Galón ancho calado blanco con flores, tipo guipur"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La página no trae título, sólo el código: se lo tomó como galón por las páginas vecinas"
+      ]
+    },
+    {
+      "name": "Galón rústico 4 cm cód. 209",
+      "pdf_text": "GALON RUSTICO 4 CM COD 209 $ 145 el metro",
+      "pages": [
+        589
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "209",
+      "material": null,
+      "badge": null,
+      "description": "Galón rústico de 4 cm de ancho, en tono arpillera natural con bordes y dibujo central en crudo. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4122",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4122",
+          "page": 589,
+          "version": "limpia",
+          "alt": "Galón rústico color natural con bordes crudos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón pompón G 233",
+      "pdf_text": "GALON G 233 POMPON BLANCO O COLORES $ 69 el metro",
+      "pages": [
+        590
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 233",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto con pomponcitos. En la foto, blanco; según el catálogo viene en blanco o en colores. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4127",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 69,
+              "unit_price": 69,
+              "printed": 69
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4127",
+          "page": 590,
+          "version": "limpia",
+          "alt": "Galón blanco con pomponcitos enrollado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón bordado canutillo y mostacilla 0429-20",
+      "pdf_text": "GALON BORDADO CANUTILLO Y MOSTACILLA 0429-20 $ 590 el metro",
+      "pages": [
+        591
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-20",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado con canutillos y mostacillas dorados sobre tul negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4134",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4134",
+          "page": 591,
+          "version": "limpia",
+          "alt": "Galón de canutillos y mostacillas dorados sobre tul negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón bordado canutillos y mostacilla 0429-21",
+      "pdf_text": "GALON BORDADO CANUTILLOS Y MOSTACILLA 0429-21 $ 590 el metro",
+      "pages": [
+        591
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-21",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado multicolor (azul, verde, fucsia, naranja, cristal) sobre tul negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4132",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4132",
+          "page": 591,
+          "version": "limpia",
+          "alt": "Galón bordado multicolor sobre tul negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón de piedras 0513-060",
+      "pdf_text": "GALON 0513-060 PIEDRAS $ 649 el metro",
+      "pages": [
+        592
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0513-060",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras irregulares multicolor (violeta, azul, verde, naranja, fucsia) con strass dorado. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4141",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4141",
+          "page": 592,
+          "version": "limpia",
+          "alt": "Galón de piedras multicolor con strass dorado, de cerca"
+        },
+        {
+          "id": "x4139",
+          "page": 592,
+          "version": "limpia",
+          "alt": "Galón de piedras multicolor enrollado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón negro y tornasol 0429-23",
+      "pdf_text": "GALON NEGRO Y TORNAZOL COD 0429-23 $ 350 el metro",
+      "pages": [
+        593
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-23",
+      "material": null,
+      "badge": null,
+      "description": "Galón de cinta con mostacillas en zigzag y lentejuelones redondos colgantes. Viene en negro y en blanco tornasol. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Negro",
+          "hex": "#1c1c20",
+          "image": "x4146",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 350,
+              "unit_price": 350,
+              "printed": 350
+            }
+          ]
+        },
+        {
+          "label": "Tornasol",
+          "hex": "#e9e6f2",
+          "image": "x4148",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 350,
+              "unit_price": 350,
+              "printed": 350
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4146",
+          "page": 593,
+          "version": "limpia",
+          "alt": "Galón negro con lentejuelones colgantes"
+        },
+        {
+          "id": "x4148",
+          "page": 593,
+          "version": "limpia",
+          "alt": "Galón blanco tornasol con lentejuelones colgantes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón G 288",
+      "pdf_text": "GALON G 288 $ 266 el metro VARIEDADA COLORES",
+      "pages": [
+        594
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 288",
+      "material": null,
+      "badge": null,
+      "description": "Galón de perlitas sobre organza, en variedad de colores: en las fotos, marfil, blanco y rosa, entre otros. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f2ee",
+          "image": "x4153",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 266,
+              "unit_price": 266,
+              "printed": 266
+            }
+          ]
+        },
+        {
+          "label": "Marfil",
+          "hex": "#efe3c0",
+          "image": "x4156",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 266,
+              "unit_price": 266,
+              "printed": 266
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f1c2c2",
+          "image": "x4155",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 266,
+              "unit_price": 266,
+              "printed": 266
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4153",
+          "page": 594,
+          "version": "limpia",
+          "alt": "Galón de perlas blanco sobre organza"
+        },
+        {
+          "id": "x4156",
+          "page": 594,
+          "version": "limpia",
+          "alt": "Galón de perlas marfil sobre organza"
+        },
+        {
+          "id": "x4155",
+          "page": 594,
+          "version": "limpia",
+          "alt": "Galón de perlas rosa sobre organza"
+        },
+        {
+          "id": "x4157",
+          "page": 594,
+          "version": "limpia",
+          "alt": "Galones de perlas en varios colores, uno al lado del otro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "El PDF dice 'variedad de colores': la foto general muestra más colores que los tres con foto propia"
+      ]
+    },
+    {
+      "name": "Fleco plata strass TC-090",
+      "pdf_text": "FLECO PLATA STRASS COD TC-090 $ 890 elmetro",
+      "pages": [
+        595
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "TC-090",
+      "material": null,
+      "badge": null,
+      "description": "Fleco de strass plateado con tiritas colgantes de distintos largos terminadas en una piedra. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4162",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4162",
+          "page": 595,
+          "version": "limpia",
+          "alt": "Fleco de strass plateado extendido"
+        },
+        {
+          "id": "x4165",
+          "page": 595,
+          "version": "limpia",
+          "alt": "Fleco de strass plateado en rollo, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón de strass y perlas 0429-2",
+      "pdf_text": "GALON STRASS Y PERLAS COD 0429-2 $ 590 el metro",
+      "pages": [
+        596
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-2",
+      "material": null,
+      "badge": null,
+      "description": "Galón de perlas y strass bordados sobre tul blanco. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4171",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4171",
+          "page": 596,
+          "version": "limpia",
+          "alt": "Galón de perlas y strass sobre tul blanco"
+        },
+        {
+          "id": "x4169",
+          "page": 596,
+          "version": "limpia",
+          "alt": "Galón de perlas y strass sobre tul blanco, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-9",
+      "pdf_text": "GALON COD 0429-9 $ 398 el metro",
+      "pages": [
+        597
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-9",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado sobre organza clara con guarda en tonos bordó, cobre y dorado, perlas y lentejuelas. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4176",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 398,
+              "unit_price": 398,
+              "printed": 398
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4176",
+          "page": 597,
+          "version": "limpia",
+          "alt": "Galón bordado en tonos bordó y dorado con perlas sobre organza"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón blanco y negro 0429-8",
+      "pdf_text": "GALON BLANCO Y NEGRO COD 0429-8 $ 539 el metro",
+      "pages": [
+        598
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-8",
+      "material": null,
+      "badge": null,
+      "description": "Galón de tul con una hilera central de perlas y strass. Viene en blanco (tul plisado) y en negro. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f3f1ee",
+          "image": "x4182",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#23232b",
+          "image": "x4184",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4182",
+          "page": 598,
+          "version": "limpia",
+          "alt": "Galón de tul blanco plisado con perlas y strass"
+        },
+        {
+          "id": "x4184",
+          "page": 598,
+          "version": "limpia",
+          "alt": "Galón de tul negro con perlas y strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-13",
+      "pdf_text": "GALON COD 0429-13 $ 319 el metro",
+      "pages": [
+        599
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-13",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto blanco con perlitas y strass alternados y bordes ondulados. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4189",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 319,
+              "unit_price": 319,
+              "printed": 319
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4189",
+          "page": 599,
+          "version": "limpia",
+          "alt": "Galón angosto blanco con perlas y strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-10",
+      "pdf_text": "GALON COD 0429-10 $ 490 el metro",
+      "pages": [
+        600
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-10",
+      "material": null,
+      "badge": null,
+      "description": "Galón color crudo con perlas, canutillos y piedritas doradas. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4195",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4195",
+          "page": 600,
+          "version": "limpia",
+          "alt": "Galón crudo con perlas y piedras doradas"
+        },
+        {
+          "id": "x4197",
+          "page": 600,
+          "version": "limpia",
+          "alt": "Galón crudo con perlas y piedras doradas, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-11",
+      "pdf_text": "GALON COD 0429-11 $ 490 el metro",
+      "pages": [
+        601
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-11",
+      "material": null,
+      "badge": null,
+      "description": "Galón de perlas y mostacillas plateadas bordadas sobre tul negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4202",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4202",
+          "page": 601,
+          "version": "limpia",
+          "alt": "Galón de perlas y mostacillas plateadas sobre tul negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-6",
+      "pdf_text": "GALON COD 0429-6 $ 390 el metr",
+      "pages": [
+        601
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-6",
+      "material": null,
+      "badge": null,
+      "description": "Galón de canutillos y perlitas en tono dorado rosado bordados sobre tul negro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4204",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4204",
+          "page": 601,
+          "version": "limpia",
+          "alt": "Galón de canutillos dorados y perlas sobre tul negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-22",
+      "pdf_text": "GALON COD 0429-22 $ 490 el metro",
+      "pages": [
+        602
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-22",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass y perlitas en forma de florcitas sobre tul blanco. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4211",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4211",
+          "page": 602,
+          "version": "limpia",
+          "alt": "Galón de strass y perlas sobre tul blanco"
+        },
+        {
+          "id": "x4209",
+          "page": 602,
+          "version": "limpia",
+          "alt": "Galón de strass y perlas sobre tul blanco, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón de piedras 28320-05",
+      "pdf_text": "GALON PIEDRAS PLATA ,ROJO Y VERDE COD 28320-05 $ 590 el metro PIEZA X 5 YRDS",
+      "pages": [
+        603
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "28320-05",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras alargadas en espiga con una hilera de strass al centro. Viene en plata, rojo y verde. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plata",
+          "hex": "#cfd2d6",
+          "image": "x4216",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c8323f",
+          "image": "x4216",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#1f8a55",
+          "image": "x4216",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4216",
+          "page": 603,
+          "version": "limpia",
+          "alt": "Galones de piedras en espiga en plata, verde y rojo"
+        },
+        {
+          "id": "x4218",
+          "page": 603,
+          "version": "limpia",
+          "alt": "Galones de piedras en espiga plata y verde, de cerca"
+        }
+      ],
+      "wholesale_note": "Pieza x 5 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón plata base blanco 28098-002",
+      "pdf_text": "GALON PLATA BASE BLANCO COD 28098-002 $ 390 el metro",
+      "pages": [
+        604
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "28098-002",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado en varias hileras sobre base blanca. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4223",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4223",
+          "page": 604,
+          "version": "limpia",
+          "alt": "Galón de strass plateado sobre base blanca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 28098-001",
+      "pdf_text": "28098-001 $ 298 el metro",
+      "pages": [
+        604
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "28098-001",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado en zigzag. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4226",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4226",
+          "page": 604,
+          "version": "limpia",
+          "alt": "Galón de strass plateado en zigzag"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No trae título propio, sólo el código al lado del 'Galón plata base blanco 28098-002': se lo tomó como otro galón de la misma serie"
+      ]
+    },
+    {
+      "name": "Galón para pegar G 144-1",
+      "pdf_text": "GALON PEGAR COD G 144-1 $ 359 el metro",
+      "pages": [
+        605
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-1",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass cristal plateado, con piedras más grandes en la hilera del centro, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4230",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4230",
+          "page": 605,
+          "version": "limpia",
+          "alt": "Galón fino de strass plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-2",
+      "pdf_text": "GALON PEGAR COD G 144-2 $ 359 el metro",
+      "pages": [
+        605
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-2",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass cristal plateado en tres hileras, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4232",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4232",
+          "page": 605,
+          "version": "limpia",
+          "alt": "Galón fino de strass plateado en tres hileras"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-3",
+      "pdf_text": "GALON PEGAR COD G 144-3 $ 359 el metro",
+      "pages": [
+        606
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-3",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass tornasolado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4239",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4239",
+          "page": 606,
+          "version": "limpia",
+          "alt": "Galón fino de strass tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-4",
+      "pdf_text": "GALON PEGAR COD G 144-4 $ 359 el metro",
+      "pages": [
+        606
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-4",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass cristal con una línea negra al centro, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4237",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4237",
+          "page": 606,
+          "version": "limpia",
+          "alt": "Galón fino de strass con línea central negra"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-5",
+      "pdf_text": "GALON PEGAR COD G 144-5 $ 359 el metro",
+      "pages": [
+        607
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-5",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass tornasolado con piedras cuadradas al centro, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4244",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4244",
+          "page": 607,
+          "version": "limpia",
+          "alt": "Galón de strass tornasolado con piedras cuadradas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-6",
+      "pdf_text": "GALON PEGAR COD G 144-6 $ 359 el metro",
+      "pages": [
+        607
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-6",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino que alterna strass cristal y piedras negras, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4246",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4246",
+          "page": 607,
+          "version": "limpia",
+          "alt": "Galón fino de strass cristal y piedras negras"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-7",
+      "pdf_text": "GALON PEGAR COD G 144-7 $ 359 el metro",
+      "pages": [
+        608
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-7",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de piedras negras cuadradas con borde de strass cristal, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4251",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4251",
+          "page": 608,
+          "version": "limpia",
+          "alt": "Tiras de galón de piedras negras con borde de strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-8",
+      "pdf_text": "GALON PEGAR COD G 144-8 $ 390 el metro",
+      "pages": [
+        609
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-8",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras rectangulares espejadas en gris plomo, con cadenita oscura a los costados, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4259",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4259",
+          "page": 609,
+          "version": "limpia",
+          "alt": "Galón de piedras rectangulares gris plomo con cadenita"
+        },
+        {
+          "id": "x4257",
+          "page": 609,
+          "version": "limpia",
+          "alt": "Galón de piedras gris plomo en cartón, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-9",
+      "pdf_text": "GALON PEGAR COD G 144-9 $ 359 el metro",
+      "pages": [
+        610
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-9",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado con piedras rectangulares al centro, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4264",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4264",
+          "page": 610,
+          "version": "limpia",
+          "alt": "Tiras de galón de strass con piedras rectangulares"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-10",
+      "pdf_text": "GALON PEGAR COD G 144-10 $ 359 el metro",
+      "pages": [
+        610
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-10",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado con piedras cuadradas al centro, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4266",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4266",
+          "page": 610,
+          "version": "limpia",
+          "alt": "Tiras de galón de strass con piedras cuadradas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-11",
+      "pdf_text": "GALON PEGAR COD G 144-11 $ 120",
+      "pages": [
+        611
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-11",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino dorado con piedras rectangulares y strass cristal, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4271",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 120,
+              "unit_price": 120,
+              "printed": 120
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4271",
+          "page": 611,
+          "version": "limpia",
+          "alt": "Galón fino dorado con piedras rectangulares y strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: el PDF no dice 'el metro'; se asumió por metro como el resto de los galones",
+        "Precio $ 120: bastante más bajo que el resto de la serie G 144 ($ 359 a $ 649); confirmar"
+      ]
+    },
+    {
+      "name": "Galón para pegar G 144-12",
+      "pdf_text": "GALON PEGAR COD G 144-12 $ 359 el metro",
+      "pages": [
+        611
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-12",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino en tono cobre rosado con piedras rectangulares y strass, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4273",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 359,
+              "unit_price": 359,
+              "printed": 359
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4273",
+          "page": 611,
+          "version": "limpia",
+          "alt": "Galón fino cobre rosado con piedras rectangulares"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-13",
+      "pdf_text": "GALON PEGAR COD G 144-13 $ 490 el metro",
+      "pages": [
+        612
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-13",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras rectangulares en tono durazno con strass y cadena dorada a los costados, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4278",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4278",
+          "page": 612,
+          "version": "limpia",
+          "alt": "Galón de piedras durazno con cadena dorada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar 3 cm G 144-14",
+      "pdf_text": "GALON PEGAR COD 3 cm ancho G 144-14 $ 649 el metro",
+      "pages": [
+        612
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-14",
+      "material": null,
+      "badge": null,
+      "description": "Galón de 3 cm de ancho con piedritas nacaradas en blanco y crema sobre strass plateado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4281",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4281",
+          "page": 612,
+          "version": "limpia",
+          "alt": "Galón ancho de piedritas nacaradas y strass plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-15",
+      "pdf_text": "GALON PEGAR COD G 144-15 $ 490 el metro",
+      "pages": [
+        613
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-15",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado con piedras azul Francia formando rombos, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4285",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4285",
+          "page": 613,
+          "version": "limpia",
+          "alt": "Galón de strass con piedras azules en rombos"
+        },
+        {
+          "id": "x4287",
+          "page": 613,
+          "version": "limpia",
+          "alt": "Tiras de galón de strass con piedras azules"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-16",
+      "pdf_text": "GALON PEGAR COD G 144-16 $ 159,5",
+      "pages": [
+        614
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-16",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass cristal plateado con piedras cuadradas espejadas, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4292",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 159.5,
+              "unit_price": 159.5,
+              "printed": 159.5
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4292",
+          "page": 614,
+          "version": "limpia",
+          "alt": "Galón de strass plateado con piedras espejadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: el PDF no dice 'el metro'; se asumió por metro como el resto de los galones",
+        "Precio $ 159,5: único de la serie con decimales y bastante más bajo que los demás; confirmar"
+      ]
+    },
+    {
+      "name": "Galón para pegar G 144-17",
+      "pdf_text": "GALON PEGAR COD G 144-17 $ 490 el metro",
+      "pages": [
+        614
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-17",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras cuadradas espejadas con bordes de strass tornasolado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4294",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4294",
+          "page": 614,
+          "version": "limpia",
+          "alt": "Tiras de galón de piedras espejadas con strass tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-18",
+      "pdf_text": "GALON PEGAR COD G 144-18 $ 490 el metro",
+      "pages": [
+        615
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-18",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras cristal facetadas, plateado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4299",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4299",
+          "page": 615,
+          "version": "limpia",
+          "alt": "Galón de piedras cristal facetadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-19",
+      "pdf_text": "GALON PEGAR COD G 144-19 $ 490 el metro",
+      "pages": [
+        616
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-19",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass en rosa y plateado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4305",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4305",
+          "page": 616,
+          "version": "limpia",
+          "alt": "Galón fino de strass rosa y plateado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-20",
+      "pdf_text": "GALON PEGAR COD G 144-20 $ 490 el metro",
+      "pages": [
+        616
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-20",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass cristal plateado con piedritas rectangulares, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4307",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4307",
+          "page": 616,
+          "version": "limpia",
+          "alt": "Galón fino de strass plateado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-21",
+      "pdf_text": "GALON PEGAR COD G 144-21 $ 490 el metro",
+      "pages": [
+        617
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-21",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas naranja tornasolado sobre base transparente, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4312",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4312",
+          "page": 617,
+          "version": "limpia",
+          "alt": "Galón de piedritas naranja tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-22",
+      "pdf_text": "GALON PEGAR COD G 144-22 $ 490 el metro",
+      "pages": [
+        617
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-22",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas facetadas en plateado y cobre, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4314",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4314",
+          "page": 617,
+          "version": "limpia",
+          "alt": "Galón de piedritas plateadas y cobre"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-23",
+      "pdf_text": "GALON PEGAR COD G 144-23 $ 490 el metro",
+      "pages": [
+        617
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-23",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas fucsia tornasolado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4315",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4315",
+          "page": 617,
+          "version": "limpia",
+          "alt": "Galón de piedritas fucsia tornasolado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-24",
+      "pdf_text": "GALON PEGAR COD G 144-24 $ 490 el metro",
+      "pages": [
+        618
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-24",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas cristal blanco tornasolado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4320",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4320",
+          "page": 618,
+          "version": "limpia",
+          "alt": "Galón de piedritas blanco tornasolado en cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-25",
+      "pdf_text": "GALON PEGAR COD G 144-25 $ 490 el metro",
+      "pages": [
+        619
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-25",
+      "material": null,
+      "badge": null,
+      "description": "Galón dorado de canutillos y strass, con bordes de strass plateado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4325",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4325",
+          "page": 619,
+          "version": "limpia",
+          "alt": "Galón dorado de canutillos con bordes plateados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-26",
+      "pdf_text": "GALON PEGAR COD G 144-26 $ 490 el metro",
+      "pages": [
+        619
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-26",
+      "material": null,
+      "badge": null,
+      "description": "Galón plateado de piedras alargadas en espiga, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4327",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4327",
+          "page": 619,
+          "version": "limpia",
+          "alt": "Galón plateado de piedras en espiga"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-27",
+      "pdf_text": "GALON PEGAR COD G 144-27 $ 490 el metro",
+      "pages": [
+        620
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-27",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas nacaradas color coral con toques turquesa y cadena dorada a los costados, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4331",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4331",
+          "page": 620,
+          "version": "limpia",
+          "alt": "Galón de piedritas coral y turquesa con cadena dorada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-28",
+      "pdf_text": "GALON PEGAR COD G 144-28 $ 490 el metro",
+      "pages": [
+        620
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-28",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas verde agua y turquesa con cadena dorada a los costados, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4333",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4333",
+          "page": 620,
+          "version": "limpia",
+          "alt": "Galón de piedritas verde agua con cadena dorada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-29",
+      "pdf_text": "GALON PEGAR COD G 144-29 $ 490 el metro",
+      "pages": [
+        621
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-29",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras rectangulares multicolor (rojo, azul, turquesa, cristal) con cadena dorada a los costados, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4337",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4337",
+          "page": 621,
+          "version": "limpia",
+          "alt": "Galón de piedras rectangulares multicolor con cadena dorada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-30",
+      "pdf_text": "GALON PEGAR COD G 144-30 $ 490 el metro",
+      "pages": [
+        621
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-30",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedritas doradas y cristal tornasolado sobre base transparente, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4339",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4339",
+          "page": 621,
+          "version": "limpia",
+          "alt": "Galón de piedritas doradas y tornasoladas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-31",
+      "pdf_text": "GALON PEGAR COD G 144-31 $ 490 el metro",
+      "pages": [
+        622
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-31",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado con piedras cuadradas azul Francia, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4345",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4345",
+          "page": 622,
+          "version": "limpia",
+          "alt": "Galón de strass plateado con piedras azules"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-32",
+      "pdf_text": "GALON PEGAR COD G 144-32 $ 490 el metro",
+      "pages": [
+        622
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-32",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras triangulares espejadas en oro rosa con bordes de strass, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4343",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4343",
+          "page": 622,
+          "version": "limpia",
+          "alt": "Galón de piedras triangulares oro rosa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-33",
+      "pdf_text": "GALON PEGAR COD G 144-33 $ 490 el metro",
+      "pages": [
+        623
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-33",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras en tono durazno con strass y bordes de bolitas plateadas, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4352",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4352",
+          "page": 623,
+          "version": "limpia",
+          "alt": "Galón de piedras durazno con bordes plateados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-34",
+      "pdf_text": "GALON PEGAR COD G 144-34 $ 490 el metro",
+      "pages": [
+        623
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-34",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras cuadradas tornasoladas multicolor (amarillo, rosa, verde) con bordes plateados, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4349",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4349",
+          "page": 623,
+          "version": "limpia",
+          "alt": "Galón de piedras tornasoladas multicolor con bordes plateados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-35",
+      "pdf_text": "GALON PEGAR COD G 144-35 $ 490",
+      "pages": [
+        623
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-35",
+      "material": null,
+      "badge": null,
+      "description": "Galón de canutillos azul Francia en diagonal con bordes de strass plateado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4351",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4351",
+          "page": 623,
+          "version": "limpia",
+          "alt": "Galón de canutillos azules con bordes de strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: el PDF no dice 'el metro'; se asumió por metro como el resto de los galones"
+      ]
+    },
+    {
+      "name": "Galón para pegar G 144-36",
+      "pdf_text": "GALON PEGAR COD G 144-36 $ 490 el metro",
+      "pages": [
+        624
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-36",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras espejadas y strass tornasolado en diseño geométrico, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4358",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4358",
+          "page": 624,
+          "version": "limpia",
+          "alt": "Galón de piedras espejadas y strass tornasolado en rollo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-37",
+      "pdf_text": "GALON PEGAR COD G 144-37 $ 490 el metro",
+      "pages": [
+        624
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-37",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras en forma de hoja en oro rosa con strass cristal, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4356",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4356",
+          "page": 624,
+          "version": "limpia",
+          "alt": "Galón de piedras con forma de hoja oro rosa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-38",
+      "pdf_text": "GALON PEGAR COD G 144-38 $490 el metro",
+      "pages": [
+        625
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-38",
+      "material": null,
+      "badge": null,
+      "description": "Galón de tachas piramidales en oro rosa con hileras de strass a cada lado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4366",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4366",
+          "page": 625,
+          "version": "limpia",
+          "alt": "Galón de tachas oro rosa con hileras de strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-39",
+      "pdf_text": "GALON PEGAR COD G 144-39 $ 490 el metro",
+      "pages": [
+        625
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-39",
+      "material": null,
+      "badge": null,
+      "description": "Galón fino de strass multicolor pastel tornasolado, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4365",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4365",
+          "page": 625,
+          "version": "limpia",
+          "alt": "Galón fino de strass multicolor pastel"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-40",
+      "pdf_text": "GALON PEGAR COD G 144-40 $ 490 el metro",
+      "pages": [
+        625
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-40",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass en plateado y cobre, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4363",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4363",
+          "page": 625,
+          "version": "limpia",
+          "alt": "Galón de strass plateado y cobre"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón para pegar G 144-41",
+      "pdf_text": "GALON PEGAR COD G 144-41 $ 490 el metro",
+      "pages": [
+        626
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "G 144-41",
+      "material": null,
+      "badge": null,
+      "description": "Galón de strass plateado con piedras cuadradas multicolor en rombos, para pegar. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4370",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4370",
+          "page": 626,
+          "version": "limpia",
+          "alt": "Galón de strass con piedras multicolor en rombos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

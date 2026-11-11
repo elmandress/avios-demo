@@ -46,6 +46,8 @@ export function checkCatalogIntegrity(catalog: Catalog): IntegrityIssue[] {
     }
 
     for (const variant of product.variants) {
+      // Un artículo "a consultar" no tiene presentaciones: es lo esperado.
+      if (variant.formats.length === 0 && product.priceOnRequest) continue
       if (variant.formats.length === 0) {
         issues.push({
           productSlug: product.slug,

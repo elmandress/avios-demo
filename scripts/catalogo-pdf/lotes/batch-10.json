@@ -1,0 +1,2726 @@
+{
+  "batch": 10,
+  "products": [
+    {
+      "name": "Ojitos de seguridad",
+      "pdf_text": "OJITOS SEGURIDAD 6 MM $ 10 el par / 8 MM $ 10 el par / 10 MM $ 13 el par / 14 MM $ 17 el par / 18 MM $ 17 el par NEGRO , BLANCO , MARRON , BEIGE ,TRASPARENTE",
+      "pages": [
+        336
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ojitos de seguridad para muñecos y amigurumis, con vástago y arandela de traba. Vienen en cinco medidas y se venden por par; colores negro, blanco, marrón, beige y transparente.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "8 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "10 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 13,
+              "unit_price": 13,
+              "printed": 13
+            }
+          ]
+        },
+        {
+          "label": "14 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 17,
+              "unit_price": 17,
+              "printed": 17
+            }
+          ]
+        },
+        {
+          "label": "18 mm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 17,
+              "unit_price": 17,
+              "printed": 17
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Negro",
+          "hex": "#111111"
+        },
+        {
+          "name": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Marrón",
+          "hex": "#6b4226"
+        },
+        {
+          "name": "Beige",
+          "hex": "#d9c3a0"
+        },
+        {
+          "name": "Transparente",
+          "hex": "#e6e9ec"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2374",
+          "page": 336,
+          "version": "limpia",
+          "alt": "Ojitos de seguridad negros con sus arandelas blancas"
+        },
+        {
+          "id": "x2372",
+          "page": 336,
+          "version": "limpia",
+          "alt": "Ojitos de seguridad negros de varios tamaños con arandelas"
+        },
+        {
+          "id": "x2376",
+          "page": 336,
+          "version": "limpia",
+          "alt": "Ojitos de seguridad negros con borde transparente"
+        },
+        {
+          "id": "x2375",
+          "page": 336,
+          "version": "limpia",
+          "alt": "Par de ojitos de seguridad con borde marrón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La lista de colores está escrita a continuación del renglón de 18 mm: confirmar si vale para todas las medidas"
+      ]
+    },
+    {
+      "name": "Ojitos móviles",
+      "pdf_text": "OJITOS MOVIL 5 MM $ 2 el par / 6 MM $ 3 el par / 8MM$ 4 el par / 10 MM $ 5 el par / 12 MM $ 8 el par / 15 MM $ 9 el par / 18 MM $ 10 el par / 22 MM $ 12 el",
+      "pages": [
+        337
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ojitos móviles redondos, blancos con pupila negra que se mueve, para muñecos y manualidades. Ocho medidas, se venden por par.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "5 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 2,
+              "unit_price": 2,
+              "printed": 2
+            }
+          ]
+        },
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 3,
+              "unit_price": 3,
+              "printed": 3
+            }
+          ]
+        },
+        {
+          "label": "8 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 4,
+              "unit_price": 4,
+              "printed": 4
+            }
+          ]
+        },
+        {
+          "label": "10 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            }
+          ]
+        },
+        {
+          "label": "12 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 8,
+              "unit_price": 8,
+              "printed": 8
+            }
+          ]
+        },
+        {
+          "label": "15 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 9,
+              "unit_price": 9,
+              "printed": 9
+            }
+          ]
+        },
+        {
+          "label": "18 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "22 mm",
+          "hex": null,
+          "image": "x2381",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Par",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 12,
+              "unit_price": 12,
+              "printed": 12
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2381",
+          "page": 337,
+          "version": "limpia",
+          "alt": "Ojitos móviles blancos con pupila negra en varios tamaños"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El renglón de 22 mm queda cortado al borde de la página (\"$ 12 el\"): se tomó como \"el par\", igual que el resto"
+      ]
+    },
+    {
+      "name": "Marabú blanco",
+      "pdf_text": "MARABU BLANCO $ 190 EL MT",
+      "pages": [
+        338
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Marabú de plumas blanco, suave y esponjoso, para terminaciones de disfraces, trajes y manualidades. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 190,
+              "unit_price": 190,
+              "printed": 190
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2388",
+          "page": 338,
+          "version": "limpia",
+          "alt": "Tira de marabú blanco colgada sobre un maniquí negro"
+        },
+        {
+          "id": "x2386",
+          "page": 338,
+          "version": "limpia",
+          "alt": "Marabú blanco largo sobre un maniquí negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Boa de plumas",
+      "pdf_text": "BOAS COLORES- Blanca , negra ,Rojo , amarillo , turquesa , azul Francia , rosa , naranja , fucsia , verde Italia $ 354",
+      "pages": [
+        339
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Boa de plumas bien tupida, para disfraces, cotillón y carnaval. Viene en diez colores.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanca",
+          "hex": "#f5f2ea",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Negra",
+          "hex": "#151515",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#d3202a",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#f2d21b",
+          "image": "x2395",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Turquesa",
+          "hex": "#18a9c9",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#1f3fc4",
+          "image": "x2395",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f2a3bd",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#f2761b",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#e81f8f",
+          "image": "x2395",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        },
+        {
+          "label": "Verde Italia",
+          "hex": "#1f9d4d",
+          "image": "x2393",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 354,
+              "unit_price": 354,
+              "printed": 354
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2393",
+          "page": 339,
+          "version": "limpia",
+          "alt": "Boas de plumas colgadas en muchos colores: blanco, amarillo, turquesa, azul, rosa, naranja, rojo, fucsia, verde y violeta"
+        },
+        {
+          "id": "x2395",
+          "page": 339,
+          "version": "limpia",
+          "alt": "Boas de plumas amarilla, azul Francia y fucsia"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF no aclara la unidad de venta de la boa ($ 354): se asumió por unidad (podría ser por metro, como el marabú)"
+      ]
+    },
+    {
+      "name": "Galón de plumas colores pastel PL 1",
+      "pdf_text": "GALON PLUMAS COLORES PASTEL COD PL 1 $ 539 EL METRO",
+      "pages": [
+        340
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "PL 1",
+      "material": null,
+      "badge": null,
+      "description": "Galón de plumas largas cosidas a una cinta, en colores pastel: gris, crema, bordó, rosa y rosa viejo. Ideal para ruedos de vestidos; se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2402",
+          "page": 340,
+          "version": "limpia",
+          "alt": "Galones de plumas en gris, crema, bordó, rosa y rosa viejo"
+        },
+        {
+          "id": "x2400",
+          "page": 340,
+          "version": "limpia",
+          "alt": "Galones de plumas en rosa, bordó, lila, gris y crema dispuestos en abanico"
+        },
+        {
+          "id": "x2404",
+          "page": 340,
+          "version": "limpia",
+          "alt": "Vestido corto rosa con ruedo de galón de plumas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón de plumas PL 2",
+      "pdf_text": "GALON PLUMAS COD PL 2 $ 539 EL METRO",
+      "pages": [
+        341
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "PL 2",
+      "material": null,
+      "badge": null,
+      "description": "Galón de plumas largas y lacias en fucsia con negro, cosidas a una cinta. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2408",
+          "page": 341,
+          "version": "limpia",
+          "alt": "Galón de plumas largas fucsia y negras sobre una mesa de madera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón de plumas PL3",
+      "pdf_text": "GALON PLUMAS COLORES BLANCO FUCSIA , NARANJA Y AMARILLO COD PL3 $ 539 EL METRO",
+      "pages": [
+        342
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "PL3",
+      "material": null,
+      "badge": null,
+      "description": "Galón de plumas cortas y esponjosas cosidas a una cinta, en blanco, fucsia, naranja y amarillo. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f1ea",
+          "image": "x2417",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#c026c9",
+          "image": "x2418",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#e8641a",
+          "image": "x2414",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#e9b51f",
+          "image": "x2418",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2418",
+          "page": 342,
+          "version": "limpia",
+          "alt": "Galones de plumas esponjosas en fucsia, amarillo y blanco"
+        },
+        {
+          "id": "x2417",
+          "page": 342,
+          "version": "limpia",
+          "alt": "Galón de plumas blanco junto a uno fucsia"
+        },
+        {
+          "id": "x2414",
+          "page": 342,
+          "version": "limpia",
+          "alt": "Galón de plumas naranja"
+        },
+        {
+          "id": "x2416",
+          "page": 342,
+          "version": "limpia",
+          "alt": "Novia con vestido con hombros de plumas blancas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón mariposa bordado",
+      "pdf_text": "GALON MARIPOSA BORDADO $ 490 EL METRO",
+      "pages": [
+        343
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado con mariposas en hilera sobre tul, color crudo. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2422",
+          "page": 343,
+          "version": "limpia",
+          "alt": "Galón de mariposas bordadas color crudo sobre tul"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón bordado 625 de 12 cm",
+      "pdf_text": "GALON BORDADO COD. 625 12 CM DE ANCHO $ 539 / PIEZA X 15 YRDS",
+      "pages": [
+        344,
+        345
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "625",
+      "material": null,
+      "badge": null,
+      "description": "Galón de tul bordado con flores y borde festoneado, de 12 cm de ancho. Se ve en seis colores: crudo, salmón, arena, blanco, negro y azul grisáceo. La pieza trae 15 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Crudo",
+          "hex": "#e6dccb",
+          "image": "x2428",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#eeb09c",
+          "image": "x2430",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Arena",
+          "hex": "#cfc5a2",
+          "image": "x2431",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f3f1ec",
+          "image": "x2438",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x2439",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        },
+        {
+          "label": "Azul grisáceo",
+          "hex": "#5a6680",
+          "image": "x2436",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 539,
+              "unit_price": 539,
+              "printed": 539
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2428",
+          "page": 344,
+          "version": "limpia",
+          "alt": "Galón de tul bordado con flores, color crudo"
+        },
+        {
+          "id": "x2430",
+          "page": 344,
+          "version": "limpia",
+          "alt": "Galón de tul bordado con flores, color salmón"
+        },
+        {
+          "id": "x2431",
+          "page": 344,
+          "version": "limpia",
+          "alt": "Galón de tul bordado con flores, color arena"
+        },
+        {
+          "id": "x2438",
+          "page": 345,
+          "version": "limpia",
+          "alt": "Galón de tul bordado con flores, color blanco"
+        },
+        {
+          "id": "x2439",
+          "page": 345,
+          "version": "limpia",
+          "alt": "Galón de tul bordado con flores, color negro"
+        },
+        {
+          "id": "x2436",
+          "page": 345,
+          "version": "limpia",
+          "alt": "Galón de tul bordado con flores, color azul grisáceo"
+        }
+      ],
+      "wholesale_note": "Pieza x 15 yardas",
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Cadena 0713-8",
+      "pdf_text": "CADENA COD 0713-8 $ 106 EL METRO PIEZA X 50 METROS",
+      "pages": [
+        346
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713-8",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón chato, en dorado y plateado. Se corta por metro; la pieza trae 50 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 106,
+              "unit_price": 106,
+              "printed": 106
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2444",
+          "page": 346,
+          "version": "limpia",
+          "alt": "Dos rollos de cadena, uno dorado y otro plateado"
+        }
+      ],
+      "wholesale_note": "Pieza x 50 metros",
+      "needs_review": []
+    },
+    {
+      "name": "Cadena 0713/12",
+      "pdf_text": "$ 163 EL METRO PIEZA X 25 METROS (en la foto: Cod : 0713/12)",
+      "pages": [
+        347
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713/12",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón doble texturado, en plateado y dorado. Se corta por metro; la pieza trae 25 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 163,
+              "unit_price": 163,
+              "printed": 163
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2449",
+          "page": 347,
+          "version": "limpia",
+          "alt": "Rollos de cadena de eslabón doble, plateada y dorada"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar"
+      ]
+    },
+    {
+      "name": "Cadena 0713/10",
+      "pdf_text": "$ 179 EL METRO PIEZA X 25 METROS (en la foto: Cod : 0713/10)",
+      "pages": [
+        347
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713/10",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón ovalado grande, en plateado y dorado. Se corta por metro; la pieza trae 25 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 179,
+              "unit_price": 179,
+              "printed": 179
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2451",
+          "page": 347,
+          "version": "limpia",
+          "alt": "Rollos de cadena de eslabón ovalado grande, plateada y dorada"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar"
+      ]
+    },
+    {
+      "name": "Cadena 0713/3",
+      "pdf_text": "$ 163 EL METRO PIEZA X 25 METROS (en la foto: Cod : 0713/3)",
+      "pages": [
+        348
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713/3",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón ovalado, en plateado y dorado. Se corta por metro; la pieza trae 25 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 163,
+              "unit_price": 163,
+              "printed": 163
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2455",
+          "page": 348,
+          "version": "limpia",
+          "alt": "Rollos de cadena de eslabón ovalado, plateada y dorada"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar"
+      ]
+    },
+    {
+      "name": "Cadena 0713/28",
+      "pdf_text": "$ 120 EL METRO PIEZA X 25 METROS (en la foto: Cod : 0713/28)",
+      "pages": [
+        348
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713/28",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón chato y apretado, en dorado y plateado. Se corta por metro; la pieza trae 25 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 120,
+              "unit_price": 120,
+              "printed": 120
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2457",
+          "page": 348,
+          "version": "limpia",
+          "alt": "Rollos de cadena de eslabón chato, dorada y plateada"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar"
+      ]
+    },
+    {
+      "name": "Cadena A 152",
+      "pdf_text": "A 152 $ 180",
+      "pages": [
+        349
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "A 152",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa dorada brillante de eslabón chato facetado, en rollo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 180,
+              "unit_price": 180,
+              "printed": 180
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2461",
+          "page": 349,
+          "version": "limpia",
+          "alt": "Rollo de cadena dorada brillante de eslabón chato"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF sólo trae código y precio (\"A 152 $ 180\"): que es una cadena sale de la foto",
+        "Unidad de venta: se asumió por metro, como las demás cadenas"
+      ]
+    },
+    {
+      "name": "Cadena 0718/21",
+      "pdf_text": "$ 272 EL METRO PIEZA X 50 METROS (en la foto: Cod : 0718/21)",
+      "pages": [
+        350
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0718/21",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa gruesa de eslabón chato facetado, color níquel negro. Se corta por metro; la pieza trae 50 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 272,
+              "unit_price": 272,
+              "printed": 272
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2467",
+          "page": 350,
+          "version": "limpia",
+          "alt": "Rollo de cadena gruesa color níquel negro"
+        }
+      ],
+      "wholesale_note": "Pieza x 50 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar",
+        "El rótulo de la foto dice 0718/21 y el resto de las cadenas son 0713/…: confirmar el código"
+      ]
+    },
+    {
+      "name": "Cadena A 156",
+      "pdf_text": "A 156 $ 180",
+      "pages": [
+        350
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "A 156",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa dorada mate de eslabón grande y liviano, texturado, en rollo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 180,
+              "unit_price": 180,
+              "printed": 180
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2469",
+          "page": 350,
+          "version": "limpia",
+          "alt": "Rollo de cadena dorada mate de eslabón grande"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF sólo trae código y precio (\"A 156 $ 180\"): que es una cadena sale de la foto",
+        "Unidad de venta: se asumió por metro, como las demás cadenas"
+      ]
+    },
+    {
+      "name": "Cadena 0713/7",
+      "pdf_text": "$ 120 EL METRO PIEZA X 25 METROS (en la foto: Cod : 0713/7)",
+      "pages": [
+        351
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713/7",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón facetado, en dorado y plateado. Se corta por metro; la pieza trae 25 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 120,
+              "unit_price": 120,
+              "printed": 120
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2475",
+          "page": 351,
+          "version": "limpia",
+          "alt": "Rollos de cadena de eslabón facetado, dorada y plateada"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar"
+      ]
+    },
+    {
+      "name": "Cadena 0713/17",
+      "pdf_text": "$ 174 EL METRO PIEZA X 25 METROS (en la foto: Cod : 0713/17)",
+      "pages": [
+        351
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0713/17",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa ancha de eslabón chato texturado, en dorado y plateado. Se corta por metro; la pieza trae 25 metros.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 174,
+              "unit_price": 174,
+              "printed": 174
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2473",
+          "page": 351,
+          "version": "limpia",
+          "alt": "Rollos de cadena ancha de eslabón texturado, dorada y plateada"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 metros",
+      "needs_review": [
+        "El código sale del rótulo grabado en la foto, no del texto del PDF: confirmar"
+      ]
+    },
+    {
+      "name": "Cadena A 158",
+      "pdf_text": "A 158 $180 / A 158 $ 180",
+      "pages": [
+        352
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "A 158",
+      "material": null,
+      "badge": null,
+      "description": "Cadena decorativa de eslabón ovalado texturado, en rollo. Se ve en dos tonos: oro viejo y cobre.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Oro viejo",
+          "hex": "#8a7448",
+          "image": "x2481",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 180,
+              "unit_price": 180,
+              "printed": 180
+            }
+          ]
+        },
+        {
+          "label": "Cobre",
+          "hex": "#a8766a",
+          "image": "x2479",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 180,
+              "unit_price": 180,
+              "printed": 180
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2481",
+          "page": 352,
+          "version": "limpia",
+          "alt": "Rollo de cadena de eslabón ovalado color oro viejo"
+        },
+        {
+          "id": "x2479",
+          "page": 352,
+          "version": "limpia",
+          "alt": "Rollo de cadena de eslabón ovalado color cobre"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF sólo trae código y precio (\"A 158 $ 180\", dos veces): que es una cadena sale de las fotos",
+        "Unidad de venta: se asumió por metro, como las demás cadenas",
+        "Nombres de color puestos a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Sesgo acrocel",
+      "pdf_text": "SESGO ACROCEL 1,3 CM $ 17 $123 la pieza / SESGO ACROCEL 2 CM $ 24 LA PIEZA X 22 METROS $ 273",
+      "pages": [
+        353,
+        354
+      ],
+      "category": "sesgos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sesgo acrocel liso en dos anchos y una gran variedad de colores. Se vende por metro o por pieza cerrada.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "1,3 cm",
+          "hex": null,
+          "image": "x2487",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 17,
+              "unit_price": 17,
+              "printed": 17
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 123,
+              "unit_price": 123,
+              "printed": 123
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x2492",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            },
+            {
+              "tier": "mayor",
+              "label": "Pieza cerrada · 22 m",
+              "unit": "m",
+              "content_qty": 22,
+              "price": 273,
+              "unit_price": 12.4091,
+              "printed": 273
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2487",
+          "page": 353,
+          "version": "limpia",
+          "alt": "Pila de rollos de sesgo acrocel en verde, negro, rojo, amarillo, blanco, rosa, crudo, azul y celeste"
+        },
+        {
+          "id": "x2485",
+          "page": 353,
+          "version": "limpia",
+          "alt": "Rollos de sesgo acrocel apilados en varios colores"
+        },
+        {
+          "id": "x2492",
+          "page": 354,
+          "version": "limpia",
+          "alt": "Dos pilas de rollos de sesgo acrocel de 2 cm en muchos colores"
+        },
+        {
+          "id": "x2495",
+          "page": 354,
+          "version": "limpia",
+          "alt": "Tres pilas de rollos de sesgo acrocel en colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro",
+        "Metraje de la pieza de 1,3 cm ($ 123): el PDF no lo dice"
+      ]
+    },
+    {
+      "name": "Sesgo de raso",
+      "pdf_text": "SESGO RASO 1,5 CM $ 25 / SESGO RASO 2 CM $ 35",
+      "pages": [
+        355,
+        356
+      ],
+      "category": "sesgos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sesgo de raso brillante en rollo, en dos anchos y variedad de colores.",
+      "variant_axis": "ancho",
+      "variants": [
+        {
+          "label": "1,5 cm",
+          "hex": null,
+          "image": "x2499",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 25,
+              "unit_price": 25,
+              "printed": 25
+            }
+          ]
+        },
+        {
+          "label": "2 cm",
+          "hex": null,
+          "image": "x2505",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2499",
+          "page": 355,
+          "version": "limpia",
+          "alt": "Rollos de sesgo de raso en azul marino, fucsia, marrón, turquesa, amarillo y rosa"
+        },
+        {
+          "id": "x2501",
+          "page": 355,
+          "version": "limpia",
+          "alt": "Rollos de sesgo de raso en bordó, rosa, blanco, celeste, gris y naranja"
+        },
+        {
+          "id": "x2505",
+          "page": 356,
+          "version": "limpia",
+          "alt": "Rollos de sesgo de raso de 2 cm en beige, bordó, verde claro, dorado y gris"
+        },
+        {
+          "id": "x2508",
+          "page": 356,
+          "version": "limpia",
+          "alt": "Rollos de sesgo de raso de 2 cm en blanco, rojo, rosa viejo y marfil"
+        },
+        {
+          "id": "x2507",
+          "page": 356,
+          "version": "limpia",
+          "alt": "Rollos de sesgo de raso de 2 cm en lila, rosa, celeste, azul y verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Sesgo lúrex",
+      "pdf_text": "SESGO LUREX $ 35",
+      "pages": [
+        357
+      ],
+      "category": "sesgos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sesgo con hilo de lúrex plateado formando rombos. Se ve en blanco y en negro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2514",
+          "page": 357,
+          "version": "limpia",
+          "alt": "Rollos de sesgo lúrex blanco y negro con rombos plateados"
+        },
+        {
+          "id": "x2512",
+          "page": 357,
+          "version": "limpia",
+          "alt": "Detalle del sesgo lúrex negro y blanco con hilo plateado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Sesgo plateado y dorado",
+      "pdf_text": "SESGO PLATEADO y dorado $ 35",
+      "pages": [
+        358
+      ],
+      "category": "sesgos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sesgo metalizado en rollo, en plateado y en dorado.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plateado",
+          "hex": "#b9bcc4",
+          "image": "x2518",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#c9a227",
+          "image": "x2520",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2520",
+          "page": 358,
+          "version": "limpia",
+          "alt": "Rollo de sesgo dorado metalizado"
+        },
+        {
+          "id": "x2518",
+          "page": 358,
+          "version": "limpia",
+          "alt": "Rollo de sesgo plateado metalizado"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Sesgo fantasía 2 cm",
+      "pdf_text": "SESGO FANTASIA 2 CM $ 35",
+      "pages": [
+        359,
+        360,
+        361,
+        362
+      ],
+      "category": "sesgos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Sesgo estampado de 2 cm en rollo, con variedad de diseños: infantiles (gatitas, ositos, pajaritos, ratoncitos), floreados, libélulas, corazones y estrellas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2538",
+          "page": 361,
+          "version": "limpia",
+          "alt": "Cinco rollos de sesgo fantasía floreado en distintos colores"
+        },
+        {
+          "id": "x2524",
+          "page": 359,
+          "version": "limpia",
+          "alt": "Sesgo fantasía rosa con gatitas y corazones"
+        },
+        {
+          "id": "x2526",
+          "page": 359,
+          "version": "limpia",
+          "alt": "Sesgo fantasía rosa con ositos"
+        },
+        {
+          "id": "x2532",
+          "page": 360,
+          "version": "limpia",
+          "alt": "Sesgos fantasía celeste y rosa a lunares con pajaritos"
+        },
+        {
+          "id": "x2530",
+          "page": 360,
+          "version": "limpia",
+          "alt": "Sesgos fantasía rojo con ratoncitos y coral con gatitas"
+        },
+        {
+          "id": "x2536",
+          "page": 361,
+          "version": "limpia",
+          "alt": "Sesgos fantasía negro y crudo con libélulas"
+        },
+        {
+          "id": "x2545",
+          "page": 362,
+          "version": "limpia",
+          "alt": "Rollos de sesgo fantasía negro y crudo con libélulas"
+        },
+        {
+          "id": "x2546",
+          "page": 362,
+          "version": "limpia",
+          "alt": "Sesgos fantasía turquesa y marrón con florcitas"
+        },
+        {
+          "id": "x2543",
+          "page": 362,
+          "version": "limpia",
+          "alt": "Sesgos fantasía negro con corazones de colores y rojo con estrellas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro"
+      ]
+    },
+    {
+      "name": "Hombreras",
+      "pdf_text": "HOMBRERAS SIN FORRAR CHICAS $ 31 GRANDE $ 35 / FORRADAS CHICAS $ 68 GRANDE $ 81",
+      "pages": [
+        363
+      ],
+      "category": "lenceria-y-corseteria",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hombreras blancas, sin forrar o forradas, en tamaño chico y grande.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Sin forrar · Chicas",
+          "hex": null,
+          "image": "x2551",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 31,
+              "unit_price": 31,
+              "printed": 31
+            }
+          ]
+        },
+        {
+          "label": "Sin forrar · Grande",
+          "hex": null,
+          "image": "x2551",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 35,
+              "unit_price": 35,
+              "printed": 35
+            }
+          ]
+        },
+        {
+          "label": "Forradas · Chicas",
+          "hex": null,
+          "image": "x2553",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        },
+        {
+          "label": "Forradas · Grande",
+          "hex": null,
+          "image": "x2553",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 81,
+              "unit_price": 81,
+              "printed": 81
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2551",
+          "page": 363,
+          "version": "limpia",
+          "alt": "Hombreras de espuma blanca sin forrar en dos tamaños"
+        },
+        {
+          "id": "x2553",
+          "page": 363,
+          "version": "limpia",
+          "alt": "Par de hombreras blancas forradas en tela"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par",
+        "Se tomó la foto de espuma como 'sin forrar' y la de tela como 'forradas'"
+      ]
+    },
+    {
+      "name": "Hojitas",
+      "pdf_text": "HOJITAS PAQUETE X 9 PCS $ 98",
+      "pages": [
+        364
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hojitas de tela con tallo de alambre para armar flores y souvenirs. Paquete de 9; se ven en plateado, lila, blanco, dorado, verde, amarillo y rojo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 9",
+              "unit": "u",
+              "content_qty": 9,
+              "price": 98,
+              "unit_price": 10.8889,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2557",
+          "page": 364,
+          "version": "limpia",
+          "alt": "Hojitas de tela con tallo en plateado, lila, blanco, dorado, verde, amarillo y rojo"
+        },
+        {
+          "id": "x2559",
+          "page": 364,
+          "version": "limpia",
+          "alt": "Hojitas de tela de colores junto a sus paquetes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Florcitas",
+      "pdf_text": "FLORSITAS PAQUETE X14PCS $ 98",
+      "pages": [
+        365
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Florcitas de raso tipo pimpollo con hojita verde, para aplicar. Paquete de 14; se ven en fucsia, rosa, celeste, naranja y rosa viejo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 14",
+              "unit": "u",
+              "content_qty": 14,
+              "price": 98,
+              "unit_price": 7.0,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2563",
+          "page": 365,
+          "version": "limpia",
+          "alt": "Florcitas de raso con hojita en celeste, naranja, fucsia y rosa"
+        },
+        {
+          "id": "x2565",
+          "page": 365,
+          "version": "limpia",
+          "alt": "Florcitas de raso de varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Plumas",
+      "pdf_text": "PLUMAS N1 PAQUETE X 10 PCS $ 108 / PLUMAS N2 PAQUETE X 10 PCS $ 98",
+      "pages": [
+        366,
+        367
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Plumas sueltas para manualidades, en paquete de 10. Las N 1 son lisas en colores vivos (azul, rosa, blanco, amarillo, rojo y verde); las N 2 son moteadas, en bordó, turquesa, ocre y rosa viejo.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x2569",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 108,
+              "unit_price": 10.8,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x2576",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 98,
+              "unit_price": 9.8,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2569",
+          "page": 366,
+          "version": "limpia",
+          "alt": "Paquetes de plumas lisas en azul, rosa, blanco, amarillo, rojo y verde"
+        },
+        {
+          "id": "x2571",
+          "page": 366,
+          "version": "limpia",
+          "alt": "Plumas lisas de colores con sus paquetes sobre una mesa"
+        },
+        {
+          "id": "x2576",
+          "page": 367,
+          "version": "limpia",
+          "alt": "Plumas moteadas en bordó, turquesa, ocre y rosa viejo"
+        },
+        {
+          "id": "x2581",
+          "page": 367,
+          "version": "limpia",
+          "alt": "Plumas moteadas color bordó"
+        },
+        {
+          "id": "x2578",
+          "page": 367,
+          "version": "limpia",
+          "alt": "Plumas moteadas color ocre"
+        },
+        {
+          "id": "x2579",
+          "page": 367,
+          "version": "limpia",
+          "alt": "Plumas moteadas color rosa viejo"
+        },
+        {
+          "id": "x2580",
+          "page": 367,
+          "version": "limpia",
+          "alt": "Plumas moteadas color turquesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Fieltro tamaño A4",
+      "pdf_text": "FIELTRO TAMAÑO A 4 $ 39 cada una COLORES blanco , negro ,CRUDO , BEIGE , GRIS OSCURO , GRIS CLARO , BLANCO , VERDE ITALIA ,AZUL FRANCIA , MARINO ,AMARILLO, VERDE AGUA , VERDE INGLES , NEGRO , SALMON , MARRON ,ROSA , FUCSIA , ROJO, NARANJA , VIOLETA , TURQUESA, LILA.",
+      "pages": [
+        368
+      ],
+      "category": "telas-y-entretelas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Planchas de fieltro tamaño A4 para manualidades. Se venden por unidad, en 21 colores.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#ffffff",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#111111",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#efe6d0",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Beige",
+          "hex": "#d9c3a0",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Gris oscuro",
+          "hex": "#555759",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Gris claro",
+          "hex": "#bfc2c4",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Verde Italia",
+          "hex": "#1f9d4d",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#1f4fbf",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Marino",
+          "hex": "#1b2447",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Amarillo",
+          "hex": "#f5d21c",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Verde agua",
+          "hex": "#9fdccb",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Verde inglés",
+          "hex": "#1f5a3c",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#f59a85",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Marrón",
+          "hex": "#6b4226",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Rosa",
+          "hex": "#f4a6c4",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#e0218a",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#d3202a",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Naranja",
+          "hex": "#f27a1a",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Violeta",
+          "hex": "#6a3fa0",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Turquesa",
+          "hex": "#1fb6c9",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        },
+        {
+          "label": "Lila",
+          "hex": "#b9a0dc",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 39,
+              "unit_price": 39,
+              "printed": 39
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2585",
+          "page": 368,
+          "version": "limpia",
+          "alt": "Pila de planchas de fieltro A4 con la fucsia arriba"
+        },
+        {
+          "id": "x2587",
+          "page": 368,
+          "version": "limpia",
+          "alt": "Planchas de fieltro A4 de varios colores vistas de canto"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "La lista de colores del PDF repite 'blanco' y 'negro': se cargaron una sola vez",
+        "Colores aproximados a partir del nombre: las fotos muestran las planchas apiladas y no se distingue cada color"
+      ]
+    },
+    {
+      "name": "Chenil",
+      "pdf_text": "CHENIL $ 15 LA UNIDAD / CHENIL BRILLOSO CHENIL $ 15 LA UNIDAD",
+      "pages": [
+        369,
+        370,
+        371
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Varillas de chenil (limpiapipas) para manualidades, en variedad de colores; también en versión brillosa metalizada. Se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "Común",
+          "hex": null,
+          "image": "x2591",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        },
+        {
+          "label": "Brilloso",
+          "hex": null,
+          "image": "x2605",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 15,
+              "unit_price": 15,
+              "printed": 15
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2591",
+          "page": 369,
+          "version": "limpia",
+          "alt": "Atados de chenil en azul, amarillo, rosa, verde claro, rojo y fucsia"
+        },
+        {
+          "id": "x2593",
+          "page": 369,
+          "version": "limpia",
+          "alt": "Varillas de chenil de muchos colores"
+        },
+        {
+          "id": "x2597",
+          "page": 370,
+          "version": "limpia",
+          "alt": "Chenil en violeta, celeste, verde, blanco, negro, beige y gris"
+        },
+        {
+          "id": "x2600",
+          "page": 370,
+          "version": "limpia",
+          "alt": "Varillas de chenil de colores y muñequitos armados con chenil"
+        },
+        {
+          "id": "x2599",
+          "page": 370,
+          "version": "limpia",
+          "alt": "Detalle de varillas de chenil en azul, verde, negro y beige"
+        },
+        {
+          "id": "x2605",
+          "page": 371,
+          "version": "limpia",
+          "alt": "Chenil brilloso en azul, plateado, verde, dorado, rojo y rosa"
+        },
+        {
+          "id": "x2607",
+          "page": 371,
+          "version": "limpia",
+          "alt": "Atado de chenil brilloso metalizado de varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "En la página 371 figura 'Chenil brilloso' y debajo 'Chenil $ 15 la unidad': se tomó $ 15 también para el brilloso; el nombre 'Común' para el otro lo pusimos nosotros"
+      ]
+    },
+    {
+      "name": "San Antonio (vaquitas de San Antonio)",
+      "pdf_text": "SAN ANTONIO ROJOS MEDIDAS 1,5 cm $ 6 / 2,5 cm $ 10 — SAN ANTONIO colores surtidos Medidad 1 cm $ 6 / 2 cm $ 14",
+      "pages": [
+        372
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Vaquitas de San Antonio para pegar en souvenirs y manualidades, con adhesivo en la base según se ve en la foto. Rojas o en colores surtidos, en dos medidas cada una.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "Rojos · 1,5 cm",
+          "hex": null,
+          "image": "x2613",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 6,
+              "unit_price": 6,
+              "printed": 6
+            }
+          ]
+        },
+        {
+          "label": "Rojos · 2,5 cm",
+          "hex": null,
+          "image": "x2613",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        },
+        {
+          "label": "Colores surtidos · 1 cm",
+          "hex": null,
+          "image": "x2615",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 6,
+              "unit_price": 6,
+              "printed": 6
+            }
+          ]
+        },
+        {
+          "label": "Colores surtidos · 2 cm",
+          "hex": null,
+          "image": "x2615",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 14,
+              "unit_price": 14,
+              "printed": 14
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2613",
+          "page": 372,
+          "version": "limpia",
+          "alt": "Vaquitas de San Antonio rojas cayendo de un bol"
+        },
+        {
+          "id": "x2611",
+          "page": 372,
+          "version": "limpia",
+          "alt": "Vaquitas de San Antonio rojas con adhesivo en la base"
+        },
+        {
+          "id": "x2615",
+          "page": 372,
+          "version": "limpia",
+          "alt": "Vaquitas de San Antonio en colores surtidos"
+        },
+        {
+          "id": "x2614",
+          "page": 372,
+          "version": "limpia",
+          "alt": "Vaquitas de San Antonio de colores con adhesivo en la base"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

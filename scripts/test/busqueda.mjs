@@ -27,67 +27,78 @@ const ENCUENTRA = [
   // Multi-palabra: lo que rompía antes, porque exigía la frase pegada.
   ['cinta gross 15', 'Cinta gross'],
   ['gross 22', 'Cinta gross'],
-  ['raso 38', 'Cinta de raso doble faz'],
+  ['raso nro 9', 'Cinta raso doble faz'],
   ['hilo encerado cono', 'Hilo encerado'],
-  ['tul 15', null], // cualquiera de los dos tules sirve
-  ['cordon calzado lurex', 'Cordón para calzado con lúrex'],
+  ['tul 15', null],
+  ['cordon calzado lurex', 'Cordón para calzado con lúrex 120 cm'],
+  ['elastico negro 20', 'Elástico negro'],
+  ['marroqui 5 cm', 'Marroquí M3 5 cm'],
+
+  // Por código, como busca el mayorista.
+  ['G 144-13', 'Galón para pegar G 144-13'],
+  ['TC-128', null],
+  ['0713-49', null],
+  ['M2', 'Marroquí M2 2,5 cm'],
 
   // Vocabulario del rubro y de la calle.
-  ['saten', 'Cinta de raso doble faz'],
-  ['satin', 'Cinta de raso doble faz'],
+  ['saten', 'Cinta raso doble faz'],
+  ['satin', 'Cinta raso doble faz'],
   ['grosgrain', 'Cinta gross'],
   ['piolin', 'Cordón de algodón'],
-  ['pasadores', null],
   ['agujetas', null],
   ['cordones de zapatos', null],
-  ['humita', 'Moño formal de etiqueta'],
-  ['corbatin', 'Moño formal de etiqueta'],
+  ['humita', 'Moño negro en caja'],
+  ['corbatin', 'Moño negro en caja'],
   ['suspensores', null],
   ['acerico', null],
   ['clips para tela', 'Pinza para tela'],
-  ['reglas de molderia', 'Caja de reglas para moldería'],
-  ['patronaje', 'Caja de reglas para moldería'],
+  ['reglas de molderia', 'Caja de reglas de costura 8 piezas'],
+  ['patronaje', 'Caja de reglas de costura 8 piezas'],
   ['tull', null],
-  ['reflectante', 'Cinta reflectiva de seguridad'],
-  ['chaleco', 'Cinta reflectiva de seguridad'],
-  ['boobtape', 'Adhesivo para la piel (boob tape)'],
-  ['macrame', null],
-  ['plantillas', 'Plantilla multitalle'],
+  ['reflectante', 'Cinta reflectiva 5 cm'],
+  ['chaleco', 'Cinta reflectiva 5 cm'],
+  ['boobtape', 'Adhesivo para la piel Bob Tape (levanta busto)'],
+  ['macrame', 'Hilo para macramé'],
+  ['plantillas', 'Plantilla multitalles'],
+  ['abrojo', null],
+  ['encaje', null],
+  ['goma', 'Elástico blanco'],
+  ['ganchillo', null],
+  ['vincha', null],
+  ['pegamento', null],
+  ['imperdible', null],
 
-  // Búsqueda por categoría: de las más frecuentes y no funcionaba.
+  // Búsqueda por categoría: de las más frecuentes.
   ['cintas', null],
   ['herramientas', null],
   ['hilos', null],
+  ['galones', null],
+  ['puntillas', null],
 
   // Sin tilde, como se escribe en un teléfono.
   ['cordon', null],
-  ['molderia', 'Caja de reglas para moldería'],
+  ['molderia', 'Caja de reglas de costura 8 piezas'],
+  ['elastico', 'Elástico blanco'],
 
   // Los números se comparan como palabra entera: "4 mm" NO puede traer la de
-  // 40 mm. En una mercería con anchos 4, 7, 10, 15, 22 y 40, tratarlos como
-  // subcadena convierte cada búsqueda por medida en la lista equivocada.
-  ['4 mm', 'Cinta de raso doble faz'],
+  // 40 mm.
+  ['4 mm', 'Cinta raso doble faz'],
 
-  // El tul es una tela y se vende por metro: este resultado es correcto.
-  ['tela por metro', 'Tul liso · 15 cm'],
+  // El tul es una tela y se vende por metro.
+  ['tul por metro', 'Tul 15 cm de ancho'],
+
+  // Lo que la muestra de 20 artículos no tenía y el catálogo completo sí.
+  ['aguja de tejer', 'Aguja de tejer'],
+  ['lana', null],
+  ['elastico por metro', 'Elástico blanco'],
 ]
 
 /**
- * Búsquedas que Avíos NO puede contestar. Tienen que seguir vacías.
- *
- * "tela por metro" estuvo acá y fue un error de esta lista, no del buscador:
- * devolvía los dos tules, y el tul ES una tela que se vende por metro. La
- * respuesta correcta era la del código. Quedó como caso de los que SÍ encuentran.
+ * Búsquedas que Avíos NO puede contestar: no están en su catálogo. Tienen que
+ * seguir vacías, para que el sitio ofrezca preguntar por WhatsApp y la búsqueda
+ * quede registrada en /panel.
  */
-const NO_ENCUENTRA = [
-  'cierre',
-  'cremallera',
-  'lana',
-  'aguja de tejer',
-  'boton',
-  'maquina de coser',
-  'elastico por metro',
-]
+const NO_ENCUENTRA = ['cremallera', 'zipper', 'botones de nacar', 'maniqui', 'xyzxyz']
 
 let fallos = 0
 
@@ -115,7 +126,7 @@ console.log('\nNúmeros como palabra entera\n')
 
 for (const [consulta, noDebeTraer] of [
   ['4 mm', 'Cinta gross'],
-  ['7 mm', 'Cinta reflectiva de seguridad'],
+  ['7 mm', 'Cinta reflectiva 5 cm'],
 ]) {
   const r = buscar(consulta)
   const ok = !r.includes(noDebeTraer)
@@ -136,7 +147,7 @@ for (const [consulta, noDebeTraer] of [
 // siempre a lo que llegó por sinónimo, o la primera sugerencia es la equivocada.
 console.log('\nOrden de las sugerencias\n')
 const gross = productos.find((p) => p.name === 'Cinta gross')
-const raso = productos.find((p) => p.name === 'Cinta de raso doble faz')
+const raso = productos.find((p) => p.name === 'Cinta raso doble faz')
 const pGross = puntuar(gross, 'gross', nombreCategoria.get(gross.categorySlug))
 const pRasoPorSinonimo = puntuar(raso, 'saten', nombreCategoria.get(raso.categorySlug))
 const literalGana = pGross < pRasoPorSinonimo

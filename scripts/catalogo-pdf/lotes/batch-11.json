@@ -1,0 +1,2564 @@
+{
+  "batch": 11,
+  "products": [
+    {
+      "name": "Pompones en paquete, colores surtidos",
+      "pdf_text": "POMPONES PAQUETE SURTIDOS / POMPONES PAQUETE COLORES SURTIDOS / N 1- 1CM X 100 PCS $ 130 / N 2- 1,5 CM X 70 PCS $ 130 / N 3- 2,5 CM X 40 PCS $ 130 / N 4- 4 CM X 13 PCS $ 130 / N 5- 5 CM X 6 PCS $ 119 / N 6- 6 CM X 4 PCS $ 97",
+      "pages": [
+        373
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pompones para manualidades en paquete cerrado de colores surtidos. Seis tamaños, de 1 a 6 cm; cuanto más grande el pompón, menos unidades trae el paquete.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "N 1 · 1 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 100",
+              "unit": "u",
+              "content_qty": 100,
+              "price": 130,
+              "unit_price": 1.3,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "N 2 · 1,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 70",
+              "unit": "u",
+              "content_qty": 70,
+              "price": 130,
+              "unit_price": 1.8571,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "N 3 · 2,5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 40",
+              "unit": "u",
+              "content_qty": 40,
+              "price": 130,
+              "unit_price": 3.25,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "N 4 · 4 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 13",
+              "unit": "u",
+              "content_qty": 13,
+              "price": 130,
+              "unit_price": 10.0,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "N 5 · 5 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 119,
+              "unit_price": 19.8333,
+              "printed": 119
+            }
+          ]
+        },
+        {
+          "label": "N 6 · 6 cm",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 4",
+              "unit": "u",
+              "content_qty": 4,
+              "price": 97,
+              "unit_price": 24.25,
+              "printed": 97
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2620",
+          "page": 373,
+          "version": "limpia",
+          "alt": "Paquetes de pompones de colores surtidos en distintos tamaños sobre una mesa"
+        },
+        {
+          "id": "x2623",
+          "page": 373,
+          "version": "limpia",
+          "alt": "Paquete de pompones chicos de colores surtidos"
+        },
+        {
+          "id": "x2622",
+          "page": 373,
+          "version": "limpia",
+          "alt": "Pompones sueltos de colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Palillos",
+      "pdf_text": "PALILLOS 2, 5 CM $ 5 NATURAL DORADO PLATEADO / PALILLOS 3, 5 CM $ 10 NATURAL COLORES SURTIDOS DORADO PLATEADO",
+      "pages": [
+        374,
+        375
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Palillos chiquitos tipo broche para manualidades y souvenirs, en 2,5 y 3,5 cm. Vienen en natural, dorado y plateado; el de 3,5 cm también en colores surtidos.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2,5 cm",
+          "hex": null,
+          "image": "x2628",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 5,
+              "unit_price": 5,
+              "printed": 5
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm",
+          "hex": null,
+          "image": "x2639",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 10,
+              "unit_price": 10,
+              "printed": 10
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "#dcc197"
+        },
+        {
+          "name": "Dorado",
+          "hex": "#d4af37"
+        },
+        {
+          "name": "Plateado",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2628",
+          "page": 374,
+          "version": "limpia",
+          "alt": "Palillos chiquitos color natural junto a un ovillo de hilo rústico"
+        },
+        {
+          "id": "x2631",
+          "page": 374,
+          "version": "limpia",
+          "alt": "Palillos dorados colgados de un hilo"
+        },
+        {
+          "id": "x2632",
+          "page": 374,
+          "version": "limpia",
+          "alt": "Palillos plateados colgados de un hilo"
+        },
+        {
+          "id": "x2639",
+          "page": 375,
+          "version": "limpia",
+          "alt": "Montón de palillos chiquitos color natural"
+        },
+        {
+          "id": "x2637",
+          "page": 375,
+          "version": "limpia",
+          "alt": "Palillos de colores surtidos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara la unidad de venta: se cargó $ 5 y $ 10 como precio por unidad (cada palillo)",
+        "'Colores surtidos' figura sólo en la medida de 3,5 cm"
+      ]
+    },
+    {
+      "name": "Tanza elastizada 0,6",
+      "pdf_text": "TANZA ELASTIZADA transparente y surtidas de colores 0,6 $ 91 CADA UNA",
+      "pages": [
+        376
+      ],
+      "category": "hilos-y-lanas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Tanza elastizada 0,6 en carretel, transparente o en colores surtidos. Se vende por carretel.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 91,
+              "unit_price": 91,
+              "printed": 91
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2646",
+          "page": 376,
+          "version": "limpia",
+          "alt": "Carreteles de tanza elastizada 0,6 en colores surtidos"
+        },
+        {
+          "id": "x2643",
+          "page": 376,
+          "version": "limpia",
+          "alt": "Carretel de tanza elastizada transparente 0,6"
+        },
+        {
+          "id": "x2645",
+          "page": 376,
+          "version": "limpia",
+          "alt": "Pilas de carreteles de tanza elastizada transparente y de colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice sólo '0,6' sin unidad (se entiende que es el grosor) y no indica cuántos metros trae el carretel"
+      ]
+    },
+    {
+      "name": "Alambre para manualidades",
+      "pdf_text": "ALAMBRE MANULIDADES ROLLO X 10 METROS $ 145 1MM ESPESOR DORADO , PLATEADO Y 10 COLORES DIFERENTES / ALAMBRE MANULIDADES ROLLO X 5 METROS $ 145 1,5MM ESPESOR DORADO , PLATA Y 10 COLORES DIFERENTES",
+      "pages": [
+        377,
+        378
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Alambre para manualidades en rollo: de 1 mm de espesor (rollo de 10 metros) o de 1,5 mm (rollo de 5 metros). Viene en dorado, plateado y 10 colores diferentes.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "1 mm · rollo de 10 m",
+          "hex": null,
+          "image": "x2650",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 10 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        },
+        {
+          "label": "1,5 mm · rollo de 5 m",
+          "hex": null,
+          "image": "x2658",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Rollo · 5 m",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 145,
+              "unit_price": 145,
+              "printed": 145
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Dorado",
+          "hex": "#d4af37"
+        },
+        {
+          "name": "Plateado",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2650",
+          "page": 377,
+          "version": "limpia",
+          "alt": "Rollos de alambre plateado para manualidades"
+        },
+        {
+          "id": "x2652",
+          "page": 377,
+          "version": "limpia",
+          "alt": "Rollo de alambre dorado para manualidades"
+        },
+        {
+          "id": "x2653",
+          "page": 377,
+          "version": "limpia",
+          "alt": "Rollos de alambre plateado y dorado"
+        },
+        {
+          "id": "x2658",
+          "page": 378,
+          "version": "limpia",
+          "alt": "Rollos de alambre de colores y ejemplos de trabajos hechos con alambre"
+        },
+        {
+          "id": "x2660",
+          "page": 378,
+          "version": "limpia",
+          "alt": "Rollos de alambre para manualidades en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Guantes blancos talle único",
+      "pdf_text": "GUANTES BLANCOS TALLE UNICO SE ADAPTA A CUALQUIER TALLE $ 314",
+      "pages": [
+        379
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Guantes blancos de talle único, que se adaptan a cualquier talle.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 314,
+              "unit_price": 314,
+              "printed": 314
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2666",
+          "page": 379,
+          "version": "limpia",
+          "alt": "Par de guantes blancos"
+        },
+        {
+          "id": "x2664",
+          "page": 379,
+          "version": "limpia",
+          "alt": "Mano con guante blanco puesto"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par"
+      ]
+    },
+    {
+      "name": "Esfera de telgopor",
+      "pdf_text": "ESFERA TELGOPOR / ESF 1003 2,5 CM X 50 PCS $ 130 / ESF 1004 3 CM X 35 PSC $ 130 / ESF 1005 3,5 CM X 20 PCS $ 130 / ESF 1006 4 CM X 15 PCS $ 130 / ESF 1007 4,5 CM X 13 PCS $ 130 / ESF 1008 5 CM X 10 PCS $ 130 / ESF 1009 6 CM X 6 PCS $ 130 / ESF 1010 7 CM X 4 PCS $ 130 / ESF 1011 8 CM X 3 PCS $ 130 / ESF 1012 9 CM X 2 PCS $ 130 / ESF 1013 10 CM X 2 PCS $ 130 / EST 1014 12 CM X1 PCS $ 130 / ESFERA 1035 15 CM X 1 PCS $ 218 / ESFERA 1036 20 CM X 1 PCS $273",
+      "pages": [
+        380,
+        381
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": "telgopor",
+      "badge": null,
+      "description": "Esferas de telgopor blancas para manualidades, de 2,5 a 20 cm. Hasta 12 cm vienen en paquete (la cantidad depende de la medida); las de 15 y 20 cm se venden de a una.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "2,5 cm (ESF 1003)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 50",
+              "unit": "u",
+              "content_qty": 50,
+              "price": 130,
+              "unit_price": 2.6,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "3 cm (ESF 1004)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 35",
+              "unit": "u",
+              "content_qty": 35,
+              "price": 130,
+              "unit_price": 3.7143,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "3,5 cm (ESF 1005)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 20",
+              "unit": "u",
+              "content_qty": 20,
+              "price": 130,
+              "unit_price": 6.5,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "4 cm (ESF 1006)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 15",
+              "unit": "u",
+              "content_qty": 15,
+              "price": 130,
+              "unit_price": 8.6667,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "4,5 cm (ESF 1007)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 13",
+              "unit": "u",
+              "content_qty": 13,
+              "price": 130,
+              "unit_price": 10.0,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "5 cm (ESF 1008)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 10",
+              "unit": "u",
+              "content_qty": 10,
+              "price": 130,
+              "unit_price": 13.0,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "6 cm (ESF 1009)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 130,
+              "unit_price": 21.6667,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "7 cm (ESF 1010)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 4",
+              "unit": "u",
+              "content_qty": 4,
+              "price": 130,
+              "unit_price": 32.5,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "8 cm (ESF 1011)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 3",
+              "unit": "u",
+              "content_qty": 3,
+              "price": 130,
+              "unit_price": 43.3333,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "9 cm (ESF 1012)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 2",
+              "unit": "u",
+              "content_qty": 2,
+              "price": 130,
+              "unit_price": 65.0,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "10 cm (ESF 1013)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 2",
+              "unit": "u",
+              "content_qty": 2,
+              "price": 130,
+              "unit_price": 65.0,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "12 cm (EST 1014)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "15 cm (1035)",
+          "hex": null,
+          "image": "x2680",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "20 cm (1036)",
+          "hex": null,
+          "image": "x2678",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 273,
+              "unit_price": 273,
+              "printed": 273
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2670",
+          "page": 380,
+          "version": "limpia",
+          "alt": "Esferas de telgopor blancas de distintos tamaños"
+        },
+        {
+          "id": "x2672",
+          "page": 380,
+          "version": "limpia",
+          "alt": "Esferas de telgopor blancas de varios tamaños"
+        },
+        {
+          "id": "x2673",
+          "page": 380,
+          "version": "limpia",
+          "alt": "Paquete de esferas chicas de telgopor"
+        },
+        {
+          "id": "x2678",
+          "page": 381,
+          "version": "limpia",
+          "alt": "Esfera grande de telgopor con una cota que marca 20 cm"
+        },
+        {
+          "id": "x2680",
+          "page": 381,
+          "version": "limpia",
+          "alt": "Esfera de telgopor blanca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El PDF dice 'EST 1014' para la de 12 cm; parece un error de tipeo por 'ESF 1014'",
+        "En la p. 381 el precio $273 de la esfera de 20 cm (1036) está en el texto del PDF pero queda tapado por una foto; confirmar",
+        "Foto de la esfera de 15 cm asignada por descarte (la otra foto trae la cota de 20 cm)"
+      ]
+    },
+    {
+      "name": "Estrella de telgopor",
+      "pdf_text": "ESTRELLA TELGOPOR / ESTRELLA 1025 6,5 CM X 6 PCS $ 130 / ESTRELLA 1027 15 CM X 1 PCS $ 130",
+      "pages": [
+        382
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": "telgopor",
+      "badge": null,
+      "description": "Estrellas de telgopor blancas para manualidades: de 6,5 cm en paquete de 6 o de 15 cm de a una.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "6,5 cm (1025)",
+          "hex": null,
+          "image": "x2686",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 130,
+              "unit_price": 21.6667,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "15 cm (1027)",
+          "hex": null,
+          "image": "x2684",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2686",
+          "page": 382,
+          "version": "limpia",
+          "alt": "Paquete de seis estrellas de telgopor"
+        },
+        {
+          "id": "x2684",
+          "page": 382,
+          "version": "limpia",
+          "alt": "Estrella grande de telgopor junto a seis estrellas chicas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Aro de telgopor 12 cm",
+      "pdf_text": "ARO TELGOPOR / ARO 1019 12 CM X 3 PCS $ 130",
+      "pages": [
+        383
+      ],
+      "category": "manualidades",
+      "sku": "1019",
+      "material": "telgopor",
+      "badge": null,
+      "description": "Aros de telgopor blancos de 12 cm para manualidades. Paquete de 3.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 3",
+              "unit": "u",
+              "content_qty": 3,
+              "price": 130,
+              "unit_price": 43.3333,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2690",
+          "page": 383,
+          "version": "limpia",
+          "alt": "Paquete de tres aros de telgopor"
+        },
+        {
+          "id": "x2692",
+          "page": 383,
+          "version": "limpia",
+          "alt": "Tres aros de telgopor blancos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Corazón de telgopor",
+      "pdf_text": "CORAZON TELGOPOR / CORAZON 1022 6,5 CM X 6 PCS $ 130 / CORAZON 1023 10 CM X 2 PCS $ 130 / CORAZON 1024 16,5 CM X 1 PCS $ 130",
+      "pages": [
+        384
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": "telgopor",
+      "badge": null,
+      "description": "Corazones de telgopor blancos para manualidades, en tres medidas: 6,5 cm (paquete de 6), 10 cm (paquete de 2) y 16,5 cm (de a uno).",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "6,5 cm (1022)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 130,
+              "unit_price": 21.6667,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "10 cm (1023)",
+          "hex": null,
+          "image": "x2696",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 2",
+              "unit": "u",
+              "content_qty": 2,
+              "price": 130,
+              "unit_price": 65.0,
+              "printed": 130
+            }
+          ]
+        },
+        {
+          "label": "16,5 cm (1024)",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2696",
+          "page": 384,
+          "version": "limpia",
+          "alt": "Paquete de dos corazones de telgopor"
+        },
+        {
+          "id": "x2698",
+          "page": 384,
+          "version": "limpia",
+          "alt": "Corazones de telgopor de distintos tamaños junto a corazones rojos de tela"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Foto del paquete de dos corazones asignada a la medida de 10 cm por la cantidad que se ve (el PDF no lo rotula)"
+      ]
+    },
+    {
+      "name": "Huevo de telgopor 6 cm",
+      "pdf_text": "HUEVO TELGOPOR / HUEVO 1016 6CM X 6 PCS $ 130",
+      "pages": [
+        385
+      ],
+      "category": "manualidades",
+      "sku": "1016",
+      "material": "telgopor",
+      "badge": null,
+      "description": "Huevos de telgopor blancos de 6 cm para manualidades. Paquete de 6.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Paquete x 6",
+              "unit": "u",
+              "content_qty": 6,
+              "price": 130,
+              "unit_price": 21.6667,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2702",
+          "page": 385,
+          "version": "limpia",
+          "alt": "Paquete de seis huevos de telgopor"
+        },
+        {
+          "id": "x2704",
+          "page": 385,
+          "version": "limpia",
+          "alt": "Seis huevos de telgopor blancos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Copo de nieve 18 cm",
+      "pdf_text": "COPO NIEVE 1068 18 CM X 1 PCS $ 130",
+      "pages": [
+        386
+      ],
+      "category": "manualidades",
+      "sku": "1068",
+      "material": null,
+      "badge": null,
+      "description": "Copo de nieve blanco de 18 cm para decorar y hacer manualidades, de la misma línea que las figuras de telgopor. Se vende de a uno.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 130,
+              "unit_price": 130,
+              "printed": 130
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2710",
+          "page": 386,
+          "version": "limpia",
+          "alt": "Copo de nieve blanco para manualidades"
+        },
+        {
+          "id": "x2708",
+          "page": 386,
+          "version": "limpia",
+          "alt": "Dos copos de nieve blancos bajo un mismo cartón"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título no dice 'telgopor' (sólo 'COPO NIEVE'); en la foto se ve igual a las demás figuras de telgopor",
+        "El texto dice X 1 PCS pero la foto chica muestra dos copos en el mismo paquete"
+      ]
+    },
+    {
+      "name": "Flor N 1",
+      "pdf_text": "FLOR N 1 $ 72,6 EL RAMO",
+      "pages": [
+        387
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de florcitas de tela en rosa pálido con perlitas en el centro y detalles de tul. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 72.6,
+              "unit_price": 72.6,
+              "printed": 72.6
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2714",
+          "page": 387,
+          "version": "limpia",
+          "alt": "Ramo de florcitas rosa pálido con perlitas y tul"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 2",
+      "pdf_text": "FLOR N 2 EL RAMO $ 148 / FLOR N 2 $ 65 cada una",
+      "pages": [
+        387,
+        388
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Rosa de tela con hojas y centro de perlitas; en las fotos se ve en blanco, plateado, dorado, rosa y tornasolado. Se vende suelta o por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 65,
+              "unit_price": 65,
+              "printed": 65
+            },
+            {
+              "tier": "mayor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2719",
+          "page": 388,
+          "version": "limpia",
+          "alt": "Rosas de tela con hojas en plateado, dorado, blanco y rosa"
+        },
+        {
+          "id": "x2721",
+          "page": 388,
+          "version": "limpia",
+          "alt": "Dos rosas de tela con hojas, una tornasolada y una blanca"
+        },
+        {
+          "id": "x2722",
+          "page": 388,
+          "version": "limpia",
+          "alt": "Rosas de tela plateada y dorada con hojas brillantes"
+        },
+        {
+          "id": "x2723",
+          "page": 388,
+          "version": "limpia",
+          "alt": "Rosas de tela blanca y tornasolada con hojas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "'FLOR N 2 EL RAMO $ 148' está en la p. 387 sin foto y 'FLOR N 2 $ 65 cada una' en la p. 388 con las fotos: se tomó como la misma flor con dos presentaciones",
+        "No dice cuántas flores trae el ramo de $ 148"
+      ]
+    },
+    {
+      "name": "Flor N 3 largo total 40 cm",
+      "pdf_text": "FLOR LARGO TOTAL 40 CM N 3 $ 185",
+      "pages": [
+        389
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Vara de flores blancas de tela con pistilos y ramitas de perlas. Largo total 40 cm.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 185,
+              "unit_price": 185,
+              "printed": 185
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2728",
+          "page": 389,
+          "version": "limpia",
+          "alt": "Vara de flores blancas con ramitas de perlas"
+        },
+        {
+          "id": "x2730",
+          "page": 389,
+          "version": "limpia",
+          "alt": "Flores blancas con perlas apoyadas sobre un paño rojo"
+        },
+        {
+          "id": "x2731",
+          "page": 389,
+          "version": "limpia",
+          "alt": "Mano sosteniendo la flor blanca con perlas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 4",
+      "pdf_text": "FLOR N 4 $ 68 EL RAMO",
+      "pages": [
+        390
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramito de pimpollos blancos de tela con hojas verdes. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2735",
+          "page": 390,
+          "version": "limpia",
+          "alt": "Tres ramitos de pimpollos blancos con hojas verdes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor con strass N 6",
+      "pdf_text": "FLOR CON STRAS N 6 $ 150 EL RAMO",
+      "pages": [
+        391
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de florcitas blancas de tela y tul con un strass en el centro. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 150,
+              "unit_price": 150,
+              "printed": 150
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2742",
+          "page": 391,
+          "version": "limpia",
+          "alt": "Ramo de florcitas blancas con strass en el centro"
+        },
+        {
+          "id": "x2740",
+          "page": 391,
+          "version": "limpia",
+          "alt": "Dos ramos de florcitas blancas con strass sobre una mesa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 7",
+      "pdf_text": "FLOR N 7 $ 158",
+      "pages": [
+        392
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramito de rositas blancas de organza con hojitas verdes y racimos de perlitas plateadas o blancas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 158,
+              "unit_price": 158,
+              "printed": 158
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2748",
+          "page": 392,
+          "version": "limpia",
+          "alt": "Rositas blancas de organza con hojas y racimos de perlitas plateadas"
+        },
+        {
+          "id": "x2746",
+          "page": 392,
+          "version": "limpia",
+          "alt": "Dos ramitos de rositas blancas con perlitas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "A diferencia de las demás flores, no dice 'el ramo': se cargó $ 158 como unidad (en las fotos se ve un ramito)"
+      ]
+    },
+    {
+      "name": "Flor N 8",
+      "pdf_text": "FLOR N 8 EL RAMO $ 68",
+      "pages": [
+        393
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de rosas blancas de tela con hojas verdes. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2754",
+          "page": 393,
+          "version": "limpia",
+          "alt": "Ramo de rosas blancas de tela"
+        },
+        {
+          "id": "x2752",
+          "page": 393,
+          "version": "limpia",
+          "alt": "Rosas blancas de tela con hojas verdes, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 10",
+      "pdf_text": "FLOR N 10 $ 138 EL RAMO",
+      "pages": [
+        394
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de rositas rojas de tela con hojitas verdes. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2759",
+          "page": 394,
+          "version": "limpia",
+          "alt": "Ramos de rositas rojas con hojas verdes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 11",
+      "pdf_text": "FLOR N 11 $ 98 EL RAMO",
+      "pages": [
+        394
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de flores de tul color crema con una perla en el centro. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2761",
+          "page": 394,
+          "version": "limpia",
+          "alt": "Flores de tul color crema con perla en el centro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 12",
+      "pdf_text": "FLOR N 12 EL RAMO $ 138",
+      "pages": [
+        395
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de pimpollos amarillos envueltos en organza blanca con detalle azul. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2766",
+          "page": 395,
+          "version": "limpia",
+          "alt": "Ramitos de pimpollos amarillos envueltos en organza blanca con azul"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 13",
+      "pdf_text": "FLOR N 13 EL RAMO $ 138",
+      "pages": [
+        395
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de rositas de organza rosa pálido con hojitas verdes. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 138,
+              "unit_price": 138,
+              "printed": 138
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2768",
+          "page": 395,
+          "version": "limpia",
+          "alt": "Ramitos de rositas de organza rosa pálido"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 14",
+      "pdf_text": "FLOR N 14 EL RAMO $ 68",
+      "pages": [
+        396
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramito de mini pimpollos de tela; en las fotos se ve en blanco, azul, rosa, verde y fucsia. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2773",
+          "page": 396,
+          "version": "limpia",
+          "alt": "Ramitos de mini pimpollos en blanco, azul, rosa, verde y fucsia"
+        },
+        {
+          "id": "x2775",
+          "page": 396,
+          "version": "limpia",
+          "alt": "Ramito de mini pimpollos blancos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor con perlas N 15",
+      "pdf_text": "FLOR CON PERLAS VARIOS COLORES N 15 $ 168 EL RAMO",
+      "pages": [
+        397
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de flores de tela con perla en el centro y ramitas de perlitas, en varios colores (en la foto: blanco, verde, amarillo, dorado y salmón). Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 168,
+              "unit_price": 168,
+              "printed": 168
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2780",
+          "page": 397,
+          "version": "limpia",
+          "alt": "Ramos de flores con perlas en varios colores"
+        },
+        {
+          "id": "x2782",
+          "page": 397,
+          "version": "limpia",
+          "alt": "Flores blancas con perla en el centro y ramitas de perlitas, de cerca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 16",
+      "pdf_text": "FLOR N 16 EL RAMO $ 78",
+      "pages": [
+        398
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de rositas de cinta de raso; en las fotos se ve en rosa, rojo, verde, amarillo, lila y celeste. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2788",
+          "page": 398,
+          "version": "limpia",
+          "alt": "Ramos de rositas de raso en amarillo, lila, celeste y verde manzana"
+        },
+        {
+          "id": "x2786",
+          "page": 398,
+          "version": "limpia",
+          "alt": "Ramos de rositas de raso en rosa, rojo y verde"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 17",
+      "pdf_text": "FLOR N 17 EL RAMO $ 68",
+      "pages": [
+        399
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de pimpollos de tela en tonos rosa y marrón rojizo, con hojitas. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 68,
+              "unit_price": 68,
+              "printed": 68
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2793",
+          "page": 399,
+          "version": "limpia",
+          "alt": "Ramos de pimpollos en rosa y en marrón rojizo"
+        },
+        {
+          "id": "x2795",
+          "page": 399,
+          "version": "limpia",
+          "alt": "Dos ramos de pimpollos, uno rosa y uno marrón rojizo"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 18",
+      "pdf_text": "FLOR N 18 EL RAMO $ 148",
+      "pages": [
+        400
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de flores de tela y tul con perlitas; en las fotos se ve en blanco, celeste claro, salmón y bordó. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2800",
+          "page": 400,
+          "version": "limpia",
+          "alt": "Ramos de flores de tul con perlitas en blanco, celeste, salmón y bordó"
+        },
+        {
+          "id": "x2802",
+          "page": 400,
+          "version": "limpia",
+          "alt": "Ramo de flores blancas de tul con perlitas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor N 19",
+      "pdf_text": "FLOR N 19 EL RAMO $ 78",
+      "pages": [
+        401
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de rositas de cinta brillante, en dorado y en plateado. Se vende por ramo.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Ramo",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2807",
+          "page": 401,
+          "version": "limpia",
+          "alt": "Ramos de rositas doradas y plateadas"
+        },
+        {
+          "id": "x2809",
+          "page": 401,
+          "version": "limpia",
+          "alt": "Ramos de rositas plateadas y doradas vistos de arriba"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor de cuero H80 de pétalos anchos",
+      "pdf_text": "FLOR CUERO COD H80 $ 149",
+      "pages": [
+        402
+      ],
+      "category": "apliques-y-escudos",
+      "sku": "H80",
+      "material": "cuero",
+      "badge": null,
+      "description": "Flor de cuero para aplicar, de pétalos anchos con centro de tiritas. En la foto se ve en marrón claro, negro, marrón oscuro, bordó y rosa.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 149,
+              "unit_price": 149,
+              "printed": 149
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2816",
+          "page": 402,
+          "version": "limpia",
+          "alt": "Cinco flores de cuero de pétalos anchos en marrón, negro, bordó y rosa"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El código H80 aparece dos veces con flores y precios distintos (p. 402 a $ 149 y p. 403 a $ 78): confirmar cuál es el código correcto de cada una"
+      ]
+    },
+    {
+      "name": "Flor de cuero H9",
+      "pdf_text": "FLOR CUERO COD H9 $ 98",
+      "pages": [
+        402
+      ],
+      "category": "apliques-y-escudos",
+      "sku": "H9",
+      "material": "cuero",
+      "badge": null,
+      "description": "Flor de cuero para aplicar, de pétalos en punta con centro de tiritas. En la foto se ve en negro, marrón, crudo y gris.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2818",
+          "page": 402,
+          "version": "limpia",
+          "alt": "Cuatro flores de cuero de pétalos en punta en negro, marrón, crudo y gris"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor de cuero H80 trenzada",
+      "pdf_text": "FLOR CUERO COD H80 $ 78",
+      "pages": [
+        403
+      ],
+      "category": "apliques-y-escudos",
+      "sku": "H80",
+      "material": "cuero",
+      "badge": null,
+      "description": "Flor de cuero para aplicar, con centro trenzado. En la foto se ve en una docena de colores: negro, turquesa, blanco, plateado, marrón, beige, rosa, coral, azul y más.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2823",
+          "page": 403,
+          "version": "limpia",
+          "alt": "Doce flores de cuero con centro trenzado en distintos colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El código H80 aparece dos veces con flores y precios distintos (p. 402 a $ 149 y p. 403 a $ 78): confirmar cuál es el código correcto de cada una"
+      ]
+    },
+    {
+      "name": "Flor de cuero H79",
+      "pdf_text": "FLOR CUERO COD H79 $ 98",
+      "pages": [
+        404
+      ],
+      "category": "apliques-y-escudos",
+      "sku": "H79",
+      "material": "cuero",
+      "badge": null,
+      "description": "Flor de cuero metalizado para aplicar, de muchos pétalos finos. En la foto se ve en rojo, cobre, dorado claro, plateado, rosa, negro y turquesa.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2828",
+          "page": 404,
+          "version": "limpia",
+          "alt": "Siete flores de cuero metalizado de pétalos finos en varios colores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Flor H78",
+      "pdf_text": "FLOR COD H78 $ 118",
+      "pages": [
+        405
+      ],
+      "category": "apliques-y-escudos",
+      "sku": "H78",
+      "material": null,
+      "badge": null,
+      "description": "Flor para aplicar de muchos pétalos con centro de tiritas. En la foto se ve en bordó y en rosa fuerte.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2833",
+          "page": 405,
+          "version": "limpia",
+          "alt": "Dos flores para aplicar, una bordó y una rosa fuerte"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título dice sólo 'FLOR' (no 'FLOR CUERO' como las de las páginas anteriores): confirmar el material"
+      ]
+    },
+    {
+      "name": "Hilo de perlas y rosas blanco 477-0",
+      "pdf_text": "Delicado Hilo en perlas y rosas en color blanco COD - 477- 0 $ 98",
+      "pages": [
+        406
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": "477-0",
+      "material": null,
+      "badge": null,
+      "description": "Hilo de perlas con rositas de raso intercaladas, todo en blanco. Viene en carretel.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2838",
+          "page": 406,
+          "version": "limpia",
+          "alt": "Carretel de hilo de perlas con rositas blancas y un tramo desenrollado"
+        },
+        {
+          "id": "x2840",
+          "page": 406,
+          "version": "limpia",
+          "alt": "Carretel de hilo de perlas con rositas blancas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro; el PDF no aclara si el precio es por metro o por rollo"
+      ]
+    },
+    {
+      "name": "Hilo con estrellas 477-4",
+      "pdf_text": "Delicado Hilo con estrellas en trasparente , dorado y plata COD - 477-4 $ 78",
+      "pages": [
+        407
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": "477-4",
+      "material": null,
+      "badge": null,
+      "description": "Hilo fino con estrellitas y bolitas intercaladas, en transparente, dorado y plata. Viene en carretel.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Transparente",
+          "hex": "#e6eef2",
+          "image": "x2847",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#d4af37",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Plata",
+          "hex": "#c0c0c0",
+          "image": "x2845",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2845",
+          "page": 407,
+          "version": "limpia",
+          "alt": "Hilo con estrellitas plateadas desenrollado sobre papel"
+        },
+        {
+          "id": "x2848",
+          "page": 407,
+          "version": "limpia",
+          "alt": "Carretel de hilo con estrellitas plateadas"
+        },
+        {
+          "id": "x2847",
+          "page": 407,
+          "version": "limpia",
+          "alt": "Carreteles de hilo con estrellitas transparentes"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro; el PDF no aclara si el precio es por metro o por rollo",
+        "No hay foto del color dorado"
+      ]
+    },
+    {
+      "name": "Hilo de perlas 477-1",
+      "pdf_text": "Hermoso y delicado hilo de perlas Dorado , plata , verde agua , negro , transparente , rojo , blanco , salmón y beige Cod 477-1 $ 78",
+      "pages": [
+        408,
+        409,
+        410
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": "477-1",
+      "material": null,
+      "badge": null,
+      "description": "Hilo de perlas de dos tamaños intercaladas, en carretel. Viene en nueve colores: dorado, plata, verde agua, negro, transparente, rojo, blanco, salmón y beige.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#d4af37",
+          "image": "x2863",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Plata",
+          "hex": "#c0c0c0",
+          "image": "x2863",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Verde agua",
+          "hex": "#8fd6c4",
+          "image": "x2855",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1c",
+          "image": "x2862",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Transparente",
+          "hex": "#e6eef2",
+          "image": "x2853",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c81e1e",
+          "image": "x2868",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#ffffff",
+          "image": "x2860",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Salmón",
+          "hex": "#f2a48c",
+          "image": "x2853",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        },
+        {
+          "label": "Beige",
+          "hex": "#c9ad7f",
+          "image": "x2853",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 78,
+              "unit_price": 78,
+              "printed": 78
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x2853",
+          "page": 408,
+          "version": "limpia",
+          "alt": "Carreteles de hilo de perlas apilados en nueve colores"
+        },
+        {
+          "id": "x2855",
+          "page": 408,
+          "version": "limpia",
+          "alt": "Carreteles de hilo de perlas verde agua, negro, rojo, blanco y salmón, de cerca"
+        },
+        {
+          "id": "x2863",
+          "page": 409,
+          "version": "limpia",
+          "alt": "Carreteles de hilo de perlas crudo, plateado y dorado"
+        },
+        {
+          "id": "x2860",
+          "page": 409,
+          "version": "limpia",
+          "alt": "Carretel de hilo de perlas blancas"
+        },
+        {
+          "id": "x2862",
+          "page": 409,
+          "version": "limpia",
+          "alt": "Carretel de hilo de perlas oscuras con un tramo desenrollado"
+        },
+        {
+          "id": "x2868",
+          "page": 410,
+          "version": "limpia",
+          "alt": "Carretel de hilo de perlas rojas con un tramo desenrollado"
+        },
+        {
+          "id": "x2870",
+          "page": 410,
+          "version": "limpia",
+          "alt": "Carretel de hilo de perlas celeste verdoso"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro; el PDF no aclara si el precio es por metro o por rollo",
+        "Fotos por color asignadas a ojo (el PDF no rotula cada carretel); en la foto general de p. 408 los colores parecen seguir el orden del texto"
+      ]
+    },
+    {
+      "name": "Hilo perla de 3 a 8 mm",
+      "pdf_text": "HILO PERLA BLANCO , CRUDO , DORADO , PLATA / 3MM $ 24 EL METRO / PIEZA X 100 MTS / 4MM $ 29 EL METRO / 5 MM $ 32 EL METRO / 6 MM $ 38 EL METRO / 8 MM $ 42 EL METRO",
+      "pages": [
+        411,
+        412,
+        413
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hilo de perlas corridas en blanco, crudo, dorado y plata, en cinco medidas de 3 a 8 mm. Se corta por metro; la pieza trae 100 metros.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "3 mm",
+          "hex": null,
+          "image": "x2875",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 24,
+              "unit_price": 24,
+              "printed": 24
+            }
+          ]
+        },
+        {
+          "label": "4 mm",
+          "hex": null,
+          "image": "x2875",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 29,
+              "unit_price": 29,
+              "printed": 29
+            }
+          ]
+        },
+        {
+          "label": "5 mm",
+          "hex": null,
+          "image": "x2881",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 32,
+              "unit_price": 32,
+              "printed": 32
+            }
+          ]
+        },
+        {
+          "label": "6 mm",
+          "hex": null,
+          "image": "x2881",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 38,
+              "unit_price": 38,
+              "printed": 38
+            }
+          ]
+        },
+        {
+          "label": "8 mm",
+          "hex": null,
+          "image": "x2888",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 42,
+              "unit_price": 42,
+              "printed": 42
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Crudo",
+          "hex": "#f1e6c8"
+        },
+        {
+          "name": "Dorado",
+          "hex": "#d4af37"
+        },
+        {
+          "name": "Plata",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "images": [
+        {
+          "id": "x2875",
+          "page": 411,
+          "version": "limpia",
+          "alt": "Carreteles de hilo perla dorado, blanco, crudo y plata con tramos desenrollados"
+        },
+        {
+          "id": "x2881",
+          "page": 412,
+          "version": "limpia",
+          "alt": "Carreteles de hilo perla blanco, dorado, plata y crudo"
+        },
+        {
+          "id": "x2883",
+          "page": 412,
+          "version": "limpia",
+          "alt": "Carretel de hilo perla crudo con un tramo desenrollado"
+        },
+        {
+          "id": "x2888",
+          "page": 413,
+          "version": "limpia",
+          "alt": "Carreteles de hilo perla grueso en crudo, dorado, plata y blanco"
+        },
+        {
+          "id": "x2890",
+          "page": 413,
+          "version": "limpia",
+          "alt": "Carreteles de hilo perla grueso, de cerca"
+        }
+      ],
+      "wholesale_note": "Pieza x 100 mts",
+      "needs_review": [
+        "'PIEZA X 100 MTS' figura sólo en la p. 411, entre 3 mm y 4 mm, sin precio de pieza: consultar precio por pieza y si vale para todas las medidas",
+        "Las fotos no aclaran qué medida muestran: se asignó a cada medida la foto de su página (3 y 4 mm comparten foto; 5 y 6 mm también)"
+      ]
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [
+    {
+      "page": 375,
+      "id": "x2631",
+      "reason": "foto repetida: los mismos palillos dorados de la p. 374"
+    },
+    {
+      "page": 375,
+      "id": "x2632",
+      "reason": "foto repetida: los mismos palillos plateados de la p. 374"
+    },
+    {
+      "page": 410,
+      "id": "x2860",
+      "reason": "foto repetida: el mismo carretel de perlas blancas de la p. 409"
+    },
+    {
+      "page": 401,
+      "id": "x2812",
+      "reason": "no visible (queda fuera de la página)"
+    }
+  ],
+  "unused_prices": []
+}

@@ -16,13 +16,26 @@ export function ProductGallery({
   images,
   productName,
   categorySlug,
+  focus,
 }: {
   images: GalleryImage[]
   productName: string
   /** Para dibujar la ilustración de categoría cuando no hay foto. */
   categorySlug: string
+  /**
+   * Foto a la que tiene que saltar la galería (la del modelo o color recién
+   * elegido). `tick` cambia en cada elección, así elegir dos modelos que
+   * comparten foto vuelve a ella aunque el visitante se haya movido.
+   */
+  focus?: { index: number; tick: number }
 }) {
   const [active, setActive] = useState(0)
+  // Estado derivado de una prop: se ajusta durante el render, sin efecto.
+  const [lastTick, setLastTick] = useState(focus?.tick)
+  if (focus && focus.tick !== lastTick) {
+    setLastTick(focus.tick)
+    if (focus.index >= 0 && focus.index < images.length) setActive(focus.index)
+  }
   const [lightbox, setLightbox] = useState(false)
   // Deslizar con el dedo (patrón de Dahila). Un deslizamiento cambia de foto y
   // NO abre el zoom; un toque quieto sí.
@@ -126,7 +139,9 @@ export function ProductGallery({
           placeholder="blur"
           blurDataURL={BLUR_DATA_URL}
           sizes="(max-width: 760px) 100vw, 560px"
-          style={{ objectFit: 'cover' }}
+          // Entera, no recortada: muchas fotos del catálogo traen el número de
+          // modelo o el nombre del color cerca del borde.
+          style={{ objectFit: 'contain' }}
         />
         <span
           aria-hidden

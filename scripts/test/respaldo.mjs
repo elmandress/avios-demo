@@ -78,7 +78,7 @@ const columnasEncabezado = lineas[0].split('","').length
 const malFormadas = lineas.filter((l) => l.split('","').length !== columnasEncabezado)
 check(malFormadas.length === 0, `las ${lineas.length} filas tienen ${columnasEncabezado} columnas`)
 
-check(csv.includes('moldería'), 'los acentos sobreviven')
+check(csv.includes('Cordón de algodón'), 'los acentos sobreviven')
 check(csv.includes('"sí"'), 'la columna "Por mayor" marca las piezas cerradas')
 
 console.log(`\n${fallos === 0 ? 'Todo verde.' : `${fallos} fallo(s).`}\n`)

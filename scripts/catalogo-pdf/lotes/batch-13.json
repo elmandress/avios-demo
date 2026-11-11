@@ -1,0 +1,2119 @@
+{
+  "batch": 13,
+  "products": [
+    {
+      "name": "Prendedor fantasía con strass y piedras",
+      "pdf_text": "PRENDEDOR FANTASIA CON STRASS Y PIEDRAS $ 218 · N 1 a N 18",
+      "pages": [
+        445,
+        446,
+        447,
+        448,
+        449,
+        450
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Prendedores de fantasía con strass, piedras y perlas en 18 modelos numerados: cisnes, moños, bailarinas, mariposas, hojas, flores y aros. Varios modelos se ven en más de un color de piedra. Se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x3131",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x3129",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x3132",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x3139",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x3137",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x3140",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x3145",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 8",
+          "hex": null,
+          "image": "x3147",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 9",
+          "hex": null,
+          "image": "x3148",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 10",
+          "hex": null,
+          "image": "x3153",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 11",
+          "hex": null,
+          "image": "x3155",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 12",
+          "hex": null,
+          "image": "x3156",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 13",
+          "hex": null,
+          "image": "x3161",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 14",
+          "hex": null,
+          "image": "x3163",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 15",
+          "hex": null,
+          "image": "x3164",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 16",
+          "hex": null,
+          "image": "x3168",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 17",
+          "hex": null,
+          "image": "x3170",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        },
+        {
+          "label": "N 18",
+          "hex": null,
+          "image": "x3171",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3131",
+          "page": 445,
+          "version": "limpia",
+          "alt": "Prendedores de cisne con strass, uno con piedras rosa claro y otro con piedras azules"
+        },
+        {
+          "id": "x3129",
+          "page": 445,
+          "version": "limpia",
+          "alt": "Prendedores dorados de rama con flor de strass"
+        },
+        {
+          "id": "x3132",
+          "page": 445,
+          "version": "limpia",
+          "alt": "Prendedor plateado con forma de hoja estilizada y strass"
+        },
+        {
+          "id": "x3139",
+          "page": 446,
+          "version": "limpia",
+          "alt": "Prendedores de moño con strass tornasol y perla central"
+        },
+        {
+          "id": "x3137",
+          "page": 446,
+          "version": "limpia",
+          "alt": "Prendedores de bailarina con falda de piedras cristal, verde y roja"
+        },
+        {
+          "id": "x3140",
+          "page": 446,
+          "version": "limpia",
+          "alt": "Prendedores de moño plateado con strass y perla central"
+        },
+        {
+          "id": "x3145",
+          "page": 447,
+          "version": "limpia",
+          "alt": "Prendedores de mariposa con piedras verde, azul, roja y rosa"
+        },
+        {
+          "id": "x3147",
+          "page": 447,
+          "version": "limpia",
+          "alt": "Prendedores de hoja calada con strass, uno plateado y otro dorado"
+        },
+        {
+          "id": "x3148",
+          "page": 447,
+          "version": "limpia",
+          "alt": "Prendedores de ramo con perla, uno con hojas de piedra verde y otro cristal"
+        },
+        {
+          "id": "x3153",
+          "page": 448,
+          "version": "limpia",
+          "alt": "Prendedores de flor de pétalos blancos con tallo de strass"
+        },
+        {
+          "id": "x3155",
+          "page": 448,
+          "version": "limpia",
+          "alt": "Prendedor de flor de pétalos blancos con tallo y florcitas de strass"
+        },
+        {
+          "id": "x3156",
+          "page": 448,
+          "version": "limpia",
+          "alt": "Prendedor de ramo plateado con perla y hojas de piedra cristal"
+        },
+        {
+          "id": "x3161",
+          "page": 449,
+          "version": "limpia",
+          "alt": "Prendedor dorado de flor calada con strass y perla central"
+        },
+        {
+          "id": "x3163",
+          "page": 449,
+          "version": "limpia",
+          "alt": "Prendedor dorado de ramo con perla y hojas de piedra roja"
+        },
+        {
+          "id": "x3164",
+          "page": 449,
+          "version": "limpia",
+          "alt": "Prendedor dorado con perla, strass y hojas de piedra tornasol"
+        },
+        {
+          "id": "x3168",
+          "page": 450,
+          "version": "limpia",
+          "alt": "Prendedor de flor con pétalos de colores y tallo de strass"
+        },
+        {
+          "id": "x3170",
+          "page": 450,
+          "version": "limpia",
+          "alt": "Prendedores de aro de perlas con mariposa de strass"
+        },
+        {
+          "id": "x3171",
+          "page": 450,
+          "version": "limpia",
+          "alt": "Prendedor redondo de perlas con borde de strass"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Varias fotos muestran el mismo modelo en más de un color de piedra (N 1, N 5, N 7, N 9…): el PDF no nombra los colores, confirmar cuáles hay"
+      ]
+    },
+    {
+      "name": "Hebilla de strass y piedras de colores 4 y 6 cm",
+      "pdf_text": "HEBILLAS STRASS Y PIEDRAS DE COLORES 4 Y 6 CM $ 318 · N 19 a N 28",
+      "pages": [
+        451,
+        452,
+        453,
+        454
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Hebillas decorativas de strass y piedras de colores, de 4 y 6 cm, en modelos numerados del N 19 al N 28: rectangulares, cuadradas, ovaladas, redondas y de corazón. Se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 19",
+          "hex": null,
+          "image": "x3176",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 20",
+          "hex": null,
+          "image": "x3178",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 21",
+          "hex": null,
+          "image": "x3179",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 22",
+          "hex": null,
+          "image": "x3183",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 23",
+          "hex": null,
+          "image": "x3185",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 24",
+          "hex": null,
+          "image": "x3186",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 25",
+          "hex": null,
+          "image": "x3190",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 26",
+          "hex": null,
+          "image": "x3192",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 27",
+          "hex": null,
+          "image": "x3193",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        },
+        {
+          "label": "N 28",
+          "hex": null,
+          "image": "x3197",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 318,
+              "unit_price": 318,
+              "printed": 318
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3176",
+          "page": 451,
+          "version": "limpia",
+          "alt": "Hebillas rectangulares con piedras rojas"
+        },
+        {
+          "id": "x3178",
+          "page": 451,
+          "version": "limpia",
+          "alt": "Hebillas de piedras cristal, una ovalada y otra rectangular"
+        },
+        {
+          "id": "x3179",
+          "page": 451,
+          "version": "limpia",
+          "alt": "Hebillas rectangulares, una con piedras multicolor y otra con piedras cristal"
+        },
+        {
+          "id": "x3183",
+          "page": 452,
+          "version": "limpia",
+          "alt": "Hebillas cuadradas de strass, una verde y otra roja"
+        },
+        {
+          "id": "x3185",
+          "page": 452,
+          "version": "limpia",
+          "alt": "Hebillas redondas de piedras, una tornasol y otra gris humo"
+        },
+        {
+          "id": "x3186",
+          "page": 452,
+          "version": "limpia",
+          "alt": "Hebillas redondas grandes con piedras cristal"
+        },
+        {
+          "id": "x3190",
+          "page": 453,
+          "version": "limpia",
+          "alt": "Hebillas con forma de corazón, una con piedras cristal y otra champagne"
+        },
+        {
+          "id": "x3192",
+          "page": 453,
+          "version": "limpia",
+          "alt": "Hebillas ovaladas de strass, una maciza y otra trenzada"
+        },
+        {
+          "id": "x3193",
+          "page": 453,
+          "version": "limpia",
+          "alt": "Hebillas redondas con piedras, una verde y otra roja"
+        },
+        {
+          "id": "x3197",
+          "page": 454,
+          "version": "limpia",
+          "alt": "Hebillas rectangulares con piedras, una roja y otra cristal"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título dice '4 y 6 cm' con un solo precio ($ 318): no aclara qué medida tiene cada modelo",
+        "Cada foto muestra dos hebillas (distinto color o forma) bajo un mismo número: confirmar qué colores hay por modelo",
+        "La numeración sigue de corrido la de los prendedores (N 1 a N 18), pero es otro artículo y otro precio"
+      ]
+    },
+    {
+      "name": "Charretera de hombro en piedras y strass",
+      "pdf_text": "Brilla con estilo: nuestras charreteras de hombro en piedras y strass son el toque perfecto para cualquier outfit.“ $ 890 · N 1 a N 7",
+      "pages": [
+        455,
+        456,
+        457,
+        458
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Charretera de hombro con tres piedras en gota y flecos de cadena de strass, en siete modelos numerados: plateada con piedras cristal, dorada, con piedras rosa, rojas, verdes y tornasol.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x3204",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x3211",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x3209",
+          "image_page": 456,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x3219",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x3217",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x3209",
+          "image_page": 457,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x3224",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3202",
+          "page": 455,
+          "version": "limpia",
+          "alt": "Charreteras plateadas de strass con piedras cristal, sueltas y puestas en el hombro de un saco negro"
+        },
+        {
+          "id": "x3204",
+          "page": 455,
+          "version": "limpia",
+          "alt": "Charretera plateada con tres piedras cristal en gota y flecos de strass, modelo N 1"
+        },
+        {
+          "id": "x3211",
+          "page": 456,
+          "version": "limpia",
+          "alt": "Charretera dorada con tres piedras cristal en gota y flecos de strass, modelo N 2"
+        },
+        {
+          "id": "x3212",
+          "page": 456,
+          "version": "limpia",
+          "alt": "Charretera dorada de strass sostenida en la mano"
+        },
+        {
+          "id": "x3209",
+          "page": 456,
+          "version": "limpia",
+          "alt": "Charretera plateada con tres piedras rosa en gota y flecos de strass, modelo N 3"
+        },
+        {
+          "id": "x3219",
+          "page": 457,
+          "version": "etiquetada",
+          "alt": "Charretera plateada con tres piedras rojas en gota y flecos de strass, modelo N 4"
+        },
+        {
+          "id": "x3217",
+          "page": 457,
+          "version": "limpia",
+          "alt": "Charretera plateada con tres piedras verdes en gota y flecos de strass, modelo N 5"
+        },
+        {
+          "id": "x3209",
+          "page": 457,
+          "version": "limpia",
+          "alt": "Charretera plateada con tres piedras rosa en gota y flecos de strass, modelo N 6"
+        },
+        {
+          "id": "x3224",
+          "page": 458,
+          "version": "limpia",
+          "alt": "Charretera con piedras y strass tornasol, modelo N 7"
+        },
+        {
+          "id": "x3226",
+          "page": 458,
+          "version": "limpia",
+          "alt": "Detalle de la charretera tornasol con sus tres piedras en gota"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "No aclara si el precio es por par",
+        "N 3 (p. 456) y N 6 (p. 457) usan exactamente la misma foto (piedras rosa): confirmar si son el mismo modelo o falta la foto de uno"
+      ]
+    },
+    {
+      "name": "Rollo mosaico espejado autoadhesivo",
+      "pdf_text": "rollo de fibra de vidrio autoadhesivo mosaico pared pegatina espejo mosaico pared Calcomanía para DIY Bola de discoteca cocina baño decoración de pared el metro $ 390",
+      "pages": [
+        459,
+        460
+      ],
+      "category": "manualidades",
+      "sku": null,
+      "material": "fibra de vidrio",
+      "badge": null,
+      "description": "Rollo de mosaico espejado autoadhesivo, de cuadraditos tipo bola de discoteca, para forrar floreros, macetas, bolas y decorar paredes. En las fotos se ve en plateado, dorado, rosa dorado, azul y rojo. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plateado",
+          "hex": "#c9cdd2",
+          "image": "x3231",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#d8b23a",
+          "image": "x3234",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "Rosa dorado",
+          "hex": "#c98c6e",
+          "image": "x3233",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "Azul",
+          "hex": "#1c3fc4",
+          "image": "x3242",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c9302a",
+          "image": "x3240",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3235",
+          "page": 459,
+          "version": "limpia",
+          "alt": "Dos rollos de mosaico espejado plateado y floreros forrados con el mosaico"
+        },
+        {
+          "id": "x3234",
+          "page": 459,
+          "version": "limpia",
+          "alt": "Rollo de mosaico espejado dorado"
+        },
+        {
+          "id": "x3231",
+          "page": 459,
+          "version": "limpia",
+          "alt": "Rollo de mosaico espejado plateado"
+        },
+        {
+          "id": "x3233",
+          "page": 459,
+          "version": "limpia",
+          "alt": "Rollos de mosaico espejado rosa dorado"
+        },
+        {
+          "id": "x3242",
+          "page": 460,
+          "version": "limpia",
+          "alt": "Rollo de mosaico espejado azul con un recorte al lado"
+        },
+        {
+          "id": "x3243",
+          "page": 460,
+          "version": "limpia",
+          "alt": "Cinco rollos de mosaico espejado azul"
+        },
+        {
+          "id": "x3240",
+          "page": 460,
+          "version": "limpia",
+          "alt": "Rollo de mosaico espejado rojo con un recorte al lado"
+        },
+        {
+          "id": "x3244",
+          "page": 460,
+          "version": "limpia",
+          "alt": "Maceta y bola navideña forradas con mosaico espejado, y detalle del adhesivo y los cuadraditos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "Varias fotos son de proveedor (tipo AliExpress): confirmar qué colores hay realmente en stock"
+      ]
+    },
+    {
+      "name": "Aplique bordado de hojas",
+      "pdf_text": "Hermosos apliques bordados en colores dorado , plata , rosa cálido y blanco $ 590",
+      "pages": [
+        461,
+        462
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Aplique bordado sobre tul con diseño de ramas de hojas, en dorado, plata, rosa cálido y blanco. En las fotos también se ve uno negro. Se vende por unidad.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c8963e",
+          "image": "x3257",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        },
+        {
+          "label": "Plata",
+          "hex": "#c5cace",
+          "image": "x3252",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        },
+        {
+          "label": "Rosa cálido",
+          "hex": "#d9a88c",
+          "image": "x3259",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        },
+        {
+          "label": "Blanco",
+          "hex": "#f3f3f1",
+          "image": "x3251",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1c1c1e",
+          "image": "x3260",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 590,
+              "unit_price": 590,
+              "printed": 590
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3249",
+          "page": 461,
+          "version": "limpia",
+          "alt": "Apliques bordados de hojas en dorado, plata, rosa, blanco y negro, uno al lado del otro"
+        },
+        {
+          "id": "x3251",
+          "page": 461,
+          "version": "limpia",
+          "alt": "Aplique bordado de hojas blanco sobre tul"
+        },
+        {
+          "id": "x3252",
+          "page": 461,
+          "version": "limpia",
+          "alt": "Aplique bordado de hojas plateado sobre tul"
+        },
+        {
+          "id": "x3257",
+          "page": 462,
+          "version": "limpia",
+          "alt": "Aplique bordado de hojas dorado sobre tul"
+        },
+        {
+          "id": "x3259",
+          "page": 462,
+          "version": "limpia",
+          "alt": "Aplique bordado de hojas rosa cálido sobre tul"
+        },
+        {
+          "id": "x3260",
+          "page": 462,
+          "version": "limpia",
+          "alt": "Aplique bordado de hojas negro sobre tul"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El texto nombra dorado, plata, rosa cálido y blanco; las fotos muestran además uno negro: se agregó como variante, confirmar si se vende",
+        "El PDF lo llama sólo 'apliques bordados'; 'de hojas' se agregó por lo que se ve en la foto, para distinguirlo"
+      ]
+    },
+    {
+      "name": "Cuello bordado en piedras y lentejuelas (diseño de gotas)",
+      "pdf_text": "Cuellos bordados en piedras y lentejuelas variedad de colores $ 990",
+      "pages": [
+        463,
+        464,
+        465,
+        466
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cuello bordado en piedras y lentejuelas, terminado en pico, con diseño de gotas y una gota central de piedras. Viene en variedad de colores: verde, plateado, dorado, rosa dorado, negro, rojo, fucsia, bordó, azul marino y azul Francia.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Verde",
+          "hex": "#2f9a5a",
+          "image": "x3265",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#c2c3c5",
+          "image": "x3272",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#d6a53c",
+          "image": "x3274",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Rosa dorado",
+          "hex": "#d6a587",
+          "image": "x3275",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#17171a",
+          "image": "x3280",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#e3301f",
+          "image": "x3282",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Fucsia",
+          "hex": "#e0218c",
+          "image": "x3283",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Bordó",
+          "hex": "#b0202c",
+          "image": "x3288",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Azul marino",
+          "hex": "#1f2a44",
+          "image": "x3290",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        },
+        {
+          "label": "Azul Francia",
+          "hex": "#1d55d8",
+          "image": "x3291",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3267",
+          "page": 463,
+          "version": "limpia",
+          "alt": "Cuellos bordados de lentejuelas en varios colores, superpuestos"
+        },
+        {
+          "id": "x3265",
+          "page": 463,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color verde"
+        },
+        {
+          "id": "x3272",
+          "page": 464,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color plateado"
+        },
+        {
+          "id": "x3274",
+          "page": 464,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color dorado"
+        },
+        {
+          "id": "x3275",
+          "page": 464,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color rosa dorado"
+        },
+        {
+          "id": "x3280",
+          "page": 465,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color negro"
+        },
+        {
+          "id": "x3282",
+          "page": 465,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color rojo"
+        },
+        {
+          "id": "x3283",
+          "page": 465,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color fucsia"
+        },
+        {
+          "id": "x3288",
+          "page": 466,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color bordó"
+        },
+        {
+          "id": "x3290",
+          "page": 466,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color azul marino"
+        },
+        {
+          "id": "x3291",
+          "page": 466,
+          "version": "limpia",
+          "alt": "Cuello bordado en piedras y lentejuelas color azul Francia"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "El PDF usa el mismo título ('Cuellos bordados en piedras y lentejuelas') para dos diseños con precios distintos ($ 990 en p. 463-466 y $ 1200 en p. 467): se separaron en dos productos y el nombre del diseño (gotas / flores) se puso a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Cuello bordado en piedras y lentejuelas (diseño de flores)",
+      "pdf_text": "Cuellos bordados en piedras y lentejuelas variedad de colores $ 1200",
+      "pages": [
+        467
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Cuello bordado en V con flores redondas de piedras y lentejuelas y hojas a los lados. En las fotos se ve en dorado, plateado, negro y cobre.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#c9952f",
+          "image": "x3296",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1200,
+              "unit_price": 1200,
+              "printed": 1200
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#bfc0c0",
+          "image": "x3298",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1200,
+              "unit_price": 1200,
+              "printed": 1200
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#141416",
+          "image": "x3299",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1200,
+              "unit_price": 1200,
+              "printed": 1200
+            }
+          ]
+        },
+        {
+          "label": "Cobre",
+          "hex": "#b9703f",
+          "image": "x3300",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 1200,
+              "unit_price": 1200,
+              "printed": 1200
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3296",
+          "page": 467,
+          "version": "limpia",
+          "alt": "Cuello bordado en V con flores de piedras y lentejuelas color dorado"
+        },
+        {
+          "id": "x3298",
+          "page": 467,
+          "version": "limpia",
+          "alt": "Cuello bordado en V con flores de piedras y lentejuelas color plateado"
+        },
+        {
+          "id": "x3299",
+          "page": 467,
+          "version": "limpia",
+          "alt": "Cuello bordado en V con flores de piedras y lentejuelas color negro"
+        },
+        {
+          "id": "x3300",
+          "page": 467,
+          "version": "limpia",
+          "alt": "Cuello bordado en V con flores de piedras y lentejuelas color cobre"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "El PDF usa el mismo título ('Cuellos bordados en piedras y lentejuelas') para dos diseños con precios distintos ($ 990 en p. 463-466 y $ 1200 en p. 467): se separaron en dos productos y el nombre del diseño (gotas / flores) se puso a partir de las fotos"
+      ]
+    },
+    {
+      "name": "Ramo de novia",
+      "pdf_text": "RAMO DE NOVIA $ 990",
+      "pages": [
+        468
+      ],
+      "category": "flores-artificiales",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Ramo de novia blanco. En las fotos se ven dos estilos: uno de flores de raso con perlas y tul, y otro de rosas blancas con brillos y mango forrado en cinta.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 990,
+              "unit_price": 990,
+              "printed": 990
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3305",
+          "page": 468,
+          "version": "limpia",
+          "alt": "Ramo de novia blanco de flores de raso con perlas y tul"
+        },
+        {
+          "id": "x3307",
+          "page": 468,
+          "version": "limpia",
+          "alt": "Ramo de novia de rosas blancas con brillos y mango forrado en cinta, visto de tres ángulos"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las dos fotos muestran ramos distintos con un solo precio ($ 990): confirmar si los dos modelos valen lo mismo o cuál es el que se vende"
+      ]
+    },
+    {
+      "name": "Aplique perla",
+      "pdf_text": "APLIQUE PERLA N1 $ 210 / APLIQUE PERLA N2 $ 250 / APLIQUE PERLA N 3 $ 250 C/U / APLIQUE PERLA N4 $ 210",
+      "pages": [
+        469,
+        470,
+        471,
+        472
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Apliques bordados con flores en relieve y perlas, en cuatro modelos numerados: N 1, N 2 y N 4 en blanco y N 3 en negro. Las fotos los muestran de a par espejado (izquierdo y derecho).",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x3311",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 210,
+              "unit_price": 210,
+              "printed": 210
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x3318",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x3323",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x3330",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 210,
+              "unit_price": 210,
+              "printed": 210
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3311",
+          "page": 469,
+          "version": "limpia",
+          "alt": "Par de apliques blancos con flores en relieve y perlas, modelo N 1"
+        },
+        {
+          "id": "x3318",
+          "page": 470,
+          "version": "limpia",
+          "alt": "Aplique blanco de rosas bordadas con perlas y hojas, modelo N 2"
+        },
+        {
+          "id": "x3316",
+          "page": 470,
+          "version": "limpia",
+          "alt": "Par de apliques blancos de rosas con perlas sobre una madera, modelo N 2"
+        },
+        {
+          "id": "x3323",
+          "page": 471,
+          "version": "limpia",
+          "alt": "Par de apliques negros de flores bordadas con perlas negras y strass, modelo N 3"
+        },
+        {
+          "id": "x3330",
+          "page": 472,
+          "version": "limpia",
+          "alt": "Aplique blanco de arabescos con flores y perlas, modelo N 4"
+        },
+        {
+          "id": "x3328",
+          "page": 472,
+          "version": "limpia",
+          "alt": "Aplique blanco de arabescos con flores y perlas, lado espejado, modelo N 4"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Sólo el N 3 dice 'C/U'; en N 1, N 2 y N 4 las fotos muestran un par (izquierdo y derecho) y no aclara si el precio es por unidad o por par: se tomó por unidad"
+      ]
+    },
+    {
+      "name": "Galón borla",
+      "pdf_text": "GALON BORLA 01 $ 118 EL METRO / GALON BORLA 02 $ 118 EL METRO / GALON BORLA 03 $ 98",
+      "pages": [
+        473,
+        474
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Galón con borlitas colgantes en tres modelos: 01 crudo con hilo dorado y borlas de colores vivos, 02 todo crudo y 03 blanco con borlas en tonos pastel. Se vende por metro.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 01",
+          "hex": null,
+          "image": "x3337",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        },
+        {
+          "label": "N 02",
+          "hex": null,
+          "image": "x3341",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        },
+        {
+          "label": "N 03",
+          "hex": null,
+          "image": "x3343",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3337",
+          "page": 473,
+          "version": "limpia",
+          "alt": "Tramo de galón crudo con hilo dorado y borlas naranja, amarilla, azul marino y turquesa"
+        },
+        {
+          "id": "x3335",
+          "page": 473,
+          "version": "limpia",
+          "alt": "Galón crudo con hilo dorado y borlas de colores, enrollado"
+        },
+        {
+          "id": "x3341",
+          "page": 474,
+          "version": "limpia",
+          "alt": "Galón de borlas todo en color crudo"
+        },
+        {
+          "id": "x3343",
+          "page": 474,
+          "version": "limpia",
+          "alt": "Dos tramos de galón blanco con borlas en tonos pastel: salmón, rosa, verde agua y beige"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: el 03 ($ 98) no dice 'el metro'; se asumió por metro como el 01 y el 02",
+        "Se armó como un producto con tres modelos (01, 02, 03); si la dueña los maneja como artículos separados, dividir"
+      ]
+    },
+    {
+      "name": "Fleco dorado y plateado",
+      "pdf_text": "FLECO DORADO Y PLATEADO 4 CM COD 0512-005 $ 98 el metro / 6 CM COD 0512-006 $ 108 el metro / 8 CM COD 0512-007 $118 el metro / PIEZAS X 25 YRDS",
+      "pages": [
+        475
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Fleco metalizado en dorado y plateado, en tres medidas (4, 6 y 8 cm), cada una con su código. Se vende por metro; las piezas son de 25 yardas.",
+      "variant_axis": "medida",
+      "variants": [
+        {
+          "label": "4 cm (COD 0512-005)",
+          "sku": "0512-005",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        },
+        {
+          "label": "6 cm (COD 0512-006)",
+          "sku": "0512-006",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 108,
+              "unit_price": 108,
+              "printed": 108
+            }
+          ]
+        },
+        {
+          "label": "8 cm (COD 0512-007)",
+          "sku": "0512-007",
+          "hex": null,
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Dorado",
+          "hex": "#c9a227"
+        },
+        {
+          "name": "Plateado",
+          "hex": "#b4b4b4"
+        }
+      ],
+      "images": [
+        {
+          "id": "x3347",
+          "page": 475,
+          "version": "limpia",
+          "alt": "Fleco metalizado plateado y dorado, dos tramos cruzados"
+        },
+        {
+          "id": "x3349",
+          "page": 475,
+          "version": "limpia",
+          "alt": "Detalle de flecos metalizados dorado y plateado"
+        }
+      ],
+      "wholesale_note": "Piezas x 25 yardas",
+      "needs_review": [
+        "Cada medida tiene su propio código (0512-005, 0512-006, 0512-007): se dejó sku null en el producto y el código en cada variante"
+      ]
+    },
+    {
+      "name": "Galón flor grande",
+      "pdf_text": "GALON FLOR GRANDE BLANCA Y CRUDA COD 19CR208 $ 298 EL METRO",
+      "pages": [
+        476
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "19CR208",
+      "material": null,
+      "badge": null,
+      "description": "Galón de flores grandes bordadas tipo margarita, unidas una a continuación de la otra, en blanco y crudo. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanca",
+          "hex": "#f1f2fb",
+          "image": "x3354",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Cruda",
+          "hex": "#ece9dc",
+          "image": "x3354",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3354",
+          "page": 476,
+          "version": "limpia",
+          "alt": "Dos piezas de galón de flores grandes bordadas, una cruda y una blanca"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón flor blanca y negra 19CR206",
+      "pdf_text": "FLOR BLANCA Y NEGRA COD 19CR206 $ 88",
+      "pages": [
+        477
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "19CR206",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto de florcitas bordadas en hilera, en blanco y en negro. Se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanca",
+          "hex": "#f4f4f2",
+          "image": "x3363",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 88,
+              "unit_price": 88,
+              "printed": 88
+            }
+          ]
+        },
+        {
+          "label": "Negra",
+          "hex": "#151515",
+          "image": "x3362",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 88,
+              "unit_price": 88,
+              "printed": 88
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3360",
+          "page": 477,
+          "version": "limpia",
+          "alt": "Galón de florcitas bordadas en blanco y en negro, un tramo de cada uno"
+        },
+        {
+          "id": "x3363",
+          "page": 477,
+          "version": "limpia",
+          "alt": "Pieza de galón de florcitas blanco"
+        },
+        {
+          "id": "x3362",
+          "page": 477,
+          "version": "limpia",
+          "alt": "Pieza de galón de florcitas negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Unidad de venta: se asumió por metro (en esta página no lo dice)",
+        "El título dice sólo 'FLOR BLANCA Y NEGRA'; se lo nombró 'galón' por la foto y por el galón flor grande de la página anterior"
+      ]
+    },
+    {
+      "name": "Tul bordado 18CR209",
+      "pdf_text": "TUL BORDADO 18CR209 $ 218 PIEZA X 10 YRDS",
+      "pages": [
+        478
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "18CR209",
+      "material": null,
+      "badge": null,
+      "description": "Tul bordado en tira, color crudo, con guarda de ramas, hojas y florcitas y borde festoneado. Las piezas son de 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3368",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3368",
+          "page": 478,
+          "version": "limpia",
+          "alt": "Tira de tul bordado color crudo con ramas y florcitas, borde festoneado"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": [
+        "Precio ambiguo: dice '$ 218 PIEZA X 10 YRDS' sin 'el metro'; se asumió $ 218 por metro (como el resto de los artículos CR del catálogo) y no el precio de la pieza de 10 yardas. Confirmar"
+      ]
+    },
+    {
+      "name": "Tul bordado 9 cm de ancho 18CRO46",
+      "pdf_text": "TUL BORDADO 9 CM ANCHO 18CRO46 $ 198 PIEZA X 10 YRDS",
+      "pages": [
+        479
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "18CRO46",
+      "material": null,
+      "badge": null,
+      "description": "Tul bordado blanco de 9 cm de ancho, con guarda de rosas y borde festoneado. Las piezas son de 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3373",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3373",
+          "page": 479,
+          "version": "limpia",
+          "alt": "Tul bordado blanco con guarda de rosas y borde festoneado"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": [
+        "Precio ambiguo: dice '$ 198 PIEZA X 10 YRDS' sin 'el metro'; se asumió $ 198 por metro y no el precio de la pieza de 10 yardas. Confirmar",
+        "El código está escrito '18CRO46' con letra O; puede ser '18CR046'. Se dejó tal cual"
+      ]
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

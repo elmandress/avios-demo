@@ -1,0 +1,1943 @@
+{
+  "batch": 16,
+  "products": [
+    {
+      "name": "Galón flor 28098-014",
+      "pdf_text": "GALON FLOR COD 28098-014 $ 250 el metro PIEZA X 10 YRDS",
+      "pages": [
+        550
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "28098-014",
+      "material": null,
+      "badge": null,
+      "description": "Galón de florcitas armadas con strass tornasol sobre base oscura. Se vende por metro; la pieza trae 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3873",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 250,
+              "unit_price": 250,
+              "printed": 250
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3873",
+          "page": 550,
+          "version": "limpia",
+          "alt": "Tiras de galón de florcitas de strass tornasol sobre base oscura"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón con strass y piedras 28098-009",
+      "pdf_text": "28098-009 1 10 YRDS $ 490 el metro / 28098-009 2 10 YRDS $ 490",
+      "pages": [
+        551
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "28098-009",
+      "material": null,
+      "badge": null,
+      "description": "Galón de piedras espejadas con marco negro y borde de strass, en dos modelos: N 1 con piedras cuadradas y N 2 con piedras redondas. Se vende por metro; la pieza trae 10 yardas.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x3879",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x3881",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3879",
+          "page": 551,
+          "version": "limpia",
+          "alt": "Galón de piedras cuadradas espejadas con marco negro y borde de strass"
+        },
+        {
+          "id": "x3881",
+          "page": 551,
+          "version": "limpia",
+          "alt": "Galón de piedras redondas espejadas con marco negro y borde de strass"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": [
+        "La página no trae título, sólo el código: el nombre 'galón con strass y piedras' sale de la foto",
+        "El modelo 2 dice '$ 490' sin 'el metro': se asumió por metro, igual que el modelo 1",
+        "'10 YRDS' se interpretó como pieza de 10 yardas"
+      ]
+    },
+    {
+      "name": "Galón gamuza con strass 28320-10",
+      "pdf_text": "GALON GAMUZA CON STRASS VARIEDAD DE COLORES COD28320-10 $ 298 el metro",
+      "pages": [
+        552,
+        553
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "28320-10",
+      "material": null,
+      "badge": null,
+      "description": "Galón ondulado de gamuza cubierto de strass, en variedad de colores. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Azul Francia",
+          "hex": "#1f3fd0",
+          "image": "x3895",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Rojo",
+          "hex": "#c4202e",
+          "image": "x3898",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Dorado",
+          "hex": "#cfc58e",
+          "image": "x3897",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Verde",
+          "hex": "#1f4d3c",
+          "image": "x3889",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Plateado tornasol",
+          "hex": "#dde2ea",
+          "image": "x3888",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Plateado",
+          "hex": "#a4a8ae",
+          "image": "x3899",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#15161b",
+          "image": "x3890",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 298,
+              "unit_price": 298,
+              "printed": 298
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3886",
+          "page": 552,
+          "version": "limpia",
+          "alt": "Galones de gamuza con strass en azul, rojo, dorado, verde, plateado y negro"
+        },
+        {
+          "id": "x3895",
+          "page": 553,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass azul Francia"
+        },
+        {
+          "id": "x3898",
+          "page": 553,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass rojo"
+        },
+        {
+          "id": "x3897",
+          "page": 553,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass dorado"
+        },
+        {
+          "id": "x3889",
+          "page": 552,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass verde"
+        },
+        {
+          "id": "x3888",
+          "page": 552,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass plateado tornasol"
+        },
+        {
+          "id": "x3899",
+          "page": 553,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass plateado"
+        },
+        {
+          "id": "x3890",
+          "page": 552,
+          "version": "limpia",
+          "alt": "Galón de gamuza con strass negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos (el PDF sólo dice 'variedad de colores')"
+      ]
+    },
+    {
+      "name": "Fleco de strass y piedras TC091",
+      "pdf_text": "HERMOSO FLECO STRASS Y PIEDRA DORDO COD TC091 $ 1390 el metro / HERMOSO FLECO STRASS PLATEADO CON PIEDRAS TORNAZOL COD TC091 $ 1390 el metro / HERMOSO FLECO STRASS DORADO CON PIEDRAS TORNAZOL COD TC091 $ 1390 el metro",
+      "pages": [
+        554,
+        555,
+        556
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "TC091",
+      "material": null,
+      "badge": null,
+      "description": "Fleco de cadenas de strass en degradé, rematadas con piedras en forma de gota. Viene en dorado, plateado con piedras tornasol y dorado con piedras tornasol. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Dorado",
+          "hex": "#d4a938",
+          "image": "x3906",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 1390,
+              "unit_price": 1390,
+              "printed": 1390
+            }
+          ]
+        },
+        {
+          "label": "Plateado con piedras tornasol",
+          "hex": "#c9ccd6",
+          "image": "x3911",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 1390,
+              "unit_price": 1390,
+              "printed": 1390
+            }
+          ]
+        },
+        {
+          "label": "Dorado con piedras tornasol",
+          "hex": "#d8b45e",
+          "image": "x3920",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 1390,
+              "unit_price": 1390,
+              "printed": 1390
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3906",
+          "page": 554,
+          "version": "limpia",
+          "alt": "Fleco de strass dorado con piedras gota transparentes"
+        },
+        {
+          "id": "x3904",
+          "page": 554,
+          "version": "limpia",
+          "alt": "Tramo de fleco de strass dorado con detalles de las piedras"
+        },
+        {
+          "id": "x3911",
+          "page": 555,
+          "version": "limpia",
+          "alt": "Fleco de strass plateado con piedras gota tornasol"
+        },
+        {
+          "id": "x3913",
+          "page": 555,
+          "version": "limpia",
+          "alt": "Fleco de strass plateado con piedras tornasol, rollo y tira"
+        },
+        {
+          "id": "x3920",
+          "page": 556,
+          "version": "limpia",
+          "alt": "Fleco de strass dorado con piedras gota tornasol"
+        },
+        {
+          "id": "x3918",
+          "page": 556,
+          "version": "limpia",
+          "alt": "Fleco de strass dorado con piedras tornasol, rollo y tira"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0525-15",
+      "pdf_text": "GALON 0525-15 $ 218 el metro",
+      "pages": [
+        557
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0525-15",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado blanco tipo guipur, con ondas y abanicos calados. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3925",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3925",
+          "page": 557,
+          "version": "limpia",
+          "alt": "Galón bordado blanco tipo guipur con abanicos calados"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0525-16",
+      "pdf_text": "GALON 0525-16 $ 218 el metro",
+      "pages": [
+        558
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0525-16",
+      "material": null,
+      "badge": null,
+      "description": "Galón bordado blanco tipo guipur, con arabescos y borde de flores. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3931",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 218,
+              "unit_price": 218,
+              "printed": 218
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3931",
+          "page": 558,
+          "version": "limpia",
+          "alt": "Galón bordado blanco tipo guipur con arabescos y borde de flores"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón 0429-12",
+      "pdf_text": "GALON 0429-12 $ 328 el metro",
+      "pages": [
+        558
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0429-12",
+      "material": null,
+      "badge": null,
+      "description": "Galón blanco de volados de organza con una hilera de perlas al centro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3933",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 328,
+              "unit_price": 328,
+              "printed": 328
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3933",
+          "page": 558,
+          "version": "limpia",
+          "alt": "Galón blanco de volados de organza con hilera de perlas al centro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla cruni 3,5 cm DE700",
+      "pdf_text": "PUNTILLA CRUNI 3,5 cm COD - DE700 $ 176 el metro",
+      "pages": [
+        559
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "DE700",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla de 3,5 cm con flores bordadas y borde en ondas, en blanco y en negro. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": "x3940",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 176,
+              "unit_price": 176,
+              "printed": 176
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x3941",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 176,
+              "unit_price": 176,
+              "printed": 176
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3938",
+          "page": 559,
+          "version": "limpia",
+          "alt": "Puntilla con flores bordadas en blanco y en negro"
+        },
+        {
+          "id": "x3940",
+          "page": 559,
+          "version": "limpia",
+          "alt": "Puntilla blanca con flores bordadas y borde en ondas"
+        },
+        {
+          "id": "x3941",
+          "page": 559,
+          "version": "limpia",
+          "alt": "Puntilla negra con flores bordadas y borde en ondas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "El PDF dice 'CRUNI' (¿Cluny?): se dejó tal cual"
+      ]
+    },
+    {
+      "name": "Puntilla 2 cm T11017",
+      "pdf_text": "COD: T11017 $ 148 el metro 2 cm ancho pieza x 15 YRDS",
+      "pages": [
+        560
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "T11017",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla blanca de 2 cm de ancho con florcitas bordadas en hilera. Se vende por metro; la pieza trae 15 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3946",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3946",
+          "page": 560,
+          "version": "limpia",
+          "alt": "Puntilla blanca angosta con florcitas bordadas en hilera"
+        }
+      ],
+      "wholesale_note": "Pieza x 15 yardas",
+      "needs_review": [
+        "La página no trae título, sólo el código: se nombró 'puntilla' por la foto y las páginas vecinas"
+      ]
+    },
+    {
+      "name": "Puntilla 2 cm DE650",
+      "pdf_text": "COD - DE650 2 cm ancho $ 148 el metro pieza x15 YRDS",
+      "pages": [
+        561
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "DE650",
+      "material": null,
+      "badge": null,
+      "description": "Puntilla de 2 cm de ancho con flores bordadas y los dos bordes en ondas, en blanco y en negro. Se vende por metro; la pieza trae 15 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": "x3954",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x3952",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 148,
+              "unit_price": 148,
+              "printed": 148
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3954",
+          "page": 561,
+          "version": "limpia",
+          "alt": "Puntilla blanca de dos bordes con flores bordadas"
+        },
+        {
+          "id": "x3952",
+          "page": 561,
+          "version": "limpia",
+          "alt": "Puntilla negra de dos bordes con flores bordadas"
+        }
+      ],
+      "wholesale_note": "Pieza x 15 yardas",
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "La página no trae título, sólo el código: se nombró 'puntilla' por la foto y las páginas vecinas"
+      ]
+    },
+    {
+      "name": "Puntilla de algodón 4 cm L65-3",
+      "pdf_text": "PUNTILLA ALGODÓN BLANCO , NEGRO Y CRUDO 4 cm ancho COD L65-3 $ 143 el metro",
+      "pages": [
+        562
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "L65-3",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 4 cm de ancho, calada, con los dos bordes en ondas. Viene en blanco, negro y crudo. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": "x3959",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 143,
+              "unit_price": 143,
+              "printed": 143
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x3959",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 143,
+              "unit_price": 143,
+              "printed": 143
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#e6d9b8",
+          "image": "x3959",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 143,
+              "unit_price": 143,
+              "printed": 143
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3959",
+          "page": 562,
+          "version": "limpia",
+          "alt": "Tres tiras de puntilla de algodón calada: blanca, negra y cruda"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 4,5 cm T102",
+      "pdf_text": "PUNTILLA ALGODÓN BLANCO , NEGRO Y CRUDO 4,5 cm COD: T102 $ 168 el metro pieza x 25 YRDS",
+      "pages": [
+        563
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "T102",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 4,5 cm con calado de rombos y borde en picos. Viene en blanco, negro y crudo. Se vende por metro; la pieza trae 25 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": "x3965",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 168,
+              "unit_price": 168,
+              "printed": 168
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x3967",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 168,
+              "unit_price": 168,
+              "printed": 168
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#e6d9b8",
+          "image": "x3965",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 168,
+              "unit_price": 168,
+              "printed": 168
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3965",
+          "page": 563,
+          "version": "limpia",
+          "alt": "Puntilla de algodón con rombos calados, en crudo y en blanco"
+        },
+        {
+          "id": "x3967",
+          "page": 563,
+          "version": "limpia",
+          "alt": "Puntilla de algodón negra con rombos calados y borde en picos"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón combinada 2,5 cm T0363",
+      "pdf_text": "PUNTILLA DE ALGODÓN COMBINADA 2,5 cm COD,T0363 $ 118 el metro Pieza x 25 YRDS",
+      "pages": [
+        564
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "T0363",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón combinada en blanco y crudo, de 2,5 cm, con los dos bordes en ondas. Se vende por metro; la pieza trae 25 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3972",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3972",
+          "page": 564,
+          "version": "limpia",
+          "alt": "Puntilla de algodón angosta combinada en blanco y crudo"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón combinada 4,5 cm 09",
+      "pdf_text": "PUNTILLA DE ALGODÓN COMBINADA 4,5 cm COD 09 $ 158 el metro Pieza x 25 YRDS",
+      "pages": [
+        564
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "09",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón combinada en blanco y crudo, de 4,5 cm, calada y con borde en ondas. Se vende por metro; la pieza trae 25 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3975",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 158,
+              "unit_price": 158,
+              "printed": 158
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3975",
+          "page": 564,
+          "version": "limpia",
+          "alt": "Puntilla de algodón combinada en blanco y crudo, calada con borde en ondas"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 6 cm 08",
+      "pdf_text": "PUNTILLA ALGODÓN BLANCO , NEGRO Y CRUDO 6 cm COD: 08 $ 198 el metro pieza x 25 YRDS",
+      "pages": [
+        565
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "08",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 6 cm, calada, con los dos bordes en ondas. Viene en blanco, negro y crudo. Se vende por metro; la pieza trae 25 yardas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": "x3979",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x3981",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        },
+        {
+          "label": "Crudo",
+          "hex": "#e6d9b8",
+          "image": "x3979",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 198,
+              "unit_price": 198,
+              "printed": 198
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3979",
+          "page": 565,
+          "version": "limpia",
+          "alt": "Puntilla de algodón calada de dos bordes, en blanco y en crudo"
+        },
+        {
+          "id": "x3981",
+          "page": 565,
+          "version": "limpia",
+          "alt": "Puntilla de algodón negra calada de dos bordes"
+        }
+      ],
+      "wholesale_note": "Pieza x 25 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 9 cm 19CR197",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR197 9 CM ANCHO $ 207 el metro PIEZA X 20 YRDS",
+      "pages": [
+        566
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR197",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 9 cm de ancho, con calado de rombos y borde en ondas. En la foto se ve en crudo, negro y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3986",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 207,
+              "unit_price": 207,
+              "printed": 207
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3986",
+          "page": 566,
+          "version": "limpia",
+          "alt": "Puntillas de algodón anchas con rombos calados, en crudo, negro y blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 9 cm 19CR198",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR198 9 CM ANCHO $ 207 el metro PIEZA X 20 YRDS",
+      "pages": [
+        567
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR198",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 9 cm de ancho, con calado geométrico y borde de piquitos. En la foto se ve en negro, blanco y crudo. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3992",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 207,
+              "unit_price": 207,
+              "printed": 207
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3992",
+          "page": 567,
+          "version": "limpia",
+          "alt": "Puntillas de algodón anchas con calado geométrico, en negro, blanco y crudo"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón entredós 4 cm 0631-6",
+      "pdf_text": "PUNTILLA ALGODÓN ENTRE DOS COD 0631-6 4 CM ANCHO $ 143 el metro PIEZA X 20 YRDS",
+      "pages": [
+        568
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "0631-6",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón entredós de 4 cm de ancho, con los dos bordes en picos. En la foto se ve en crudo y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x3998",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 143,
+              "unit_price": 143,
+              "printed": 143
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x3998",
+          "page": 568,
+          "version": "limpia",
+          "alt": "Puntillas de algodón entredós en crudo y en blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón entredós 4 cm 19CR204",
+      "pdf_text": "PUNTILLA ALGODÓN ENTRE DOS COD 19CR204 4 CM ANCHO $ 143 el metro PIEZA X 20 YRDS",
+      "pages": [
+        569
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR204",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón entredós de 4 cm de ancho, con calado de triángulos y los dos bordes en picos. En la foto se ve en blanco y crudo. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4004",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 143,
+              "unit_price": 143,
+              "printed": 143
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4004",
+          "page": 569,
+          "version": "limpia",
+          "alt": "Puntillas de algodón entredós con triángulos calados, en blanco y en crudo"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 2,8 cm 0631-1",
+      "pdf_text": "PUNTILLA ALGODON COD 0631-1 2,8 CM ANCHO $ 98 el metro PIEZA X 20 YRDS",
+      "pages": [
+        570
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "0631-1",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 2,8 cm de ancho, calada, con borde en ondas. En la foto se ve en crudo y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4010",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4010",
+          "page": 570,
+          "version": "limpia",
+          "alt": "Puntillas de algodón caladas en crudo y en blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 1,5 cm 19CR199",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR199 1,5 CM ANCHO $ 75 el metro PIEZA X 20 YRDS",
+      "pages": [
+        571
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR199",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 1,5 cm de ancho, angosta, con borde en ondas. En la foto se ve en negro, crudo y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4015",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4015",
+          "page": 571,
+          "version": "limpia",
+          "alt": "Puntillas de algodón angostas con borde en ondas, en negro, crudo y blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 2 cm 19CR201",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR201 2 CM ANCHO $ 86 el metro PIEZA X 20 YRDS",
+      "pages": [
+        572
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR201",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 2 cm de ancho, calada, con borde en picos. En la foto se ve en blanco y crudo. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4020",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4020",
+          "page": 572,
+          "version": "limpia",
+          "alt": "Puntillas de algodón caladas en blanco y en crudo"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 1,5 cm 19CR202",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR202 1,5CM ANCHO $ 75 el metro PIEZA X 20 YRDS",
+      "pages": [
+        573
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR202",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 1,5 cm de ancho, angosta, con borde en picos. En la foto se ve en crudo y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4026",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 75,
+              "unit_price": 75,
+              "printed": 75
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4026",
+          "page": 573,
+          "version": "limpia",
+          "alt": "Puntillas de algodón angostas con borde en picos, en crudo y en blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 2,8 cm 0631-7",
+      "pdf_text": "PUNTILLA ALGODON COD 0631-7 2,8 CMCM ANCHO $ 86 el metro PIEZA X 20 YRDS",
+      "pages": [
+        574
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "0631-7",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 2,8 cm de ancho, calada, con borde en ondas. En la foto se ve en crudo y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4032",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 86,
+              "unit_price": 86,
+              "printed": 86
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4032",
+          "page": 574,
+          "version": "limpia",
+          "alt": "Puntillas de algodón caladas con borde en ondas, en crudo y en blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 2,8 cm 19CR200",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR200 2,8 CMCM ANCHO $ 98 el metro PIEZA X 20 YRDS",
+      "pages": [
+        575
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR200",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 2,8 cm de ancho, calada, con borde en picos. En la foto se ve en blanco, crudo y negro. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4038",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4038",
+          "page": 575,
+          "version": "limpia",
+          "alt": "Puntillas de algodón caladas en blanco, crudo y negro"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Puntilla de algodón 4 cm 19CR203",
+      "pdf_text": "PUNTILLA ALGODON COD 19CR203 – 631-5 4 CMCM ANCHO $ 118 el metro PIEZA X 20 YRDS",
+      "pages": [
+        576
+      ],
+      "category": "puntillas-y-encajes",
+      "sku": "19CR203 – 631-5",
+      "material": "algodón",
+      "badge": null,
+      "description": "Puntilla de algodón de 4 cm de ancho con calado en zigzag y borde en ondas. En la foto se ve en crudo y blanco. Se vende por metro; la pieza trae 20 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4044",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 118,
+              "unit_price": 118,
+              "printed": 118
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4044",
+          "page": 576,
+          "version": "limpia",
+          "alt": "Puntillas de algodón con calado en zigzag, en crudo y en blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 20 yardas",
+      "needs_review": [
+        "El PDF trae dos códigos juntos ('19CR203 – 631-5') para una sola foto y un solo precio: se dejó como un único producto con los dos códigos; confirmar si son el mismo artículo"
+      ]
+    },
+    {
+      "name": "Galón blanco con flores y perlas 8 cm E588",
+      "pdf_text": "GALON BLANCO CON FLORES Y PERLAS 8 cm ancho COD:E588 $ 890 el metro PIEZA X 15 YRDS",
+      "pages": [
+        577
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "E588",
+      "material": null,
+      "badge": null,
+      "description": "Galón blanco de 8 cm de ancho, bordado con flores y una perla en el centro de cada flor, con los dos bordes en ondas. Se vende por metro; la pieza trae 15 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4049",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 890,
+              "unit_price": 890,
+              "printed": 890
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4049",
+          "page": 577,
+          "version": "limpia",
+          "alt": "Galón blanco ancho de flores bordadas con perlas"
+        },
+        {
+          "id": "x4051",
+          "page": 577,
+          "version": "limpia",
+          "alt": "Galón blanco de flores con perlas, tira y rollo"
+        }
+      ],
+      "wholesale_note": "Pieza x 15 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Fleco de strass y organza 6 cm TC-089",
+      "pdf_text": "FLECO STRASS Y ORGANZA 6 CM LARGO COD,TC- 089 $ 490 el metro",
+      "pages": [
+        578
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "TC-089",
+      "material": null,
+      "badge": null,
+      "description": "Fleco de 6 cm de largo: tiras de strass y cadenita plateada colgando de una cinta de organza negra. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4056",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4056",
+          "page": 578,
+          "version": "limpia",
+          "alt": "Fleco de tiras de strass plateado sobre cinta de organza negra"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Malla red elastizada con strass TC-092",
+      "pdf_text": "MALLA RED ELASTIZADA CON STRASS COD TC-092 $ 1290 el metro",
+      "pages": [
+        579
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": "TC-092",
+      "material": null,
+      "badge": null,
+      "description": "Malla tipo red elastizada con un strass en cada cruce, en blanco y en negro. Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": "x4062",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 1290,
+              "unit_price": 1290,
+              "printed": 1290
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x4066",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 1290,
+              "unit_price": 1290,
+              "printed": 1290
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4066",
+          "page": 579,
+          "version": "limpia",
+          "alt": "Malla red negra elastizada con strass tornasol"
+        },
+        {
+          "id": "x4062",
+          "page": 579,
+          "version": "limpia",
+          "alt": "Malla red blanca elastizada con strass tornasol"
+        },
+        {
+          "id": "x4064",
+          "page": 579,
+          "version": "limpia",
+          "alt": "Mano debajo de la malla red negra con strass, para ver el tamaño de la trama"
+        },
+        {
+          "id": "x4065",
+          "page": 579,
+          "version": "limpia",
+          "alt": "Malla red negra con strass, estirada"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Nombres de color puestos a partir de las fotos",
+        "No aclara el ancho de la malla que se entrega por cada metro"
+      ]
+    },
+    {
+      "name": "Galón flor negro con perlas N1",
+      "pdf_text": "GALON FLOR NEGRO CON PERLAS COD N1 $ 249 el metro",
+      "pages": [
+        580
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "N1",
+      "material": null,
+      "badge": null,
+      "description": "Galón negro de flores bordadas en hilera, cada una con una perla negra al centro. Se vende por metro.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4071",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 249,
+              "unit_price": 249,
+              "printed": 249
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4071",
+          "page": 580,
+          "version": "limpia",
+          "alt": "Galón negro de flores bordadas con perla negra al centro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón flor 19CR206",
+      "pdf_text": "GALON FLOR BLANCO Y NEGRO 19CR206 $ 88 el metro",
+      "pages": [
+        581
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "19CR206",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto de florcitas bordadas en hilera, en blanco y en negro (en las fotos se ve el negro). Se vende por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Blanco",
+          "hex": "#f4f3ee",
+          "image": null,
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 88,
+              "unit_price": 88,
+              "printed": 88
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1a1a1c",
+          "image": "x4079",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 88,
+              "unit_price": 88,
+              "printed": 88
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4079",
+          "page": 581,
+          "version": "limpia",
+          "alt": "Rollo y tira de galón negro de florcitas bordadas"
+        },
+        {
+          "id": "x4077",
+          "page": 581,
+          "version": "limpia",
+          "alt": "Tiras de galón negro de florcitas bordadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Galón strass 1,5 cm 062B-001",
+      "pdf_text": "GALON STRASS ANCHO 1,5 CM PIEZA X 10 YRDS COD 062B-001 $ 490 el metro",
+      "pages": [
+        582
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "062B-001",
+      "material": null,
+      "badge": null,
+      "description": "Galón de 1,5 cm de ancho con centro de bolitas facetadas y dos hileras de strass a los lados. En la foto se ve en dorado y en un tono oscuro violáceo. Se vende por metro; la pieza trae 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4083",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4083",
+          "page": 582,
+          "version": "limpia",
+          "alt": "Galones de strass con centro de bolitas, uno dorado y uno oscuro violáceo"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón strass 3,5 cm 062B-002",
+      "pdf_text": "GALON STRASS 3,5 CM ANCHO PIEZA X 10 YRDS COD 062B-002 $ 690 el metro",
+      "pages": [
+        583
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "062B-002",
+      "material": null,
+      "badge": null,
+      "description": "Galón de 3,5 cm de ancho formado por círculos de strass unidos en hilera. En la foto se ve en plateado y en dorado. Se vende por metro; la pieza trae 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4089",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 690,
+              "unit_price": 690,
+              "printed": 690
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4089",
+          "page": 583,
+          "version": "limpia",
+          "alt": "Galones de círculos de strass en plateado y en dorado"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón dorado strass 4 cm 062B-003",
+      "pdf_text": "GALON DORADO STRASS 4 CM PIEZA X 5 YRDS COD 062B-003 $ 690 el metro",
+      "pages": [
+        584
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "062B-003",
+      "material": null,
+      "badge": null,
+      "description": "Galón dorado de 4 cm, bordado con canutillos y brillos, con un borde en picos. Se vende por metro; la pieza trae 5 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4095",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 690,
+              "unit_price": 690,
+              "printed": 690
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4095",
+          "page": 584,
+          "version": "limpia",
+          "alt": "Galón dorado bordado con canutillos y borde en picos"
+        }
+      ],
+      "wholesale_note": "Pieza x 5 yardas",
+      "needs_review": []
+    },
+    {
+      "name": "Galón strass 0508-017",
+      "pdf_text": "GALON STRASS COD 0508-017 PIEZA X 10 YRDS $ 268 el metro",
+      "pages": [
+        585
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": "0508-017",
+      "material": null,
+      "badge": null,
+      "description": "Galón angosto de una hilera de strass engarzado. En la foto se ve en negro y en blanco. Se vende por metro; la pieza trae 10 yardas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4100",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 268,
+              "unit_price": 268,
+              "printed": 268
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4100",
+          "page": 585,
+          "version": "limpia",
+          "alt": "Galón de strass en hilera, en negro y en blanco"
+        }
+      ],
+      "wholesale_note": "Pieza x 10 yardas",
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [],
+  "skipped_pages": [],
+  "skipped_images": [],
+  "unused_prices": []
+}

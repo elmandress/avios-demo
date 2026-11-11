@@ -100,7 +100,7 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
               color: avios.ink500,
             }}
           >
-            Demo de muestra: esta versión incluye una selección de artículos del local y el catálogo completo sigue en el mostrador.
+            El catálogo completo de Avíos: casi 600 artículos y más de 1.800 medidas, colores y modelos, con foto y precio.
           </p>
           <div style={{ display: 'flex', gap: 11, flexWrap: 'wrap' }}>
             <Button href="/tienda" variant="primary" size="lg">
@@ -187,9 +187,9 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
               El local, en San José y Andes
             </SectionTitle>
             <p>
-              Esta demo muestra una selección de artículos. La versión para Avíos puede reunir el
-              catálogo completo: cada cinta, hilo y medida en una ficha fácil de encontrar, con
-              precios y un pedido listo para consultar por WhatsApp.
+              Acá está el catálogo completo de Avíos: cada cinta, galón, hilo y medida en una ficha
+              fácil de encontrar, con foto, precio por menor y por mayor, y el pedido listo para
+              mandar por WhatsApp.
             </p>
             <div className="shop-strip-actions">
               <Button href="/contacto" variant="secondary">

@@ -1,0 +1,991 @@
+{
+  "batch": 20,
+  "products": [
+    {
+      "name": "Moneda árabe para rostro",
+      "pdf_text": "MONEDA ARABE PARA ROSTRO $ 649",
+      "pages": [
+        699
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Velo de monedas doradas para el rostro, con cadenitas y monedas que cruzan la frente y caen sobre la cara. Accesorio para danza árabe; se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4842",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4842",
+          "page": 699,
+          "version": "limpia",
+          "alt": "Maniquí con velo de monedas doradas sobre frente y rostro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Casco árabe",
+      "pdf_text": "CASCO ARABE $ 759",
+      "pages": [
+        699
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Casco de cadenas con monedas doradas que cubre la cabeza y cae en tiras sobre el pelo. Accesorio para danza árabe; se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4844",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 759,
+              "unit_price": 759,
+              "printed": 759
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4844",
+          "page": 699,
+          "version": "limpia",
+          "alt": "Casco de cadenas y monedas doradas visto desde atrás sobre pelo negro"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Caderín de monedas metal dorado",
+      "pdf_text": "CADERIN MONEDAD METAL DORADO $ 649",
+      "pages": [
+        700
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": "metal",
+      "badge": null,
+      "description": "Caderín de danza árabe hecho en malla de monedas de metal dorado, con cadenita y cierre para ajustar. Se vende por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4848",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4848",
+          "page": 700,
+          "version": "limpia",
+          "alt": "Caderín triangular de monedas doradas con cadena de ajuste"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "El título dice 'CADERIN MONEDAD': se interpretó como 'caderín de monedas'"
+      ]
+    },
+    {
+      "name": "Pulsera para danza árabe",
+      "pdf_text": "PULSERA PARA DANZA ARABE DORADO Y PLATA N1 $ 319 / N2 N3 N4 PULSERA PARA DANZA ARABE CON CRISTALES $ 429 / N5 PULSERA PARA DANZA ARABE CON CRISTALES $ 429",
+      "pages": [
+        701,
+        702,
+        703
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Pulsera para danza árabe que se engancha al dedo con un anillo y cubre el dorso de la mano. El modelo N 1 es de monedas y viene en dorado y en plata; los N 2 a N 5 son dorados con cristales de colores (rojo, lila o multicolor según el modelo).",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1 · dorado y plata",
+          "hex": null,
+          "image": "x4853",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 319,
+              "unit_price": 319,
+              "printed": 319
+            }
+          ]
+        },
+        {
+          "label": "N 2 · con cristales",
+          "hex": null,
+          "image": "x4863",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 3 · con cristales",
+          "hex": null,
+          "image": "x4862",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 4 · con cristales",
+          "hex": null,
+          "image": "x4860",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        },
+        {
+          "label": "N 5 · con cristales",
+          "hex": null,
+          "image": "x4868",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 429,
+              "unit_price": 429,
+              "printed": 429
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "name": "Dorado",
+          "hex": "#d4a93a"
+        },
+        {
+          "name": "Plata",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "images": [
+        {
+          "id": "x4855",
+          "page": 701,
+          "version": "limpia",
+          "alt": "Mano con pulsera dorada de monedas unida a un anillo por una cadenita"
+        },
+        {
+          "id": "x4853",
+          "page": 701,
+          "version": "limpia",
+          "alt": "Dos manos con pulsera de monedas modelo N 1, una dorada y otra plateada"
+        },
+        {
+          "id": "x4863",
+          "page": 702,
+          "version": "etiquetada",
+          "alt": "Pulsera dorada con cristales rojos sobre el dorso de la mano, modelo N 2"
+        },
+        {
+          "id": "x4862",
+          "page": 702,
+          "version": "etiquetada",
+          "alt": "Pulsera dorada tipo red con cristales lilas, modelo N 3"
+        },
+        {
+          "id": "x4860",
+          "page": 702,
+          "version": "limpia",
+          "alt": "Pulsera dorada con cristales rojos, azules y verdes, modelo N 4"
+        },
+        {
+          "id": "x4868",
+          "page": 703,
+          "version": "etiquetada",
+          "alt": "Pulsera dorada con cristales rojos y anillo sobre fondo blanco, modelo N 5"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Los colores dorado y plata corresponden sólo al modelo N 1 (así lo dice el título de la p. 701)",
+        "No aclara si el precio es por par o por unidad (se puso por unidad)"
+      ]
+    },
+    {
+      "name": "Caderín de danza árabe de tela código 002",
+      "pdf_text": "CADERIN DANZA ARABE DE TELA COLOR NEGRO CON PLATA NEGRO CON DORADO CODIGO 002 $ 649",
+      "pages": [
+        704
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": "002",
+      "material": "tela",
+      "badge": null,
+      "description": "Caderín de tela negra para danza árabe, con cintura de piedras de colores y monedas colgantes. Viene en negro con monedas plateadas o negro con monedas doradas.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Negro con plata",
+          "hex": "#b9b9b9",
+          "image": "x4877",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        },
+        {
+          "label": "Negro con dorado",
+          "hex": "#c9a13b",
+          "image": "x4874",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4874",
+          "page": 704,
+          "version": "limpia",
+          "alt": "Caderín de tela negra con monedas doradas y cintura de piedras de colores, puesto"
+        },
+        {
+          "id": "x4877",
+          "page": 704,
+          "version": "limpia",
+          "alt": "Caderín de tela negra con monedas y perlitas plateadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Caderín de danza árabe de tela código 003",
+      "pdf_text": "CADERIN DANZA ARABE DE TELA CODIGO 003 $ 649",
+      "pages": [
+        705
+      ],
+      "category": "accesorios-de-vestimenta",
+      "sku": "003",
+      "material": "tela",
+      "badge": null,
+      "description": "Caderín de tela para danza árabe; en las fotos se ve en negro, con cintura de lentejuelas doradas y monedas doradas colgantes. Se ata con cintas.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4881",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 649,
+              "unit_price": 649,
+              "printed": 649
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4881",
+          "page": 705,
+          "version": "limpia",
+          "alt": "Caderín de tela negra con franja de lentejuelas doradas y monedas doradas, puesto"
+        },
+        {
+          "id": "x4883",
+          "page": 705,
+          "version": "limpia",
+          "alt": "Caderín negro con monedas doradas extendido sobre una mesa de madera"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Apliques grandes enanitos",
+      "pdf_text": "APLIQUES GRANDES ENANITOS $ 490 medidas 26x20 cm aprox / N 1 N 2 N 3 N 4 N 5 N 6 N 7",
+      "pages": [
+        706,
+        707,
+        708
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Apliques grandes bordados de enanitos, de 26x20 cm aproximadamente, en siete modelos numerados. Se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 1",
+          "hex": null,
+          "image": "x4893",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 2",
+          "hex": null,
+          "image": "x4895",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 3",
+          "hex": null,
+          "image": "x4896",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 4",
+          "hex": null,
+          "image": "x4897",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 5",
+          "hex": null,
+          "image": "x4902",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 6",
+          "hex": null,
+          "image": "x4904",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 7",
+          "hex": null,
+          "image": "x4905",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4887",
+          "page": 706,
+          "version": "limpia",
+          "alt": "Siete apliques grandes bordados de enanitos sobre cartón corrugado"
+        },
+        {
+          "id": "x4893",
+          "page": 707,
+          "version": "limpia",
+          "alt": "Aplique de enanito con gorro azul, saco amarillo y barba blanca larga"
+        },
+        {
+          "id": "x4895",
+          "page": 707,
+          "version": "limpia",
+          "alt": "Aplique de enanito con gorro mostaza y saco marrón, con el dedo bajo la nariz"
+        },
+        {
+          "id": "x4896",
+          "page": 707,
+          "version": "limpia",
+          "alt": "Aplique de enanito con lentes, gorro amarillo y saco marrón, caminando"
+        },
+        {
+          "id": "x4897",
+          "page": 707,
+          "version": "limpia",
+          "alt": "Aplique de enanito sin barba con gorro lila y túnica amarilla"
+        },
+        {
+          "id": "x4902",
+          "page": 708,
+          "version": "limpia",
+          "alt": "Aplique de enanito de saco marrón y zapatos grises, caminando enojado"
+        },
+        {
+          "id": "x4904",
+          "page": 708,
+          "version": "limpia",
+          "alt": "Aplique de enanito de saco rojo y pantalón marrón, caminando con el puño cerrado"
+        },
+        {
+          "id": "x4905",
+          "page": 708,
+          "version": "limpia",
+          "alt": "Aplique de enanito sonriente con saco naranja y pantalón celeste"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    },
+    {
+      "name": "Apliques grandes de tigres, calavera y Guns N' Roses",
+      "pdf_text": "N 8 Medida 25x26 $ 240 / N 9 Medida 20x18 $ 390 / N 10 Medida 22x15 $ 490 / N 11 Medida 16x17 $ 390 / N 12 Medida 16x18 $ 390 / N 13 Medida 32x16 $ 490 / N 14 Medida 22x16 $ 390 / N 15 Medida 20x27 $ 490",
+      "pages": [
+        709,
+        710,
+        711,
+        712,
+        713
+      ],
+      "category": "apliques-y-escudos",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Apliques grandes bordados, modelos N 8 a N 15: seis tigres (cabezas y de cuerpo entero), una calavera mexicana de colores y uno de Guns N' Roses con pistolas y rosas. Cada modelo tiene su medida y su precio; se venden por unidad.",
+      "variant_axis": "modelo",
+      "variants": [
+        {
+          "label": "N 8 · 25x26",
+          "hex": null,
+          "image": "x4910",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 240,
+              "unit_price": 240,
+              "printed": 240
+            }
+          ]
+        },
+        {
+          "label": "N 9 · 20x18",
+          "hex": null,
+          "image": "x4912",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "N 10 · 22x15",
+          "hex": null,
+          "image": "x4913",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 11 · 16x17",
+          "hex": null,
+          "image": "x4918",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "N 12 · 16x18",
+          "hex": null,
+          "image": "x4920",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "N 13 · 32x16",
+          "hex": null,
+          "image": "x4925",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        },
+        {
+          "label": "N 14 · 22x16",
+          "hex": null,
+          "image": "x4927",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 390,
+              "unit_price": 390,
+              "printed": 390
+            }
+          ]
+        },
+        {
+          "label": "N 15 · 20x27",
+          "hex": null,
+          "image": "x4932",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 490,
+              "unit_price": 490,
+              "printed": 490
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4938",
+          "page": 713,
+          "version": "limpia",
+          "alt": "Seis apliques bordados de tigres: dos de cuerpo entero y cuatro cabezas"
+        },
+        {
+          "id": "x4910",
+          "page": 709,
+          "version": "limpia",
+          "alt": "Aplique de cabeza de tigre de frente, amarillo con ojos verdes"
+        },
+        {
+          "id": "x4912",
+          "page": 709,
+          "version": "limpia",
+          "alt": "Aplique de cabeza de tigre rugiendo, amarillo y naranja con boca roja"
+        },
+        {
+          "id": "x4913",
+          "page": 709,
+          "version": "etiquetada",
+          "alt": "Aplique de tigre de cuerpo entero bajando, modelo N 10"
+        },
+        {
+          "id": "x4918",
+          "page": 710,
+          "version": "limpia",
+          "alt": "Aplique de cabeza de tigre rugiendo en tonos marrón y blanco"
+        },
+        {
+          "id": "x4920",
+          "page": 710,
+          "version": "limpia",
+          "alt": "Aplique de cabeza de tigre de perfil rugiendo, naranja y amarillo"
+        },
+        {
+          "id": "x4925",
+          "page": 711,
+          "version": "limpia",
+          "alt": "Aplique de tigre de cuerpo entero de espaldas, mirando hacia arriba"
+        },
+        {
+          "id": "x4927",
+          "page": 711,
+          "version": "etiquetada",
+          "alt": "Aplique de calavera mexicana blanca con flores y detalles de colores, modelo N 14"
+        },
+        {
+          "id": "x4932",
+          "page": 712,
+          "version": "limpia",
+          "alt": "Aplique de Guns N' Roses con dos revólveres cruzados y rosas rojas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las páginas 709 a 712 no traen título: se tomaron los modelos N 8 a N 15 como continuación de 'Apliques grandes' (la numeración sigue de corrido después de los enanitos); el nombre sale de lo que se ve en las fotos",
+        "N 8 (medida 25x26) figura a $ 240, más barato que modelos más chicos a $ 390 y $ 490: confirmar el precio",
+        "En la p. 711 hay un texto suelto 'Medida 25x26 $' sin precio encima de la foto del N 13; se tomó para el N 13 'Medida 32x16 $ 490'",
+        "Las medidas de N 8 a N 15 no aclaran la unidad (se entiende cm, como en los enanitos)"
+      ]
+    },
+    {
+      "name": "Apliques de strass de plancha",
+      "pdf_text": "APLIQUES STRASS DE PLANCHA $ 98 CADA UNO",
+      "pages": [
+        716
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "sku": null,
+      "material": null,
+      "badge": null,
+      "description": "Apliques de strass para pegar con plancha. En las fotos: una mariposa y una flor con piedras rosadas y un diseño en cruz con piedras cristal. Precio por unidad.",
+      "variant_axis": null,
+      "variants": [
+        {
+          "label": "",
+          "hex": null,
+          "image": "x4956",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Unidad",
+              "unit": "u",
+              "content_qty": 1,
+              "price": 98,
+              "unit_price": 98,
+              "printed": 98
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4956",
+          "page": 716,
+          "version": "limpia",
+          "alt": "Aplique de strass con forma de mariposa y piedras cuadradas rosadas"
+        },
+        {
+          "id": "x4958",
+          "page": 716,
+          "version": "limpia",
+          "alt": "Aplique de strass en forma de cruz con rayos y piedras cuadradas cristal"
+        },
+        {
+          "id": "x4959",
+          "page": 716,
+          "version": "limpia",
+          "alt": "Aplique de strass con forma de flor y piedras ovaladas rosadas"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": [
+        "Las tres fotos muestran diseños distintos sin número ni nombre; se dejó un solo producto sin variantes"
+      ]
+    },
+    {
+      "name": "Galón símil cuero",
+      "pdf_text": "OFERTA !!!! GALON SIMIL CUERO PLATA , MARINO , NEGRO Y BORDO $ 85 EL METRO",
+      "pages": [
+        717
+      ],
+      "category": "galones-flecos-y-borlas",
+      "sku": null,
+      "material": "símil cuero",
+      "badge": "Oferta",
+      "description": "Galón calado de símil cuero, en oferta. Viene en plata, marino, negro y bordó; se corta por metro.",
+      "variant_axis": "color",
+      "variants": [
+        {
+          "label": "Plata",
+          "hex": "#b8b8b0",
+          "image": "x4963",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 85,
+              "unit_price": 85,
+              "printed": 85
+            }
+          ]
+        },
+        {
+          "label": "Marino",
+          "hex": "#1c2542",
+          "image": "x4963",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 85,
+              "unit_price": 85,
+              "printed": 85
+            }
+          ]
+        },
+        {
+          "label": "Negro",
+          "hex": "#1b1b1b",
+          "image": "x4963",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 85,
+              "unit_price": 85,
+              "printed": 85
+            }
+          ]
+        },
+        {
+          "label": "Bordó",
+          "hex": "#7a2b33",
+          "image": "x4963",
+          "formats": [
+            {
+              "tier": "menor",
+              "label": "Por metro",
+              "unit": "m",
+              "content_qty": 1,
+              "price": 85,
+              "unit_price": 85,
+              "printed": 85
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "images": [
+        {
+          "id": "x4963",
+          "page": 717,
+          "version": "limpia",
+          "alt": "Cuatro tiras de galón calado símil cuero en plata, marino, negro y bordó"
+        }
+      ],
+      "wholesale_note": null,
+      "needs_review": []
+    }
+  ],
+  "no_price_products": [
+    {
+      "name": "Tachas (variedad)",
+      "pages": [
+        714,
+        715
+      ],
+      "category": "lentejuelas-strass-y-perlas",
+      "description": "Variedad de tachas: en las fotos se ven pirámides, cuadradas, corazones, conos y garras en tonos dorado, plateado, negro y bronce. El PDF no trae precio ni medidas: se consulta.",
+      "pdf_text": "VARIEDAD DE TACHAS",
+      "images": [
+        {
+          "id": "x4951",
+          "page": 715,
+          "version": "limpia",
+          "alt": "Tachas en forma de cono, garra y triángulo aplicadas sobre un bolsillo de jean"
+        },
+        {
+          "id": "x4946",
+          "page": 714,
+          "version": "limpia",
+          "alt": "Cajas con tachas pirámide doradas, plateadas y negras"
+        },
+        {
+          "id": "x4943",
+          "page": 714,
+          "version": "limpia",
+          "alt": "Cajas con tachas cuadradas doradas y negras"
+        },
+        {
+          "id": "x4945",
+          "page": 714,
+          "version": "limpia",
+          "alt": "Cajas con tachas de corazón y otras formas en dorado y negro"
+        }
+      ]
+    }
+  ],
+  "skipped_pages": [
+    {
+      "page": 718,
+      "reason": "página de cierre ('Gracias por elegirnos')"
+    }
+  ],
+  "skipped_images": [
+    {
+      "page": 703,
+      "id": "x4862",
+      "reason": "foto repetida: es la misma del modelo N 3 de la p. 702, acá sin rótulo"
+    },
+    {
+      "page": 718,
+      "id": "x4969",
+      "reason": "logo de Mercería Avíos en la página de cierre"
+    }
+  ],
+  "unused_prices": []
+}

@@ -43,8 +43,11 @@ De ahí sale la arquitectura, y conviene tenerlo presente antes de agregar nada:
 
 # La escala real
 
-El catálogo de Avíos son **cientos de artículos**. Los ~20 que están en
-`data.ts` son la primera página del catálogo en papel, cargada como muestra.
+El catálogo de Avíos está **cargado entero**: 597 artículos, 1.855 variantes
+(anchos, colores, modelos numerados) y 1.664 fotos, sacados del PDF de 718
+páginas. Vive en `src/lib/catalog/catalogo-pdf.json` (generado, no se edita a
+mano) y las fotos en `public/catalogo/`. Cómo se generó y cómo repetirlo con un
+PDF nuevo: `scripts/catalogo-pdf/README.md`.
 
 Eso decide cosas y conviene tenerlo presente antes de escribir nada:
 
@@ -67,10 +70,14 @@ Eso decide cosas y conviene tenerlo presente antes de escribir nada:
 # Lo que no se negocia
 
 - **Precios**: acá **no se inventa un precio ni una medida**. Todo lo que está en
-  `src/lib/catalog/data.ts` salió del catálogo en papel de Alejandra. Cuando un
+  `catalogo-pdf.json` salió del PDF de Alejandra, y cada precio se verificó
+  contra el texto de su página (`scripts/catalogo-pdf/tools/validate.py`). Cuando un
   dato falta, se deja `null` y se anota en `needsReview` del producto — nunca se
   completa con algo verosímil. El panel muestra esos pendientes en `/panel`.
-- **Modelo de precios**: producto → **variante** (ancho, color, medida) →
+- **Artículos sin precio**: los pocos que el PDF trae como "consultar precios"
+  llevan `priceOnRequest` y se publican con foto y botón de WhatsApp. No se les
+  pone un precio.
+- **Modelo de precios**: producto → **variante** (ancho, color, medida, modelo) →
   **presentación** (por metro / pieza cerrada de 100 m / unidad). El precio por
   mayor cuelga de la PRESENTACIÓN, no del cliente: por eso esta tienda no
   necesita login de mayorista. No volver a meter el precio mayorista como si
@@ -87,7 +94,10 @@ Eso decide cosas y conviene tenerlo presente antes de escribir nada:
 
 | Qué | Dónde |
 |---|---|
-| Catálogo, categorías, textos del sitio | `src/lib/catalog/data.ts` |
+| Categorías, textos del sitio | `src/lib/catalog/data.ts` |
+| Los 597 artículos (generado desde el PDF) | `src/lib/catalog/catalogo-pdf.json` |
+| Fotos de los artículos (WebP, recortadas del PDF) | `public/catalogo/` |
+| Extracción del PDF: lotes, reglas, validador, armado | `scripts/catalogo-pdf/` |
 | Tipos del dominio | `src/lib/catalog/types.ts` |
 | Catálogo editable del panel | `src/lib/admin/store.ts` |
 | Puerta del panel (demo) | `src/lib/admin/auth.ts` |
