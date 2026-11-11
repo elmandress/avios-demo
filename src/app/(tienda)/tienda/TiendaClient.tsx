@@ -101,6 +101,22 @@ export function TiendaClient({
   const [pedirIndice, setPedirIndice] = useState(false)
   const [filtersOpen, setFiltersOpen] = useState(false)
   const search = params.get('q') ?? ''
+  const [draftSearch, setDraftSearch] = useState(search)
+  const [lastQuery, setLastQuery] = useState(search)
+  if (lastQuery !== search) {
+    setLastQuery(search)
+    setDraftSearch(search)
+  }
+  useEffect(() => {
+    if (draftSearch.trim() === search) return
+    const timeout = setTimeout(() => {
+      const next = new URLSearchParams(params.toString())
+      if (draftSearch.trim()) next.set('q', draftSearch.trim())
+      else next.delete('q')
+      router.replace(`?${next}`, { scroll: false })
+    }, 300)
+    return () => clearTimeout(timeout)
+  }, [draftSearch, search, params, router])
   const sort = (
     Object.hasOwn(SORT_LABELS, params.get('orden') ?? '')
       ? params.get('orden')
@@ -210,7 +226,7 @@ export function TiendaClient({
       categories={categories}
       tarjetas={visible.slice(0, tope)}
       esperando={!listo && filtrando}
-      conteo={listo ? `${visible.length} artículos` : `${total} artículos`}
+      conteo={listo ? `${visible.length} ${visible.length === 1 ? 'artículo' : 'artículos'}` : `${total} artículos`}
       hayMas={listo ? visible.length > tope : total > iniciales.length}
       mostrando={`${Math.min(tope, visible.length)} de ${listo ? visible.length : total}`}
       cargandoMas={!listo && pedirIndice}
@@ -218,7 +234,7 @@ export function TiendaClient({
         setPedirIndice(true)
         setTope((n) => n + TANDA)
       }}
-      busqueda={{ valor: search, onCambio: (v) => update('q', v) }}
+      busqueda={{ valor: draftSearch, onCambio: setDraftSearch }}
       filtros={{
         abiertos: filtersOpen,
         onAbrir: () => setFiltersOpen((v) => !v),
@@ -227,7 +243,7 @@ export function TiendaClient({
         onOrden: (v) => update('orden', v),
         chips: (
           <>
-            <div className="subcategorias" aria-label="Tipos de pasamanería">
+            <div className="subcategorias" role="group" aria-label="Tipos de pasamanería">
               {listo &&
                 activeCategory === 'galones-flecos-y-borlas' &&
                 [...new Set(products.map((p) => p.facetas.tipo))]

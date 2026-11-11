@@ -1,6 +1,6 @@
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
-import { resumirCategoria, tarjetasDe } from '@/lib/catalog/tarjeta'
+import { tarjetasDe } from '@/lib/catalog/tarjeta'
 import { HomeClient } from './HomeClient'
 
 export const revalidate = 3600
@@ -17,11 +17,6 @@ export default async function HomePage() {
   // selección a dedo que puede quedar desactualizada al cambiar precios.
   const featured = activas.slice(0, 8)
   const wholesale = activas.filter((t) => t.precio.hasWholesale).slice(0, 3)
-  const tiles = catalog.categories
-    .slice()
-    .sort((a, b) => a.sortOrder - b.sortOrder)
-    .map((category) => ({ category, resumen: resumirCategoria(tarjetas, category.slug) }))
-
   const faqItems = [
     {
       q: '¿Venden por mayor?',
@@ -62,7 +57,7 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <HomeClient
-        tiles={tiles}
+        categories={catalog.categories}
         featured={featured}
         wholesale={wholesale}
         settings={catalog.settings}

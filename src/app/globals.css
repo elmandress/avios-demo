@@ -1440,80 +1440,21 @@ input[type='search']::-webkit-search-cancel-button {
  * conoce. Por eso va en una pieza sola, ancha, y no como un iconito en el pie.
  */
 .ig-strip {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-decoration: none;
-  color: #fff;
-  /* El degradado de Instagram, atenuado hacia el burdeos de la marca para que
-     no se lea como un banner pegado de otro sitio. */
-  background: linear-gradient(100deg, #8e1038 0%, #c2185b 45%, #e1306c 78%, #f77737 100%);
-  transition: transform 180ms var(--ease);
+  display:grid; grid-template-columns:auto minmax(0,1fr) auto; align-items:center;
+  gap:18px; padding:24px; border:1px solid var(--border-strong); border-radius:14px;
+  background:var(--paper-50); text-decoration:none; color:var(--ink-900);
+  transition:border-color 180ms var(--ease), box-shadow 180ms var(--ease);
 }
-
-.ig-strip:hover {
-  transform: translateY(-2px);
-}
-
-@media (hover: none) {
-  .ig-strip:hover {
-    transform: none;
-  }
-}
-
-.ig-strip-icon {
-  display: grid;
-  place-items: center;
-  width: 46px;
-  height: 46px;
-  flex-shrink: 0;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.18);
-}
-
-.ig-strip-text {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  flex: 1;
-  min-width: 0;
-}
-
-.ig-strip-text strong {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.ig-strip-text span {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.88);
-  line-height: 1.45;
-}
-
-.ig-strip-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  flex-shrink: 0;
-  padding: 10px 18px;
-  border-radius: 999px;
-  background: #fff;
-  color: #b3195a;
-  font-size: 14.5px;
-  font-weight: 600;
-}
-
-@media (max-width: 620px) {
-  .ig-strip {
-    flex-wrap: wrap;
-    gap: 13px;
-  }
-  .ig-strip-cta {
-    width: 100%;
-    justify-content: center;
-  }
+.ig-strip:hover { border-color:var(--brand-600); box-shadow:var(--shadow-sm); }
+.ig-strip-icon { display:grid; place-items:center; width:48px; height:48px; border-radius:12px; background:var(--brand-50); color:var(--brand-600); }
+.ig-strip-text { display:flex; flex-direction:column; min-width:0; gap:5px; }
+.ig-strip-text strong { font-size:19px; font-weight:600; }
+.ig-strip-text span { font-size:14px; line-height:1.5; color:var(--ink-700); }
+.ig-strip-handle { overflow-wrap:anywhere; }
+.ig-strip-cta { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:44px; color:var(--brand-600); font-size:14px; font-weight:600; }
+@media(max-width:620px) {
+ .ig-strip { grid-template-columns:48px minmax(0,1fr); padding:20px; gap:14px; }
+ .ig-strip-cta { grid-column:1/-1; justify-content:flex-start; border-top:1px solid var(--border); padding-top:12px; }
 }
 
 /* ── Landing de la bio de Instagram ──────────────────────────────────────── */
@@ -3135,3 +3076,10 @@ input[type='search']::-webkit-search-cancel-button {
 .subcategorias { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0; }
 .subcategorias button[aria-pressed=true] { background:#35251f; color:white; }
 .cambiar-rubro > summary { cursor:pointer; padding:12px 0; min-height:44px; font-weight:600; }
+
+@media (prefers-reduced-motion: no-preference) {
+ .catalogo-dialog[open] { animation:catalogo-entrar 180ms var(--ease); }
+ @keyframes catalogo-entrar { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+ .catalogo-familias summary { transition:color 150ms var(--ease), background 150ms var(--ease); }
+}
+.catalogo-familias summary:hover { color:var(--brand-600); background:var(--brand-50); border-radius:10px; }

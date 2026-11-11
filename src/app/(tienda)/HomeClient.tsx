@@ -2,12 +2,12 @@
 
 import { CatalogoFamilias } from '@/components/CatalogoFamilias'
 import dynamic from 'next/dynamic'
+import { BRAND } from '@/lib/env'
 import { useState } from 'react'
 import { Enlace } from '@/components/Enlace'
 import type { Category } from '@/lib/catalog/types'
-import type { ResumenCategoria, TarjetaProducto } from '@/lib/catalog/tarjeta'
+import type { TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { ProductCard } from '@/components/ProductCard'
-import { CategoryTile } from '@/components/CategoryTile'
 import { avios, Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/ui/Primitives'
 
 const ResultadosBusqueda = dynamic(() => import('@/components/ResultadosBusqueda'))
@@ -27,13 +27,13 @@ const ResultadosBusqueda = dynamic(() => import('@/components/ResultadosBusqueda
 
 interface Props {
   /** Las baldosas de categoría, ya resumidas en el servidor. */
-  tiles: Array<{ category: Category; resumen: ResumenCategoria }>
+  categories: Category[]
   featured: TarjetaProducto[]
   wholesale: TarjetaProducto[]
   settings: Record<string, string>
 }
 
-export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
+export function HomeClient({ categories, featured, wholesale, settings }: Props) {
   const [query, setQuery] = useState('')
 
   return (
@@ -115,7 +115,7 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
         </div>
       </section>
 
-      <section style={{ maxWidth: 1200, margin: '0 auto', padding: '16px 22px' }}><SectionTitle>¿Qué estás buscando?</SectionTitle><CatalogoFamilias categories={tiles.map(t => t.category)} /><p>Elegí el artículo y la presentación, armá tu pedido y mandalo por WhatsApp. Confirmamos stock y pago por chat.</p></section>
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: '16px 22px' }}><SectionTitle>¿Qué estás buscando?</SectionTitle><CatalogoFamilias categories={categories} /><p>Elegí el artículo y la presentación, armá tu pedido y mandalo por WhatsApp. Confirmamos stock y pago por chat.</p></section>
       {/* ── Productos ─────────────────────────────────────────────────────── */}
       {featured.length > 0 && (
         <section className="home-products" style={sectionStyle}>
@@ -132,16 +132,6 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
           </div>
         </section>
       )}
-
-      {/* ── Categorías ────────────────────────────────────────────────────── */}
-      <section style={sectionStyle}>
-        <SectionHead title="También podés buscar por rubro" aside="Categorías del local" />
-        <div className="category-grid">
-          {tiles.map(({ category, resumen }) => (
-            <CategoryTile key={category.slug} category={category} resumen={resumen} />
-          ))}
-        </div>
-      </section>
 
       {/* ── Argumento mayorista ───────────────────────────────────────────── */}
       <section className="wholesale-band">
@@ -242,7 +232,7 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
             <Icon name="instagram-logo" size={26} />
           </span>
           <span className="ig-strip-text">
-            <strong>{settings.contact_instagram ?? '@merceria_avios_montevideo'}</strong>
+            <strong>Avíos en Instagram</strong><span className="ig-strip-handle">{settings.contact_instagram ?? '@merceria_avios_montevideo'}</span>
             <span>
               Publicaciones del local, novedades y lo que más se vende.
             </span>
@@ -270,12 +260,12 @@ export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
                 maxWidth: 480,
               }}
             >
-              Esta es una demo y todavía no tiene cargados todos los artículos. Escribinos y te
+              El local siempre tiene novedades. Consultanos por lo que necesitás y te
               confirmamos disponibilidad y precio.
             </p>
           </div>
-          <Button href="/contacto" variant="primary" size="lg">
-            Escribinos
+          <Button href={settings.contact_whatsapp_url || BRAND.whatsappUrl} variant="primary" size="lg">
+            Consultar por WhatsApp
           </Button>
         </div>
       </section>

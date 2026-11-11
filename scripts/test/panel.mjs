@@ -38,7 +38,7 @@ export async function pruebaPanel(ctx) {
   // ── Editar un precio ──────────────────────────────────────────────────────
   await ctx.irA('/panel/productos', { esperarA: '.panel-table' })
   const href = await ctx.js(`
-    __txt('a.panel-product-cell', 'Cinta de raso doble faz').getAttribute('href')
+    __txt('a.panel-product-cell', 'Cinta raso doble faz').getAttribute('href')
   `)
   await ctx.irA(href, { esperarA: '.panel-format-table' })
   r.check(
@@ -60,7 +60,7 @@ export async function pruebaPanel(ctx) {
   r.check(Number(unitario) === 99, `el precio por unidad se recalcula solo (${unitario})`)
 
   await ctx.js(`__txt('button', 'Guardar producto').click()`)
-  await ctx.pausa(1800)
+  await ctx.esperarQue(`location.pathname === '/panel/productos'`)
   r.check(await ctx.js(`location.pathname === '/panel/productos'`), 'guarda y vuelve a la lista')
 
   // ── La tienda tiene que reflejarlo ────────────────────────────────────────
@@ -73,7 +73,7 @@ export async function pruebaPanel(ctx) {
   // El "desde" de la grilla es el más barato POR MENOR: al subir el de 4 mm a
   // $ 99, pasa a mandar el de 7 mm ($ 15).
   await ctx.irA('/tienda/cintas', { esperarA: '.product-card' })
-  const tarjeta = await ctx.js(`__txt('.product-card', 'Cinta de raso doble faz')?.innerText ?? ''`)
+  const tarjeta = await ctx.js(`__txt('.product-card', 'Cinta raso doble faz')?.innerText ?? ''`)
   r.check(
     tienePrecio(tarjeta, 15) && !tienePrecio(tarjeta, 13),
     'la grilla recalcula el "desde" con el precio nuevo'
