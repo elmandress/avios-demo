@@ -13,12 +13,13 @@ import { Button, Icon } from '@/components/ui/Primitives'
 
 // Ajuste masivo de precios.
 //
-// El catálogo tiene 58 presentaciones repartidas en 42 variantes. Cuando hay que
+// El catálogo completo tiene miles de presentaciones. Cuando hay que
 // mover los precios —que en este país es seguido— hacerlo a mano es una tarde de
 // trabajo y una errata asegurada. Acá son tres campos y una vista previa.
 //
 // La vista previa es obligatoria por diseño: no hay forma de aplicar sin haber
-// visto antes la lista completa de qué precio pasa a cuánto. Un cambio masivo
+// podido revisar qué precio pasa a cuánto. La vista se pagina de a 50;
+// aplicar siempre opera sobre el alcance completo, indicado junto al botón. Un cambio masivo
 // que no se puede revisar es la manera más rápida de romper un catálogo.
 
 const ROUNDING: Array<{ value: PriceRounding; label: string; hint: string }> = [
@@ -37,6 +38,10 @@ export default function PanelPrecios() {
   const [percent, setPercent] = useState(8)
   const [rounding, setRounding] = useState<PriceRounding>('1')
   const [onlyTier, setOnlyTier] = useState<'menor' | 'mayor' | ''>('')
+  const [page, setPage] = useState(0)
+  const filtersKey = [scope, categorySlug, productId, percent, rounding, onlyTier].join('|')
+  const [lastFilters, setLastFilters] = useState(filtersKey)
+  if (lastFilters !== filtersKey) { setLastFilters(filtersKey); setPage(0) }
   const [done, setDone] = useState<number | null>(null)
 
   const changes = useMemo(
@@ -51,6 +56,8 @@ export default function PanelPrecios() {
       }),
     [catalog, scope, categorySlug, productId, percent, rounding, onlyTier]
   )
+
+  const start = Math.min(page * 50, Math.max(0, Math.floor((changes.length - 1) / 50) * 50))
 
   const apply = () => {
     const cuantos = changes.length
@@ -196,6 +203,7 @@ export default function PanelPrecios() {
         </div>
 
         {changes.length > 0 && (
+          <>
           <div className="panel-table-wrap">
             <table className="panel-table">
               <thead>
@@ -208,7 +216,7 @@ export default function PanelPrecios() {
                 </tr>
               </thead>
               <tbody>
-                {changes.map((c) => (
+                {changes.slice(start, start + 50).map((c) => (
                   <tr key={c.formatId}>
                     <th scope="row">
                       {c.productName}
@@ -245,6 +253,12 @@ export default function PanelPrecios() {
               </tbody>
             </table>
           </div>
+          <nav aria-label="Páginas de la vista previa" style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center', marginTop: 16 }}>
+            <Button variant="secondary" disabled={start === 0} onClick={() => setPage(n => Math.max(0, n - 1))}>Anteriores</Button>
+            <span aria-live="polite">Viendo {start + 1}–{Math.min(start + 50, changes.length)} de {changes.length}. El ajuste se aplica a los {changes.length} precios.</span>
+            <Button variant="secondary" disabled={start + 50 >= changes.length} onClick={() => setPage(n => n + 1)}>Siguientes</Button>
+          </nav>
+          </>
         )}
       </section>
 

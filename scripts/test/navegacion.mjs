@@ -70,6 +70,7 @@ export async function pruebaNavegacion(ctx) {
   await ctx.irA('/tienda', { esperarA: 'input[type=search]' })
   await ctx.js(`__set(document.querySelector('input[type=search]'), 'elastico')`)
   await ctx.esperarQue(`location.search.includes('q=elastico')`)
+  await ctx.esperarSelector('.product-card')
   const conTilde = await ctx.js(`__n('.product-card')`)
   r.check(conTilde > 0, `"elastico" sin tilde encuentra ${conTilde} artículos con "elástico"`)
 

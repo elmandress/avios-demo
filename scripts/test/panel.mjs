@@ -86,6 +86,11 @@ export async function pruebaPanel(ctx) {
   `)
   r.check(Number(cambios) > 40, `la vista previa lista ${cambios} precios antes de aplicar nada`)
 
+  r.check(await ctx.js(`document.querySelectorAll('.panel-table tbody tr').length === 50`), 'la vista previa muestra 50 renglones sin renderizar los miles de precios')
+  await ctx.js(`__txt('button', 'Siguientes').click()`)
+  await ctx.esperarQue(`document.querySelector('nav[aria-label="Páginas de la vista previa"]').textContent.includes('Viendo 51')`)
+  r.check(await ctx.js(`document.querySelectorAll('.panel-table tbody tr').length === 50`), 'la página siguiente conserva un máximo de 50 renglones')
+
   // ── Restaurar deja todo como estaba ───────────────────────────────────────
   await ctx.js(`localStorage.removeItem('avios.panel.catalogo.v1'); true`)
   await ctx.irA('/tienda/cinta-raso-doble-faz')
