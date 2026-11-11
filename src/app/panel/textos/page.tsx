@@ -56,11 +56,6 @@ const GROUPS: Array<{ title: string; where: string; fields: FieldDef[] }> = [
       { key: 'contact_instagram', label: 'Usuario de Instagram' },
       { key: 'contact_instagram_url', label: 'Link de Instagram' },
       { key: 'contact_address', label: 'Dirección' },
-      {
-        key: 'instagram_followers',
-        label: 'Seguidores en Instagram',
-        placeholder: 'Vacío = no se muestra el número',
-      },
     ],
   },
   {

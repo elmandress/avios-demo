@@ -1,11 +1,15 @@
 'use client'
 
+import dynamic from 'next/dynamic'
+import { useState } from 'react'
 import { Enlace } from '@/components/Enlace'
 import type { Category } from '@/lib/catalog/types'
 import type { ResumenCategoria, TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { ProductCard } from '@/components/ProductCard'
 import { CategoryTile } from '@/components/CategoryTile'
 import { avios, Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/ui/Primitives'
+
+const ResultadosBusqueda = dynamic(() => import('@/components/ResultadosBusqueda'))
 
 // Portada.
 //
@@ -23,14 +27,14 @@ import { avios, Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/
 interface Props {
   /** Las baldosas de categoría, ya resumidas en el servidor. */
   tiles: Array<{ category: Category; resumen: ResumenCategoria }>
-  /** Cuántos artículos hay publicados. */
-  total: number
   featured: TarjetaProducto[]
   wholesale: TarjetaProducto[]
   settings: Record<string, string>
 }
 
-export function HomeClient({ tiles, total, featured, wholesale, settings }: Props) {
+export function HomeClient({ tiles, featured, wholesale, settings }: Props) {
+  const [query, setQuery] = useState('')
+
   return (
     <>
       {/* ── Entrada ───────────────────────────────────────────────────────── */}
@@ -49,7 +53,7 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
               maxWidth: 15 * 40,
             }}
           >
-            {settings.hero_title ?? 'Todo lo que tu proyecto necesita, en un solo lugar.'}
+            {settings.hero_title ?? 'Un catálogo que se busca, no se hojea.'}
           </h1>
           <p
             style={{
@@ -57,11 +61,46 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
               fontSize: 'clamp(15.5px, 1.6vw, 18px)',
               lineHeight: 1.6,
               color: avios.ink700,
-              margin: '0 0 26px',
-              maxWidth: 540,
+              margin: '0 0 18px',
+              maxWidth: 620,
             }}
           >
             {settings.hero_subtitle}
+          </p>
+          <div className="home-search-wrap">
+            <form className="home-search" action="/tienda" role="search">
+              <label className="home-search-field">
+                <span className="sr-only">Buscar en el catálogo</span>
+                <Icon name="magnifying-glass" size={19} color={avios.ink500} />
+                <input
+                  type="search"
+                  name="q"
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  placeholder="Ej.: cinta gross, hilo encerado, 15 mm"
+                />
+              </label>
+              <button className="home-search-submit" type="submit">
+                Buscar
+              </button>
+            </form>
+            {query.trim().length >= 2 && (
+              <div className="home-search-suggestions">
+                <ResultadosBusqueda query={query} />
+              </div>
+            )}
+          </div>
+          <p className="home-search-hint">Escribí lo que buscás y las coincidencias aparecen al instante.</p>
+          <p
+            style={{
+              margin: '6px 0 18px',
+              fontFamily: avios.fontSans,
+              fontSize: 13.5,
+              lineHeight: 1.5,
+              color: avios.ink500,
+            }}
+          >
+            Demo de muestra: esta versión incluye una selección de artículos del local y el catálogo completo sigue en el mostrador.
           </p>
           <div style={{ display: 'flex', gap: 11, flexWrap: 'wrap' }}>
             <Button href="/tienda" variant="primary" size="lg">
@@ -72,29 +111,29 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
             </Button>
           </div>
 
-          <ul className="home-hero-facts">
-            <HeroFact icon="storefront">
-              San José 851 esq. Andes
-              <small>Lun a vie 9:00–18:30 · Sáb 9:00–13:30</small>
-            </HeroFact>
-            <HeroFact icon="truck">
-              Envíos a todo el país
-              <small>Por agencia, coordinado por WhatsApp</small>
-            </HeroFact>
-            <HeroFact icon="stack">
-              Precio por mayor sin registro
-              <small>Llevás la pieza cerrada y pagás menos</small>
-            </HeroFact>
-          </ul>
         </div>
       </section>
 
+      {/* ── Productos ─────────────────────────────────────────────────────── */}
+      {featured.length > 0 && (
+        <section className="home-products" style={sectionStyle}>
+          {/* "Lo que más sale" afirmaba algo sin datos detrás: el orden es el que
+              elige Alejandra en el panel, no el de ventas. */}
+          <SectionHead
+            title="Artículos con medidas y precios a la vista"
+            link={{ href: '/tienda', label: 'Explorar el catálogo' }}
+          />
+          <div className="product-grid">
+            {featured.map((card, i) => (
+              <ProductCard key={card.slug} card={card} priority={i < 4} />
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ── Categorías ────────────────────────────────────────────────────── */}
       <section style={sectionStyle}>
-        <SectionHead
-          title="Qué tenemos"
-          aside={`${total} artículos cargados`}
-        />
+        <SectionHead title="También podés buscar por rubro" aside="Categorías del local" />
         <div className="category-grid">
           {tiles.map(({ category, resumen }) => (
             <CategoryTile key={category.slug} category={category} resumen={resumen} />
@@ -108,7 +147,7 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
           <div style={{ maxWidth: 520 }}>
             <Badge tone="saving">Venta por mayor</Badge>
             <SectionTitle as="h2" style={{ margin: '13px 0 12px', color: '#fff' }}>
-              El mismo artículo, mucho más barato por pieza
+              El precio por pieza, junto al precio por metro
             </SectionTitle>
             <p
               style={{
@@ -119,12 +158,12 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
                 margin: '0 0 22px',
               }}
             >
-              No hace falta registrarse ni pedir una lista aparte. Cada ficha muestra los dos
-              precios: el del metro suelto y el de la pieza cerrada, con el ahorro ya calculado.
+              Compará las dos opciones en la ficha de cada artículo. El precio por mayor está a la
+              vista y no requiere registro.
             </p>
             <div style={{ display: 'flex', gap: 11, flexWrap: 'wrap' }}>
               <Button href="/mayorista" variant="quiet" size="lg">
-                Cómo comprar por mayor
+                Ver cómo funciona
               </Button>
             </div>
           </div>
@@ -139,32 +178,18 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
         </div>
       </section>
 
-      {/* ── Destacados ────────────────────────────────────────────────────── */}
-      {featured.length > 0 && (
-        <section style={sectionStyle}>
-          {/* "Lo que más sale" afirmaba algo sin datos detrás: el orden es el que
-              elige Alejandra en el panel, no el de ventas. */}
-          <SectionHead title="Para arrancar" link={{ href: '/tienda', label: 'Ver todo el catálogo' }} />
-          <div className="product-grid">
-            {featured.map((card, i) => (
-              <ProductCard key={card.slug} card={card} priority={i < 4} />
-            ))}
-          </div>
-        </section>
-      )}
-
       {/* ── El local ──────────────────────────────────────────────────────── */}
       <section className="shop-strip">
         <div className="shop-strip-inner">
           <div className="shop-strip-text">
             <Eyebrow>El local</Eyebrow>
             <SectionTitle as="h2" style={{ margin: '11px 0 14px' }}>
-              Estamos en San José y Andes desde siempre
+              El local, en San José y Andes
             </SectionTitle>
             <p>
-              El sitio muestra una parte de lo que hay. En el mostrador se corta la cinta a medida,
-              se compara el color contra la tela que traés y se resuelve en el momento lo que por
-              pantalla lleva tres mensajes.
+              Esta demo muestra una selección de artículos. La versión para Avíos puede reunir el
+              catálogo completo: cada cinta, hilo y medida en una ficha fácil de encontrar, con
+              precios y un pedido listo para consultar por WhatsApp.
             </p>
             <div className="shop-strip-actions">
               <Button href="/contacto" variant="secondary">
@@ -202,19 +227,14 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
       </section>
 
       {/* ── Instagram ─────────────────────────────────────────────────────── */}
-      {/*
-        Prueba social real, y el activo más grande de Avíos: hoy la venta entra
-        casi toda por ahí. Que el sitio no lo dijera en ningún lado era dejar
-        sobre la mesa el argumento más fuerte que tiene el negocio.
-        El número sale de SETTINGS y es editable; si se vacía, no se muestra —
-        un conteo de seguidores desactualizado juega en contra.
-      */}
+      {/* Sin una fuente conectada no mostramos un contador que pueda quedar viejo. */}
       <section style={{ ...sectionStyle, paddingTop: 52, paddingBottom: 8 }}>
         <a
           className="ig-strip"
           href={settings.contact_instagram_url ?? 'https://www.instagram.com/merceria_avios_montevideo/'}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Abrir Instagram de Mercería Avíos"
         >
           <span className="ig-strip-icon" aria-hidden>
             <Icon name="instagram-logo" size={26} />
@@ -222,13 +242,11 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
           <span className="ig-strip-text">
             <strong>{settings.contact_instagram ?? '@merceria_avios_montevideo'}</strong>
             <span>
-              {settings.instagram_followers
-                ? `${settings.instagram_followers} personas nos siguen. Ahí publicamos lo que va entrando.`
-                : 'Ahí publicamos lo que va entrando y las novedades del local.'}
+              Publicaciones del local, novedades y lo que más se vende.
             </span>
           </span>
           <span className="ig-strip-cta">
-            Seguinos <Icon name="arrow-right" size={15} />
+            Ver Instagram <Icon name="arrow-right" size={15} />
           </span>
         </a>
       </section>
@@ -250,8 +268,8 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
                 maxWidth: 480,
               }}
             >
-              En el local hay bastante más de lo que está cargado en el sitio. Escribinos y te
-              decimos si lo tenemos y a cuánto.
+              Esta es una demo y todavía no tiene cargados todos los artículos. Escribinos y te
+              confirmamos disponibilidad y precio.
             </p>
           </div>
           <Button href="/contacto" variant="primary" size="lg">
@@ -260,15 +278,6 @@ export function HomeClient({ tiles, total, featured, wholesale, settings }: Prop
         </div>
       </section>
     </>
-  )
-}
-
-function HeroFact({ icon, children }: { icon: string; children: React.ReactNode }) {
-  return (
-    <li>
-      <Icon name={icon} size={20} color={avios.brand600} />
-      <span>{children}</span>
-    </li>
   )
 }
 

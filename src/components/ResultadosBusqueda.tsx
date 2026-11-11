@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { formatUYU } from '@/lib/catalog/pricing'
 import { normalizeText } from '@/lib/media'
 import { puntuarCampos } from '@/lib/search/match'
@@ -9,6 +9,8 @@ import { useCatalog } from './CatalogProvider'
 import { useIndice } from './useIndice'
 import { Enlace } from './Enlace'
 import { avios } from './ui/Primitives'
+import { BRAND } from '@/lib/env'
+import { recordMissedSearch } from '@/lib/search/log'
 
 /**
  * Las sugerencias del buscador del header.
@@ -44,15 +46,39 @@ export default function ResultadosBusqueda({ query }: { query: string }) {
       }))
   }, [query, tarjetas, categoryName])
 
+  const sinResultados = tarjetas !== null && query.trim().length >= 3 && hits.length === 0
+
+  useEffect(() => {
+    if (!sinResultados) return
+    const timer = window.setTimeout(() => recordMissedSearch(query), 1200)
+    return () => window.clearTimeout(timer)
+  }, [query, sinResultados])
+
   if (query.length < 2) return null
 
   return (
-    <ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0 }}>
+    <ul aria-label="Resultados de búsqueda" style={{ listStyle: 'none', margin: '10px 0 0', padding: 0 }}>
       {hits.length === 0 ? (
         <li style={{ fontFamily: avios.fontSans, fontSize: 14, color: avios.ink500, padding: '10px 2px' }}>
           {tarjetas === null
             ? 'Buscando…'
-            : 'Nada con ese nombre. Probá con la categoría o preguntanos por WhatsApp.'}
+            : query.trim().length < 3
+              ? 'Seguí escribiendo para ver coincidencias.'
+              : (
+                <>
+                  <span style={{ display: 'block', marginBottom: 8 }}>
+                    No encontramos «{query.trim()}». Capaz lo tenemos en el local.
+                  </span>
+                  <a
+                    href={`${BRAND.whatsappUrl}?text=${encodeURIComponent(`¡Hola! ¿Tenés ${query.trim()}? No lo encontré en el sitio.`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: avios.brand600, fontWeight: 600 }}
+                  >
+                    Preguntanos por WhatsApp
+                  </a>
+                </>
+              )}
         </li>
       ) : (
         hits.map((hit) => (

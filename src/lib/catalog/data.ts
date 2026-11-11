@@ -841,9 +841,9 @@ export const SETTINGS: Record<string, string> = {
 
   // Portada
   hero_eyebrow: 'Mercería · Montevideo',
-  hero_title: 'Todo lo que tu proyecto necesita, en un solo lugar.',
+  hero_title: 'Encontrá cintas, hilos y avíos por nombre, código o medida.',
   hero_subtitle:
-    'Cintas, hilos, cordones, herramientas y accesorios. Por mayor y por menor, con precio a la vista y envíos a todo el país.',
+    'Buscá por nombre, código, ancho o medida y mirá precios a la vista. En Avíos podés encontrar rápido lo que usás y consultarlo por WhatsApp sin perder tiempo.',
   hero_cta: 'Ver el catálogo',
   hero_cta_secondary: 'Comprar por mayor',
 
@@ -862,7 +862,6 @@ export const SETTINGS: Record<string, string> = {
   // Prueba social real: es el activo más grande de Avíos y hoy el sitio no lo
   // usaba en ningún lado. Editable desde el panel — un número que envejece mal
   // es peor que ninguno, así que si se vacía, el bloque deja de mostrarlo.
-  instagram_followers: '47.100',
   contact_instagram_url: 'https://www.instagram.com/merceria_avios_montevideo/',
   contact_address: 'San José 851 esq. Andes, Montevideo',
   contact_hours_weekday: 'Lunes a viernes de 9:00 a 18:30',

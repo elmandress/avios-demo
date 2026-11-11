@@ -417,6 +417,62 @@ input[type='search']::-webkit-search-cancel-button {
   padding: 56px 22px 44px;
 }
 
+.home-search {
+  display: flex;
+  gap: 8px;
+  width: min(100%, 620px);
+}
+
+.home-search-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  min-height: 52px;
+  padding: 0 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.home-search-field:focus-within {
+  border-color: var(--brand-600);
+}
+
+.home-search-field input {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink-900);
+  font: 15px var(--font-sans), system-ui, sans-serif;
+}
+
+.home-search-submit {
+  min-height: 52px;
+  padding: 0 22px;
+  border: 1px solid var(--brand-500);
+  border-radius: 10px;
+  background: var(--brand-500);
+  color: var(--white);
+  font: 500 15px var(--font-sans), system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.home-search-submit:hover {
+  background: var(--brand-700);
+  border-color: var(--brand-700);
+}
+
+.home-search-hint {
+  margin: 8px 0 24px;
+  color: var(--ink-500);
+  font-size: 13.5px;
+}
+
 .home-hero-facts {
   list-style: none;
   margin: 40px 0 0;

@@ -63,7 +63,6 @@ export default async function HomePage() {
       />
       <HomeClient
         tiles={tiles}
-        total={tarjetas.length}
         featured={featured}
         wholesale={wholesale}
         settings={catalog.settings}
