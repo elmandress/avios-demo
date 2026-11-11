@@ -156,5 +156,16 @@ console.log(
   `  ${literalGana ? 'ok  ' : 'FALLA'}  literal (${pGross}) antes que sinónimo (${pRasoPorSinonimo})`
 )
 
+for (const [texto, consulta, esperado] of [
+  ['galon bordado', 'borddo', true],
+  ['cinta gross 40 mm', '4 mm', false],
+  ['modelo m2', 'm3', false],
+  ['galon strass', 'cierre', false],
+]) {
+  const ok = coincide(texto, expandirConsulta(consulta)) === esperado
+  if (!ok) fallos++
+  console.log(`${ok ? 'ok' : 'FALLA'}: errata conservadora «${consulta}»`)
+}
+
 console.log(`\n${fallos === 0 ? 'Todo verde.' : `${fallos} fallo(s).`}\n`)
 process.exit(fallos === 0 ? 0 : 1)

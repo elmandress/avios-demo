@@ -73,5 +73,12 @@ for (const q of CONSULTAS) {
   )
 }
 
+// La taxonomía cubre el catálogo sin tocar su JSON generado.
+const galones = tarjetas.filter(t => t.categorySlug === 'galones-flecos-y-borlas')
+check(galones.length === 198 && galones.every(t => t.facetas.tipo), 'Los 198 galones tienen un tipo, incluido el grupo residual')
+check(galones.filter(t => t.name.startsWith('Fleco')).every(t => t.facetas.tipo === 'Flecos'), 'Los flecos con strass siguen siendo flecos')
+check(tarjetas.every(t => Array.isArray(t.facetas.eje) && Array.isArray(t.facetas.presentacion)), 'Facetas serializables en todas las tarjetas')
+check(!JSON.stringify(tarjetas).includes('unitPriceUyu'), 'El índice no contiene las presentaciones completas')
+
 console.log(`\n${fallos === 0 ? 'Todo verde.' : `${fallos} fallo(s).`}\n`)
 process.exit(fallos === 0 ? 0 : 1)

@@ -15,12 +15,14 @@
 // Se arma en el servidor (índice en /indice.json, grillas pre-renderizadas) y,
 // en la demo, también en el navegador a partir del catálogo editado en el panel.
 
+import { facetasDe } from './taxonomia'
 import { camposDeBusqueda, type CamposBusqueda } from '@/lib/search/match'
 import { normalizeText } from '@/lib/media'
 import { summarisePrice, type ProductPriceSummary } from './pricing'
 import type { Catalog, Category, Discount, Product, ProductStatus } from './types'
 
 export interface TarjetaProducto {
+  facetas: ReturnType<typeof facetasDe>
   slug: string
   name: string
   categorySlug: string
@@ -64,6 +66,8 @@ function nombreDelEje(product: Product): string {
       return 'colores'
     case 'ancho':
       return 'anchos'
+    case 'modelo':
+      return 'modelos'
     case 'medida':
       return 'medidas'
     default:
@@ -81,6 +85,7 @@ export function aTarjeta(
   const foto = product.media[0]
 
   return {
+    facetas: facetasDe(product),
     slug: product.slug,
     name: product.name,
     categorySlug: product.categorySlug,

@@ -320,7 +320,12 @@ export function coincide(texto: string, tokens: string[][]): boolean {
 const SOLO_NUMERO = /^\d+$/
 
 function contiene(texto: string, termino: string): boolean {
-  if (!SOLO_NUMERO.test(termino)) return texto.includes(termino)
+  if (!SOLO_NUMERO.test(termino)) {
+    if (texto.includes(termino)) return true
+    // Una sola errata en palabras largas; códigos y medidas siempre exactos.
+    if (!/^[a-z]{5,}$/.test(termino)) return false
+    return texto.split(' ').some(p => /^[a-z]{5,}$/.test(p) && unaErrata(p, termino))
+  }
   // \b no sirve acá: en "4mm" el borde entre 4 y m no es un borde de palabra
   // para la expresión regular, y "4mm" escrito sin espacio es de lo más común.
   return new RegExp(`(?<!\\d)${termino}(?!\\d)`).test(texto)
@@ -391,4 +396,17 @@ export function puntuarCampos(campos: CamposBusqueda, consulta: string): number 
   if (tokens.length > 0 && coincide(campos.todo, tokens)) return 200
 
   return -1
+}
+
+function unaErrata(a: string, b: string): boolean {
+  if (Math.abs(a.length - b.length) > 1) return false
+  let i = 0, j = 0, errores = 0
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { i++; j++; continue }
+    if (++errores > 1) return false
+    if (a.length === b.length) { i++; j++ }
+    else if (a.length > b.length) i++
+    else j++
+  }
+  return errores + Number(i < a.length || j < b.length) <= 1
 }

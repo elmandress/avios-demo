@@ -43,7 +43,7 @@ const SIN_PEDIR: EstadoIndice = { estado: 'sin-pedir', tarjetas: null }
 export function pedirIndice(): void {
   if (indice.estado === 'cargando' || indice.estado === 'listo') return
   publicarIndice({ estado: 'cargando', tarjetas: null })
-  fetch('/indice.json')
+  fetch('/indice.json?v=2')
     .then((r) => {
       if (!r.ok) throw new Error(String(r.status))
       return r.json() as Promise<Indice>
