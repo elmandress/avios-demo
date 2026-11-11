@@ -116,7 +116,7 @@ export function CartDrawer() {
             <ul style={{ flex: 1, overflowY: 'auto', listStyle: 'none', margin: 0, padding: '4px 20px' }}>
               {cart.lines.map((entry) => {
                 const { product, variant, format, line } = entry
-                const photo = product.media[0]
+                const photo = product.media[variant.mediaIndex ?? 0] ?? product.media[0]
                 const contentQty = format.contentQty ?? 1
                 return (
                   <li

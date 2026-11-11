@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { crearReporte } from './lib/tester.mjs'
 export async function pruebaFacetas(ctx) {
   const r = crearReporte('Catálogo facetado y modelos')
@@ -53,5 +54,28 @@ export async function pruebaFacetas(ctx) {
     ),
     'Se puede encontrar el modelo 91 sin recorrer la lista',
   )
+  await ctx.js(`__txt('button[role=radio]', 'N 91').click()`)
+  await ctx.esperarQue(`document.body.innerText.includes('Elegiste: N 91')`)
+  await ctx.js(`__txt('button', 'Agregar al pedido').click()`)
+  await ctx.esperarQue(
+    `JSON.parse(localStorage.getItem('avios.cart.v1') || '{"lines":[]}').lines.length > 0`,
+  )
+  await ctx.irA('/carrito', { esperarA: '.pedido-articulos img' })
+  const products = JSON.parse(
+    readFileSync(
+      new URL('../../src/lib/catalog/catalogo-pdf.json', import.meta.url),
+      'utf8',
+    ),
+  ).products
+  const modelo = products.find((p) => p.slug === 'marroqui-m2-2-5-cm')
+  const variante = modelo.variants.find((v) => v.label === 'N 91')
+  const foto = modelo.media[variante.mediaIndex].url
+  r.check(
+    await ctx.js(
+      `decodeURIComponent(document.querySelector('.pedido-articulos img').src).includes(${JSON.stringify(foto)})`,
+    ),
+    'El pedido muestra la foto del modelo 91 elegido, no la primera foto del artículo',
+  )
+
   return r.fallas
 }
