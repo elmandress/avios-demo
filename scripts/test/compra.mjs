@@ -15,9 +15,9 @@ export async function pruebaCompra(ctx) {
   await ctx.irA('/tienda', { esperarA: '.product-card' })
 
   const tarjetas = await ctx.js(`__n('.product-card')`)
-  r.check(tarjetas === 20, `la grilla lista los 20 artículos (${tarjetas})`)
+  r.check(tarjetas === 24, `la grilla lista la primera tanda de 24 artículos (${tarjetas})`)
 
-  const tarjetaRaso = await ctx.js(`__txt('.product-card', 'Cinta de raso doble faz')?.innerText ?? ''`)
+  const tarjetaRaso = await ctx.js(`document.querySelector('.product-card[href="/tienda/cinta-raso-doble-faz"]')?.innerText ?? ''`)
   r.check(tienePrecio(tarjetaRaso, 13), 'la cinta de raso muestra "desde $ 13 el metro"')
 
   // ── Selección en la ficha ─────────────────────────────────────────────────

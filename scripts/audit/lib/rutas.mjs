@@ -8,6 +8,8 @@ export const TIENDA = [
   '/',
   '/tienda',
   '/tienda/cintas',
+  '/tienda/galones-flecos-y-borlas?tipo=Flecos',
+  '/tienda/marroqui-m2-2-5-cm',
   '/tienda/cinta-raso-doble-faz',
   '/mayorista',
   '/lista-de-precios',

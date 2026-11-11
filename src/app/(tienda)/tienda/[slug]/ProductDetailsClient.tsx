@@ -113,11 +113,13 @@ export function ProductDetailsClient({
     let cuadro = 0
     const medir = () => {
       cuadro = 0
-      setBarraVisible(el.getBoundingClientRect().bottom < 80)
+      const rect = el.getBoundingClientRect()
+      setBarraVisible(rect.bottom < 80 || rect.top > window.innerHeight)
     }
     const alScroll = () => {
       if (!cuadro) cuadro = requestAnimationFrame(medir)
     }
+    cuadro = requestAnimationFrame(medir)
     window.addEventListener('scroll', alScroll, { passive: true })
     return () => {
       window.removeEventListener('scroll', alScroll)

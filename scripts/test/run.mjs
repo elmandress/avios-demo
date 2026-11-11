@@ -16,6 +16,7 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { conectar, esperarServidor, lanzarNavegador } from '../audit/lib/cdp.mjs'
 import { crearContexto } from './lib/tester.mjs'
+import { pruebaFacetas } from './facetas.mjs'
 import { pruebaCompra } from './compra.mjs'
 import { pruebaPanel } from './panel.mjs'
 import { pruebaNavegacion } from './navegacion.mjs'
@@ -39,6 +40,7 @@ const rojo = (s) => `\x1b[31m${s}\x1b[0m`
 const gris = (s) => `\x1b[90m${s}\x1b[0m`
 
 const SUITES = [
+  { nombre: 'facetas', fn: pruebaFacetas },
   { nombre: 'compra', fn: pruebaCompra },
   { nombre: 'panel', fn: pruebaPanel },
   { nombre: 'navegacion', fn: pruebaNavegacion },

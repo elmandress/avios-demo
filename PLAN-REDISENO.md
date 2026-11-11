@@ -24,3 +24,6 @@ Skills aplicadas: avios-storefront y quality-gate del repositorio. No hay otras 
 4. Selector de muchos modelos con búsqueda y miniaturas vinculadas a su foto real; elección explícita.
 5. Portada con accesos a familias y explicación breve de compra.
 6. Pruebas de facetas, clasificación y búsquedas; verify y auditoría móvil. Documentar bloqueos externos sin falsear resultados.
+
+## Revisión visual
+El recorrido a 390 px cubrió portada, tienda, galones, búsqueda, carrito vacío, mayorista y mostrador. La ficha M2 está en `/tienda/marroqui-m2-2-5-cm` (la URL abreviada no existe). Sus 26 miniaturas ocupaban varias filas antes de llegar a la elección: se pasan a una tira horizontal, conservando las 26 fotos y el zoom. El selector permite buscar entre los 91 modelos y sigue usando `mediaIndex` para mostrar la foto real. El panel de filtros usa diálogo nativo: foco inicial, Escape y aislamiento del fondo.

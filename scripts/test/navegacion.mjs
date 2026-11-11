@@ -10,7 +10,7 @@ export async function pruebaNavegacion(ctx) {
   await ctx.limpiarNavegador()
   await ctx.irA('/tienda', { esperarA: '.product-card' })
 
-  const total = await ctx.js(`__n('.product-card')`)
+  const total = await ctx.js(`Number(document.querySelector('.tienda-conteo').textContent.match(/\\d+/)[0])`)
 
   // ── Filtro por mayor ──────────────────────────────────────────────────────
   await ctx.js(`__txt('button', 'Filtros').click()`)
@@ -20,8 +20,8 @@ export async function pruebaNavegacion(ctx) {
       .find((x) => x.textContent.includes('por mayor'))
     l.querySelector('input[type=checkbox]').click()
   }`)
-  await ctx.pausa(700)
-  const conMayor = await ctx.js(`__n('.product-card')`)
+  await ctx.esperarQue(`location.search.includes('mayor=1') && !document.querySelector('.tienda-conteo').textContent.includes('597 artículos')`)
+  const conMayor = await ctx.js(`Number(document.querySelector('.tienda-conteo').textContent.match(/\\d+/)[0])`)
   r.check(conMayor > 0 && conMayor < total, `"sólo por mayor" deja ${conMayor} de ${total}`)
 
   await ctx.js(`{
@@ -29,12 +29,12 @@ export async function pruebaNavegacion(ctx) {
       .find((x) => x.textContent.includes('por mayor'))
     l.querySelector('input[type=checkbox]').click()
   }`)
-  await ctx.pausa(700)
-  r.check((await ctx.js(`__n('.product-card')`)) === total, 'al apagarlo vuelven todos')
+  await ctx.esperarQue(`!location.search.includes('mayor=') && document.querySelector('.tienda-conteo').textContent.includes('597 artículos')`)
+  r.check((await ctx.js(`Number(document.querySelector('.tienda-conteo').textContent.match(/\\d+/)[0])`)) === total, 'al apagarlo vuelven todos')
 
   // ── Tope de precio ────────────────────────────────────────────────────────
-  await ctx.js(`__set(document.querySelector('#panel-filtros input[type=range]'), 100)`)
-  await ctx.pausa(700)
+  await ctx.js(`__set(document.querySelector('#panel-filtros input[type=number]'), 100)`)
+  await ctx.esperarQue(`location.search.includes('hasta=100')`)
   const precios = await ctx.js(`
     [...document.querySelectorAll('.product-card')].map((c) => {
       const m = c.innerText.match(/\\$ ([\\d.,]+)/)
@@ -45,14 +45,14 @@ export async function pruebaNavegacion(ctx) {
     precios.length > 0 && precios.every((p) => p <= 100),
     `el tope de precio deja ${precios.length}, ninguno sobre 100`
   )
-  await ctx.js(`__set(document.querySelector('#panel-filtros input[type=range]'), 0)`)
-  await ctx.pausa(500)
+  await ctx.js(`__set(document.querySelector('#panel-filtros input[type=number]'), '')`)
+  await ctx.esperarQue(`!location.search.includes('hasta=')`)
 
   // ── Orden por precio ──────────────────────────────────────────────────────
   await ctx.js(`
     __set([...document.querySelectorAll('select')].find((s) => s.value === 'destacados'), 'precio-asc')
   `)
-  await ctx.pausa(700)
+  await ctx.esperarQue(`location.search.includes('orden=precio-asc')`)
   const asc = await ctx.js(`
     [...document.querySelectorAll('.product-card')].map((c) => {
       const m = c.innerText.match(/\\$ ([\\d.,]+)/)
@@ -64,16 +64,19 @@ export async function pruebaNavegacion(ctx) {
     `ordenar de menor a mayor funciona (${asc[0]} … ${asc.at(-1)})`
   )
 
+  await ctx.js(`__txt('button', 'Cerrar filtros')?.click()`)
+
   // ── Búsqueda: encuentra sin tilde ─────────────────────────────────────────
   await ctx.irA('/tienda', { esperarA: 'input[type=search]' })
   await ctx.js(`__set(document.querySelector('input[type=search]'), 'elastico')`)
-  await ctx.pausa(800)
+  await ctx.esperarQue(`location.search.includes('q=elastico')`)
   const conTilde = await ctx.js(`__n('.product-card')`)
   r.check(conTilde > 0, `"elastico" sin tilde encuentra ${conTilde} artículos con "elástico"`)
 
   // ── Búsqueda sin resultado: no es un callejón ─────────────────────────────
-  await ctx.js(`__set(document.querySelector('input[type=search]'), 'cierre invisible')`)
-  await ctx.pausa(1800)
+  await ctx.js(`__set(document.querySelector('input[type=search]'), 'artículo inexistente zzz')`)
+  await ctx.esperarSelector('.empty-search')
+  await ctx.esperarQue(`JSON.parse(localStorage.getItem('avios.busquedas-sin-resultado.v1') || '[]').length === 1`)
   const vacio = await ctx.js(`document.body.innerText`)
   r.check(vacio.includes('No tenemos publicado'), 'lo que no está lo dice sin rodeos')
   r.check(vacio.includes('Preguntar por'), 'y ofrece preguntarlo por WhatsApp con el término')

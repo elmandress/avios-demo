@@ -107,6 +107,9 @@ Eso decide cosas y conviene tenerlo presente antes de escribir nada:
 | Prueba de escala (3.000 artículos) | `src/lib/catalog/escala.ts` (`AVIOS_ESCALA`) |
 | Enlaces con precarga por intención | `src/components/Enlace.tsx` |
 | Transcripción del catálogo en papel | `database/catalogo-papel.json` |
+| Familias, subcategorías derivadas y facetas | `src/lib/catalog/taxonomia.ts` |
+| Navegación por familias | `src/components/CatalogoFamilias.tsx` |
+| Panel modal de filtros | `src/components/PanelCatalogo.tsx` |
 | Toda la matemática de precios | `src/lib/catalog/pricing.ts` |
 | Búsqueda: sinónimos del rubro y coincidencia | `src/lib/search/match.ts` |
 | Lectura del catálogo (demo o Supabase) | `src/lib/catalog/index.ts` |
@@ -147,3 +150,5 @@ Eso decide cosas y conviene tenerlo presente antes de escribir nada:
   headless. Son para lo que sólo se ve en pantalla.
 - Al agregar una página, agregarla a `scripts/audit/lib/rutas.mjs`. Si no, la
   auditoría pasa en verde sin haberla mirado nunca.
+
+El índice liviano incluye `facetas` (tipo, eje y presentación). Sus filtros viven en la URL; repetir una faceta combina sus opciones con O, y las dimensiones se combinan con Y. Fraunces 400 se sirve localmente desde `public/fonts/`, con su licencia, para compilar sin depender de Google Fonts.

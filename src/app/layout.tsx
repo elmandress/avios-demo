@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Fraunces } from 'next/font/google'
+import localFont from 'next/font/local'
 import { BRAND, SITE_URL, SUPABASE_STORAGE_ORIGIN } from '@/lib/env'
 import { OG_BASE } from '@/lib/og'
 import { AnalyticsScript } from '@/components/AnalyticsScript'
@@ -29,8 +29,8 @@ export const viewport: Viewport = {
 //   Roboto en Android, Segoe en Windows): cero bytes, se lee perfecto a
 //   cualquier tamaño, y es la que el teléfono ya muestra en todo lo demás.
 //   Inter pesaba 48 KB para verse casi igual. Ver --font-sans en globals.css.
-const fraunces = Fraunces({
-  subsets: ['latin'],
+const fraunces = localFont({
+  src: '../../public/fonts/fraunces-latin-400-normal.woff2',
   variable: '--font-display',
   display: 'swap',
   weight: '400',
