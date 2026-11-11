@@ -238,7 +238,7 @@ export const DISCOUNTS: Discount[] = [
 export const SETTINGS: Record<string, string> = {
   // Barra superior
   promo_bar_enabled: 'true',
-  promo_bar_text: 'Venta por mayor y por menor · Envíos a todo el país · San José 851 esq. Andes',
+  promo_bar_text: 'Por mayor y por menor · Envíos a todo Uruguay',
   promo_bar_link: '/mayorista',
 
   // Portada
