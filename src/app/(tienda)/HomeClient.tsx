@@ -3,10 +3,11 @@
 import { CatalogoFamilias } from '@/components/CatalogoFamilias'
 import dynamic from 'next/dynamic'
 import { BRAND } from '@/lib/env'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Enlace } from '@/components/Enlace'
 import type { Category } from '@/lib/catalog/types'
-import type { TarjetaProducto } from '@/lib/catalog/tarjeta'
+import { tarjetasDe, type TarjetaProducto } from '@/lib/catalog/tarjeta'
+import { useCatalog } from '@/components/CatalogProvider'
 import { ProductCard } from '@/components/ProductCard'
 import {
   avios,
@@ -34,13 +35,40 @@ interface Props {
 }
 
 export function HomeClient({
-  categories,
-  featured,
-  wholesale,
-  settings,
-  escaparate,
-  cantidadArticulos,
+  categories: baseCategories,
+  featured: baseFeatured,
+  wholesale: baseWholesale,
+  settings: baseSettings,
+  escaparate: baseEscaparate,
+  cantidadArticulos: baseCantidad,
 }: Props) {
+  const { overlay } = useCatalog()
+  // Sólo la demo editada ya tiene el catálogo en el navegador. La visita
+  // normal sigue recibiendo las tarjetas del servidor, sin productos completos.
+  const editedCards = useMemo(
+    () =>
+      overlay ? tarjetasDe(overlay).filter((t) => t.status === 'active') : null,
+    [overlay],
+  )
+  const categories = overlay?.categories ?? baseCategories
+  const settings = overlay?.settings ?? baseSettings
+  const featured = editedCards ? editedCards.slice(0, 8) : baseFeatured
+  const wholesale = editedCards
+    ? editedCards.filter((t) => t.precio.hasWholesale).slice(0, 3)
+    : baseWholesale
+  const escaparate = editedCards
+    ? [
+        'cintas',
+        'galones-flecos-y-borlas',
+        'hilos-y-lanas',
+        'lentejuelas-strass-y-perlas',
+      ]
+        .map((slug) =>
+          editedCards.find((t) => t.categorySlug === slug && t.photo),
+        )
+        .filter((t): t is TarjetaProducto => Boolean(t))
+    : baseEscaparate
+  const cantidadArticulos = editedCards?.length ?? baseCantidad
   const [query, setQuery] = useState('')
 
   return (
@@ -140,8 +168,12 @@ export function HomeClient({
             aria-label="Artículos reales del catálogo"
           >
             <div className="hero-merch-heading">
-              <span>Por metro, por unidad o por pieza</span>
-              <Enlace href="/tienda">Ver todo ↗</Enlace>
+              <h2 style={{ font: 'inherit', margin: 0 }}>
+                Por metro, por unidad o por pieza
+              </h2>
+              <Enlace href="/tienda">
+                Ver todo <Icon name="arrow-right" size={14} />
+              </Enlace>
             </div>
             <div className="hero-merch-grid">
               {escaparate.slice(0, 3).map((card, i) => (

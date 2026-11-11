@@ -490,7 +490,7 @@ export function TiendaVista({
           activeCategory={activeCategory}
         />
         <Enlace className="catalogo-mayor" href="/mayorista">
-          ¿Comprás por mayor? ↗
+          ¿Comprás por mayor? <Icon name="arrow-right" size={14} />
         </Enlace>
       </aside>
       <div className="catalogo-listado">
