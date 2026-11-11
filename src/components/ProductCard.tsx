@@ -76,7 +76,7 @@ export function ProductCard({
               ? ({ fetchPriority: 'high', loading: 'eager' } as const)
               : ({ loading: 'lazy' } as const))}
             className="product-card-img"
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'contain' }}
           />
         ) : (
           <ProductPlaceholder categorySlug={card.categorySlug} label={card.name} />
@@ -120,9 +120,9 @@ export function ProductCard({
         </span>
         <h3
           style={{
-            fontFamily: avios.fontDisplay,
-            fontWeight: 400,
-            fontSize: 17,
+            fontFamily: avios.fontSans,
+            fontWeight: 600,
+            fontSize: 15,
             lineHeight: 1.25,
             color: avios.ink900,
             margin: 0,

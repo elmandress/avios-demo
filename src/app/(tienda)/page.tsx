@@ -1,6 +1,6 @@
 import { getCatalog } from '@/lib/catalog'
 import { createClient } from '@/lib/supabase/public'
-import { tarjetasDe } from '@/lib/catalog/tarjeta'
+import { tarjetasDe, type TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { HomeClient } from './HomeClient'
 
 export const revalidate = 3600
@@ -59,6 +59,17 @@ export default async function HomePage() {
       <HomeClient
         categories={catalog.categories}
         featured={featured}
+        escaparate={[
+          'cintas',
+          'galones-flecos-y-borlas',
+          'hilos-y-lanas',
+          'lentejuelas-strass-y-perlas',
+        ]
+          .map((slug) =>
+            activas.find((t) => t.categorySlug === slug && t.photo),
+          )
+          .filter((t): t is TarjetaProducto => Boolean(t))}
+        cantidadArticulos={activas.length}
         wholesale={wholesale}
         settings={catalog.settings}
       />

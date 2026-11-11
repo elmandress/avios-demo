@@ -8,114 +8,160 @@ import { Enlace } from '@/components/Enlace'
 import type { Category } from '@/lib/catalog/types'
 import type { TarjetaProducto } from '@/lib/catalog/tarjeta'
 import { ProductCard } from '@/components/ProductCard'
-import { avios, Badge, Button, Eyebrow, Icon, SectionTitle } from '@/components/ui/Primitives'
+import {
+  avios,
+  Badge,
+  Button,
+  Eyebrow,
+  Icon,
+  SectionTitle,
+} from '@/components/ui/Primitives'
 
-const ResultadosBusqueda = dynamic(() => import('@/components/ResultadosBusqueda'))
+const ResultadosBusqueda = dynamic(
+  () => import('@/components/ResultadosBusqueda'),
+)
 
-// Portada.
-//
-// El clon abría con una foto grande y una promesa de marca ("Hecho a mano"),
-// que es lo correcto para una marca de autor: ahí lo que se vende es el deseo.
-// Una mercería vende otra cosa — resolver un problema concreto, rápido. Quien
-// llega acá ya sabe qué necesita: cinta de 15 mm, hilo encerado negro, plantillas.
-//
-// Por eso la portada no tiene hero de foto (además: no hay foto real del local,
-// y una imagen inventada de stock se nota). Tiene una entrada tipográfica corta
-// y, apenas abajo, las siete categorías como puerta grande. La segunda pantalla
-// es el argumento mayorista, que es el cliente que más factura y el que hoy no
-// tiene ninguna vía de entrada.
+// Entrada al catálogo con mercadería real y búsqueda; las tarjetas llegan del servidor.
 
 interface Props {
   /** Las baldosas de categoría, ya resumidas en el servidor. */
+  escaparate: TarjetaProducto[]
+  cantidadArticulos: number
   categories: Category[]
   featured: TarjetaProducto[]
   wholesale: TarjetaProducto[]
   settings: Record<string, string>
 }
 
-export function HomeClient({ categories, featured, wholesale, settings }: Props) {
+export function HomeClient({
+  categories,
+  featured,
+  wholesale,
+  settings,
+  escaparate,
+  cantidadArticulos,
+}: Props) {
   const [query, setQuery] = useState('')
 
   return (
     <>
       {/* ── Entrada ───────────────────────────────────────────────────────── */}
-      <section className="home-hero">
+      <section className="home-hero home-hero-catalogo">
         <div className="home-hero-inner">
-          <Eyebrow>{settings.hero_eyebrow ?? 'Mercería · Montevideo'}</Eyebrow>
-          <h1
-            style={{
-              fontFamily: avios.fontDisplay,
-              fontWeight: 400,
-              fontSize: 'clamp(31px, 5.4vw, 52px)',
-              lineHeight: 1.08,
-              letterSpacing: '-0.025em',
-              color: avios.ink900,
-              margin: '14px 0 16px',
-              maxWidth: 15 * 40,
-            }}
-          >
-            {settings.hero_title ?? 'Un catálogo que se busca, no se hojea.'}
-          </h1>
-          <p
-            style={{
-              fontFamily: avios.fontSans,
-              fontSize: 'clamp(15.5px, 1.6vw, 18px)',
-              lineHeight: 1.6,
-              color: avios.ink700,
-              margin: '0 0 18px',
-              maxWidth: 620,
-            }}
-          >
-            {settings.hero_subtitle}
-          </p>
-          <div className="home-search-wrap">
-            <form className="home-search" action="/tienda" role="search">
-              <label className="home-search-field">
-                <span className="sr-only">Buscar en el catálogo</span>
-                <Icon name="magnifying-glass" size={19} color={avios.ink500} />
-                <input
-                  type="search"
-                  name="q"
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                  placeholder="Ej.: cinta gross, hilo encerado, 15 mm"
-                />
-              </label>
-              <button className="home-search-submit" type="submit">
-                Buscar
-              </button>
-            </form>
-            {query.trim().length >= 2 && (
-              <div className="home-search-suggestions">
-                <ResultadosBusqueda query={query} />
-              </div>
-            )}
-          </div>
-          <p className="home-search-hint">Escribí lo que buscás y las coincidencias aparecen al instante.</p>
-          <p
-            style={{
-              margin: '6px 0 18px',
-              fontFamily: avios.fontSans,
-              fontSize: 13.5,
-              lineHeight: 1.5,
-              color: avios.ink500,
-            }}
-          >
-            El catálogo completo de Avíos: casi 600 artículos y más de 1.800 medidas, colores y modelos, con foto y precio.
-          </p>
-          <div style={{ display: 'flex', gap: 11, flexWrap: 'wrap' }}>
-            <Button href="/tienda" variant="primary" size="lg">
-              {settings.hero_cta ?? 'Ver el catálogo'}
-            </Button>
-            <Button href="/mayorista" variant="secondary" size="lg">
-              {settings.hero_cta_secondary ?? 'Comprar por mayor'}
-            </Button>
-          </div>
+          <div className="hero-copy">
+            <Eyebrow>
+              {settings.hero_eyebrow ?? 'Mercería · Montevideo'}
+            </Eyebrow>
+            <h1
+              style={{
+                fontFamily: avios.fontDisplay,
+                fontWeight: 400,
+                fontSize: 'clamp(34px, 4.8vw, 58px)',
+                lineHeight: 1.08,
+                letterSpacing: '-0.025em',
+                color: avios.ink900,
+                margin: '14px 0 16px',
+                maxWidth: 540,
+              }}
+            >
+              {settings.hero_title ?? 'Un catálogo que se busca, no se hojea.'}
+            </h1>
+            <p
+              style={{
+                fontFamily: avios.fontSans,
+                fontSize: 'clamp(15.5px, 1.6vw, 18px)',
+                lineHeight: 1.6,
+                color: avios.ink700,
+                margin: '0 0 18px',
+                maxWidth: 620,
+              }}
+            >
+              {settings.hero_subtitle}
+            </p>
+            <div className="home-search-wrap">
+              <form className="home-search" action="/tienda" role="search">
+                <label className="home-search-field">
+                  <span className="sr-only">Buscar en el catálogo</span>
+                  <Icon
+                    name="magnifying-glass"
+                    size={19}
+                    color={avios.ink500}
+                  />
+                  <input
+                    type="search"
+                    name="q"
+                    value={query}
+                    onChange={(event) => setQuery(event.target.value)}
+                    placeholder="Ej.: cinta gross, hilo encerado, 15 mm"
+                  />
+                </label>
+                <button className="home-search-submit" type="submit">
+                  Buscar
+                </button>
+              </form>
+              {query.trim().length >= 2 && (
+                <div className="home-search-suggestions">
+                  <ResultadosBusqueda query={query} />
+                </div>
+              )}
+            </div>
+            <p className="home-search-hint">
+              Escribí lo que buscás y las coincidencias aparecen al instante.
+            </p>
+            <p
+              style={{
+                margin: '6px 0 18px',
+                fontFamily: avios.fontSans,
+                fontSize: 13.5,
+                lineHeight: 1.5,
+                color: avios.ink500,
+              }}
+            >
+              {cantidadArticulos} artículos para buscar, comparar y pedir por
+              WhatsApp.
+            </p>
+            <div style={{ display: 'flex', gap: 11, flexWrap: 'wrap' }}>
+              <Button href="/tienda" variant="primary" size="lg">
+                {settings.hero_cta ?? 'Ver el catálogo'}
+              </Button>
+              <Button href="/mayorista" variant="secondary" size="lg">
+                {settings.hero_cta_secondary ?? 'Comprar por mayor'}
+              </Button>
+            </div>
 
+            <div className="hero-service-line">
+              <span>San José 851, Montevideo</span>
+              <span>Envíos a todo el país</span>
+            </div>
+          </div>
+          <div
+            className="hero-merch"
+            role="group"
+            aria-label="Artículos reales del catálogo"
+          >
+            <div className="hero-merch-heading">
+              <span>Por metro, por unidad o por pieza</span>
+              <Enlace href="/tienda">Ver todo ↗</Enlace>
+            </div>
+            <div className="hero-merch-grid">
+              {escaparate.slice(0, 3).map((card, i) => (
+                <ProductCard key={card.slug} card={card} priority={i < 2} />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
-      <section style={{ maxWidth: 1200, margin: '0 auto', padding: '16px 22px' }}><SectionTitle>¿Qué estás buscando?</SectionTitle><CatalogoFamilias categories={categories} /><p>Elegí el artículo y la presentación, armá tu pedido y mandalo por WhatsApp. Confirmamos stock y pago por chat.</p></section>
+      <section
+        style={{ maxWidth: 1200, margin: '0 auto', padding: '16px 22px' }}
+      >
+        <SectionTitle>¿Qué estás buscando?</SectionTitle>
+        <CatalogoFamilias categories={categories} />
+        <p>
+          Elegí el artículo y la presentación, armá tu pedido y mandalo por
+          WhatsApp. Confirmamos stock y pago por chat.
+        </p>
+      </section>
       {/* ── Productos ─────────────────────────────────────────────────────── */}
       {featured.length > 0 && (
         <section className="home-products" style={sectionStyle}>
@@ -125,9 +171,9 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
             title="Artículos con medidas y precios a la vista"
             link={{ href: '/tienda', label: 'Explorar el catálogo' }}
           />
-          <div className="product-grid">
-            {featured.map((card, i) => (
-              <ProductCard key={card.slug} card={card} priority={i < 4} />
+          <div className="product-grid home-featured-grid">
+            {featured.map((card) => (
+              <ProductCard key={card.slug} card={card} priority={false} />
             ))}
           </div>
         </section>
@@ -138,7 +184,10 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
         <div className="wholesale-band-inner">
           <div style={{ maxWidth: 520 }}>
             <Badge tone="saving">Venta por mayor</Badge>
-            <SectionTitle as="h2" style={{ margin: '13px 0 12px', color: '#fff' }}>
+            <SectionTitle
+              as="h2"
+              style={{ margin: '13px 0 12px', color: '#fff' }}
+            >
               El precio por pieza, junto al precio por metro
             </SectionTitle>
             <p
@@ -150,8 +199,8 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
                 margin: '0 0 22px',
               }}
             >
-              Compará las dos opciones en la ficha de cada artículo. El precio por mayor está a la
-              vista y no requiere registro.
+              Compará las dos opciones en la ficha de cada artículo. El precio
+              por mayor está a la vista y no requiere registro.
             </p>
             <div style={{ display: 'flex', gap: 11, flexWrap: 'wrap' }}>
               <Button href="/mayorista" variant="quiet" size="lg">
@@ -179,9 +228,9 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
               El local, en San José y Andes
             </SectionTitle>
             <p>
-              Acá está el catálogo completo de Avíos: cada cinta, galón, hilo y medida en una ficha
-              fácil de encontrar, con foto, precio por menor y por mayor, y el pedido listo para
-              mandar por WhatsApp.
+              Acá está el catálogo completo de Avíos: cada cinta, galón, hilo y
+              medida en una ficha fácil de encontrar, con foto, precio por menor
+              y por mayor, y el pedido listo para mandar por WhatsApp.
             </p>
             <div className="shop-strip-actions">
               <Button href="/contacto" variant="secondary">
@@ -223,7 +272,10 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
       <section style={{ ...sectionStyle, paddingTop: 52, paddingBottom: 8 }}>
         <a
           className="ig-strip"
-          href={settings.contact_instagram_url ?? 'https://www.instagram.com/merceria_avios_montevideo/'}
+          href={
+            settings.contact_instagram_url ??
+            'https://www.instagram.com/merceria_avios_montevideo/'
+          }
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Abrir Instagram de Mercería Avíos"
@@ -232,7 +284,10 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
             <Icon name="instagram-logo" size={26} />
           </span>
           <span className="ig-strip-text">
-            <strong>Avíos en Instagram</strong><span className="ig-strip-handle">{settings.contact_instagram ?? '@merceria_avios_montevideo'}</span>
+            <strong>Avíos en Instagram</strong>
+            <span className="ig-strip-handle">
+              {settings.contact_instagram ?? '@merceria_avios_montevideo'}
+            </span>
             <span>
               Publicaciones del local, novedades y lo que más se vende.
             </span>
@@ -260,11 +315,15 @@ export function HomeClient({ categories, featured, wholesale, settings }: Props)
                 maxWidth: 480,
               }}
             >
-              El local siempre tiene novedades. Consultanos por lo que necesitás y te
-              confirmamos disponibilidad y precio.
+              El local siempre tiene novedades. Consultanos por lo que necesitás
+              y te confirmamos disponibilidad y precio.
             </p>
           </div>
-          <Button href={settings.contact_whatsapp_url || BRAND.whatsappUrl} variant="primary" size="lg">
+          <Button
+            href={settings.contact_whatsapp_url || BRAND.whatsappUrl}
+            variant="primary"
+            size="lg"
+          >
             Consultar por WhatsApp
           </Button>
         </div>

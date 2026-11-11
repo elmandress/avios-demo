@@ -42,6 +42,7 @@ export function WhatsAppFloat({ enabled, waUrl }: { enabled: boolean; waUrl: str
   // por WhatsApp". Dos burbujas verdes en la misma pantalla se leen como error.
   if (
     pathname.startsWith('/panel') ||
+    pathname.startsWith('/tienda') ||
     pathname.startsWith('/carrito') ||
     pathname.startsWith('/lista-de-precios')
   ) return null

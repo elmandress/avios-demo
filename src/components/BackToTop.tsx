@@ -19,7 +19,7 @@ export function BackToTop() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  if (pathname.startsWith('/panel')) return null
+  if (pathname.startsWith('/panel') || pathname.startsWith('/carrito') || pathname.startsWith('/tienda')) return null
 
   return (
     <button

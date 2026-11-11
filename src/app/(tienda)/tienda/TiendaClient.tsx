@@ -226,7 +226,11 @@ export function TiendaClient({
       categories={categories}
       tarjetas={visible.slice(0, tope)}
       esperando={!listo && filtrando}
-      conteo={listo ? `${visible.length} ${visible.length === 1 ? 'artículo' : 'artículos'}` : `${total} artículos`}
+      conteo={
+        listo
+          ? `${visible.length} ${visible.length === 1 ? 'artículo' : 'artículos'}`
+          : `${total} artículos`
+      }
       hayMas={listo ? visible.length > tope : total > iniciales.length}
       mostrando={`${Math.min(tope, visible.length)} de ${listo ? visible.length : total}`}
       cargandoMas={!listo && pedirIndice}
@@ -243,7 +247,16 @@ export function TiendaClient({
         onOrden: (v) => update('orden', v),
         chips: (
           <>
-            <div className="subcategorias" role="group" aria-label="Tipos de pasamanería">
+            <div
+              className="subcategorias"
+              role="group"
+              aria-label="Tipos de pasamanería"
+            >
+              {!listo && activeCategory === 'galones-flecos-y-borlas' && (
+                <span className="tipos-cargando">
+                  Cargando tipos de artículo…
+                </span>
+              )}
               {listo &&
                 activeCategory === 'galones-flecos-y-borlas' &&
                 [...new Set(products.map((p) => p.facetas.tipo))]
@@ -466,145 +479,167 @@ export function TiendaVista({
   vacio?: React.ReactNode
 }) {
   return (
-    <div
-      style={{ maxWidth: 1200, margin: '0 auto', padding: '28px 22px 80px' }}
-    >
-      <header style={{ marginBottom: 22 }}>
-        <SectionTitle as="h1" style={{ fontSize: 32 }}>
-          {heading}
-        </SectionTitle>
-        {intro && <p className="tienda-intro">{intro}</p>}
-      </header>
+    <div className="catalogo-layout">
+      <aside className="catalogo-sidebar">
+        <span className="catalogo-sidebar-title">Explorá por rubro</span>
+        <Enlace className="catalogo-todo" href="/tienda">
+          Todo el catálogo
+        </Enlace>
+        <CatalogoFamilias
+          categories={categories}
+          activeCategory={activeCategory}
+        />
+        <Enlace className="catalogo-mayor" href="/mayorista">
+          ¿Comprás por mayor? ↗
+        </Enlace>
+      </aside>
+      <div className="catalogo-listado">
+        <header className="catalogo-cabecera">
+          <SectionTitle
+            as="h1"
+            style={{ fontSize: 'clamp(26px, 2.8vw, 34px)' }}
+          >
+            {heading}
+          </SectionTitle>
+          {intro && <p className="tienda-intro">{intro}</p>}
+        </header>
 
-      {/* Categorías: enlaces de verdad, no botones. Google tiene que poder
+        {/* Categorías: enlaces de verdad, no botones. Google tiene que poder
           llegar a cada categoría —y desde ahí a cada ficha— sin JavaScript. */}
-      <p className="catalogo-migas">
-        <Enlace href="/">Inicio</Enlace> /{' '}
-        <Enlace href="/tienda">Catálogo</Enlace>
-        {activeCategory !== 'todo' && ` / ${heading}`}
-      </p>
-      {activeCategory === 'todo' ? (
-        <CatalogoFamilias categories={categories} />
-      ) : (
+        <p className="catalogo-migas">
+          <Enlace href="/">Inicio</Enlace> /{' '}
+          <Enlace href="/tienda">Catálogo</Enlace>
+          {activeCategory !== 'todo' && ` / ${heading}`}
+        </p>
         <details className="cambiar-rubro">
-          <summary>Cambiar de rubro</summary>
+          <summary>Explorar otros rubros</summary>
           <CatalogoFamilias
             categories={categories}
             activeCategory={activeCategory}
           />
         </details>
-      )}
 
-      {/* Barra de búsqueda y filtros */}
-      <div className="tienda-barra">
-        <form
-          role="search"
-          action="/tienda"
-          onSubmit={(e) => {
-            if (busqueda) e.preventDefault()
-          }}
-          style={{ position: 'relative', flex: '1 1 240px', minWidth: 200 }}
-        >
-          <label>
-            <span className="sr-only">Buscar en el catálogo</span>
-            <span
-              aria-hidden
-              style={{
-                position: 'absolute',
-                left: 12,
-                top: '50%',
-                transform: 'translateY(-50%)',
-              }}
-            >
-              <Icon name="magnifying-glass" size={17} color={avios.ink500} />
-            </span>
-            <input
-              type="search"
-              name="q"
-              {...(busqueda
-                ? {
-                    value: busqueda.valor,
-                    onChange: (e) => busqueda.onCambio(e.target.value),
-                  }
-                : { defaultValue: '' })}
-              placeholder="Buscar cinta, hilo, 15 mm…"
-              className="tienda-input"
-            />
-          </label>
-        </form>
-
-        <button
-          type="button"
-          onClick={filtros?.onAbrir}
-          aria-expanded={filtros?.abiertos ?? false}
-          aria-controls="panel-filtros"
-          className="tienda-control"
-          data-activo={filtros && filtros.activos > 0 ? 'si' : undefined}
-        >
-          <Icon name="sliders-horizontal" size={17} />
-          Filtros
-          {filtros && filtros.activos > 0 && (
-            <Badge tone="ink">{filtros.activos}</Badge>
-          )}
-        </button>
-
-        <label style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-          <span className="sr-only">Ordenar por</span>
-          <select
-            {...(filtros
-              ? {
-                  value: filtros.orden,
-                  onChange: (e) => filtros.onOrden(e.target.value as SortKey),
-                }
-              : { defaultValue: 'destacados' })}
-            className="tienda-control"
+        {/* Barra de búsqueda y filtros */}
+        <div className="tienda-barra">
+          <form
+            role="search"
+            action="/tienda"
+            onSubmit={(e) => {
+              if (busqueda) e.preventDefault()
+            }}
+            style={{ position: 'relative', flex: '1 1 240px', minWidth: 200 }}
           >
-            {(Object.keys(SORT_LABELS) as SortKey[]).map((k) => (
-              <option key={k} value={k}>
-                {SORT_LABELS[k]}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
+            <label>
+              <span className="sr-only">Buscar en el catálogo</span>
+              <span
+                aria-hidden
+                style={{
+                  position: 'absolute',
+                  left: 12,
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                }}
+              >
+                <Icon name="magnifying-glass" size={17} color={avios.ink500} />
+              </span>
+              <input
+                type="search"
+                name="q"
+                {...(busqueda
+                  ? {
+                      value: busqueda.valor,
+                      onChange: (e) => busqueda.onCambio(e.target.value),
+                    }
+                  : { defaultValue: '' })}
+                placeholder="Buscar cinta, hilo, 15 mm…"
+                className="tienda-input"
+              />
+            </label>
+          </form>
 
-      {filtros?.chips}
-      {filtros?.abiertos && filtros.panel}
+          <button
+            type="button"
+            onClick={filtros?.onAbrir}
+            aria-expanded={filtros?.abiertos ?? false}
+            aria-controls="panel-filtros"
+            className="tienda-control"
+            data-activo={filtros && filtros.activos > 0 ? 'si' : undefined}
+          >
+            <Icon name="sliders-horizontal" size={17} />
+            Filtros
+            {filtros && filtros.activos > 0 && (
+              <Badge tone="ink">{filtros.activos}</Badge>
+            )}
+          </button>
 
-      <p aria-live="polite" className="tienda-conteo">
-        {esperando ? 'Buscando en todo el catálogo…' : conteo}
-      </p>
+          <label
+            style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}
+          >
+            <span className="sr-only">Ordenar por</span>
+            <select
+              {...(filtros
+                ? {
+                    value: filtros.orden,
+                    onChange: (e) => filtros.onOrden(e.target.value as SortKey),
+                  }
+                : { defaultValue: 'destacados' })}
+              className="tienda-control"
+            >
+              {(Object.keys(SORT_LABELS) as SortKey[]).map((k) => (
+                <option key={k} value={k}>
+                  {SORT_LABELS[k]}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
 
-      {vacio ?? (
-        <>
-          <div className="product-grid" aria-busy={esperando || undefined}>
-            {(esperando ? [] : tarjetas).map((card, i) => (
-              <ProductCard key={card.slug} card={card} priority={i < 4} />
-            ))}
-          </div>
+        {filtros?.chips}
+        {filtros?.abiertos && filtros.panel}
 
-          {/*
+        <p aria-live="polite" className="tienda-conteo">
+          {esperando ? 'Buscando en todo el catálogo…' : conteo}
+        </p>
+
+        {vacio ?? (
+          <>
+            <div className="product-grid" aria-busy={esperando || undefined}>
+              {esperando &&
+                Array.from({ length: 6 }, (_, i) => (
+                  <div key={i} className="catalogo-skeleton" aria-hidden="true">
+                    <span />
+                    <span />
+                    <span />
+                  </div>
+                ))}
+              {(esperando ? [] : tarjetas).map((card, i) => (
+                <ProductCard key={card.slug} card={card} priority={i < 4} />
+              ))}
+            </div>
+
+            {/*
             Es "ver más" y no scroll infinito a propósito: el scroll infinito
             deja el pie inalcanzable, y ahí viven la dirección, el horario y el
             teléfono, que en una mercería de barrio es a dónde va mucha gente.
           */}
-          {hayMas && (
-            <div className="ver-mas">
-              <Button
-                variant="secondary"
-                size="lg"
-                onClick={onVerMas}
-                disabled={!onVerMas || cargandoMas}
-              >
-                {cargandoMas ? 'Cargando…' : 'Ver más artículos'}
-              </Button>
-              <span>{mostrando}</span>
-            </div>
-          )}
-        </>
-      )}
+            {hayMas && !esperando && (
+              <div className="ver-mas">
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  onClick={onVerMas}
+                  disabled={!onVerMas || cargandoMas}
+                >
+                  {cargandoMas ? 'Cargando…' : 'Ver más artículos'}
+                </Button>
+                <span>{mostrando}</span>
+              </div>
+            )}
+          </>
+        )}
 
-      <VistosRecientes />
+        <VistosRecientes />
+      </div>
     </div>
   )
 }

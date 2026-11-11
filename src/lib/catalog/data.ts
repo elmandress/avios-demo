@@ -243,11 +243,11 @@ export const SETTINGS: Record<string, string> = {
 
   // Portada
   hero_eyebrow: 'Mercería · Montevideo',
-  hero_title: 'Encontrá cintas, hilos y avíos por nombre, código o medida.',
+  hero_title: 'Cintas, hilos y mucho más.',
   hero_subtitle:
-    'Buscá por nombre, código, ancho o medida y mirá precios a la vista. En Avíos podés encontrar rápido lo que usás y consultarlo por WhatsApp sin perder tiempo.',
-  hero_cta: 'Ver el catálogo',
-  hero_cta_secondary: 'Comprar por mayor',
+    'Buscá por nombre, código o medida. Elegí la presentación y mandanos tu pedido por WhatsApp. Por mayor y por menor, con precios a la vista.',
+  hero_cta: 'Ver catálogo',
+  hero_cta_secondary: 'Por mayor',
 
   // Nosotros
   about_eyebrow: 'La mercería',
